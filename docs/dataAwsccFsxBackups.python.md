@@ -4,7 +4,7 @@
 
 ### DataAwsccFsxBackups <a name="DataAwsccFsxBackups" id="@cdktn/provider-awscc.dataAwsccFsxBackups.DataAwsccFsxBackups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_backups awscc_fsx_backups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_backups awscc_fsx_backups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxBackups.DataAwsccFsxBackups.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccFsxBackups to imp
 
 The id of the existing DataAwsccFsxBackups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_backups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_backups#import import section} in the documentation of this resource for the id to use
 
 ---
 

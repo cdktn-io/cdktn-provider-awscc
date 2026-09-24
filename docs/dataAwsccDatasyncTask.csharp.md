@@ -4,7 +4,7 @@
 
 ### DataAwsccDatasyncTask <a name="DataAwsccDatasyncTask" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTask"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_task awscc_datasync_task}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_task awscc_datasync_task}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTask.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncTask to i
 
 The id of the existing DataAwsccDatasyncTask that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_task#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_task#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -872,7 +872,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_task#id DataAwsccDatasyncTask#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_task#id DataAwsccDatasyncTask#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3015,6 +3015,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.property.gid">Gid</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.property.logLevel">LogLevel</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.property.mtime">Mtime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.property.objectMetadata">ObjectMetadata</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.property.objectTags">ObjectTags</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.property.overwriteMode">OverwriteMode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.property.posixPermissions">PosixPermissions</a></code> | <code>string</code> | *No description.* |
@@ -3097,6 +3098,16 @@ public string LogLevel { get; }
 
 ```csharp
 public string Mtime { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ObjectMetadata`<sup>Required</sup> <a name="ObjectMetadata" id="@cdktn/provider-awscc.dataAwsccDatasyncTask.DataAwsccDatasyncTaskOptionsOutputReference.property.objectMetadata"></a>
+
+```csharp
+public string ObjectMetadata { get; }
 ```
 
 - *Type:* string

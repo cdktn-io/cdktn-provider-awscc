@@ -4,7 +4,7 @@
 
 ### ServicediscoveryHttpNamespace <a name="ServicediscoveryHttpNamespace" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace awscc_servicediscovery_http_namespace}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespace.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name that you want to assign to this namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#name ServicediscoveryHttpNamespace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#name ServicediscoveryHttpNamespace#name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#description ServicediscoveryHttpNamespace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#description ServicediscoveryHttpNamespace#description}
 
 ---
 
@@ -132,7 +132,7 @@ The tags for the namespace.
 
 Each tag consists of a key and an optional value, both of which you define. Tag keys can have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#tags ServicediscoveryHttpNamespace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#tags ServicediscoveryHttpNamespace#tags}
 
 ---
 
@@ -658,7 +658,7 @@ The construct id used in the generated config for the ServicediscoveryHttpNamesp
 
 The id of the existing ServicediscoveryHttpNamespace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1070,7 +1070,7 @@ name: str
 
 The name that you want to assign to this namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#name ServicediscoveryHttpNamespace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#name ServicediscoveryHttpNamespace#name}
 
 ---
 
@@ -1084,7 +1084,7 @@ description: str
 
 A description for the namespace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#description ServicediscoveryHttpNamespace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#description ServicediscoveryHttpNamespace#description}
 
 ---
 
@@ -1100,7 +1100,7 @@ The tags for the namespace.
 
 Each tag consists of a key and an optional value, both of which you define. Tag keys can have a maximum character length of 128 characters, and tag values can have a maximum length of 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#tags ServicediscoveryHttpNamespace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#tags ServicediscoveryHttpNamespace#tags}
 
 ---
 
@@ -1121,8 +1121,8 @@ servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}. |
-| <code><a href="#@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}. |
+| <code><a href="#@cdktn/provider-awscc.servicediscoveryHttpNamespace.ServicediscoveryHttpNamespaceTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}. |
 
 ---
 
@@ -1134,7 +1134,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#key ServicediscoveryHttpNamespace#key}.
 
 ---
 
@@ -1146,7 +1146,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_http_namespace#value ServicediscoveryHttpNamespace#value}.
 
 ---
 

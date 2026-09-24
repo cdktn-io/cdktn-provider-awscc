@@ -4,7 +4,7 @@
 
 ### DataAwsccFmsProtocolsLists <a name="DataAwsccFmsProtocolsLists" id="@cdktn/provider-awscc.dataAwsccFmsProtocolsLists.DataAwsccFmsProtocolsLists"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_protocols_lists awscc_fms_protocols_lists}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_protocols_lists awscc_fms_protocols_lists}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFmsProtocolsLists.DataAwsccFmsProtocolsLists.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccFmsProtocolsLists
 
 The id of the existing DataAwsccFmsProtocolsLists that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_protocols_lists#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_protocols_lists#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccQuicksightTheme <a name="DataAwsccQuicksightTheme" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightTheme"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_theme awscc_quicksight_theme}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_theme awscc_quicksight_theme}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightTheme.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccQuicksightTheme t
 
 The id of the existing DataAwsccQuicksightTheme that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_theme#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_theme#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -839,7 +839,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/quicksight_theme#id DataAwsccQuicksightTheme#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/quicksight_theme#id DataAwsccQuicksightTheme#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -880,6 +880,19 @@ new DataAwsccQuicksightThemeConfigurationDataColorPalette {
 using Io.Cdktn.Providers.Awscc;
 
 new DataAwsccQuicksightThemeConfigurationSheet {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationSheetBackground <a name="DataAwsccQuicksightThemeConfigurationSheetBackground" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackground"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackground.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationSheetBackground {
 
 };
 ```
@@ -963,6 +976,123 @@ new DataAwsccQuicksightThemeConfigurationTypography {
 ```
 
 
+### DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize <a name="DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight {
+
+};
+```
+
+
 ### DataAwsccQuicksightThemeConfigurationTypographyFontFamilies <a name="DataAwsccQuicksightThemeConfigurationTypographyFontFamilies" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyFontFamilies"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyFontFamilies.Initializer"></a>
@@ -971,6 +1101,188 @@ new DataAwsccQuicksightThemeConfigurationTypography {
 using Io.Cdktn.Providers.Awscc;
 
 new DataAwsccQuicksightThemeConfigurationTypographyFontFamilies {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight {
 
 };
 ```
@@ -1067,6 +1379,19 @@ new DataAwsccQuicksightThemeVersionConfigurationSheet {
 ```
 
 
+### DataAwsccQuicksightThemeVersionConfigurationSheetBackground <a name="DataAwsccQuicksightThemeVersionConfigurationSheetBackground" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackground"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackground.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationSheetBackground {
+
+};
+```
+
+
 ### DataAwsccQuicksightThemeVersionConfigurationSheetTile <a name="DataAwsccQuicksightThemeVersionConfigurationSheetTile" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTile"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTile.Initializer"></a>
@@ -1145,6 +1470,123 @@ new DataAwsccQuicksightThemeVersionConfigurationTypography {
 ```
 
 
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight {
+
+};
+```
+
+
 ### DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamilies <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamilies" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamilies"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamilies.Initializer"></a>
@@ -1153,6 +1595,188 @@ new DataAwsccQuicksightThemeVersionConfigurationTypography {
 using Io.Cdktn.Providers.Awscc;
 
 new DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamilies {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize {
+
+};
+```
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight {
 
 };
 ```
@@ -1761,6 +2385,277 @@ public DataAwsccQuicksightThemeConfiguration InternalValue { get; }
 ---
 
 
+### DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference <a name="DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.color">Color</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.gradient">Gradient</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackground">DataAwsccQuicksightThemeConfigurationSheetBackground</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Color`<sup>Required</sup> <a name="Color" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.color"></a>
+
+```csharp
+public string Color { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Gradient`<sup>Required</sup> <a name="Gradient" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.gradient"></a>
+
+```csharp
+public string Gradient { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationSheetBackground InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackground">DataAwsccQuicksightThemeConfigurationSheetBackground</a>
+
+---
+
+
 ### DataAwsccQuicksightThemeConfigurationSheetOutputReference <a name="DataAwsccQuicksightThemeConfigurationSheetOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.Initializer"></a>
@@ -1971,6 +2866,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.property.background">Background</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference">DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.property.tile">Tile</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference">DataAwsccQuicksightThemeConfigurationSheetTileOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.property.tileLayout">TileLayout</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileLayoutOutputReference">DataAwsccQuicksightThemeConfigurationSheetTileLayoutOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheet">DataAwsccQuicksightThemeConfigurationSheet</a></code> | *No description.* |
@@ -1998,6 +2894,16 @@ public string Fqn { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `Background`<sup>Required</sup> <a name="Background" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetOutputReference.property.background"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference Background { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference">DataAwsccQuicksightThemeConfigurationSheetBackgroundOutputReference</a>
 
 ---
 
@@ -2242,7 +3148,9 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.color">Color</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.show">Show</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.width">Width</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorder">DataAwsccQuicksightThemeConfigurationSheetTileBorder</a></code> | *No description.* |
 
 ---
@@ -2271,6 +3179,16 @@ public string Fqn { get; }
 
 ---
 
+##### `Color`<sup>Required</sup> <a name="Color" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.color"></a>
+
+```csharp
+public string Color { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Show`<sup>Required</sup> <a name="Show" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.show"></a>
 
 ```csharp
@@ -2278,6 +3196,16 @@ public IResolvable Show { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable
+
+---
+
+##### `Width`<sup>Required</sup> <a name="Width" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference.property.width"></a>
+
+```csharp
+public string Width { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -3293,7 +4221,10 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.backgroundColor">BackgroundColor</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.border">Border</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference">DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.borderRadius">BorderRadius</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.padding">Padding</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTile">DataAwsccQuicksightThemeConfigurationSheetTile</a></code> | *No description.* |
 
 ---
@@ -3322,6 +4253,16 @@ public string Fqn { get; }
 
 ---
 
+##### `BackgroundColor`<sup>Required</sup> <a name="BackgroundColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.backgroundColor"></a>
+
+```csharp
+public string BackgroundColor { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Border`<sup>Required</sup> <a name="Border" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.border"></a>
 
 ```csharp
@@ -3332,6 +4273,26 @@ public DataAwsccQuicksightThemeConfigurationSheetTileBorderOutputReference Borde
 
 ---
 
+##### `BorderRadius`<sup>Required</sup> <a name="BorderRadius" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.borderRadius"></a>
+
+```csharp
+public string BorderRadius { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Padding`<sup>Required</sup> <a name="Padding" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.padding"></a>
+
+```csharp
+public string Padding { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTileOutputReference.property.internalValue"></a>
 
 ```csharp
@@ -3339,6 +4300,2511 @@ public DataAwsccQuicksightThemeConfigurationSheetTile InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationSheetTile">DataAwsccQuicksightThemeConfigurationSheetTile</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfiguration</a>
 
 ---
 
@@ -3770,6 +7236,1676 @@ public DataAwsccQuicksightThemeConfigurationTypographyFontFamilies InternalValue
 ---
 
 
+### DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfiguration</a>
+
+---
+
+
 ### DataAwsccQuicksightThemeConfigurationTypographyOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.Initializer"></a>
@@ -3980,7 +9116,14 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.axisLabelFontConfiguration">AxisLabelFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.axisTitleFontConfiguration">AxisTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.dataLabelFontConfiguration">DataLabelFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.fontFamilies">FontFamilies</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyFontFamiliesList">DataAwsccQuicksightThemeConfigurationTypographyFontFamiliesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.legendTitleFontConfiguration">LegendTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.legendValueFontConfiguration">LegendValueFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.visualSubtitleFontConfiguration">VisualSubtitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.visualTitleFontConfiguration">VisualTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypography">DataAwsccQuicksightThemeConfigurationTypography</a></code> | *No description.* |
 
 ---
@@ -4009,6 +9152,36 @@ public string Fqn { get; }
 
 ---
 
+##### `AxisLabelFontConfiguration`<sup>Required</sup> <a name="AxisLabelFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.axisLabelFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference AxisLabelFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisLabelFontConfigurationOutputReference</a>
+
+---
+
+##### `AxisTitleFontConfiguration`<sup>Required</sup> <a name="AxisTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.axisTitleFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference AxisTitleFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyAxisTitleFontConfigurationOutputReference</a>
+
+---
+
+##### `DataLabelFontConfiguration`<sup>Required</sup> <a name="DataLabelFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.dataLabelFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference DataLabelFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyDataLabelFontConfigurationOutputReference</a>
+
+---
+
 ##### `FontFamilies`<sup>Required</sup> <a name="FontFamilies" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.fontFamilies"></a>
 
 ```csharp
@@ -4019,6 +9192,46 @@ public DataAwsccQuicksightThemeConfigurationTypographyFontFamiliesList FontFamil
 
 ---
 
+##### `LegendTitleFontConfiguration`<sup>Required</sup> <a name="LegendTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.legendTitleFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference LegendTitleFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendTitleFontConfigurationOutputReference</a>
+
+---
+
+##### `LegendValueFontConfiguration`<sup>Required</sup> <a name="LegendValueFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.legendValueFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference LegendValueFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyLegendValueFontConfigurationOutputReference</a>
+
+---
+
+##### `VisualSubtitleFontConfiguration`<sup>Required</sup> <a name="VisualSubtitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.visualSubtitleFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference VisualSubtitleFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference</a>
+
+---
+
+##### `VisualTitleFontConfiguration`<sup>Required</sup> <a name="VisualTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.visualTitleFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference VisualTitleFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference</a>
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyOutputReference.property.internalValue"></a>
 
 ```csharp
@@ -4026,6 +9239,2240 @@ public DataAwsccQuicksightThemeConfigurationTypography InternalValue { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypography">DataAwsccQuicksightThemeConfigurationTypography</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.fontConfiguration">FontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.textAlignment">TextAlignment</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.textTransform">TextTransform</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontConfiguration`<sup>Required</sup> <a name="FontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.fontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference FontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference</a>
+
+---
+
+##### `TextAlignment`<sup>Required</sup> <a name="TextAlignment" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.textAlignment"></a>
+
+```csharp
+public string TextAlignment { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TextTransform`<sup>Required</sup> <a name="TextTransform" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.textTransform"></a>
+
+```csharp
+public string TextTransform { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.fontConfiguration">FontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.textAlignment">TextAlignment</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.textTransform">TextTransform</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontConfiguration`<sup>Required</sup> <a name="FontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.fontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference FontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference</a>
+
+---
+
+##### `TextAlignment`<sup>Required</sup> <a name="TextAlignment" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.textAlignment"></a>
+
+```csharp
+public string TextAlignment { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TextTransform`<sup>Required</sup> <a name="TextTransform" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.textTransform"></a>
+
+```csharp
+public string TextTransform { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration">DataAwsccQuicksightThemeConfigurationTypographyVisualTitleFontConfiguration</a>
 
 ---
 
@@ -5906,6 +13353,277 @@ public DataAwsccQuicksightThemeVersionConfiguration InternalValue { get; }
 ---
 
 
+### DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.color">Color</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.gradient">Gradient</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackground">DataAwsccQuicksightThemeVersionConfigurationSheetBackground</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Color`<sup>Required</sup> <a name="Color" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.color"></a>
+
+```csharp
+public string Color { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Gradient`<sup>Required</sup> <a name="Gradient" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.gradient"></a>
+
+```csharp
+public string Gradient { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationSheetBackground InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackground">DataAwsccQuicksightThemeVersionConfigurationSheetBackground</a>
+
+---
+
+
 ### DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.Initializer"></a>
@@ -6116,6 +13834,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.property.background">Background</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference">DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.property.tile">Tile</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference">DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.property.tileLayout">TileLayout</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutOutputReference">DataAwsccQuicksightThemeVersionConfigurationSheetTileLayoutOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheet">DataAwsccQuicksightThemeVersionConfigurationSheet</a></code> | *No description.* |
@@ -6143,6 +13862,16 @@ public string Fqn { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `Background`<sup>Required</sup> <a name="Background" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetOutputReference.property.background"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference Background { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference">DataAwsccQuicksightThemeVersionConfigurationSheetBackgroundOutputReference</a>
 
 ---
 
@@ -6387,7 +14116,9 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.color">Color</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.show">Show</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.width">Width</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorder">DataAwsccQuicksightThemeVersionConfigurationSheetTileBorder</a></code> | *No description.* |
 
 ---
@@ -6416,6 +14147,16 @@ public string Fqn { get; }
 
 ---
 
+##### `Color`<sup>Required</sup> <a name="Color" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.color"></a>
+
+```csharp
+public string Color { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Show`<sup>Required</sup> <a name="Show" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.show"></a>
 
 ```csharp
@@ -6423,6 +14164,16 @@ public IResolvable Show { get; }
 ```
 
 - *Type:* Io.Cdktn.IResolvable
+
+---
+
+##### `Width`<sup>Required</sup> <a name="Width" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference.property.width"></a>
+
+```csharp
+public string Width { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -7438,7 +15189,10 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.backgroundColor">BackgroundColor</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.border">Border</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference">DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.borderRadius">BorderRadius</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.padding">Padding</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTile">DataAwsccQuicksightThemeVersionConfigurationSheetTile</a></code> | *No description.* |
 
 ---
@@ -7467,6 +15221,16 @@ public string Fqn { get; }
 
 ---
 
+##### `BackgroundColor`<sup>Required</sup> <a name="BackgroundColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.backgroundColor"></a>
+
+```csharp
+public string BackgroundColor { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `Border`<sup>Required</sup> <a name="Border" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.border"></a>
 
 ```csharp
@@ -7477,6 +15241,26 @@ public DataAwsccQuicksightThemeVersionConfigurationSheetTileBorderOutputReferenc
 
 ---
 
+##### `BorderRadius`<sup>Required</sup> <a name="BorderRadius" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.borderRadius"></a>
+
+```csharp
+public string BorderRadius { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Padding`<sup>Required</sup> <a name="Padding" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.padding"></a>
+
+```csharp
+public string Padding { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTileOutputReference.property.internalValue"></a>
 
 ```csharp
@@ -7484,6 +15268,2511 @@ public DataAwsccQuicksightThemeVersionConfigurationSheetTile InternalValue { get
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationSheetTile">DataAwsccQuicksightThemeVersionConfigurationSheetTile</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfiguration</a>
 
 ---
 
@@ -7915,6 +18204,1676 @@ public DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamilies Intern
 ---
 
 
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfiguration</a>
+
+---
+
+
 ### DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.Initializer"></a>
@@ -8125,7 +20084,14 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.axisLabelFontConfiguration">AxisLabelFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.axisTitleFontConfiguration">AxisTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.dataLabelFontConfiguration">DataLabelFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.fontFamilies">FontFamilies</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesList">DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.legendTitleFontConfiguration">LegendTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.legendValueFontConfiguration">LegendValueFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.visualSubtitleFontConfiguration">VisualSubtitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.visualTitleFontConfiguration">VisualTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypography">DataAwsccQuicksightThemeVersionConfigurationTypography</a></code> | *No description.* |
 
 ---
@@ -8154,6 +20120,36 @@ public string Fqn { get; }
 
 ---
 
+##### `AxisLabelFontConfiguration`<sup>Required</sup> <a name="AxisLabelFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.axisLabelFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference AxisLabelFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisLabelFontConfigurationOutputReference</a>
+
+---
+
+##### `AxisTitleFontConfiguration`<sup>Required</sup> <a name="AxisTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.axisTitleFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference AxisTitleFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyAxisTitleFontConfigurationOutputReference</a>
+
+---
+
+##### `DataLabelFontConfiguration`<sup>Required</sup> <a name="DataLabelFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.dataLabelFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference DataLabelFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyDataLabelFontConfigurationOutputReference</a>
+
+---
+
 ##### `FontFamilies`<sup>Required</sup> <a name="FontFamilies" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.fontFamilies"></a>
 
 ```csharp
@@ -8164,6 +20160,46 @@ public DataAwsccQuicksightThemeVersionConfigurationTypographyFontFamiliesList Fo
 
 ---
 
+##### `LegendTitleFontConfiguration`<sup>Required</sup> <a name="LegendTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.legendTitleFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference LegendTitleFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendTitleFontConfigurationOutputReference</a>
+
+---
+
+##### `LegendValueFontConfiguration`<sup>Required</sup> <a name="LegendValueFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.legendValueFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference LegendValueFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyLegendValueFontConfigurationOutputReference</a>
+
+---
+
+##### `VisualSubtitleFontConfiguration`<sup>Required</sup> <a name="VisualSubtitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.visualSubtitleFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference VisualSubtitleFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference</a>
+
+---
+
+##### `VisualTitleFontConfiguration`<sup>Required</sup> <a name="VisualTitleFontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.visualTitleFontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference VisualTitleFontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference</a>
+
+---
+
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyOutputReference.property.internalValue"></a>
 
 ```csharp
@@ -8171,6 +20207,2240 @@ public DataAwsccQuicksightThemeVersionConfigurationTypography InternalValue { ge
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypography">DataAwsccQuicksightThemeVersionConfigurationTypography</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.fontConfiguration">FontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.textAlignment">TextAlignment</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.textTransform">TextTransform</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontConfiguration`<sup>Required</sup> <a name="FontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.fontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference FontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationOutputReference</a>
+
+---
+
+##### `TextAlignment`<sup>Required</sup> <a name="TextAlignment" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.textAlignment"></a>
+
+```csharp
+public string TextAlignment { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TextTransform`<sup>Required</sup> <a name="TextTransform" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.textTransform"></a>
+
+```csharp
+public string TextTransform { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualSubtitleFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.absolute">Absolute</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Absolute`<sup>Required</sup> <a name="Absolute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.absolute"></a>
+
+```csharp
+public string Absolute { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Name`<sup>Required</sup> <a name="Name" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.name"></a>
+
+```csharp
+public string Name { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontColor">FontColor</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontDecoration">FontDecoration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontFamily">FontFamily</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontStyle">FontStyle</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontColor`<sup>Required</sup> <a name="FontColor" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontColor"></a>
+
+```csharp
+public string FontColor { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontDecoration`<sup>Required</sup> <a name="FontDecoration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontDecoration"></a>
+
+```csharp
+public string FontDecoration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontFamily`<sup>Required</sup> <a name="FontFamily" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontFamily"></a>
+
+```csharp
+public string FontFamily { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontSize`<sup>Required</sup> <a name="FontSize" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontSize"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference FontSize { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSizeOutputReference</a>
+
+---
+
+##### `FontStyle`<sup>Required</sup> <a name="FontStyle" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontStyle"></a>
+
+```csharp
+public string FontStyle { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontWeight`<sup>Required</sup> <a name="FontWeight" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.fontWeight"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference FontWeight { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeightOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfiguration</a>
+
+---
+
+
+### DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference <a name="DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.fontConfiguration">FontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.textAlignment">TextAlignment</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.textTransform">TextTransform</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `FontConfiguration`<sup>Required</sup> <a name="FontConfiguration" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.fontConfiguration"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference FontConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationFontConfigurationOutputReference</a>
+
+---
+
+##### `TextAlignment`<sup>Required</sup> <a name="TextAlignment" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.textAlignment"></a>
+
+```csharp
+public string TextAlignment { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TextTransform`<sup>Required</sup> <a name="TextTransform" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.textTransform"></a>
+
+```csharp
+public string TextTransform { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccQuicksightTheme.DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration">DataAwsccQuicksightThemeVersionConfigurationTypographyVisualTitleFontConfiguration</a>
 
 ---
 

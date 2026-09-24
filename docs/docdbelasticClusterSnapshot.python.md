@@ -4,7 +4,7 @@
 
 ### DocdbelasticClusterSnapshot <a name="DocdbelasticClusterSnapshot" id="@cdktn/provider-awscc.docdbelasticClusterSnapshot.DocdbelasticClusterSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.docdbelasticClusterSnapshot.DocdbelasticClusterSnapshot.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The ARN of the elastic cluster of which to create a snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#cluster_arn DocdbelasticClusterSnapshot#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#cluster_arn DocdbelasticClusterSnapshot#cluster_arn}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the elastic cluster snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#snapshot_name DocdbelasticClusterSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#snapshot_name DocdbelasticClusterSnapshot#snapshot_name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to the elastic cluster snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#tags DocdbelasticClusterSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#tags DocdbelasticClusterSnapshot#tags}
 
 ---
 
@@ -649,7 +649,7 @@ The construct id used in the generated config for the DocdbelasticClusterSnapsho
 
 The id of the existing DocdbelasticClusterSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1138,7 +1138,7 @@ cluster_arn: str
 
 The ARN of the elastic cluster of which to create a snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#cluster_arn DocdbelasticClusterSnapshot#cluster_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#cluster_arn DocdbelasticClusterSnapshot#cluster_arn}
 
 ---
 
@@ -1152,7 +1152,7 @@ snapshot_name: str
 
 The name of the elastic cluster snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#snapshot_name DocdbelasticClusterSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#snapshot_name DocdbelasticClusterSnapshot#snapshot_name}
 
 ---
 
@@ -1166,7 +1166,7 @@ tags: IResolvable | typing.List[DocdbelasticClusterSnapshotTags]
 
 An array of key-value pairs to apply to the elastic cluster snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#tags DocdbelasticClusterSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#tags DocdbelasticClusterSnapshot#tags}
 
 ---
 
@@ -1202,7 +1202,7 @@ key: str
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#key DocdbelasticClusterSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#key DocdbelasticClusterSnapshot#key}
 
 ---
 
@@ -1216,7 +1216,7 @@ value: str
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#value DocdbelasticClusterSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#value DocdbelasticClusterSnapshot#value}
 
 ---
 

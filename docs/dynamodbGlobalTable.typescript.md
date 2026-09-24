@@ -4,7 +4,7 @@
 
 ### DynamodbGlobalTable <a name="DynamodbGlobalTable" id="@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTable"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table awscc_dynamodb_global_table}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTable.Initializer"></a>
 
@@ -810,7 +810,7 @@ The construct id used in the generated config for the DynamodbGlobalTable to imp
 
 The id of the existing DynamodbGlobalTable that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1481,8 +1481,8 @@ const dynamodbGlobalTableAttributeDefinitions: dynamodbGlobalTable.DynamodbGloba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableAttributeDefinitions.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableAttributeDefinitions.property.attributeType">attributeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_type DynamodbGlobalTable#attribute_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableAttributeDefinitions.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableAttributeDefinitions.property.attributeType">attributeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_type DynamodbGlobalTable#attribute_type}. |
 
 ---
 
@@ -1494,7 +1494,7 @@ public readonly attributeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
 
 ---
 
@@ -1506,7 +1506,7 @@ public readonly attributeType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_type DynamodbGlobalTable#attribute_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_type DynamodbGlobalTable#attribute_type}.
 
 ---
 
@@ -1531,25 +1531,25 @@ const dynamodbGlobalTableConfig: dynamodbGlobalTable.DynamodbGlobalTableConfig =
 | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.replicas">replicas</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas">DynamodbGlobalTableReplicas</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#replicas DynamodbGlobalTable#replicas}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.attributeDefinitions">attributeDefinitions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableAttributeDefinitions">DynamodbGlobalTableAttributeDefinitions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_definitions DynamodbGlobalTable#attribute_definitions}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.billingMode">billingMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#billing_mode DynamodbGlobalTable#billing_mode}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.globalSecondaryIndexes">globalSecondaryIndexes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes">DynamodbGlobalTableGlobalSecondaryIndexes</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.globalTableSourceArn">globalTableSourceArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_table_source_arn DynamodbGlobalTable#global_table_source_arn}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.globalTableWitnesses">globalTableWitnesses</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalTableWitnesses">DynamodbGlobalTableGlobalTableWitnesses</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_table_witnesses DynamodbGlobalTable#global_table_witnesses}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.keySchema">keySchema</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableKeySchema">DynamodbGlobalTableKeySchema</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.localSecondaryIndexes">localSecondaryIndexes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes">DynamodbGlobalTableLocalSecondaryIndexes</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#local_secondary_indexes DynamodbGlobalTable#local_secondary_indexes}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.multiRegionConsistency">multiRegionConsistency</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#multi_region_consistency DynamodbGlobalTable#multi_region_consistency}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.readOnDemandThroughputSettings">readOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadOnDemandThroughputSettings">DynamodbGlobalTableReadOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.readProvisionedThroughputSettings">readProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadProvisionedThroughputSettings">DynamodbGlobalTableReadProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.sseSpecification">sseSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableSseSpecification">DynamodbGlobalTableSseSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.streamSpecification">streamSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableStreamSpecification">DynamodbGlobalTableStreamSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#stream_specification DynamodbGlobalTable#stream_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.tableName">tableName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#table_name DynamodbGlobalTable#table_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.timeToLiveSpecification">timeToLiveSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableTimeToLiveSpecification">DynamodbGlobalTableTimeToLiveSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#time_to_live_specification DynamodbGlobalTable#time_to_live_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.vectorIndexes">vectorIndexes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes">DynamodbGlobalTableVectorIndexes</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#vector_indexes DynamodbGlobalTable#vector_indexes}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.warmThroughput">warmThroughput</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWarmThroughput">DynamodbGlobalTableWarmThroughput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.writeOnDemandThroughputSettings">writeOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteOnDemandThroughputSettings">DynamodbGlobalTableWriteOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.writeProvisionedThroughputSettings">writeProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettings">DynamodbGlobalTableWriteProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.replicas">replicas</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas">DynamodbGlobalTableReplicas</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#replicas DynamodbGlobalTable#replicas}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.attributeDefinitions">attributeDefinitions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableAttributeDefinitions">DynamodbGlobalTableAttributeDefinitions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_definitions DynamodbGlobalTable#attribute_definitions}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.billingMode">billingMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#billing_mode DynamodbGlobalTable#billing_mode}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.globalSecondaryIndexes">globalSecondaryIndexes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes">DynamodbGlobalTableGlobalSecondaryIndexes</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.globalTableSourceArn">globalTableSourceArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_table_source_arn DynamodbGlobalTable#global_table_source_arn}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.globalTableWitnesses">globalTableWitnesses</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalTableWitnesses">DynamodbGlobalTableGlobalTableWitnesses</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_table_witnesses DynamodbGlobalTable#global_table_witnesses}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.keySchema">keySchema</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableKeySchema">DynamodbGlobalTableKeySchema</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.localSecondaryIndexes">localSecondaryIndexes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes">DynamodbGlobalTableLocalSecondaryIndexes</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#local_secondary_indexes DynamodbGlobalTable#local_secondary_indexes}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.multiRegionConsistency">multiRegionConsistency</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#multi_region_consistency DynamodbGlobalTable#multi_region_consistency}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.readOnDemandThroughputSettings">readOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadOnDemandThroughputSettings">DynamodbGlobalTableReadOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.readProvisionedThroughputSettings">readProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadProvisionedThroughputSettings">DynamodbGlobalTableReadProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.sseSpecification">sseSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableSseSpecification">DynamodbGlobalTableSseSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.streamSpecification">streamSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableStreamSpecification">DynamodbGlobalTableStreamSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#stream_specification DynamodbGlobalTable#stream_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.tableName">tableName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#table_name DynamodbGlobalTable#table_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.timeToLiveSpecification">timeToLiveSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableTimeToLiveSpecification">DynamodbGlobalTableTimeToLiveSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#time_to_live_specification DynamodbGlobalTable#time_to_live_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.vectorIndexes">vectorIndexes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes">DynamodbGlobalTableVectorIndexes</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#vector_indexes DynamodbGlobalTable#vector_indexes}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.warmThroughput">warmThroughput</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWarmThroughput">DynamodbGlobalTableWarmThroughput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.writeOnDemandThroughputSettings">writeOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteOnDemandThroughputSettings">DynamodbGlobalTableWriteOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableConfig.property.writeProvisionedThroughputSettings">writeProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettings">DynamodbGlobalTableWriteProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}. |
 
 ---
 
@@ -1631,7 +1631,7 @@ public readonly replicas: IResolvable | DynamodbGlobalTableReplicas[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas">DynamodbGlobalTableReplicas</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#replicas DynamodbGlobalTable#replicas}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#replicas DynamodbGlobalTable#replicas}.
 
 ---
 
@@ -1643,7 +1643,7 @@ public readonly attributeDefinitions: IResolvable | DynamodbGlobalTableAttribute
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableAttributeDefinitions">DynamodbGlobalTableAttributeDefinitions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_definitions DynamodbGlobalTable#attribute_definitions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_definitions DynamodbGlobalTable#attribute_definitions}.
 
 ---
 
@@ -1655,7 +1655,7 @@ public readonly billingMode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#billing_mode DynamodbGlobalTable#billing_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#billing_mode DynamodbGlobalTable#billing_mode}.
 
 ---
 
@@ -1667,7 +1667,7 @@ public readonly globalSecondaryIndexes: IResolvable | DynamodbGlobalTableGlobalS
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes">DynamodbGlobalTableGlobalSecondaryIndexes</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}.
 
 ---
 
@@ -1679,7 +1679,7 @@ public readonly globalTableSourceArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_table_source_arn DynamodbGlobalTable#global_table_source_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_table_source_arn DynamodbGlobalTable#global_table_source_arn}.
 
 ---
 
@@ -1691,7 +1691,7 @@ public readonly globalTableWitnesses: IResolvable | DynamodbGlobalTableGlobalTab
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalTableWitnesses">DynamodbGlobalTableGlobalTableWitnesses</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_table_witnesses DynamodbGlobalTable#global_table_witnesses}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_table_witnesses DynamodbGlobalTable#global_table_witnesses}.
 
 ---
 
@@ -1703,7 +1703,7 @@ public readonly keySchema: IResolvable | DynamodbGlobalTableKeySchema[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableKeySchema">DynamodbGlobalTableKeySchema</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}.
 
 ---
 
@@ -1715,7 +1715,7 @@ public readonly localSecondaryIndexes: IResolvable | DynamodbGlobalTableLocalSec
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes">DynamodbGlobalTableLocalSecondaryIndexes</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#local_secondary_indexes DynamodbGlobalTable#local_secondary_indexes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#local_secondary_indexes DynamodbGlobalTable#local_secondary_indexes}.
 
 ---
 
@@ -1727,7 +1727,7 @@ public readonly multiRegionConsistency: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#multi_region_consistency DynamodbGlobalTable#multi_region_consistency}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#multi_region_consistency DynamodbGlobalTable#multi_region_consistency}.
 
 ---
 
@@ -1739,7 +1739,7 @@ public readonly readOnDemandThroughputSettings: DynamodbGlobalTableReadOnDemandT
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadOnDemandThroughputSettings">DynamodbGlobalTableReadOnDemandThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}.
 
 ---
 
@@ -1751,7 +1751,7 @@ public readonly readProvisionedThroughputSettings: DynamodbGlobalTableReadProvis
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadProvisionedThroughputSettings">DynamodbGlobalTableReadProvisionedThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}.
 
 ---
 
@@ -1763,7 +1763,7 @@ public readonly sseSpecification: DynamodbGlobalTableSseSpecification;
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableSseSpecification">DynamodbGlobalTableSseSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}.
 
 ---
 
@@ -1775,7 +1775,7 @@ public readonly streamSpecification: DynamodbGlobalTableStreamSpecification;
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableStreamSpecification">DynamodbGlobalTableStreamSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#stream_specification DynamodbGlobalTable#stream_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#stream_specification DynamodbGlobalTable#stream_specification}.
 
 ---
 
@@ -1787,7 +1787,7 @@ public readonly tableName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#table_name DynamodbGlobalTable#table_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#table_name DynamodbGlobalTable#table_name}.
 
 ---
 
@@ -1799,7 +1799,7 @@ public readonly timeToLiveSpecification: DynamodbGlobalTableTimeToLiveSpecificat
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableTimeToLiveSpecification">DynamodbGlobalTableTimeToLiveSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#time_to_live_specification DynamodbGlobalTable#time_to_live_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#time_to_live_specification DynamodbGlobalTable#time_to_live_specification}.
 
 ---
 
@@ -1811,7 +1811,7 @@ public readonly vectorIndexes: IResolvable | DynamodbGlobalTableVectorIndexes[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes">DynamodbGlobalTableVectorIndexes</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#vector_indexes DynamodbGlobalTable#vector_indexes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#vector_indexes DynamodbGlobalTable#vector_indexes}.
 
 ---
 
@@ -1823,7 +1823,7 @@ public readonly warmThroughput: DynamodbGlobalTableWarmThroughput;
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWarmThroughput">DynamodbGlobalTableWarmThroughput</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}.
 
 ---
 
@@ -1835,7 +1835,7 @@ public readonly writeOnDemandThroughputSettings: DynamodbGlobalTableWriteOnDeman
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteOnDemandThroughputSettings">DynamodbGlobalTableWriteOnDemandThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}.
 
 ---
 
@@ -1847,7 +1847,7 @@ public readonly writeProvisionedThroughputSettings: DynamodbGlobalTableWriteProv
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettings">DynamodbGlobalTableWriteProvisionedThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}.
 
 ---
 
@@ -1865,14 +1865,14 @@ const dynamodbGlobalTableGlobalSecondaryIndexes: dynamodbGlobalTable.DynamodbGlo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.keySchema">keySchema</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesKeySchema">DynamodbGlobalTableGlobalSecondaryIndexesKeySchema</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.projection">projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesProjection">DynamodbGlobalTableGlobalSecondaryIndexesProjection</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.readOnDemandThroughputSettings">readOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.readProvisionedThroughputSettings">readProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.warmThroughput">warmThroughput</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput">DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.writeOnDemandThroughputSettings">writeOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.writeProvisionedThroughputSettings">writeProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.keySchema">keySchema</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesKeySchema">DynamodbGlobalTableGlobalSecondaryIndexesKeySchema</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.projection">projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesProjection">DynamodbGlobalTableGlobalSecondaryIndexesProjection</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.readOnDemandThroughputSettings">readOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.readProvisionedThroughputSettings">readProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.warmThroughput">warmThroughput</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput">DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.writeOnDemandThroughputSettings">writeOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexes.property.writeProvisionedThroughputSettings">writeProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}. |
 
 ---
 
@@ -1884,7 +1884,7 @@ public readonly indexName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}.
 
 ---
 
@@ -1896,7 +1896,7 @@ public readonly keySchema: IResolvable | DynamodbGlobalTableGlobalSecondaryIndex
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesKeySchema">DynamodbGlobalTableGlobalSecondaryIndexesKeySchema</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}.
 
 ---
 
@@ -1908,7 +1908,7 @@ public readonly projection: DynamodbGlobalTableGlobalSecondaryIndexesProjection;
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesProjection">DynamodbGlobalTableGlobalSecondaryIndexesProjection</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}.
 
 ---
 
@@ -1920,7 +1920,7 @@ public readonly readOnDemandThroughputSettings: DynamodbGlobalTableGlobalSeconda
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}.
 
 ---
 
@@ -1932,7 +1932,7 @@ public readonly readProvisionedThroughputSettings: DynamodbGlobalTableGlobalSeco
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}.
 
 ---
 
@@ -1944,7 +1944,7 @@ public readonly warmThroughput: DynamodbGlobalTableGlobalSecondaryIndexesWarmThr
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput">DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#warm_throughput DynamodbGlobalTable#warm_throughput}.
 
 ---
 
@@ -1956,7 +1956,7 @@ public readonly writeOnDemandThroughputSettings: DynamodbGlobalTableGlobalSecond
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_on_demand_throughput_settings DynamodbGlobalTable#write_on_demand_throughput_settings}.
 
 ---
 
@@ -1968,7 +1968,7 @@ public readonly writeProvisionedThroughputSettings: DynamodbGlobalTableGlobalSec
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_provisioned_throughput_settings DynamodbGlobalTable#write_provisioned_throughput_settings}.
 
 ---
 
@@ -1986,8 +1986,8 @@ const dynamodbGlobalTableGlobalSecondaryIndexesKeySchema: dynamodbGlobalTable.Dy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesKeySchema.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesKeySchema.property.keyType">keyType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesKeySchema.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesKeySchema.property.keyType">keyType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}. |
 
 ---
 
@@ -1999,7 +1999,7 @@ public readonly attributeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
 
 ---
 
@@ -2011,7 +2011,7 @@ public readonly keyType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}.
 
 ---
 
@@ -2029,8 +2029,8 @@ const dynamodbGlobalTableGlobalSecondaryIndexesProjection: dynamodbGlobalTable.D
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesProjection.property.nonKeyAttributes">nonKeyAttributes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesProjection.property.projectionType">projectionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesProjection.property.nonKeyAttributes">nonKeyAttributes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesProjection.property.projectionType">projectionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}. |
 
 ---
 
@@ -2042,7 +2042,7 @@ public readonly nonKeyAttributes: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}.
 
 ---
 
@@ -2054,7 +2054,7 @@ public readonly projectionType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}.
 
 ---
 
@@ -2072,7 +2072,7 @@ const dynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings: d
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings.property.maxReadRequestUnits">maxReadRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadOnDemandThroughputSettings.property.maxReadRequestUnits">maxReadRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}. |
 
 ---
 
@@ -2084,7 +2084,7 @@ public readonly maxReadRequestUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}.
 
 ---
 
@@ -2102,7 +2102,7 @@ const dynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings.property.readCapacityUnits">readCapacityUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesReadProvisionedThroughputSettings.property.readCapacityUnits">readCapacityUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}. |
 
 ---
 
@@ -2114,7 +2114,7 @@ public readonly readCapacityUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}.
 
 ---
 
@@ -2132,8 +2132,8 @@ const dynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput: dynamodbGlobalTab
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput.property.readUnitsPerSecond">readUnitsPerSecond</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput.property.writeUnitsPerSecond">writeUnitsPerSecond</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput.property.readUnitsPerSecond">readUnitsPerSecond</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWarmThroughput.property.writeUnitsPerSecond">writeUnitsPerSecond</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}. |
 
 ---
 
@@ -2145,7 +2145,7 @@ public readonly readUnitsPerSecond: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}.
 
 ---
 
@@ -2157,7 +2157,7 @@ public readonly writeUnitsPerSecond: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}.
 
 ---
 
@@ -2175,7 +2175,7 @@ const dynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings: 
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings.property.maxWriteRequestUnits">maxWriteRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteOnDemandThroughputSettings.property.maxWriteRequestUnits">maxWriteRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}. |
 
 ---
 
@@ -2187,7 +2187,7 @@ public readonly maxWriteRequestUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}.
 
 ---
 
@@ -2205,7 +2205,7 @@ const dynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSetting
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings.property.writeCapacityAutoScalingSettings">writeCapacityAutoScalingSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettings.property.writeCapacityAutoScalingSettings">writeCapacityAutoScalingSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}. |
 
 ---
 
@@ -2217,7 +2217,7 @@ public readonly writeCapacityAutoScalingSettings: DynamodbGlobalTableGlobalSecon
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}.
 
 ---
 
@@ -2235,10 +2235,10 @@ const dynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSetting
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.maxCapacity">maxCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.minCapacity">minCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.seedCapacity">seedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.targetTrackingScalingPolicyConfiguration">targetTrackingScalingPolicyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.maxCapacity">maxCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.minCapacity">minCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.seedCapacity">seedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.targetTrackingScalingPolicyConfiguration">targetTrackingScalingPolicyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}. |
 
 ---
 
@@ -2250,7 +2250,7 @@ public readonly maxCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
 
 ---
 
@@ -2262,7 +2262,7 @@ public readonly minCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
 
 ---
 
@@ -2274,7 +2274,7 @@ public readonly seedCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
 
 ---
 
@@ -2286,7 +2286,7 @@ public readonly targetTrackingScalingPolicyConfiguration: DynamodbGlobalTableGlo
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
 
 ---
 
@@ -2304,10 +2304,10 @@ const dynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSetting
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">disableScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">scaleInCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">scaleOutCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.targetValue">targetValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">disableScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">scaleInCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">scaleOutCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalSecondaryIndexesWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.targetValue">targetValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}. |
 
 ---
 
@@ -2319,7 +2319,7 @@ public readonly disableScaleIn: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}.
 
 ---
 
@@ -2331,7 +2331,7 @@ public readonly scaleInCooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}.
 
 ---
 
@@ -2343,7 +2343,7 @@ public readonly scaleOutCooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}.
 
 ---
 
@@ -2355,7 +2355,7 @@ public readonly targetValue: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}.
 
 ---
 
@@ -2373,7 +2373,7 @@ const dynamodbGlobalTableGlobalTableWitnesses: dynamodbGlobalTable.DynamodbGloba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalTableWitnesses.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableGlobalTableWitnesses.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}. |
 
 ---
 
@@ -2385,7 +2385,7 @@ public readonly region: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}.
 
 ---
 
@@ -2403,8 +2403,8 @@ const dynamodbGlobalTableKeySchema: dynamodbGlobalTable.DynamodbGlobalTableKeySc
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableKeySchema.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableKeySchema.property.keyType">keyType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableKeySchema.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableKeySchema.property.keyType">keyType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}. |
 
 ---
 
@@ -2416,7 +2416,7 @@ public readonly attributeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
 
 ---
 
@@ -2428,7 +2428,7 @@ public readonly keyType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}.
 
 ---
 
@@ -2446,9 +2446,9 @@ const dynamodbGlobalTableLocalSecondaryIndexes: dynamodbGlobalTable.DynamodbGlob
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes.property.keySchema">keySchema</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesKeySchema">DynamodbGlobalTableLocalSecondaryIndexesKeySchema</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes.property.projection">projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesProjection">DynamodbGlobalTableLocalSecondaryIndexesProjection</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes.property.keySchema">keySchema</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesKeySchema">DynamodbGlobalTableLocalSecondaryIndexesKeySchema</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexes.property.projection">projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesProjection">DynamodbGlobalTableLocalSecondaryIndexesProjection</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}. |
 
 ---
 
@@ -2460,7 +2460,7 @@ public readonly indexName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}.
 
 ---
 
@@ -2472,7 +2472,7 @@ public readonly keySchema: IResolvable | DynamodbGlobalTableLocalSecondaryIndexe
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesKeySchema">DynamodbGlobalTableLocalSecondaryIndexesKeySchema</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_schema DynamodbGlobalTable#key_schema}.
 
 ---
 
@@ -2484,7 +2484,7 @@ public readonly projection: DynamodbGlobalTableLocalSecondaryIndexesProjection;
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesProjection">DynamodbGlobalTableLocalSecondaryIndexesProjection</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}.
 
 ---
 
@@ -2502,8 +2502,8 @@ const dynamodbGlobalTableLocalSecondaryIndexesKeySchema: dynamodbGlobalTable.Dyn
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesKeySchema.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesKeySchema.property.keyType">keyType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesKeySchema.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesKeySchema.property.keyType">keyType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}. |
 
 ---
 
@@ -2515,7 +2515,7 @@ public readonly attributeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
 
 ---
 
@@ -2527,7 +2527,7 @@ public readonly keyType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key_type DynamodbGlobalTable#key_type}.
 
 ---
 
@@ -2545,8 +2545,8 @@ const dynamodbGlobalTableLocalSecondaryIndexesProjection: dynamodbGlobalTable.Dy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesProjection.property.nonKeyAttributes">nonKeyAttributes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesProjection.property.projectionType">projectionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesProjection.property.nonKeyAttributes">nonKeyAttributes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableLocalSecondaryIndexesProjection.property.projectionType">projectionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}. |
 
 ---
 
@@ -2558,7 +2558,7 @@ public readonly nonKeyAttributes: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}.
 
 ---
 
@@ -2570,7 +2570,7 @@ public readonly projectionType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}.
 
 ---
 
@@ -2588,7 +2588,7 @@ const dynamodbGlobalTableReadOnDemandThroughputSettings: dynamodbGlobalTable.Dyn
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadOnDemandThroughputSettings.property.maxReadRequestUnits">maxReadRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadOnDemandThroughputSettings.property.maxReadRequestUnits">maxReadRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}. |
 
 ---
 
@@ -2600,7 +2600,7 @@ public readonly maxReadRequestUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}.
 
 ---
 
@@ -2618,7 +2618,7 @@ const dynamodbGlobalTableReadProvisionedThroughputSettings: dynamodbGlobalTable.
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadProvisionedThroughputSettings.property.readCapacityUnits">readCapacityUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReadProvisionedThroughputSettings.property.readCapacityUnits">readCapacityUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}. |
 
 ---
 
@@ -2630,7 +2630,7 @@ public readonly readCapacityUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}.
 
 ---
 
@@ -2648,20 +2648,20 @@ const dynamodbGlobalTableReplicas: dynamodbGlobalTable.DynamodbGlobalTableReplic
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.contributorInsightsSpecification">contributorInsightsSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasContributorInsightsSpecification">DynamodbGlobalTableReplicasContributorInsightsSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.deletionProtectionEnabled">deletionProtectionEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#deletion_protection_enabled DynamodbGlobalTable#deletion_protection_enabled}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.globalSecondaryIndexes">globalSecondaryIndexes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes">DynamodbGlobalTableReplicasGlobalSecondaryIndexes</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.globalTableSettingsReplicationMode">globalTableSettingsReplicationMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_table_settings_replication_mode DynamodbGlobalTable#global_table_settings_replication_mode}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.kinesisStreamSpecification">kinesisStreamSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasKinesisStreamSpecification">DynamodbGlobalTableReplicasKinesisStreamSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#kinesis_stream_specification DynamodbGlobalTable#kinesis_stream_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.pointInTimeRecoverySpecification">pointInTimeRecoverySpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasPointInTimeRecoverySpecification">DynamodbGlobalTableReplicasPointInTimeRecoverySpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#point_in_time_recovery_specification DynamodbGlobalTable#point_in_time_recovery_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.readOnDemandThroughputSettings">readOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadOnDemandThroughputSettings">DynamodbGlobalTableReplicasReadOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.readProvisionedThroughputSettings">readProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettings">DynamodbGlobalTableReplicasReadProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.replicaStreamSpecification">replicaStreamSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecification">DynamodbGlobalTableReplicasReplicaStreamSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#replica_stream_specification DynamodbGlobalTable#replica_stream_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.resourcePolicy">resourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasResourcePolicy">DynamodbGlobalTableReplicasResourcePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.sseSpecification">sseSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasSseSpecification">DynamodbGlobalTableReplicasSseSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.tableClass">tableClass</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#table_class DynamodbGlobalTable#table_class}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasTags">DynamodbGlobalTableReplicasTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.region">region</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.contributorInsightsSpecification">contributorInsightsSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasContributorInsightsSpecification">DynamodbGlobalTableReplicasContributorInsightsSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.deletionProtectionEnabled">deletionProtectionEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#deletion_protection_enabled DynamodbGlobalTable#deletion_protection_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.globalSecondaryIndexes">globalSecondaryIndexes</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes">DynamodbGlobalTableReplicasGlobalSecondaryIndexes</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.globalTableSettingsReplicationMode">globalTableSettingsReplicationMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_table_settings_replication_mode DynamodbGlobalTable#global_table_settings_replication_mode}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.kinesisStreamSpecification">kinesisStreamSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasKinesisStreamSpecification">DynamodbGlobalTableReplicasKinesisStreamSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#kinesis_stream_specification DynamodbGlobalTable#kinesis_stream_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.pointInTimeRecoverySpecification">pointInTimeRecoverySpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasPointInTimeRecoverySpecification">DynamodbGlobalTableReplicasPointInTimeRecoverySpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#point_in_time_recovery_specification DynamodbGlobalTable#point_in_time_recovery_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.readOnDemandThroughputSettings">readOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadOnDemandThroughputSettings">DynamodbGlobalTableReplicasReadOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.readProvisionedThroughputSettings">readProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettings">DynamodbGlobalTableReplicasReadProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.replicaStreamSpecification">replicaStreamSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecification">DynamodbGlobalTableReplicasReplicaStreamSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#replica_stream_specification DynamodbGlobalTable#replica_stream_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.resourcePolicy">resourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasResourcePolicy">DynamodbGlobalTableReplicasResourcePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.sseSpecification">sseSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasSseSpecification">DynamodbGlobalTableReplicasSseSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.tableClass">tableClass</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#table_class DynamodbGlobalTable#table_class}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicas.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasTags">DynamodbGlobalTableReplicasTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}. |
 
 ---
 
@@ -2673,7 +2673,7 @@ public readonly region: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#region DynamodbGlobalTable#region}.
 
 ---
 
@@ -2685,7 +2685,7 @@ public readonly contributorInsightsSpecification: DynamodbGlobalTableReplicasCon
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasContributorInsightsSpecification">DynamodbGlobalTableReplicasContributorInsightsSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}.
 
 ---
 
@@ -2697,7 +2697,7 @@ public readonly deletionProtectionEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#deletion_protection_enabled DynamodbGlobalTable#deletion_protection_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#deletion_protection_enabled DynamodbGlobalTable#deletion_protection_enabled}.
 
 ---
 
@@ -2709,7 +2709,7 @@ public readonly globalSecondaryIndexes: IResolvable | DynamodbGlobalTableReplica
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes">DynamodbGlobalTableReplicasGlobalSecondaryIndexes</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_secondary_indexes DynamodbGlobalTable#global_secondary_indexes}.
 
 ---
 
@@ -2721,7 +2721,7 @@ public readonly globalTableSettingsReplicationMode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#global_table_settings_replication_mode DynamodbGlobalTable#global_table_settings_replication_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#global_table_settings_replication_mode DynamodbGlobalTable#global_table_settings_replication_mode}.
 
 ---
 
@@ -2733,7 +2733,7 @@ public readonly kinesisStreamSpecification: DynamodbGlobalTableReplicasKinesisSt
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasKinesisStreamSpecification">DynamodbGlobalTableReplicasKinesisStreamSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#kinesis_stream_specification DynamodbGlobalTable#kinesis_stream_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#kinesis_stream_specification DynamodbGlobalTable#kinesis_stream_specification}.
 
 ---
 
@@ -2745,7 +2745,7 @@ public readonly pointInTimeRecoverySpecification: DynamodbGlobalTableReplicasPoi
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasPointInTimeRecoverySpecification">DynamodbGlobalTableReplicasPointInTimeRecoverySpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#point_in_time_recovery_specification DynamodbGlobalTable#point_in_time_recovery_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#point_in_time_recovery_specification DynamodbGlobalTable#point_in_time_recovery_specification}.
 
 ---
 
@@ -2757,7 +2757,7 @@ public readonly readOnDemandThroughputSettings: DynamodbGlobalTableReplicasReadO
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadOnDemandThroughputSettings">DynamodbGlobalTableReplicasReadOnDemandThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}.
 
 ---
 
@@ -2769,7 +2769,7 @@ public readonly readProvisionedThroughputSettings: DynamodbGlobalTableReplicasRe
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettings">DynamodbGlobalTableReplicasReadProvisionedThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}.
 
 ---
 
@@ -2781,7 +2781,7 @@ public readonly replicaStreamSpecification: DynamodbGlobalTableReplicasReplicaSt
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecification">DynamodbGlobalTableReplicasReplicaStreamSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#replica_stream_specification DynamodbGlobalTable#replica_stream_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#replica_stream_specification DynamodbGlobalTable#replica_stream_specification}.
 
 ---
 
@@ -2793,7 +2793,7 @@ public readonly resourcePolicy: DynamodbGlobalTableReplicasResourcePolicy;
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasResourcePolicy">DynamodbGlobalTableReplicasResourcePolicy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}.
 
 ---
 
@@ -2805,7 +2805,7 @@ public readonly sseSpecification: DynamodbGlobalTableReplicasSseSpecification;
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasSseSpecification">DynamodbGlobalTableReplicasSseSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#sse_specification DynamodbGlobalTable#sse_specification}.
 
 ---
 
@@ -2817,7 +2817,7 @@ public readonly tableClass: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#table_class DynamodbGlobalTable#table_class}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#table_class DynamodbGlobalTable#table_class}.
 
 ---
 
@@ -2829,7 +2829,7 @@ public readonly tags: IResolvable | DynamodbGlobalTableReplicasTags[];
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasTags">DynamodbGlobalTableReplicasTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}.
 
 ---
 
@@ -2847,8 +2847,8 @@ const dynamodbGlobalTableReplicasContributorInsightsSpecification: dynamodbGloba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasContributorInsightsSpecification.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasContributorInsightsSpecification.property.mode">mode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasContributorInsightsSpecification.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasContributorInsightsSpecification.property.mode">mode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}. |
 
 ---
 
@@ -2860,7 +2860,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}.
 
 ---
 
@@ -2872,7 +2872,7 @@ public readonly mode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}.
 
 ---
 
@@ -2890,10 +2890,10 @@ const dynamodbGlobalTableReplicasGlobalSecondaryIndexes: dynamodbGlobalTable.Dyn
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes.property.contributorInsightsSpecification">contributorInsightsSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification">DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes.property.readOnDemandThroughputSettings">readOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes.property.readProvisionedThroughputSettings">readProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes.property.contributorInsightsSpecification">contributorInsightsSpecification</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification">DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes.property.readOnDemandThroughputSettings">readOnDemandThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexes.property.readProvisionedThroughputSettings">readProvisionedThroughputSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}. |
 
 ---
 
@@ -2905,7 +2905,7 @@ public readonly contributorInsightsSpecification: DynamodbGlobalTableReplicasGlo
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification">DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#contributor_insights_specification DynamodbGlobalTable#contributor_insights_specification}.
 
 ---
 
@@ -2917,7 +2917,7 @@ public readonly indexName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}.
 
 ---
 
@@ -2929,7 +2929,7 @@ public readonly readOnDemandThroughputSettings: DynamodbGlobalTableReplicasGloba
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_on_demand_throughput_settings DynamodbGlobalTable#read_on_demand_throughput_settings}.
 
 ---
 
@@ -2941,7 +2941,7 @@ public readonly readProvisionedThroughputSettings: DynamodbGlobalTableReplicasGl
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_provisioned_throughput_settings DynamodbGlobalTable#read_provisioned_throughput_settings}.
 
 ---
 
@@ -2959,8 +2959,8 @@ const dynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecif
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification.property.mode">mode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesContributorInsightsSpecification.property.mode">mode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}. |
 
 ---
 
@@ -2972,7 +2972,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}.
 
 ---
 
@@ -2984,7 +2984,7 @@ public readonly mode: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#mode DynamodbGlobalTable#mode}.
 
 ---
 
@@ -3002,7 +3002,7 @@ const dynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSet
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings.property.maxReadRequestUnits">maxReadRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadOnDemandThroughputSettings.property.maxReadRequestUnits">maxReadRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}. |
 
 ---
 
@@ -3014,7 +3014,7 @@ public readonly maxReadRequestUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}.
 
 ---
 
@@ -3032,8 +3032,8 @@ const dynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughput
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings.property.readCapacityAutoScalingSettings">readCapacityAutoScalingSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings.property.readCapacityUnits">readCapacityUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings.property.readCapacityAutoScalingSettings">readCapacityAutoScalingSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettings.property.readCapacityUnits">readCapacityUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}. |
 
 ---
 
@@ -3045,7 +3045,7 @@ public readonly readCapacityAutoScalingSettings: DynamodbGlobalTableReplicasGlob
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}.
 
 ---
 
@@ -3057,7 +3057,7 @@ public readonly readCapacityUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}.
 
 ---
 
@@ -3075,10 +3075,10 @@ const dynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughput
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.maxCapacity">maxCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.minCapacity">minCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.seedCapacity">seedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.targetTrackingScalingPolicyConfiguration">targetTrackingScalingPolicyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.maxCapacity">maxCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.minCapacity">minCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.seedCapacity">seedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.targetTrackingScalingPolicyConfiguration">targetTrackingScalingPolicyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}. |
 
 ---
 
@@ -3090,7 +3090,7 @@ public readonly maxCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
 
 ---
 
@@ -3102,7 +3102,7 @@ public readonly minCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
 
 ---
 
@@ -3114,7 +3114,7 @@ public readonly seedCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
 
 ---
 
@@ -3126,7 +3126,7 @@ public readonly targetTrackingScalingPolicyConfiguration: DynamodbGlobalTableRep
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
 
 ---
 
@@ -3144,10 +3144,10 @@ const dynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughput
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">disableScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">scaleInCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">scaleOutCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.targetValue">targetValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">disableScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">scaleInCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">scaleOutCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasGlobalSecondaryIndexesReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.targetValue">targetValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}. |
 
 ---
 
@@ -3159,7 +3159,7 @@ public readonly disableScaleIn: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}.
 
 ---
 
@@ -3171,7 +3171,7 @@ public readonly scaleInCooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}.
 
 ---
 
@@ -3183,7 +3183,7 @@ public readonly scaleOutCooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}.
 
 ---
 
@@ -3195,7 +3195,7 @@ public readonly targetValue: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}.
 
 ---
 
@@ -3213,8 +3213,8 @@ const dynamodbGlobalTableReplicasKinesisStreamSpecification: dynamodbGlobalTable
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasKinesisStreamSpecification.property.approximateCreationDateTimePrecision">approximateCreationDateTimePrecision</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#approximate_creation_date_time_precision DynamodbGlobalTable#approximate_creation_date_time_precision}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasKinesisStreamSpecification.property.streamArn">streamArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#stream_arn DynamodbGlobalTable#stream_arn}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasKinesisStreamSpecification.property.approximateCreationDateTimePrecision">approximateCreationDateTimePrecision</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#approximate_creation_date_time_precision DynamodbGlobalTable#approximate_creation_date_time_precision}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasKinesisStreamSpecification.property.streamArn">streamArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#stream_arn DynamodbGlobalTable#stream_arn}. |
 
 ---
 
@@ -3226,7 +3226,7 @@ public readonly approximateCreationDateTimePrecision: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#approximate_creation_date_time_precision DynamodbGlobalTable#approximate_creation_date_time_precision}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#approximate_creation_date_time_precision DynamodbGlobalTable#approximate_creation_date_time_precision}.
 
 ---
 
@@ -3238,7 +3238,7 @@ public readonly streamArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#stream_arn DynamodbGlobalTable#stream_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#stream_arn DynamodbGlobalTable#stream_arn}.
 
 ---
 
@@ -3256,8 +3256,8 @@ const dynamodbGlobalTableReplicasPointInTimeRecoverySpecification: dynamodbGloba
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasPointInTimeRecoverySpecification.property.pointInTimeRecoveryEnabled">pointInTimeRecoveryEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#point_in_time_recovery_enabled DynamodbGlobalTable#point_in_time_recovery_enabled}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasPointInTimeRecoverySpecification.property.recoveryPeriodInDays">recoveryPeriodInDays</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#recovery_period_in_days DynamodbGlobalTable#recovery_period_in_days}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasPointInTimeRecoverySpecification.property.pointInTimeRecoveryEnabled">pointInTimeRecoveryEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#point_in_time_recovery_enabled DynamodbGlobalTable#point_in_time_recovery_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasPointInTimeRecoverySpecification.property.recoveryPeriodInDays">recoveryPeriodInDays</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#recovery_period_in_days DynamodbGlobalTable#recovery_period_in_days}. |
 
 ---
 
@@ -3269,7 +3269,7 @@ public readonly pointInTimeRecoveryEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#point_in_time_recovery_enabled DynamodbGlobalTable#point_in_time_recovery_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#point_in_time_recovery_enabled DynamodbGlobalTable#point_in_time_recovery_enabled}.
 
 ---
 
@@ -3281,7 +3281,7 @@ public readonly recoveryPeriodInDays: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#recovery_period_in_days DynamodbGlobalTable#recovery_period_in_days}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#recovery_period_in_days DynamodbGlobalTable#recovery_period_in_days}.
 
 ---
 
@@ -3299,7 +3299,7 @@ const dynamodbGlobalTableReplicasReadOnDemandThroughputSettings: dynamodbGlobalT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadOnDemandThroughputSettings.property.maxReadRequestUnits">maxReadRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadOnDemandThroughputSettings.property.maxReadRequestUnits">maxReadRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}. |
 
 ---
 
@@ -3311,7 +3311,7 @@ public readonly maxReadRequestUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_read_request_units DynamodbGlobalTable#max_read_request_units}.
 
 ---
 
@@ -3329,8 +3329,8 @@ const dynamodbGlobalTableReplicasReadProvisionedThroughputSettings: dynamodbGlob
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettings.property.readCapacityAutoScalingSettings">readCapacityAutoScalingSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings">DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettings.property.readCapacityUnits">readCapacityUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettings.property.readCapacityAutoScalingSettings">readCapacityAutoScalingSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings">DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettings.property.readCapacityUnits">readCapacityUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}. |
 
 ---
 
@@ -3342,7 +3342,7 @@ public readonly readCapacityAutoScalingSettings: DynamodbGlobalTableReplicasRead
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings">DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_auto_scaling_settings DynamodbGlobalTable#read_capacity_auto_scaling_settings}.
 
 ---
 
@@ -3354,7 +3354,7 @@ public readonly readCapacityUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_capacity_units DynamodbGlobalTable#read_capacity_units}.
 
 ---
 
@@ -3372,10 +3372,10 @@ const dynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.maxCapacity">maxCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.minCapacity">minCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.seedCapacity">seedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.targetTrackingScalingPolicyConfiguration">targetTrackingScalingPolicyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.maxCapacity">maxCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.minCapacity">minCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.seedCapacity">seedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettings.property.targetTrackingScalingPolicyConfiguration">targetTrackingScalingPolicyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}. |
 
 ---
 
@@ -3387,7 +3387,7 @@ public readonly maxCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
 
 ---
 
@@ -3399,7 +3399,7 @@ public readonly minCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
 
 ---
 
@@ -3411,7 +3411,7 @@ public readonly seedCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
 
 ---
 
@@ -3423,7 +3423,7 @@ public readonly targetTrackingScalingPolicyConfiguration: DynamodbGlobalTableRep
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
 
 ---
 
@@ -3441,10 +3441,10 @@ const dynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAu
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">disableScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">scaleInCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">scaleOutCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.targetValue">targetValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">disableScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">scaleInCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">scaleOutCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReadProvisionedThroughputSettingsReadCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.targetValue">targetValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}. |
 
 ---
 
@@ -3456,7 +3456,7 @@ public readonly disableScaleIn: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}.
 
 ---
 
@@ -3468,7 +3468,7 @@ public readonly scaleInCooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}.
 
 ---
 
@@ -3480,7 +3480,7 @@ public readonly scaleOutCooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}.
 
 ---
 
@@ -3492,7 +3492,7 @@ public readonly targetValue: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}.
 
 ---
 
@@ -3510,8 +3510,8 @@ const dynamodbGlobalTableReplicasReplicaStreamSpecification: dynamodbGlobalTable
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecification.property.resourcePolicy">resourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy">DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecification.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationTags">DynamodbGlobalTableReplicasReplicaStreamSpecificationTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecification.property.resourcePolicy">resourcePolicy</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy">DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecification.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationTags">DynamodbGlobalTableReplicasReplicaStreamSpecificationTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}. |
 
 ---
 
@@ -3523,7 +3523,7 @@ public readonly resourcePolicy: DynamodbGlobalTableReplicasReplicaStreamSpecific
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy">DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#resource_policy DynamodbGlobalTable#resource_policy}.
 
 ---
 
@@ -3535,7 +3535,7 @@ public readonly tags: IResolvable | DynamodbGlobalTableReplicasReplicaStreamSpec
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationTags">DynamodbGlobalTableReplicasReplicaStreamSpecificationTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#tags DynamodbGlobalTable#tags}.
 
 ---
 
@@ -3553,7 +3553,7 @@ const dynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy: dynam
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy.property.policyDocument">policyDocument</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationResourcePolicy.property.policyDocument">policyDocument</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}. |
 
 ---
 
@@ -3565,7 +3565,7 @@ public readonly policyDocument: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}.
 
 ---
 
@@ -3583,8 +3583,8 @@ const dynamodbGlobalTableReplicasReplicaStreamSpecificationTags: dynamodbGlobalT
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasReplicaStreamSpecificationTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}. |
 
 ---
 
@@ -3596,7 +3596,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}.
 
 ---
 
@@ -3608,7 +3608,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}.
 
 ---
 
@@ -3626,7 +3626,7 @@ const dynamodbGlobalTableReplicasResourcePolicy: dynamodbGlobalTable.DynamodbGlo
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasResourcePolicy.property.policyDocument">policyDocument</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasResourcePolicy.property.policyDocument">policyDocument</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}. |
 
 ---
 
@@ -3638,7 +3638,7 @@ public readonly policyDocument: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#policy_document DynamodbGlobalTable#policy_document}.
 
 ---
 
@@ -3656,7 +3656,7 @@ const dynamodbGlobalTableReplicasSseSpecification: dynamodbGlobalTable.DynamodbG
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasSseSpecification.property.kmsMasterKeyId">kmsMasterKeyId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#kms_master_key_id DynamodbGlobalTable#kms_master_key_id}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasSseSpecification.property.kmsMasterKeyId">kmsMasterKeyId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#kms_master_key_id DynamodbGlobalTable#kms_master_key_id}. |
 
 ---
 
@@ -3668,7 +3668,7 @@ public readonly kmsMasterKeyId: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#kms_master_key_id DynamodbGlobalTable#kms_master_key_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#kms_master_key_id DynamodbGlobalTable#kms_master_key_id}.
 
 ---
 
@@ -3686,8 +3686,8 @@ const dynamodbGlobalTableReplicasTags: dynamodbGlobalTable.DynamodbGlobalTableRe
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableReplicasTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}. |
 
 ---
 
@@ -3699,7 +3699,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#key DynamodbGlobalTable#key}.
 
 ---
 
@@ -3711,7 +3711,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#value DynamodbGlobalTable#value}.
 
 ---
 
@@ -3729,8 +3729,8 @@ const dynamodbGlobalTableSseSpecification: dynamodbGlobalTable.DynamodbGlobalTab
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableSseSpecification.property.sseEnabled">sseEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#sse_enabled DynamodbGlobalTable#sse_enabled}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableSseSpecification.property.sseType">sseType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#sse_type DynamodbGlobalTable#sse_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableSseSpecification.property.sseEnabled">sseEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#sse_enabled DynamodbGlobalTable#sse_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableSseSpecification.property.sseType">sseType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#sse_type DynamodbGlobalTable#sse_type}. |
 
 ---
 
@@ -3742,7 +3742,7 @@ public readonly sseEnabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#sse_enabled DynamodbGlobalTable#sse_enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#sse_enabled DynamodbGlobalTable#sse_enabled}.
 
 ---
 
@@ -3754,7 +3754,7 @@ public readonly sseType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#sse_type DynamodbGlobalTable#sse_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#sse_type DynamodbGlobalTable#sse_type}.
 
 ---
 
@@ -3772,7 +3772,7 @@ const dynamodbGlobalTableStreamSpecification: dynamodbGlobalTable.DynamodbGlobal
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableStreamSpecification.property.streamViewType">streamViewType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#stream_view_type DynamodbGlobalTable#stream_view_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableStreamSpecification.property.streamViewType">streamViewType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#stream_view_type DynamodbGlobalTable#stream_view_type}. |
 
 ---
 
@@ -3784,7 +3784,7 @@ public readonly streamViewType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#stream_view_type DynamodbGlobalTable#stream_view_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#stream_view_type DynamodbGlobalTable#stream_view_type}.
 
 ---
 
@@ -3802,8 +3802,8 @@ const dynamodbGlobalTableTimeToLiveSpecification: dynamodbGlobalTable.DynamodbGl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableTimeToLiveSpecification.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableTimeToLiveSpecification.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableTimeToLiveSpecification.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableTimeToLiveSpecification.property.enabled">enabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}. |
 
 ---
 
@@ -3815,7 +3815,7 @@ public readonly attributeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
 
 ---
 
@@ -3827,7 +3827,7 @@ public readonly enabled: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#enabled DynamodbGlobalTable#enabled}.
 
 ---
 
@@ -3845,12 +3845,12 @@ const dynamodbGlobalTableVectorIndexes: dynamodbGlobalTable.DynamodbGlobalTableV
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.dimensions">dimensions</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#dimensions DynamodbGlobalTable#dimensions}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.distanceFunction">distanceFunction</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#distance_function DynamodbGlobalTable#distance_function}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.projection">projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesProjection">DynamodbGlobalTableVectorIndexesProjection</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.searchSchema">searchSchema</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesSearchSchema">DynamodbGlobalTableVectorIndexesSearchSchema</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#search_schema DynamodbGlobalTable#search_schema}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.vectorAttribute">vectorAttribute</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesVectorAttribute">DynamodbGlobalTableVectorIndexesVectorAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#vector_attribute DynamodbGlobalTable#vector_attribute}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.dimensions">dimensions</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#dimensions DynamodbGlobalTable#dimensions}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.distanceFunction">distanceFunction</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#distance_function DynamodbGlobalTable#distance_function}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.indexName">indexName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.projection">projection</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesProjection">DynamodbGlobalTableVectorIndexesProjection</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.searchSchema">searchSchema</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesSearchSchema">DynamodbGlobalTableVectorIndexesSearchSchema</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#search_schema DynamodbGlobalTable#search_schema}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexes.property.vectorAttribute">vectorAttribute</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesVectorAttribute">DynamodbGlobalTableVectorIndexesVectorAttribute</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#vector_attribute DynamodbGlobalTable#vector_attribute}. |
 
 ---
 
@@ -3862,7 +3862,7 @@ public readonly dimensions: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#dimensions DynamodbGlobalTable#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#dimensions DynamodbGlobalTable#dimensions}.
 
 ---
 
@@ -3874,7 +3874,7 @@ public readonly distanceFunction: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#distance_function DynamodbGlobalTable#distance_function}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#distance_function DynamodbGlobalTable#distance_function}.
 
 ---
 
@@ -3886,7 +3886,7 @@ public readonly indexName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#index_name DynamodbGlobalTable#index_name}.
 
 ---
 
@@ -3898,7 +3898,7 @@ public readonly projection: DynamodbGlobalTableVectorIndexesProjection;
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesProjection">DynamodbGlobalTableVectorIndexesProjection</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection DynamodbGlobalTable#projection}.
 
 ---
 
@@ -3910,7 +3910,7 @@ public readonly searchSchema: IResolvable | DynamodbGlobalTableVectorIndexesSear
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesSearchSchema">DynamodbGlobalTableVectorIndexesSearchSchema</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#search_schema DynamodbGlobalTable#search_schema}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#search_schema DynamodbGlobalTable#search_schema}.
 
 ---
 
@@ -3922,7 +3922,7 @@ public readonly vectorAttribute: DynamodbGlobalTableVectorIndexesVectorAttribute
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesVectorAttribute">DynamodbGlobalTableVectorIndexesVectorAttribute</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#vector_attribute DynamodbGlobalTable#vector_attribute}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#vector_attribute DynamodbGlobalTable#vector_attribute}.
 
 ---
 
@@ -3940,8 +3940,8 @@ const dynamodbGlobalTableVectorIndexesProjection: dynamodbGlobalTable.DynamodbGl
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesProjection.property.nonKeyAttributes">nonKeyAttributes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesProjection.property.projectionType">projectionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesProjection.property.nonKeyAttributes">nonKeyAttributes</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesProjection.property.projectionType">projectionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}. |
 
 ---
 
@@ -3953,7 +3953,7 @@ public readonly nonKeyAttributes: string[];
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#non_key_attributes DynamodbGlobalTable#non_key_attributes}.
 
 ---
 
@@ -3965,7 +3965,7 @@ public readonly projectionType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#projection_type DynamodbGlobalTable#projection_type}.
 
 ---
 
@@ -3983,8 +3983,8 @@ const dynamodbGlobalTableVectorIndexesSearchSchema: dynamodbGlobalTable.Dynamodb
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesSearchSchema.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesSearchSchema.property.searchSchemaElementType">searchSchemaElementType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#search_schema_element_type DynamodbGlobalTable#search_schema_element_type}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesSearchSchema.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesSearchSchema.property.searchSchemaElementType">searchSchemaElementType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#search_schema_element_type DynamodbGlobalTable#search_schema_element_type}. |
 
 ---
 
@@ -3996,7 +3996,7 @@ public readonly attributeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
 
 ---
 
@@ -4008,7 +4008,7 @@ public readonly searchSchemaElementType: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#search_schema_element_type DynamodbGlobalTable#search_schema_element_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#search_schema_element_type DynamodbGlobalTable#search_schema_element_type}.
 
 ---
 
@@ -4026,7 +4026,7 @@ const dynamodbGlobalTableVectorIndexesVectorAttribute: dynamodbGlobalTable.Dynam
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesVectorAttribute.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableVectorIndexesVectorAttribute.property.attributeName">attributeName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}. |
 
 ---
 
@@ -4038,7 +4038,7 @@ public readonly attributeName: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#attribute_name DynamodbGlobalTable#attribute_name}.
 
 ---
 
@@ -4056,8 +4056,8 @@ const dynamodbGlobalTableWarmThroughput: dynamodbGlobalTable.DynamodbGlobalTable
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWarmThroughput.property.readUnitsPerSecond">readUnitsPerSecond</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWarmThroughput.property.writeUnitsPerSecond">writeUnitsPerSecond</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWarmThroughput.property.readUnitsPerSecond">readUnitsPerSecond</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWarmThroughput.property.writeUnitsPerSecond">writeUnitsPerSecond</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}. |
 
 ---
 
@@ -4069,7 +4069,7 @@ public readonly readUnitsPerSecond: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#read_units_per_second DynamodbGlobalTable#read_units_per_second}.
 
 ---
 
@@ -4081,7 +4081,7 @@ public readonly writeUnitsPerSecond: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_units_per_second DynamodbGlobalTable#write_units_per_second}.
 
 ---
 
@@ -4099,7 +4099,7 @@ const dynamodbGlobalTableWriteOnDemandThroughputSettings: dynamodbGlobalTable.Dy
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteOnDemandThroughputSettings.property.maxWriteRequestUnits">maxWriteRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteOnDemandThroughputSettings.property.maxWriteRequestUnits">maxWriteRequestUnits</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}. |
 
 ---
 
@@ -4111,7 +4111,7 @@ public readonly maxWriteRequestUnits: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_write_request_units DynamodbGlobalTable#max_write_request_units}.
 
 ---
 
@@ -4129,7 +4129,7 @@ const dynamodbGlobalTableWriteProvisionedThroughputSettings: dynamodbGlobalTable
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettings.property.writeCapacityAutoScalingSettings">writeCapacityAutoScalingSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings">DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettings.property.writeCapacityAutoScalingSettings">writeCapacityAutoScalingSettings</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings">DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}. |
 
 ---
 
@@ -4141,7 +4141,7 @@ public readonly writeCapacityAutoScalingSettings: DynamodbGlobalTableWriteProvis
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings">DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#write_capacity_auto_scaling_settings DynamodbGlobalTable#write_capacity_auto_scaling_settings}.
 
 ---
 
@@ -4159,10 +4159,10 @@ const dynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScal
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.maxCapacity">maxCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.minCapacity">minCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.seedCapacity">seedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.targetTrackingScalingPolicyConfiguration">targetTrackingScalingPolicyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.maxCapacity">maxCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.minCapacity">minCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.seedCapacity">seedCapacity</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettings.property.targetTrackingScalingPolicyConfiguration">targetTrackingScalingPolicyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}. |
 
 ---
 
@@ -4174,7 +4174,7 @@ public readonly maxCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#max_capacity DynamodbGlobalTable#max_capacity}.
 
 ---
 
@@ -4186,7 +4186,7 @@ public readonly minCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#min_capacity DynamodbGlobalTable#min_capacity}.
 
 ---
 
@@ -4198,7 +4198,7 @@ public readonly seedCapacity: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#seed_capacity DynamodbGlobalTable#seed_capacity}.
 
 ---
 
@@ -4210,7 +4210,7 @@ public readonly targetTrackingScalingPolicyConfiguration: DynamodbGlobalTableWri
 
 - *Type:* <a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration">DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_tracking_scaling_policy_configuration DynamodbGlobalTable#target_tracking_scaling_policy_configuration}.
 
 ---
 
@@ -4228,10 +4228,10 @@ const dynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScal
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">disableScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">scaleInCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">scaleOutCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}. |
-| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.targetValue">targetValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.disableScaleIn">disableScaleIn</a></code> | <code>boolean \| cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleInCooldown">scaleInCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.scaleOutCooldown">scaleOutCooldown</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}. |
+| <code><a href="#@cdktn/provider-awscc.dynamodbGlobalTable.DynamodbGlobalTableWriteProvisionedThroughputSettingsWriteCapacityAutoScalingSettingsTargetTrackingScalingPolicyConfiguration.property.targetValue">targetValue</a></code> | <code>number</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}. |
 
 ---
 
@@ -4243,7 +4243,7 @@ public readonly disableScaleIn: boolean | IResolvable;
 
 - *Type:* boolean | cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#disable_scale_in DynamodbGlobalTable#disable_scale_in}.
 
 ---
 
@@ -4255,7 +4255,7 @@ public readonly scaleInCooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_in_cooldown DynamodbGlobalTable#scale_in_cooldown}.
 
 ---
 
@@ -4267,7 +4267,7 @@ public readonly scaleOutCooldown: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#scale_out_cooldown DynamodbGlobalTable#scale_out_cooldown}.
 
 ---
 
@@ -4279,7 +4279,7 @@ public readonly targetValue: number;
 
 - *Type:* number
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dynamodb_global_table#target_value DynamodbGlobalTable#target_value}.
 
 ---
 

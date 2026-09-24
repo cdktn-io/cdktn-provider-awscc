@@ -4,7 +4,7 @@
 
 ### IotsitewiseDataset <a name="IotsitewiseDataset" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset awscc_iotsitewise_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer"></a>
 
@@ -20,9 +20,12 @@ IotsitewiseDataset.Builder.create(Construct scope, java.lang.String id)
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .datasetName(java.lang.String)
-    .datasetSource(IotsitewiseDatasetDatasetSource)
+//  .datasetConfig(IotsitewiseDatasetDatasetConfig)
 //  .datasetDescription(java.lang.String)
+//  .datasetSource(IotsitewiseDatasetDatasetSource)
+//  .datasetType(java.lang.String)
 //  .tags(IResolvable|java.util.List<IotsitewiseDatasetTags>)
+//  .workspaceName(java.lang.String)
     .build();
 ```
 
@@ -38,9 +41,12 @@ IotsitewiseDataset.Builder.create(Construct scope, java.lang.String id)
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetName">datasetName</a></code> | <code>java.lang.String</code> | The name of the dataset. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetSource">datasetSource</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a></code> | The data source for the dataset. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetConfig">datasetConfig</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a></code> | The configuration for the dataset. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetDescription">datasetDescription</a></code> | <code>java.lang.String</code> | A description about the dataset, and its functionality. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetSource">datasetSource</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a></code> | The data source for the dataset. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetType">datasetType</a></code> | <code>java.lang.String</code> | The type of the dataset. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags">IotsitewiseDatasetTags</a>></code> | An array of key-value pairs to apply to this resource. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.workspaceName">workspaceName</a></code> | <code>java.lang.String</code> | The name of the workspace associated with the dataset. |
 
 ---
 
@@ -110,17 +116,17 @@ Must be unique amongst siblings in the same scope
 
 The name of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
 
 ---
 
-##### `datasetSource`<sup>Required</sup> <a name="datasetSource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetSource"></a>
+##### `datasetConfig`<sup>Optional</sup> <a name="datasetConfig" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetConfig"></a>
 
-- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a>
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a>
 
-The data source for the dataset.
+The configuration for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_config IotsitewiseDataset#dataset_config}
 
 ---
 
@@ -130,7 +136,27 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description about the dataset, and its functionality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+
+---
+
+##### `datasetSource`<sup>Optional</sup> <a name="datasetSource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetSource"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a>
+
+The data source for the dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+
+---
+
+##### `datasetType`<sup>Optional</sup> <a name="datasetType" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.datasetType"></a>
+
+- *Type:* java.lang.String
+
+The type of the dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_type IotsitewiseDataset#dataset_type}
 
 ---
 
@@ -140,7 +166,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+
+---
+
+##### `workspaceName`<sup>Optional</sup> <a name="workspaceName" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.Initializer.parameter.workspaceName"></a>
+
+- *Type:* java.lang.String
+
+The name of the workspace associated with the dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#workspace_name IotsitewiseDataset#workspace_name}
 
 ---
 
@@ -172,10 +208,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.putDatasetConfig">putDatasetConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.putDatasetSource">putDatasetSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.putTags">putTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetDatasetConfig">resetDatasetConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetDatasetDescription">resetDatasetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetDatasetSource">resetDatasetSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetDatasetType">resetDatasetType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetTags">resetTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetWorkspaceName">resetWorkspaceName</a></code> | *No description.* |
 
 ---
 
@@ -490,6 +531,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putDatasetConfig` <a name="putDatasetConfig" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.putDatasetConfig"></a>
+
+```java
+public void putDatasetConfig(IotsitewiseDatasetDatasetConfig value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.putDatasetConfig.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a>
+
+---
+
 ##### `putDatasetSource` <a name="putDatasetSource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.putDatasetSource"></a>
 
 ```java
@@ -514,16 +567,40 @@ public void putTags(IResolvable|java.util.List<IotsitewiseDatasetTags> value)
 
 ---
 
+##### `resetDatasetConfig` <a name="resetDatasetConfig" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetDatasetConfig"></a>
+
+```java
+public void resetDatasetConfig()
+```
+
 ##### `resetDatasetDescription` <a name="resetDatasetDescription" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetDatasetDescription"></a>
 
 ```java
 public void resetDatasetDescription()
 ```
 
+##### `resetDatasetSource` <a name="resetDatasetSource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetDatasetSource"></a>
+
+```java
+public void resetDatasetSource()
+```
+
+##### `resetDatasetType` <a name="resetDatasetType" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetDatasetType"></a>
+
+```java
+public void resetDatasetType()
+```
+
 ##### `resetTags` <a name="resetTags" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetTags"></a>
 
 ```java
 public void resetTags()
+```
+
+##### `resetWorkspaceName` <a name="resetWorkspaceName" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.resetWorkspaceName"></a>
+
+```java
+public void resetWorkspaceName()
 ```
 
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
@@ -629,7 +706,7 @@ The construct id used in the generated config for the IotsitewiseDataset to impo
 
 The id of the existing IotsitewiseDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -660,16 +737,22 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetArn">datasetArn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetConfig">datasetConfig</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference">IotsitewiseDatasetDatasetConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetId">datasetId</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetSource">datasetSource</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference">IotsitewiseDatasetDatasetSourceOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.id">id</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTagsList">IotsitewiseDatasetTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetConfigInput">datasetConfigInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetDescriptionInput">datasetDescriptionInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetNameInput">datasetNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetSourceInput">datasetSourceInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetTypeInput">datasetTypeInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.tagsInput">tagsInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags">IotsitewiseDatasetTags</a>></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.workspaceNameInput">workspaceNameInput</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetDescription">datasetDescription</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetName">datasetName</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetType">datasetType</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.workspaceName">workspaceName</a></code> | <code>java.lang.String</code> | *No description.* |
 
 ---
 
@@ -825,6 +908,16 @@ public java.lang.String getDatasetArn();
 
 ---
 
+##### `datasetConfig`<sup>Required</sup> <a name="datasetConfig" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetConfig"></a>
+
+```java
+public IotsitewiseDatasetDatasetConfigOutputReference getDatasetConfig();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference">IotsitewiseDatasetDatasetConfigOutputReference</a>
+
+---
+
 ##### `datasetId`<sup>Required</sup> <a name="datasetId" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetId"></a>
 
 ```java
@@ -865,6 +958,16 @@ public IotsitewiseDatasetTagsList getTags();
 
 ---
 
+##### `datasetConfigInput`<sup>Optional</sup> <a name="datasetConfigInput" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetConfigInput"></a>
+
+```java
+public IResolvable|IotsitewiseDatasetDatasetConfig getDatasetConfigInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a>
+
+---
+
 ##### `datasetDescriptionInput`<sup>Optional</sup> <a name="datasetDescriptionInput" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetDescriptionInput"></a>
 
 ```java
@@ -895,6 +998,16 @@ public IResolvable|IotsitewiseDatasetDatasetSource getDatasetSourceInput();
 
 ---
 
+##### `datasetTypeInput`<sup>Optional</sup> <a name="datasetTypeInput" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetTypeInput"></a>
+
+```java
+public java.lang.String getDatasetTypeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
 ##### `tagsInput`<sup>Optional</sup> <a name="tagsInput" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.tagsInput"></a>
 
 ```java
@@ -902,6 +1015,16 @@ public IResolvable|java.util.List<IotsitewiseDatasetTags> getTagsInput();
 ```
 
 - *Type:* io.cdktn.cdktn.IResolvable|java.util.List<<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags">IotsitewiseDatasetTags</a>>
+
+---
+
+##### `workspaceNameInput`<sup>Optional</sup> <a name="workspaceNameInput" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.workspaceNameInput"></a>
+
+```java
+public java.lang.String getWorkspaceNameInput();
+```
+
+- *Type:* java.lang.String
 
 ---
 
@@ -919,6 +1042,26 @@ public java.lang.String getDatasetDescription();
 
 ```java
 public java.lang.String getDatasetName();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `datasetType`<sup>Required</sup> <a name="datasetType" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.datasetType"></a>
+
+```java
+public java.lang.String getDatasetType();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `workspaceName`<sup>Required</sup> <a name="workspaceName" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDataset.property.workspaceName"></a>
+
+```java
+public java.lang.String getWorkspaceName();
 ```
 
 - *Type:* java.lang.String
@@ -961,9 +1104,12 @@ IotsitewiseDatasetConfig.builder()
 //  .provider(TerraformProvider)
 //  .provisioners(java.util.List<FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner>)
     .datasetName(java.lang.String)
-    .datasetSource(IotsitewiseDatasetDatasetSource)
+//  .datasetConfig(IotsitewiseDatasetDatasetConfig)
 //  .datasetDescription(java.lang.String)
+//  .datasetSource(IotsitewiseDatasetDatasetSource)
+//  .datasetType(java.lang.String)
 //  .tags(IResolvable|java.util.List<IotsitewiseDatasetTags>)
+//  .workspaceName(java.lang.String)
     .build();
 ```
 
@@ -979,9 +1125,12 @@ IotsitewiseDatasetConfig.builder()
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.provider">provider</a></code> | <code>io.cdktn.cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.provisioners">provisioners</a></code> | <code>java.util.List<io.cdktn.cdktn.FileProvisioner\|io.cdktn.cdktn.LocalExecProvisioner\|io.cdktn.cdktn.RemoteExecProvisioner></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetName">datasetName</a></code> | <code>java.lang.String</code> | The name of the dataset. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetSource">datasetSource</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a></code> | The data source for the dataset. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetConfig">datasetConfig</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a></code> | The configuration for the dataset. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetDescription">datasetDescription</a></code> | <code>java.lang.String</code> | A description about the dataset, and its functionality. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetSource">datasetSource</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a></code> | The data source for the dataset. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetType">datasetType</a></code> | <code>java.lang.String</code> | The type of the dataset. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.tags">tags</a></code> | <code>io.cdktn.cdktn.IResolvable\|java.util.List<<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags">IotsitewiseDatasetTags</a>></code> | An array of key-value pairs to apply to this resource. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.workspaceName">workspaceName</a></code> | <code>java.lang.String</code> | The name of the workspace associated with the dataset. |
 
 ---
 
@@ -1065,21 +1214,21 @@ public java.lang.String getDatasetName();
 
 The name of the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_name IotsitewiseDataset#dataset_name}
 
 ---
 
-##### `datasetSource`<sup>Required</sup> <a name="datasetSource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetSource"></a>
+##### `datasetConfig`<sup>Optional</sup> <a name="datasetConfig" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetConfig"></a>
 
 ```java
-public IotsitewiseDatasetDatasetSource getDatasetSource();
+public IotsitewiseDatasetDatasetConfig getDatasetConfig();
 ```
 
-- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a>
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a>
 
-The data source for the dataset.
+The configuration for the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_config IotsitewiseDataset#dataset_config}
 
 ---
 
@@ -1093,7 +1242,35 @@ public java.lang.String getDatasetDescription();
 
 A description about the dataset, and its functionality.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_description IotsitewiseDataset#dataset_description}
+
+---
+
+##### `datasetSource`<sup>Optional</sup> <a name="datasetSource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetSource"></a>
+
+```java
+public IotsitewiseDatasetDatasetSource getDatasetSource();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource">IotsitewiseDatasetDatasetSource</a>
+
+The data source for the dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_source IotsitewiseDataset#dataset_source}
+
+---
+
+##### `datasetType`<sup>Optional</sup> <a name="datasetType" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.datasetType"></a>
+
+```java
+public java.lang.String getDatasetType();
+```
+
+- *Type:* java.lang.String
+
+The type of the dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#dataset_type IotsitewiseDataset#dataset_type}
 
 ---
 
@@ -1107,7 +1284,105 @@ public IResolvable|java.util.List<IotsitewiseDatasetTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#tags IotsitewiseDataset#tags}
+
+---
+
+##### `workspaceName`<sup>Optional</sup> <a name="workspaceName" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetConfig.property.workspaceName"></a>
+
+```java
+public java.lang.String getWorkspaceName();
+```
+
+- *Type:* java.lang.String
+
+The name of the workspace associated with the dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#workspace_name IotsitewiseDataset#workspace_name}
+
+---
+
+### IotsitewiseDatasetDatasetConfig <a name="IotsitewiseDatasetDatasetConfig" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.iotsitewise_dataset.IotsitewiseDatasetDatasetConfig;
+
+IotsitewiseDatasetDatasetConfig.builder()
+//  .session(IotsitewiseDatasetDatasetConfigSession)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig.property.session">session</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession">IotsitewiseDatasetDatasetConfigSession</a></code> | The session configuration for a SESSION dataset. |
+
+---
+
+##### `session`<sup>Optional</sup> <a name="session" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig.property.session"></a>
+
+```java
+public IotsitewiseDatasetDatasetConfigSession getSession();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession">IotsitewiseDatasetDatasetConfigSession</a>
+
+The session configuration for a SESSION dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#session IotsitewiseDataset#session}
+
+---
+
+### IotsitewiseDatasetDatasetConfigSession <a name="IotsitewiseDatasetDatasetConfigSession" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.iotsitewise_dataset.IotsitewiseDatasetDatasetConfigSession;
+
+IotsitewiseDatasetDatasetConfigSession.builder()
+//  .sessionEndTime(java.lang.String)
+//  .sessionStartTime(java.lang.String)
+    .build();
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession.property.sessionEndTime">sessionEndTime</a></code> | <code>java.lang.String</code> | The end time of the session as an ISO 8601 UTC instant, for example 2024-12-31T23:59:59Z. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession.property.sessionStartTime">sessionStartTime</a></code> | <code>java.lang.String</code> | The start time of the session as an ISO 8601 UTC instant, for example 2024-01-01T00:00:00Z. |
+
+---
+
+##### `sessionEndTime`<sup>Optional</sup> <a name="sessionEndTime" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession.property.sessionEndTime"></a>
+
+```java
+public java.lang.String getSessionEndTime();
+```
+
+- *Type:* java.lang.String
+
+The end time of the session as an ISO 8601 UTC instant, for example 2024-12-31T23:59:59Z.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#session_end_time IotsitewiseDataset#session_end_time}
+
+---
+
+##### `sessionStartTime`<sup>Optional</sup> <a name="sessionStartTime" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession.property.sessionStartTime"></a>
+
+```java
+public java.lang.String getSessionStartTime();
+```
+
+- *Type:* java.lang.String
+
+The start time of the session as an ISO 8601 UTC instant, for example 2024-01-01T00:00:00Z.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#session_start_time IotsitewiseDataset#session_start_time}
 
 ---
 
@@ -1119,9 +1394,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 import io.cdktn.providers.awscc.iotsitewise_dataset.IotsitewiseDatasetDatasetSource;
 
 IotsitewiseDatasetDatasetSource.builder()
-    .sourceFormat(java.lang.String)
-    .sourceType(java.lang.String)
 //  .sourceDetail(IotsitewiseDatasetDatasetSourceSourceDetail)
+//  .sourceFormat(java.lang.String)
+//  .sourceType(java.lang.String)
     .build();
 ```
 
@@ -1129,37 +1404,9 @@ IotsitewiseDatasetDatasetSource.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.property.sourceDetail">sourceDetail</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetail">IotsitewiseDatasetDatasetSourceSourceDetail</a></code> | The details of the dataset source associated with the dataset. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.property.sourceFormat">sourceFormat</a></code> | <code>java.lang.String</code> | The format of the dataset source associated with the dataset. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.property.sourceType">sourceType</a></code> | <code>java.lang.String</code> | The type of data source for the dataset. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.property.sourceDetail">sourceDetail</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceSourceDetail">IotsitewiseDatasetDatasetSourceSourceDetail</a></code> | The details of the dataset source associated with the dataset. |
-
----
-
-##### `sourceFormat`<sup>Required</sup> <a name="sourceFormat" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.property.sourceFormat"></a>
-
-```java
-public java.lang.String getSourceFormat();
-```
-
-- *Type:* java.lang.String
-
-The format of the dataset source associated with the dataset.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
-
----
-
-##### `sourceType`<sup>Required</sup> <a name="sourceType" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.property.sourceType"></a>
-
-```java
-public java.lang.String getSourceType();
-```
-
-- *Type:* java.lang.String
-
-The type of data source for the dataset.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
 
 ---
 
@@ -1173,7 +1420,35 @@ public IotsitewiseDatasetDatasetSourceSourceDetail getSourceDetail();
 
 The details of the dataset source associated with the dataset.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#source_detail IotsitewiseDataset#source_detail}
+
+---
+
+##### `sourceFormat`<sup>Optional</sup> <a name="sourceFormat" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.property.sourceFormat"></a>
+
+```java
+public java.lang.String getSourceFormat();
+```
+
+- *Type:* java.lang.String
+
+The format of the dataset source associated with the dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#source_format IotsitewiseDataset#source_format}
+
+---
+
+##### `sourceType`<sup>Optional</sup> <a name="sourceType" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSource.property.sourceType"></a>
+
+```java
+public java.lang.String getSourceType();
+```
+
+- *Type:* java.lang.String
+
+The type of data source for the dataset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#source_type IotsitewiseDataset#source_type}
 
 ---
 
@@ -1207,7 +1482,7 @@ public IotsitewiseDatasetDatasetSourceSourceDetailKendra getKendra();
 
 Contains details about the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#kendra IotsitewiseDataset#kendra}
 
 ---
 
@@ -1243,7 +1518,7 @@ public java.lang.String getKnowledgeBaseArn();
 
 The knowledgeBaseArn details for the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#knowledge_base_arn IotsitewiseDataset#knowledge_base_arn}
 
 ---
 
@@ -1257,7 +1532,7 @@ public java.lang.String getRoleArn();
 
 The roleARN details for the Kendra dataset source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#role_arn IotsitewiseDataset#role_arn}
 
 ---
 
@@ -1278,8 +1553,8 @@ IotsitewiseDatasetTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}. |
-| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}. |
 
 ---
 
@@ -1291,7 +1566,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#key IotsitewiseDataset#key}.
 
 ---
 
@@ -1303,11 +1578,609 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_dataset#value IotsitewiseDataset#value}.
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### IotsitewiseDatasetDatasetConfigOutputReference <a name="IotsitewiseDatasetDatasetConfigOutputReference" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.iotsitewise_dataset.IotsitewiseDatasetDatasetConfigOutputReference;
+
+new IotsitewiseDatasetDatasetConfigOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.putSession">putSession</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.resetSession">resetSession</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putSession` <a name="putSession" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.putSession"></a>
+
+```java
+public void putSession(IotsitewiseDatasetDatasetConfigSession value)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.putSession.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession">IotsitewiseDatasetDatasetConfigSession</a>
+
+---
+
+##### `resetSession` <a name="resetSession" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.resetSession"></a>
+
+```java
+public void resetSession()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.session">session</a></code> | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference">IotsitewiseDatasetDatasetConfigSessionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.sessionInput">sessionInput</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession">IotsitewiseDatasetDatasetConfigSession</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `session`<sup>Required</sup> <a name="session" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.session"></a>
+
+```java
+public IotsitewiseDatasetDatasetConfigSessionOutputReference getSession();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference">IotsitewiseDatasetDatasetConfigSessionOutputReference</a>
+
+---
+
+##### `sessionInput`<sup>Optional</sup> <a name="sessionInput" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.sessionInput"></a>
+
+```java
+public IResolvable|IotsitewiseDatasetDatasetConfigSession getSessionInput();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession">IotsitewiseDatasetDatasetConfigSession</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|IotsitewiseDatasetDatasetConfig getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfig">IotsitewiseDatasetDatasetConfig</a>
+
+---
+
+
+### IotsitewiseDatasetDatasetConfigSessionOutputReference <a name="IotsitewiseDatasetDatasetConfigSessionOutputReference" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.iotsitewise_dataset.IotsitewiseDatasetDatasetConfigSessionOutputReference;
+
+new IotsitewiseDatasetDatasetConfigSessionOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.resetSessionEndTime">resetSessionEndTime</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.resetSessionStartTime">resetSessionStartTime</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetSessionEndTime` <a name="resetSessionEndTime" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.resetSessionEndTime"></a>
+
+```java
+public void resetSessionEndTime()
+```
+
+##### `resetSessionStartTime` <a name="resetSessionStartTime" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.resetSessionStartTime"></a>
+
+```java
+public void resetSessionStartTime()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionEndTimeInput">sessionEndTimeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionStartTimeInput">sessionStartTimeInput</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionEndTime">sessionEndTime</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionStartTime">sessionStartTime</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.internalValue">internalValue</a></code> | <code>io.cdktn.cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession">IotsitewiseDatasetDatasetConfigSession</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sessionEndTimeInput`<sup>Optional</sup> <a name="sessionEndTimeInput" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionEndTimeInput"></a>
+
+```java
+public java.lang.String getSessionEndTimeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sessionStartTimeInput`<sup>Optional</sup> <a name="sessionStartTimeInput" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionStartTimeInput"></a>
+
+```java
+public java.lang.String getSessionStartTimeInput();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sessionEndTime`<sup>Required</sup> <a name="sessionEndTime" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionEndTime"></a>
+
+```java
+public java.lang.String getSessionEndTime();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `sessionStartTime`<sup>Required</sup> <a name="sessionStartTime" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionStartTime"></a>
+
+```java
+public java.lang.String getSessionStartTime();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSessionOutputReference.property.internalValue"></a>
+
+```java
+public IResolvable|IotsitewiseDatasetDatasetConfigSession getInternalValue();
+```
+
+- *Type:* io.cdktn.cdktn.IResolvable|<a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetConfigSession">IotsitewiseDatasetDatasetConfigSession</a>
+
+---
+
 
 ### IotsitewiseDatasetDatasetSourceOutputReference <a name="IotsitewiseDatasetDatasetSourceOutputReference" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference"></a>
 
@@ -1361,6 +2234,8 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference.putSourceDetail">putSourceDetail</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference.resetSourceDetail">resetSourceDetail</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference.resetSourceFormat">resetSourceFormat</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference.resetSourceType">resetSourceType</a></code> | *No description.* |
 
 ---
 
@@ -1530,6 +2405,18 @@ public void putSourceDetail(IotsitewiseDatasetDatasetSourceSourceDetail value)
 
 ```java
 public void resetSourceDetail()
+```
+
+##### `resetSourceFormat` <a name="resetSourceFormat" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference.resetSourceFormat"></a>
+
+```java
+public void resetSourceFormat()
+```
+
+##### `resetSourceType` <a name="resetSourceType" id="@cdktn/provider-awscc.iotsitewiseDataset.IotsitewiseDatasetDatasetSourceOutputReference.resetSourceType"></a>
+
+```java
+public void resetSourceType()
 ```
 
 

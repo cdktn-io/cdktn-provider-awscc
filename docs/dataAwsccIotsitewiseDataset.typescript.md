@@ -4,7 +4,7 @@
 
 ### DataAwsccIotsitewiseDataset <a name="DataAwsccIotsitewiseDataset" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_dataset awscc_iotsitewise_dataset}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_dataset awscc_iotsitewise_dataset}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccIotsitewiseDatase
 
 The id of the existing DataAwsccIotsitewiseDataset that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_dataset#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,11 +416,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetArn">datasetArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetConfig">datasetConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference">DataAwsccIotsitewiseDatasetDatasetConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetDescription">datasetDescription</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetId">datasetId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetName">datasetName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetSource">datasetSource</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetSourceOutputReference">DataAwsccIotsitewiseDatasetDatasetSourceOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetType">datasetType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetTagsList">DataAwsccIotsitewiseDatasetTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.workspaceName">workspaceName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.id">id</a></code> | <code>string</code> | *No description.* |
 
@@ -558,6 +561,16 @@ public readonly datasetArn: string;
 
 ---
 
+##### `datasetConfig`<sup>Required</sup> <a name="datasetConfig" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetConfig"></a>
+
+```typescript
+public readonly datasetConfig: DataAwsccIotsitewiseDatasetDatasetConfigOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference">DataAwsccIotsitewiseDatasetDatasetConfigOutputReference</a>
+
+---
+
 ##### `datasetDescription`<sup>Required</sup> <a name="datasetDescription" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetDescription"></a>
 
 ```typescript
@@ -598,6 +611,16 @@ public readonly datasetSource: DataAwsccIotsitewiseDatasetDatasetSourceOutputRef
 
 ---
 
+##### `datasetType`<sup>Required</sup> <a name="datasetType" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.datasetType"></a>
+
+```typescript
+public readonly datasetType: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.tags"></a>
 
 ```typescript
@@ -605,6 +628,16 @@ public readonly tags: DataAwsccIotsitewiseDatasetTagsList;
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetTagsList">DataAwsccIotsitewiseDatasetTagsList</a>
+
+---
+
+##### `workspaceName`<sup>Required</sup> <a name="workspaceName" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDataset.property.workspaceName"></a>
+
+```typescript
+public readonly workspaceName: string;
+```
+
+- *Type:* string
 
 ---
 
@@ -753,12 +786,34 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/iotsitewise_dataset#id DataAwsccIotsitewiseDataset#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/iotsitewise_dataset#id DataAwsccIotsitewiseDataset#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
+
+### DataAwsccIotsitewiseDatasetDatasetConfig <a name="DataAwsccIotsitewiseDatasetDatasetConfig" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfig.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseDataset } from '@cdktn/provider-awscc'
+
+const dataAwsccIotsitewiseDatasetDatasetConfig: dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfig = { ... }
+```
+
+
+### DataAwsccIotsitewiseDatasetDatasetConfigSession <a name="DataAwsccIotsitewiseDatasetDatasetConfigSession" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSession"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSession.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseDataset } from '@cdktn/provider-awscc'
+
+const dataAwsccIotsitewiseDatasetDatasetConfigSession: dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSession = { ... }
+```
+
 
 ### DataAwsccIotsitewiseDatasetDatasetSource <a name="DataAwsccIotsitewiseDatasetDatasetSource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetSource"></a>
 
@@ -805,6 +860,537 @@ const dataAwsccIotsitewiseDatasetTags: dataAwsccIotsitewiseDataset.DataAwsccIots
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccIotsitewiseDatasetDatasetConfigOutputReference <a name="DataAwsccIotsitewiseDatasetDatasetConfigOutputReference" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseDataset } from '@cdktn/provider-awscc'
+
+new dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.property.session">session</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference">DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfig">DataAwsccIotsitewiseDatasetDatasetConfig</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `session`<sup>Required</sup> <a name="session" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.property.session"></a>
+
+```typescript
+public readonly session: DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference">DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccIotsitewiseDatasetDatasetConfig;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfig">DataAwsccIotsitewiseDatasetDatasetConfig</a>
+
+---
+
+
+### DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference <a name="DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccIotsitewiseDataset } from '@cdktn/provider-awscc'
+
+new dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionEndTime">sessionEndTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionStartTime">sessionStartTime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSession">DataAwsccIotsitewiseDatasetDatasetConfigSession</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `sessionEndTime`<sup>Required</sup> <a name="sessionEndTime" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionEndTime"></a>
+
+```typescript
+public readonly sessionEndTime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `sessionStartTime`<sup>Required</sup> <a name="sessionStartTime" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.sessionStartTime"></a>
+
+```typescript
+public readonly sessionStartTime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSessionOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccIotsitewiseDatasetDatasetConfigSession;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetConfigSession">DataAwsccIotsitewiseDatasetDatasetConfigSession</a>
+
+---
+
 
 ### DataAwsccIotsitewiseDatasetDatasetSourceOutputReference <a name="DataAwsccIotsitewiseDatasetDatasetSourceOutputReference" id="@cdktn/provider-awscc.dataAwsccIotsitewiseDataset.DataAwsccIotsitewiseDatasetDatasetSourceOutputReference"></a>
 

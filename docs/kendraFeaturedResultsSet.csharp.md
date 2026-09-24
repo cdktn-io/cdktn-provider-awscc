@@ -4,7 +4,7 @@
 
 ### KendraFeaturedResultsSet <a name="KendraFeaturedResultsSet" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kendraFeaturedResultsSet.KendraFeaturedResultsSet.Initializer"></a>
 
@@ -550,7 +550,7 @@ The construct id used in the generated config for the KendraFeaturedResultsSet t
 
 The id of the existing KendraFeaturedResultsSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1058,7 +1058,7 @@ public string FeaturedResultsSetName { get; set; }
 
 A name for the set of featured results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#featured_results_set_name KendraFeaturedResultsSet#featured_results_set_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#featured_results_set_name KendraFeaturedResultsSet#featured_results_set_name}
 
 ---
 
@@ -1072,7 +1072,7 @@ public string IndexId { get; set; }
 
 The identifier of the index that you want to use for featuring results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#index_id KendraFeaturedResultsSet#index_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#index_id KendraFeaturedResultsSet#index_id}
 
 ---
 
@@ -1086,7 +1086,7 @@ public string Description { get; set; }
 
 A description for the set of featured results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#description KendraFeaturedResultsSet#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#description KendraFeaturedResultsSet#description}
 
 ---
 
@@ -1100,7 +1100,7 @@ public IResolvable|KendraFeaturedResultsSetFeaturedDocuments[] FeaturedDocuments
 
 A list of document IDs for the documents you want to feature at the top of the search results page.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#featured_documents KendraFeaturedResultsSet#featured_documents}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#featured_documents KendraFeaturedResultsSet#featured_documents}
 
 ---
 
@@ -1114,7 +1114,7 @@ public string[] QueryTexts { get; set; }
 
 A list of queries for featuring results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#query_texts KendraFeaturedResultsSet#query_texts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#query_texts KendraFeaturedResultsSet#query_texts}
 
 ---
 
@@ -1130,7 +1130,7 @@ The current status of the set of featured results.
 
 When the value is ACTIVE, featured results are ready for use.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#status KendraFeaturedResultsSet#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#status KendraFeaturedResultsSet#status}
 
 ---
 
@@ -1144,7 +1144,7 @@ public IResolvable|KendraFeaturedResultsSetTags[] Tags { get; set; }
 
 A list of key-value pairs that identify or categorize the featured results set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#tags KendraFeaturedResultsSet#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#tags KendraFeaturedResultsSet#tags}
 
 ---
 
@@ -1178,7 +1178,7 @@ public string Id { get; set; }
 
 The identifier of the document to feature in the search results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#id KendraFeaturedResultsSet#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#id KendraFeaturedResultsSet#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1217,7 +1217,7 @@ public string Key { get; set; }
 
 The key for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#key KendraFeaturedResultsSet#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#key KendraFeaturedResultsSet#key}
 
 ---
 
@@ -1231,7 +1231,7 @@ public string Value { get; set; }
 
 The value associated with the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#value KendraFeaturedResultsSet#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#value KendraFeaturedResultsSet#value}
 
 ---
 

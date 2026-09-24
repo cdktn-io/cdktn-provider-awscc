@@ -4,7 +4,7 @@
 
 ### DatasyncLocationObjectStorage <a name="DatasyncLocationObjectStorage" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.Initializer"></a>
 
@@ -76,12 +76,14 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.putCmkSecretConfig">PutCmkSecretConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.putCustomSecretConfig">PutCustomSecretConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.putFederatedIdentity">PutFederatedIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetAccessKey">ResetAccessKey</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetAgentArns">ResetAgentArns</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetBucketName">ResetBucketName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetCmkSecretConfig">ResetCmkSecretConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetCustomSecretConfig">ResetCustomSecretConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetFederatedIdentity">ResetFederatedIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetSecretKey">ResetSecretKey</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetServerCertificate">ResetServerCertificate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetServerHostname">ResetServerHostname</a></code> | *No description.* |
@@ -425,6 +427,18 @@ func PutCustomSecretConfig(value DatasyncLocationObjectStorageCustomSecretConfig
 
 ---
 
+##### `PutFederatedIdentity` <a name="PutFederatedIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.putFederatedIdentity"></a>
+
+```go
+func PutFederatedIdentity(value DatasyncLocationObjectStorageFederatedIdentity)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.putFederatedIdentity.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity">DatasyncLocationObjectStorageFederatedIdentity</a>
+
+---
+
 ##### `PutTags` <a name="PutTags" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.putTags"></a>
 
 ```go
@@ -465,6 +479,12 @@ func ResetCmkSecretConfig()
 
 ```go
 func ResetCustomSecretConfig()
+```
+
+##### `ResetFederatedIdentity` <a name="ResetFederatedIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetFederatedIdentity"></a>
+
+```go
+func ResetFederatedIdentity()
 ```
 
 ##### `ResetSecretKey` <a name="ResetSecretKey" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.resetSecretKey"></a>
@@ -612,7 +632,7 @@ The construct id used in the generated config for the DatasyncLocationObjectStor
 
 The id of the existing DatasyncLocationObjectStorage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -644,6 +664,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.cmkSecretConfig">CmkSecretConfig</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCmkSecretConfigOutputReference">DatasyncLocationObjectStorageCmkSecretConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.customSecretConfig">CustomSecretConfig</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCustomSecretConfigOutputReference">DatasyncLocationObjectStorageCustomSecretConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.federatedIdentity">FederatedIdentity</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference">DatasyncLocationObjectStorageFederatedIdentityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.id">Id</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.locationArn">LocationArn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.locationUri">LocationUri</a></code> | <code>*string</code> | *No description.* |
@@ -654,6 +675,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.bucketNameInput">BucketNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.cmkSecretConfigInput">CmkSecretConfigInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.customSecretConfigInput">CustomSecretConfigInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.federatedIdentityInput">FederatedIdentityInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.secretKeyInput">SecretKeyInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.serverCertificateInput">ServerCertificateInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.serverHostnameInput">ServerHostnameInput</a></code> | <code>*string</code> | *No description.* |
@@ -835,6 +857,16 @@ func CustomSecretConfig() DatasyncLocationObjectStorageCustomSecretConfigOutputR
 
 ---
 
+##### `FederatedIdentity`<sup>Required</sup> <a name="FederatedIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.federatedIdentity"></a>
+
+```go
+func FederatedIdentity() DatasyncLocationObjectStorageFederatedIdentityOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference">DatasyncLocationObjectStorageFederatedIdentityOutputReference</a>
+
+---
+
 ##### `Id`<sup>Required</sup> <a name="Id" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.id"></a>
 
 ```go
@@ -929,6 +961,16 @@ func CmkSecretConfigInput() interface{}
 
 ```go
 func CustomSecretConfigInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `FederatedIdentityInput`<sup>Optional</sup> <a name="FederatedIdentityInput" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorage.property.federatedIdentityInput"></a>
+
+```go
+func FederatedIdentityInput() interface{}
 ```
 
 - *Type:* interface{}
@@ -1147,7 +1189,7 @@ Specifies the ARN for the customer-managed AWS KMS key used to encrypt the secre
 
 DataSync provides this key to AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#kms_key_arn DatasyncLocationObjectStorage#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#kms_key_arn DatasyncLocationObjectStorage#kms_key_arn}
 
 ---
 
@@ -1171,6 +1213,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobject
 	BucketName: *string,
 	CmkSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCmkSecretConfig,
 	CustomSecretConfig: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCustomSecretConfig,
+	FederatedIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity,
 	SecretKey: *string,
 	ServerCertificate: *string,
 	ServerHostname: *string,
@@ -1197,6 +1240,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobject
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.property.bucketName">BucketName</a></code> | <code>*string</code> | The name of the bucket on the self-managed object storage server. |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.property.cmkSecretConfig">CmkSecretConfig</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCmkSecretConfig">DatasyncLocationObjectStorageCmkSecretConfig</a></code> | Specifies configuration information for a DataSync-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and a customer-managed AWS KMS key. |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.property.customSecretConfig">CustomSecretConfig</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCustomSecretConfig">DatasyncLocationObjectStorageCustomSecretConfig</a></code> | Specifies configuration information for a customer-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and an IAM role that DataSync can assume and access the customer-managed secret. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.property.federatedIdentity">FederatedIdentity</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity">DatasyncLocationObjectStorageFederatedIdentity</a></code> | Specifies the identity federation configuration that DataSync uses to access your object storage location using an OpenID Connect (OIDC) token. |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.property.secretKey">SecretKey</a></code> | <code>*string</code> | Optional. The secret key is used if credentials are required to access the self-managed object storage server. |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.property.serverCertificate">ServerCertificate</a></code> | <code>*string</code> | X.509 PEM content containing a certificate authority or chain to trust. |
 | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.property.serverHostname">ServerHostname</a></code> | <code>*string</code> | The name of the self-managed object storage server. |
@@ -1287,7 +1331,7 @@ AccessKey *string
 
 Optional. The access key is used if credentials are required to access the self-managed object storage server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#access_key DatasyncLocationObjectStorage#access_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#access_key DatasyncLocationObjectStorage#access_key}
 
 ---
 
@@ -1303,7 +1347,7 @@ Specifies the Amazon Resource Names (ARNs) of the DataSync agents that can conne
 
 If you are setting up an agentless cross-cloud transfer, you do not need to specify a value for this parameter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#agent_arns DatasyncLocationObjectStorage#agent_arns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#agent_arns DatasyncLocationObjectStorage#agent_arns}
 
 ---
 
@@ -1317,7 +1361,7 @@ BucketName *string
 
 The name of the bucket on the self-managed object storage server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#bucket_name DatasyncLocationObjectStorage#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#bucket_name DatasyncLocationObjectStorage#bucket_name}
 
 ---
 
@@ -1331,7 +1375,7 @@ CmkSecretConfig DatasyncLocationObjectStorageCmkSecretConfig
 
 Specifies configuration information for a DataSync-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and a customer-managed AWS KMS key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#cmk_secret_config DatasyncLocationObjectStorage#cmk_secret_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#cmk_secret_config DatasyncLocationObjectStorage#cmk_secret_config}
 
 ---
 
@@ -1345,7 +1389,21 @@ CustomSecretConfig DatasyncLocationObjectStorageCustomSecretConfig
 
 Specifies configuration information for a customer-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and an IAM role that DataSync can assume and access the customer-managed secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#custom_secret_config DatasyncLocationObjectStorage#custom_secret_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#custom_secret_config DatasyncLocationObjectStorage#custom_secret_config}
+
+---
+
+##### `FederatedIdentity`<sup>Optional</sup> <a name="FederatedIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageConfig.property.federatedIdentity"></a>
+
+```go
+FederatedIdentity DatasyncLocationObjectStorageFederatedIdentity
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity">DatasyncLocationObjectStorageFederatedIdentity</a>
+
+Specifies the identity federation configuration that DataSync uses to access your object storage location using an OpenID Connect (OIDC) token.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#federated_identity DatasyncLocationObjectStorage#federated_identity}
 
 ---
 
@@ -1359,7 +1417,7 @@ SecretKey *string
 
 Optional. The secret key is used if credentials are required to access the self-managed object storage server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#secret_key DatasyncLocationObjectStorage#secret_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#secret_key DatasyncLocationObjectStorage#secret_key}
 
 ---
 
@@ -1373,7 +1431,7 @@ ServerCertificate *string
 
 X.509 PEM content containing a certificate authority or chain to trust.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#server_certificate DatasyncLocationObjectStorage#server_certificate}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#server_certificate DatasyncLocationObjectStorage#server_certificate}
 
 ---
 
@@ -1389,7 +1447,7 @@ The name of the self-managed object storage server.
 
 This value is the IP address or Domain Name Service (DNS) name of the object storage server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#server_hostname DatasyncLocationObjectStorage#server_hostname}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#server_hostname DatasyncLocationObjectStorage#server_hostname}
 
 ---
 
@@ -1403,7 +1461,7 @@ ServerPort *f64
 
 The port that your self-managed server accepts inbound network traffic on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#server_port DatasyncLocationObjectStorage#server_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#server_port DatasyncLocationObjectStorage#server_port}
 
 ---
 
@@ -1417,7 +1475,7 @@ ServerProtocol *string
 
 The protocol that the object storage server uses to communicate.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#server_protocol DatasyncLocationObjectStorage#server_protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#server_protocol DatasyncLocationObjectStorage#server_protocol}
 
 ---
 
@@ -1431,7 +1489,7 @@ Subdirectory *string
 
 The subdirectory in the self-managed object storage server that is used to read data from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#subdirectory DatasyncLocationObjectStorage#subdirectory}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#subdirectory DatasyncLocationObjectStorage#subdirectory}
 
 ---
 
@@ -1445,7 +1503,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#tags DatasyncLocationObjectStorage#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#tags DatasyncLocationObjectStorage#tags}
 
 ---
 
@@ -1481,7 +1539,7 @@ SecretAccessRoleArn *string
 
 Specifies the ARN for the AWS Identity and Access Management role that DataSync uses to access the secret specified for SecretArn.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#secret_access_role_arn DatasyncLocationObjectStorage#secret_access_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#secret_access_role_arn DatasyncLocationObjectStorage#secret_access_role_arn}
 
 ---
 
@@ -1495,7 +1553,173 @@ SecretArn *string
 
 Specifies the ARN for a customer created AWS Secrets Manager secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#secret_arn DatasyncLocationObjectStorage#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#secret_arn DatasyncLocationObjectStorage#secret_arn}
+
+---
+
+### DatasyncLocationObjectStorageFederatedIdentity <a name="DatasyncLocationObjectStorageFederatedIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+
+&datasynclocationobjectstorage.DatasyncLocationObjectStorageFederatedIdentity {
+	AwsIamRole: *string,
+	ExternalIdentity: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity.property.awsIamRole">AwsIamRole</a></code> | <code>*string</code> | Specifies the ARN of the AWS Identity and Access Management (IAM) role that DataSync assumes to mint the OIDC token used to authenticate with the identity provider. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity.property.externalIdentity">ExternalIdentity</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity">DatasyncLocationObjectStorageFederatedIdentityExternalIdentity</a></code> | Specifies the external (non-AWS) identity provider that DataSync federates with to access your object storage location. |
+
+---
+
+##### `AwsIamRole`<sup>Optional</sup> <a name="AwsIamRole" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity.property.awsIamRole"></a>
+
+```go
+AwsIamRole *string
+```
+
+- *Type:* *string
+
+Specifies the ARN of the AWS Identity and Access Management (IAM) role that DataSync assumes to mint the OIDC token used to authenticate with the identity provider.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#aws_iam_role DatasyncLocationObjectStorage#aws_iam_role}
+
+---
+
+##### `ExternalIdentity`<sup>Optional</sup> <a name="ExternalIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentity.property.externalIdentity"></a>
+
+```go
+ExternalIdentity DatasyncLocationObjectStorageFederatedIdentityExternalIdentity
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity">DatasyncLocationObjectStorageFederatedIdentityExternalIdentity</a>
+
+Specifies the external (non-AWS) identity provider that DataSync federates with to access your object storage location.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#external_identity DatasyncLocationObjectStorage#external_identity}
+
+---
+
+### DatasyncLocationObjectStorageFederatedIdentityExternalIdentity <a name="DatasyncLocationObjectStorageFederatedIdentityExternalIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+
+&datasynclocationobjectstorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity {
+	GoogleOidc: github.com/cdktn-io/cdktn-provider-awscc-go/awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity.property.googleOidc">GoogleOidc</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc">DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc</a></code> | Specifies the Google Cloud workload identity federation configuration that DataSync uses to obtain an access token for your Google Cloud Storage bucket. |
+
+---
+
+##### `GoogleOidc`<sup>Optional</sup> <a name="GoogleOidc" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity.property.googleOidc"></a>
+
+```go
+GoogleOidc DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc">DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc</a>
+
+Specifies the Google Cloud workload identity federation configuration that DataSync uses to obtain an access token for your Google Cloud Storage bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#google_oidc DatasyncLocationObjectStorage#google_oidc}
+
+---
+
+### DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc <a name="DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+
+&datasynclocationobjectstorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc {
+	IdentityPoolName: *string,
+	IdentityProviderName: *string,
+	ProjectName: *string,
+	ProjectNumber: *string,
+}
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.property.identityPoolName">IdentityPoolName</a></code> | <code>*string</code> | The name of the Google Cloud workload identity pool that DataSync federates with. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.property.identityProviderName">IdentityProviderName</a></code> | <code>*string</code> | The name of the OIDC identity provider configured in the Google Cloud workload identity pool. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.property.projectName">ProjectName</a></code> | <code>*string</code> | The human-readable Google Cloud project name. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.property.projectNumber">ProjectNumber</a></code> | <code>*string</code> | The numeric Google Cloud project ID, as a string. |
+
+---
+
+##### `IdentityPoolName`<sup>Optional</sup> <a name="IdentityPoolName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.property.identityPoolName"></a>
+
+```go
+IdentityPoolName *string
+```
+
+- *Type:* *string
+
+The name of the Google Cloud workload identity pool that DataSync federates with.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#identity_pool_name DatasyncLocationObjectStorage#identity_pool_name}
+
+---
+
+##### `IdentityProviderName`<sup>Optional</sup> <a name="IdentityProviderName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.property.identityProviderName"></a>
+
+```go
+IdentityProviderName *string
+```
+
+- *Type:* *string
+
+The name of the OIDC identity provider configured in the Google Cloud workload identity pool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#identity_provider_name DatasyncLocationObjectStorage#identity_provider_name}
+
+---
+
+##### `ProjectName`<sup>Optional</sup> <a name="ProjectName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.property.projectName"></a>
+
+```go
+ProjectName *string
+```
+
+- *Type:* *string
+
+The human-readable Google Cloud project name.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#project_name DatasyncLocationObjectStorage#project_name}
+
+---
+
+##### `ProjectNumber`<sup>Optional</sup> <a name="ProjectNumber" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.property.projectNumber"></a>
+
+```go
+ProjectNumber *string
+```
+
+- *Type:* *string
+
+The numeric Google Cloud project ID, as a string.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#project_number DatasyncLocationObjectStorage#project_number}
 
 ---
 
@@ -1544,7 +1768,7 @@ Key *string
 
 The key for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#key DatasyncLocationObjectStorage#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#key DatasyncLocationObjectStorage#key}
 
 ---
 
@@ -1558,7 +1782,7 @@ Value *string
 
 The value for an AWS resource tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#value DatasyncLocationObjectStorage#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#value DatasyncLocationObjectStorage#value}
 
 ---
 
@@ -2150,6 +2374,982 @@ func SecretArn() *string
 ---
 
 ##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageCustomSecretConfigOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference <a name="DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+
+datasynclocationobjectstorage.NewDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resetIdentityPoolName">ResetIdentityPoolName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resetIdentityProviderName">ResetIdentityProviderName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resetProjectName">ResetProjectName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resetProjectNumber">ResetProjectNumber</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetIdentityPoolName` <a name="ResetIdentityPoolName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resetIdentityPoolName"></a>
+
+```go
+func ResetIdentityPoolName()
+```
+
+##### `ResetIdentityProviderName` <a name="ResetIdentityProviderName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resetIdentityProviderName"></a>
+
+```go
+func ResetIdentityProviderName()
+```
+
+##### `ResetProjectName` <a name="ResetProjectName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resetProjectName"></a>
+
+```go
+func ResetProjectName()
+```
+
+##### `ResetProjectNumber` <a name="ResetProjectNumber" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resetProjectNumber"></a>
+
+```go
+func ResetProjectNumber()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityPoolNameInput">IdentityPoolNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityProviderNameInput">IdentityProviderNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectNameInput">ProjectNameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectNumberInput">ProjectNumberInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityPoolName">IdentityPoolName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityProviderName">IdentityProviderName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectName">ProjectName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectNumber">ProjectNumber</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `IdentityPoolNameInput`<sup>Optional</sup> <a name="IdentityPoolNameInput" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityPoolNameInput"></a>
+
+```go
+func IdentityPoolNameInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `IdentityProviderNameInput`<sup>Optional</sup> <a name="IdentityProviderNameInput" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityProviderNameInput"></a>
+
+```go
+func IdentityProviderNameInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ProjectNameInput`<sup>Optional</sup> <a name="ProjectNameInput" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectNameInput"></a>
+
+```go
+func ProjectNameInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ProjectNumberInput`<sup>Optional</sup> <a name="ProjectNumberInput" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectNumberInput"></a>
+
+```go
+func ProjectNumberInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `IdentityPoolName`<sup>Required</sup> <a name="IdentityPoolName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityPoolName"></a>
+
+```go
+func IdentityPoolName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `IdentityProviderName`<sup>Required</sup> <a name="IdentityProviderName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityProviderName"></a>
+
+```go
+func IdentityProviderName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ProjectName`<sup>Required</sup> <a name="ProjectName" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectName"></a>
+
+```go
+func ProjectName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ProjectNumber`<sup>Required</sup> <a name="ProjectNumber" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectNumber"></a>
+
+```go
+func ProjectNumber() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference <a name="DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+
+datasynclocationobjectstorage.NewDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.putGoogleOidc">PutGoogleOidc</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.resetGoogleOidc">ResetGoogleOidc</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutGoogleOidc` <a name="PutGoogleOidc" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.putGoogleOidc"></a>
+
+```go
+func PutGoogleOidc(value DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.putGoogleOidc.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc">DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc</a>
+
+---
+
+##### `ResetGoogleOidc` <a name="ResetGoogleOidc" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.resetGoogleOidc"></a>
+
+```go
+func ResetGoogleOidc()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.googleOidc">GoogleOidc</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference">DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.googleOidcInput">GoogleOidcInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `GoogleOidc`<sup>Required</sup> <a name="GoogleOidc" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.googleOidc"></a>
+
+```go
+func GoogleOidc() DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference">DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference</a>
+
+---
+
+##### `GoogleOidcInput`<sup>Optional</sup> <a name="GoogleOidcInput" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.googleOidcInput"></a>
+
+```go
+func GoogleOidcInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+
+### DatasyncLocationObjectStorageFederatedIdentityOutputReference <a name="DatasyncLocationObjectStorageFederatedIdentityOutputReference" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/datasynclocationobjectstorage"
+
+datasynclocationobjectstorage.NewDatasyncLocationObjectStorageFederatedIdentityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DatasyncLocationObjectStorageFederatedIdentityOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.putExternalIdentity">PutExternalIdentity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.resetAwsIamRole">ResetAwsIamRole</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.resetExternalIdentity">ResetExternalIdentity</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutExternalIdentity` <a name="PutExternalIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.putExternalIdentity"></a>
+
+```go
+func PutExternalIdentity(value DatasyncLocationObjectStorageFederatedIdentityExternalIdentity)
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.putExternalIdentity.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentity">DatasyncLocationObjectStorageFederatedIdentityExternalIdentity</a>
+
+---
+
+##### `ResetAwsIamRole` <a name="ResetAwsIamRole" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.resetAwsIamRole"></a>
+
+```go
+func ResetAwsIamRole()
+```
+
+##### `ResetExternalIdentity` <a name="ResetExternalIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.resetExternalIdentity"></a>
+
+```go
+func ResetExternalIdentity()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.externalIdentity">ExternalIdentity</a></code> | <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference">DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.awsIamRoleInput">AwsIamRoleInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.externalIdentityInput">ExternalIdentityInput</a></code> | <code>interface{}</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.awsIamRole">AwsIamRole</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.internalValue">InternalValue</a></code> | <code>interface{}</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExternalIdentity`<sup>Required</sup> <a name="ExternalIdentity" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.externalIdentity"></a>
+
+```go
+func ExternalIdentity() DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference">DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference</a>
+
+---
+
+##### `AwsIamRoleInput`<sup>Optional</sup> <a name="AwsIamRoleInput" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.awsIamRoleInput"></a>
+
+```go
+func AwsIamRoleInput() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ExternalIdentityInput`<sup>Optional</sup> <a name="ExternalIdentityInput" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.externalIdentityInput"></a>
+
+```go
+func ExternalIdentityInput() interface{}
+```
+
+- *Type:* interface{}
+
+---
+
+##### `AwsIamRole`<sup>Required</sup> <a name="AwsIamRole" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.awsIamRole"></a>
+
+```go
+func AwsIamRole() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.datasyncLocationObjectStorage.DatasyncLocationObjectStorageFederatedIdentityOutputReference.property.internalValue"></a>
 
 ```go
 func InternalValue() interface{}

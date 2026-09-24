@@ -4,7 +4,7 @@
 
 ### DataAwsccResiliencehubv2Policy <a name="DataAwsccResiliencehubv2Policy" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/resiliencehubv2_policy awscc_resiliencehubv2_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/resiliencehubv2_policy awscc_resiliencehubv2_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccResiliencehubv2Po
 
 The id of the existing DataAwsccResiliencehubv2Policy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/resiliencehubv2_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/resiliencehubv2_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -425,6 +425,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.multiRegion">MultiRegion</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyMultiRegionOutputReference">DataAwsccResiliencehubv2PolicyMultiRegionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.name">Name</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.policyArn">PolicyArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.sharingEnabled">SharingEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2PolicyTagsList">DataAwsccResiliencehubv2PolicyTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.updatedAt">UpdatedAt</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
@@ -654,6 +655,16 @@ func PolicyArn() *string
 
 ---
 
+##### `SharingEnabled`<sup>Required</sup> <a name="SharingEnabled" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.sharingEnabled"></a>
+
+```go
+func SharingEnabled() IResolvable
+```
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable
+
+---
+
 ##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-awscc.dataAwsccResiliencehubv2Policy.DataAwsccResiliencehubv2Policy.property.tags"></a>
 
 ```go
@@ -841,7 +852,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/resiliencehubv2_policy#id DataAwsccResiliencehubv2Policy#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/resiliencehubv2_policy#id DataAwsccResiliencehubv2Policy#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

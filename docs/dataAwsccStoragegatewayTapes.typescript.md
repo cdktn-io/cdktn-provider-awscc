@@ -4,7 +4,7 @@
 
 ### DataAwsccStoragegatewayTapes <a name="DataAwsccStoragegatewayTapes" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/storagegateway_tapes awscc_storagegateway_tapes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/storagegateway_tapes awscc_storagegateway_tapes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccStoragegatewayTapes.DataAwsccStoragegatewayTapes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccStoragegatewayTap
 
 The id of the existing DataAwsccStoragegatewayTapes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/storagegateway_tapes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/storagegateway_tapes#import import section} in the documentation of this resource for the id to use
 
 ---
 

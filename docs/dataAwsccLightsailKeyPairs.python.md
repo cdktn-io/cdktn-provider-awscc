@@ -4,7 +4,7 @@
 
 ### DataAwsccLightsailKeyPairs <a name="DataAwsccLightsailKeyPairs" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lightsail_key_pairs awscc_lightsail_key_pairs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLightsailKeyPairs.DataAwsccLightsailKeyPairs.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccLightsailKeyPairs
 
 The id of the existing DataAwsccLightsailKeyPairs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/lightsail_key_pairs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lightsail_key_pairs#import import section} in the documentation of this resource for the id to use
 
 ---
 

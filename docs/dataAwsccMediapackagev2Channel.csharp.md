@@ -4,7 +4,7 @@
 
 ### DataAwsccMediapackagev2Channel <a name="DataAwsccMediapackagev2Channel" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediapackagev2_channel awscc_mediapackagev2_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediapackagev2Cha
 
 The id of the existing DataAwsccMediapackagev2Channel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediapackagev2_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediapackagev2_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,6 +416,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.arn">Arn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.attachedMultiviewChannels">AttachedMultiviewChannels</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.channelGroupName">ChannelGroupName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.channelName">ChannelName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.createdAt">CreatedAt</a></code> | <code>string</code> | *No description.* |
@@ -425,6 +426,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.inputSwitchConfiguration">InputSwitchConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelInputSwitchConfigurationOutputReference">DataAwsccMediapackagev2ChannelInputSwitchConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.inputType">InputType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.modifiedAt">ModifiedAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.multiviewConfiguration">MultiviewConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference">DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.outputHeaderConfiguration">OutputHeaderConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelOutputHeaderConfigurationOutputReference">DataAwsccMediapackagev2ChannelOutputHeaderConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.outputLockingMode">OutputLockingMode</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelTagsList">DataAwsccMediapackagev2ChannelTagsList</a></code> | *No description.* |
@@ -565,6 +567,16 @@ public string Arn { get; }
 
 ---
 
+##### `AttachedMultiviewChannels`<sup>Required</sup> <a name="AttachedMultiviewChannels" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.attachedMultiviewChannels"></a>
+
+```csharp
+public string[] AttachedMultiviewChannels { get; }
+```
+
+- *Type:* string[]
+
+---
+
 ##### `ChannelGroupName`<sup>Required</sup> <a name="ChannelGroupName" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.channelGroupName"></a>
 
 ```csharp
@@ -652,6 +664,16 @@ public string ModifiedAt { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `MultiviewConfiguration`<sup>Required</sup> <a name="MultiviewConfiguration" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2Channel.property.multiviewConfiguration"></a>
+
+```csharp
+public DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference MultiviewConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference">DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference</a>
 
 ---
 
@@ -839,7 +861,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/mediapackagev2_channel#id DataAwsccMediapackagev2Channel#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediapackagev2_channel#id DataAwsccMediapackagev2Channel#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -867,6 +889,19 @@ new DataAwsccMediapackagev2ChannelIngestEndpoints {
 using Io.Cdktn.Providers.Awscc;
 
 new DataAwsccMediapackagev2ChannelInputSwitchConfiguration {
+
+};
+```
+
+
+### DataAwsccMediapackagev2ChannelMultiviewConfiguration <a name="DataAwsccMediapackagev2ChannelMultiviewConfiguration" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccMediapackagev2ChannelMultiviewConfiguration {
 
 };
 ```
@@ -1605,6 +1640,277 @@ public DataAwsccMediapackagev2ChannelInputSwitchConfiguration InternalValue { ge
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelInputSwitchConfiguration">DataAwsccMediapackagev2ChannelInputSwitchConfiguration</a>
+
+---
+
+
+### DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference <a name="DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableLayouts">AvailableLayouts</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableSources">AvailableSources</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfiguration">DataAwsccMediapackagev2ChannelMultiviewConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AvailableLayouts`<sup>Required</sup> <a name="AvailableLayouts" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableLayouts"></a>
+
+```csharp
+public string[] AvailableLayouts { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `AvailableSources`<sup>Required</sup> <a name="AvailableSources" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableSources"></a>
+
+```csharp
+public string[] AvailableSources { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccMediapackagev2ChannelMultiviewConfiguration InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediapackagev2Channel.DataAwsccMediapackagev2ChannelMultiviewConfiguration">DataAwsccMediapackagev2ChannelMultiviewConfiguration</a>
 
 ---
 

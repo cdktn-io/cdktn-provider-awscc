@@ -4,7 +4,7 @@
 
 ### MacieMember <a name="MacieMember" id="@cdktn/provider-awscc.macieMember.MacieMember"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member awscc_macie_member}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member awscc_macie_member}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.macieMember.MacieMember.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the MacieMember to import.
 
 The id of the existing MacieMember that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -950,7 +950,7 @@ public string AccountId { get; set; }
 
 The AWS account ID for the account to associate with the Amazon Macie administrator account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#account_id MacieMember#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#account_id MacieMember#account_id}
 
 ---
 
@@ -966,7 +966,7 @@ The email address for the account to associate with the Amazon Macie administrat
 
 Required by the Amazon Macie CreateMember API at creation time; it is write-only because the service does not return it (it is null when the account is associated through AWS Organizations).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#email MacieMember#email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#email MacieMember#email}
 
 ---
 
@@ -980,7 +980,7 @@ public IResolvable|MacieMemberTags[] Tags { get; set; }
 
 The tags to associate with the member account in Amazon Macie.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#tags MacieMember#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#tags MacieMember#tags}
 
 ---
 
@@ -1016,7 +1016,7 @@ public string Key { get; set; }
 
 The key of the tag. The maximum length of a tag key is 128 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#key MacieMember#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#key MacieMember#key}
 
 ---
 
@@ -1030,7 +1030,7 @@ public string Value { get; set; }
 
 The value of the tag. The maximum length of a tag value is 256 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#value MacieMember#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#value MacieMember#value}
 
 ---
 

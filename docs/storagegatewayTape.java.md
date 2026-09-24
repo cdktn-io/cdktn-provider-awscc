@@ -4,7 +4,7 @@
 
 ### StoragegatewayTape <a name="StoragegatewayTape" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTape"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape awscc_storagegateway_tape}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape awscc_storagegateway_tape}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayTape.StoragegatewayTape.Initializer"></a>
 
@@ -118,7 +118,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) of the Tape Gateway that hosts the virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#gateway_arn StoragegatewayTape#gateway_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#gateway_arn StoragegatewayTape#gateway_arn}
 
 ---
 
@@ -128,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The size, in bytes, of the virtual tape that you want to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tape_size_in_bytes StoragegatewayTape#tape_size_in_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tape_size_in_bytes StoragegatewayTape#tape_size_in_bytes}
 
 ---
 
@@ -140,7 +140,7 @@ Set to true to use Amazon S3 server-side encryption with your own KMS key, or fa
 
 Optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#kms_encrypted StoragegatewayTape#kms_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#kms_encrypted StoragegatewayTape#kms_encrypted}
 
 ---
 
@@ -152,7 +152,7 @@ The Amazon Resource Name (ARN) of a symmetric customer master key (CMK) used for
 
 This value must be set if KMSEncrypted is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#kms_key StoragegatewayTape#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#kms_key StoragegatewayTape#kms_key}
 
 ---
 
@@ -164,7 +164,7 @@ The ID of the pool that you want to add your tape to for archiving.
 
 Tapes in this pool are archived in the S3 storage class that is associated with the pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#pool_id StoragegatewayTape#pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#pool_id StoragegatewayTape#pool_id}
 
 ---
 
@@ -174,7 +174,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of up to 50 tags to assign to the virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tags StoragegatewayTape#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tags StoragegatewayTape#tags}
 
 ---
 
@@ -186,7 +186,7 @@ The barcode that you want to assign to the virtual tape.
 
 Barcodes cannot be reused, even after a tape is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tape_barcode StoragegatewayTape#tape_barcode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tape_barcode StoragegatewayTape#tape_barcode}
 
 ---
 
@@ -196,7 +196,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Set to true to create a write-once-read-many (WORM) virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#worm StoragegatewayTape#worm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#worm StoragegatewayTape#worm}
 
 ---
 
@@ -700,7 +700,7 @@ The construct id used in the generated config for the StoragegatewayTape to impo
 
 The id of the existing StoragegatewayTape that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1254,7 +1254,7 @@ public java.lang.String getGatewayArn();
 
 The Amazon Resource Name (ARN) of the Tape Gateway that hosts the virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#gateway_arn StoragegatewayTape#gateway_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#gateway_arn StoragegatewayTape#gateway_arn}
 
 ---
 
@@ -1268,7 +1268,7 @@ public java.lang.Number getTapeSizeInBytes();
 
 The size, in bytes, of the virtual tape that you want to create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tape_size_in_bytes StoragegatewayTape#tape_size_in_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tape_size_in_bytes StoragegatewayTape#tape_size_in_bytes}
 
 ---
 
@@ -1284,7 +1284,7 @@ Set to true to use Amazon S3 server-side encryption with your own KMS key, or fa
 
 Optional.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#kms_encrypted StoragegatewayTape#kms_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#kms_encrypted StoragegatewayTape#kms_encrypted}
 
 ---
 
@@ -1300,7 +1300,7 @@ The Amazon Resource Name (ARN) of a symmetric customer master key (CMK) used for
 
 This value must be set if KMSEncrypted is true.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#kms_key StoragegatewayTape#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#kms_key StoragegatewayTape#kms_key}
 
 ---
 
@@ -1316,7 +1316,7 @@ The ID of the pool that you want to add your tape to for archiving.
 
 Tapes in this pool are archived in the S3 storage class that is associated with the pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#pool_id StoragegatewayTape#pool_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#pool_id StoragegatewayTape#pool_id}
 
 ---
 
@@ -1330,7 +1330,7 @@ public IResolvable|java.util.List<StoragegatewayTapeTags> getTags();
 
 A list of up to 50 tags to assign to the virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tags StoragegatewayTape#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tags StoragegatewayTape#tags}
 
 ---
 
@@ -1346,7 +1346,7 @@ The barcode that you want to assign to the virtual tape.
 
 Barcodes cannot be reused, even after a tape is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#tape_barcode StoragegatewayTape#tape_barcode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#tape_barcode StoragegatewayTape#tape_barcode}
 
 ---
 
@@ -1360,7 +1360,7 @@ public java.lang.Boolean|IResolvable getWorm();
 
 Set to true to create a write-once-read-many (WORM) virtual tape.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#worm StoragegatewayTape#worm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#worm StoragegatewayTape#worm}
 
 ---
 
@@ -1396,7 +1396,7 @@ public java.lang.String getKey();
 
 The tag key. Cannot be prefixed with aws:.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#key StoragegatewayTape#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#key StoragegatewayTape#key}
 
 ---
 
@@ -1410,7 +1410,7 @@ public java.lang.String getValue();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/storagegateway_tape#value StoragegatewayTape#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_tape#value StoragegatewayTape#value}
 
 ---
 

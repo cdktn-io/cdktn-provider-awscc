@@ -4,7 +4,7 @@
 
 ### DataAwsccChimeVoiceConnectors <a name="DataAwsccChimeVoiceConnectors" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectors"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_voice_connectors awscc_chime_voice_connectors}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_voice_connectors awscc_chime_voice_connectors}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeVoiceConnectors.DataAwsccChimeVoiceConnectors.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccChimeVoiceConnect
 
 The id of the existing DataAwsccChimeVoiceConnectors that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_voice_connectors#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_voice_connectors#import import section} in the documentation of this resource for the id to use
 
 ---
 

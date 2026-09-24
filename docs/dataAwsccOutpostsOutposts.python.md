@@ -4,7 +4,7 @@
 
 ### DataAwsccOutpostsOutposts <a name="DataAwsccOutpostsOutposts" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutposts"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/outposts_outposts awscc_outposts_outposts}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/outposts_outposts awscc_outposts_outposts}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccOutpostsOutposts.DataAwsccOutpostsOutposts.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccOutpostsOutposts 
 
 The id of the existing DataAwsccOutpostsOutposts that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/outposts_outposts#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/outposts_outposts#import import section} in the documentation of this resource for the id to use
 
 ---
 

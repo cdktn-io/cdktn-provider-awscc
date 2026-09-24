@@ -4,7 +4,7 @@
 
 ### DataAwsccChimeSipMediaApplications <a name="DataAwsccChimeSipMediaApplications" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplications.DataAwsccChimeSipMediaApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_sip_media_applications awscc_chime_sip_media_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_sip_media_applications awscc_chime_sip_media_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeSipMediaApplications.DataAwsccChimeSipMediaApplications.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccChimeSipMediaAppl
 
 The id of the existing DataAwsccChimeSipMediaApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_sip_media_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_sip_media_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

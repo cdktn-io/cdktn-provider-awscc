@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2ApplicationStatusChecks <a name="DataAwsccEc2ApplicationStatusChecks" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecks"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_application_status_checks awscc_ec2_application_status_checks}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2ApplicationStatusChecks.DataAwsccEc2ApplicationStatusChecks.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2ApplicationSta
 
 The id of the existing DataAwsccEc2ApplicationStatusChecks that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/ec2_application_status_checks#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_application_status_checks#import import section} in the documentation of this resource for the id to use
 
 ---
 

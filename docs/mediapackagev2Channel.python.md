@@ -4,7 +4,7 @@
 
 ### Mediapackagev2Channel <a name="Mediapackagev2Channel" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer"></a>
 
@@ -26,6 +26,7 @@ mediapackagev2Channel.Mediapackagev2Channel(
   description: str = None,
   input_switch_configuration: Mediapackagev2ChannelInputSwitchConfiguration = None,
   input_type: str = None,
+  multiview_configuration: Mediapackagev2ChannelMultiviewConfiguration = None,
   output_header_configuration: Mediapackagev2ChannelOutputHeaderConfiguration = None,
   output_locking_mode: str = None,
   tags: IResolvable | typing.List[Mediapackagev2ChannelTags] = None
@@ -43,14 +44,15 @@ mediapackagev2Channel.Mediapackagev2Channel(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.channelGroupName">channel_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.channelGroupName">channel_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.description">description</a></code> | <code>str</code> | <p>Enter any descriptive text that helps you to identify the channel.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.inputSwitchConfiguration">input_switch_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelInputSwitchConfiguration">Mediapackagev2ChannelInputSwitchConfiguration</a></code> | <p>The configuration for input switching based on the media quality confidence score (MQCS) as provided from AWS Elemental MediaLive.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.inputType">input_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.inputType">input_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.multiviewConfiguration">multiview_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a></code> | <p>The multiview configuration for a channel. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.outputHeaderConfiguration">output_header_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelOutputHeaderConfiguration">Mediapackagev2ChannelOutputHeaderConfiguration</a></code> | <p>The settings for what common media server data (CMSD) headers AWS Elemental MediaPackage includes in responses to the CDN.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.outputLockingMode">output_locking_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.outputLockingMode">output_locking_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}. |
 
 ---
 
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}.
 
 ---
 
@@ -126,7 +128,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}.
 
 ---
 
@@ -136,7 +138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>Enter any descriptive text that helps you to identify the channel.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#description Mediapackagev2Channel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#description Mediapackagev2Channel#description}
 
 ---
 
@@ -146,7 +148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The configuration for input switching based on the media quality confidence score (MQCS) as provided from AWS Elemental MediaLive.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#input_switch_configuration Mediapackagev2Channel#input_switch_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_switch_configuration Mediapackagev2Channel#input_switch_configuration}
 
 ---
 
@@ -154,7 +156,19 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}.
+
+---
+
+##### `multiview_configuration`<sup>Optional</sup> <a name="multiview_configuration" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer.parameter.multiviewConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a>
+
+<p>The multiview configuration for a channel.
+
+A multiview channel composites video from several source channels into a single tiled output stream. Players receive one standard HLS or DASH stream instead of several separate streams. This setting is required when <code>InputType</code> is <code>MULTIVIEW</code>, and can't be set for any other input type.</p>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#multiview_configuration Mediapackagev2Channel#multiview_configuration}
 
 ---
 
@@ -164,7 +178,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 <p>The settings for what common media server data (CMSD) headers AWS Elemental MediaPackage includes in responses to the CDN.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#output_header_configuration Mediapackagev2Channel#output_header_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_header_configuration Mediapackagev2Channel#output_header_configuration}
 
 ---
 
@@ -172,7 +186,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}.
 
 ---
 
@@ -180,7 +194,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}.
 
 ---
 
@@ -213,11 +227,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.putInputSwitchConfiguration">put_input_switch_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.putMultiviewConfiguration">put_multiview_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.putOutputHeaderConfiguration">put_output_header_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetDescription">reset_description</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetInputSwitchConfiguration">reset_input_switch_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetInputType">reset_input_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetMultiviewConfiguration">reset_multiview_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetOutputHeaderConfiguration">reset_output_header_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetOutputLockingMode">reset_output_locking_mode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetTags">reset_tags</a></code> | *No description.* |
@@ -589,7 +605,7 @@ def put_input_switch_configuration(
 
 Default is false. This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#mqcs_input_switching Mediapackagev2Channel#mqcs_input_switching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#mqcs_input_switching Mediapackagev2Channel#mqcs_input_switching}
 
 ---
 
@@ -601,7 +617,40 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Select <code>1</code> to prefer the first ingest endpoint, or <code>2</code> to prefer the second ingest endpoint. If you don't specify a preferred input, MediaPackage uses its default switching behavior when MQCS scores are equal.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#preferred_input Mediapackagev2Channel#preferred_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#preferred_input Mediapackagev2Channel#preferred_input}
+
+---
+
+##### `put_multiview_configuration` <a name="put_multiview_configuration" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.putMultiviewConfiguration"></a>
+
+```python
+def put_multiview_configuration(
+  available_layouts: typing.List[str] = None,
+  available_sources: typing.List[str] = None
+) -> None
+```
+
+###### `available_layouts`<sup>Optional</sup> <a name="available_layouts" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.putMultiviewConfiguration.parameter.availableLayouts"></a>
+
+- *Type:* typing.List[str]
+
+<p>The tile layouts that players can request from this multiview channel's origin endpoints.
+
+Only the layouts that you list here are available. Each layout must appear at most once.</p>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#available_layouts Mediapackagev2Channel#available_layouts}
+
+---
+
+###### `available_sources`<sup>Optional</sup> <a name="available_sources" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.putMultiviewConfiguration.parameter.availableSources"></a>
+
+- *Type:* typing.List[str]
+
+<p>The channels that players can use as tiles in this multiview channel's output.
+
+Each source channel must be in the same channel group as the multiview channel, and must have an <code>InputType</code> of <code>CMAF</code>. Only the channels that you list here are available as tiles.</p>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#available_sources Mediapackagev2Channel#available_sources}
 
 ---
 
@@ -621,7 +670,7 @@ def put_output_header_configuration(
 
 This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
 
 ---
 
@@ -655,6 +704,12 @@ def reset_input_switch_configuration() -> None
 
 ```python
 def reset_input_type() -> None
+```
+
+##### `reset_multiview_configuration` <a name="reset_multiview_configuration" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetMultiviewConfiguration"></a>
+
+```python
+def reset_multiview_configuration() -> None
 ```
 
 ##### `reset_output_header_configuration` <a name="reset_output_header_configuration" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.resetOutputHeaderConfiguration"></a>
@@ -789,7 +844,7 @@ The construct id used in the generated config for the Mediapackagev2Channel to i
 
 The id of the existing Mediapackagev2Channel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -820,12 +875,14 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.arn">arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.attachedMultiviewChannels">attached_multiview_channels</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.createdAt">created_at</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.id">id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.ingestEndpoints">ingest_endpoints</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelIngestEndpointsList">Mediapackagev2ChannelIngestEndpointsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.ingestEndpointUrls">ingest_endpoint_urls</a></code> | <code>typing.List[str]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.inputSwitchConfiguration">input_switch_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelInputSwitchConfigurationOutputReference">Mediapackagev2ChannelInputSwitchConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.modifiedAt">modified_at</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.multiviewConfiguration">multiview_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference">Mediapackagev2ChannelMultiviewConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.outputHeaderConfiguration">output_header_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelOutputHeaderConfigurationOutputReference">Mediapackagev2ChannelOutputHeaderConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTagsList">Mediapackagev2ChannelTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.channelGroupNameInput">channel_group_name_input</a></code> | <code>str</code> | *No description.* |
@@ -833,6 +890,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.descriptionInput">description_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.inputSwitchConfigurationInput">input_switch_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelInputSwitchConfiguration">Mediapackagev2ChannelInputSwitchConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.inputTypeInput">input_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.multiviewConfigurationInput">multiview_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.outputHeaderConfigurationInput">output_header_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelOutputHeaderConfiguration">Mediapackagev2ChannelOutputHeaderConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.outputLockingModeInput">output_locking_mode_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>]</code> | *No description.* |
@@ -996,6 +1054,16 @@ arn: str
 
 ---
 
+##### `attached_multiview_channels`<sup>Required</sup> <a name="attached_multiview_channels" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.attachedMultiviewChannels"></a>
+
+```python
+attached_multiview_channels: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
 ##### `created_at`<sup>Required</sup> <a name="created_at" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.createdAt"></a>
 
 ```python
@@ -1053,6 +1121,16 @@ modified_at: str
 ```
 
 - *Type:* str
+
+---
+
+##### `multiview_configuration`<sup>Required</sup> <a name="multiview_configuration" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.multiviewConfiguration"></a>
+
+```python
+multiview_configuration: Mediapackagev2ChannelMultiviewConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference">Mediapackagev2ChannelMultiviewConfigurationOutputReference</a>
 
 ---
 
@@ -1123,6 +1201,16 @@ input_type_input: str
 ```
 
 - *Type:* str
+
+---
+
+##### `multiview_configuration_input`<sup>Optional</sup> <a name="multiview_configuration_input" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.property.multiviewConfigurationInput"></a>
+
+```python
+multiview_configuration_input: IResolvable | Mediapackagev2ChannelMultiviewConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a>
 
 ---
 
@@ -1246,6 +1334,7 @@ mediapackagev2Channel.Mediapackagev2ChannelConfig(
   description: str = None,
   input_switch_configuration: Mediapackagev2ChannelInputSwitchConfiguration = None,
   input_type: str = None,
+  multiview_configuration: Mediapackagev2ChannelMultiviewConfiguration = None,
   output_header_configuration: Mediapackagev2ChannelOutputHeaderConfiguration = None,
   output_locking_mode: str = None,
   tags: IResolvable | typing.List[Mediapackagev2ChannelTags] = None
@@ -1263,14 +1352,15 @@ mediapackagev2Channel.Mediapackagev2ChannelConfig(
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.channelGroupName">channel_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.channelGroupName">channel_group_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.channelName">channel_name</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.description">description</a></code> | <code>str</code> | <p>Enter any descriptive text that helps you to identify the channel.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.inputSwitchConfiguration">input_switch_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelInputSwitchConfiguration">Mediapackagev2ChannelInputSwitchConfiguration</a></code> | <p>The configuration for input switching based on the media quality confidence score (MQCS) as provided from AWS Elemental MediaLive.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.inputType">input_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.inputType">input_type</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.multiviewConfiguration">multiview_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a></code> | <p>The multiview configuration for a channel. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.outputHeaderConfiguration">output_header_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelOutputHeaderConfiguration">Mediapackagev2ChannelOutputHeaderConfiguration</a></code> | <p>The settings for what common media server data (CMSD) headers AWS Elemental MediaPackage includes in responses to the CDN.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.outputLockingMode">output_locking_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.outputLockingMode">output_locking_mode</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}. |
 
 ---
 
@@ -1352,7 +1442,7 @@ channel_group_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}.
 
 ---
 
@@ -1364,7 +1454,7 @@ channel_name: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}.
 
 ---
 
@@ -1378,7 +1468,7 @@ description: str
 
 <p>Enter any descriptive text that helps you to identify the channel.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#description Mediapackagev2Channel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#description Mediapackagev2Channel#description}
 
 ---
 
@@ -1392,7 +1482,7 @@ input_switch_configuration: Mediapackagev2ChannelInputSwitchConfiguration
 
 <p>The configuration for input switching based on the media quality confidence score (MQCS) as provided from AWS Elemental MediaLive.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#input_switch_configuration Mediapackagev2Channel#input_switch_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_switch_configuration Mediapackagev2Channel#input_switch_configuration}
 
 ---
 
@@ -1404,7 +1494,23 @@ input_type: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}.
+
+---
+
+##### `multiview_configuration`<sup>Optional</sup> <a name="multiview_configuration" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.multiviewConfiguration"></a>
+
+```python
+multiview_configuration: Mediapackagev2ChannelMultiviewConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a>
+
+<p>The multiview configuration for a channel.
+
+A multiview channel composites video from several source channels into a single tiled output stream. Players receive one standard HLS or DASH stream instead of several separate streams. This setting is required when <code>InputType</code> is <code>MULTIVIEW</code>, and can't be set for any other input type.</p>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#multiview_configuration Mediapackagev2Channel#multiview_configuration}
 
 ---
 
@@ -1418,7 +1524,7 @@ output_header_configuration: Mediapackagev2ChannelOutputHeaderConfiguration
 
 <p>The settings for what common media server data (CMSD) headers AWS Elemental MediaPackage includes in responses to the CDN.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#output_header_configuration Mediapackagev2Channel#output_header_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_header_configuration Mediapackagev2Channel#output_header_configuration}
 
 ---
 
@@ -1430,7 +1536,7 @@ output_locking_mode: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}.
 
 ---
 
@@ -1442,7 +1548,7 @@ tags: IResolvable | typing.List[Mediapackagev2ChannelTags]
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}.
 
 ---
 
@@ -1491,7 +1597,7 @@ mqcs_input_switching: bool | IResolvable
 
 Default is false. This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#mqcs_input_switching Mediapackagev2Channel#mqcs_input_switching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#mqcs_input_switching Mediapackagev2Channel#mqcs_input_switching}
 
 ---
 
@@ -1507,7 +1613,61 @@ preferred_input: typing.Union[int, float]
 
 Select <code>1</code> to prefer the first ingest endpoint, or <code>2</code> to prefer the second ingest endpoint. If you don't specify a preferred input, MediaPackage uses its default switching behavior when MQCS scores are equal.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#preferred_input Mediapackagev2Channel#preferred_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#preferred_input Mediapackagev2Channel#preferred_input}
+
+---
+
+### Mediapackagev2ChannelMultiviewConfiguration <a name="Mediapackagev2ChannelMultiviewConfiguration" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediapackagev2_channel
+
+mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration(
+  available_layouts: typing.List[str] = None,
+  available_sources: typing.List[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration.property.availableLayouts">available_layouts</a></code> | <code>typing.List[str]</code> | <p>The tile layouts that players can request from this multiview channel's origin endpoints. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration.property.availableSources">available_sources</a></code> | <code>typing.List[str]</code> | <p>The channels that players can use as tiles in this multiview channel's output. |
+
+---
+
+##### `available_layouts`<sup>Optional</sup> <a name="available_layouts" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration.property.availableLayouts"></a>
+
+```python
+available_layouts: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+<p>The tile layouts that players can request from this multiview channel's origin endpoints.
+
+Only the layouts that you list here are available. Each layout must appear at most once.</p>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#available_layouts Mediapackagev2Channel#available_layouts}
+
+---
+
+##### `available_sources`<sup>Optional</sup> <a name="available_sources" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration.property.availableSources"></a>
+
+```python
+available_sources: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+<p>The channels that players can use as tiles in this multiview channel's output.
+
+Each source channel must be in the same channel group as the multiview channel, and must have an <code>InputType</code> of <code>CMAF</code>. Only the channels that you list here are available as tiles.</p>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#available_sources Mediapackagev2Channel#available_sources}
 
 ---
 
@@ -1543,7 +1703,7 @@ publish_mqcs: bool | IResolvable
 
 This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
 
 ---
 
@@ -1564,8 +1724,8 @@ mediapackagev2Channel.Mediapackagev2ChannelTags(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}. |
 
 ---
 
@@ -1577,7 +1737,7 @@ key: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}.
 
 ---
 
@@ -1589,7 +1749,7 @@ value: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}.
 
 ---
 
@@ -2398,6 +2558,338 @@ internal_value: IResolvable | Mediapackagev2ChannelInputSwitchConfiguration
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelInputSwitchConfiguration">Mediapackagev2ChannelInputSwitchConfiguration</a>
+
+---
+
+
+### Mediapackagev2ChannelMultiviewConfigurationOutputReference <a name="Mediapackagev2ChannelMultiviewConfigurationOutputReference" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import mediapackagev2_channel
+
+mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.resetAvailableLayouts">reset_available_layouts</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.resetAvailableSources">reset_available_sources</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_available_layouts` <a name="reset_available_layouts" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.resetAvailableLayouts"></a>
+
+```python
+def reset_available_layouts() -> None
+```
+
+##### `reset_available_sources` <a name="reset_available_sources" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.resetAvailableSources"></a>
+
+```python
+def reset_available_sources() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableLayoutsInput">available_layouts_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableSourcesInput">available_sources_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableLayouts">available_layouts</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableSources">available_sources</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `available_layouts_input`<sup>Optional</sup> <a name="available_layouts_input" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableLayoutsInput"></a>
+
+```python
+available_layouts_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `available_sources_input`<sup>Optional</sup> <a name="available_sources_input" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableSourcesInput"></a>
+
+```python
+available_sources_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `available_layouts`<sup>Required</sup> <a name="available_layouts" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableLayouts"></a>
+
+```python
+available_layouts: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `available_sources`<sup>Required</sup> <a name="available_sources" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.availableSources"></a>
+
+```python
+available_sources: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | Mediapackagev2ChannelMultiviewConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a>
 
 ---
 
