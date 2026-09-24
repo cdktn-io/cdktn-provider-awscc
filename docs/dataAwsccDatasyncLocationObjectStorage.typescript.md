@@ -4,7 +4,7 @@
 
 ### DataAwsccDatasyncLocationObjectStorage <a name="DataAwsccDatasyncLocationObjectStorage" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_object_storage awscc_datasync_location_object_storage}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_object_storage awscc_datasync_location_object_storage}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccDatasyncLocationO
 
 The id of the existing DataAwsccDatasyncLocationObjectStorage that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -420,6 +420,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.property.bucketName">bucketName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.property.cmkSecretConfig">cmkSecretConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCmkSecretConfigOutputReference">DataAwsccDatasyncLocationObjectStorageCmkSecretConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.property.customSecretConfig">customSecretConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputReference">DataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.property.federatedIdentity">federatedIdentity</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference">DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.property.locationArn">locationArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.property.locationUri">locationUri</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.property.managedSecretConfig">managedSecretConfig</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageManagedSecretConfigOutputReference">DataAwsccDatasyncLocationObjectStorageManagedSecretConfigOutputReference</a></code> | *No description.* |
@@ -604,6 +605,16 @@ public readonly customSecretConfig: DataAwsccDatasyncLocationObjectStorageCustom
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputReference">DataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputReference</a>
+
+---
+
+##### `federatedIdentity`<sup>Required</sup> <a name="federatedIdentity" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorage.property.federatedIdentity"></a>
+
+```typescript
+public readonly federatedIdentity: DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference">DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference</a>
 
 ---
 
@@ -863,7 +874,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_object_storage#id DataAwsccDatasyncLocationObjectStorage#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_object_storage#id DataAwsccDatasyncLocationObjectStorage#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -878,6 +889,39 @@ If you experience problems setting this value it might not be settable. Please t
 import { dataAwsccDatasyncLocationObjectStorage } from '@cdktn/provider-awscc'
 
 const dataAwsccDatasyncLocationObjectStorageCustomSecretConfig: dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCustomSecretConfig = { ... }
+```
+
+
+### DataAwsccDatasyncLocationObjectStorageFederatedIdentity <a name="DataAwsccDatasyncLocationObjectStorageFederatedIdentity" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentity.Initializer"></a>
+
+```typescript
+import { dataAwsccDatasyncLocationObjectStorage } from '@cdktn/provider-awscc'
+
+const dataAwsccDatasyncLocationObjectStorageFederatedIdentity: dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentity = { ... }
+```
+
+
+### DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity <a name="DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity.Initializer"></a>
+
+```typescript
+import { dataAwsccDatasyncLocationObjectStorage } from '@cdktn/provider-awscc'
+
+const dataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity: dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity = { ... }
+```
+
+
+### DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc <a name="DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc.Initializer"></a>
+
+```typescript
+import { dataAwsccDatasyncLocationObjectStorage } from '@cdktn/provider-awscc'
+
+const dataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc: dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc = { ... }
 ```
 
 
@@ -1443,6 +1487,830 @@ public readonly internalValue: DataAwsccDatasyncLocationObjectStorageCustomSecre
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageCustomSecretConfig">DataAwsccDatasyncLocationObjectStorageCustomSecretConfig</a>
+
+---
+
+
+### DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference <a name="DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccDatasyncLocationObjectStorage } from '@cdktn/provider-awscc'
+
+new dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityPoolName">identityPoolName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityProviderName">identityProviderName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectName">projectName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectNumber">projectNumber</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc">DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `identityPoolName`<sup>Required</sup> <a name="identityPoolName" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityPoolName"></a>
+
+```typescript
+public readonly identityPoolName: string;
+```
+
+- *Type:* string
+
+---
+
+##### `identityProviderName`<sup>Required</sup> <a name="identityProviderName" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.identityProviderName"></a>
+
+```typescript
+public readonly identityProviderName: string;
+```
+
+- *Type:* string
+
+---
+
+##### `projectName`<sup>Required</sup> <a name="projectName" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectName"></a>
+
+```typescript
+public readonly projectName: string;
+```
+
+- *Type:* string
+
+---
+
+##### `projectNumber`<sup>Required</sup> <a name="projectNumber" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.projectNumber"></a>
+
+```typescript
+public readonly projectNumber: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc">DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc</a>
+
+---
+
+
+### DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference <a name="DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccDatasyncLocationObjectStorage } from '@cdktn/provider-awscc'
+
+new dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.googleOidc">googleOidc</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference">DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity">DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `googleOidc`<sup>Required</sup> <a name="googleOidc" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.googleOidc"></a>
+
+```typescript
+public readonly googleOidc: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference">DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity">DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity</a>
+
+---
+
+
+### DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference <a name="DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccDatasyncLocationObjectStorage } from '@cdktn/provider-awscc'
+
+new dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.awsIamRole">awsIamRole</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.externalIdentity">externalIdentity</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference">DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentity">DataAwsccDatasyncLocationObjectStorageFederatedIdentity</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `awsIamRole`<sup>Required</sup> <a name="awsIamRole" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.awsIamRole"></a>
+
+```typescript
+public readonly awsIamRole: string;
+```
+
+- *Type:* string
+
+---
+
+##### `externalIdentity`<sup>Required</sup> <a name="externalIdentity" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.externalIdentity"></a>
+
+```typescript
+public readonly externalIdentity: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference">DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccDatasyncLocationObjectStorageFederatedIdentity;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDatasyncLocationObjectStorage.DataAwsccDatasyncLocationObjectStorageFederatedIdentity">DataAwsccDatasyncLocationObjectStorageFederatedIdentity</a>
 
 ---
 

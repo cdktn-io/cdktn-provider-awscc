@@ -4,7 +4,7 @@
 
 ### MemorydbSnapshot <a name="MemorydbSnapshot" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot awscc_memorydb_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot awscc_memorydb_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.memorydbSnapshot.MemorydbSnapshot.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The name of the cluster from which the snapshot was taken.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#cluster_name MemorydbSnapshot#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#cluster_name MemorydbSnapshot#cluster_name}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#snapshot_name MemorydbSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#snapshot_name MemorydbSnapshot#snapshot_name}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ID of the KMS key used to encrypt the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#kms_key_id MemorydbSnapshot#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#kms_key_id MemorydbSnapshot#kms_key_id}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of tags to be added to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#tags MemorydbSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#tags MemorydbSnapshot#tags}
 
 ---
 
@@ -616,7 +616,7 @@ The construct id used in the generated config for the MemorydbSnapshot to import
 
 The id of the existing MemorydbSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1097,7 +1097,7 @@ public java.lang.String getClusterName();
 
 The name of the cluster from which the snapshot was taken.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#cluster_name MemorydbSnapshot#cluster_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#cluster_name MemorydbSnapshot#cluster_name}
 
 ---
 
@@ -1111,7 +1111,7 @@ public java.lang.String getSnapshotName();
 
 The name of the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#snapshot_name MemorydbSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#snapshot_name MemorydbSnapshot#snapshot_name}
 
 ---
 
@@ -1125,7 +1125,7 @@ public java.lang.String getKmsKeyId();
 
 The ID of the KMS key used to encrypt the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#kms_key_id MemorydbSnapshot#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#kms_key_id MemorydbSnapshot#kms_key_id}
 
 ---
 
@@ -1139,7 +1139,7 @@ public IResolvable|java.util.List<MemorydbSnapshotTags> getTags();
 
 A list of tags to be added to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#tags MemorydbSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#tags MemorydbSnapshot#tags}
 
 ---
 
@@ -1175,7 +1175,7 @@ public java.lang.String getKey();
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#key MemorydbSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#key MemorydbSnapshot#key}
 
 ---
 
@@ -1189,7 +1189,7 @@ public java.lang.String getValue();
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#value MemorydbSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#value MemorydbSnapshot#value}
 
 ---
 

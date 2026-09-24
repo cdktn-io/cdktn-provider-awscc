@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftSnapshotCopyGrants <a name="DataAwsccRedshiftSnapshotCopyGrants" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrants"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_snapshot_copy_grants awscc_redshift_snapshot_copy_grants}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftSnapshotCopyGrants.DataAwsccRedshiftSnapshotCopyGrants.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRedshiftSnapshotC
 
 The id of the existing DataAwsccRedshiftSnapshotCopyGrants that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/redshift_snapshot_copy_grants#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/redshift_snapshot_copy_grants#import import section} in the documentation of this resource for the id to use
 
 ---
 

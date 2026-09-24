@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_object_storage
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_object_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccDatasyncLocationObjectStorageConfig extends cdktn.Terr
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_object_storage#id DataAwsccDatasyncLocationObjectStorage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_object_storage#id DataAwsccDatasyncLocationObjectStorage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -138,6 +138,190 @@ export class DataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputRefer
   // secret_arn - computed: true, optional: false, required: false
   public get secretArn() {
     return this.getStringAttribute('secret_arn');
+  }
+}
+export interface DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc {
+}
+
+export function dataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcToTerraform(struct?: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcToHclTerraform(struct?: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // identity_pool_name - computed: true, optional: false, required: false
+  public get identityPoolName() {
+    return this.getStringAttribute('identity_pool_name');
+  }
+
+  // identity_provider_name - computed: true, optional: false, required: false
+  public get identityProviderName() {
+    return this.getStringAttribute('identity_provider_name');
+  }
+
+  // project_name - computed: true, optional: false, required: false
+  public get projectName() {
+    return this.getStringAttribute('project_name');
+  }
+
+  // project_number - computed: true, optional: false, required: false
+  public get projectNumber() {
+    return this.getStringAttribute('project_number');
+  }
+}
+export interface DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity {
+}
+
+export function dataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityToTerraform(struct?: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityToHclTerraform(struct?: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // google_oidc - computed: true, optional: false, required: false
+  private _googleOidc = new DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference(this, "google_oidc");
+  public get googleOidc() {
+    return this._googleOidc;
+  }
+}
+export interface DataAwsccDatasyncLocationObjectStorageFederatedIdentity {
+}
+
+export function dataAwsccDatasyncLocationObjectStorageFederatedIdentityToTerraform(struct?: DataAwsccDatasyncLocationObjectStorageFederatedIdentity): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDatasyncLocationObjectStorageFederatedIdentityToHclTerraform(struct?: DataAwsccDatasyncLocationObjectStorageFederatedIdentity): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDatasyncLocationObjectStorageFederatedIdentity | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDatasyncLocationObjectStorageFederatedIdentity | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // aws_iam_role - computed: true, optional: false, required: false
+  public get awsIamRole() {
+    return this.getStringAttribute('aws_iam_role');
+  }
+
+  // external_identity - computed: true, optional: false, required: false
+  private _externalIdentity = new DataAwsccDatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference(this, "external_identity");
+  public get externalIdentity() {
+    return this._externalIdentity;
   }
 }
 export interface DataAwsccDatasyncLocationObjectStorageManagedSecretConfig {
@@ -276,7 +460,7 @@ export class DataAwsccDatasyncLocationObjectStorageTagsList extends cdktn.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_object_storage awscc_datasync_location_object_storage}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_object_storage awscc_datasync_location_object_storage}
 */
 export class DataAwsccDatasyncLocationObjectStorage extends cdktn.TerraformDataSource {
 
@@ -292,7 +476,7 @@ export class DataAwsccDatasyncLocationObjectStorage extends cdktn.TerraformDataS
   * Generates CDKTN code for importing a DataAwsccDatasyncLocationObjectStorage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDatasyncLocationObjectStorage to import
-  * @param importFromId The id of the existing DataAwsccDatasyncLocationObjectStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDatasyncLocationObjectStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDatasyncLocationObjectStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -304,7 +488,7 @@ export class DataAwsccDatasyncLocationObjectStorage extends cdktn.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/datasync_location_object_storage awscc_datasync_location_object_storage} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/datasync_location_object_storage awscc_datasync_location_object_storage} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -315,7 +499,7 @@ export class DataAwsccDatasyncLocationObjectStorage extends cdktn.TerraformDataS
       terraformResourceType: 'awscc_datasync_location_object_storage',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -358,6 +542,12 @@ export class DataAwsccDatasyncLocationObjectStorage extends cdktn.TerraformDataS
   private _customSecretConfig = new DataAwsccDatasyncLocationObjectStorageCustomSecretConfigOutputReference(this, "custom_secret_config");
   public get customSecretConfig() {
     return this._customSecretConfig;
+  }
+
+  // federated_identity - computed: true, optional: false, required: false
+  private _federatedIdentity = new DataAwsccDatasyncLocationObjectStorageFederatedIdentityOutputReference(this, "federated_identity");
+  public get federatedIdentity() {
+    return this._federatedIdentity;
   }
 
   // id - computed: false, optional: false, required: true

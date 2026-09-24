@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface GlueConnectionTypeConfig extends cdktn.TerraformMetaArguments {
   /**
   * Configuration that defines the base URL and additional request parameters needed during connection creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#connection_properties GlueConnectionType#connection_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#connection_properties GlueConnectionType#connection_properties}
   */
   readonly connectionProperties?: GlueConnectionTypeConnectionProperties;
   /**
   * The name of the connection type. Must be prefixed with REST-.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#connection_type GlueConnectionType#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#connection_type GlueConnectionType#connection_type}
   */
   readonly connectionType: string;
   /**
   * Configuration that defines supported authentication types and required properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#connector_authentication_configuration GlueConnectionType#connector_authentication_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#connector_authentication_configuration GlueConnectionType#connector_authentication_configuration}
   */
   readonly connectorAuthenticationConfiguration?: GlueConnectionTypeConnectorAuthenticationConfiguration;
   /**
   * A description of the connection type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#description GlueConnectionType#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#description GlueConnectionType#description}
   */
   readonly description?: string;
   /**
   * The integration type for the connection. Currently only REST is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#integration_type GlueConnectionType#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#integration_type GlueConnectionType#integration_type}
   */
   readonly integrationType?: string;
   /**
   * Configuration for HTTP request and response handling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#rest_configuration GlueConnectionType#rest_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#rest_configuration GlueConnectionType#rest_configuration}
   */
   readonly restConfiguration: GlueConnectionTypeRestConfiguration;
   /**
   * Tags to assign to the connection type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#tags GlueConnectionType#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#tags GlueConnectionType#tags}
   */
   readonly tags?: GlueConnectionTypeTags[] | cdktn.IResolvable;
 }
@@ -59,43 +59,43 @@ export interface GlueConnectionTypeConnectionPropertiesAdditionalRequestParamete
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -387,43 +387,43 @@ export interface GlueConnectionTypeConnectionPropertiesUrl {
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -693,13 +693,13 @@ export interface GlueConnectionTypeConnectionProperties {
   /**
   * Key-value pairs of additional request parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#additional_request_parameters GlueConnectionType#additional_request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#additional_request_parameters GlueConnectionType#additional_request_parameters}
   */
   readonly additionalRequestParameters?: GlueConnectionTypeConnectionPropertiesAdditionalRequestParameters[] | cdktn.IResolvable;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#url GlueConnectionType#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#url GlueConnectionType#url}
   */
   readonly url?: GlueConnectionTypeConnectionPropertiesUrl;
 }
@@ -824,31 +824,31 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuth
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property. Must be SECRET for secret properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -1060,31 +1060,31 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuth
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property. Must be SECRET for secret properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -1296,13 +1296,13 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuth
   /**
   * Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#password GlueConnectionType#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#password GlueConnectionType#password}
   */
   readonly password?: GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesPassword;
   /**
   * Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#username GlueConnectionType#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#username GlueConnectionType#username}
   */
   readonly username?: GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationPropertiesUsername;
 }
@@ -1427,31 +1427,31 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationCustomAut
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property. Must be SECRET for secret properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -1683,7 +1683,7 @@ export class GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthent
 }
 export interface GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#authentication_parameters GlueConnectionType#authentication_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#authentication_parameters GlueConnectionType#authentication_parameters}
   */
   readonly authenticationParameters?: GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationPropertiesAuthenticationParameters[] | cdktn.IResolvable;
 }
@@ -1779,43 +1779,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -2085,43 +2085,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -2391,31 +2391,31 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property. Must be SECRET for secret properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -2627,31 +2627,31 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property. Must be SECRET for secret properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -2863,43 +2863,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -3169,43 +3169,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -3475,43 +3475,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -3781,43 +3781,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -4087,43 +4087,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -4415,61 +4415,61 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#authorization_code GlueConnectionType#authorization_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#authorization_code GlueConnectionType#authorization_code}
   */
   readonly authorizationCode?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCode;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#authorization_code_url GlueConnectionType#authorization_code_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#authorization_code_url GlueConnectionType#authorization_code_url}
   */
   readonly authorizationCodeUrl?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesAuthorizationCodeUrl;
   /**
   * Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#client_id GlueConnectionType#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#client_id GlueConnectionType#client_id}
   */
   readonly clientId?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientId;
   /**
   * Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#client_secret GlueConnectionType#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#client_secret GlueConnectionType#client_secret}
   */
   readonly clientSecret?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesClientSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}
   */
   readonly contentType?: string;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#prompt GlueConnectionType#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#prompt GlueConnectionType#prompt}
   */
   readonly prompt?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesPrompt;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#redirect_uri GlueConnectionType#redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#redirect_uri GlueConnectionType#redirect_uri}
   */
   readonly redirectUri?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesRedirectUri;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
   */
   readonly requestMethod?: string;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#scope GlueConnectionType#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#scope GlueConnectionType#scope}
   */
   readonly scope?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesScope;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
   */
   readonly tokenUrl?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}
   */
   readonly tokenUrlParameters?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodePropertiesTokenUrlParameters[] | cdktn.IResolvable;
 }
@@ -4855,31 +4855,31 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property. Must be SECRET for secret properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -5091,31 +5091,31 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property. Must be SECRET for secret properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -5327,43 +5327,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -5633,43 +5633,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -5939,43 +5939,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -6267,37 +6267,37 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#client_id GlueConnectionType#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#client_id GlueConnectionType#client_id}
   */
   readonly clientId?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientId;
   /**
   * Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#client_secret GlueConnectionType#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#client_secret GlueConnectionType#client_secret}
   */
   readonly clientSecret?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesClientSecret;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}
   */
   readonly contentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
   */
   readonly requestMethod?: string;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#scope GlueConnectionType#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#scope GlueConnectionType#scope}
   */
   readonly scope?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesScope;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
   */
   readonly tokenUrl?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}
   */
   readonly tokenUrlParameters?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsPropertiesTokenUrlParameters[] | cdktn.IResolvable;
 }
@@ -6567,31 +6567,31 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property. Must be SECRET for secret properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -6803,43 +6803,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -7109,43 +7109,43 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -7435,27 +7435,27 @@ export class GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Propert
 }
 export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_type GlueConnectionType#content_type}
   */
   readonly contentType?: string;
   /**
   * Defines a secret property configuration. SECRET-type properties cannot have DefaultValue or AllowedValues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#jwt_token GlueConnectionType#jwt_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#jwt_token GlueConnectionType#jwt_token}
   */
   readonly jwtToken?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesJwtToken;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
   */
   readonly requestMethod?: string;
   /**
   * Defines a property configuration for connection types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#token_url GlueConnectionType#token_url}
   */
   readonly tokenUrl?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrl;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#token_url_parameters GlueConnectionType#token_url_parameters}
   */
   readonly tokenUrlParameters?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerPropertiesTokenUrlParameters[] | cdktn.IResolvable;
 }
@@ -7667,25 +7667,25 @@ export interface GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Pro
   /**
   * OAuth2 authorization code configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#authorization_code_properties GlueConnectionType#authorization_code_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#authorization_code_properties GlueConnectionType#authorization_code_properties}
   */
   readonly authorizationCodeProperties?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesAuthorizationCodeProperties;
   /**
   * OAuth2 client credentials configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#client_credentials_properties GlueConnectionType#client_credentials_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#client_credentials_properties GlueConnectionType#client_credentials_properties}
   */
   readonly clientCredentialsProperties?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesClientCredentialsProperties;
   /**
   * JWT bearer token configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#jwt_bearer_properties GlueConnectionType#jwt_bearer_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#jwt_bearer_properties GlueConnectionType#jwt_bearer_properties}
   */
   readonly jwtBearerProperties?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2PropertiesJwtBearerProperties;
   /**
   * The OAuth2 grant type to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#o_auth_2_grant_type GlueConnectionType#o_auth_2_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#o_auth_2_grant_type GlueConnectionType#o_auth_2_grant_type}
   */
   readonly oAuth2GrantType?: string;
 }
@@ -7868,25 +7868,25 @@ export interface GlueConnectionTypeConnectorAuthenticationConfiguration {
   /**
   * A list of authentication types supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#authentication_types GlueConnectionType#authentication_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#authentication_types GlueConnectionType#authentication_types}
   */
   readonly authenticationTypes?: string[];
   /**
   * Basic authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#basic_authentication_properties GlueConnectionType#basic_authentication_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#basic_authentication_properties GlueConnectionType#basic_authentication_properties}
   */
   readonly basicAuthenticationProperties?: GlueConnectionTypeConnectorAuthenticationConfigurationBasicAuthenticationProperties;
   /**
   * Custom authentication configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#custom_authentication_properties GlueConnectionType#custom_authentication_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#custom_authentication_properties GlueConnectionType#custom_authentication_properties}
   */
   readonly customAuthenticationProperties?: GlueConnectionTypeConnectorAuthenticationConfigurationCustomAuthenticationProperties;
   /**
   * OAuth2 configuration container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#o_auth_2_properties GlueConnectionType#o_auth_2_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#o_auth_2_properties GlueConnectionType#o_auth_2_properties}
   */
   readonly oAuth2Properties?: GlueConnectionTypeConnectorAuthenticationConfigurationOAuth2Properties;
 }
@@ -8069,19 +8069,19 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFi
   /**
   * The parameter name used for the upper bound value in a BETWEEN filter operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
   */
   readonly highBoundKey?: string;
   /**
   * The parameter name used for the lower bound value in a BETWEEN filter operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
   */
   readonly lowBoundKey?: string;
   /**
   * A template string for constructing the BETWEEN filter expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
   */
   readonly template?: string;
 }
@@ -8235,25 +8235,25 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFi
   /**
   * Configuration that defines how BETWEEN range filter operations are translated into REST API request parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
   */
   readonly betweenConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverridesBetweenConfiguration;
   /**
   * The date and time format for filter expressions on this field, overriding the global DateTimeFormat.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
   */
   readonly dateTimeFormat?: string;
   /**
   * An override for the field name to use in filter expressions, if different from the schema field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#field_name GlueConnectionType#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#field_name GlueConnectionType#field_name}
   */
   readonly fieldName?: string;
   /**
   * A map of logical filter operators to their field-specific API representations, overriding the global operator mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
   */
   readonly operatorMappings?: { [key: string]: string };
 }
@@ -8436,49 +8436,49 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSchema {
   /**
   * The data type of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#field_data_type GlueConnectionType#field_data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#field_data_type GlueConnectionType#field_data_type}
   */
   readonly fieldDataType?: string;
   /**
   * Configuration that defines per-field overrides for filter behavior, allowing individual fields to customize how filter operations are applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#filter_overrides GlueConnectionType#filter_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#filter_overrides GlueConnectionType#filter_overrides}
   */
   readonly filterOverrides?: GlueConnectionTypeRestConfigurationEntityConfigurationsSchemaFilterOverrides;
   /**
   * Indicates whether this field can contain null values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#is_nullable GlueConnectionType#is_nullable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#is_nullable GlueConnectionType#is_nullable}
   */
   readonly isNullable?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether this field can be used for ordering results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#is_orderable GlueConnectionType#is_orderable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#is_orderable GlueConnectionType#is_orderable}
   */
   readonly isOrderable?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether this field can be used for partitioning queries to the data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#is_partitionable GlueConnectionType#is_partitionable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#is_partitionable GlueConnectionType#is_partitionable}
   */
   readonly isPartitionable?: boolean | cdktn.IResolvable;
   /**
   * Indicates whether this field can be used in filter predicates when querying data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#is_queryable GlueConnectionType#is_queryable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#is_queryable GlueConnectionType#is_queryable}
   */
   readonly isQueryable?: boolean | cdktn.IResolvable;
   /**
   * The name of the field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * The format pattern for parsing date values from API responses. Accepts Java DateTimeFormatter patterns, EPOCH_SECONDS, or EPOCH_MILLIS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#response_date_format GlueConnectionType#response_date_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#response_date_format GlueConnectionType#response_date_format}
   */
   readonly responseDateFormat?: string;
 }
@@ -8797,19 +8797,19 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * The parameter name used for the upper bound value in a BETWEEN filter operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
   */
   readonly highBoundKey?: string;
   /**
   * The parameter name used for the lower bound value in a BETWEEN filter operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
   */
   readonly lowBoundKey?: string;
   /**
   * A template string for constructing the BETWEEN filter expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
   */
   readonly template?: string;
 }
@@ -8963,19 +8963,19 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * The query parameter name used to send the constructed filter expression string in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#query_parameter_name GlueConnectionType#query_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#query_parameter_name GlueConnectionType#query_parameter_name}
   */
   readonly queryParameterName?: string;
   /**
   * The character used to quote values when QuoteStringValues is true. Defaults to double quotes if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#quote_character GlueConnectionType#quote_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#quote_character GlueConnectionType#quote_character}
   */
   readonly quoteCharacter?: string;
   /**
   * Indicates whether string and date values should be wrapped with a quote character in the filter expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#quote_string_values GlueConnectionType#quote_string_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#quote_string_values GlueConnectionType#quote_string_values}
   */
   readonly quoteStringValues?: boolean | cdktn.IResolvable;
 }
@@ -9129,37 +9129,37 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * Configuration that defines how BETWEEN range filter operations are translated into REST API request parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
   */
   readonly betweenConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationBetweenConfiguration;
   /**
   * The global date and time format for filter expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
   */
   readonly dateTimeFormat?: string;
   /**
   * The strategy for applying filters to requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#filter_mode GlueConnectionType#filter_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#filter_mode GlueConnectionType#filter_mode}
   */
   readonly filterMode?: string;
   /**
   * Configuration for constructing filter expression strings when using the FILTER_STRING filter mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#filter_string_configuration GlueConnectionType#filter_string_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#filter_string_configuration GlueConnectionType#filter_string_configuration}
   */
   readonly filterStringConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfigurationFilterStringConfiguration;
   /**
   * A map of logical filter operators to their API-specific string representations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
   */
   readonly operatorMappings?: { [key: string]: string };
   /**
   * Indicates whether surrounding double quotes should be stripped from filter values before processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#strip_quotes GlueConnectionType#strip_quotes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#strip_quotes GlueConnectionType#strip_quotes}
   */
   readonly stripQuotes?: boolean | cdktn.IResolvable;
 }
@@ -9400,13 +9400,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * A JSON path expression to extract a value from response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
   */
   readonly contentPath?: string;
   /**
   * The name of an HTTP response header from which to extract the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
   */
   readonly headerKey?: string;
 }
@@ -9531,25 +9531,25 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * The default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The parameter key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
   * Specifies where to place the parameter in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * Defines how to extract values from HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue;
 }
@@ -9732,13 +9732,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * A JSON path expression to extract a value from response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
   */
   readonly contentPath?: string;
   /**
   * The name of an HTTP response header from which to extract the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
   */
   readonly headerKey?: string;
 }
@@ -9863,25 +9863,25 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * The default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The parameter key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
   * Specifies where to place the parameter in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * Defines how to extract values from HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue;
 }
@@ -10064,13 +10064,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * Parameter extraction configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
   */
   readonly limitParameter?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter;
   /**
   * Parameter extraction configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#next_page GlueConnectionType#next_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#next_page GlueConnectionType#next_page}
   */
   readonly nextPage?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfigurationNextPage;
 }
@@ -10195,13 +10195,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * A JSON path expression to extract a value from response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
   */
   readonly contentPath?: string;
   /**
   * The name of an HTTP response header from which to extract the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
   */
   readonly headerKey?: string;
 }
@@ -10326,25 +10326,25 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * The default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The parameter key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
   * Specifies where to place the parameter in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * Defines how to extract values from HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue;
 }
@@ -10527,13 +10527,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * A JSON path expression to extract a value from response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
   */
   readonly contentPath?: string;
   /**
   * The name of an HTTP response header from which to extract the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
   */
   readonly headerKey?: string;
 }
@@ -10658,25 +10658,25 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * The default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The parameter key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
   * Specifies where to place the parameter in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * Defines how to extract values from HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue;
 }
@@ -10859,13 +10859,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * Parameter extraction configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
   */
   readonly limitParameter?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter;
   /**
   * Parameter extraction configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#offset_parameter GlueConnectionType#offset_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#offset_parameter GlueConnectionType#offset_parameter}
   */
   readonly offsetParameter?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter;
 }
@@ -10990,13 +10990,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * Cursor-based pagination configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#cursor_configuration GlueConnectionType#cursor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#cursor_configuration GlueConnectionType#cursor_configuration}
   */
   readonly cursorConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationCursorConfiguration;
   /**
   * Offset-based pagination configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#offset_configuration GlueConnectionType#offset_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#offset_configuration GlueConnectionType#offset_configuration}
   */
   readonly offsetConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfigurationOffsetConfiguration;
 }
@@ -11121,43 +11121,43 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -11449,13 +11449,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * JSON path expression for error information location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#error_path GlueConnectionType#error_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#error_path GlueConnectionType#error_path}
   */
   readonly errorPath?: string;
   /**
   * JSON path expression for result data location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#result_path GlueConnectionType#result_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#result_path GlueConnectionType#result_path}
   */
   readonly resultPath?: string;
 }
@@ -11580,37 +11580,37 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurationsSourceCo
   /**
   * Configuration that defines how filter predicates are applied to REST API requests, supporting both query parameter and filter string strategies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#filter_configuration GlueConnectionType#filter_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#filter_configuration GlueConnectionType#filter_configuration}
   */
   readonly filterConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationFilterConfiguration;
   /**
   * Configuration for handling paginated responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#pagination_configuration GlueConnectionType#pagination_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#pagination_configuration GlueConnectionType#pagination_configuration}
   */
   readonly paginationConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationPaginationConfiguration;
   /**
   * The HTTP method to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
   */
   readonly requestMethod?: string;
   /**
   * Request parameters configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_parameters GlueConnectionType#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_parameters GlueConnectionType#request_parameters}
   */
   readonly requestParameters?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationRequestParameters[] | cdktn.IResolvable;
   /**
   * The URL path for the REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
   */
   readonly requestPath?: string;
   /**
   * Configuration for parsing JSON responses from REST API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#response_configuration GlueConnectionType#response_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#response_configuration GlueConnectionType#response_configuration}
   */
   readonly responseConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfigurationResponseConfiguration;
 }
@@ -11851,13 +11851,13 @@ export interface GlueConnectionTypeRestConfigurationEntityConfigurations {
   /**
   * The schema definition for this entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#schema GlueConnectionType#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#schema GlueConnectionType#schema}
   */
   readonly schema?: { [key: string]: GlueConnectionTypeRestConfigurationEntityConfigurationsSchema } | cdktn.IResolvable;
   /**
   * Configuration that defines how to make requests to endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#source_configuration GlueConnectionType#source_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#source_configuration GlueConnectionType#source_configuration}
   */
   readonly sourceConfiguration?: GlueConnectionTypeRestConfigurationEntityConfigurationsSourceConfiguration;
 }
@@ -12002,19 +12002,19 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFil
   /**
   * The parameter name used for the upper bound value in a BETWEEN filter operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#high_bound_key GlueConnectionType#high_bound_key}
   */
   readonly highBoundKey?: string;
   /**
   * The parameter name used for the lower bound value in a BETWEEN filter operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#low_bound_key GlueConnectionType#low_bound_key}
   */
   readonly lowBoundKey?: string;
   /**
   * A template string for constructing the BETWEEN filter expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#template GlueConnectionType#template}
   */
   readonly template?: string;
 }
@@ -12168,19 +12168,19 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFil
   /**
   * The query parameter name used to send the constructed filter expression string in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#query_parameter_name GlueConnectionType#query_parameter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#query_parameter_name GlueConnectionType#query_parameter_name}
   */
   readonly queryParameterName?: string;
   /**
   * The character used to quote values when QuoteStringValues is true. Defaults to double quotes if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#quote_character GlueConnectionType#quote_character}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#quote_character GlueConnectionType#quote_character}
   */
   readonly quoteCharacter?: string;
   /**
   * Indicates whether string and date values should be wrapped with a quote character in the filter expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#quote_string_values GlueConnectionType#quote_string_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#quote_string_values GlueConnectionType#quote_string_values}
   */
   readonly quoteStringValues?: boolean | cdktn.IResolvable;
 }
@@ -12334,37 +12334,37 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFil
   /**
   * Configuration that defines how BETWEEN range filter operations are translated into REST API request parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#between_configuration GlueConnectionType#between_configuration}
   */
   readonly betweenConfiguration?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationBetweenConfiguration;
   /**
   * The global date and time format for filter expressions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#date_time_format GlueConnectionType#date_time_format}
   */
   readonly dateTimeFormat?: string;
   /**
   * The strategy for applying filters to requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#filter_mode GlueConnectionType#filter_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#filter_mode GlueConnectionType#filter_mode}
   */
   readonly filterMode?: string;
   /**
   * Configuration for constructing filter expression strings when using the FILTER_STRING filter mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#filter_string_configuration GlueConnectionType#filter_string_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#filter_string_configuration GlueConnectionType#filter_string_configuration}
   */
   readonly filterStringConfiguration?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfigurationFilterStringConfiguration;
   /**
   * A map of logical filter operators to their API-specific string representations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#operator_mappings GlueConnectionType#operator_mappings}
   */
   readonly operatorMappings?: { [key: string]: string };
   /**
   * Indicates whether surrounding double quotes should be stripped from filter values before processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#strip_quotes GlueConnectionType#strip_quotes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#strip_quotes GlueConnectionType#strip_quotes}
   */
   readonly stripQuotes?: boolean | cdktn.IResolvable;
 }
@@ -12605,13 +12605,13 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * A JSON path expression to extract a value from response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
   */
   readonly contentPath?: string;
   /**
   * The name of an HTTP response header from which to extract the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
   */
   readonly headerKey?: string;
 }
@@ -12736,25 +12736,25 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * The default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The parameter key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
   * Specifies where to place the parameter in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * Defines how to extract values from HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameterValue;
 }
@@ -12937,13 +12937,13 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * A JSON path expression to extract a value from response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
   */
   readonly contentPath?: string;
   /**
   * The name of an HTTP response header from which to extract the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
   */
   readonly headerKey?: string;
 }
@@ -13068,25 +13068,25 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * The default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The parameter key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
   * Specifies where to place the parameter in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * Defines how to extract values from HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPageValue;
 }
@@ -13269,13 +13269,13 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * Parameter extraction configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
   */
   readonly limitParameter?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationLimitParameter;
   /**
   * Parameter extraction configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#next_page GlueConnectionType#next_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#next_page GlueConnectionType#next_page}
   */
   readonly nextPage?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfigurationNextPage;
 }
@@ -13400,13 +13400,13 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * A JSON path expression to extract a value from response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
   */
   readonly contentPath?: string;
   /**
   * The name of an HTTP response header from which to extract the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
   */
   readonly headerKey?: string;
 }
@@ -13531,25 +13531,25 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * The default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The parameter key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
   * Specifies where to place the parameter in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * Defines how to extract values from HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameterValue;
 }
@@ -13732,13 +13732,13 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * A JSON path expression to extract a value from response body.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#content_path GlueConnectionType#content_path}
   */
   readonly contentPath?: string;
   /**
   * The name of an HTTP response header from which to extract the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#header_key GlueConnectionType#header_key}
   */
   readonly headerKey?: string;
 }
@@ -13863,25 +13863,25 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * The default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * The parameter key name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
   * Specifies where to place the parameter in requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * Defines how to extract values from HTTP responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameterValue;
 }
@@ -14064,13 +14064,13 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * Parameter extraction configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#limit_parameter GlueConnectionType#limit_parameter}
   */
   readonly limitParameter?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationLimitParameter;
   /**
   * Parameter extraction configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#offset_parameter GlueConnectionType#offset_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#offset_parameter GlueConnectionType#offset_parameter}
   */
   readonly offsetParameter?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfigurationOffsetParameter;
 }
@@ -14195,13 +14195,13 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPag
   /**
   * Cursor-based pagination configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#cursor_configuration GlueConnectionType#cursor_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#cursor_configuration GlueConnectionType#cursor_configuration}
   */
   readonly cursorConfiguration?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationCursorConfiguration;
   /**
   * Offset-based pagination configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#offset_configuration GlueConnectionType#offset_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#offset_configuration GlueConnectionType#offset_configuration}
   */
   readonly offsetConfiguration?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfigurationOffsetConfiguration;
 }
@@ -14326,43 +14326,43 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationReq
   /**
   * A list of allowed values for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#allowed_values GlueConnectionType#allowed_values}
   */
   readonly allowedValues?: string[];
   /**
   * The default value for the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#default_value GlueConnectionType#default_value}
   */
   readonly defaultValue?: string;
   /**
   * A key name to use when sending this property in API requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key_override GlueConnectionType#key_override}
   */
   readonly keyOverride?: string;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#name GlueConnectionType#name}
   */
   readonly name?: string;
   /**
   * Specifies where this property should be included in REST requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_location GlueConnectionType#property_location}
   */
   readonly propertyLocation?: string;
   /**
   * The data type of this property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#property_type GlueConnectionType#property_type}
   */
   readonly propertyType?: string;
   /**
   * Indicates whether the property is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#required GlueConnectionType#required}
   */
   readonly required?: boolean | cdktn.IResolvable;
 }
@@ -14654,13 +14654,13 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfigurationRes
   /**
   * JSON path expression for error information location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#error_path GlueConnectionType#error_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#error_path GlueConnectionType#error_path}
   */
   readonly errorPath?: string;
   /**
   * JSON path expression for result data location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#result_path GlueConnectionType#result_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#result_path GlueConnectionType#result_path}
   */
   readonly resultPath?: string;
 }
@@ -14785,37 +14785,37 @@ export interface GlueConnectionTypeRestConfigurationGlobalSourceConfiguration {
   /**
   * Configuration that defines how filter predicates are applied to REST API requests, supporting both query parameter and filter string strategies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#filter_configuration GlueConnectionType#filter_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#filter_configuration GlueConnectionType#filter_configuration}
   */
   readonly filterConfiguration?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationFilterConfiguration;
   /**
   * Configuration for handling paginated responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#pagination_configuration GlueConnectionType#pagination_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#pagination_configuration GlueConnectionType#pagination_configuration}
   */
   readonly paginationConfiguration?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationPaginationConfiguration;
   /**
   * The HTTP method to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
   */
   readonly requestMethod?: string;
   /**
   * Request parameters configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_parameters GlueConnectionType#request_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_parameters GlueConnectionType#request_parameters}
   */
   readonly requestParameters?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationRequestParameters[] | cdktn.IResolvable;
   /**
   * The URL path for the REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
   */
   readonly requestPath?: string;
   /**
   * Configuration for parsing JSON responses from REST API calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#response_configuration GlueConnectionType#response_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#response_configuration GlueConnectionType#response_configuration}
   */
   readonly responseConfiguration?: GlueConnectionTypeRestConfigurationGlobalSourceConfigurationResponseConfiguration;
 }
@@ -15056,13 +15056,13 @@ export interface GlueConnectionTypeRestConfigurationValidationEndpointConfigurat
   /**
   * The HTTP method to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_method GlueConnectionType#request_method}
   */
   readonly requestMethod?: string;
   /**
   * The URL path for the REST endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#request_path GlueConnectionType#request_path}
   */
   readonly requestPath?: string;
 }
@@ -15187,19 +15187,19 @@ export interface GlueConnectionTypeRestConfiguration {
   /**
   * A map of entity configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#entity_configurations GlueConnectionType#entity_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#entity_configurations GlueConnectionType#entity_configurations}
   */
   readonly entityConfigurations?: { [key: string]: GlueConnectionTypeRestConfigurationEntityConfigurations } | cdktn.IResolvable;
   /**
   * Configuration that defines how to make requests to endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#global_source_configuration GlueConnectionType#global_source_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#global_source_configuration GlueConnectionType#global_source_configuration}
   */
   readonly globalSourceConfiguration?: GlueConnectionTypeRestConfigurationGlobalSourceConfiguration;
   /**
   * Configuration for the validation endpoint. Only supports RequestMethod and RequestPath.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#validation_endpoint_configuration GlueConnectionType#validation_endpoint_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#validation_endpoint_configuration GlueConnectionType#validation_endpoint_configuration}
   */
   readonly validationEndpointConfiguration?: GlueConnectionTypeRestConfigurationValidationEndpointConfiguration;
 }
@@ -15351,11 +15351,11 @@ export class GlueConnectionTypeRestConfigurationOutputReference extends cdktn.Co
 }
 export interface GlueConnectionTypeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#key GlueConnectionType#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#value GlueConnectionType#value}
   */
   readonly value?: string;
 }
@@ -15500,7 +15500,7 @@ export class GlueConnectionTypeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type awscc_glue_connection_type}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type awscc_glue_connection_type}
 */
 export class GlueConnectionType extends cdktn.TerraformResource {
 
@@ -15516,7 +15516,7 @@ export class GlueConnectionType extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a GlueConnectionType resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GlueConnectionType to import
-  * @param importFromId The id of the existing GlueConnectionType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GlueConnectionType that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GlueConnectionType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -15528,7 +15528,7 @@ export class GlueConnectionType extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/glue_connection_type awscc_glue_connection_type} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_connection_type awscc_glue_connection_type} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -15539,7 +15539,7 @@ export class GlueConnectionType extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_glue_connection_type',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

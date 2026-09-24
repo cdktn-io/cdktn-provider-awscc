@@ -4,7 +4,7 @@
 
 ### DataAwsccFsxFileCaches <a name="DataAwsccFsxFileCaches" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCaches"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_file_caches awscc_fsx_file_caches}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFsxFileCaches.DataAwsccFsxFileCaches.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccFsxFileCaches to 
 
 The id of the existing DataAwsccFsxFileCaches that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fsx_file_caches#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fsx_file_caches#import import section} in the documentation of this resource for the id to use
 
 ---
 

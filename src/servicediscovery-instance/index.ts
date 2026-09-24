@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface ServicediscoveryInstanceConfig extends cdktn.TerraformMetaArgum
   /**
   * A string map that contains information for the service that is specified in ServiceId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance#instance_attributes ServicediscoveryInstance#instance_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance#instance_attributes ServicediscoveryInstance#instance_attributes}
   */
   readonly instanceAttributes: string;
   /**
   * An identifier that you want to associate with the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance#instance_id ServicediscoveryInstance#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance#instance_id ServicediscoveryInstance#instance_id}
   */
   readonly instanceId?: string;
   /**
   * The ID or Amazon Resource Name (ARN) of the service that you want to use for settings for the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance#service_id ServicediscoveryInstance#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance#service_id ServicediscoveryInstance#service_id}
   */
   readonly serviceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance awscc_servicediscovery_instance}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance awscc_servicediscovery_instance}
 */
 export class ServicediscoveryInstance extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class ServicediscoveryInstance extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ServicediscoveryInstance resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServicediscoveryInstance to import
-  * @param importFromId The id of the existing ServicediscoveryInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServicediscoveryInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServicediscoveryInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class ServicediscoveryInstance extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance awscc_servicediscovery_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance awscc_servicediscovery_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class ServicediscoveryInstance extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_servicediscovery_instance',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

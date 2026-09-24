@@ -4,7 +4,7 @@
 
 ### DataAwsccComprehendDocumentClassifierEndpoints <a name="DataAwsccComprehendDocumentClassifierEndpoints" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifierEndpoints.DataAwsccComprehendDocumentClassifierEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/comprehend_document_classifier_endpoints awscc_comprehend_document_classifier_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/comprehend_document_classifier_endpoints awscc_comprehend_document_classifier_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendDocumentClassifierEndpoints.DataAwsccComprehendDocumentClassifierEndpoints.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccComprehendDocumen
 
 The id of the existing DataAwsccComprehendDocumentClassifierEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/comprehend_document_classifier_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/comprehend_document_classifier_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

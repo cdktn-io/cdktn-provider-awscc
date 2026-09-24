@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface IotsitewisePipelineConfig extends cdktn.TerraformMetaArguments 
   /**
   * The list of compute nodes that form the pipeline DAG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#computations IotsitewisePipeline#computations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#computations IotsitewisePipeline#computations}
   */
   readonly computations: IotsitewisePipelineComputations[] | cdktn.IResolvable;
   /**
   * A description of the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#description IotsitewisePipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#description IotsitewisePipeline#description}
   */
   readonly description?: string;
   /**
   * Environment variables shared across all compute nodes in the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
   * The name of the pipeline. Must be unique within the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#pipeline_name IotsitewisePipeline#pipeline_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#pipeline_name IotsitewisePipeline#pipeline_name}
   */
   readonly pipelineName: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#tags IotsitewisePipeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#tags IotsitewisePipeline#tags}
   */
   readonly tags?: IotsitewisePipelineTags[] | cdktn.IResolvable;
   /**
   * The name of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#workspace_name IotsitewisePipeline#workspace_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#workspace_name IotsitewisePipeline#workspace_name}
   */
   readonly workspaceName: string;
 }
@@ -53,25 +53,25 @@ export interface IotsitewisePipelineComputations {
   /**
   * The unique name for this compute node within the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#compute_node_name IotsitewisePipeline#compute_node_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#compute_node_name IotsitewisePipeline#compute_node_name}
   */
   readonly computeNodeName: string;
   /**
   * A list of compute node names that must complete successfully before this node can start.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#depends_on IotsitewisePipeline#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#depends_on IotsitewisePipeline#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * A map of environment variable key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
   */
   readonly environmentVariables?: { [key: string]: string };
   /**
   * The name of the task to execute for this compute node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#task_name IotsitewisePipeline#task_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#task_name IotsitewisePipeline#task_name}
   */
   readonly taskName: string;
 }
@@ -270,13 +270,13 @@ export interface IotsitewisePipelineTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#key IotsitewisePipeline#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#key IotsitewisePipeline#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#value IotsitewisePipeline#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#value IotsitewisePipeline#value}
   */
   readonly value?: string;
 }
@@ -421,7 +421,7 @@ export class IotsitewisePipelineTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline}
 */
 export class IotsitewisePipeline extends cdktn.TerraformResource {
 
@@ -437,7 +437,7 @@ export class IotsitewisePipeline extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotsitewisePipeline resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotsitewisePipeline to import
-  * @param importFromId The id of the existing IotsitewisePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotsitewisePipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotsitewisePipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -449,7 +449,7 @@ export class IotsitewisePipeline extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -460,7 +460,7 @@ export class IotsitewisePipeline extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iotsitewise_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

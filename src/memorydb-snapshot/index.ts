@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface MemorydbSnapshotConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the cluster from which the snapshot was taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#cluster_name MemorydbSnapshot#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#cluster_name MemorydbSnapshot#cluster_name}
   */
   readonly clusterName: string;
   /**
   * The ID of the KMS key used to encrypt the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#kms_key_id MemorydbSnapshot#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#kms_key_id MemorydbSnapshot#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#snapshot_name MemorydbSnapshot#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#snapshot_name MemorydbSnapshot#snapshot_name}
   */
   readonly snapshotName: string;
   /**
   * A list of tags to be added to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#tags MemorydbSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#tags MemorydbSnapshot#tags}
   */
   readonly tags?: MemorydbSnapshotTags[] | cdktn.IResolvable;
 }
@@ -160,13 +160,13 @@ export interface MemorydbSnapshotTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#key MemorydbSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#key MemorydbSnapshot#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#value MemorydbSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#value MemorydbSnapshot#value}
   */
   readonly value?: string;
 }
@@ -311,7 +311,7 @@ export class MemorydbSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot awscc_memorydb_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot awscc_memorydb_snapshot}
 */
 export class MemorydbSnapshot extends cdktn.TerraformResource {
 
@@ -327,7 +327,7 @@ export class MemorydbSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MemorydbSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MemorydbSnapshot to import
-  * @param importFromId The id of the existing MemorydbSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MemorydbSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MemorydbSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -339,7 +339,7 @@ export class MemorydbSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/memorydb_snapshot awscc_memorydb_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/memorydb_snapshot awscc_memorydb_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -350,7 +350,7 @@ export class MemorydbSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_memorydb_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

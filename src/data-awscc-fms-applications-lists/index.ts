@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_applications_lists
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_applications_lists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccFmsApplicationsListsConfig extends cdktn.TerraformMeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_applications_lists awscc_fms_applications_lists}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_applications_lists awscc_fms_applications_lists}
 */
 export class DataAwsccFmsApplicationsLists extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccFmsApplicationsLists extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccFmsApplicationsLists resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccFmsApplicationsLists to import
-  * @param importFromId The id of the existing DataAwsccFmsApplicationsLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_applications_lists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccFmsApplicationsLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_applications_lists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccFmsApplicationsLists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccFmsApplicationsLists extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_applications_lists awscc_fms_applications_lists} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_applications_lists awscc_fms_applications_lists} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccFmsApplicationsLists extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_fms_applications_lists',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -4,7 +4,7 @@
 
 ### DataAwsccChimeMediaInsightsPipelineConfigurations <a name="DataAwsccChimeMediaInsightsPipelineConfigurations" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configurations awscc_chime_media_insights_pipeline_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configurations awscc_chime_media_insights_pipeline_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccChimeMediaInsightsPipelineConfigurations.DataAwsccChimeMediaInsightsPipelineConfigurations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccChimeMediaInsight
 
 The id of the existing DataAwsccChimeMediaInsightsPipelineConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

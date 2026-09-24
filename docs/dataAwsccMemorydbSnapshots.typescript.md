@@ -4,7 +4,7 @@
 
 ### DataAwsccMemorydbSnapshots <a name="DataAwsccMemorydbSnapshots" id="@cdktn/provider-awscc.dataAwsccMemorydbSnapshots.DataAwsccMemorydbSnapshots"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/memorydb_snapshots awscc_memorydb_snapshots}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/memorydb_snapshots awscc_memorydb_snapshots}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMemorydbSnapshots.DataAwsccMemorydbSnapshots.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMemorydbSnapshots
 
 The id of the existing DataAwsccMemorydbSnapshots that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/memorydb_snapshots#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/memorydb_snapshots#import import section} in the documentation of this resource for the id to use
 
 ---
 

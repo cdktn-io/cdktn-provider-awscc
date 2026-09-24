@@ -4,7 +4,7 @@
 
 ### DataAwsccTranscribeVocabularies <a name="DataAwsccTranscribeVocabularies" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabularies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_vocabularies awscc_transcribe_vocabularies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_vocabularies awscc_transcribe_vocabularies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccTranscribeVocabularies.DataAwsccTranscribeVocabularies.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccTranscribeVocabul
 
 The id of the existing DataAwsccTranscribeVocabularies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_vocabularies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_vocabularies#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface HealthagentDomainConfig extends cdktn.TerraformMetaArguments {
   /**
   * The name of the Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain#name HealthagentDomain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain#name HealthagentDomain#name}
   */
   readonly name: string;
   /**
   * Tags associated with the Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain#tags HealthagentDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain#tags HealthagentDomain#tags}
   */
   readonly tags?: HealthagentDomainTags[] | cdktn.IResolvable;
 }
@@ -81,11 +81,11 @@ export class HealthagentDomainEncryptionContextOutputReference extends cdktn.Com
 }
 export interface HealthagentDomainTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain#key HealthagentDomain#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain#key HealthagentDomain#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain#value HealthagentDomain#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain#value HealthagentDomain#value}
   */
   readonly value?: string;
 }
@@ -230,7 +230,7 @@ export class HealthagentDomainTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain awscc_healthagent_domain}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain awscc_healthagent_domain}
 */
 export class HealthagentDomain extends cdktn.TerraformResource {
 
@@ -246,7 +246,7 @@ export class HealthagentDomain extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a HealthagentDomain resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HealthagentDomain to import
-  * @param importFromId The id of the existing HealthagentDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HealthagentDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HealthagentDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -258,7 +258,7 @@ export class HealthagentDomain extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/healthagent_domain awscc_healthagent_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/healthagent_domain awscc_healthagent_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,7 +269,7 @@ export class HealthagentDomain extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_healthagent_domain',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

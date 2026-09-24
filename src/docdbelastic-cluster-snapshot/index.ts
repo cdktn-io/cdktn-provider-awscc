@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface DocdbelasticClusterSnapshotConfig extends cdktn.TerraformMetaAr
   /**
   * The ARN of the elastic cluster of which to create a snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#cluster_arn DocdbelasticClusterSnapshot#cluster_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#cluster_arn DocdbelasticClusterSnapshot#cluster_arn}
   */
   readonly clusterArn: string;
   /**
   * The name of the elastic cluster snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#snapshot_name DocdbelasticClusterSnapshot#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#snapshot_name DocdbelasticClusterSnapshot#snapshot_name}
   */
   readonly snapshotName: string;
   /**
   * An array of key-value pairs to apply to the elastic cluster snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#tags DocdbelasticClusterSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#tags DocdbelasticClusterSnapshot#tags}
   */
   readonly tags?: DocdbelasticClusterSnapshotTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface DocdbelasticClusterSnapshotTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#key DocdbelasticClusterSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#key DocdbelasticClusterSnapshot#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#value DocdbelasticClusterSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#value DocdbelasticClusterSnapshot#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class DocdbelasticClusterSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot}
 */
 export class DocdbelasticClusterSnapshot extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class DocdbelasticClusterSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DocdbelasticClusterSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DocdbelasticClusterSnapshot to import
-  * @param importFromId The id of the existing DocdbelasticClusterSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DocdbelasticClusterSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DocdbelasticClusterSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class DocdbelasticClusterSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/docdbelastic_cluster_snapshot awscc_docdbelastic_cluster_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class DocdbelasticClusterSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_docdbelastic_cluster_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

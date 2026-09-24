@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerAiWorkloadConfigs <a name="DataAwsccSagemakerAiWorkloadConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_ai_workload_configs awscc_sagemaker_ai_workload_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerAiWorkloadConfigs.DataAwsccSagemakerAiWorkloadConfigs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSagemakerAiWorklo
 
 The id of the existing DataAwsccSagemakerAiWorkloadConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/sagemaker_ai_workload_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_ai_workload_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

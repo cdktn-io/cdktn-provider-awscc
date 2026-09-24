@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_connector
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccTransferConnectorConfig extends cdktn.TerraformMetaArg
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_connector#id DataAwsccTransferConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_connector#id DataAwsccTransferConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -354,6 +354,11 @@ export class DataAwsccTransferConnectorSftpConfigOutputReference extends cdktn.C
     return this.getNumberAttribute('max_concurrent_connections');
   }
 
+  // ordered_user_secret_version_stages - computed: true, optional: false, required: false
+  public get orderedUserSecretVersionStages() {
+    return this.getListAttribute('ordered_user_secret_version_stages');
+  }
+
   // trusted_host_keys - computed: true, optional: false, required: false
   public get trustedHostKeys() {
     return this.getListAttribute('trusted_host_keys');
@@ -446,7 +451,7 @@ export class DataAwsccTransferConnectorTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_connector awscc_transfer_connector}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_connector awscc_transfer_connector}
 */
 export class DataAwsccTransferConnector extends cdktn.TerraformDataSource {
 
@@ -462,7 +467,7 @@ export class DataAwsccTransferConnector extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccTransferConnector resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccTransferConnector to import
-  * @param importFromId The id of the existing DataAwsccTransferConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccTransferConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccTransferConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -474,7 +479,7 @@ export class DataAwsccTransferConnector extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transfer_connector awscc_transfer_connector} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transfer_connector awscc_transfer_connector} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -485,7 +490,7 @@ export class DataAwsccTransferConnector extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_transfer_connector',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface Route53TrafficPolicyConfig extends cdktn.TerraformMetaArguments
   /**
   * Any comments to include about the traffic policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#comment Route53TrafficPolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#comment Route53TrafficPolicy#comment}
   */
   readonly comment?: string;
   /**
   * The definition of the traffic policy in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#document Route53TrafficPolicy#document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#document Route53TrafficPolicy#document}
   */
   readonly document: string;
   /**
   * The name of the traffic policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#name Route53TrafficPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#name Route53TrafficPolicy#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy awscc_route53_traffic_policy}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy awscc_route53_traffic_policy}
 */
 export class Route53TrafficPolicy extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class Route53TrafficPolicy extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53TrafficPolicy resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53TrafficPolicy to import
-  * @param importFromId The id of the existing Route53TrafficPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53TrafficPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53TrafficPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class Route53TrafficPolicy extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy awscc_route53_traffic_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy awscc_route53_traffic_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class Route53TrafficPolicy extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53_traffic_policy',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

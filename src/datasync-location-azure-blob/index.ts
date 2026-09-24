@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,61 +15,67 @@ export interface DatasyncLocationAzureBlobConfig extends cdktn.TerraformMetaArgu
   /**
   * Specifies the Amazon Resource Name (ARN) of the DataSync agent that can connect with your Azure Blob Storage container. If you are setting up an agentless cross-cloud transfer, you do not need to specify a value for this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#agent_arns DatasyncLocationAzureBlob#agent_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#agent_arns DatasyncLocationAzureBlob#agent_arns}
   */
   readonly agentArns?: string[];
   /**
   * Specifies an access tier for the objects you're transferring into your Azure Blob Storage container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#azure_access_tier DatasyncLocationAzureBlob#azure_access_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#azure_access_tier DatasyncLocationAzureBlob#azure_access_tier}
   */
   readonly azureAccessTier?: string;
   /**
   * The specific authentication type that you want DataSync to use to access your Azure Blob Container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#azure_blob_authentication_type DatasyncLocationAzureBlob#azure_blob_authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#azure_blob_authentication_type DatasyncLocationAzureBlob#azure_blob_authentication_type}
   */
   readonly azureBlobAuthenticationType?: string;
   /**
   * The URL of the Azure Blob container that was described.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#azure_blob_container_url DatasyncLocationAzureBlob#azure_blob_container_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#azure_blob_container_url DatasyncLocationAzureBlob#azure_blob_container_url}
   */
   readonly azureBlobContainerUrl?: string;
   /**
   * Specifies the shared access signature (SAS) that DataSync uses to access your Azure Blob Storage container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#azure_blob_sas_configuration DatasyncLocationAzureBlob#azure_blob_sas_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#azure_blob_sas_configuration DatasyncLocationAzureBlob#azure_blob_sas_configuration}
   */
   readonly azureBlobSasConfiguration?: DatasyncLocationAzureBlobAzureBlobSasConfiguration;
   /**
   * Specifies a blob type for the objects you're transferring into your Azure Blob Storage container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#azure_blob_type DatasyncLocationAzureBlob#azure_blob_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#azure_blob_type DatasyncLocationAzureBlob#azure_blob_type}
   */
   readonly azureBlobType?: string;
   /**
   * Specifies configuration information for a DataSync-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and a customer-managed AWS KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#cmk_secret_config DatasyncLocationAzureBlob#cmk_secret_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#cmk_secret_config DatasyncLocationAzureBlob#cmk_secret_config}
   */
   readonly cmkSecretConfig?: DatasyncLocationAzureBlobCmkSecretConfig;
   /**
   * Specifies configuration information for a customer-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and an IAM role that DataSync can assume and access the customer-managed secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#custom_secret_config DatasyncLocationAzureBlob#custom_secret_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#custom_secret_config DatasyncLocationAzureBlob#custom_secret_config}
   */
   readonly customSecretConfig?: DatasyncLocationAzureBlobCustomSecretConfig;
   /**
+  * Specifies the identity federation configuration that DataSync uses to access your Azure Blob Storage container using an OpenID Connect (OIDC) token.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#federated_identity DatasyncLocationAzureBlob#federated_identity}
+  */
+  readonly federatedIdentity?: DatasyncLocationAzureBlobFederatedIdentity;
+  /**
   * The subdirectory in the Azure Blob Container that is used to read data from the Azure Blob Source Location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#subdirectory DatasyncLocationAzureBlob#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#subdirectory DatasyncLocationAzureBlob#subdirectory}
   */
   readonly subdirectory?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#tags DatasyncLocationAzureBlob#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#tags DatasyncLocationAzureBlob#tags}
   */
   readonly tags?: DatasyncLocationAzureBlobTags[] | cdktn.IResolvable;
 }
@@ -77,7 +83,7 @@ export interface DatasyncLocationAzureBlobAzureBlobSasConfiguration {
   /**
   * Specifies the shared access signature (SAS) token, which indicates the permissions DataSync needs to access your Azure Blob Storage container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#azure_blob_sas_token DatasyncLocationAzureBlob#azure_blob_sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#azure_blob_sas_token DatasyncLocationAzureBlob#azure_blob_sas_token}
   */
   readonly azureBlobSasToken?: string;
 }
@@ -173,7 +179,7 @@ export interface DatasyncLocationAzureBlobCmkSecretConfig {
   /**
   * Specifies the ARN for the customer-managed AWS KMS key used to encrypt the secret specified for SecretArn. DataSync provides this key to AWS Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#kms_key_arn DatasyncLocationAzureBlob#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#kms_key_arn DatasyncLocationAzureBlob#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -274,13 +280,13 @@ export interface DatasyncLocationAzureBlobCustomSecretConfig {
   /**
   * Specifies the ARN for the AWS Identity and Access Management role that DataSync uses to access the secret specified for SecretArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#secret_access_role_arn DatasyncLocationAzureBlob#secret_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#secret_access_role_arn DatasyncLocationAzureBlob#secret_access_role_arn}
   */
   readonly secretAccessRoleArn?: string;
   /**
   * Specifies the ARN for a customer created AWS Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#secret_arn DatasyncLocationAzureBlob#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#secret_arn DatasyncLocationAzureBlob#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -401,6 +407,268 @@ export class DatasyncLocationAzureBlobCustomSecretConfigOutputReference extends 
     return this._secretArn;
   }
 }
+export interface DatasyncLocationAzureBlobFederatedIdentityAzureOidc {
+  /**
+  * Specifies the client ID of the Microsoft Entra (Azure AD) identity that DataSync uses to obtain an access token.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#client_id DatasyncLocationAzureBlob#client_id}
+  */
+  readonly clientId?: string;
+  /**
+  * Specifies the Microsoft Entra (Azure AD) tenant ID that the identity belongs to.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#tenant_id DatasyncLocationAzureBlob#tenant_id}
+  */
+  readonly tenantId?: string;
+}
+
+export function datasyncLocationAzureBlobFederatedIdentityAzureOidcToTerraform(struct?: DatasyncLocationAzureBlobFederatedIdentityAzureOidc | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    client_id: cdktn.stringToTerraform(struct!.clientId),
+    tenant_id: cdktn.stringToTerraform(struct!.tenantId),
+  }
+}
+
+
+export function datasyncLocationAzureBlobFederatedIdentityAzureOidcToHclTerraform(struct?: DatasyncLocationAzureBlobFederatedIdentityAzureOidc | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    client_id: {
+      value: cdktn.stringToHclTerraform(struct!.clientId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    tenant_id: {
+      value: cdktn.stringToHclTerraform(struct!.tenantId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DatasyncLocationAzureBlobFederatedIdentityAzureOidcOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DatasyncLocationAzureBlobFederatedIdentityAzureOidc | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._clientId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.clientId = this._clientId;
+    }
+    if (this._tenantId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.tenantId = this._tenantId;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DatasyncLocationAzureBlobFederatedIdentityAzureOidc | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._clientId = undefined;
+      this._tenantId = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._clientId = value.clientId;
+      this._tenantId = value.tenantId;
+    }
+  }
+
+  // client_id - computed: true, optional: true, required: false
+  private _clientId?: string; 
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+  public set clientId(value: string) {
+    this._clientId = value;
+  }
+  public resetClientId() {
+    this._clientId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clientIdInput() {
+    return this._clientId;
+  }
+
+  // tenant_id - computed: true, optional: true, required: false
+  private _tenantId?: string; 
+  public get tenantId() {
+    return this.getStringAttribute('tenant_id');
+  }
+  public set tenantId(value: string) {
+    this._tenantId = value;
+  }
+  public resetTenantId() {
+    this._tenantId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tenantIdInput() {
+    return this._tenantId;
+  }
+}
+export interface DatasyncLocationAzureBlobFederatedIdentity {
+  /**
+  * Specifies the ARN of the AWS Identity and Access Management (IAM) role that DataSync assumes to mint the OIDC token used to authenticate with the identity provider.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#aws_iam_role DatasyncLocationAzureBlob#aws_iam_role}
+  */
+  readonly awsIamRole?: string;
+  /**
+  * Specifies the Microsoft Entra (Azure AD) identity that DataSync federates with to obtain an access token for your Azure Blob Storage container.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#azure_oidc DatasyncLocationAzureBlob#azure_oidc}
+  */
+  readonly azureOidc?: DatasyncLocationAzureBlobFederatedIdentityAzureOidc;
+}
+
+export function datasyncLocationAzureBlobFederatedIdentityToTerraform(struct?: DatasyncLocationAzureBlobFederatedIdentity | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    aws_iam_role: cdktn.stringToTerraform(struct!.awsIamRole),
+    azure_oidc: datasyncLocationAzureBlobFederatedIdentityAzureOidcToTerraform(struct!.azureOidc),
+  }
+}
+
+
+export function datasyncLocationAzureBlobFederatedIdentityToHclTerraform(struct?: DatasyncLocationAzureBlobFederatedIdentity | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    aws_iam_role: {
+      value: cdktn.stringToHclTerraform(struct!.awsIamRole),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    azure_oidc: {
+      value: datasyncLocationAzureBlobFederatedIdentityAzureOidcToHclTerraform(struct!.azureOidc),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "DatasyncLocationAzureBlobFederatedIdentityAzureOidc",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DatasyncLocationAzureBlobFederatedIdentityOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DatasyncLocationAzureBlobFederatedIdentity | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._awsIamRole !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.awsIamRole = this._awsIamRole;
+    }
+    if (this._azureOidc?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.azureOidc = this._azureOidc?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DatasyncLocationAzureBlobFederatedIdentity | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._awsIamRole = undefined;
+      this._azureOidc.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._awsIamRole = value.awsIamRole;
+      this._azureOidc.internalValue = value.azureOidc;
+    }
+  }
+
+  // aws_iam_role - computed: true, optional: true, required: false
+  private _awsIamRole?: string; 
+  public get awsIamRole() {
+    return this.getStringAttribute('aws_iam_role');
+  }
+  public set awsIamRole(value: string) {
+    this._awsIamRole = value;
+  }
+  public resetAwsIamRole() {
+    this._awsIamRole = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get awsIamRoleInput() {
+    return this._awsIamRole;
+  }
+
+  // azure_oidc - computed: true, optional: true, required: false
+  private _azureOidc = new DatasyncLocationAzureBlobFederatedIdentityAzureOidcOutputReference(this, "azure_oidc");
+  public get azureOidc() {
+    return this._azureOidc;
+  }
+  public putAzureOidc(value: DatasyncLocationAzureBlobFederatedIdentityAzureOidc) {
+    this._azureOidc.internalValue = value;
+  }
+  public resetAzureOidc() {
+    this._azureOidc.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get azureOidcInput() {
+    return this._azureOidc.internalValue;
+  }
+}
 export interface DatasyncLocationAzureBlobManagedSecretConfig {
 }
 
@@ -459,13 +727,13 @@ export interface DatasyncLocationAzureBlobTags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#key DatasyncLocationAzureBlob#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#key DatasyncLocationAzureBlob#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#value DatasyncLocationAzureBlob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#value DatasyncLocationAzureBlob#value}
   */
   readonly value?: string;
 }
@@ -610,7 +878,7 @@ export class DatasyncLocationAzureBlobTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob}
 */
 export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
 
@@ -626,7 +894,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationAzureBlob resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationAzureBlob to import
-  * @param importFromId The id of the existing DatasyncLocationAzureBlob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationAzureBlob that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationAzureBlob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -638,7 +906,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_azure_blob awscc_datasync_location_azure_blob} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -649,7 +917,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_location_azure_blob',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -668,6 +936,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
     this._azureBlobType = config.azureBlobType;
     this._cmkSecretConfig.internalValue = config.cmkSecretConfig;
     this._customSecretConfig.internalValue = config.customSecretConfig;
+    this._federatedIdentity.internalValue = config.federatedIdentity;
     this._subdirectory = config.subdirectory;
     this._tags.internalValue = config.tags;
   }
@@ -804,6 +1073,22 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
     return this._customSecretConfig.internalValue;
   }
 
+  // federated_identity - computed: true, optional: true, required: false
+  private _federatedIdentity = new DatasyncLocationAzureBlobFederatedIdentityOutputReference(this, "federated_identity");
+  public get federatedIdentity() {
+    return this._federatedIdentity;
+  }
+  public putFederatedIdentity(value: DatasyncLocationAzureBlobFederatedIdentity) {
+    this._federatedIdentity.internalValue = value;
+  }
+  public resetFederatedIdentity() {
+    this._federatedIdentity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get federatedIdentityInput() {
+    return this._federatedIdentity.internalValue;
+  }
+
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
@@ -871,6 +1156,7 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
       azure_blob_type: cdktn.stringToTerraform(this._azureBlobType),
       cmk_secret_config: datasyncLocationAzureBlobCmkSecretConfigToTerraform(this._cmkSecretConfig.internalValue),
       custom_secret_config: datasyncLocationAzureBlobCustomSecretConfigToTerraform(this._customSecretConfig.internalValue),
+      federated_identity: datasyncLocationAzureBlobFederatedIdentityToTerraform(this._federatedIdentity.internalValue),
       subdirectory: cdktn.stringToTerraform(this._subdirectory),
       tags: cdktn.listMapper(datasyncLocationAzureBlobTagsToTerraform, false)(this._tags.internalValue),
     };
@@ -925,6 +1211,12 @@ export class DatasyncLocationAzureBlob extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "DatasyncLocationAzureBlobCustomSecretConfig",
+      },
+      federated_identity: {
+        value: datasyncLocationAzureBlobFederatedIdentityToHclTerraform(this._federatedIdentity.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DatasyncLocationAzureBlobFederatedIdentity",
       },
       subdirectory: {
         value: cdktn.stringToHclTerraform(this._subdirectory),

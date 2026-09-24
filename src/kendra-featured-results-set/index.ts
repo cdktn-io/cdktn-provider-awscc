@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface KendraFeaturedResultsSetConfig extends cdktn.TerraformMetaArgum
   /**
   * A description for the set of featured results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#description KendraFeaturedResultsSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#description KendraFeaturedResultsSet#description}
   */
   readonly description?: string;
   /**
   * A list of document IDs for the documents you want to feature at the top of the search results page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#featured_documents KendraFeaturedResultsSet#featured_documents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#featured_documents KendraFeaturedResultsSet#featured_documents}
   */
   readonly featuredDocuments?: KendraFeaturedResultsSetFeaturedDocuments[] | cdktn.IResolvable;
   /**
   * A name for the set of featured results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#featured_results_set_name KendraFeaturedResultsSet#featured_results_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#featured_results_set_name KendraFeaturedResultsSet#featured_results_set_name}
   */
   readonly featuredResultsSetName: string;
   /**
   * The identifier of the index that you want to use for featuring results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#index_id KendraFeaturedResultsSet#index_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#index_id KendraFeaturedResultsSet#index_id}
   */
   readonly indexId: string;
   /**
   * A list of queries for featuring results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#query_texts KendraFeaturedResultsSet#query_texts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#query_texts KendraFeaturedResultsSet#query_texts}
   */
   readonly queryTexts?: string[];
   /**
   * The current status of the set of featured results. When the value is ACTIVE, featured results are ready for use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#status KendraFeaturedResultsSet#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#status KendraFeaturedResultsSet#status}
   */
   readonly status?: string;
   /**
   * A list of key-value pairs that identify or categorize the featured results set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#tags KendraFeaturedResultsSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#tags KendraFeaturedResultsSet#tags}
   */
   readonly tags?: KendraFeaturedResultsSetTags[] | cdktn.IResolvable;
 }
@@ -59,7 +59,7 @@ export interface KendraFeaturedResultsSetFeaturedDocuments {
   /**
   * The identifier of the document to feature in the search results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#id KendraFeaturedResultsSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#id KendraFeaturedResultsSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -180,13 +180,13 @@ export interface KendraFeaturedResultsSetTags {
   /**
   * The key for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#key KendraFeaturedResultsSet#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#key KendraFeaturedResultsSet#key}
   */
   readonly key?: string;
   /**
   * The value associated with the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#value KendraFeaturedResultsSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#value KendraFeaturedResultsSet#value}
   */
   readonly value?: string;
 }
@@ -331,7 +331,7 @@ export class KendraFeaturedResultsSetTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set}
 */
 export class KendraFeaturedResultsSet extends cdktn.TerraformResource {
 
@@ -347,7 +347,7 @@ export class KendraFeaturedResultsSet extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a KendraFeaturedResultsSet resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KendraFeaturedResultsSet to import
-  * @param importFromId The id of the existing KendraFeaturedResultsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KendraFeaturedResultsSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KendraFeaturedResultsSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -359,7 +359,7 @@ export class KendraFeaturedResultsSet extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/kendra_featured_results_set awscc_kendra_featured_results_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,7 +370,7 @@ export class KendraFeaturedResultsSet extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_kendra_featured_results_set',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

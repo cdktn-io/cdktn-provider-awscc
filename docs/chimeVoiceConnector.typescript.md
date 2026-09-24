@@ -4,7 +4,7 @@
 
 ### ChimeVoiceConnector <a name="ChimeVoiceConnector" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector awscc_chime_voice_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector awscc_chime_voice_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.chimeVoiceConnector.ChimeVoiceConnector.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the ChimeVoiceConnector to imp
 
 The id of the existing ChimeVoiceConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1003,7 +1003,7 @@ public readonly name: string;
 
 The name of the Voice Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#name ChimeVoiceConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#name ChimeVoiceConnector#name}
 
 ---
 
@@ -1017,7 +1017,7 @@ public readonly requireEncryption: boolean | IResolvable;
 
 Enables or disables encryption for the Voice Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#require_encryption ChimeVoiceConnector#require_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#require_encryption ChimeVoiceConnector#require_encryption}
 
 ---
 
@@ -1031,7 +1031,7 @@ public readonly awsRegion: string;
 
 The AWS Region in which the Voice Connector is created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#aws_region ChimeVoiceConnector#aws_region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#aws_region ChimeVoiceConnector#aws_region}
 
 ---
 
@@ -1045,7 +1045,7 @@ public readonly networkType: string;
 
 The type of network for the Voice Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#network_type ChimeVoiceConnector#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#network_type ChimeVoiceConnector#network_type}
 
 ---
 
@@ -1059,7 +1059,7 @@ public readonly tags: IResolvable | ChimeVoiceConnectorTags[];
 
 The tags assigned to the Voice Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#tags ChimeVoiceConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#tags ChimeVoiceConnector#tags}
 
 ---
 
@@ -1092,7 +1092,7 @@ public readonly key: string;
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#key ChimeVoiceConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#key ChimeVoiceConnector#key}
 
 ---
 
@@ -1106,7 +1106,7 @@ public readonly value: string;
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_voice_connector#value ChimeVoiceConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_voice_connector#value ChimeVoiceConnector#value}
 
 ---
 

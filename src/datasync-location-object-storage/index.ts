@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,73 +15,79 @@ export interface DatasyncLocationObjectStorageConfig extends cdktn.TerraformMeta
   /**
   * Optional. The access key is used if credentials are required to access the self-managed object storage server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#access_key DatasyncLocationObjectStorage#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#access_key DatasyncLocationObjectStorage#access_key}
   */
   readonly accessKey?: string;
   /**
   * Specifies the Amazon Resource Names (ARNs) of the DataSync agents that can connect with your object storage system. If you are setting up an agentless cross-cloud transfer, you do not need to specify a value for this parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#agent_arns DatasyncLocationObjectStorage#agent_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#agent_arns DatasyncLocationObjectStorage#agent_arns}
   */
   readonly agentArns?: string[];
   /**
   * The name of the bucket on the self-managed object storage server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#bucket_name DatasyncLocationObjectStorage#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#bucket_name DatasyncLocationObjectStorage#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * Specifies configuration information for a DataSync-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and a customer-managed AWS KMS key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#cmk_secret_config DatasyncLocationObjectStorage#cmk_secret_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#cmk_secret_config DatasyncLocationObjectStorage#cmk_secret_config}
   */
   readonly cmkSecretConfig?: DatasyncLocationObjectStorageCmkSecretConfig;
   /**
   * Specifies configuration information for a customer-managed secret, such as an authentication token or set of credentials that DataSync uses to access a specific transfer location, and an IAM role that DataSync can assume and access the customer-managed secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#custom_secret_config DatasyncLocationObjectStorage#custom_secret_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#custom_secret_config DatasyncLocationObjectStorage#custom_secret_config}
   */
   readonly customSecretConfig?: DatasyncLocationObjectStorageCustomSecretConfig;
   /**
+  * Specifies the identity federation configuration that DataSync uses to access your object storage location using an OpenID Connect (OIDC) token.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#federated_identity DatasyncLocationObjectStorage#federated_identity}
+  */
+  readonly federatedIdentity?: DatasyncLocationObjectStorageFederatedIdentity;
+  /**
   * Optional. The secret key is used if credentials are required to access the self-managed object storage server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#secret_key DatasyncLocationObjectStorage#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#secret_key DatasyncLocationObjectStorage#secret_key}
   */
   readonly secretKey?: string;
   /**
   * X.509 PEM content containing a certificate authority or chain to trust.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#server_certificate DatasyncLocationObjectStorage#server_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#server_certificate DatasyncLocationObjectStorage#server_certificate}
   */
   readonly serverCertificate?: string;
   /**
   * The name of the self-managed object storage server. This value is the IP address or Domain Name Service (DNS) name of the object storage server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#server_hostname DatasyncLocationObjectStorage#server_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#server_hostname DatasyncLocationObjectStorage#server_hostname}
   */
   readonly serverHostname?: string;
   /**
   * The port that your self-managed server accepts inbound network traffic on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#server_port DatasyncLocationObjectStorage#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#server_port DatasyncLocationObjectStorage#server_port}
   */
   readonly serverPort?: number;
   /**
   * The protocol that the object storage server uses to communicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#server_protocol DatasyncLocationObjectStorage#server_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#server_protocol DatasyncLocationObjectStorage#server_protocol}
   */
   readonly serverProtocol?: string;
   /**
   * The subdirectory in the self-managed object storage server that is used to read data from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#subdirectory DatasyncLocationObjectStorage#subdirectory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#subdirectory DatasyncLocationObjectStorage#subdirectory}
   */
   readonly subdirectory?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#tags DatasyncLocationObjectStorage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#tags DatasyncLocationObjectStorage#tags}
   */
   readonly tags?: DatasyncLocationObjectStorageTags[] | cdktn.IResolvable;
 }
@@ -89,7 +95,7 @@ export interface DatasyncLocationObjectStorageCmkSecretConfig {
   /**
   * Specifies the ARN for the customer-managed AWS KMS key used to encrypt the secret specified for SecretArn. DataSync provides this key to AWS Secrets Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#kms_key_arn DatasyncLocationObjectStorage#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#kms_key_arn DatasyncLocationObjectStorage#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
 }
@@ -190,13 +196,13 @@ export interface DatasyncLocationObjectStorageCustomSecretConfig {
   /**
   * Specifies the ARN for the AWS Identity and Access Management role that DataSync uses to access the secret specified for SecretArn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#secret_access_role_arn DatasyncLocationObjectStorage#secret_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#secret_access_role_arn DatasyncLocationObjectStorage#secret_access_role_arn}
   */
   readonly secretAccessRoleArn?: string;
   /**
   * Specifies the ARN for a customer created AWS Secrets Manager secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#secret_arn DatasyncLocationObjectStorage#secret_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#secret_arn DatasyncLocationObjectStorage#secret_arn}
   */
   readonly secretArn?: string;
 }
@@ -317,6 +323,434 @@ export class DatasyncLocationObjectStorageCustomSecretConfigOutputReference exte
     return this._secretArn;
   }
 }
+export interface DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc {
+  /**
+  * The name of the Google Cloud workload identity pool that DataSync federates with.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#identity_pool_name DatasyncLocationObjectStorage#identity_pool_name}
+  */
+  readonly identityPoolName?: string;
+  /**
+  * The name of the OIDC identity provider configured in the Google Cloud workload identity pool.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#identity_provider_name DatasyncLocationObjectStorage#identity_provider_name}
+  */
+  readonly identityProviderName?: string;
+  /**
+  * The human-readable Google Cloud project name.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#project_name DatasyncLocationObjectStorage#project_name}
+  */
+  readonly projectName?: string;
+  /**
+  * The numeric Google Cloud project ID, as a string.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#project_number DatasyncLocationObjectStorage#project_number}
+  */
+  readonly projectNumber?: string;
+}
+
+export function datasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcToTerraform(struct?: DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    identity_pool_name: cdktn.stringToTerraform(struct!.identityPoolName),
+    identity_provider_name: cdktn.stringToTerraform(struct!.identityProviderName),
+    project_name: cdktn.stringToTerraform(struct!.projectName),
+    project_number: cdktn.stringToTerraform(struct!.projectNumber),
+  }
+}
+
+
+export function datasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcToHclTerraform(struct?: DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    identity_pool_name: {
+      value: cdktn.stringToHclTerraform(struct!.identityPoolName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    identity_provider_name: {
+      value: cdktn.stringToHclTerraform(struct!.identityProviderName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    project_name: {
+      value: cdktn.stringToHclTerraform(struct!.projectName),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    project_number: {
+      value: cdktn.stringToHclTerraform(struct!.projectNumber),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._identityPoolName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.identityPoolName = this._identityPoolName;
+    }
+    if (this._identityProviderName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.identityProviderName = this._identityProviderName;
+    }
+    if (this._projectName !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.projectName = this._projectName;
+    }
+    if (this._projectNumber !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.projectNumber = this._projectNumber;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._identityPoolName = undefined;
+      this._identityProviderName = undefined;
+      this._projectName = undefined;
+      this._projectNumber = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._identityPoolName = value.identityPoolName;
+      this._identityProviderName = value.identityProviderName;
+      this._projectName = value.projectName;
+      this._projectNumber = value.projectNumber;
+    }
+  }
+
+  // identity_pool_name - computed: true, optional: true, required: false
+  private _identityPoolName?: string; 
+  public get identityPoolName() {
+    return this.getStringAttribute('identity_pool_name');
+  }
+  public set identityPoolName(value: string) {
+    this._identityPoolName = value;
+  }
+  public resetIdentityPoolName() {
+    this._identityPoolName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get identityPoolNameInput() {
+    return this._identityPoolName;
+  }
+
+  // identity_provider_name - computed: true, optional: true, required: false
+  private _identityProviderName?: string; 
+  public get identityProviderName() {
+    return this.getStringAttribute('identity_provider_name');
+  }
+  public set identityProviderName(value: string) {
+    this._identityProviderName = value;
+  }
+  public resetIdentityProviderName() {
+    this._identityProviderName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get identityProviderNameInput() {
+    return this._identityProviderName;
+  }
+
+  // project_name - computed: true, optional: true, required: false
+  private _projectName?: string; 
+  public get projectName() {
+    return this.getStringAttribute('project_name');
+  }
+  public set projectName(value: string) {
+    this._projectName = value;
+  }
+  public resetProjectName() {
+    this._projectName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectNameInput() {
+    return this._projectName;
+  }
+
+  // project_number - computed: true, optional: true, required: false
+  private _projectNumber?: string; 
+  public get projectNumber() {
+    return this.getStringAttribute('project_number');
+  }
+  public set projectNumber(value: string) {
+    this._projectNumber = value;
+  }
+  public resetProjectNumber() {
+    this._projectNumber = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectNumberInput() {
+    return this._projectNumber;
+  }
+}
+export interface DatasyncLocationObjectStorageFederatedIdentityExternalIdentity {
+  /**
+  * Specifies the Google Cloud workload identity federation configuration that DataSync uses to obtain an access token for your Google Cloud Storage bucket.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#google_oidc DatasyncLocationObjectStorage#google_oidc}
+  */
+  readonly googleOidc?: DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc;
+}
+
+export function datasyncLocationObjectStorageFederatedIdentityExternalIdentityToTerraform(struct?: DatasyncLocationObjectStorageFederatedIdentityExternalIdentity | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    google_oidc: datasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcToTerraform(struct!.googleOidc),
+  }
+}
+
+
+export function datasyncLocationObjectStorageFederatedIdentityExternalIdentityToHclTerraform(struct?: DatasyncLocationObjectStorageFederatedIdentityExternalIdentity | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    google_oidc: {
+      value: datasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcToHclTerraform(struct!.googleOidc),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DatasyncLocationObjectStorageFederatedIdentityExternalIdentity | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._googleOidc?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.googleOidc = this._googleOidc?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DatasyncLocationObjectStorageFederatedIdentityExternalIdentity | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._googleOidc.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._googleOidc.internalValue = value.googleOidc;
+    }
+  }
+
+  // google_oidc - computed: true, optional: true, required: false
+  private _googleOidc = new DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidcOutputReference(this, "google_oidc");
+  public get googleOidc() {
+    return this._googleOidc;
+  }
+  public putGoogleOidc(value: DatasyncLocationObjectStorageFederatedIdentityExternalIdentityGoogleOidc) {
+    this._googleOidc.internalValue = value;
+  }
+  public resetGoogleOidc() {
+    this._googleOidc.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get googleOidcInput() {
+    return this._googleOidc.internalValue;
+  }
+}
+export interface DatasyncLocationObjectStorageFederatedIdentity {
+  /**
+  * Specifies the ARN of the AWS Identity and Access Management (IAM) role that DataSync assumes to mint the OIDC token used to authenticate with the identity provider.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#aws_iam_role DatasyncLocationObjectStorage#aws_iam_role}
+  */
+  readonly awsIamRole?: string;
+  /**
+  * Specifies the external (non-AWS) identity provider that DataSync federates with to access your object storage location.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#external_identity DatasyncLocationObjectStorage#external_identity}
+  */
+  readonly externalIdentity?: DatasyncLocationObjectStorageFederatedIdentityExternalIdentity;
+}
+
+export function datasyncLocationObjectStorageFederatedIdentityToTerraform(struct?: DatasyncLocationObjectStorageFederatedIdentity | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    aws_iam_role: cdktn.stringToTerraform(struct!.awsIamRole),
+    external_identity: datasyncLocationObjectStorageFederatedIdentityExternalIdentityToTerraform(struct!.externalIdentity),
+  }
+}
+
+
+export function datasyncLocationObjectStorageFederatedIdentityToHclTerraform(struct?: DatasyncLocationObjectStorageFederatedIdentity | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    aws_iam_role: {
+      value: cdktn.stringToHclTerraform(struct!.awsIamRole),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    external_identity: {
+      value: datasyncLocationObjectStorageFederatedIdentityExternalIdentityToHclTerraform(struct!.externalIdentity),
+      isBlock: true,
+      type: "struct",
+      storageClassType: "DatasyncLocationObjectStorageFederatedIdentityExternalIdentity",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DatasyncLocationObjectStorageFederatedIdentityOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DatasyncLocationObjectStorageFederatedIdentity | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._awsIamRole !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.awsIamRole = this._awsIamRole;
+    }
+    if (this._externalIdentity?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.externalIdentity = this._externalIdentity?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DatasyncLocationObjectStorageFederatedIdentity | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._awsIamRole = undefined;
+      this._externalIdentity.internalValue = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._awsIamRole = value.awsIamRole;
+      this._externalIdentity.internalValue = value.externalIdentity;
+    }
+  }
+
+  // aws_iam_role - computed: true, optional: true, required: false
+  private _awsIamRole?: string; 
+  public get awsIamRole() {
+    return this.getStringAttribute('aws_iam_role');
+  }
+  public set awsIamRole(value: string) {
+    this._awsIamRole = value;
+  }
+  public resetAwsIamRole() {
+    this._awsIamRole = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get awsIamRoleInput() {
+    return this._awsIamRole;
+  }
+
+  // external_identity - computed: true, optional: true, required: false
+  private _externalIdentity = new DatasyncLocationObjectStorageFederatedIdentityExternalIdentityOutputReference(this, "external_identity");
+  public get externalIdentity() {
+    return this._externalIdentity;
+  }
+  public putExternalIdentity(value: DatasyncLocationObjectStorageFederatedIdentityExternalIdentity) {
+    this._externalIdentity.internalValue = value;
+  }
+  public resetExternalIdentity() {
+    this._externalIdentity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get externalIdentityInput() {
+    return this._externalIdentity.internalValue;
+  }
+}
 export interface DatasyncLocationObjectStorageManagedSecretConfig {
 }
 
@@ -375,13 +809,13 @@ export interface DatasyncLocationObjectStorageTags {
   /**
   * The key for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#key DatasyncLocationObjectStorage#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#key DatasyncLocationObjectStorage#key}
   */
   readonly key?: string;
   /**
   * The value for an AWS resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#value DatasyncLocationObjectStorage#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#value DatasyncLocationObjectStorage#value}
   */
   readonly value?: string;
 }
@@ -526,7 +960,7 @@ export class DatasyncLocationObjectStorageTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage}
 */
 export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
 
@@ -542,7 +976,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DatasyncLocationObjectStorage resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatasyncLocationObjectStorage to import
-  * @param importFromId The id of the existing DatasyncLocationObjectStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatasyncLocationObjectStorage that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatasyncLocationObjectStorage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -554,7 +988,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/datasync_location_object_storage awscc_datasync_location_object_storage} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -565,7 +999,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_datasync_location_object_storage',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -581,6 +1015,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
     this._bucketName = config.bucketName;
     this._cmkSecretConfig.internalValue = config.cmkSecretConfig;
     this._customSecretConfig.internalValue = config.customSecretConfig;
+    this._federatedIdentity.internalValue = config.federatedIdentity;
     this._secretKey = config.secretKey;
     this._serverCertificate = config.serverCertificate;
     this._serverHostname = config.serverHostname;
@@ -672,6 +1107,22 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get customSecretConfigInput() {
     return this._customSecretConfig.internalValue;
+  }
+
+  // federated_identity - computed: true, optional: true, required: false
+  private _federatedIdentity = new DatasyncLocationObjectStorageFederatedIdentityOutputReference(this, "federated_identity");
+  public get federatedIdentity() {
+    return this._federatedIdentity;
+  }
+  public putFederatedIdentity(value: DatasyncLocationObjectStorageFederatedIdentity) {
+    this._federatedIdentity.internalValue = value;
+  }
+  public resetFederatedIdentity() {
+    this._federatedIdentity.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get federatedIdentityInput() {
+    return this._federatedIdentity.internalValue;
   }
 
   // id - computed: true, optional: false, required: false
@@ -818,6 +1269,7 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
       bucket_name: cdktn.stringToTerraform(this._bucketName),
       cmk_secret_config: datasyncLocationObjectStorageCmkSecretConfigToTerraform(this._cmkSecretConfig.internalValue),
       custom_secret_config: datasyncLocationObjectStorageCustomSecretConfigToTerraform(this._customSecretConfig.internalValue),
+      federated_identity: datasyncLocationObjectStorageFederatedIdentityToTerraform(this._federatedIdentity.internalValue),
       secret_key: cdktn.stringToTerraform(this._secretKey),
       server_certificate: cdktn.stringToTerraform(this._serverCertificate),
       server_hostname: cdktn.stringToTerraform(this._serverHostname),
@@ -859,6 +1311,12 @@ export class DatasyncLocationObjectStorage extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "DatasyncLocationObjectStorageCustomSecretConfig",
+      },
+      federated_identity: {
+        value: datasyncLocationObjectStorageFederatedIdentityToHclTerraform(this._federatedIdentity.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DatasyncLocationObjectStorageFederatedIdentity",
       },
       secret_key: {
         value: cdktn.stringToHclTerraform(this._secretKey),

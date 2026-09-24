@@ -4,7 +4,7 @@
 
 ### DataAwsccFmsApplicationsLists <a name="DataAwsccFmsApplicationsLists" id="@cdktn/provider-awscc.dataAwsccFmsApplicationsLists.DataAwsccFmsApplicationsLists"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_applications_lists awscc_fms_applications_lists}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_applications_lists awscc_fms_applications_lists}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccFmsApplicationsLists.DataAwsccFmsApplicationsLists.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccFmsApplicationsLi
 
 The id of the existing DataAwsccFmsApplicationsLists that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/fms_applications_lists#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/fms_applications_lists#import import section} in the documentation of this resource for the id to use
 
 ---
 

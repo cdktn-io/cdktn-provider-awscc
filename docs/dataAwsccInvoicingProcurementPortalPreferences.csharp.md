@@ -4,7 +4,7 @@
 
 ### DataAwsccInvoicingProcurementPortalPreferences <a name="DataAwsccInvoicingProcurementPortalPreferences" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreferences.DataAwsccInvoicingProcurementPortalPreferences"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/invoicing_procurement_portal_preferences awscc_invoicing_procurement_portal_preferences}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccInvoicingProcurementPortalPreferences.DataAwsccInvoicingProcurementPortalPreferences.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccInvoicingProcurem
 
 The id of the existing DataAwsccInvoicingProcurementPortalPreferences that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/invoicing_procurement_portal_preferences#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/invoicing_procurement_portal_preferences#import import section} in the documentation of this resource for the id to use
 
 ---
 

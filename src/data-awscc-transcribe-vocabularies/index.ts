@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_vocabularies
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_vocabularies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccTranscribeVocabulariesConfig extends cdktn.TerraformMe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_vocabularies awscc_transcribe_vocabularies}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_vocabularies awscc_transcribe_vocabularies}
 */
 export class DataAwsccTranscribeVocabularies extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccTranscribeVocabularies extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccTranscribeVocabularies resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccTranscribeVocabularies to import
-  * @param importFromId The id of the existing DataAwsccTranscribeVocabularies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_vocabularies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccTranscribeVocabularies that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_vocabularies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccTranscribeVocabularies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccTranscribeVocabularies extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/transcribe_vocabularies awscc_transcribe_vocabularies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/transcribe_vocabularies awscc_transcribe_vocabularies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccTranscribeVocabularies extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_transcribe_vocabularies',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

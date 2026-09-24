@@ -4,7 +4,7 @@
 
 ### DataAwsccApplicationautoscalingScalableTarget <a name="DataAwsccApplicationautoscalingScalableTarget" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationautoscaling_scalable_target awscc_applicationautoscaling_scalable_target}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccApplicationautosc
 
 The id of the existing DataAwsccApplicationautoscalingScalableTarget that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationautoscaling_scalable_target#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationautoscaling_scalable_target#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -424,6 +424,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.property.scheduledActions">ScheduledActions</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetScheduledActionsList">DataAwsccApplicationautoscalingScalableTargetScheduledActionsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.property.serviceNamespace">ServiceNamespace</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.property.suspendedState">SuspendedState</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetSuspendedStateOutputReference">DataAwsccApplicationautoscalingScalableTargetSuspendedStateOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList">DataAwsccApplicationautoscalingScalableTargetTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.property.idInput">IdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.property.id">Id</a></code> | <code>string</code> | *No description.* |
 
@@ -641,6 +642,16 @@ public DataAwsccApplicationautoscalingScalableTargetSuspendedStateOutputReferenc
 
 ---
 
+##### `Tags`<sup>Required</sup> <a name="Tags" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.property.tags"></a>
+
+```csharp
+public DataAwsccApplicationautoscalingScalableTargetTagsList Tags { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList">DataAwsccApplicationautoscalingScalableTargetTagsList</a>
+
+---
+
 ##### `IdInput`<sup>Optional</sup> <a name="IdInput" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTarget.property.idInput"></a>
 
 ```csharp
@@ -795,7 +806,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/applicationautoscaling_scalable_target#id DataAwsccApplicationautoscalingScalableTarget#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/applicationautoscaling_scalable_target#id DataAwsccApplicationautoscalingScalableTarget#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -836,6 +847,19 @@ new DataAwsccApplicationautoscalingScalableTargetScheduledActionsScalableTargetA
 using Io.Cdktn.Providers.Awscc;
 
 new DataAwsccApplicationautoscalingScalableTargetSuspendedState {
+
+};
+```
+
+
+### DataAwsccApplicationautoscalingScalableTargetTags <a name="DataAwsccApplicationautoscalingScalableTargetTags" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTags.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccApplicationautoscalingScalableTargetTags {
 
 };
 ```
@@ -1874,6 +1898,444 @@ public DataAwsccApplicationautoscalingScalableTargetSuspendedState InternalValue
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetSuspendedState">DataAwsccApplicationautoscalingScalableTargetSuspendedState</a>
+
+---
+
+
+### DataAwsccApplicationautoscalingScalableTargetTagsList <a name="DataAwsccApplicationautoscalingScalableTargetTagsList" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccApplicationautoscalingScalableTargetTagsList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.get"></a>
+
+```csharp
+private DataAwsccApplicationautoscalingScalableTargetTagsOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccApplicationautoscalingScalableTargetTagsOutputReference <a name="DataAwsccApplicationautoscalingScalableTargetTagsOutputReference" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DataAwsccApplicationautoscalingScalableTargetTagsOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.key">Key</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.value">Value</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTags">DataAwsccApplicationautoscalingScalableTargetTags</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Key`<sup>Required</sup> <a name="Key" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.key"></a>
+
+```csharp
+public string Key { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.value"></a>
+
+```csharp
+public string Value { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTagsOutputReference.property.internalValue"></a>
+
+```csharp
+public DataAwsccApplicationautoscalingScalableTargetTags InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccApplicationautoscalingScalableTarget.DataAwsccApplicationautoscalingScalableTargetTags">DataAwsccApplicationautoscalingScalableTargetTags</a>
 
 ---
 

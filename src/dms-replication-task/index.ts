@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,77 +15,77 @@ export interface DmsReplicationTaskConfig extends cdktn.TerraformMetaArguments {
   /**
   * Indicates when you want a change data capture (CDC) operation to start. Use either CdcStartPosition or CdcStartTime to specify when you want a CDC operation to start. Specifying both values results in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#cdc_start_position DmsReplicationTask#cdc_start_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#cdc_start_position DmsReplicationTask#cdc_start_position}
   */
   readonly cdcStartPosition?: string;
   /**
   * Indicates the start time for a change data capture (CDC) operation. Use either CdcStartTime or CdcStartPosition to specify when you want a CDC operation to start. Specifying both values results in an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#cdc_start_time DmsReplicationTask#cdc_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#cdc_start_time DmsReplicationTask#cdc_start_time}
   */
   readonly cdcStartTime?: number;
   /**
   * Indicates when you want a change data capture (CDC) operation to stop. The value can be either server time or commit time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#cdc_stop_position DmsReplicationTask#cdc_stop_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#cdc_stop_position DmsReplicationTask#cdc_stop_position}
   */
   readonly cdcStopPosition?: string;
   /**
   * The migration type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#migration_type DmsReplicationTask#migration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#migration_type DmsReplicationTask#migration_type}
   */
   readonly migrationType: string;
   /**
   * The Amazon Resource Name (ARN) of a replication instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#replication_instance_arn DmsReplicationTask#replication_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#replication_instance_arn DmsReplicationTask#replication_instance_arn}
   */
   readonly replicationInstanceArn: string;
   /**
   * An identifier for the replication task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#replication_task_identifier DmsReplicationTask#replication_task_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#replication_task_identifier DmsReplicationTask#replication_task_identifier}
   */
   readonly replicationTaskIdentifier?: string;
   /**
   * Overall settings for the task, in JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#replication_task_settings DmsReplicationTask#replication_task_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#replication_task_settings DmsReplicationTask#replication_task_settings}
   */
   readonly replicationTaskSettings?: string;
   /**
   * A friendly name for the resource identifier at the end of the EndpointArn response parameter that is returned in the created Endpoint object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#resource_identifier DmsReplicationTask#resource_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#resource_identifier DmsReplicationTask#resource_identifier}
   */
   readonly resourceIdentifier?: string;
   /**
   * An Amazon Resource Name (ARN) that uniquely identifies the source endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#source_endpoint_arn DmsReplicationTask#source_endpoint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#source_endpoint_arn DmsReplicationTask#source_endpoint_arn}
   */
   readonly sourceEndpointArn: string;
   /**
   * The table mappings for the task, in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#table_mappings DmsReplicationTask#table_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#table_mappings DmsReplicationTask#table_mappings}
   */
   readonly tableMappings: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#tags DmsReplicationTask#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#tags DmsReplicationTask#tags}
   */
   readonly tags?: DmsReplicationTaskTags[] | cdktn.IResolvable;
   /**
   * An Amazon Resource Name (ARN) that uniquely identifies the target endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#target_endpoint_arn DmsReplicationTask#target_endpoint_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#target_endpoint_arn DmsReplicationTask#target_endpoint_arn}
   */
   readonly targetEndpointArn: string;
   /**
   * Supplemental information that the task requires to migrate the data for certain source and target endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#task_data DmsReplicationTask#task_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#task_data DmsReplicationTask#task_data}
   */
   readonly taskData?: string;
 }
@@ -93,13 +93,13 @@ export interface DmsReplicationTaskTags {
   /**
   * Tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#key DmsReplicationTask#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#key DmsReplicationTask#key}
   */
   readonly key?: string;
   /**
   * Tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#value DmsReplicationTask#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#value DmsReplicationTask#value}
   */
   readonly value?: string;
 }
@@ -244,7 +244,7 @@ export class DmsReplicationTaskTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task awscc_dms_replication_task}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task awscc_dms_replication_task}
 */
 export class DmsReplicationTask extends cdktn.TerraformResource {
 
@@ -260,7 +260,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DmsReplicationTask resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsReplicationTask to import
-  * @param importFromId The id of the existing DmsReplicationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsReplicationTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsReplicationTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -272,7 +272,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/dms_replication_task awscc_dms_replication_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/dms_replication_task awscc_dms_replication_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -283,7 +283,7 @@ export class DmsReplicationTask extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dms_replication_task',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

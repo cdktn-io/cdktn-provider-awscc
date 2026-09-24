@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configurations
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccChimeMediaInsightsPipelineConfigurationsConfig extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configurations awscc_chime_media_insights_pipeline_configurations}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configurations awscc_chime_media_insights_pipeline_configurations}
 */
 export class DataAwsccChimeMediaInsightsPipelineConfigurations extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccChimeMediaInsightsPipelineConfigurations extends cdktn.Ter
   * Generates CDKTN code for importing a DataAwsccChimeMediaInsightsPipelineConfigurations resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccChimeMediaInsightsPipelineConfigurations to import
-  * @param importFromId The id of the existing DataAwsccChimeMediaInsightsPipelineConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccChimeMediaInsightsPipelineConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccChimeMediaInsightsPipelineConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccChimeMediaInsightsPipelineConfigurations extends cdktn.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/chime_media_insights_pipeline_configurations awscc_chime_media_insights_pipeline_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/chime_media_insights_pipeline_configurations awscc_chime_media_insights_pipeline_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccChimeMediaInsightsPipelineConfigurations extends cdktn.Ter
       terraformResourceType: 'awscc_chime_media_insights_pipeline_configurations',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

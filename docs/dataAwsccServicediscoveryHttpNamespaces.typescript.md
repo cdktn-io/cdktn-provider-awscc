@@ -4,7 +4,7 @@
 
 ### DataAwsccServicediscoveryHttpNamespaces <a name="DataAwsccServicediscoveryHttpNamespaces" id="@cdktn/provider-awscc.dataAwsccServicediscoveryHttpNamespaces.DataAwsccServicediscoveryHttpNamespaces"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicediscovery_http_namespaces awscc_servicediscovery_http_namespaces}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicediscovery_http_namespaces awscc_servicediscovery_http_namespaces}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccServicediscoveryHttpNamespaces.DataAwsccServicediscoveryHttpNamespaces.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccServicediscoveryH
 
 The id of the existing DataAwsccServicediscoveryHttpNamespaces that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/servicediscovery_http_namespaces#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/servicediscovery_http_namespaces#import import section} in the documentation of this resource for the id to use
 
 ---
 

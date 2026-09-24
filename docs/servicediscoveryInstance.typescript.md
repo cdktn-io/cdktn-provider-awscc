@@ -4,7 +4,7 @@
 
 ### ServicediscoveryInstance <a name="ServicediscoveryInstance" id="@cdktn/provider-awscc.servicediscoveryInstance.ServicediscoveryInstance"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance awscc_servicediscovery_instance}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance awscc_servicediscovery_instance}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.servicediscoveryInstance.ServicediscoveryInstance.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the ServicediscoveryInstance t
 
 The id of the existing ServicediscoveryInstance that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -875,7 +875,7 @@ public readonly instanceAttributes: string;
 
 A string map that contains information for the service that is specified in ServiceId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance#instance_attributes ServicediscoveryInstance#instance_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance#instance_attributes ServicediscoveryInstance#instance_attributes}
 
 ---
 
@@ -889,7 +889,7 @@ public readonly serviceId: string;
 
 The ID or Amazon Resource Name (ARN) of the service that you want to use for settings for the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance#service_id ServicediscoveryInstance#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance#service_id ServicediscoveryInstance#service_id}
 
 ---
 
@@ -903,7 +903,7 @@ public readonly instanceId: string;
 
 An identifier that you want to associate with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/servicediscovery_instance#instance_id ServicediscoveryInstance#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/servicediscovery_instance#instance_id ServicediscoveryInstance#instance_id}
 
 ---
 

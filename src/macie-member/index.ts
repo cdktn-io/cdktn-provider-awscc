@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface MacieMemberConfig extends cdktn.TerraformMetaArguments {
   /**
   * The AWS account ID for the account to associate with the Amazon Macie administrator account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#account_id MacieMember#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#account_id MacieMember#account_id}
   */
   readonly accountId: string;
   /**
   * The email address for the account to associate with the Amazon Macie administrator account. Required by the Amazon Macie CreateMember API at creation time; it is write-only because the service does not return it (it is null when the account is associated through AWS Organizations).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#email MacieMember#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#email MacieMember#email}
   */
   readonly email?: string;
   /**
   * The tags to associate with the member account in Amazon Macie.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#tags MacieMember#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#tags MacieMember#tags}
   */
   readonly tags?: MacieMemberTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface MacieMemberTags {
   /**
   * The key of the tag. The maximum length of a tag key is 128 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#key MacieMember#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#key MacieMember#key}
   */
   readonly key?: string;
   /**
   * The value of the tag. The maximum length of a tag value is 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#value MacieMember#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#value MacieMember#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class MacieMemberTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member awscc_macie_member}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member awscc_macie_member}
 */
 export class MacieMember extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class MacieMember extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MacieMember resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MacieMember to import
-  * @param importFromId The id of the existing MacieMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MacieMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MacieMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class MacieMember extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/macie_member awscc_macie_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/macie_member awscc_macie_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class MacieMember extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_macie_member',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

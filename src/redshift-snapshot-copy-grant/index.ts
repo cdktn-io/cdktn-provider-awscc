@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface RedshiftSnapshotCopyGrantConfig extends cdktn.TerraformMetaArgu
   /**
   * The unique identifier of the encrypted symmetric key to which to grant Amazon Redshift permission. If no key is specified, the default key is used. Marked writeOnly because Create accepts aliases/key-ids but Describe returns the resolved key ARN, which would fail drift detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant#kms_key_id RedshiftSnapshotCopyGrant#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant#kms_key_id RedshiftSnapshotCopyGrant#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The name of the snapshot copy grant. This name must be unique in the region for the AWS account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant#snapshot_copy_grant_name RedshiftSnapshotCopyGrant#snapshot_copy_grant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant#snapshot_copy_grant_name RedshiftSnapshotCopyGrant#snapshot_copy_grant_name}
   */
   readonly snapshotCopyGrantName: string;
   /**
   * A list of tag instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant#tags RedshiftSnapshotCopyGrant#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant#tags RedshiftSnapshotCopyGrant#tags}
   */
   readonly tags?: RedshiftSnapshotCopyGrantTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface RedshiftSnapshotCopyGrantTags {
   /**
   * The key, or name, for the resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant#key RedshiftSnapshotCopyGrant#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant#key RedshiftSnapshotCopyGrant#key}
   */
   readonly key?: string;
   /**
   * The value for the resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant#value RedshiftSnapshotCopyGrant#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant#value RedshiftSnapshotCopyGrant#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class RedshiftSnapshotCopyGrantTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant awscc_redshift_snapshot_copy_grant}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant awscc_redshift_snapshot_copy_grant}
 */
 export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftSnapshotCopyGrant resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftSnapshotCopyGrant to import
-  * @param importFromId The id of the existing RedshiftSnapshotCopyGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftSnapshotCopyGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftSnapshotCopyGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_snapshot_copy_grant awscc_redshift_snapshot_copy_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_snapshot_copy_grant awscc_redshift_snapshot_copy_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class RedshiftSnapshotCopyGrant extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_snapshot_copy_grant',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

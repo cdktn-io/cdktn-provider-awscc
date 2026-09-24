@@ -4,7 +4,7 @@
 
 ### Route53TrafficPolicy <a name="Route53TrafficPolicy" id="@cdktn/provider-awscc.route53TrafficPolicy.Route53TrafficPolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy awscc_route53_traffic_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy awscc_route53_traffic_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53TrafficPolicy.Route53TrafficPolicy.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the Route53TrafficPolicy to im
 
 The id of the existing Route53TrafficPolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -930,7 +930,7 @@ public string Document { get; set; }
 
 The definition of the traffic policy in JSON format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#document Route53TrafficPolicy#document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#document Route53TrafficPolicy#document}
 
 ---
 
@@ -944,7 +944,7 @@ public string Name { get; set; }
 
 The name of the traffic policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#name Route53TrafficPolicy#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#name Route53TrafficPolicy#name}
 
 ---
 
@@ -958,7 +958,7 @@ public string Comment { get; set; }
 
 Any comments to include about the traffic policy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/route53_traffic_policy#comment Route53TrafficPolicy#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_traffic_policy#comment Route53TrafficPolicy#comment}
 
 ---
 

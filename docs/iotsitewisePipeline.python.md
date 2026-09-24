@@ -4,7 +4,7 @@
 
 ### IotsitewisePipeline <a name="IotsitewisePipeline" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipeline"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline awscc_iotsitewise_pipeline}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewisePipeline.IotsitewisePipeline.Initializer"></a>
 
@@ -116,7 +116,7 @@ Must be unique amongst siblings in the same scope
 
 The list of compute nodes that form the pipeline DAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#computations IotsitewisePipeline#computations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#computations IotsitewisePipeline#computations}
 
 ---
 
@@ -126,7 +126,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the pipeline. Must be unique within the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#pipeline_name IotsitewisePipeline#pipeline_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#pipeline_name IotsitewisePipeline#pipeline_name}
 
 ---
 
@@ -136,7 +136,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#workspace_name IotsitewisePipeline#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#workspace_name IotsitewisePipeline#workspace_name}
 
 ---
 
@@ -146,7 +146,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#description IotsitewisePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#description IotsitewisePipeline#description}
 
 ---
 
@@ -156,7 +156,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Environment variables shared across all compute nodes in the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
 
 ---
 
@@ -166,7 +166,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#tags IotsitewisePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#tags IotsitewisePipeline#tags}
 
 ---
 
@@ -714,7 +714,7 @@ The construct id used in the generated config for the IotsitewisePipeline to imp
 
 The id of the existing IotsitewisePipeline that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1110,7 +1110,7 @@ compute_node_name: str
 
 The unique name for this compute node within the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#compute_node_name IotsitewisePipeline#compute_node_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#compute_node_name IotsitewisePipeline#compute_node_name}
 
 ---
 
@@ -1124,7 +1124,7 @@ task_name: str
 
 The name of the task to execute for this compute node.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#task_name IotsitewisePipeline#task_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#task_name IotsitewisePipeline#task_name}
 
 ---
 
@@ -1138,7 +1138,7 @@ depends_on: typing.List[str]
 
 A list of compute node names that must complete successfully before this node can start.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#depends_on IotsitewisePipeline#depends_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#depends_on IotsitewisePipeline#depends_on}
 
 ---
 
@@ -1152,7 +1152,7 @@ environment_variables: typing.Mapping[str]
 
 A map of environment variable key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
 
 ---
 
@@ -1280,7 +1280,7 @@ computations: IResolvable | typing.List[IotsitewisePipelineComputations]
 
 The list of compute nodes that form the pipeline DAG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#computations IotsitewisePipeline#computations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#computations IotsitewisePipeline#computations}
 
 ---
 
@@ -1294,7 +1294,7 @@ pipeline_name: str
 
 The name of the pipeline. Must be unique within the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#pipeline_name IotsitewisePipeline#pipeline_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#pipeline_name IotsitewisePipeline#pipeline_name}
 
 ---
 
@@ -1308,7 +1308,7 @@ workspace_name: str
 
 The name of the workspace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#workspace_name IotsitewisePipeline#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#workspace_name IotsitewisePipeline#workspace_name}
 
 ---
 
@@ -1322,7 +1322,7 @@ description: str
 
 A description of the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#description IotsitewisePipeline#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#description IotsitewisePipeline#description}
 
 ---
 
@@ -1336,7 +1336,7 @@ environment_variables: typing.Mapping[str]
 
 Environment variables shared across all compute nodes in the pipeline.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#environment_variables IotsitewisePipeline#environment_variables}
 
 ---
 
@@ -1350,7 +1350,7 @@ tags: IResolvable | typing.List[IotsitewisePipelineTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#tags IotsitewisePipeline#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#tags IotsitewisePipeline#tags}
 
 ---
 
@@ -1386,7 +1386,7 @@ key: str
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#key IotsitewisePipeline#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#key IotsitewisePipeline#key}
 
 ---
 
@@ -1400,7 +1400,7 @@ value: str
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/iotsitewise_pipeline#value IotsitewisePipeline#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_pipeline#value IotsitewisePipeline#value}
 
 ---
 

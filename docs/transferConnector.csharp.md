@@ -4,7 +4,7 @@
 
 ### TransferConnector <a name="TransferConnector" id="@cdktn/provider-awscc.transferConnector.TransferConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector awscc_transfer_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector awscc_transfer_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transferConnector.TransferConnector.Initializer"></a>
 
@@ -604,7 +604,7 @@ The construct id used in the generated config for the TransferConnector to impor
 
 The id of the existing TransferConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1135,7 +1135,7 @@ public TransferConnectorAs2ConfigAsyncMdnConfig AsyncMdnConfig { get; set; }
 
 Configuration for an AS2 connector with ASYNC MDN Response.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#async_mdn_config TransferConnector#async_mdn_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#async_mdn_config TransferConnector#async_mdn_config}
 
 ---
 
@@ -1151,7 +1151,7 @@ ARN or name of the secret in AWS Secrets Manager which contains the credentials 
 
 If empty, Basic authentication is disabled for the AS2 connector
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#basic_auth_secret_id TransferConnector#basic_auth_secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#basic_auth_secret_id TransferConnector#basic_auth_secret_id}
 
 ---
 
@@ -1165,7 +1165,7 @@ public string Compression { get; set; }
 
 Compression setting for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#compression TransferConnector#compression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#compression TransferConnector#compression}
 
 ---
 
@@ -1179,7 +1179,7 @@ public string EncryptionAlgorithm { get; set; }
 
 Encryption algorithm for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#encryption_algorithm TransferConnector#encryption_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#encryption_algorithm TransferConnector#encryption_algorithm}
 
 ---
 
@@ -1193,7 +1193,7 @@ public string LocalProfileId { get; set; }
 
 A unique identifier for the local profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#local_profile_id TransferConnector#local_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#local_profile_id TransferConnector#local_profile_id}
 
 ---
 
@@ -1207,7 +1207,7 @@ public string MdnResponse { get; set; }
 
 MDN Response setting for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#mdn_response TransferConnector#mdn_response}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#mdn_response TransferConnector#mdn_response}
 
 ---
 
@@ -1221,7 +1221,7 @@ public string MdnSigningAlgorithm { get; set; }
 
 MDN Signing algorithm for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#mdn_signing_algorithm TransferConnector#mdn_signing_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#mdn_signing_algorithm TransferConnector#mdn_signing_algorithm}
 
 ---
 
@@ -1235,7 +1235,7 @@ public string MessageSubject { get; set; }
 
 The message subject for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#message_subject TransferConnector#message_subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#message_subject TransferConnector#message_subject}
 
 ---
 
@@ -1249,7 +1249,7 @@ public string PartnerProfileId { get; set; }
 
 A unique identifier for the partner profile.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#partner_profile_id TransferConnector#partner_profile_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#partner_profile_id TransferConnector#partner_profile_id}
 
 ---
 
@@ -1263,7 +1263,7 @@ public string PreserveContentType { get; set; }
 
 Specifies whether to use the AWS S3 object content-type as the content-type for the AS2 message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#preserve_content_type TransferConnector#preserve_content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#preserve_content_type TransferConnector#preserve_content_type}
 
 ---
 
@@ -1277,7 +1277,7 @@ public string SigningAlgorithm { get; set; }
 
 Signing algorithm for this AS2 connector configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#signing_algorithm TransferConnector#signing_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#signing_algorithm TransferConnector#signing_algorithm}
 
 ---
 
@@ -1298,7 +1298,7 @@ new TransferConnectorAs2ConfigAsyncMdnConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig.property.serverIds">ServerIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}. |
+| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig.property.serverIds">ServerIds</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}. |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorAs2ConfigAsyncMdnConfig.property.url">Url</a></code> | <code>string</code> | URL of the server to receive the MDN response on. |
 
 ---
@@ -1311,7 +1311,7 @@ public string[] ServerIds { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#server_ids TransferConnector#server_ids}.
 
 ---
 
@@ -1325,7 +1325,7 @@ public string Url { get; set; }
 
 URL of the server to receive the MDN response on.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#url TransferConnector#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#url TransferConnector#url}
 
 ---
 
@@ -1461,7 +1461,7 @@ public string AccessRole { get; set; }
 
 Specifies the access role for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#access_role TransferConnector#access_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#access_role TransferConnector#access_role}
 
 ---
 
@@ -1475,7 +1475,7 @@ public TransferConnectorAs2Config As2Config { get; set; }
 
 Configuration for an AS2 connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#as_2_config TransferConnector#as_2_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#as_2_config TransferConnector#as_2_config}
 
 ---
 
@@ -1489,7 +1489,7 @@ public TransferConnectorEgressConfig EgressConfig { get; set; }
 
 Egress configuration for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#egress_config TransferConnector#egress_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#egress_config TransferConnector#egress_config}
 
 ---
 
@@ -1503,7 +1503,7 @@ public string EgressType { get; set; }
 
 Specifies the egress type for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#egress_type TransferConnector#egress_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#egress_type TransferConnector#egress_type}
 
 ---
 
@@ -1517,7 +1517,7 @@ public string IpAddressType { get; set; }
 
 IP address type for Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#ip_address_type TransferConnector#ip_address_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#ip_address_type TransferConnector#ip_address_type}
 
 ---
 
@@ -1531,7 +1531,7 @@ public string LoggingRole { get; set; }
 
 Specifies the logging role for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#logging_role TransferConnector#logging_role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#logging_role TransferConnector#logging_role}
 
 ---
 
@@ -1545,7 +1545,7 @@ public string SecurityPolicyName { get; set; }
 
 Security policy for SFTP Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#security_policy_name TransferConnector#security_policy_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#security_policy_name TransferConnector#security_policy_name}
 
 ---
 
@@ -1559,7 +1559,7 @@ public TransferConnectorSftpConfig SftpConfig { get; set; }
 
 Configuration for an SFTP connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#sftp_config TransferConnector#sftp_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#sftp_config TransferConnector#sftp_config}
 
 ---
 
@@ -1575,7 +1575,7 @@ Key-value pairs that can be used to group and search for connectors.
 
 Tags are metadata attached to connectors for any purpose.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#tags TransferConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#tags TransferConnector#tags}
 
 ---
 
@@ -1589,7 +1589,7 @@ public string Url { get; set; }
 
 URL for Connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#url TransferConnector#url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#url TransferConnector#url}
 
 ---
 
@@ -1609,7 +1609,7 @@ new TransferConnectorEgressConfig {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfig.property.vpcLattice">VpcLattice</a></code> | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigVpcLattice">TransferConnectorEgressConfigVpcLattice</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}. |
+| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfig.property.vpcLattice">VpcLattice</a></code> | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigVpcLattice">TransferConnectorEgressConfigVpcLattice</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}. |
 
 ---
 
@@ -1621,7 +1621,7 @@ public TransferConnectorEgressConfigVpcLattice VpcLattice { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorEgressConfigVpcLattice">TransferConnectorEgressConfigVpcLattice</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#vpc_lattice TransferConnector#vpc_lattice}.
 
 ---
 
@@ -1657,7 +1657,7 @@ public double PortNumber { get; set; }
 
 Port to connect to on the target VPC Lattice resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#port_number TransferConnector#port_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#port_number TransferConnector#port_number}
 
 ---
 
@@ -1671,7 +1671,7 @@ public string ResourceConfigurationArn { get; set; }
 
 ARN of the VPC Lattice resource configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#resource_configuration_arn TransferConnector#resource_configuration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#resource_configuration_arn TransferConnector#resource_configuration_arn}
 
 ---
 
@@ -1684,6 +1684,7 @@ using Io.Cdktn.Providers.Awscc;
 
 new TransferConnectorSftpConfig {
     double MaxConcurrentConnections = null,
+    string[] OrderedUserSecretVersionStages = null,
     string[] TrustedHostKeys = null,
     string UserSecretId = null
 };
@@ -1694,6 +1695,7 @@ new TransferConnectorSftpConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfig.property.maxConcurrentConnections">MaxConcurrentConnections</a></code> | <code>double</code> | Specifies the number of active connections that your connector can establish with the remote server at the same time. |
+| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfig.property.orderedUserSecretVersionStages">OrderedUserSecretVersionStages</a></code> | <code>string[]</code> | Specifies the order in which the connector attempts to use secret versions during authentication. |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfig.property.trustedHostKeys">TrustedHostKeys</a></code> | <code>string[]</code> | List of public host keys, for the external server to which you are connecting. |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfig.property.userSecretId">UserSecretId</a></code> | <code>string</code> | ARN or name of the secret in AWS Secrets Manager which contains the SFTP user's private keys or passwords. |
 
@@ -1709,7 +1711,23 @@ public double MaxConcurrentConnections { get; set; }
 
 Specifies the number of active connections that your connector can establish with the remote server at the same time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#max_concurrent_connections TransferConnector#max_concurrent_connections}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#max_concurrent_connections TransferConnector#max_concurrent_connections}
+
+---
+
+##### `OrderedUserSecretVersionStages`<sup>Optional</sup> <a name="OrderedUserSecretVersionStages" id="@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfig.property.orderedUserSecretVersionStages"></a>
+
+```csharp
+public string[] OrderedUserSecretVersionStages { get; set; }
+```
+
+- *Type:* string[]
+
+Specifies the order in which the connector attempts to use secret versions during authentication.
+
+This enables fallback to alternative credentials if the primary version fails.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#ordered_user_secret_version_stages TransferConnector#ordered_user_secret_version_stages}
 
 ---
 
@@ -1723,7 +1741,7 @@ public string[] TrustedHostKeys { get; set; }
 
 List of public host keys, for the external server to which you are connecting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#trusted_host_keys TransferConnector#trusted_host_keys}
 
 ---
 
@@ -1737,7 +1755,7 @@ public string UserSecretId { get; set; }
 
 ARN or name of the secret in AWS Secrets Manager which contains the SFTP user's private keys or passwords.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#user_secret_id TransferConnector#user_secret_id}
 
 ---
 
@@ -1773,7 +1791,7 @@ public string Key { get; set; }
 
 The name assigned to the tag that you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#key TransferConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#key TransferConnector#key}
 
 ---
 
@@ -1787,7 +1805,7 @@ public string Value { get; set; }
 
 Contains one or more values that you assigned to the key name you create.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/transfer_connector#value TransferConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/transfer_connector#value TransferConnector#value}
 
 ---
 
@@ -3330,6 +3348,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.resetMaxConcurrentConnections">ResetMaxConcurrentConnections</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.resetOrderedUserSecretVersionStages">ResetOrderedUserSecretVersionStages</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.resetTrustedHostKeys">ResetTrustedHostKeys</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.resetUserSecretId">ResetUserSecretId</a></code> | *No description.* |
 
@@ -3491,6 +3510,12 @@ Returns a reversible string representation.
 private void ResetMaxConcurrentConnections()
 ```
 
+##### `ResetOrderedUserSecretVersionStages` <a name="ResetOrderedUserSecretVersionStages" id="@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.resetOrderedUserSecretVersionStages"></a>
+
+```csharp
+private void ResetOrderedUserSecretVersionStages()
+```
+
 ##### `ResetTrustedHostKeys` <a name="ResetTrustedHostKeys" id="@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.resetTrustedHostKeys"></a>
 
 ```csharp
@@ -3511,9 +3536,11 @@ private void ResetUserSecretId()
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.maxConcurrentConnectionsInput">MaxConcurrentConnectionsInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.orderedUserSecretVersionStagesInput">OrderedUserSecretVersionStagesInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.trustedHostKeysInput">TrustedHostKeysInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.userSecretIdInput">UserSecretIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.maxConcurrentConnections">MaxConcurrentConnections</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.orderedUserSecretVersionStages">OrderedUserSecretVersionStages</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.trustedHostKeys">TrustedHostKeys</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.userSecretId">UserSecretId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfig">TransferConnectorSftpConfig</a></code> | *No description.* |
@@ -3554,6 +3581,16 @@ public double MaxConcurrentConnectionsInput { get; }
 
 ---
 
+##### `OrderedUserSecretVersionStagesInput`<sup>Optional</sup> <a name="OrderedUserSecretVersionStagesInput" id="@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.orderedUserSecretVersionStagesInput"></a>
+
+```csharp
+public string[] OrderedUserSecretVersionStagesInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
 ##### `TrustedHostKeysInput`<sup>Optional</sup> <a name="TrustedHostKeysInput" id="@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.trustedHostKeysInput"></a>
 
 ```csharp
@@ -3581,6 +3618,16 @@ public double MaxConcurrentConnections { get; }
 ```
 
 - *Type:* double
+
+---
+
+##### `OrderedUserSecretVersionStages`<sup>Required</sup> <a name="OrderedUserSecretVersionStages" id="@cdktn/provider-awscc.transferConnector.TransferConnectorSftpConfigOutputReference.property.orderedUserSecretVersionStages"></a>
+
+```csharp
+public string[] OrderedUserSecretVersionStages { get; }
+```
+
+- *Type:* string[]
 
 ---
 

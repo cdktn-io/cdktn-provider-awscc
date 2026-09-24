@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface ChimeSipMediaApplicationConfig extends cdktn.TerraformMetaArgum
   /**
   * The AWS Region in which the SIP media application is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#aws_region ChimeSipMediaApplication#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#aws_region ChimeSipMediaApplication#aws_region}
   */
   readonly awsRegion: string;
   /**
   * List of endpoints (Lambda ARNs) specified for the SIP media application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#endpoints ChimeSipMediaApplication#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#endpoints ChimeSipMediaApplication#endpoints}
   */
   readonly endpoints: ChimeSipMediaApplicationEndpoints[] | cdktn.IResolvable;
   /**
   * The name of the SIP media application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#name ChimeSipMediaApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#name ChimeSipMediaApplication#name}
   */
   readonly name: string;
   /**
   * Tags assigned to the SIP media application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#tags ChimeSipMediaApplication#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#tags ChimeSipMediaApplication#tags}
   */
   readonly tags?: ChimeSipMediaApplicationTags[] | cdktn.IResolvable;
 }
@@ -41,7 +41,7 @@ export interface ChimeSipMediaApplicationEndpoints {
   /**
   * Valid Amazon Resource Name (ARN) of the Lambda function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#lambda_arn ChimeSipMediaApplication#lambda_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#lambda_arn ChimeSipMediaApplication#lambda_arn}
   */
   readonly lambdaArn: string;
 }
@@ -156,13 +156,13 @@ export interface ChimeSipMediaApplicationTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#key ChimeSipMediaApplication#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#key ChimeSipMediaApplication#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#value ChimeSipMediaApplication#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#value ChimeSipMediaApplication#value}
   */
   readonly value?: string;
 }
@@ -307,7 +307,7 @@ export class ChimeSipMediaApplicationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application}
 */
 export class ChimeSipMediaApplication extends cdktn.TerraformResource {
 
@@ -323,7 +323,7 @@ export class ChimeSipMediaApplication extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ChimeSipMediaApplication resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChimeSipMediaApplication to import
-  * @param importFromId The id of the existing ChimeSipMediaApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChimeSipMediaApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChimeSipMediaApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -335,7 +335,7 @@ export class ChimeSipMediaApplication extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_sip_media_application awscc_chime_sip_media_application} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,7 +346,7 @@ export class ChimeSipMediaApplication extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_chime_sip_media_application',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

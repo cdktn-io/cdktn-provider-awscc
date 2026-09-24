@@ -4,7 +4,7 @@
 
 ### DataAwsccDlmLifecyclePolicies <a name="DataAwsccDlmLifecyclePolicies" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePolicies"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dlm_lifecycle_policies awscc_dlm_lifecycle_policies}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/dlm_lifecycle_policies awscc_dlm_lifecycle_policies}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDlmLifecyclePolicies.DataAwsccDlmLifecyclePolicies.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccDlmLifecyclePolic
 
 The id of the existing DataAwsccDlmLifecyclePolicies that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/data-sources/dlm_lifecycle_policies#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/dlm_lifecycle_policies#import import section} in the documentation of this resource for the id to use
 
 ---
 

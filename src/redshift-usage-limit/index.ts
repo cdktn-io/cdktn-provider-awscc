@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit
+// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface RedshiftUsageLimitConfig extends cdktn.TerraformMetaArguments {
   /**
   * The limit amount. If time-based, this amount is in minutes. If data-based, this amount is in terabytes (TB). The value must be a positive number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#amount RedshiftUsageLimit#amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#amount RedshiftUsageLimit#amount}
   */
   readonly amount: number;
   /**
   * The action that Amazon Redshift takes when the limit is reached. The default is log.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#breach_action RedshiftUsageLimit#breach_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#breach_action RedshiftUsageLimit#breach_action}
   */
   readonly breachAction?: string;
   /**
   * The identifier of the cluster that you want to limit usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#cluster_identifier RedshiftUsageLimit#cluster_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#cluster_identifier RedshiftUsageLimit#cluster_identifier}
   */
   readonly clusterIdentifier: string;
   /**
   * The Amazon Redshift feature that you want to limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#feature_type RedshiftUsageLimit#feature_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#feature_type RedshiftUsageLimit#feature_type}
   */
   readonly featureType: string;
   /**
   * The type of limit. Depending on the feature type, this can be based on a time duration or data size. If FeatureType is spectrum, then LimitType must be data-scanned. If FeatureType is concurrency-scaling, then LimitType must be time. If FeatureType is cross-region-datasharing, then LimitType must be data-scanned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#limit_type RedshiftUsageLimit#limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#limit_type RedshiftUsageLimit#limit_type}
   */
   readonly limitType: string;
   /**
   * The time period that the amount applies to. A weekly period begins on Sunday. The default is monthly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#period RedshiftUsageLimit#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#period RedshiftUsageLimit#period}
   */
   readonly period?: string;
   /**
   * A list of tag instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#tags RedshiftUsageLimit#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#tags RedshiftUsageLimit#tags}
   */
   readonly tags?: RedshiftUsageLimitTags[] | cdktn.IResolvable;
 }
@@ -59,13 +59,13 @@ export interface RedshiftUsageLimitTags {
   /**
   * The key, or name, for the resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#key RedshiftUsageLimit#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#key RedshiftUsageLimit#key}
   */
   readonly key?: string;
   /**
   * The value for the resource tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#value RedshiftUsageLimit#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#value RedshiftUsageLimit#value}
   */
   readonly value?: string;
 }
@@ -210,7 +210,7 @@ export class RedshiftUsageLimitTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit awscc_redshift_usage_limit}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit awscc_redshift_usage_limit}
 */
 export class RedshiftUsageLimit extends cdktn.TerraformResource {
 
@@ -226,7 +226,7 @@ export class RedshiftUsageLimit extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RedshiftUsageLimit resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedshiftUsageLimit to import
-  * @param importFromId The id of the existing RedshiftUsageLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedshiftUsageLimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedshiftUsageLimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -238,7 +238,7 @@ export class RedshiftUsageLimit extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.102.0/docs/resources/redshift_usage_limit awscc_redshift_usage_limit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/redshift_usage_limit awscc_redshift_usage_limit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,7 +249,7 @@ export class RedshiftUsageLimit extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_redshift_usage_limit',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.102.0',
+        providerVersion: '1.103.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
