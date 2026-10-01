@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,55 +15,55 @@ export interface StoragegatewayVolumeConfig extends cdktn.TerraformMetaArguments
   /**
   * The Amazon Resource Name (ARN) of the gateway on which to create the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#gateway_arn StoragegatewayVolume#gateway_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#gateway_arn StoragegatewayVolume#gateway_arn}
   */
   readonly gatewayArn: string;
   /**
   * Set to true to use Amazon S3 server-side encryption with your own KMS key, or false to use a key managed by Amazon S3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#kms_encrypted StoragegatewayVolume#kms_encrypted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#kms_encrypted StoragegatewayVolume#kms_encrypted}
   */
   readonly kmsEncrypted?: boolean | cdktn.IResolvable;
   /**
   * The Amazon Resource Name (ARN) of a symmetric customer master key (CMK) used for Amazon S3 server-side encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#kms_key StoragegatewayVolume#kms_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#kms_key StoragegatewayVolume#kms_key}
   */
   readonly kmsKey?: string;
   /**
   * The network interface of the gateway on which to expose the iSCSI target. Only IPv4 addresses are accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#network_interface_id StoragegatewayVolume#network_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#network_interface_id StoragegatewayVolume#network_interface_id}
   */
   readonly networkInterfaceId: string;
   /**
   * The snapshot ID of the snapshot to restore as the new cached volume (e.g., snap-1122aabb).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#snapshot_id StoragegatewayVolume#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#snapshot_id StoragegatewayVolume#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * The ARN of an existing volume from which to create the new volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#source_volume_arn StoragegatewayVolume#source_volume_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#source_volume_arn StoragegatewayVolume#source_volume_arn}
   */
   readonly sourceVolumeArn?: string;
   /**
   * A list of up to 50 tags to assign to the volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#tags StoragegatewayVolume#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#tags StoragegatewayVolume#tags}
   */
   readonly tags?: StoragegatewayVolumeTags[] | cdktn.IResolvable;
   /**
   * The name of the iSCSI target used by an initiator to connect to a volume and used as a suffix for the target ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#target_name StoragegatewayVolume#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#target_name StoragegatewayVolume#target_name}
   */
   readonly targetName: string;
   /**
   * The size of the volume in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#volume_size_in_bytes StoragegatewayVolume#volume_size_in_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#volume_size_in_bytes StoragegatewayVolume#volume_size_in_bytes}
   */
   readonly volumeSizeInBytes: number;
 }
@@ -71,13 +71,13 @@ export interface StoragegatewayVolumeTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#key StoragegatewayVolume#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#key StoragegatewayVolume#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#value StoragegatewayVolume#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#value StoragegatewayVolume#value}
   */
   readonly value?: string;
 }
@@ -222,7 +222,7 @@ export class StoragegatewayVolumeTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume awscc_storagegateway_volume}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume awscc_storagegateway_volume}
 */
 export class StoragegatewayVolume extends cdktn.TerraformResource {
 
@@ -238,7 +238,7 @@ export class StoragegatewayVolume extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a StoragegatewayVolume resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StoragegatewayVolume to import
-  * @param importFromId The id of the existing StoragegatewayVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StoragegatewayVolume that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StoragegatewayVolume to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -250,7 +250,7 @@ export class StoragegatewayVolume extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/storagegateway_volume awscc_storagegateway_volume} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume awscc_storagegateway_volume} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,7 +261,7 @@ export class StoragegatewayVolume extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_storagegateway_volume',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

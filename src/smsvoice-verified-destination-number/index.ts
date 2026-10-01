@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface SmsvoiceVerifiedDestinationNumberConfig extends cdktn.Terraform
   /**
   * The verified destination phone number, in E.164 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#destination_phone_number SmsvoiceVerifiedDestinationNumber#destination_phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#destination_phone_number SmsvoiceVerifiedDestinationNumber#destination_phone_number}
   */
   readonly destinationPhoneNumber: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#tags SmsvoiceVerifiedDestinationNumber#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#tags SmsvoiceVerifiedDestinationNumber#tags}
   */
   readonly tags?: SmsvoiceVerifiedDestinationNumberTags[] | cdktn.IResolvable;
 }
@@ -29,13 +29,13 @@ export interface SmsvoiceVerifiedDestinationNumberTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#key SmsvoiceVerifiedDestinationNumber#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#key SmsvoiceVerifiedDestinationNumber#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#value SmsvoiceVerifiedDestinationNumber#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#value SmsvoiceVerifiedDestinationNumber#value}
   */
   readonly value?: string;
 }
@@ -180,7 +180,7 @@ export class SmsvoiceVerifiedDestinationNumberTagsList extends cdktn.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number}
 */
 export class SmsvoiceVerifiedDestinationNumber extends cdktn.TerraformResource {
 
@@ -196,7 +196,7 @@ export class SmsvoiceVerifiedDestinationNumber extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SmsvoiceVerifiedDestinationNumber resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmsvoiceVerifiedDestinationNumber to import
-  * @param importFromId The id of the existing SmsvoiceVerifiedDestinationNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmsvoiceVerifiedDestinationNumber that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmsvoiceVerifiedDestinationNumber to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -208,7 +208,7 @@ export class SmsvoiceVerifiedDestinationNumber extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,7 +219,7 @@ export class SmsvoiceVerifiedDestinationNumber extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_smsvoice_verified_destination_number',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

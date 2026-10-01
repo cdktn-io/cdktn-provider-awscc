@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,43 +15,43 @@ export interface LicensemanagerLicenseAssetGroupConfig extends cdktn.TerraformMe
   /**
   * ARNs of associated license asset rulesets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#associated_license_asset_ruleset_ar_ns LicensemanagerLicenseAssetGroup#associated_license_asset_ruleset_ar_ns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#associated_license_asset_ruleset_ar_ns LicensemanagerLicenseAssetGroup#associated_license_asset_ruleset_ar_ns}
   */
   readonly associatedLicenseAssetRulesetArNs: string[];
   /**
   * License asset group description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#description LicensemanagerLicenseAssetGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#description LicensemanagerLicenseAssetGroup#description}
   */
   readonly description?: string;
   /**
   * License asset group configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#license_asset_group_configurations LicensemanagerLicenseAssetGroup#license_asset_group_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#license_asset_group_configurations LicensemanagerLicenseAssetGroup#license_asset_group_configurations}
   */
   readonly licenseAssetGroupConfigurations: LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurations[] | cdktn.IResolvable;
   /**
   * License asset group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#name LicensemanagerLicenseAssetGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#name LicensemanagerLicenseAssetGroup#name}
   */
   readonly name: string;
   /**
   * License asset group properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#properties LicensemanagerLicenseAssetGroup#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#properties LicensemanagerLicenseAssetGroup#properties}
   */
   readonly properties?: LicensemanagerLicenseAssetGroupProperties[] | cdktn.IResolvable;
   /**
   * Tags to add to the license asset group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#tags LicensemanagerLicenseAssetGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#tags LicensemanagerLicenseAssetGroup#tags}
   */
   readonly tags?: LicensemanagerLicenseAssetGroupTags[] | cdktn.IResolvable;
 }
 export interface LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#usage_dimension LicensemanagerLicenseAssetGroup#usage_dimension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#usage_dimension LicensemanagerLicenseAssetGroup#usage_dimension}
   */
   readonly usageDimension?: string;
 }
@@ -167,11 +167,11 @@ export class LicensemanagerLicenseAssetGroupLicenseAssetGroupConfigurationsList 
 }
 export interface LicensemanagerLicenseAssetGroupProperties {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}
   */
   readonly value?: string;
 }
@@ -316,11 +316,11 @@ export class LicensemanagerLicenseAssetGroupPropertiesList extends cdktn.Complex
 }
 export interface LicensemanagerLicenseAssetGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#key LicensemanagerLicenseAssetGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#value LicensemanagerLicenseAssetGroup#value}
   */
   readonly value?: string;
 }
@@ -465,7 +465,7 @@ export class LicensemanagerLicenseAssetGroupTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group}
 */
 export class LicensemanagerLicenseAssetGroup extends cdktn.TerraformResource {
 
@@ -481,7 +481,7 @@ export class LicensemanagerLicenseAssetGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a LicensemanagerLicenseAssetGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicensemanagerLicenseAssetGroup to import
-  * @param importFromId The id of the existing LicensemanagerLicenseAssetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicensemanagerLicenseAssetGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicensemanagerLicenseAssetGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -493,7 +493,7 @@ export class LicensemanagerLicenseAssetGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/licensemanager_license_asset_group awscc_licensemanager_license_asset_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -504,7 +504,7 @@ export class LicensemanagerLicenseAssetGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_licensemanager_license_asset_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
