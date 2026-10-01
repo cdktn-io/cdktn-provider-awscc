@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_compute_environment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/batch_compute_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBatchComputeEnvironmentConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_compute_environment#id DataAwsccBatchComputeEnvironment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/batch_compute_environment#id DataAwsccBatchComputeEnvironment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1059,6 +1059,65 @@ export class DataAwsccBatchComputeEnvironmentEcsSettingsOutputReference extends 
     return this.getStringAttribute('container_insights');
   }
 }
+export interface DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntry {
+}
+
+export function dataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryToTerraform(struct?: DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntry): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryToHclTerraform(struct?: DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntry): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntry | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntry | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // desired_state - computed: true, optional: false, required: false
+  public get desiredState() {
+    return this.getStringAttribute('desired_state');
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
 export interface DataAwsccBatchComputeEnvironmentEksConfiguration {
 }
 
@@ -1106,6 +1165,12 @@ export class DataAwsccBatchComputeEnvironmentEksConfigurationOutputReference ext
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // access_entry - computed: true, optional: false, required: false
+  private _accessEntry = new DataAwsccBatchComputeEnvironmentEksConfigurationAccessEntryOutputReference(this, "access_entry");
+  public get accessEntry() {
+    return this._accessEntry;
   }
 
   // eks_cluster_arn - computed: true, optional: false, required: false
@@ -1179,7 +1244,7 @@ export class DataAwsccBatchComputeEnvironmentUpdatePolicyOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment}
 */
 export class DataAwsccBatchComputeEnvironment extends cdktn.TerraformDataSource {
 
@@ -1195,7 +1260,7 @@ export class DataAwsccBatchComputeEnvironment extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccBatchComputeEnvironment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBatchComputeEnvironment to import
-  * @param importFromId The id of the existing DataAwsccBatchComputeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_compute_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBatchComputeEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/batch_compute_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBatchComputeEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -1207,7 +1272,7 @@ export class DataAwsccBatchComputeEnvironment extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/batch_compute_environment awscc_batch_compute_environment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1218,7 +1283,7 @@ export class DataAwsccBatchComputeEnvironment extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_batch_compute_environment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

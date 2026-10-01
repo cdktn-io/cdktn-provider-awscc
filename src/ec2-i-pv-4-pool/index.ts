@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_i_pv_4_pool
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface Ec2IPv4PoolConfig extends cdktn.TerraformMetaArguments {
   /**
   * Any tags assigned to the public IPv4 pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
   */
   readonly tags?: Ec2IPv4PoolTags[] | cdktn.IResolvable;
 }
@@ -23,13 +23,13 @@ export interface Ec2IPv4PoolTags {
   /**
   * The tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_i_pv_4_pool#key Ec2IPv4Pool#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#key Ec2IPv4Pool#key}
   */
   readonly key?: string;
   /**
   * The tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_i_pv_4_pool#value Ec2IPv4Pool#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#value Ec2IPv4Pool#value}
   */
   readonly value?: string;
 }
@@ -174,7 +174,7 @@ export class Ec2IPv4PoolTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool}
 */
 export class Ec2IPv4Pool extends cdktn.TerraformResource {
 
@@ -190,7 +190,7 @@ export class Ec2IPv4Pool extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2IPv4Pool resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2IPv4Pool to import
-  * @param importFromId The id of the existing Ec2IPv4Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_i_pv_4_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2IPv4Pool that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2IPv4Pool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -202,7 +202,7 @@ export class Ec2IPv4Pool extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,7 +213,7 @@ export class Ec2IPv4Pool extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_i_pv_4_pool',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
