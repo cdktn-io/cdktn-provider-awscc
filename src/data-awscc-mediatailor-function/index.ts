@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,269 @@ export interface DataAwsccMediatailorFunctionConfig extends cdktn.TerraformMetaA
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function#id DataAwsccMediatailorFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function#id DataAwsccMediatailorFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccMediatailorFunctionAwsServiceRequestConfiguration {
+}
+
+export function dataAwsccMediatailorFunctionAwsServiceRequestConfigurationToTerraform(struct?: DataAwsccMediatailorFunctionAwsServiceRequestConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediatailorFunctionAwsServiceRequestConfigurationToHclTerraform(struct?: DataAwsccMediatailorFunctionAwsServiceRequestConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediatailorFunctionAwsServiceRequestConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediatailorFunctionAwsServiceRequestConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // body - computed: true, optional: false, required: false
+  public get body() {
+    return this.getStringAttribute('body');
+  }
+
+  // headers - computed: true, optional: false, required: false
+  private _headers = new cdktn.StringMap(this, "headers");
+  public get headers() {
+    return this._headers;
+  }
+
+  // method_type - computed: true, optional: false, required: false
+  public get methodType() {
+    return this.getStringAttribute('method_type');
+  }
+
+  // output - computed: true, optional: false, required: false
+  private _output = new cdktn.StringMap(this, "output");
+  public get output() {
+    return this._output;
+  }
+
+  // request_timeout_milliseconds - computed: true, optional: false, required: false
+  public get requestTimeoutMilliseconds() {
+    return this.getNumberAttribute('request_timeout_milliseconds');
+  }
+
+  // runtime - computed: true, optional: false, required: false
+  public get runtime() {
+    return this.getStringAttribute('runtime');
+  }
+
+  // target_region - computed: true, optional: false, required: false
+  public get targetRegion() {
+    return this.getStringAttribute('target_region');
+  }
+
+  // target_service - computed: true, optional: false, required: false
+  public get targetService() {
+    return this.getStringAttribute('target_service');
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+}
+export interface DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct {
+}
+
+export function dataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructToTerraform(struct?: DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructToHclTerraform(struct?: DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // alias - computed: true, optional: false, required: false
+  public get alias() {
+    return this.getStringAttribute('alias');
+  }
+
+  // function_id - computed: true, optional: false, required: false
+  public get functionId() {
+    return this.getStringAttribute('function_id');
+  }
+
+  // run_condition - computed: true, optional: false, required: false
+  public get runCondition() {
+    return this.getStringAttribute('run_condition');
+  }
+}
+
+export class DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference {
+    return new DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccMediatailorFunctionConcurrentExecutorConfiguration {
+}
+
+export function dataAwsccMediatailorFunctionConcurrentExecutorConfigurationToTerraform(struct?: DataAwsccMediatailorFunctionConcurrentExecutorConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediatailorFunctionConcurrentExecutorConfigurationToHclTerraform(struct?: DataAwsccMediatailorFunctionConcurrentExecutorConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediatailorFunctionConcurrentExecutorConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediatailorFunctionConcurrentExecutorConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // function_list - computed: true, optional: false, required: false
+  private _functionList = new DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList(this, "function_list", false);
+  public get functionList() {
+    return this._functionList;
+  }
+
+  // max_concurrency - computed: true, optional: false, required: false
+  public get maxConcurrency() {
+    return this.getNumberAttribute('max_concurrency');
+  }
+
+  // output - computed: true, optional: false, required: false
+  private _output = new cdktn.StringMap(this, "output");
+  public get output() {
+    return this._output;
+  }
+
+  // runtime - computed: true, optional: false, required: false
+  public get runtime() {
+    return this.getStringAttribute('runtime');
+  }
+
+  // timeout_milliseconds - computed: true, optional: false, required: false
+  public get timeoutMilliseconds() {
+    return this.getNumberAttribute('timeout_milliseconds');
+  }
 }
 export interface DataAwsccMediatailorFunctionCustomOutputConfiguration {
 }
@@ -219,6 +476,11 @@ export class DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunction
     }
   }
 
+  // alias - computed: true, optional: false, required: false
+  public get alias() {
+    return this.getStringAttribute('alias');
+  }
+
   // function_id - computed: true, optional: false, required: false
   public get functionId() {
     return this.getStringAttribute('function_id');
@@ -399,9 +661,95 @@ export class DataAwsccMediatailorFunctionTagsList extends cdktn.ComplexList {
     return new DataAwsccMediatailorFunctionTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccMediatailorFunctionVastRequestConfiguration {
+}
+
+export function dataAwsccMediatailorFunctionVastRequestConfigurationToTerraform(struct?: DataAwsccMediatailorFunctionVastRequestConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediatailorFunctionVastRequestConfigurationToHclTerraform(struct?: DataAwsccMediatailorFunctionVastRequestConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediatailorFunctionVastRequestConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediatailorFunctionVastRequestConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // body - computed: true, optional: false, required: false
+  public get body() {
+    return this.getStringAttribute('body');
+  }
+
+  // headers - computed: true, optional: false, required: false
+  private _headers = new cdktn.StringMap(this, "headers");
+  public get headers() {
+    return this._headers;
+  }
+
+  // method_type - computed: true, optional: false, required: false
+  public get methodType() {
+    return this.getStringAttribute('method_type');
+  }
+
+  // output - computed: true, optional: false, required: false
+  private _output = new cdktn.StringMap(this, "output");
+  public get output() {
+    return this._output;
+  }
+
+  // request_timeout_milliseconds - computed: true, optional: false, required: false
+  public get requestTimeoutMilliseconds() {
+    return this.getNumberAttribute('request_timeout_milliseconds');
+  }
+
+  // runtime - computed: true, optional: false, required: false
+  public get runtime() {
+    return this.getStringAttribute('runtime');
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function awscc_mediatailor_function}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function awscc_mediatailor_function}
 */
 export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
 
@@ -417,7 +765,7 @@ export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccMediatailorFunction resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediatailorFunction to import
-  * @param importFromId The id of the existing DataAwsccMediatailorFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediatailorFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediatailorFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -429,7 +777,7 @@ export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function awscc_mediatailor_function} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function awscc_mediatailor_function} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -440,7 +788,7 @@ export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_mediatailor_function',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -461,6 +809,18 @@ export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
   // arn - computed: true, optional: false, required: false
   public get arn() {
     return this.getStringAttribute('arn');
+  }
+
+  // aws_service_request_configuration - computed: true, optional: false, required: false
+  private _awsServiceRequestConfiguration = new DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference(this, "aws_service_request_configuration");
+  public get awsServiceRequestConfiguration() {
+    return this._awsServiceRequestConfiguration;
+  }
+
+  // concurrent_executor_configuration - computed: true, optional: false, required: false
+  private _concurrentExecutorConfiguration = new DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference(this, "concurrent_executor_configuration");
+  public get concurrentExecutorConfiguration() {
+    return this._concurrentExecutorConfiguration;
   }
 
   // custom_output_configuration - computed: true, optional: false, required: false
@@ -513,6 +873,12 @@ export class DataAwsccMediatailorFunction extends cdktn.TerraformDataSource {
   private _tags = new DataAwsccMediatailorFunctionTagsList(this, "tags", true);
   public get tags() {
     return this._tags;
+  }
+
+  // vast_request_configuration - computed: true, optional: false, required: false
+  private _vastRequestConfiguration = new DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference(this, "vast_request_configuration");
+  public get vastRequestConfiguration() {
+    return this._vastRequestConfiguration;
   }
 
   // =========

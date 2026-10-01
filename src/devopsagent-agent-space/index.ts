@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,41 +15,47 @@ export interface DevopsagentAgentSpaceConfig extends cdktn.TerraformMetaArgument
   /**
   * The description of the AgentSpace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#description DevopsagentAgentSpace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#description DevopsagentAgentSpace#description}
   */
   readonly description?: string;
   /**
   * The ARN of the KMS key to use for encryption.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#kms_key_arn DevopsagentAgentSpace#kms_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#kms_key_arn DevopsagentAgentSpace#kms_key_arn}
   */
   readonly kmsKeyArn?: string;
   /**
   * The locale for the AgentSpace, which determines the language used in agent responses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#locale DevopsagentAgentSpace#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#locale DevopsagentAgentSpace#locale}
   */
   readonly locale?: string;
   /**
   * The name of the AgentSpace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#name DevopsagentAgentSpace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#name DevopsagentAgentSpace#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app DevopsagentAgentSpace#operator_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app DevopsagentAgentSpace#operator_app}
   */
   readonly operatorApp?: DevopsagentAgentSpaceOperatorApp;
   /**
+  * Preferences that configure behavior of this AgentSpace. This container fully owns the AgentSpace preferences: the properties supplied here replace the stored preferences in their entirety, and omitting the Preferences container reverts all preferences to their service defaults.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#preferences DevopsagentAgentSpace#preferences}
+  */
+  readonly preferences?: DevopsagentAgentSpacePreferences;
+  /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#tags DevopsagentAgentSpace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#tags DevopsagentAgentSpace#tags}
   */
   readonly tags?: DevopsagentAgentSpaceTags[] | cdktn.IResolvable;
 }
 export interface DevopsagentAgentSpaceOperatorAppIam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}
   */
   readonly operatorAppRoleArn?: string;
 }
@@ -153,11 +159,11 @@ export class DevopsagentAgentSpaceOperatorAppIamOutputReference extends cdktn.Co
 }
 export interface DevopsagentAgentSpaceOperatorAppIdc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#idc_instance_arn DevopsagentAgentSpace#idc_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#idc_instance_arn DevopsagentAgentSpace#idc_instance_arn}
   */
   readonly idcInstanceArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}
   */
   readonly operatorAppRoleArn?: string;
 }
@@ -295,11 +301,11 @@ export class DevopsagentAgentSpaceOperatorAppIdcOutputReference extends cdktn.Co
 }
 export interface DevopsagentAgentSpaceOperatorApp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}
   */
   readonly iam?: DevopsagentAgentSpaceOperatorAppIam;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}
   */
   readonly idc?: DevopsagentAgentSpaceOperatorAppIdc;
 }
@@ -420,17 +426,113 @@ export class DevopsagentAgentSpaceOperatorAppOutputReference extends cdktn.Compl
     return this._idc.internalValue;
   }
 }
+export interface DevopsagentAgentSpacePreferences {
+  /**
+  * Indicates whether elevated directed actions are permitted in this AgentSpace. Defaults to false when not set.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#elevated_actions_enabled DevopsagentAgentSpace#elevated_actions_enabled}
+  */
+  readonly elevatedActionsEnabled?: boolean | cdktn.IResolvable;
+}
+
+export function devopsagentAgentSpacePreferencesToTerraform(struct?: DevopsagentAgentSpacePreferences | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    elevated_actions_enabled: cdktn.booleanToTerraform(struct!.elevatedActionsEnabled),
+  }
+}
+
+
+export function devopsagentAgentSpacePreferencesToHclTerraform(struct?: DevopsagentAgentSpacePreferences | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    elevated_actions_enabled: {
+      value: cdktn.booleanToHclTerraform(struct!.elevatedActionsEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DevopsagentAgentSpacePreferencesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DevopsagentAgentSpacePreferences | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._elevatedActionsEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.elevatedActionsEnabled = this._elevatedActionsEnabled;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DevopsagentAgentSpacePreferences | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._elevatedActionsEnabled = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._elevatedActionsEnabled = value.elevatedActionsEnabled;
+    }
+  }
+
+  // elevated_actions_enabled - computed: true, optional: true, required: false
+  private _elevatedActionsEnabled?: boolean | cdktn.IResolvable; 
+  public get elevatedActionsEnabled() {
+    return this.getBooleanAttribute('elevated_actions_enabled');
+  }
+  public set elevatedActionsEnabled(value: boolean | cdktn.IResolvable) {
+    this._elevatedActionsEnabled = value;
+  }
+  public resetElevatedActionsEnabled() {
+    this._elevatedActionsEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get elevatedActionsEnabledInput() {
+    return this._elevatedActionsEnabled;
+  }
+}
 export interface DevopsagentAgentSpaceTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#key DevopsagentAgentSpace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#key DevopsagentAgentSpace#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#value DevopsagentAgentSpace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#value DevopsagentAgentSpace#value}
   */
   readonly value?: string;
 }
@@ -575,7 +677,7 @@ export class DevopsagentAgentSpaceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}
 */
 export class DevopsagentAgentSpace extends cdktn.TerraformResource {
 
@@ -591,7 +693,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DevopsagentAgentSpace resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsagentAgentSpace to import
-  * @param importFromId The id of the existing DevopsagentAgentSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsagentAgentSpace that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsagentAgentSpace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -603,7 +705,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -614,7 +716,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_devopsagent_agent_space',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -630,6 +732,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
     this._locale = config.locale;
     this._name = config.name;
     this._operatorApp.internalValue = config.operatorApp;
+    this._preferences.internalValue = config.preferences;
     this._tags.internalValue = config.tags;
   }
 
@@ -734,6 +837,22 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
     return this._operatorApp.internalValue;
   }
 
+  // preferences - computed: true, optional: true, required: false
+  private _preferences = new DevopsagentAgentSpacePreferencesOutputReference(this, "preferences");
+  public get preferences() {
+    return this._preferences;
+  }
+  public putPreferences(value: DevopsagentAgentSpacePreferences) {
+    this._preferences.internalValue = value;
+  }
+  public resetPreferences() {
+    this._preferences.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get preferencesInput() {
+    return this._preferences.internalValue;
+  }
+
   // tags - computed: true, optional: true, required: false
   private _tags = new DevopsagentAgentSpaceTagsList(this, "tags", true);
   public get tags() {
@@ -766,6 +885,7 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
       locale: cdktn.stringToTerraform(this._locale),
       name: cdktn.stringToTerraform(this._name),
       operator_app: devopsagentAgentSpaceOperatorAppToTerraform(this._operatorApp.internalValue),
+      preferences: devopsagentAgentSpacePreferencesToTerraform(this._preferences.internalValue),
       tags: cdktn.listMapper(devopsagentAgentSpaceTagsToTerraform, false)(this._tags.internalValue),
     };
   }
@@ -801,6 +921,12 @@ export class DevopsagentAgentSpace extends cdktn.TerraformResource {
         isBlock: true,
         type: "struct",
         storageClassType: "DevopsagentAgentSpaceOperatorApp",
+      },
+      preferences: {
+        value: devopsagentAgentSpacePreferencesToHclTerraform(this._preferences.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "DevopsagentAgentSpacePreferences",
       },
       tags: {
         value: cdktn.listMapperHcl(devopsagentAgentSpaceTagsToHclTerraform, false)(this._tags.internalValue),
