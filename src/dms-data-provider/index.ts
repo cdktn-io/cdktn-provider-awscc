@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,65 +15,71 @@ export interface DmsDataProviderConfig extends cdktn.TerraformMetaArguments {
   /**
   * The property describes an identifier for the data provider. It is used for describing/deleting/modifying can be name/arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#data_provider_identifier DmsDataProvider#data_provider_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#data_provider_identifier DmsDataProvider#data_provider_identifier}
   */
   readonly dataProviderIdentifier?: string;
   /**
   * The property describes a name to identify the data provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#data_provider_name DmsDataProvider#data_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#data_provider_name DmsDataProvider#data_provider_name}
   */
   readonly dataProviderName?: string;
   /**
   * The optional description of the data provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#description DmsDataProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#description DmsDataProvider#description}
   */
   readonly description?: string;
   /**
   * The property describes a data engine for the data provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#engine DmsDataProvider#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#engine DmsDataProvider#engine}
   */
   readonly engine: string;
   /**
   * The property describes the exact settings which can be modified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#exact_settings DmsDataProvider#exact_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#exact_settings DmsDataProvider#exact_settings}
   */
   readonly exactSettings?: boolean | cdktn.IResolvable;
   /**
   * The property identifies the exact type of settings for the data provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#settings DmsDataProvider#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#settings DmsDataProvider#settings}
   */
   readonly settings?: DmsDataProviderSettings;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#tags DmsDataProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#tags DmsDataProvider#tags}
   */
   readonly tags?: DmsDataProviderTags[] | cdktn.IResolvable;
+  /**
+  * Indicates whether the data provider is virtual.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#virtual DmsDataProvider#virtual}
+  */
+  readonly virtual?: boolean | cdktn.IResolvable;
 }
 export interface DmsDataProviderSettingsDocDbSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -283,23 +289,31 @@ export class DmsDataProviderSettingsDocDbSettingsOutputReference extends cdktn.C
 }
 export interface DmsDataProviderSettingsIbmDb2LuwSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#encryption_algorithm DmsDataProvider#encryption_algorithm}
+  */
+  readonly encryptionAlgorithm?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#security_mechanism DmsDataProvider#security_mechanism}
+  */
+  readonly securityMechanism?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -312,7 +326,9 @@ export function dmsDataProviderSettingsIbmDb2LuwSettingsToTerraform(struct?: Dms
   return {
     certificate_arn: cdktn.stringToTerraform(struct!.certificateArn),
     database_name: cdktn.stringToTerraform(struct!.databaseName),
+    encryption_algorithm: cdktn.numberToTerraform(struct!.encryptionAlgorithm),
     port: cdktn.numberToTerraform(struct!.port),
+    security_mechanism: cdktn.numberToTerraform(struct!.securityMechanism),
     server_name: cdktn.stringToTerraform(struct!.serverName),
     ssl_mode: cdktn.stringToTerraform(struct!.sslMode),
   }
@@ -337,8 +353,20 @@ export function dmsDataProviderSettingsIbmDb2LuwSettingsToHclTerraform(struct?: 
       type: "simple",
       storageClassType: "string",
     },
+    encryption_algorithm: {
+      value: cdktn.numberToHclTerraform(struct!.encryptionAlgorithm),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     port: {
       value: cdktn.numberToHclTerraform(struct!.port),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    security_mechanism: {
+      value: cdktn.numberToHclTerraform(struct!.securityMechanism),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -387,9 +415,17 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.databaseName = this._databaseName;
     }
+    if (this._encryptionAlgorithm !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.encryptionAlgorithm = this._encryptionAlgorithm;
+    }
     if (this._port !== undefined) {
       hasAnyValues = true;
       internalValueResult.port = this._port;
+    }
+    if (this._securityMechanism !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.securityMechanism = this._securityMechanism;
     }
     if (this._serverName !== undefined) {
       hasAnyValues = true;
@@ -408,7 +444,9 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
       this.resolvableValue = undefined;
       this._certificateArn = undefined;
       this._databaseName = undefined;
+      this._encryptionAlgorithm = undefined;
       this._port = undefined;
+      this._securityMechanism = undefined;
       this._serverName = undefined;
       this._sslMode = undefined;
     }
@@ -421,7 +459,9 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
       this.resolvableValue = undefined;
       this._certificateArn = value.certificateArn;
       this._databaseName = value.databaseName;
+      this._encryptionAlgorithm = value.encryptionAlgorithm;
       this._port = value.port;
+      this._securityMechanism = value.securityMechanism;
       this._serverName = value.serverName;
       this._sslMode = value.sslMode;
     }
@@ -459,6 +499,22 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
     return this._databaseName;
   }
 
+  // encryption_algorithm - computed: true, optional: true, required: false
+  private _encryptionAlgorithm?: number; 
+  public get encryptionAlgorithm() {
+    return this.getNumberAttribute('encryption_algorithm');
+  }
+  public set encryptionAlgorithm(value: number) {
+    this._encryptionAlgorithm = value;
+  }
+  public resetEncryptionAlgorithm() {
+    this._encryptionAlgorithm = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get encryptionAlgorithmInput() {
+    return this._encryptionAlgorithm;
+  }
+
   // port - computed: true, optional: true, required: false
   private _port?: number; 
   public get port() {
@@ -473,6 +529,22 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get portInput() {
     return this._port;
+  }
+
+  // security_mechanism - computed: true, optional: true, required: false
+  private _securityMechanism?: number; 
+  public get securityMechanism() {
+    return this.getNumberAttribute('security_mechanism');
+  }
+  public set securityMechanism(value: number) {
+    this._securityMechanism = value;
+  }
+  public resetSecurityMechanism() {
+    this._securityMechanism = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get securityMechanismInput() {
+    return this._securityMechanism;
   }
 
   // server_name - computed: true, optional: true, required: false
@@ -509,23 +581,23 @@ export class DmsDataProviderSettingsIbmDb2LuwSettingsOutputReference extends cdk
 }
 export interface DmsDataProviderSettingsIbmDb2ZOsSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -735,19 +807,19 @@ export class DmsDataProviderSettingsIbmDb2ZOsSettingsOutputReference extends cdk
 }
 export interface DmsDataProviderSettingsMariaDbSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -928,23 +1000,35 @@ export class DmsDataProviderSettingsMariaDbSettingsOutputReference extends cdktn
 }
 export interface DmsDataProviderSettingsMicrosoftSqlServerSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * The ARN for the role the application uses to access its Amazon S3 bucket.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#s3_access_role_arn DmsDataProvider#s3_access_role_arn}
+  */
+  readonly s3AccessRoleArn?: string;
+  /**
+  * The path for the Amazon S3 bucket that the application uses for accessing the user-defined schema.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#s3_path DmsDataProvider#s3_path}
+  */
+  readonly s3Path?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -958,6 +1042,8 @@ export function dmsDataProviderSettingsMicrosoftSqlServerSettingsToTerraform(str
     certificate_arn: cdktn.stringToTerraform(struct!.certificateArn),
     database_name: cdktn.stringToTerraform(struct!.databaseName),
     port: cdktn.numberToTerraform(struct!.port),
+    s3_access_role_arn: cdktn.stringToTerraform(struct!.s3AccessRoleArn),
+    s3_path: cdktn.stringToTerraform(struct!.s3Path),
     server_name: cdktn.stringToTerraform(struct!.serverName),
     ssl_mode: cdktn.stringToTerraform(struct!.sslMode),
   }
@@ -987,6 +1073,18 @@ export function dmsDataProviderSettingsMicrosoftSqlServerSettingsToHclTerraform(
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    s3_access_role_arn: {
+      value: cdktn.stringToHclTerraform(struct!.s3AccessRoleArn),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    s3_path: {
+      value: cdktn.stringToHclTerraform(struct!.s3Path),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     server_name: {
       value: cdktn.stringToHclTerraform(struct!.serverName),
@@ -1036,6 +1134,14 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
       hasAnyValues = true;
       internalValueResult.port = this._port;
     }
+    if (this._s3AccessRoleArn !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.s3AccessRoleArn = this._s3AccessRoleArn;
+    }
+    if (this._s3Path !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.s3Path = this._s3Path;
+    }
     if (this._serverName !== undefined) {
       hasAnyValues = true;
       internalValueResult.serverName = this._serverName;
@@ -1054,6 +1160,8 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
       this._certificateArn = undefined;
       this._databaseName = undefined;
       this._port = undefined;
+      this._s3AccessRoleArn = undefined;
+      this._s3Path = undefined;
       this._serverName = undefined;
       this._sslMode = undefined;
     }
@@ -1067,6 +1175,8 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
       this._certificateArn = value.certificateArn;
       this._databaseName = value.databaseName;
       this._port = value.port;
+      this._s3AccessRoleArn = value.s3AccessRoleArn;
+      this._s3Path = value.s3Path;
       this._serverName = value.serverName;
       this._sslMode = value.sslMode;
     }
@@ -1120,6 +1230,38 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
     return this._port;
   }
 
+  // s3_access_role_arn - computed: true, optional: true, required: false
+  private _s3AccessRoleArn?: string; 
+  public get s3AccessRoleArn() {
+    return this.getStringAttribute('s3_access_role_arn');
+  }
+  public set s3AccessRoleArn(value: string) {
+    this._s3AccessRoleArn = value;
+  }
+  public resetS3AccessRoleArn() {
+    this._s3AccessRoleArn = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get s3AccessRoleArnInput() {
+    return this._s3AccessRoleArn;
+  }
+
+  // s3_path - computed: true, optional: true, required: false
+  private _s3Path?: string; 
+  public get s3Path() {
+    return this.getStringAttribute('s3_path');
+  }
+  public set s3Path(value: string) {
+    this._s3Path = value;
+  }
+  public resetS3Path() {
+    this._s3Path = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get s3PathInput() {
+    return this._s3Path;
+  }
+
   // server_name - computed: true, optional: true, required: false
   private _serverName?: string; 
   public get serverName() {
@@ -1154,35 +1296,35 @@ export class DmsDataProviderSettingsMicrosoftSqlServerSettingsOutputReference ex
 }
 export interface DmsDataProviderSettingsMongoDbSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#auth_mechanism DmsDataProvider#auth_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#auth_mechanism DmsDataProvider#auth_mechanism}
   */
   readonly authMechanism?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#auth_source DmsDataProvider#auth_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#auth_source DmsDataProvider#auth_source}
   */
   readonly authSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#auth_type DmsDataProvider#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#auth_type DmsDataProvider#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -1479,19 +1621,19 @@ export class DmsDataProviderSettingsMongoDbSettingsOutputReference extends cdktn
 }
 export interface DmsDataProviderSettingsMySqlSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -1672,43 +1814,43 @@ export class DmsDataProviderSettingsMySqlSettingsOutputReference extends cdktn.C
 }
 export interface DmsDataProviderSettingsOracleSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#asm_server DmsDataProvider#asm_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#asm_server DmsDataProvider#asm_server}
   */
   readonly asmServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#secrets_manager_oracle_asm_access_role_arn DmsDataProvider#secrets_manager_oracle_asm_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#secrets_manager_oracle_asm_access_role_arn DmsDataProvider#secrets_manager_oracle_asm_access_role_arn}
   */
   readonly secretsManagerOracleAsmAccessRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#secrets_manager_oracle_asm_secret_id DmsDataProvider#secrets_manager_oracle_asm_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#secrets_manager_oracle_asm_secret_id DmsDataProvider#secrets_manager_oracle_asm_secret_id}
   */
   readonly secretsManagerOracleAsmSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#secrets_manager_security_db_encryption_access_role_arn DmsDataProvider#secrets_manager_security_db_encryption_access_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#secrets_manager_security_db_encryption_access_role_arn DmsDataProvider#secrets_manager_security_db_encryption_access_role_arn}
   */
   readonly secretsManagerSecurityDbEncryptionAccessRoleArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#secrets_manager_security_db_encryption_secret_id DmsDataProvider#secrets_manager_security_db_encryption_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#secrets_manager_security_db_encryption_secret_id DmsDataProvider#secrets_manager_security_db_encryption_secret_id}
   */
   readonly secretsManagerSecurityDbEncryptionSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -2063,23 +2205,23 @@ export class DmsDataProviderSettingsOracleSettingsOutputReference extends cdktn.
 }
 export interface DmsDataProviderSettingsPostgreSqlSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -2289,15 +2431,15 @@ export class DmsDataProviderSettingsPostgreSqlSettingsOutputReference extends cd
 }
 export interface DmsDataProviderSettingsRedshiftSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
 }
@@ -2449,27 +2591,27 @@ export class DmsDataProviderSettingsRedshiftSettingsOutputReference extends cdkt
 }
 export interface DmsDataProviderSettingsSybaseAseSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#certificate_arn DmsDataProvider#certificate_arn}
   */
   readonly certificateArn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#database_name DmsDataProvider#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#encrypt_password DmsDataProvider#encrypt_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#encrypt_password DmsDataProvider#encrypt_password}
   */
   readonly encryptPassword?: boolean | cdktn.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#port DmsDataProvider#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#server_name DmsDataProvider#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ssl_mode DmsDataProvider#ssl_mode}
   */
   readonly sslMode?: string;
 }
@@ -2710,67 +2852,67 @@ export interface DmsDataProviderSettings {
   /**
   * DocDbSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#doc_db_settings DmsDataProvider#doc_db_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#doc_db_settings DmsDataProvider#doc_db_settings}
   */
   readonly docDbSettings?: DmsDataProviderSettingsDocDbSettings;
   /**
   * IbmDb2LuwSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ibm_db_2_luw_settings DmsDataProvider#ibm_db_2_luw_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ibm_db_2_luw_settings DmsDataProvider#ibm_db_2_luw_settings}
   */
   readonly ibmDb2LuwSettings?: DmsDataProviderSettingsIbmDb2LuwSettings;
   /**
   * IbmDb2zOsSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#ibm_db_2_z_os_settings DmsDataProvider#ibm_db_2_z_os_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#ibm_db_2_z_os_settings DmsDataProvider#ibm_db_2_z_os_settings}
   */
   readonly ibmDb2ZOsSettings?: DmsDataProviderSettingsIbmDb2ZOsSettings;
   /**
   * MariaDbSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#maria_db_settings DmsDataProvider#maria_db_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#maria_db_settings DmsDataProvider#maria_db_settings}
   */
   readonly mariaDbSettings?: DmsDataProviderSettingsMariaDbSettings;
   /**
   * MicrosoftSqlServerSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#microsoft_sql_server_settings DmsDataProvider#microsoft_sql_server_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#microsoft_sql_server_settings DmsDataProvider#microsoft_sql_server_settings}
   */
   readonly microsoftSqlServerSettings?: DmsDataProviderSettingsMicrosoftSqlServerSettings;
   /**
   * MongoDbSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#mongo_db_settings DmsDataProvider#mongo_db_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#mongo_db_settings DmsDataProvider#mongo_db_settings}
   */
   readonly mongoDbSettings?: DmsDataProviderSettingsMongoDbSettings;
   /**
   * MySqlSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#my_sql_settings DmsDataProvider#my_sql_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#my_sql_settings DmsDataProvider#my_sql_settings}
   */
   readonly mySqlSettings?: DmsDataProviderSettingsMySqlSettings;
   /**
   * OracleSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#oracle_settings DmsDataProvider#oracle_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#oracle_settings DmsDataProvider#oracle_settings}
   */
   readonly oracleSettings?: DmsDataProviderSettingsOracleSettings;
   /**
   * PostgreSqlSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#postgre_sql_settings DmsDataProvider#postgre_sql_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#postgre_sql_settings DmsDataProvider#postgre_sql_settings}
   */
   readonly postgreSqlSettings?: DmsDataProviderSettingsPostgreSqlSettings;
   /**
   * RedshiftSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#redshift_settings DmsDataProvider#redshift_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#redshift_settings DmsDataProvider#redshift_settings}
   */
   readonly redshiftSettings?: DmsDataProviderSettingsRedshiftSettings;
   /**
   * SybaseAseSettings property identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#sybase_ase_settings DmsDataProvider#sybase_ase_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#sybase_ase_settings DmsDataProvider#sybase_ase_settings}
   */
   readonly sybaseAseSettings?: DmsDataProviderSettingsSybaseAseSettings;
 }
@@ -3156,13 +3298,13 @@ export interface DmsDataProviderTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#key DmsDataProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#key DmsDataProvider#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#value DmsDataProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#value DmsDataProvider#value}
   */
   readonly value?: string;
 }
@@ -3307,7 +3449,7 @@ export class DmsDataProviderTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider awscc_dms_data_provider}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider awscc_dms_data_provider}
 */
 export class DmsDataProvider extends cdktn.TerraformResource {
 
@@ -3323,7 +3465,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a DmsDataProvider resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DmsDataProvider to import
-  * @param importFromId The id of the existing DmsDataProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DmsDataProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DmsDataProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3335,7 +3477,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/dms_data_provider awscc_dms_data_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3346,7 +3488,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_dms_data_provider',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -3364,6 +3506,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
     this._exactSettings = config.exactSettings;
     this._settings.internalValue = config.settings;
     this._tags.internalValue = config.tags;
+    this._virtual = config.virtual;
   }
 
   // ==========
@@ -3494,6 +3637,22 @@ export class DmsDataProvider extends cdktn.TerraformResource {
     return this._tags.internalValue;
   }
 
+  // virtual - computed: true, optional: true, required: false
+  private _virtual?: boolean | cdktn.IResolvable; 
+  public get virtual() {
+    return this.getBooleanAttribute('virtual');
+  }
+  public set virtual(value: boolean | cdktn.IResolvable) {
+    this._virtual = value;
+  }
+  public resetVirtual() {
+    this._virtual = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get virtualInput() {
+    return this._virtual;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -3507,6 +3666,7 @@ export class DmsDataProvider extends cdktn.TerraformResource {
       exact_settings: cdktn.booleanToTerraform(this._exactSettings),
       settings: dmsDataProviderSettingsToTerraform(this._settings.internalValue),
       tags: cdktn.listMapper(dmsDataProviderTagsToTerraform, false)(this._tags.internalValue),
+      virtual: cdktn.booleanToTerraform(this._virtual),
     };
   }
 
@@ -3553,6 +3713,12 @@ export class DmsDataProvider extends cdktn.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "DmsDataProviderTagsList",
+      },
+      virtual: {
+        value: cdktn.booleanToHclTerraform(this._virtual),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
     };
 

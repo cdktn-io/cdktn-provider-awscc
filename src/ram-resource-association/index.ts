@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface RamResourceAssociationConfig extends cdktn.TerraformMetaArgumen
   /**
   * Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource to associate with the resource share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association#resource_arn RamResourceAssociation#resource_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association#resource_arn RamResourceAssociation#resource_arn}
   */
   readonly resourceArn: string;
   /**
   * Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association#resource_share_arn RamResourceAssociation#resource_share_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association#resource_share_arn RamResourceAssociation#resource_share_arn}
   */
   readonly resourceShareArn: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association awscc_ram_resource_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association awscc_ram_resource_association}
 */
 export class RamResourceAssociation extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class RamResourceAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a RamResourceAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RamResourceAssociation to import
-  * @param importFromId The id of the existing RamResourceAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RamResourceAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RamResourceAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class RamResourceAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association awscc_ram_resource_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association awscc_ram_resource_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class RamResourceAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ram_resource_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

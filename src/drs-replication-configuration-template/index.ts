@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,97 +15,97 @@ export interface DrsReplicationConfigurationTemplateConfig extends cdktn.Terrafo
   /**
   * Whether to associate the default Elastic Disaster Recovery Security group with the Replication Configuration Template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#associate_default_security_group DrsReplicationConfigurationTemplate#associate_default_security_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#associate_default_security_group DrsReplicationConfigurationTemplate#associate_default_security_group}
   */
   readonly associateDefaultSecurityGroup?: boolean | cdktn.IResolvable;
   /**
   * Whether to allow the AWS replication agent to automatically replicate newly added disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#auto_replicate_new_disks DrsReplicationConfigurationTemplate#auto_replicate_new_disks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#auto_replicate_new_disks DrsReplicationConfigurationTemplate#auto_replicate_new_disks}
   */
   readonly autoReplicateNewDisks?: boolean | cdktn.IResolvable;
   /**
   * Configure bandwidth throttling for the outbound data transfer rate of the Source Server in Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#bandwidth_throttling DrsReplicationConfigurationTemplate#bandwidth_throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#bandwidth_throttling DrsReplicationConfigurationTemplate#bandwidth_throttling}
   */
   readonly bandwidthThrottling: number;
   /**
   * Whether to create a Public IP for the Recovery Instance by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#create_public_ip DrsReplicationConfigurationTemplate#create_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#create_public_ip DrsReplicationConfigurationTemplate#create_public_ip}
   */
   readonly createPublicIp?: boolean | cdktn.IResolvable;
   /**
   * The data plane routing mechanism that will be used for replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#data_plane_routing DrsReplicationConfigurationTemplate#data_plane_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#data_plane_routing DrsReplicationConfigurationTemplate#data_plane_routing}
   */
   readonly dataPlaneRouting?: string;
   /**
   * The Staging Disk EBS volume type to be used during replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#default_large_staging_disk_type DrsReplicationConfigurationTemplate#default_large_staging_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#default_large_staging_disk_type DrsReplicationConfigurationTemplate#default_large_staging_disk_type}
   */
   readonly defaultLargeStagingDiskType?: string;
   /**
   * The type of EBS encryption to be used during replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#ebs_encryption DrsReplicationConfigurationTemplate#ebs_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#ebs_encryption DrsReplicationConfigurationTemplate#ebs_encryption}
   */
   readonly ebsEncryption: string;
   /**
   * The ARN of the EBS encryption key to be used during replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#ebs_encryption_key_arn DrsReplicationConfigurationTemplate#ebs_encryption_key_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#ebs_encryption_key_arn DrsReplicationConfigurationTemplate#ebs_encryption_key_arn}
   */
   readonly ebsEncryptionKeyArn?: string;
   /**
   * Which version of the Internet Protocol to use for replication of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#internet_protocol DrsReplicationConfigurationTemplate#internet_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#internet_protocol DrsReplicationConfigurationTemplate#internet_protocol}
   */
   readonly internetProtocol?: string;
   /**
   * The Point in time (PIT) policy to manage snapshots taken during replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#pit_policy DrsReplicationConfigurationTemplate#pit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#pit_policy DrsReplicationConfigurationTemplate#pit_policy}
   */
   readonly pitPolicy: DrsReplicationConfigurationTemplatePitPolicy[] | cdktn.IResolvable;
   /**
   * The instance type to be used for the replication server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#replication_server_instance_type DrsReplicationConfigurationTemplate#replication_server_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#replication_server_instance_type DrsReplicationConfigurationTemplate#replication_server_instance_type}
   */
   readonly replicationServerInstanceType?: string;
   /**
   * The security group IDs that will be used by the replication server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#replication_servers_security_groups_i_ds DrsReplicationConfigurationTemplate#replication_servers_security_groups_i_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#replication_servers_security_groups_i_ds DrsReplicationConfigurationTemplate#replication_servers_security_groups_i_ds}
   */
   readonly replicationServersSecurityGroupsIDs: string[];
   /**
   * The subnet to be used by the replication staging area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#staging_area_subnet_id DrsReplicationConfigurationTemplate#staging_area_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#staging_area_subnet_id DrsReplicationConfigurationTemplate#staging_area_subnet_id}
   */
   readonly stagingAreaSubnetId: string;
   /**
   * A set of tags to be associated with all resources created in the replication staging area: EC2 replication server, EBS volumes, EBS snapshots, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#staging_area_tags DrsReplicationConfigurationTemplate#staging_area_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#staging_area_tags DrsReplicationConfigurationTemplate#staging_area_tags}
   */
   readonly stagingAreaTags: { [key: string]: string };
   /**
   * A set of tags to be associated with the Replication Configuration Template resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#tags DrsReplicationConfigurationTemplate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#tags DrsReplicationConfigurationTemplate#tags}
   */
   readonly tags?: DrsReplicationConfigurationTemplateTags[] | cdktn.IResolvable;
   /**
   * Whether to use a dedicated Replication Server in the replication staging area.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#use_dedicated_replication_server DrsReplicationConfigurationTemplate#use_dedicated_replication_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#use_dedicated_replication_server DrsReplicationConfigurationTemplate#use_dedicated_replication_server}
   */
   readonly useDedicatedReplicationServer?: boolean | cdktn.IResolvable;
 }
@@ -113,31 +113,31 @@ export interface DrsReplicationConfigurationTemplatePitPolicy {
   /**
   * Whether this rule is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#enabled DrsReplicationConfigurationTemplate#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#enabled DrsReplicationConfigurationTemplate#enabled}
   */
   readonly enabled?: boolean | cdktn.IResolvable;
   /**
   * How often, in the chosen units, a snapshot should be taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#interval DrsReplicationConfigurationTemplate#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#interval DrsReplicationConfigurationTemplate#interval}
   */
   readonly interval: number;
   /**
   * The duration to retain a snapshot for, in the chosen units.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#retention_duration DrsReplicationConfigurationTemplate#retention_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#retention_duration DrsReplicationConfigurationTemplate#retention_duration}
   */
   readonly retentionDuration: number;
   /**
   * The ID of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#rule_id DrsReplicationConfigurationTemplate#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#rule_id DrsReplicationConfigurationTemplate#rule_id}
   */
   readonly ruleId?: number;
   /**
   * The units used to measure the interval and retentionDuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#units DrsReplicationConfigurationTemplate#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#units DrsReplicationConfigurationTemplate#units}
   */
   readonly units: string;
 }
@@ -362,13 +362,13 @@ export interface DrsReplicationConfigurationTemplateTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#key DrsReplicationConfigurationTemplate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#key DrsReplicationConfigurationTemplate#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#value DrsReplicationConfigurationTemplate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#value DrsReplicationConfigurationTemplate#value}
   */
   readonly value?: string;
 }
@@ -513,7 +513,7 @@ export class DrsReplicationConfigurationTemplateTagsList extends cdktn.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template}
 */
 export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource {
 
@@ -529,7 +529,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   * Generates CDKTN code for importing a DrsReplicationConfigurationTemplate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DrsReplicationConfigurationTemplate to import
-  * @param importFromId The id of the existing DrsReplicationConfigurationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DrsReplicationConfigurationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DrsReplicationConfigurationTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -541,7 +541,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/drs_replication_configuration_template awscc_drs_replication_configuration_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -552,7 +552,7 @@ export class DrsReplicationConfigurationTemplate extends cdktn.TerraformResource
       terraformResourceType: 'awscc_drs_replication_configuration_template',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

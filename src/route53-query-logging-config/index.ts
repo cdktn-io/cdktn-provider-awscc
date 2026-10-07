@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_query_logging_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface Route53QueryLoggingConfigConfig extends cdktn.TerraformMetaArgu
   /**
   * The Amazon Resource Name (ARN) of the CloudWatch Logs log group in us-east-1 that Amazon Route 53 publishes query logs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config#cloudwatch_logs_log_group_arn Route53QueryLoggingConfig#cloudwatch_logs_log_group_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_query_logging_config#cloudwatch_logs_log_group_arn Route53QueryLoggingConfig#cloudwatch_logs_log_group_arn}
   */
   readonly cloudwatchLogsLogGroupArn: string;
   /**
   * The ID of the public hosted zone that Amazon Route 53 logs queries for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config#hosted_zone_id Route53QueryLoggingConfig#hosted_zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_query_logging_config#hosted_zone_id Route53QueryLoggingConfig#hosted_zone_id}
   */
   readonly hostedZoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config awscc_route53_query_logging_config}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_query_logging_config awscc_route53_query_logging_config}
 */
 export class Route53QueryLoggingConfig extends cdktn.TerraformResource {
 
@@ -43,7 +43,7 @@ export class Route53QueryLoggingConfig extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Route53QueryLoggingConfig resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Route53QueryLoggingConfig to import
-  * @param importFromId The id of the existing Route53QueryLoggingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Route53QueryLoggingConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_query_logging_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Route53QueryLoggingConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -55,7 +55,7 @@ export class Route53QueryLoggingConfig extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config awscc_route53_query_logging_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_query_logging_config awscc_route53_query_logging_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -66,7 +66,7 @@ export class Route53QueryLoggingConfig extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_route53_query_logging_config',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

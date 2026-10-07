@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,35 +15,35 @@ export interface BcmpricingcalculatorWorkloadEstimateConfig extends cdktn.Terraf
   /**
   * The timestamp when the workload estimate will expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate#expires_at BcmpricingcalculatorWorkloadEstimate#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate#expires_at BcmpricingcalculatorWorkloadEstimate#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * The name of the workload estimate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate#name BcmpricingcalculatorWorkloadEstimate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate#name BcmpricingcalculatorWorkloadEstimate#name}
   */
   readonly name: string;
   /**
   * The type of pricing rates used for the estimate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate#rate_type BcmpricingcalculatorWorkloadEstimate#rate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate#rate_type BcmpricingcalculatorWorkloadEstimate#rate_type}
   */
   readonly rateType?: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate#tags BcmpricingcalculatorWorkloadEstimate#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate#tags BcmpricingcalculatorWorkloadEstimate#tags}
   */
   readonly tags?: BcmpricingcalculatorWorkloadEstimateTags[] | cdktn.IResolvable;
 }
 export interface BcmpricingcalculatorWorkloadEstimateTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate#key BcmpricingcalculatorWorkloadEstimate#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate#key BcmpricingcalculatorWorkloadEstimate#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate#value BcmpricingcalculatorWorkloadEstimate#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate#value BcmpricingcalculatorWorkloadEstimate#value}
   */
   readonly value?: string;
 }
@@ -188,7 +188,7 @@ export class BcmpricingcalculatorWorkloadEstimateTagsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate}
 */
 export class BcmpricingcalculatorWorkloadEstimate extends cdktn.TerraformResource {
 
@@ -204,7 +204,7 @@ export class BcmpricingcalculatorWorkloadEstimate extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a BcmpricingcalculatorWorkloadEstimate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BcmpricingcalculatorWorkloadEstimate to import
-  * @param importFromId The id of the existing BcmpricingcalculatorWorkloadEstimate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BcmpricingcalculatorWorkloadEstimate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BcmpricingcalculatorWorkloadEstimate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -216,7 +216,7 @@ export class BcmpricingcalculatorWorkloadEstimate extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/bcmpricingcalculator_workload_estimate awscc_bcmpricingcalculator_workload_estimate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,7 +227,7 @@ export class BcmpricingcalculatorWorkloadEstimate extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_bcmpricingcalculator_workload_estimate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface ScnDataIntegrationFlowConfig extends cdktn.TerraformMetaArgumen
   /**
   * The Amazon Web Services Supply Chain instance identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#instance_id ScnDataIntegrationFlow#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#instance_id ScnDataIntegrationFlow#instance_id}
   */
   readonly instanceId: string;
   /**
   * The name of the DataIntegrationFlow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
   */
   readonly name: string;
   /**
   * The source configurations for the DataIntegrationFlow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#sources ScnDataIntegrationFlow#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#sources ScnDataIntegrationFlow#sources}
   */
   readonly sources: ScnDataIntegrationFlowSources[] | cdktn.IResolvable;
   /**
   * The tags for the DataIntegrationFlow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#tags ScnDataIntegrationFlow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#tags ScnDataIntegrationFlow#tags}
   */
   readonly tags?: ScnDataIntegrationFlowTags[] | cdktn.IResolvable;
   /**
   * The DataIntegrationFlow target parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#target ScnDataIntegrationFlow#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#target ScnDataIntegrationFlow#target}
   */
   readonly target: ScnDataIntegrationFlowTarget;
   /**
   * The DataIntegrationFlow transformation parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#transformation ScnDataIntegrationFlow#transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#transformation ScnDataIntegrationFlow#transformation}
   */
   readonly transformation: ScnDataIntegrationFlowTransformation;
 }
@@ -53,13 +53,13 @@ export interface ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy
   /**
   * The name of the deduplication field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
   */
   readonly name?: string;
   /**
   * The sort order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#sort_order ScnDataIntegrationFlow#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#sort_order ScnDataIntegrationFlow#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -206,7 +206,7 @@ export interface ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy
   /**
   * The list of field names and their sort order for deduplication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
   */
   readonly fields?: ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriorityFields[] | cdktn.IResolvable;
 }
@@ -302,13 +302,13 @@ export interface ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy
   /**
   * The field priority deduplication strategy configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#field_priority ScnDataIntegrationFlow#field_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#field_priority ScnDataIntegrationFlow#field_priority}
   */
   readonly fieldPriority?: ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategyFieldPriority;
   /**
   * The deduplication strategy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#type ScnDataIntegrationFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#type ScnDataIntegrationFlow#type}
   */
   readonly type?: string;
 }
@@ -433,19 +433,19 @@ export interface ScnDataIntegrationFlowSourcesDatasetSourceOptions {
   /**
   * The option to perform deduplication on data records sharing same primary key values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#dedupe_records ScnDataIntegrationFlow#dedupe_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#dedupe_records ScnDataIntegrationFlow#dedupe_records}
   */
   readonly dedupeRecords?: boolean | cdktn.IResolvable;
   /**
   * The deduplication strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#dedupe_strategy ScnDataIntegrationFlow#dedupe_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#dedupe_strategy ScnDataIntegrationFlow#dedupe_strategy}
   */
   readonly dedupeStrategy?: ScnDataIntegrationFlowSourcesDatasetSourceOptionsDedupeStrategy;
   /**
   * The load type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#load_type ScnDataIntegrationFlow#load_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#load_type ScnDataIntegrationFlow#load_type}
   */
   readonly loadType?: string;
 }
@@ -599,13 +599,13 @@ export interface ScnDataIntegrationFlowSourcesDatasetSource {
   /**
   * The ARN of the dataset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#dataset_identifier ScnDataIntegrationFlow#dataset_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#dataset_identifier ScnDataIntegrationFlow#dataset_identifier}
   */
   readonly datasetIdentifier?: string;
   /**
   * The dataset options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
   */
   readonly options?: ScnDataIntegrationFlowSourcesDatasetSourceOptions;
 }
@@ -730,7 +730,7 @@ export interface ScnDataIntegrationFlowSourcesS3SourceOptions {
   /**
   * The file type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#file_type ScnDataIntegrationFlow#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#file_type ScnDataIntegrationFlow#file_type}
   */
   readonly fileType?: string;
 }
@@ -826,19 +826,19 @@ export interface ScnDataIntegrationFlowSourcesS3Source {
   /**
   * The S3 bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#bucket_name ScnDataIntegrationFlow#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#bucket_name ScnDataIntegrationFlow#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * The Amazon S3 options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
   */
   readonly options?: ScnDataIntegrationFlowSourcesS3SourceOptions;
   /**
   * The S3 prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#prefix ScnDataIntegrationFlow#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#prefix ScnDataIntegrationFlow#prefix}
   */
   readonly prefix?: string;
 }
@@ -992,25 +992,25 @@ export interface ScnDataIntegrationFlowSources {
   /**
   * The dataset source configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#dataset_source ScnDataIntegrationFlow#dataset_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#dataset_source ScnDataIntegrationFlow#dataset_source}
   */
   readonly datasetSource?: ScnDataIntegrationFlowSourcesDatasetSource;
   /**
   * The S3 source configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#s3_source ScnDataIntegrationFlow#s3_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#s3_source ScnDataIntegrationFlow#s3_source}
   */
   readonly s3Source?: ScnDataIntegrationFlowSourcesS3Source;
   /**
   * The source name that can be used as table alias in SQL transformation query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#source_name ScnDataIntegrationFlow#source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#source_name ScnDataIntegrationFlow#source_name}
   */
   readonly sourceName: string;
   /**
   * The source type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#source_type ScnDataIntegrationFlow#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#source_type ScnDataIntegrationFlow#source_type}
   */
   readonly sourceType: string;
 }
@@ -1209,13 +1209,13 @@ export interface ScnDataIntegrationFlowTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#key ScnDataIntegrationFlow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#key ScnDataIntegrationFlow#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#value ScnDataIntegrationFlow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#value ScnDataIntegrationFlow#value}
   */
   readonly value?: string;
 }
@@ -1362,13 +1362,13 @@ export interface ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyF
   /**
   * The name of the deduplication field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#name ScnDataIntegrationFlow#name}
   */
   readonly name?: string;
   /**
   * The sort order.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#sort_order ScnDataIntegrationFlow#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#sort_order ScnDataIntegrationFlow#sort_order}
   */
   readonly sortOrder?: string;
 }
@@ -1515,7 +1515,7 @@ export interface ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyF
   /**
   * The list of field names and their sort order for deduplication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#fields ScnDataIntegrationFlow#fields}
   */
   readonly fields?: ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriorityFields[] | cdktn.IResolvable;
 }
@@ -1611,13 +1611,13 @@ export interface ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy 
   /**
   * The field priority deduplication strategy configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#field_priority ScnDataIntegrationFlow#field_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#field_priority ScnDataIntegrationFlow#field_priority}
   */
   readonly fieldPriority?: ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategyFieldPriority;
   /**
   * The deduplication strategy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#type ScnDataIntegrationFlow#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#type ScnDataIntegrationFlow#type}
   */
   readonly type?: string;
 }
@@ -1742,19 +1742,19 @@ export interface ScnDataIntegrationFlowTargetDatasetTargetOptions {
   /**
   * The option to perform deduplication on data records sharing same primary key values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#dedupe_records ScnDataIntegrationFlow#dedupe_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#dedupe_records ScnDataIntegrationFlow#dedupe_records}
   */
   readonly dedupeRecords?: boolean | cdktn.IResolvable;
   /**
   * The deduplication strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#dedupe_strategy ScnDataIntegrationFlow#dedupe_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#dedupe_strategy ScnDataIntegrationFlow#dedupe_strategy}
   */
   readonly dedupeStrategy?: ScnDataIntegrationFlowTargetDatasetTargetOptionsDedupeStrategy;
   /**
   * The load type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#load_type ScnDataIntegrationFlow#load_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#load_type ScnDataIntegrationFlow#load_type}
   */
   readonly loadType?: string;
 }
@@ -1908,13 +1908,13 @@ export interface ScnDataIntegrationFlowTargetDatasetTarget {
   /**
   * The dataset ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#dataset_identifier ScnDataIntegrationFlow#dataset_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#dataset_identifier ScnDataIntegrationFlow#dataset_identifier}
   */
   readonly datasetIdentifier?: string;
   /**
   * The dataset options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#options ScnDataIntegrationFlow#options}
   */
   readonly options?: ScnDataIntegrationFlowTargetDatasetTargetOptions;
 }
@@ -2039,13 +2039,13 @@ export interface ScnDataIntegrationFlowTarget {
   /**
   * The dataset target configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#dataset_target ScnDataIntegrationFlow#dataset_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#dataset_target ScnDataIntegrationFlow#dataset_target}
   */
   readonly datasetTarget?: ScnDataIntegrationFlowTargetDatasetTarget;
   /**
   * The target type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#target_type ScnDataIntegrationFlow#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#target_type ScnDataIntegrationFlow#target_type}
   */
   readonly targetType: string;
 }
@@ -2167,7 +2167,7 @@ export interface ScnDataIntegrationFlowTransformationSqlTransformation {
   /**
   * The transformation SQL query body based on SparkSQL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#query ScnDataIntegrationFlow#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#query ScnDataIntegrationFlow#query}
   */
   readonly query?: string;
 }
@@ -2263,13 +2263,13 @@ export interface ScnDataIntegrationFlowTransformation {
   /**
   * The SQL transformation configuration parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#sql_transformation ScnDataIntegrationFlow#sql_transformation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#sql_transformation ScnDataIntegrationFlow#sql_transformation}
   */
   readonly sqlTransformation?: ScnDataIntegrationFlowTransformationSqlTransformation;
   /**
   * The transformation type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#transformation_type ScnDataIntegrationFlow#transformation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#transformation_type ScnDataIntegrationFlow#transformation_type}
   */
   readonly transformationType: string;
 }
@@ -2389,7 +2389,7 @@ export class ScnDataIntegrationFlowTransformationOutputReference extends cdktn.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow}
 */
 export class ScnDataIntegrationFlow extends cdktn.TerraformResource {
 
@@ -2405,7 +2405,7 @@ export class ScnDataIntegrationFlow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ScnDataIntegrationFlow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScnDataIntegrationFlow to import
-  * @param importFromId The id of the existing ScnDataIntegrationFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScnDataIntegrationFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScnDataIntegrationFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2417,7 +2417,7 @@ export class ScnDataIntegrationFlow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/scn_data_integration_flow awscc_scn_data_integration_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2428,7 +2428,7 @@ export class ScnDataIntegrationFlow extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_scn_data_integration_flow',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

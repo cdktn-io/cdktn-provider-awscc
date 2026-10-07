@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,23 +15,23 @@ export interface NetworkflowmonitorScopeConfig extends cdktn.TerraformMetaArgume
   /**
   * The tags for the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#tags NetworkflowmonitorScope#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#tags NetworkflowmonitorScope#tags}
   */
   readonly tags?: NetworkflowmonitorScopeTags[] | cdktn.IResolvable;
   /**
   * The targets for the scope.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#targets NetworkflowmonitorScope#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#targets NetworkflowmonitorScope#targets}
   */
   readonly targets: NetworkflowmonitorScopeTargets[] | cdktn.IResolvable;
 }
 export interface NetworkflowmonitorScopeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#key NetworkflowmonitorScope#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#key NetworkflowmonitorScope#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#value NetworkflowmonitorScope#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#value NetworkflowmonitorScope#value}
   */
   readonly value?: string;
 }
@@ -178,7 +178,7 @@ export interface NetworkflowmonitorScopeTargetsTargetIdentifierTargetId {
   /**
   * The account ID for the target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}
   */
   readonly accountId: string;
 }
@@ -271,13 +271,13 @@ export interface NetworkflowmonitorScopeTargetsTargetIdentifier {
   /**
   * A target ID is an internally-generated identifier for a target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#target_id NetworkflowmonitorScope#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#target_id NetworkflowmonitorScope#target_id}
   */
   readonly targetId: NetworkflowmonitorScopeTargetsTargetIdentifierTargetId;
   /**
   * The type of the target. Currently always ACCOUNT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#target_type NetworkflowmonitorScope#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#target_type NetworkflowmonitorScope#target_type}
   */
   readonly targetType: string;
 }
@@ -396,13 +396,13 @@ export interface NetworkflowmonitorScopeTargets {
   /**
   * The AWS Region for the target resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#region NetworkflowmonitorScope#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#region NetworkflowmonitorScope#region}
   */
   readonly region: string;
   /**
   * A target identifier is a pair of identifying information for a scope target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#target_identifier NetworkflowmonitorScope#target_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#target_identifier NetworkflowmonitorScope#target_identifier}
   */
   readonly targetIdentifier: NetworkflowmonitorScopeTargetsTargetIdentifier;
 }
@@ -541,7 +541,7 @@ export class NetworkflowmonitorScopeTargetsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope awscc_networkflowmonitor_scope}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope awscc_networkflowmonitor_scope}
 */
 export class NetworkflowmonitorScope extends cdktn.TerraformResource {
 
@@ -557,7 +557,7 @@ export class NetworkflowmonitorScope extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a NetworkflowmonitorScope resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkflowmonitorScope to import
-  * @param importFromId The id of the existing NetworkflowmonitorScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkflowmonitorScope that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkflowmonitorScope to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -569,7 +569,7 @@ export class NetworkflowmonitorScope extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope awscc_networkflowmonitor_scope} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope awscc_networkflowmonitor_scope} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -580,7 +580,7 @@ export class NetworkflowmonitorScope extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_networkflowmonitor_scope',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

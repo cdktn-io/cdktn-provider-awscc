@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,61 +15,61 @@ export interface Cloud9EnvironmentEc2Config extends cdktn.TerraformMetaArguments
   /**
   * The number of minutes until the running instance is shut down after the environment was last used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#automatic_stop_time_minutes Cloud9EnvironmentEc2#automatic_stop_time_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#automatic_stop_time_minutes Cloud9EnvironmentEc2#automatic_stop_time_minutes}
   */
   readonly automaticStopTimeMinutes?: number;
   /**
   * The connection type used for connecting to an Amazon EC2 environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#connection_type Cloud9EnvironmentEc2#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#connection_type Cloud9EnvironmentEc2#connection_type}
   */
   readonly connectionType?: string;
   /**
   * The description of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#description Cloud9EnvironmentEc2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#description Cloud9EnvironmentEc2#description}
   */
   readonly description?: string;
   /**
   * The identifier for the Amazon Machine Image (AMI) that's used to create the EC2 instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#image_id Cloud9EnvironmentEc2#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#image_id Cloud9EnvironmentEc2#image_id}
   */
   readonly imageId?: string;
   /**
   * The type of instance to connect to the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#instance_type Cloud9EnvironmentEc2#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#instance_type Cloud9EnvironmentEc2#instance_type}
   */
   readonly instanceType?: string;
   /**
   * The name of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#name Cloud9EnvironmentEc2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#name Cloud9EnvironmentEc2#name}
   */
   readonly name?: string;
   /**
   * The Amazon Resource Name (ARN) of the environment owner.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#owner_arn Cloud9EnvironmentEc2#owner_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#owner_arn Cloud9EnvironmentEc2#owner_arn}
   */
   readonly ownerArn?: string;
   /**
   * Any AWS CodeCommit source code repositories to be cloned into the development environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#repositories Cloud9EnvironmentEc2#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#repositories Cloud9EnvironmentEc2#repositories}
   */
   readonly repositories?: Cloud9EnvironmentEc2Repositories[] | cdktn.IResolvable;
   /**
   * The ID of the subnet in Amazon VPC that AWS Cloud9 will use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#subnet_id Cloud9EnvironmentEc2#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#subnet_id Cloud9EnvironmentEc2#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * An array of key-value pairs that will be associated with the new AWS Cloud9 development environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#tags Cloud9EnvironmentEc2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#tags Cloud9EnvironmentEc2#tags}
   */
   readonly tags?: Cloud9EnvironmentEc2Tags[] | cdktn.IResolvable;
 }
@@ -77,13 +77,13 @@ export interface Cloud9EnvironmentEc2Repositories {
   /**
   * The path within the development environment's default file system location to clone the AWS CodeCommit repository into.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#path_component Cloud9EnvironmentEc2#path_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#path_component Cloud9EnvironmentEc2#path_component}
   */
   readonly pathComponent?: string;
   /**
   * The clone URL of the AWS CodeCommit repository to be cloned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#repository_url Cloud9EnvironmentEc2#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#repository_url Cloud9EnvironmentEc2#repository_url}
   */
   readonly repositoryUrl?: string;
 }
@@ -228,11 +228,11 @@ export class Cloud9EnvironmentEc2RepositoriesList extends cdktn.ComplexList {
 }
 export interface Cloud9EnvironmentEc2Tags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#key Cloud9EnvironmentEc2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#key Cloud9EnvironmentEc2#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#value Cloud9EnvironmentEc2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#value Cloud9EnvironmentEc2#value}
   */
   readonly value?: string;
 }
@@ -377,7 +377,7 @@ export class Cloud9EnvironmentEc2TagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2 awscc_cloud9_environment_ec2}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2 awscc_cloud9_environment_ec2}
 */
 export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
 
@@ -393,7 +393,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Cloud9EnvironmentEc2 resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cloud9EnvironmentEc2 to import
-  * @param importFromId The id of the existing Cloud9EnvironmentEc2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cloud9EnvironmentEc2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cloud9EnvironmentEc2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -405,7 +405,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloud9_environment_ec2 awscc_cloud9_environment_ec2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloud9_environment_ec2 awscc_cloud9_environment_ec2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,7 +416,7 @@ export class Cloud9EnvironmentEc2 extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloud9_environment_ec2',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

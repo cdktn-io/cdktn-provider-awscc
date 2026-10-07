@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface AppsyncApiKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * Unique AWS AppSync GraphQL API ID for this API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
   */
   readonly apiId: string;
   /**
   * Unique description of your API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
   */
   readonly description?: string;
   /**
   * The time after which the API key expires. The date is represented as seconds since the epoch, rounded down to the nearest hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
   */
   readonly expires?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key awscc_appsync_api_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key awscc_appsync_api_key}
 */
 export class AppsyncApiKey extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class AppsyncApiKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncApiKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncApiKey to import
-  * @param importFromId The id of the existing AppsyncApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class AppsyncApiKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key awscc_appsync_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key awscc_appsync_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class AppsyncApiKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appsync_api_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

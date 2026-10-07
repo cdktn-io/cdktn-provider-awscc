@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface TranscribeMedicalVocabularyConfig extends cdktn.TerraformMetaAr
   /**
   * The language code of the vocabulary entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#language_code TranscribeMedicalVocabulary#language_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#language_code TranscribeMedicalVocabulary#language_code}
   */
   readonly languageCode: string;
   /**
   * Tags associated with the medical vocabulary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#tags TranscribeMedicalVocabulary#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#tags TranscribeMedicalVocabulary#tags}
   */
   readonly tags?: TranscribeMedicalVocabularyTags[] | cdktn.IResolvable;
   /**
   * The Amazon S3 location of the text file that contains the medical vocabulary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#vocabulary_file_uri TranscribeMedicalVocabulary#vocabulary_file_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#vocabulary_file_uri TranscribeMedicalVocabulary#vocabulary_file_uri}
   */
   readonly vocabularyFileUri?: string;
   /**
   * The name of the medical vocabulary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#vocabulary_name TranscribeMedicalVocabulary#vocabulary_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#vocabulary_name TranscribeMedicalVocabulary#vocabulary_name}
   */
   readonly vocabularyName: string;
 }
@@ -41,13 +41,13 @@ export interface TranscribeMedicalVocabularyTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#key TranscribeMedicalVocabulary#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#key TranscribeMedicalVocabulary#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#value TranscribeMedicalVocabulary#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#value TranscribeMedicalVocabulary#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class TranscribeMedicalVocabularyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary}
 */
 export class TranscribeMedicalVocabulary extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class TranscribeMedicalVocabulary extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TranscribeMedicalVocabulary resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TranscribeMedicalVocabulary to import
-  * @param importFromId The id of the existing TranscribeMedicalVocabulary that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TranscribeMedicalVocabulary that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TranscribeMedicalVocabulary to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class TranscribeMedicalVocabulary extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class TranscribeMedicalVocabulary extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_transcribe_medical_vocabulary',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

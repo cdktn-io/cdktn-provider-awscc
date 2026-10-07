@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/agentregistry_registry
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccAgentregistryRegistryConfig extends cdktn.TerraformMet
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/agentregistry_registry#id DataAwsccAgentregistryRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry#id DataAwsccAgentregistryRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -466,6 +466,60 @@ export class DataAwsccAgentregistryRegistryDiscoveryConfigurationOutputReference
     return this._authorizerConfiguration;
   }
 }
+export interface DataAwsccAgentregistryRegistryEncryptionConfiguration {
+}
+
+export function dataAwsccAgentregistryRegistryEncryptionConfigurationToTerraform(struct?: DataAwsccAgentregistryRegistryEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccAgentregistryRegistryEncryptionConfigurationToHclTerraform(struct?: DataAwsccAgentregistryRegistryEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccAgentregistryRegistryEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccAgentregistryRegistryEncryptionConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccAgentregistryRegistryEncryptionConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // kms_key_arn - computed: true, optional: false, required: false
+  public get kmsKeyArn() {
+    return this.getStringAttribute('kms_key_arn');
+  }
+}
 export interface DataAwsccAgentregistryRegistryTags {
 }
 
@@ -548,7 +602,7 @@ export class DataAwsccAgentregistryRegistryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry}
 */
 export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
 
@@ -564,7 +618,7 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccAgentregistryRegistry resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccAgentregistryRegistry to import
-  * @param importFromId The id of the existing DataAwsccAgentregistryRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/agentregistry_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccAgentregistryRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccAgentregistryRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -576,7 +630,7 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -587,7 +641,7 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_agentregistry_registry',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -616,6 +670,21 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
     return this.getStringAttribute('authorizer_type');
   }
 
+  // auto_detection_enabled - computed: true, optional: false, required: false
+  public get autoDetectionEnabled() {
+    return this.getBooleanAttribute('auto_detection_enabled');
+  }
+
+  // auto_detection_scope - computed: true, optional: false, required: false
+  public get autoDetectionScope() {
+    return this.getStringAttribute('auto_detection_scope');
+  }
+
+  // auto_detection_status - computed: true, optional: false, required: false
+  public get autoDetectionStatus() {
+    return this.getStringAttribute('auto_detection_status');
+  }
+
   // created_at - computed: true, optional: false, required: false
   public get createdAt() {
     return this.getStringAttribute('created_at');
@@ -630,6 +699,12 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
   private _discoveryConfiguration = new DataAwsccAgentregistryRegistryDiscoveryConfigurationOutputReference(this, "discovery_configuration");
   public get discoveryConfiguration() {
     return this._discoveryConfiguration;
+  }
+
+  // encryption_configuration - computed: true, optional: false, required: false
+  private _encryptionConfiguration = new DataAwsccAgentregistryRegistryEncryptionConfigurationOutputReference(this, "encryption_configuration");
+  public get encryptionConfiguration() {
+    return this._encryptionConfiguration;
   }
 
   // id - computed: false, optional: false, required: true

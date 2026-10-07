@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface SagemakerWorkteamConfig extends cdktn.TerraformMetaArguments {
   /**
   * A description of the work team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#description SagemakerWorkteam#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#description SagemakerWorkteam#description}
   */
   readonly description: string;
   /**
   * A list of MemberDefinition objects that contains objects that identify the workers that make up the work team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#member_definitions SagemakerWorkteam#member_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#member_definitions SagemakerWorkteam#member_definitions}
   */
   readonly memberDefinitions: SagemakerWorkteamMemberDefinitions[] | cdktn.IResolvable;
   /**
   * Configures SNS notifications of available or expiring work items for work teams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#notification_configuration SagemakerWorkteam#notification_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#notification_configuration SagemakerWorkteam#notification_configuration}
   */
   readonly notificationConfiguration?: SagemakerWorkteamNotificationConfiguration;
   /**
   * An array of key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#tags SagemakerWorkteam#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#tags SagemakerWorkteam#tags}
   */
   readonly tags?: SagemakerWorkteamTags[] | cdktn.IResolvable;
   /**
   * The name of the Workforce
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#workforce_name SagemakerWorkteam#workforce_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#workforce_name SagemakerWorkteam#workforce_name}
   */
   readonly workforceName?: string;
   /**
   * The name of the work team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#workteam_name SagemakerWorkteam#workteam_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#workteam_name SagemakerWorkteam#workteam_name}
   */
   readonly workteamName?: string;
 }
@@ -53,19 +53,19 @@ export interface SagemakerWorkteamMemberDefinitionsCognitoMemberDefinition {
   /**
   * An identifier for an application client. You must create the app client ID using Amazon Cognito.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#cognito_client_id SagemakerWorkteam#cognito_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#cognito_client_id SagemakerWorkteam#cognito_client_id}
   */
   readonly cognitoClientId?: string;
   /**
   * An identifier for a user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#cognito_user_group SagemakerWorkteam#cognito_user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#cognito_user_group SagemakerWorkteam#cognito_user_group}
   */
   readonly cognitoUserGroup?: string;
   /**
   * An identifier for a user pool. The user pool must be in the same region as the service that you are calling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#cognito_user_pool SagemakerWorkteam#cognito_user_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#cognito_user_pool SagemakerWorkteam#cognito_user_pool}
   */
   readonly cognitoUserPool?: string;
 }
@@ -219,7 +219,7 @@ export interface SagemakerWorkteamMemberDefinitionsOidcMemberDefinition {
   /**
   * A list of OIDC group names whose members will be part of this workteam
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#oidc_groups SagemakerWorkteam#oidc_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#oidc_groups SagemakerWorkteam#oidc_groups}
   */
   readonly oidcGroups?: string[];
 }
@@ -315,13 +315,13 @@ export interface SagemakerWorkteamMemberDefinitions {
   /**
   * The Amazon Cognito user group that is part of the work team
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#cognito_member_definition SagemakerWorkteam#cognito_member_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#cognito_member_definition SagemakerWorkteam#cognito_member_definition}
   */
   readonly cognitoMemberDefinition?: SagemakerWorkteamMemberDefinitionsCognitoMemberDefinition;
   /**
   * A list user groups that exist in your OIDC Identity Provider (IdP).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#oidc_member_definition SagemakerWorkteam#oidc_member_definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#oidc_member_definition SagemakerWorkteam#oidc_member_definition}
   */
   readonly oidcMemberDefinition?: SagemakerWorkteamMemberDefinitionsOidcMemberDefinition;
 }
@@ -468,7 +468,7 @@ export interface SagemakerWorkteamNotificationConfiguration {
   /**
   * The Amazon Resource Name (ARN) of the Amazon SNS topic to which notifications should be published.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#notification_topic_arn SagemakerWorkteam#notification_topic_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#notification_topic_arn SagemakerWorkteam#notification_topic_arn}
   */
   readonly notificationTopicArn?: string;
 }
@@ -564,13 +564,13 @@ export interface SagemakerWorkteamTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#key SagemakerWorkteam#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#key SagemakerWorkteam#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#value SagemakerWorkteam#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#value SagemakerWorkteam#value}
   */
   readonly value?: string;
 }
@@ -715,7 +715,7 @@ export class SagemakerWorkteamTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam awscc_sagemaker_workteam}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam awscc_sagemaker_workteam}
 */
 export class SagemakerWorkteam extends cdktn.TerraformResource {
 
@@ -731,7 +731,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SagemakerWorkteam resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SagemakerWorkteam to import
-  * @param importFromId The id of the existing SagemakerWorkteam that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SagemakerWorkteam that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SagemakerWorkteam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -743,7 +743,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_workteam awscc_sagemaker_workteam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_workteam awscc_sagemaker_workteam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -754,7 +754,7 @@ export class SagemakerWorkteam extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_sagemaker_workteam',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
