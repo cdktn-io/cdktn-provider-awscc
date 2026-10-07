@@ -4,7 +4,7 @@
 
 ### GluePartition <a name="GluePartition" id="@cdktn/provider-awscc.gluePartition.GluePartition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition awscc_glue_partition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition awscc_glue_partition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gluePartition.GluePartition.Initializer"></a>
 
@@ -502,7 +502,7 @@ The construct id used in the generated config for the GluePartition to import.
 
 The id of the existing GluePartition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -927,7 +927,7 @@ CatalogId *string
 
 The name of the catalog database in which to create the partition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#catalog_id GluePartition#catalog_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#catalog_id GluePartition#catalog_id}
 
 ---
 
@@ -941,7 +941,7 @@ DatabaseName *string
 
 The AWS account ID of the catalog in which the partion is to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#database_name GluePartition#database_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#database_name GluePartition#database_name}
 
 ---
 
@@ -955,7 +955,7 @@ PartitionInput GluePartitionPartitionInput
 
 The structure used to create and update a partition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#partition_input GluePartition#partition_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#partition_input GluePartition#partition_input}
 
 ---
 
@@ -969,7 +969,7 @@ TableName *string
 
 The name of the metadata table in which the partition is to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#table_name GluePartition#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#table_name GluePartition#table_name}
 
 ---
 
@@ -1009,7 +1009,7 @@ The values of the partition.
 
 Although this parameter is not required by the SDK, you must specify this parameter for a valid input. The values for the keys for the new partition must be passed as an array of String objects that must be ordered in the same order as the partition keys appearing in the Amazon S3 prefix. Otherwise AWS Glue will add the values to the wrong keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#values GluePartition#values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#values GluePartition#values}
 
 ---
 
@@ -1023,7 +1023,7 @@ Parameters *string
 
 Key-value pairs defining partition parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#parameters GluePartition#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#parameters GluePartition#parameters}
 
 ---
 
@@ -1037,7 +1037,7 @@ StorageDescriptor GluePartitionPartitionInputStorageDescriptor
 
 Provides information about the physical location where the partition is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#storage_descriptor GluePartition#storage_descriptor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#storage_descriptor GluePartition#storage_descriptor}
 
 ---
 
@@ -1095,7 +1095,7 @@ BucketColumns *[]*string
 
 A list of reducer grouping columns, clustering columns, and bucketing columns in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#bucket_columns GluePartition#bucket_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#bucket_columns GluePartition#bucket_columns}
 
 ---
 
@@ -1109,7 +1109,7 @@ Columns interface{}
 
 A list of the Columns in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#columns GluePartition#columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#columns GluePartition#columns}
 
 ---
 
@@ -1123,7 +1123,7 @@ Compressed interface{}
 
 True if the data in the table is compressed, or False if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#compressed GluePartition#compressed}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#compressed GluePartition#compressed}
 
 ---
 
@@ -1137,7 +1137,7 @@ InputFormat *string
 
 The input format: SequenceFileInputFormat (binary), or TextInputFormat, or a custom format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#input_format GluePartition#input_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#input_format GluePartition#input_format}
 
 ---
 
@@ -1153,7 +1153,7 @@ The physical location of the table.
 
 By default, this takes the form of the warehouse location, followed by the database location in the warehouse, followed by the table name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#location GluePartition#location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#location GluePartition#location}
 
 ---
 
@@ -1167,7 +1167,7 @@ NumberOfBuckets *f64
 
 The number of buckets. You must specify this property if the partition contains any dimension columns.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#number_of_buckets GluePartition#number_of_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#number_of_buckets GluePartition#number_of_buckets}
 
 ---
 
@@ -1181,7 +1181,7 @@ OutputFormat *string
 
 The output format: SequenceFileOutputFormat (binary), or IgnoreKeyTextOutputFormat, or a custom format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#output_format GluePartition#output_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#output_format GluePartition#output_format}
 
 ---
 
@@ -1195,7 +1195,7 @@ Parameters *string
 
 The user-supplied properties in key-value form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#parameters GluePartition#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#parameters GluePartition#parameters}
 
 ---
 
@@ -1209,7 +1209,7 @@ SchemaReference GluePartitionPartitionInputStorageDescriptorSchemaReference
 
 An object that references a schema stored in the AWS Glue Schema Registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#schema_reference GluePartition#schema_reference}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#schema_reference GluePartition#schema_reference}
 
 ---
 
@@ -1223,7 +1223,7 @@ SerdeInfo GluePartitionPartitionInputStorageDescriptorSerdeInfo
 
 The serialization/deserialization (SerDe) information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#serde_info GluePartition#serde_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#serde_info GluePartition#serde_info}
 
 ---
 
@@ -1237,7 +1237,7 @@ SkewedInfo GluePartitionPartitionInputStorageDescriptorSkewedInfo
 
 The information about values that appear frequently in a column (skewed values).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#skewed_info GluePartition#skewed_info}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#skewed_info GluePartition#skewed_info}
 
 ---
 
@@ -1251,7 +1251,7 @@ SortColumns interface{}
 
 A list specifying the sort order of each bucket in the table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#sort_columns GluePartition#sort_columns}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#sort_columns GluePartition#sort_columns}
 
 ---
 
@@ -1265,7 +1265,7 @@ StoredAsSubDirectories interface{}
 
 True if the table data is stored in subdirectories, or False if not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#stored_as_sub_directories GluePartition#stored_as_sub_directories}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#stored_as_sub_directories GluePartition#stored_as_sub_directories}
 
 ---
 
@@ -1303,7 +1303,7 @@ Comment *string
 
 A free-form text comment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#comment GluePartition#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#comment GluePartition#comment}
 
 ---
 
@@ -1317,7 +1317,7 @@ Name *string
 
 The name of the Column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#name GluePartition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#name GluePartition#name}
 
 ---
 
@@ -1331,7 +1331,7 @@ Type *string
 
 The data type of the Column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#type GluePartition#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#type GluePartition#type}
 
 ---
 
@@ -1369,7 +1369,7 @@ SchemaId GluePartitionPartitionInputStorageDescriptorSchemaReferenceSchemaId
 
 A structure that contains schema identity fields. Either this or the SchemaVersionId has to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#schema_id GluePartition#schema_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#schema_id GluePartition#schema_id}
 
 ---
 
@@ -1383,7 +1383,7 @@ SchemaVersionId *string
 
 The unique ID assigned to a version of the schema. Either this or the SchemaId has to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#schema_version_id GluePartition#schema_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#schema_version_id GluePartition#schema_version_id}
 
 ---
 
@@ -1397,7 +1397,7 @@ SchemaVersionNumber *f64
 
 The version number of the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#schema_version_number GluePartition#schema_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#schema_version_number GluePartition#schema_version_number}
 
 ---
 
@@ -1435,7 +1435,7 @@ RegistryName *string
 
 The name of the schema registry that contains the schema.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#registry_name GluePartition#registry_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#registry_name GluePartition#registry_name}
 
 ---
 
@@ -1449,7 +1449,7 @@ SchemaArn *string
 
 The Amazon Resource Name (ARN) of the schema. One of SchemaArn or SchemaName has to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#schema_arn GluePartition#schema_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#schema_arn GluePartition#schema_arn}
 
 ---
 
@@ -1463,7 +1463,7 @@ SchemaName *string
 
 The name of the schema. One of SchemaArn or SchemaName has to be provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#schema_name GluePartition#schema_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#schema_name GluePartition#schema_name}
 
 ---
 
@@ -1501,7 +1501,7 @@ Name *string
 
 Name of the SerDe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#name GluePartition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#name GluePartition#name}
 
 ---
 
@@ -1515,7 +1515,7 @@ Parameters *string
 
 These key-value pairs define initialization parameters for the SerDe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#parameters GluePartition#parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#parameters GluePartition#parameters}
 
 ---
 
@@ -1529,7 +1529,7 @@ SerializationLibrary *string
 
 Usually the class that implements the SerDe. An example is org.apache.hadoop.hive.serde2.columnar.ColumnarSerDe.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#serialization_library GluePartition#serialization_library}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#serialization_library GluePartition#serialization_library}
 
 ---
 
@@ -1567,7 +1567,7 @@ SkewedColumnNames *[]*string
 
 A list of values that appear so frequently as to be considered skewed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#skewed_column_names GluePartition#skewed_column_names}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#skewed_column_names GluePartition#skewed_column_names}
 
 ---
 
@@ -1581,7 +1581,7 @@ SkewedColumnValueLocationMaps *string
 
 A mapping of skewed values to the columns that contain them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#skewed_column_value_location_maps GluePartition#skewed_column_value_location_maps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#skewed_column_value_location_maps GluePartition#skewed_column_value_location_maps}
 
 ---
 
@@ -1595,7 +1595,7 @@ SkewedColumnValues *[]*string
 
 A list of names of columns that contain skewed values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#skewed_column_values GluePartition#skewed_column_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#skewed_column_values GluePartition#skewed_column_values}
 
 ---
 
@@ -1631,7 +1631,7 @@ Column *string
 
 The name of the column.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#column GluePartition#column}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#column GluePartition#column}
 
 ---
 
@@ -1645,7 +1645,7 @@ SortOrder *f64
 
 Indicates that the column is sorted in ascending order (== 1), or in descending order (==0).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/glue_partition#sort_order GluePartition#sort_order}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/glue_partition#sort_order GluePartition#sort_order}
 
 ---
 

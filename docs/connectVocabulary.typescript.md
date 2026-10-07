@@ -4,7 +4,7 @@
 
 ### ConnectVocabulary <a name="ConnectVocabulary" id="@cdktn/provider-awscc.connectVocabulary.ConnectVocabulary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary awscc_connect_vocabulary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary awscc_connect_vocabulary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectVocabulary.ConnectVocabulary.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ConnectVocabulary to impor
 
 The id of the existing ConnectVocabulary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -978,7 +978,7 @@ public readonly content: string;
 
 The content of the custom vocabulary in plain-text format with a table of values.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary#content ConnectVocabulary#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary#content ConnectVocabulary#content}
 
 ---
 
@@ -992,7 +992,7 @@ public readonly instanceId: string;
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary#instance_id ConnectVocabulary#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary#instance_id ConnectVocabulary#instance_id}
 
 ---
 
@@ -1006,7 +1006,7 @@ public readonly languageCode: string;
 
 The language code of the vocabulary entries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary#language_code ConnectVocabulary#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary#language_code ConnectVocabulary#language_code}
 
 ---
 
@@ -1020,7 +1020,7 @@ public readonly vocabularyName: string;
 
 A unique name of the custom vocabulary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary#vocabulary_name ConnectVocabulary#vocabulary_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary#vocabulary_name ConnectVocabulary#vocabulary_name}
 
 ---
 
@@ -1034,7 +1034,7 @@ public readonly tags: IResolvable | ConnectVocabularyTags[];
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary#tags ConnectVocabulary#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary#tags ConnectVocabulary#tags}
 
 ---
 
@@ -1067,7 +1067,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary#key ConnectVocabulary#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary#key ConnectVocabulary#key}
 
 ---
 
@@ -1081,7 +1081,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/connect_vocabulary#value ConnectVocabulary#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_vocabulary#value ConnectVocabulary#value}
 
 ---
 

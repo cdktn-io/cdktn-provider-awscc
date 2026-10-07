@@ -4,7 +4,7 @@
 
 ### QuicksightCustomization <a name="QuicksightCustomization" id="@cdktn/provider-awscc.quicksightCustomization.QuicksightCustomization"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization awscc_quicksight_customization}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization awscc_quicksight_customization}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightCustomization.QuicksightCustomization.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the QuicksightCustomization to
 
 The id of the existing QuicksightCustomization that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -912,7 +912,7 @@ The ARN of the theme applied by default in the QuickSight console for this names
 
 May be an AWS-managed starter theme such as arn:{Partition}:quicksight::aws:theme/MIDNIGHT or a theme owned by this account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#default_theme QuicksightCustomization#default_theme}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#default_theme QuicksightCustomization#default_theme}
 
 ---
 
@@ -928,7 +928,7 @@ The QuickSight namespace the customization applies to.
 
 One customization exists per (account, region, namespace), so this is create-only: changing it addresses a different resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#namespace QuicksightCustomization#namespace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#namespace QuicksightCustomization#namespace}
 
 ---
 
@@ -944,7 +944,7 @@ Tags applied to the customization.
 
 QuickSight rejects any key prefixed aws: or quicksight:, so CloudFormation system tags are not propagated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#tags QuicksightCustomization#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#tags QuicksightCustomization#tags}
 
 ---
 
@@ -977,7 +977,7 @@ public readonly key: string;
 
 Tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#key QuicksightCustomization#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#key QuicksightCustomization#key}
 
 ---
 
@@ -991,7 +991,7 @@ public readonly value: string;
 
 Tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#value QuicksightCustomization#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#value QuicksightCustomization#value}
 
 ---
 

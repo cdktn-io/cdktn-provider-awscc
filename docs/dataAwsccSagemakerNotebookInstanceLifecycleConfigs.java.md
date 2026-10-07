@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerNotebookInstanceLifecycleConfigs <a name="DataAwsccSagemakerNotebookInstanceLifecycleConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstanceLifecycleConfigs.DataAwsccSagemakerNotebookInstanceLifecycleConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_configs awscc_sagemaker_notebook_instance_lifecycle_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_configs awscc_sagemaker_notebook_instance_lifecycle_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerNotebookInstanceLifecycleConfigs.DataAwsccSagemakerNotebookInstanceLifecycleConfigs.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSagemakerNotebook
 
 The id of the existing DataAwsccSagemakerNotebookInstanceLifecycleConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_notebook_instance_lifecycle_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

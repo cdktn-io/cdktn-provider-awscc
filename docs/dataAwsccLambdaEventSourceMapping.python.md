@@ -4,7 +4,7 @@
 
 ### DataAwsccLambdaEventSourceMapping <a name="DataAwsccLambdaEventSourceMapping" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMapping"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lambda_event_source_mapping awscc_lambda_event_source_mapping}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/lambda_event_source_mapping awscc_lambda_event_source_mapping}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMapping.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lambda_event_source_mapping#id DataAwsccLambdaEventSourceMapping#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/lambda_event_source_mapping#id DataAwsccLambdaEventSourceMapping#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccLambdaEventSource
 
 The id of the existing DataAwsccLambdaEventSourceMapping that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lambda_event_source_mapping#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/lambda_event_source_mapping#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1175,7 +1175,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/lambda_event_source_mapping#id DataAwsccLambdaEventSourceMapping#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/lambda_event_source_mapping#id DataAwsccLambdaEventSourceMapping#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6518,6 +6518,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference.property.consumerGroupId">consumer_group_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference.property.consumptionMode">consumption_mode</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference.property.schemaRegistryConfig">schema_registry_config</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigOutputReference">DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigSchemaRegistryConfigOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfig">DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfig</a></code> | *No description.* |
 
@@ -6551,6 +6552,16 @@ fqn: str
 
 ```python
 consumer_group_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `consumption_mode`<sup>Required</sup> <a name="consumption_mode" id="@cdktn/provider-awscc.dataAwsccLambdaEventSourceMapping.DataAwsccLambdaEventSourceMappingSelfManagedKafkaEventSourceConfigOutputReference.property.consumptionMode"></a>
+
+```python
+consumption_mode: str
 ```
 
 - *Type:* str

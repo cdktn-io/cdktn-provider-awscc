@@ -4,7 +4,7 @@
 
 ### IotsitewiseApplication <a name="IotsitewiseApplication" id="@cdktn/provider-awscc.iotsitewiseApplication.IotsitewiseApplication"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application awscc_iotsitewise_application}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application awscc_iotsitewise_application}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotsitewiseApplication.IotsitewiseApplication.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the IotsitewiseApplication to 
 
 The id of the existing IotsitewiseApplication that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1038,7 +1038,7 @@ public string Name { get; set; }
 
 The name of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application#name IotsitewiseApplication#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#name IotsitewiseApplication#name}
 
 ---
 
@@ -1052,7 +1052,7 @@ public string WorkspaceName { get; set; }
 
 The name of the workspace that the application belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application#workspace_name IotsitewiseApplication#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#workspace_name IotsitewiseApplication#workspace_name}
 
 ---
 
@@ -1066,7 +1066,7 @@ public string Description { get; set; }
 
 A description of the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application#description IotsitewiseApplication#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#description IotsitewiseApplication#description}
 
 ---
 
@@ -1080,7 +1080,7 @@ public string IdcInstanceArn { get; set; }
 
 The ARN of the IAM Identity Center instance used to create the application.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application#idc_instance_arn IotsitewiseApplication#idc_instance_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#idc_instance_arn IotsitewiseApplication#idc_instance_arn}
 
 ---
 
@@ -1094,7 +1094,7 @@ public IResolvable|IotsitewiseApplicationTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application#tags IotsitewiseApplication#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#tags IotsitewiseApplication#tags}
 
 ---
 
@@ -1130,7 +1130,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application#key IotsitewiseApplication#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#key IotsitewiseApplication#key}
 
 ---
 
@@ -1144,7 +1144,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iotsitewise_application#value IotsitewiseApplication#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iotsitewise_application#value IotsitewiseApplication#value}
 
 ---
 

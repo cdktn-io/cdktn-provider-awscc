@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerClusterSchedulerConfigs <a name="DataAwsccSagemakerClusterSchedulerConfigs" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_cluster_scheduler_configs awscc_sagemaker_cluster_scheduler_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerClusterSchedulerConfigs.DataAwsccSagemakerClusterSchedulerConfigs.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccSagemakerClusterS
 
 The id of the existing DataAwsccSagemakerClusterSchedulerConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_cluster_scheduler_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_cluster_scheduler_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 
