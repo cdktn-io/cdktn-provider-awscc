@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworksecuritymanagerRule <a name="DataAwsccNetworksecuritymanagerRule" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_rule awscc_networksecuritymanager_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_rule awscc_networksecuritymanager_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworksecurityma
 
 The id of the existing DataAwsccNetworksecuritymanagerRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -424,6 +424,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.ruleType">ruleType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.status">status</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRuleTagsList">DataAwsccNetworksecuritymanagerRuleTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.updatedAt">updatedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.version">version</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.id">id</a></code> | <code>string</code> | *No description.* |
@@ -642,6 +643,16 @@ public readonly tags: DataAwsccNetworksecuritymanagerRuleTagsList;
 
 ---
 
+##### `updatedAt`<sup>Required</sup> <a name="updatedAt" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.updatedAt"></a>
+
+```typescript
+public readonly updatedAt: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `version`<sup>Required</sup> <a name="version" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRule.DataAwsccNetworksecuritymanagerRule.property.version"></a>
 
 ```typescript
@@ -797,7 +808,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_rule#id DataAwsccNetworksecuritymanagerRule#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_rule#id DataAwsccNetworksecuritymanagerRule#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

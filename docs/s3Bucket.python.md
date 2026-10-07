@@ -4,7 +4,7 @@
 
 ### S3Bucket <a name="S3Bucket" id="@cdktn/provider-awscc.s3Bucket.S3Bucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket awscc_s3_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer"></a>
 
@@ -21,16 +21,20 @@ s3Bucket.S3Bucket(
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  abac_status: str = None,
   accelerate_configuration: S3BucketAccelerateConfiguration = None,
   access_control: str = None,
   analytics_configurations: IResolvable | typing.List[S3BucketAnalyticsConfigurations] = None,
   bucket_encryption: S3BucketBucketEncryption = None,
   bucket_name: str = None,
+  bucket_name_prefix: str = None,
+  bucket_namespace: str = None,
   cors_configuration: S3BucketCorsConfiguration = None,
   intelligent_tiering_configurations: IResolvable | typing.List[S3BucketIntelligentTieringConfigurations] = None,
   inventory_configurations: IResolvable | typing.List[S3BucketInventoryConfigurations] = None,
   lifecycle_configuration: S3BucketLifecycleConfiguration = None,
   logging_configuration: S3BucketLoggingConfiguration = None,
+  metadata_configuration: S3BucketMetadataConfiguration = None,
   metadata_table_configuration: S3BucketMetadataTableConfiguration = None,
   metrics_configurations: IResolvable | typing.List[S3BucketMetricsConfigurations] = None,
   notification_configuration: S3BucketNotificationConfiguration = None,
@@ -56,16 +60,20 @@ s3Bucket.S3Bucket(
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.abacStatus">abac_status</a></code> | <code>str</code> | The ABAC status of the general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.accelerateConfiguration">accelerate_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAccelerateConfiguration">S3BucketAccelerateConfiguration</a></code> | Configures the transfer acceleration state for an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.accessControl">access_control</a></code> | <code>str</code> | This is a legacy property, and it is not recommended for most use cases. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.analyticsConfigurations">analytics_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurations">S3BucketAnalyticsConfigurations</a>]</code> | Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketEncryption">bucket_encryption</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryption">S3BucketBucketEncryption</a></code> | Specifies default encryption for a bucket using server-side encryption with Amazon S3-managed keys (SSE-S3), AWS KMS-managed keys (SSE-KMS), or dual-layer server-side encryption with KMS-managed keys (DSSE-KMS). |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketName">bucket_name</a></code> | <code>str</code> | A name for the bucket. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketNamePrefix">bucket_name_prefix</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketNamespace">bucket_namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.corsConfiguration">cors_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketCorsConfiguration">S3BucketCorsConfiguration</a></code> | Describes the cross-origin access configuration for objects in an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.intelligentTieringConfigurations">intelligent_tiering_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketIntelligentTieringConfigurations">S3BucketIntelligentTieringConfigurations</a>]</code> | Defines how Amazon S3 handles Intelligent-Tiering storage. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.inventoryConfigurations">inventory_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]</code> | Specifies the inventory configuration for an Amazon S3 bucket. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.inventoryConfigurations">inventory_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]</code> | Specifies the S3 Inventory configuration for an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.lifecycleConfiguration">lifecycle_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLifecycleConfiguration">S3BucketLifecycleConfiguration</a></code> | Specifies the lifecycle configuration for objects in an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.loggingConfiguration">logging_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfiguration">S3BucketLoggingConfiguration</a></code> | Settings that define where logs are stored. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.metadataConfiguration">metadata_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a></code> | The S3 Metadata configuration for a general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.metadataTableConfiguration">metadata_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfiguration">S3BucketMetadataTableConfiguration</a></code> | The metadata table configuration of an S3 general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.metricsConfigurations">metrics_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetricsConfigurations">S3BucketMetricsConfigurations</a>]</code> | Specifies a metrics configuration for the CloudWatch request metrics (specified by the metrics configuration ID) from an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.notificationConfiguration">notification_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketNotificationConfiguration">S3BucketNotificationConfiguration</a></code> | Configuration that defines how Amazon S3 handles bucket notifications. |
@@ -140,6 +148,18 @@ Must be unique amongst siblings in the same scope
 
 ---
 
+##### `abac_status`<sup>Optional</sup> <a name="abac_status" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.abacStatus"></a>
+
+- *Type:* str
+
+The ABAC status of the general purpose bucket.
+
+When ABAC is enabled for the general purpose bucket, you can use tags to manage access to the general purpose buckets as well as for cost tracking purposes. When ABAC is disabled for the general purpose buckets, you can only use tags for cost tracking purposes. For more information, see [Using tags with S3 general purpose buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/buckets-tagging.html).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#abac_status S3Bucket#abac_status}
+
+---
+
 ##### `accelerate_configuration`<sup>Optional</sup> <a name="accelerate_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.accelerateConfiguration"></a>
 
 - *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAccelerateConfiguration">S3BucketAccelerateConfiguration</a>
@@ -148,7 +168,7 @@ Configures the transfer acceleration state for an Amazon S3 bucket.
 
 For more information, see [Amazon S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
 
 ---
 
@@ -163,7 +183,7 @@ A canned access control list (ACL) that grants predefined permissions to the buc
 S3 buckets are created with ACLs disabled by default. Therefore, unless you explicitly set the [AWS::S3::OwnershipControls](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-ownershipcontrols.html) property to enable ACLs, your resource will fail to deploy with any value other than Private. Use cases requiring ACLs are uncommon.
 The majority of access control configurations can be successfully and more easily achieved with bucket policies. For more information, see [AWS::S3::BucketPolicy](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-policy.html). For examples of common policy configurations, including S3 Server Access Logs buckets and more, see [Bucket policy examples](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
 
 ---
 
@@ -173,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
 
 ---
 
@@ -185,7 +205,7 @@ Specifies default encryption for a bucket using server-side encryption with Amaz
 
 For information about the Amazon S3 default encryption feature, see [Amazon S3 Default Encryption for S3 Buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
 
 ---
 
@@ -198,7 +218,23 @@ A name for the bucket.
 If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the bucket name. The bucket name must contain only lowercase letters, numbers, periods (.), and dashes (-) and must follow [Amazon S3 bucket restrictions and limitations](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html). For more information, see [Rules for naming Amazon S3 buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html) in the *Amazon S3 User Guide*.
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you need to replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
+
+---
+
+##### `bucket_name_prefix`<sup>Optional</sup> <a name="bucket_name_prefix" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketNamePrefix"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}.
+
+---
+
+##### `bucket_namespace`<sup>Optional</sup> <a name="bucket_namespace" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketNamespace"></a>
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.
 
 ---
 
@@ -210,7 +246,7 @@ Describes the cross-origin access configuration for objects in an Amazon S3 buck
 
 For more information, see [Enabling Cross-Origin Resource Sharing](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
 
 ---
 
@@ -220,7 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Defines how Amazon S3 handles Intelligent-Tiering storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
 
 ---
 
@@ -228,11 +264,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]
 
-Specifies the inventory configuration for an Amazon S3 bucket.
+Specifies the S3 Inventory configuration for an Amazon S3 bucket.
 
 For more information, see [GET Bucket inventory](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGETInventoryConfig.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
 
 ---
 
@@ -244,7 +280,7 @@ Specifies the lifecycle configuration for objects in an Amazon S3 bucket.
 
 For more information, see [Object Lifecycle Management](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
 
 ---
 
@@ -254,7 +290,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Settings that define where logs are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
+
+---
+
+##### `metadata_configuration`<sup>Optional</sup> <a name="metadata_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.metadataConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a>
+
+The S3 Metadata configuration for a general purpose bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_configuration S3Bucket#metadata_configuration}
 
 ---
 
@@ -264,9 +310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The metadata table configuration of an S3 general purpose bucket.
 
-For more information, see [Accelerating data discovery with S3 Metadata](https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-overview.html) and [Setting up permissions for configuring metadata tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-permissions.html).
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
 
 ---
 
@@ -278,7 +322,7 @@ Specifies a metrics configuration for the CloudWatch request metrics (specified 
 
 If you're updating an existing metrics configuration, note that this is a full replacement of the existing metrics configuration. If you don't include the elements you want to keep, they are erased. For more information, see [PutBucketMetricsConfiguration](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTMetricConfiguration.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
 
 ---
 
@@ -288,7 +332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration that defines how Amazon S3 handles bucket notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
 
 ---
 
@@ -304,7 +348,9 @@ Places an Object Lock configuration on the specified bucket. The rule specified 
 * The `DefaultRetention` period can be either `Days` or `Years` but you must select one. You cannot specify `Days` and `Years` at the same time.
 * You can enable Object Lock for new or existing buckets. For more information, see [Configuring Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-configure.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
+You must URL encode any signed header values that contain spaces. For example, if your header value is `my file.txt`, containing two spaces after `my`, you must URL encode this value to `my%20%20file.txt`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
 
 ---
 
@@ -314,7 +360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -324,7 +370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration that defines how Amazon S3 handles Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
 
 ---
 
@@ -334,7 +380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration that defines how Amazon S3 handles public access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
 
 ---
 
@@ -347,7 +393,7 @@ Configuration for replicating objects in an S3 bucket.
 To enable replication, you must also enable versioning by using the `VersioningConfiguration` property.
 Amazon S3 can store replicated objects in a single destination bucket or multiple destination buckets. The destination bucket or buckets must already exist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
 
 ---
 
@@ -357,7 +403,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An arbitrary set of tags (key-value pairs) for this S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tags S3Bucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tags S3Bucket#tags}
 
 ---
 
@@ -370,7 +416,7 @@ Enables multiple versions of all objects in this bucket.
 You might enable versioning to prevent objects from being deleted or overwritten by mistake or to archive objects so that you can retrieve previous versions of them.
 When you enable versioning on a bucket for the first time, it might take a short amount of time for the change to be fully propagated. We recommend that you wait for 15 minutes after enabling versioning before issuing write operations (`PUT` or `DELETE`) on objects in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
 
 ---
 
@@ -380,7 +426,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Information used to configure the bucket as a static website. For more information, see [Hosting Websites on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
 
 ---
 
@@ -420,6 +466,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putInventoryConfigurations">put_inventory_configurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putLifecycleConfiguration">put_lifecycle_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putLoggingConfiguration">put_logging_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataConfiguration">put_metadata_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataTableConfiguration">put_metadata_table_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetricsConfigurations">put_metrics_configurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putNotificationConfiguration">put_notification_configuration</a></code> | *No description.* |
@@ -430,16 +477,20 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putVersioningConfiguration">put_versioning_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putWebsiteConfiguration">put_website_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAbacStatus">reset_abac_status</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAccelerateConfiguration">reset_accelerate_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAccessControl">reset_access_control</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAnalyticsConfigurations">reset_analytics_configurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketEncryption">reset_bucket_encryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketName">reset_bucket_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketNamePrefix">reset_bucket_name_prefix</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketNamespace">reset_bucket_namespace</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetCorsConfiguration">reset_cors_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetIntelligentTieringConfigurations">reset_intelligent_tiering_configurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetInventoryConfigurations">reset_inventory_configurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetLifecycleConfiguration">reset_lifecycle_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetLoggingConfiguration">reset_logging_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetadataConfiguration">reset_metadata_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetadataTableConfiguration">reset_metadata_table_configuration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetricsConfigurations">reset_metrics_configurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetNotificationConfiguration">reset_notification_configuration</a></code> | *No description.* |
@@ -816,7 +867,7 @@ def put_accelerate_configuration(
 
 Specifies the transfer acceleration status of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
 
 ---
 
@@ -848,7 +899,7 @@ def put_bucket_encryption(
 
 Specifies the default server-side-encryption configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
 
 ---
 
@@ -868,7 +919,7 @@ A set of origins and methods (cross-origin access that you want to allow).
 
 You can add up to 100 rules to the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
 
 ---
 
@@ -915,7 +966,7 @@ def put_lifecycle_configuration(
 
 A lifecycle rule for individual objects in an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -932,7 +983,7 @@ This parameter applies to general purpose buckets only. It isn't supported for d
 
 To customize the minimum object size for any transition you can add a filter that specifies a custom `ObjectSizeGreaterThan` or `ObjectSizeLessThan` in the body of your transition rule. Custom filters always take precedence over the default transition behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
 
 ---
 
@@ -954,7 +1005,7 @@ The name of the bucket where Amazon S3 should store server access log files.
 
 You can store log files in any bucket that you own. By default, logs are stored in the bucket where the `LoggingConfiguration` property is defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
 
 ---
 
@@ -966,7 +1017,7 @@ A prefix for all log object keys.
 
 If you store log files from multiple Amazon S3 buckets in a single bucket, you can use a prefix to distinguish which log files came from which bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
 
 ---
 
@@ -976,7 +1027,47 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Amazon S3 key format for log objects. Only one format, either PartitionedPrefix or SimplePrefix, is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
+
+---
+
+##### `put_metadata_configuration` <a name="put_metadata_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataConfiguration"></a>
+
+```python
+def put_metadata_configuration(
+  annotation_table_configuration: S3BucketMetadataConfigurationAnnotationTableConfiguration = None,
+  inventory_table_configuration: S3BucketMetadataConfigurationInventoryTableConfiguration = None,
+  journal_table_configuration: S3BucketMetadataConfigurationJournalTableConfiguration = None
+) -> None
+```
+
+###### `annotation_table_configuration`<sup>Optional</sup> <a name="annotation_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataConfiguration.parameter.annotationTableConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+The annotation table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#annotation_table_configuration S3Bucket#annotation_table_configuration}
+
+---
+
+###### `inventory_table_configuration`<sup>Optional</sup> <a name="inventory_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataConfiguration.parameter.inventoryTableConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+The inventory table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_table_configuration S3Bucket#inventory_table_configuration}
+
+---
+
+###### `journal_table_configuration`<sup>Optional</sup> <a name="journal_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataConfiguration.parameter.journalTableConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+The journal table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#journal_table_configuration S3Bucket#journal_table_configuration}
 
 ---
 
@@ -996,7 +1087,7 @@ The destination information for the metadata table configuration.
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket. The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
 
 ---
 
@@ -1031,7 +1122,7 @@ def put_notification_configuration(
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
 
 ---
 
@@ -1041,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Describes the LAMlong functions to invoke and the events for which to invoke them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
 
 ---
 
@@ -1051,7 +1142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Simple Queue Service queues to publish messages to and the events for which to publish messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
 
 ---
 
@@ -1061,7 +1152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The topic to which notifications are sent and the events for which notifications are generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
 
 ---
 
@@ -1080,7 +1171,7 @@ def put_object_lock_configuration(
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -1092,7 +1183,7 @@ Specifies the Object Lock rule for the specified object.
 
 Enable this rule when you apply `ObjectLockConfiguration` to a bucket. If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information, see [ObjectLockRule](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-objectlockrule.html) and [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rule S3Bucket#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rule S3Bucket#rule}
 
 ---
 
@@ -1110,7 +1201,7 @@ def put_ownership_controls(
 
 Specifies the container element for Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -1139,7 +1230,7 @@ Setting this element to `TRUE` causes the following behavior:
 
 Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
 
 ---
 
@@ -1152,7 +1243,7 @@ Specifies whether Amazon S3 should block public bucket policies for this bucket.
 Setting this element to `TRUE` causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access.
 Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
 
 ---
 
@@ -1165,7 +1256,7 @@ Specifies whether Amazon S3 should ignore public ACLs for this bucket and object
 Setting this element to `TRUE` causes Amazon S3 to ignore all public ACLs on this bucket and objects in this bucket.
 Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
 
 ---
 
@@ -1178,7 +1269,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to `TRUE` restricts access to this bucket to only AWS-service principals and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
 
 ---
 
@@ -1199,7 +1290,7 @@ The Amazon Resource Name (ARN) of the IAMlong (IAM) role that Amazon S3 assumes 
 
 For more information, see [How to Set Up Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-how-setup.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#role S3Bucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
 
 ---
 
@@ -1211,7 +1302,7 @@ A container for one or more replication rules.
 
 A replication configuration must have at least one rule and can contain a maximum of 1,000 rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -1243,7 +1334,7 @@ def put_versioning_configuration(
 
 The versioning state of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -1264,7 +1355,7 @@ def put_website_configuration(
 
 The name of the error document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
 
 ---
 
@@ -1274,7 +1365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the index document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
 
 ---
 
@@ -1286,7 +1377,7 @@ The redirect behavior for every request to this bucket's website endpoint.
 
 If you specify this property, you can't specify any other property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
 
 ---
 
@@ -1296,9 +1387,15 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Rules that define when a redirect is applied and the redirect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
 
 ---
+
+##### `reset_abac_status` <a name="reset_abac_status" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAbacStatus"></a>
+
+```python
+def reset_abac_status() -> None
+```
 
 ##### `reset_accelerate_configuration` <a name="reset_accelerate_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAccelerateConfiguration"></a>
 
@@ -1330,6 +1427,18 @@ def reset_bucket_encryption() -> None
 def reset_bucket_name() -> None
 ```
 
+##### `reset_bucket_name_prefix` <a name="reset_bucket_name_prefix" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketNamePrefix"></a>
+
+```python
+def reset_bucket_name_prefix() -> None
+```
+
+##### `reset_bucket_namespace` <a name="reset_bucket_namespace" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketNamespace"></a>
+
+```python
+def reset_bucket_namespace() -> None
+```
+
 ##### `reset_cors_configuration` <a name="reset_cors_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetCorsConfiguration"></a>
 
 ```python
@@ -1358,6 +1467,12 @@ def reset_lifecycle_configuration() -> None
 
 ```python
 def reset_logging_configuration() -> None
+```
+
+##### `reset_metadata_configuration` <a name="reset_metadata_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetadataConfiguration"></a>
+
+```python
+def reset_metadata_configuration() -> None
 ```
 
 ##### `reset_metadata_table_configuration` <a name="reset_metadata_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetadataTableConfiguration"></a>
@@ -1540,7 +1655,7 @@ The construct id used in the generated config for the S3Bucket to import.
 
 The id of the existing S3Bucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1582,6 +1697,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.inventoryConfigurations">inventory_configurations</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsList">S3BucketInventoryConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.lifecycleConfiguration">lifecycle_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLifecycleConfigurationOutputReference">S3BucketLifecycleConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.loggingConfiguration">logging_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfigurationOutputReference">S3BucketLoggingConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataConfiguration">metadata_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference">S3BucketMetadataConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataTableConfiguration">metadata_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfigurationOutputReference">S3BucketMetadataTableConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metricsConfigurations">metrics_configurations</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetricsConfigurationsList">S3BucketMetricsConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.notificationConfiguration">notification_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketNotificationConfigurationOutputReference">S3BucketNotificationConfigurationOutputReference</a></code> | *No description.* |
@@ -1594,16 +1710,20 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.versioningConfiguration">versioning_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketVersioningConfigurationOutputReference">S3BucketVersioningConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.websiteConfiguration">website_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketWebsiteConfigurationOutputReference">S3BucketWebsiteConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.websiteUrl">website_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.abacStatusInput">abac_status_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accelerateConfigurationInput">accelerate_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAccelerateConfiguration">S3BucketAccelerateConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accessControlInput">access_control_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.analyticsConfigurationsInput">analytics_configurations_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurations">S3BucketAnalyticsConfigurations</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketEncryptionInput">bucket_encryption_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryption">S3BucketBucketEncryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNameInput">bucket_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamePrefixInput">bucket_name_prefix_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamespaceInput">bucket_namespace_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.corsConfigurationInput">cors_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketCorsConfiguration">S3BucketCorsConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.intelligentTieringConfigurationsInput">intelligent_tiering_configurations_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketIntelligentTieringConfigurations">S3BucketIntelligentTieringConfigurations</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.inventoryConfigurationsInput">inventory_configurations_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.lifecycleConfigurationInput">lifecycle_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLifecycleConfiguration">S3BucketLifecycleConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.loggingConfigurationInput">logging_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfiguration">S3BucketLoggingConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataConfigurationInput">metadata_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataTableConfigurationInput">metadata_table_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfiguration">S3BucketMetadataTableConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metricsConfigurationsInput">metrics_configurations_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetricsConfigurations">S3BucketMetricsConfigurations</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.notificationConfigurationInput">notification_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketNotificationConfiguration">S3BucketNotificationConfiguration</a></code> | *No description.* |
@@ -1615,8 +1735,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketTags">S3BucketTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.versioningConfigurationInput">versioning_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketVersioningConfiguration">S3BucketVersioningConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.websiteConfigurationInput">website_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketWebsiteConfiguration">S3BucketWebsiteConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.abacStatus">abac_status</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accessControl">access_control</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketName">bucket_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamePrefix">bucket_name_prefix</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamespace">bucket_namespace</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.objectLockEnabled">object_lock_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 
 ---
@@ -1883,6 +2006,16 @@ logging_configuration: S3BucketLoggingConfigurationOutputReference
 
 ---
 
+##### `metadata_configuration`<sup>Required</sup> <a name="metadata_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataConfiguration"></a>
+
+```python
+metadata_configuration: S3BucketMetadataConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference">S3BucketMetadataConfigurationOutputReference</a>
+
+---
+
 ##### `metadata_table_configuration`<sup>Required</sup> <a name="metadata_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataTableConfiguration"></a>
 
 ```python
@@ -2003,6 +2136,16 @@ website_url: str
 
 ---
 
+##### `abac_status_input`<sup>Optional</sup> <a name="abac_status_input" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.abacStatusInput"></a>
+
+```python
+abac_status_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `accelerate_configuration_input`<sup>Optional</sup> <a name="accelerate_configuration_input" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accelerateConfigurationInput"></a>
 
 ```python
@@ -2047,6 +2190,26 @@ bucket_encryption_input: IResolvable | S3BucketBucketEncryption
 
 ```python
 bucket_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `bucket_name_prefix_input`<sup>Optional</sup> <a name="bucket_name_prefix_input" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamePrefixInput"></a>
+
+```python
+bucket_name_prefix_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `bucket_namespace_input`<sup>Optional</sup> <a name="bucket_namespace_input" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamespaceInput"></a>
+
+```python
+bucket_namespace_input: str
 ```
 
 - *Type:* str
@@ -2100,6 +2263,16 @@ logging_configuration_input: IResolvable | S3BucketLoggingConfiguration
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfiguration">S3BucketLoggingConfiguration</a>
+
+---
+
+##### `metadata_configuration_input`<sup>Optional</sup> <a name="metadata_configuration_input" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataConfigurationInput"></a>
+
+```python
+metadata_configuration_input: IResolvable | S3BucketMetadataConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a>
 
 ---
 
@@ -2213,6 +2386,16 @@ website_configuration_input: IResolvable | S3BucketWebsiteConfiguration
 
 ---
 
+##### `abac_status`<sup>Required</sup> <a name="abac_status" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.abacStatus"></a>
+
+```python
+abac_status: str
+```
+
+- *Type:* str
+
+---
+
 ##### `access_control`<sup>Required</sup> <a name="access_control" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accessControl"></a>
 
 ```python
@@ -2227,6 +2410,26 @@ access_control: str
 
 ```python
 bucket_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `bucket_name_prefix`<sup>Required</sup> <a name="bucket_name_prefix" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamePrefix"></a>
+
+```python
+bucket_name_prefix: str
+```
+
+- *Type:* str
+
+---
+
+##### `bucket_namespace`<sup>Required</sup> <a name="bucket_namespace" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamespace"></a>
+
+```python
+bucket_namespace: str
 ```
 
 - *Type:* str
@@ -2293,7 +2496,7 @@ acceleration_status: str
 
 Specifies the transfer acceleration status of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
 
 ---
 
@@ -2333,7 +2536,7 @@ id: str
 
 The ID that identifies the analytics configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2350,7 +2553,7 @@ prefix: str
 
 The prefix that an object must have to be included in the analytics results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -2364,7 +2567,7 @@ storage_class_analysis: S3BucketAnalyticsConfigurationsStorageClassAnalysis
 
 Contains data related to access patterns to be collected and made available to analyze the tradeoffs between different storage classes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class_analysis S3Bucket#storage_class_analysis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class_analysis S3Bucket#storage_class_analysis}
 
 ---
 
@@ -2380,7 +2583,7 @@ The tags to use when evaluating an analytics filter.
 
 The analytics only includes objects that meet the filter's criteria. If no filter is specified, all of the contents of the bucket are included in the analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -2414,7 +2617,7 @@ data_export: S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExport
 
 Specifies how data related to the storage class analysis for an Amazon S3 bucket should be exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
 
 ---
 
@@ -2450,7 +2653,7 @@ destination: S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestin
 
 The place to store the data for an analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -2464,7 +2667,7 @@ output_schema_version: str
 
 The version of the output schema to use when exporting data. Must be ``V_1``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
 
 ---
 
@@ -2489,7 +2692,7 @@ s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestinatio
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.bucketAccountId">bucket_account_id</a></code> | <code>str</code> | The account ID that owns the destination S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.bucketArn">bucket_arn</a></code> | <code>str</code> | The Amazon Resource Name (ARN) of the bucket to which data is exported. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.format">format</a></code> | <code>str</code> | Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` \| ``ORC`` \| ``Parquet``. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.format">format</a></code> | <code>str</code> | Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` \| ``ORC`` \| ``Parquet``. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.prefix">prefix</a></code> | <code>str</code> | The prefix to use when exporting data. The prefix is prepended to all results. |
 
 ---
@@ -2507,7 +2710,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -2521,7 +2724,7 @@ bucket_arn: str
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -2533,9 +2736,9 @@ format: str
 
 - *Type:* str
 
-Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
+Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -2549,7 +2752,7 @@ prefix: str
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -2585,7 +2788,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -2599,7 +2802,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -2633,7 +2836,7 @@ server_side_encryption_configuration: IResolvable | typing.List[S3BucketBucketEn
 
 Specifies the default server-side-encryption configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
 
 ---
 
@@ -2645,6 +2848,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 from cdktn_provider_awscc import s3_bucket
 
 s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration(
+  blocked_encryption_types: S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes = None,
   bucket_key_enabled: bool | IResolvable = None,
   server_side_encryption_by_default: S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault = None
 )
@@ -2654,8 +2858,26 @@ s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration.property.blockedEncryptionTypes">blocked_encryption_types</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a></code> | A bucket-level setting for Amazon S3 general purpose buckets used to prevent the upload of new objects encrypted with the specified server-side encryption type. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration.property.bucketKeyEnabled">bucket_key_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Specifies whether Amazon S3 should use an S3 Bucket Key with server-side encryption using KMS (SSE-KMS) for new objects in the bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration.property.serverSideEncryptionByDefault">server_side_encryption_by_default</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault</a></code> | Specifies the default server-side encryption to apply to new objects in the bucket. |
+
+---
+
+##### `blocked_encryption_types`<sup>Optional</sup> <a name="blocked_encryption_types" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration.property.blockedEncryptionTypes"></a>
+
+```python
+blocked_encryption_types: S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a>
+
+A bucket-level setting for Amazon S3 general purpose buckets used to prevent the upload of new objects encrypted with the specified server-side encryption type.
+
+For example, blocking an encryption type will block `PutObject`, `CopyObject`, `PostObject`, multipart upload, and replication requests to the bucket for objects with the specified encryption type. However, you can continue to read and list any pre-existing objects already encrypted with the specified encryption type. For more information, see [Blocking or unblocking SSE-C for a general purpose bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/blocking-unblocking-s3-c-encryption-gpb.html).
+Currently, this parameter only supports blocking or unblocking server-side encryption with customer-provided keys (SSE-C). For more information about SSE-C, see [Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#blocked_encryption_types S3Bucket#blocked_encryption_types}
 
 ---
 
@@ -2672,7 +2894,7 @@ Specifies whether Amazon S3 should use an S3 Bucket Key with server-side encrypt
 Existing objects are not affected. Setting the `BucketKeyEnabled` element to `true` causes Amazon S3 to use an S3 Bucket Key. By default, S3 Bucket Key is not enabled.
 For more information, see [Amazon S3 Bucket Keys](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-key.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_key_enabled S3Bucket#bucket_key_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_key_enabled S3Bucket#bucket_key_enabled}
 
 ---
 
@@ -2688,7 +2910,43 @@ Specifies the default server-side encryption to apply to new objects in the buck
 
 If a PUT Object request doesn't specify any server-side encryption, this default encryption will be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#server_side_encryption_by_default S3Bucket#server_side_encryption_by_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#server_side_encryption_by_default S3Bucket#server_side_encryption_by_default}
+
+---
+
+### S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes <a name="S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes(
+  encryption_type: typing.List[str] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes.property.encryptionType">encryption_type</a></code> | <code>typing.List[str]</code> | The object encryption type that you want to block or unblock for an Amazon S3 general purpose bucket. |
+
+---
+
+##### `encryption_type`<sup>Optional</sup> <a name="encryption_type" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes.property.encryptionType"></a>
+
+```python
+encryption_type: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The object encryption type that you want to block or unblock for an Amazon S3 general purpose bucket.
+
+Currently, this parameter only supports blocking or unblocking server side encryption with customer-provided keys (SSE-C). For more information about SSE-C, see [Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_type S3Bucket#encryption_type}
 
 ---
 
@@ -2735,12 +2993,12 @@ You can specify the key ID, key alias, or the Amazon Resource Name (ARN) of the 
 
 If you are using encryption with cross-account or AWS service operations, you must use a fully qualified KMS key ARN. For more information, see [Using encryption for cross-account operations](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html#bucket-encryption-update-bucket-policy).
 
-* *General purpose buckets* - If you're specifying a customer managed KMS key, we recommend using a fully qualified KMS key ARN. If you use a KMS key alias instead, then KMS resolves the key within the requester?s account. This behavior can result in data that's encrypted with a KMS key that belongs to the requester, and not the bucket owner. Also, if you use a key ID, you can run into a LogDestination undeliverable error when creating a VPC flow log.
+* *General purpose buckets* - If you're specifying a customer managed KMS key, we recommend using a fully qualified KMS key ARN. If you use a KMS key alias instead, then KMS resolves the key within the requester’s account. This behavior can result in data that's encrypted with a KMS key that belongs to the requester, and not the bucket owner. Also, if you use a key ID, you can run into a LogDestination undeliverable error when creating a VPC flow log.
 * *Directory buckets* - When you specify an [customer managed key](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#customer-cmk) for encryption in your directory bucket, only use the key ID or key ARN. The key alias format of the KMS key isn't supported.
 
 Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
 
 ---
 
@@ -2756,7 +3014,7 @@ Server-side encryption algorithm to use for the default encryption.
 
 For directory buckets, there are only two supported values for server-side encryption: `AES256` and `aws:kms`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -2775,16 +3033,20 @@ s3Bucket.S3BucketConfig(
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  abac_status: str = None,
   accelerate_configuration: S3BucketAccelerateConfiguration = None,
   access_control: str = None,
   analytics_configurations: IResolvable | typing.List[S3BucketAnalyticsConfigurations] = None,
   bucket_encryption: S3BucketBucketEncryption = None,
   bucket_name: str = None,
+  bucket_name_prefix: str = None,
+  bucket_namespace: str = None,
   cors_configuration: S3BucketCorsConfiguration = None,
   intelligent_tiering_configurations: IResolvable | typing.List[S3BucketIntelligentTieringConfigurations] = None,
   inventory_configurations: IResolvable | typing.List[S3BucketInventoryConfigurations] = None,
   lifecycle_configuration: S3BucketLifecycleConfiguration = None,
   logging_configuration: S3BucketLoggingConfiguration = None,
+  metadata_configuration: S3BucketMetadataConfiguration = None,
   metadata_table_configuration: S3BucketMetadataTableConfiguration = None,
   metrics_configurations: IResolvable | typing.List[S3BucketMetricsConfigurations] = None,
   notification_configuration: S3BucketNotificationConfiguration = None,
@@ -2810,16 +3072,20 @@ s3Bucket.S3BucketConfig(
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.abacStatus">abac_status</a></code> | <code>str</code> | The ABAC status of the general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.accelerateConfiguration">accelerate_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAccelerateConfiguration">S3BucketAccelerateConfiguration</a></code> | Configures the transfer acceleration state for an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.accessControl">access_control</a></code> | <code>str</code> | This is a legacy property, and it is not recommended for most use cases. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.analyticsConfigurations">analytics_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurations">S3BucketAnalyticsConfigurations</a>]</code> | Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketEncryption">bucket_encryption</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryption">S3BucketBucketEncryption</a></code> | Specifies default encryption for a bucket using server-side encryption with Amazon S3-managed keys (SSE-S3), AWS KMS-managed keys (SSE-KMS), or dual-layer server-side encryption with KMS-managed keys (DSSE-KMS). |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketName">bucket_name</a></code> | <code>str</code> | A name for the bucket. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamePrefix">bucket_name_prefix</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamespace">bucket_namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.corsConfiguration">cors_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketCorsConfiguration">S3BucketCorsConfiguration</a></code> | Describes the cross-origin access configuration for objects in an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.intelligentTieringConfigurations">intelligent_tiering_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketIntelligentTieringConfigurations">S3BucketIntelligentTieringConfigurations</a>]</code> | Defines how Amazon S3 handles Intelligent-Tiering storage. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.inventoryConfigurations">inventory_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]</code> | Specifies the inventory configuration for an Amazon S3 bucket. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.inventoryConfigurations">inventory_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]</code> | Specifies the S3 Inventory configuration for an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.lifecycleConfiguration">lifecycle_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLifecycleConfiguration">S3BucketLifecycleConfiguration</a></code> | Specifies the lifecycle configuration for objects in an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.loggingConfiguration">logging_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfiguration">S3BucketLoggingConfiguration</a></code> | Settings that define where logs are stored. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.metadataConfiguration">metadata_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a></code> | The S3 Metadata configuration for a general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.metadataTableConfiguration">metadata_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfiguration">S3BucketMetadataTableConfiguration</a></code> | The metadata table configuration of an S3 general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.metricsConfigurations">metrics_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetricsConfigurations">S3BucketMetricsConfigurations</a>]</code> | Specifies a metrics configuration for the CloudWatch request metrics (specified by the metrics configuration ID) from an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.notificationConfiguration">notification_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketNotificationConfiguration">S3BucketNotificationConfiguration</a></code> | Configuration that defines how Amazon S3 handles bucket notifications. |
@@ -2904,6 +3170,22 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 
 ---
 
+##### `abac_status`<sup>Optional</sup> <a name="abac_status" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.abacStatus"></a>
+
+```python
+abac_status: str
+```
+
+- *Type:* str
+
+The ABAC status of the general purpose bucket.
+
+When ABAC is enabled for the general purpose bucket, you can use tags to manage access to the general purpose buckets as well as for cost tracking purposes. When ABAC is disabled for the general purpose buckets, you can only use tags for cost tracking purposes. For more information, see [Using tags with S3 general purpose buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/buckets-tagging.html).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#abac_status S3Bucket#abac_status}
+
+---
+
 ##### `accelerate_configuration`<sup>Optional</sup> <a name="accelerate_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.accelerateConfiguration"></a>
 
 ```python
@@ -2916,7 +3198,7 @@ Configures the transfer acceleration state for an Amazon S3 bucket.
 
 For more information, see [Amazon S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
 
 ---
 
@@ -2935,7 +3217,7 @@ A canned access control list (ACL) that grants predefined permissions to the buc
 S3 buckets are created with ACLs disabled by default. Therefore, unless you explicitly set the [AWS::S3::OwnershipControls](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-ownershipcontrols.html) property to enable ACLs, your resource will fail to deploy with any value other than Private. Use cases requiring ACLs are uncommon.
 The majority of access control configurations can be successfully and more easily achieved with bucket policies. For more information, see [AWS::S3::BucketPolicy](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-policy.html). For examples of common policy configurations, including S3 Server Access Logs buckets and more, see [Bucket policy examples](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
 
 ---
 
@@ -2949,7 +3231,7 @@ analytics_configurations: IResolvable | typing.List[S3BucketAnalyticsConfigurati
 
 Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
 
 ---
 
@@ -2965,7 +3247,7 @@ Specifies default encryption for a bucket using server-side encryption with Amaz
 
 For information about the Amazon S3 default encryption feature, see [Amazon S3 Default Encryption for S3 Buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
 
 ---
 
@@ -2982,7 +3264,31 @@ A name for the bucket.
 If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the bucket name. The bucket name must contain only lowercase letters, numbers, periods (.), and dashes (-) and must follow [Amazon S3 bucket restrictions and limitations](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html). For more information, see [Rules for naming Amazon S3 buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html) in the *Amazon S3 User Guide*.
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you need to replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
+
+---
+
+##### `bucket_name_prefix`<sup>Optional</sup> <a name="bucket_name_prefix" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamePrefix"></a>
+
+```python
+bucket_name_prefix: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}.
+
+---
+
+##### `bucket_namespace`<sup>Optional</sup> <a name="bucket_namespace" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamespace"></a>
+
+```python
+bucket_namespace: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.
 
 ---
 
@@ -2998,7 +3304,7 @@ Describes the cross-origin access configuration for objects in an Amazon S3 buck
 
 For more information, see [Enabling Cross-Origin Resource Sharing](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
 
 ---
 
@@ -3012,7 +3318,7 @@ intelligent_tiering_configurations: IResolvable | typing.List[S3BucketIntelligen
 
 Defines how Amazon S3 handles Intelligent-Tiering storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
 
 ---
 
@@ -3024,11 +3330,11 @@ inventory_configurations: IResolvable | typing.List[S3BucketInventoryConfigurati
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]
 
-Specifies the inventory configuration for an Amazon S3 bucket.
+Specifies the S3 Inventory configuration for an Amazon S3 bucket.
 
 For more information, see [GET Bucket inventory](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGETInventoryConfig.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
 
 ---
 
@@ -3044,7 +3350,7 @@ Specifies the lifecycle configuration for objects in an Amazon S3 bucket.
 
 For more information, see [Object Lifecycle Management](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
 
 ---
 
@@ -3058,7 +3364,21 @@ logging_configuration: S3BucketLoggingConfiguration
 
 Settings that define where logs are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
+
+---
+
+##### `metadata_configuration`<sup>Optional</sup> <a name="metadata_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.metadataConfiguration"></a>
+
+```python
+metadata_configuration: S3BucketMetadataConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a>
+
+The S3 Metadata configuration for a general purpose bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_configuration S3Bucket#metadata_configuration}
 
 ---
 
@@ -3072,9 +3392,7 @@ metadata_table_configuration: S3BucketMetadataTableConfiguration
 
 The metadata table configuration of an S3 general purpose bucket.
 
-For more information, see [Accelerating data discovery with S3 Metadata](https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-overview.html) and [Setting up permissions for configuring metadata tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-permissions.html).
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
 
 ---
 
@@ -3090,7 +3408,7 @@ Specifies a metrics configuration for the CloudWatch request metrics (specified 
 
 If you're updating an existing metrics configuration, note that this is a full replacement of the existing metrics configuration. If you don't include the elements you want to keep, they are erased. For more information, see [PutBucketMetricsConfiguration](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTMetricConfiguration.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
 
 ---
 
@@ -3104,7 +3422,7 @@ notification_configuration: S3BucketNotificationConfiguration
 
 Configuration that defines how Amazon S3 handles bucket notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
 
 ---
 
@@ -3124,7 +3442,9 @@ Places an Object Lock configuration on the specified bucket. The rule specified 
 * The `DefaultRetention` period can be either `Days` or `Years` but you must select one. You cannot specify `Days` and `Years` at the same time.
 * You can enable Object Lock for new or existing buckets. For more information, see [Configuring Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-configure.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
+You must URL encode any signed header values that contain spaces. For example, if your header value is `my file.txt`, containing two spaces after `my`, you must URL encode this value to `my%20%20file.txt`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
 
 ---
 
@@ -3138,7 +3458,7 @@ object_lock_enabled: bool | IResolvable
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -3152,7 +3472,7 @@ ownership_controls: S3BucketOwnershipControls
 
 Configuration that defines how Amazon S3 handles Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
 
 ---
 
@@ -3166,7 +3486,7 @@ public_access_block_configuration: S3BucketPublicAccessBlockConfiguration
 
 Configuration that defines how Amazon S3 handles public access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
 
 ---
 
@@ -3183,7 +3503,7 @@ Configuration for replicating objects in an S3 bucket.
 To enable replication, you must also enable versioning by using the `VersioningConfiguration` property.
 Amazon S3 can store replicated objects in a single destination bucket or multiple destination buckets. The destination bucket or buckets must already exist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
 
 ---
 
@@ -3197,7 +3517,7 @@ tags: IResolvable | typing.List[S3BucketTags]
 
 An arbitrary set of tags (key-value pairs) for this S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tags S3Bucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tags S3Bucket#tags}
 
 ---
 
@@ -3214,7 +3534,7 @@ Enables multiple versions of all objects in this bucket.
 You might enable versioning to prevent objects from being deleted or overwritten by mistake or to archive objects so that you can retrieve previous versions of them.
 When you enable versioning on a bucket for the first time, it might take a short amount of time for the change to be fully propagated. We recommend that you wait for 15 minutes after enabling versioning before issuing write operations (`PUT` or `DELETE`) on objects in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
 
 ---
 
@@ -3228,7 +3548,7 @@ website_configuration: S3BucketWebsiteConfiguration
 
 Information used to configure the bucket as a static website. For more information, see [Hosting Websites on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
 
 ---
 
@@ -3264,7 +3584,7 @@ A set of origins and methods (cross-origin access that you want to allow).
 
 You can add up to 100 rules to the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
 
 ---
 
@@ -3310,7 +3630,7 @@ Headers that are specified in the ``Access-Control-Request-Headers`` header.
 
 These headers are allowed in a preflight OPTIONS request. In response to any preflight OPTIONS request, Amazon S3 returns any requested headers that are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#allowed_headers S3Bucket#allowed_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_headers S3Bucket#allowed_headers}
 
 ---
 
@@ -3326,7 +3646,7 @@ An HTTP method that you allow the origin to run.
 
 *Allowed values*: `GET` | `PUT` | `HEAD` | `POST` | `DELETE`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#allowed_methods S3Bucket#allowed_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_methods S3Bucket#allowed_methods}
 
 ---
 
@@ -3340,7 +3660,7 @@ allowed_origins: typing.List[str]
 
 One or more origins you want customers to be able to access the bucket from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#allowed_origins S3Bucket#allowed_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_origins S3Bucket#allowed_origins}
 
 ---
 
@@ -3354,7 +3674,7 @@ exposed_headers: typing.List[str]
 
 One or more headers in the response that you want customers to be able to access from their applications (for example, from a JavaScript ``XMLHttpRequest`` object).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#exposed_headers S3Bucket#exposed_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#exposed_headers S3Bucket#exposed_headers}
 
 ---
 
@@ -3368,7 +3688,7 @@ id: str
 
 A unique identifier for this rule. The value must be no more than 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3385,7 +3705,7 @@ max_age: typing.Union[int, float]
 
 The time in seconds that your browser is to cache the preflight response for the specified resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#max_age S3Bucket#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#max_age S3Bucket#max_age}
 
 ---
 
@@ -3427,7 +3747,7 @@ id: str
 
 The ID used to identify the S3 Intelligent-Tiering configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3444,7 +3764,7 @@ prefix: str
 
 An object key name prefix that identifies the subset of objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -3458,7 +3778,7 @@ status: str
 
 Specifies the status of the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -3472,7 +3792,7 @@ tag_filters: IResolvable | typing.List[S3BucketIntelligentTieringConfigurationsT
 
 A container for a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -3489,7 +3809,7 @@ Specifies a list of S3 Intelligent-Tiering storage class tiers in the configurat
 At least one tier must be defined in the list. At most, you can specify two tiers in the list, one for each available AccessTier: `ARCHIVE_ACCESS` and `DEEP_ARCHIVE_ACCESS`.
 You only need Intelligent Tiering Configuration enabled on a bucket if you want to automatically move objects stored in the Intelligent-Tiering storage class to Archive Access or Deep Archive Access tiers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tierings S3Bucket#tierings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tierings S3Bucket#tierings}
 
 ---
 
@@ -3525,7 +3845,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -3539,7 +3859,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -3577,7 +3897,7 @@ S3 Intelligent-Tiering access tier.
 
 See [Storage class for automatically optimizing frequently and infrequently accessed objects](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html#sc-dynamic-data-access) for a list of access tiers in the S3 Intelligent-Tiering storage class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_tier S3Bucket#access_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_tier S3Bucket#access_tier}
 
 ---
 
@@ -3593,7 +3913,7 @@ The number of consecutive days of no access after which an object will be eligib
 
 The minimum number of days specified for Archive Access tier must be at least 90 days and Deep Archive Access tier must be at least 180 days. The maximum can be up to 2 years (730 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -3639,7 +3959,7 @@ destination: S3BucketInventoryConfigurationsDestination
 
 Contains information about where to publish the inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -3655,7 +3975,7 @@ Specifies whether the inventory is enabled or disabled.
 
 If set to `True`, an inventory list is generated. If set to `False`, no inventory list is generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#enabled S3Bucket#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#enabled S3Bucket#enabled}
 
 ---
 
@@ -3669,7 +3989,7 @@ id: str
 
 The ID used to identify the inventory configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3688,7 +4008,7 @@ Object versions to include in the inventory list.
 
 If set to `All`, the list includes all the object versions, which adds the version-related fields `VersionId`, `IsLatest`, and `DeleteMarker` to the list. If set to `Current`, the list does not contain these version-related fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#included_object_versions S3Bucket#included_object_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#included_object_versions S3Bucket#included_object_versions}
 
 ---
 
@@ -3702,7 +4022,7 @@ optional_fields: typing.List[str]
 
 Contains the optional fields that are included in the inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#optional_fields S3Bucket#optional_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#optional_fields S3Bucket#optional_fields}
 
 ---
 
@@ -3716,7 +4036,7 @@ prefix: str
 
 Specifies the inventory filter prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -3730,7 +4050,7 @@ schedule_frequency: str
 
 Specifies the schedule for generating inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#schedule_frequency S3Bucket#schedule_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#schedule_frequency S3Bucket#schedule_frequency}
 
 ---
 
@@ -3755,7 +4075,7 @@ s3Bucket.S3BucketInventoryConfigurationsDestination(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.bucketAccountId">bucket_account_id</a></code> | <code>str</code> | The account ID that owns the destination S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.bucketArn">bucket_arn</a></code> | <code>str</code> | The Amazon Resource Name (ARN) of the bucket to which data is exported. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.format">format</a></code> | <code>str</code> | Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` \| ``ORC`` \| ``Parquet``. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.format">format</a></code> | <code>str</code> | Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` \| ``ORC`` \| ``Parquet``. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.prefix">prefix</a></code> | <code>str</code> | The prefix to use when exporting data. The prefix is prepended to all results. |
 
 ---
@@ -3773,7 +4093,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -3787,7 +4107,7 @@ bucket_arn: str
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -3799,9 +4119,9 @@ format: str
 
 - *Type:* str
 
-Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
+Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -3815,7 +4135,7 @@ prefix: str
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -3851,7 +4171,7 @@ rules: IResolvable | typing.List[S3BucketLifecycleConfigurationRules]
 
 A lifecycle rule for individual objects in an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -3872,7 +4192,7 @@ This parameter applies to general purpose buckets only. It isn't supported for d
 
 To customize the minimum object size for any transition you can add a filter that specifies a custom `ObjectSizeGreaterThan` or `ObjectSizeLessThan` in the body of your transition rule. Custom filters always take precedence over the default transition behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
 
 ---
 
@@ -3936,7 +4256,7 @@ abort_incomplete_multipart_upload: S3BucketLifecycleConfigurationRulesAbortIncom
 
 Specifies a lifecycle rule that stops incomplete multipart uploads to an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#abort_incomplete_multipart_upload S3Bucket#abort_incomplete_multipart_upload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#abort_incomplete_multipart_upload S3Bucket#abort_incomplete_multipart_upload}
 
 ---
 
@@ -3952,7 +4272,7 @@ Indicates when objects are deleted from Amazon S3 and Amazon S3 Glacier.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC. If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#expiration_date S3Bucket#expiration_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration_date S3Bucket#expiration_date}
 
 ---
 
@@ -3968,7 +4288,7 @@ Indicates the number of days after creation when objects are deleted from Amazon
 
 If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#expiration_in_days S3Bucket#expiration_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration_in_days S3Bucket#expiration_in_days}
 
 ---
 
@@ -3984,7 +4304,7 @@ Indicates whether Amazon S3 will remove a delete marker without any noncurrent v
 
 If set to true, the delete marker will be removed if there are no noncurrent versions. This cannot be specified with `ExpirationInDays`, `ExpirationDate`, or `TagFilters`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#expired_object_delete_marker S3Bucket#expired_object_delete_marker}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expired_object_delete_marker S3Bucket#expired_object_delete_marker}
 
 ---
 
@@ -3998,7 +4318,7 @@ id: str
 
 Unique identifier for the rule. The value can't be longer than 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4017,7 +4337,7 @@ Specifies when noncurrent object versions expire.
 
 Upon expiration, S3 permanently deletes the noncurrent object versions. You set this lifecycle configuration action on a bucket that has versioning enabled (or suspended) to request that S3 delete noncurrent object versions at a specific period in the object's lifetime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_version_expiration S3Bucket#noncurrent_version_expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_expiration S3Bucket#noncurrent_version_expiration}
 
 ---
 
@@ -4031,7 +4351,7 @@ noncurrent_version_expiration_in_days: typing.Union[int, float]
 
 (Deprecated.) For buckets with versioning enabled (or suspended), specifies the time, in days, between when a new version of the object is uploaded to the bucket and when old versions of the object expire. When object versions expire, Amazon S3 permanently deletes them. If you specify a transition and expiration time, the expiration time must be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_version_expiration_in_days S3Bucket#noncurrent_version_expiration_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_expiration_in_days S3Bucket#noncurrent_version_expiration_in_days}
 
 ---
 
@@ -4045,7 +4365,7 @@ noncurrent_version_transition: S3BucketLifecycleConfigurationRulesNoncurrentVers
 
 (Deprecated.) For buckets with versioning enabled (or suspended), specifies when non-current objects transition to a specified storage class. If you specify a transition and expiration time, the expiration time must be later than the transition time. If you specify this property, don't specify the ``NoncurrentVersionTransitions`` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_version_transition S3Bucket#noncurrent_version_transition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_transition S3Bucket#noncurrent_version_transition}
 
 ---
 
@@ -4061,7 +4381,7 @@ For buckets with versioning enabled (or suspended), one or more transition rules
 
 If you specify a transition and expiration time, the expiration time must be later than the transition time. If you specify this property, don't specify the `NoncurrentVersionTransition` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_version_transitions S3Bucket#noncurrent_version_transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_transitions S3Bucket#noncurrent_version_transitions}
 
 ---
 
@@ -4077,7 +4397,7 @@ Specifies the minimum object size in bytes for this rule to apply to.
 
 Objects must be larger than this value in bytes. For more information about size based rules, see [Lifecycle configuration using size-based rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-configuration-examples.html#lc-size-rules) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_size_greater_than S3Bucket#object_size_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_size_greater_than S3Bucket#object_size_greater_than}
 
 ---
 
@@ -4093,7 +4413,7 @@ Specifies the maximum object size in bytes for this rule to apply to.
 
 Objects must be smaller than this value in bytes. For more information about sized based rules, see [Lifecycle configuration using size-based rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-configuration-examples.html#lc-size-rules) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_size_less_than S3Bucket#object_size_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_size_less_than S3Bucket#object_size_less_than}
 
 ---
 
@@ -4109,7 +4429,7 @@ Object key prefix that identifies one or more objects to which this rule applies
 
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -4123,7 +4443,7 @@ status: str
 
 If ``Enabled``, the rule is currently being applied. If ``Disabled``, the rule is not currently being applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -4137,7 +4457,7 @@ tag_filters: IResolvable | typing.List[S3BucketLifecycleConfigurationRulesTagFil
 
 Tags to use to identify a subset of objects to which the lifecycle rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -4151,7 +4471,7 @@ transition: S3BucketLifecycleConfigurationRulesTransition
 
 (Deprecated.) Specifies when an object transitions to a specified storage class. If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time. If you specify this property, don't specify the ``Transitions`` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition S3Bucket#transition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition S3Bucket#transition}
 
 ---
 
@@ -4167,7 +4487,7 @@ One or more transition rules that specify when an object transitions to a specif
 
 If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time. If you specify this property, don't specify the `Transition` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transitions S3Bucket#transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transitions S3Bucket#transitions}
 
 ---
 
@@ -4201,7 +4521,7 @@ days_after_initiation: typing.Union[int, float]
 
 Specifies the number of days after which Amazon S3 stops an incomplete multipart upload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
 
 ---
 
@@ -4239,7 +4559,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -4255,7 +4575,7 @@ Specifies the number of days an object is noncurrent before S3 can perform the a
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates When an Object Became Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
 
 ---
 
@@ -4295,7 +4615,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -4309,7 +4629,7 @@ storage_class: str
 
 The class of storage used to store the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -4325,7 +4645,7 @@ Specifies the number of days an object is noncurrent before Amazon S3 can perfor
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates How Long an Object Has Been Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -4365,7 +4685,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -4379,7 +4699,7 @@ storage_class: str
 
 The class of storage used to store the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -4395,7 +4715,7 @@ Specifies the number of days an object is noncurrent before Amazon S3 can perfor
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates How Long an Object Has Been Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -4431,7 +4751,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -4445,7 +4765,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -4483,7 +4803,7 @@ storage_class: str
 
 The storage class to which you want the object to transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -4499,7 +4819,7 @@ Indicates when objects are transitioned to the specified storage class.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
 
 ---
 
@@ -4513,9 +4833,9 @@ transition_in_days: typing.Union[int, float]
 
 Indicates the number of days after creation when objects are transitioned to the specified storage class.
 
-If the specified storage class is `INTELLIGENT_TIERING`, `GLACIER_IR`, `GLACIER`, or `DEEP_ARCHIVE`, valid values are `0` or positive integers. If the specified storage class is `STANDARD_IA` or `ONEZONE_IA`, valid values are positive integers greater than `30`. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
+The value can be `0` or any positive integer. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -4553,7 +4873,7 @@ storage_class: str
 
 The storage class to which you want the object to transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -4569,7 +4889,7 @@ Indicates when objects are transitioned to the specified storage class.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
 
 ---
 
@@ -4583,9 +4903,9 @@ transition_in_days: typing.Union[int, float]
 
 Indicates the number of days after creation when objects are transitioned to the specified storage class.
 
-If the specified storage class is `INTELLIGENT_TIERING`, `GLACIER_IR`, `GLACIER`, or `DEEP_ARCHIVE`, valid values are `0` or positive integers. If the specified storage class is `STANDARD_IA` or `ONEZONE_IA`, valid values are positive integers greater than `30`. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
+The value can be `0` or any positive integer. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -4625,7 +4945,7 @@ The name of the bucket where Amazon S3 should store server access log files.
 
 You can store log files in any bucket that you own. By default, logs are stored in the bucket where the `LoggingConfiguration` property is defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
 
 ---
 
@@ -4641,7 +4961,7 @@ A prefix for all log object keys.
 
 If you store log files from multiple Amazon S3 buckets in a single bucket, you can use a prefix to distinguish which log files came from which bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
 
 ---
 
@@ -4655,7 +4975,7 @@ target_object_key_format: S3BucketLoggingConfigurationTargetObjectKeyFormat
 
 Amazon S3 key format for log objects. Only one format, either PartitionedPrefix or SimplePrefix, is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
 
 ---
 
@@ -4691,7 +5011,7 @@ partitioned_prefix: S3BucketLoggingConfigurationTargetObjectKeyFormatPartitioned
 
 Amazon S3 keys for log objects are partitioned in the following format:   ``[DestinationPrefix][SourceAccountId]/[SourceRegion]/[SourceBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString]``   PartitionedPrefix defaults to EventTime delivery when server access logs are delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
 
 ---
 
@@ -4705,7 +5025,7 @@ simple_prefix: str
 
 This format defaults the prefix to the given log file prefix for delivering server access log file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
 
 ---
 
@@ -4743,7 +5063,466 @@ Specifies the partition date source for the partitioned prefix.
 For `DeliveryTime`, the time in the log file names corresponds to the delivery time for the log files.
 For `EventTime`, The logs delivered are for a specific day only. The year, month, and day correspond to the day on which the event occurred, and the hour, minutes and seconds are set to 00 in the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
+
+---
+
+### S3BucketMetadataConfiguration <a name="S3BucketMetadataConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfiguration(
+  annotation_table_configuration: S3BucketMetadataConfigurationAnnotationTableConfiguration = None,
+  inventory_table_configuration: S3BucketMetadataConfigurationInventoryTableConfiguration = None,
+  journal_table_configuration: S3BucketMetadataConfigurationJournalTableConfiguration = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.annotationTableConfiguration">annotation_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a></code> | The annotation table configuration for a metadata configuration. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.inventoryTableConfiguration">inventory_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a></code> | The inventory table configuration for a metadata configuration. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.journalTableConfiguration">journal_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a></code> | The journal table configuration for a metadata configuration. |
+
+---
+
+##### `annotation_table_configuration`<sup>Optional</sup> <a name="annotation_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.annotationTableConfiguration"></a>
+
+```python
+annotation_table_configuration: S3BucketMetadataConfigurationAnnotationTableConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+The annotation table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#annotation_table_configuration S3Bucket#annotation_table_configuration}
+
+---
+
+##### `inventory_table_configuration`<sup>Optional</sup> <a name="inventory_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.inventoryTableConfiguration"></a>
+
+```python
+inventory_table_configuration: S3BucketMetadataConfigurationInventoryTableConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+The inventory table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_table_configuration S3Bucket#inventory_table_configuration}
+
+---
+
+##### `journal_table_configuration`<sup>Optional</sup> <a name="journal_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.journalTableConfiguration"></a>
+
+```python
+journal_table_configuration: S3BucketMetadataConfigurationJournalTableConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+The journal table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#journal_table_configuration S3Bucket#journal_table_configuration}
+
+---
+
+### S3BucketMetadataConfigurationAnnotationTableConfiguration <a name="S3BucketMetadataConfigurationAnnotationTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration(
+  configuration_state: str = None,
+  encryption_configuration: S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration = None,
+  role: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.configurationState">configuration_state</a></code> | <code>str</code> | Specifies whether the annotation table configuration is enabled or disabled. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a></code> | The encryption configuration for the annotation table. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.role">role</a></code> | <code>str</code> | The ARN of the IAM role that grants Amazon S3 Metadata permission to read annotations from your bucket. |
+
+---
+
+##### `configuration_state`<sup>Optional</sup> <a name="configuration_state" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.configurationState"></a>
+
+```python
+configuration_state: str
+```
+
+- *Type:* str
+
+Specifies whether the annotation table configuration is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+
+---
+
+##### `encryption_configuration`<sup>Optional</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.encryptionConfiguration"></a>
+
+```python
+encryption_configuration: S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the annotation table.
+
+To encrypt your annotation table with server-side encryption using AWS Key Management Service (AWS KMS) keys (SSE-KMS), set `SseAlgorithm` to `aws:kms`. You must also set `KmsKeyArn` to the ARN of a customer managed KMS key in the same Region where your general purpose bucket is located.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+##### `role`<sup>Optional</sup> <a name="role" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.role"></a>
+
+```python
+role: str
+```
+
+- *Type:* str
+
+The ARN of the IAM role that grants Amazon S3 Metadata permission to read annotations from your bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
+
+---
+
+### S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration <a name="S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration(
+  kms_key_arn: str = None,
+  sse_algorithm: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN). |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.property.sseAlgorithm">sse_algorithm</a></code> | <code>str</code> | The encryption type specified for a metadata table. |
+
+---
+
+##### `kms_key_arn`<sup>Optional</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.property.kmsKeyArn"></a>
+
+```python
+kms_key_arn: str
+```
+
+- *Type:* str
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+##### `sse_algorithm`<sup>Optional</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.property.sseAlgorithm"></a>
+
+```python
+sse_algorithm: str
+```
+
+- *Type:* str
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+### S3BucketMetadataConfigurationDestination <a name="S3BucketMetadataConfigurationDestination" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestination"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestination.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationDestination()
+```
+
+
+### S3BucketMetadataConfigurationInventoryTableConfiguration <a name="S3BucketMetadataConfigurationInventoryTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration(
+  configuration_state: str = None,
+  encryption_configuration: S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.property.configurationState">configuration_state</a></code> | <code>str</code> | The configuration state of the inventory table, indicating whether the inventory table is enabled or disabled. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.property.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a></code> | The encryption configuration for the inventory table. |
+
+---
+
+##### `configuration_state`<sup>Optional</sup> <a name="configuration_state" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.property.configurationState"></a>
+
+```python
+configuration_state: str
+```
+
+- *Type:* str
+
+The configuration state of the inventory table, indicating whether the inventory table is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+
+---
+
+##### `encryption_configuration`<sup>Optional</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.property.encryptionConfiguration"></a>
+
+```python
+encryption_configuration: S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the inventory table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+### S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration <a name="S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration(
+  kms_key_arn: str = None,
+  sse_algorithm: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN). |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.property.sseAlgorithm">sse_algorithm</a></code> | <code>str</code> | The encryption type specified for a metadata table. |
+
+---
+
+##### `kms_key_arn`<sup>Optional</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.property.kmsKeyArn"></a>
+
+```python
+kms_key_arn: str
+```
+
+- *Type:* str
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+##### `sse_algorithm`<sup>Optional</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.property.sseAlgorithm"></a>
+
+```python
+sse_algorithm: str
+```
+
+- *Type:* str
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+### S3BucketMetadataConfigurationJournalTableConfiguration <a name="S3BucketMetadataConfigurationJournalTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration(
+  encryption_configuration: S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration = None,
+  record_expiration: S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.property.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a></code> | The encryption configuration for the journal table. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.property.recordExpiration">record_expiration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a></code> | The journal table record expiration settings for the journal table. |
+
+---
+
+##### `encryption_configuration`<sup>Optional</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.property.encryptionConfiguration"></a>
+
+```python
+encryption_configuration: S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the journal table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+##### `record_expiration`<sup>Optional</sup> <a name="record_expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.property.recordExpiration"></a>
+
+```python
+record_expiration: S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+The journal table record expiration settings for the journal table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#record_expiration S3Bucket#record_expiration}
+
+---
+
+### S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration <a name="S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration(
+  kms_key_arn: str = None,
+  sse_algorithm: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN). |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.property.sseAlgorithm">sse_algorithm</a></code> | <code>str</code> | The encryption type specified for a metadata table. |
+
+---
+
+##### `kms_key_arn`<sup>Optional</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.property.kmsKeyArn"></a>
+
+```python
+kms_key_arn: str
+```
+
+- *Type:* str
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+##### `sse_algorithm`<sup>Optional</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.property.sseAlgorithm"></a>
+
+```python
+sse_algorithm: str
+```
+
+- *Type:* str
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+### S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration <a name="S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration(
+  days: typing.Union[int, float] = None,
+  expiration: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.property.days">days</a></code> | <code>typing.Union[int, float]</code> | If you enable journal table record expiration, you can set the number of days to retain your journal table records. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.property.expiration">expiration</a></code> | <code>str</code> | Specifies whether journal table record expiration is enabled or disabled. |
+
+---
+
+##### `days`<sup>Optional</sup> <a name="days" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.property.days"></a>
+
+```python
+days: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+If you enable journal table record expiration, you can set the number of days to retain your journal table records.
+
+Journal table records must be retained for a minimum of 7 days. To set this value, specify any whole number from `7` to `2147483647`. For example, to retain your journal table records for one year, set this value to `365`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+
+---
+
+##### `expiration`<sup>Optional</sup> <a name="expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.property.expiration"></a>
+
+```python
+expiration: str
+```
+
+- *Type:* str
+
+Specifies whether journal table record expiration is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
 
 ---
 
@@ -4779,7 +5558,7 @@ The destination information for the metadata table configuration.
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket. The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
 
 ---
 
@@ -4817,7 +5596,7 @@ The Amazon Resource Name (ARN) for the table bucket that's specified as the dest
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
 
 ---
 
@@ -4833,7 +5612,7 @@ The name for the metadata table in your metadata table configuration.
 
 The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
 
 ---
 
@@ -4875,7 +5654,7 @@ The access point that was used while performing operations on the object.
 
 The metrics configuration only includes objects that meet the filter's criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_point_arn S3Bucket#access_point_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_point_arn S3Bucket#access_point_arn}
 
 ---
 
@@ -4891,7 +5670,7 @@ The ID used to identify the metrics configuration.
 
 This can be any value you choose that helps you identify your metrics configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4908,7 +5687,7 @@ prefix: str
 
 The prefix that an object must have to be included in the metrics results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -4924,7 +5703,7 @@ Specifies a list of tag filters to use as a metrics configuration filter.
 
 The metrics configuration includes only objects that meet the filter's criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -4960,7 +5739,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -4974,7 +5753,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -5014,7 +5793,7 @@ event_bridge_configuration: S3BucketNotificationConfigurationEventBridgeConfigur
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
 
 ---
 
@@ -5028,7 +5807,7 @@ lambda_configurations: IResolvable | typing.List[S3BucketNotificationConfigurati
 
 Describes the LAMlong functions to invoke and the events for which to invoke them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
 
 ---
 
@@ -5042,7 +5821,7 @@ queue_configurations: IResolvable | typing.List[S3BucketNotificationConfiguratio
 
 The Amazon Simple Queue Service queues to publish messages to and the events for which to publish messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
 
 ---
 
@@ -5056,7 +5835,7 @@ topic_configurations: IResolvable | typing.List[S3BucketNotificationConfiguratio
 
 The topic to which notifications are sent and the events for which notifications are generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
 
 ---
 
@@ -5090,7 +5869,7 @@ event_bridge_enabled: bool | IResolvable
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
 
 ---
 
@@ -5130,7 +5909,7 @@ The Amazon S3 bucket event for which to invoke the LAMlong function.
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -5146,7 +5925,7 @@ The filtering rules that determine which objects invoke the AWS Lambda function.
 
 For example, you can create a filter so that only image files with a `.jpg` extension invoke the function when they are added to the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -5160,7 +5939,7 @@ function: str
 
 The Amazon Resource Name (ARN) of the LAMlong function that Amazon S3 invokes when the specified event type occurs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#function S3Bucket#function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#function S3Bucket#function}
 
 ---
 
@@ -5194,7 +5973,7 @@ s3_key: S3BucketNotificationConfigurationLambdaConfigurationsFilterS3Key
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -5228,7 +6007,7 @@ rules: IResolvable | typing.List[S3BucketNotificationConfigurationLambdaConfigur
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -5266,7 +6045,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -5280,7 +6059,7 @@ value: str
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -5320,7 +6099,7 @@ The Amazon S3 bucket event about which you want to publish messages to Amazon SQ
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -5336,7 +6115,7 @@ The filtering rules that determine which objects trigger notifications.
 
 For example, you can create a filter so that Amazon S3 sends notifications only when image files with a `.jpg` extension are added to the bucket. For more information, see [Configuring event notifications using object key name filtering](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/notification-how-to-filtering.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -5352,7 +6131,7 @@ The Amazon Resource Name (ARN) of the Amazon SQS queue to which Amazon S3 publis
 
 FIFO queues are not allowed when enabling an SQS queue as the event notification destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#queue S3Bucket#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#queue S3Bucket#queue}
 
 ---
 
@@ -5386,7 +6165,7 @@ s3_key: S3BucketNotificationConfigurationQueueConfigurationsFilterS3Key
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -5420,7 +6199,7 @@ rules: IResolvable | typing.List[S3BucketNotificationConfigurationQueueConfigura
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -5458,7 +6237,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -5472,7 +6251,7 @@ value: str
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -5512,7 +6291,7 @@ The Amazon S3 bucket event about which to send notifications.
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -5528,7 +6307,7 @@ The filtering rules that determine for which objects to send notifications.
 
 For example, you can create a filter so that Amazon S3 sends notifications only when image files with a `.jpg` extension are added to the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -5542,7 +6321,7 @@ topic: str
 
 The Amazon Resource Name (ARN) of the Amazon SNS topic to which Amazon S3 publishes a message when it detects events of the specified type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#topic S3Bucket#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#topic S3Bucket#topic}
 
 ---
 
@@ -5576,7 +6355,7 @@ s3_key: S3BucketNotificationConfigurationTopicConfigurationsFilterS3Key
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -5610,7 +6389,7 @@ rules: IResolvable | typing.List[S3BucketNotificationConfigurationTopicConfigura
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -5648,7 +6427,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -5662,7 +6441,7 @@ value: str
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -5698,7 +6477,7 @@ object_lock_enabled: str
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -5714,7 +6493,7 @@ Specifies the Object Lock rule for the specified object.
 
 Enable this rule when you apply `ObjectLockConfiguration` to a bucket. If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information, see [ObjectLockRule](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-objectlockrule.html) and [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rule S3Bucket#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rule S3Bucket#rule}
 
 ---
 
@@ -5750,7 +6529,7 @@ The default Object Lock retention mode and period that you want to apply to new 
 
 If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information about allowable values for mode and period, see [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
 
 ---
 
@@ -5763,6 +6542,7 @@ from cdktn_provider_awscc import s3_bucket
 
 s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention(
   days: typing.Union[int, float] = None,
+  default_event_hold: S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold = None,
   mode: str = None,
   years: typing.Union[int, float] = None
 )
@@ -5773,6 +6553,7 @@ s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.days">days</a></code> | <code>typing.Union[int, float]</code> | The number of days that you want to specify for the default retention period. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.defaultEventHold">default_event_hold</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.mode">mode</a></code> | <code>str</code> | The default Object Lock retention mode you want to apply to new objects placed in the specified bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.years">years</a></code> | <code>typing.Union[int, float]</code> | The number of years that you want to specify for the default retention period. |
 
@@ -5790,7 +6571,19 @@ The number of days that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+
+---
+
+##### `default_event_hold`<sup>Optional</sup> <a name="default_event_hold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.defaultEventHold"></a>
+
+```python
+default_event_hold: S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}.
 
 ---
 
@@ -5806,7 +6599,7 @@ The default Object Lock retention mode you want to apply to new objects placed i
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#mode S3Bucket#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#mode S3Bucket#mode}
 
 ---
 
@@ -5822,7 +6615,53 @@ The number of years that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#years S3Bucket#years}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}
+
+---
+
+### S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold <a name="S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold(
+  days: typing.Union[int, float] = None,
+  years: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.days">days</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.years">years</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}. |
+
+---
+
+##### `days`<sup>Optional</sup> <a name="days" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.days"></a>
+
+```python
+days: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}.
+
+---
+
+##### `years`<sup>Optional</sup> <a name="years" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.years"></a>
+
+```python
+years: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}.
 
 ---
 
@@ -5856,7 +6695,7 @@ rules: IResolvable | typing.List[S3BucketOwnershipControlsRules]
 
 Specifies the container element for Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -5890,7 +6729,7 @@ object_ownership: str
 
 Specifies an object ownership rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_ownership S3Bucket#object_ownership}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_ownership S3Bucket#object_ownership}
 
 ---
 
@@ -5938,7 +6777,7 @@ Setting this element to `TRUE` causes the following behavior:
 
 Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
 
 ---
 
@@ -5955,7 +6794,7 @@ Specifies whether Amazon S3 should block public bucket policies for this bucket.
 Setting this element to `TRUE` causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access.
 Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
 
 ---
 
@@ -5972,7 +6811,7 @@ Specifies whether Amazon S3 should ignore public ACLs for this bucket and object
 Setting this element to `TRUE` causes Amazon S3 to ignore all public ACLs on this bucket and objects in this bucket.
 Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
 
 ---
 
@@ -5989,7 +6828,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to `TRUE` restricts access to this bucket to only AWS-service principals and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
 
 ---
 
@@ -6027,7 +6866,7 @@ The Amazon Resource Name (ARN) of the IAMlong (IAM) role that Amazon S3 assumes 
 
 For more information, see [How to Set Up Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-how-setup.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#role S3Bucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
 
 ---
 
@@ -6043,7 +6882,7 @@ A container for one or more replication rules.
 
 A replication configuration must have at least one rule and can contain a maximum of 1,000 rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -6091,11 +6930,11 @@ delete_marker_replication: S3BucketReplicationConfigurationRulesDeleteMarkerRepl
 
 Specifies whether Amazon S3 replicates delete markers.
 
-If you specify a `Filter` in your replication configuration, you must also include a `DeleteMarkerReplication` element. If your `Filter` includes a `Tag` element, the `DeleteMarkerReplication` `Status` must be set to Disabled, because Amazon S3 does not support replicating delete markers for tag-based rules. For an example configuration, see [Basic Rule Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-config-min-rule-config).
+If you specify a `Filter` in your replication configuration, you must also include a `DeleteMarkerReplication` element. If your `Filter` includes a `Tag` element, the `DeleteMarkerReplication````Status` must be set to Disabled, because Amazon S3 does not support replicating delete markers for tag-based rules. For an example configuration, see [Basic Rule Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-config-min-rule-config).
 For more information about delete marker replication, see [Basic Rule Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/delete-marker-replication.html).
 If you are using an earlier version of the replication configuration, Amazon S3 handles replication of delete markers differently. For more information, see [Backward Compatibility](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-backward-compat-considerations).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#delete_marker_replication S3Bucket#delete_marker_replication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#delete_marker_replication S3Bucket#delete_marker_replication}
 
 ---
 
@@ -6109,7 +6948,7 @@ destination: S3BucketReplicationConfigurationRulesDestination
 
 A container for information about the replication destination and its configurations including enabling the S3 Replication Time Control (S3 RTC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -6126,7 +6965,7 @@ A filter that identifies the subset of objects to which the replication rule app
 A `Filter` must specify exactly one `Prefix`, `TagFilter`, or an `And` child element. The use of the filter field indicates that this is a V2 replication configuration. This field isn't supported in a V1 replication configuration.
 V1 replication configuration only supports filtering by key prefix. To filter using a V1 replication configuration, add the `Prefix` directly as a child element of the `Rule` element.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -6142,7 +6981,7 @@ A unique identifier for the rule.
 
 The maximum value is 255 characters. If you don't specify a value, AWS CloudFormation generates a random ID. When using a V2 replication configuration this property is capitalized as "ID".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6162,7 +7001,7 @@ An object key name prefix that identifies the object or objects to which the rul
 The maximum prefix length is 1,024 characters. To include all objects in a bucket, specify an empty string. To filter using a V1 replication configuration, add the `Prefix` directly as a child element of the `Rule` element.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -6179,7 +7018,7 @@ The priority indicates which rule has precedence whenever two or more replicatio
 Amazon S3 will attempt to replicate objects according to all replication rules. However, if there are two or more rules with the same destination bucket, then objects will be replicated according to the rule with the highest priority. The higher the number, the higher the priority.
 For more information, see [Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#priority S3Bucket#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#priority S3Bucket#priority}
 
 ---
 
@@ -6195,7 +7034,7 @@ A container that describes additional filters for identifying the source objects
 
 You can choose to enable or disable the replication of these objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#source_selection_criteria S3Bucket#source_selection_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#source_selection_criteria S3Bucket#source_selection_criteria}
 
 ---
 
@@ -6209,7 +7048,7 @@ status: str
 
 Specifies whether the rule is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -6229,7 +7068,7 @@ s3Bucket.S3BucketReplicationConfigurationRulesDeleteMarkerReplication(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketReplicationConfigurationRulesDeleteMarkerReplication.property.status">status</a></code> | <code>str</code> | Indicates whether to replicate delete markers. Disabled by default. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketReplicationConfigurationRulesDeleteMarkerReplication.property.status">status</a></code> | <code>str</code> | Indicates whether to replicate delete markers. |
 
 ---
 
@@ -6241,9 +7080,9 @@ status: str
 
 - *Type:* str
 
-Indicates whether to replicate delete markers. Disabled by default.
+Indicates whether to replicate delete markers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -6291,7 +7130,7 @@ Specify this only in a cross-account scenario (where source and destination buck
 
 If this is not specified in the replication configuration, the replicas are owned by same AWS-account that owns the source object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
 
 ---
 
@@ -6308,7 +7147,7 @@ Destination bucket owner account ID.
 In a cross-account scenario, if you direct Amazon S3 to change replica ownership to the AWS-account that owns the destination bucket by specifying the `AccessControlTranslation` property, this is the account ID of the destination bucket owner. For more information, see [Cross-Region Replication Additional Configuration: Change Replica Owner](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-change-owner.html) in the *Amazon S3 User Guide*.
 If you specify the `AccessControlTranslation` property, the `Account` property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#account S3Bucket#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#account S3Bucket#account}
 
 ---
 
@@ -6322,7 +7161,7 @@ bucket: str
 
 The Amazon Resource Name (ARN) of the bucket where you want Amazon S3 to store the results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
 
 ---
 
@@ -6336,7 +7175,7 @@ encryption_configuration: S3BucketReplicationConfigurationRulesDestinationEncryp
 
 Specifies encryption-related information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -6350,7 +7189,7 @@ metrics: S3BucketReplicationConfigurationRulesDestinationMetrics
 
 A container specifying replication metrics-related settings enabling replication metrics and events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
 
 ---
 
@@ -6366,7 +7205,7 @@ A container specifying S3 Replication Time Control (S3 RTC), including whether S
 
 Must be specified together with a `Metrics` block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
 
 ---
 
@@ -6382,8 +7221,9 @@ The storage class to use when replicating objects, such as S3 Standard or reduce
 
 By default, Amazon S3 uses the storage class of the source object to create the object replica.
 For valid values, see the `StorageClass` element of the [PUT Bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) action in the *Amazon S3 API Reference*.
+`FSX_OPENZFS` is not an accepted value when replicating objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -6417,7 +7257,7 @@ owner: str
 
 Specifies the replica ownership. For default and valid values, see [PUT bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#owner S3Bucket#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#owner S3Bucket#owner}
 
 ---
 
@@ -6453,7 +7293,7 @@ Specifies the ID (Key ARN or Alias ARN) of the customer managed AWS KMS key stor
 
 Amazon S3 uses this key to encrypt replica objects. Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
 
 ---
 
@@ -6489,7 +7329,7 @@ event_threshold: S3BucketReplicationConfigurationRulesDestinationMetricsEventThr
 
 A container specifying the time threshold for emitting the ``s3:Replication:OperationMissedThreshold`` event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
 
 ---
 
@@ -6503,7 +7343,7 @@ status: str
 
 Specifies whether the replication metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -6537,7 +7377,7 @@ minutes: typing.Union[int, float]
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -6573,7 +7413,7 @@ status: str
 
 Specifies whether the replication time is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -6587,7 +7427,7 @@ time: S3BucketReplicationConfigurationRulesDestinationReplicationTimeTime
 
 A container specifying the time by which replication should be complete for all objects and operations on objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#time S3Bucket#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#time S3Bucket#time}
 
 ---
 
@@ -6621,7 +7461,7 @@ minutes: typing.Union[int, float]
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -6664,7 +7504,7 @@ The filters determine the subset of objects to which the rule applies. This elem
 * If you specify both a `Prefix` and a `TagFilter`, wrap these filters in an `And` tag.
 * If you specify a filter based on multiple tags, wrap the `TagFilter` elements in an `And` tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#and S3Bucket#and}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#and S3Bucket#and}
 
 ---
 
@@ -6680,7 +7520,7 @@ An object key name prefix that identifies the subset of objects to which the rul
 
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -6696,7 +7536,7 @@ A container for specifying a tag key and value.
 
 The rule applies only to objects that have the tag in their tag set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
 
 ---
 
@@ -6732,7 +7572,7 @@ prefix: str
 
 An object key name prefix that identifies the subset of objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -6746,7 +7586,7 @@ tag_filters: IResolvable | typing.List[S3BucketReplicationConfigurationRulesFilt
 
 An array of tags containing key and value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -6782,7 +7622,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -6796,7 +7636,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -6832,7 +7672,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -6846,7 +7686,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -6882,7 +7722,7 @@ replica_modifications: S3BucketReplicationConfigurationRulesSourceSelectionCrite
 
 A filter that you can specify for selection for modifications on replicas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
 
 ---
 
@@ -6896,7 +7736,7 @@ sse_kms_encrypted_objects: S3BucketReplicationConfigurationRulesSourceSelectionC
 
 A container for filter information for the selection of Amazon S3 objects encrypted with AWS KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
 
 ---
 
@@ -6916,7 +7756,7 @@ s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaReplicaModi
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaReplicaModifications.property.status">status</a></code> | <code>str</code> | Specifies whether Amazon S3 replicates modifications on replicas.   *Allowed values*: ``Enabled`` \| ``Disabled``. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaReplicaModifications.property.status">status</a></code> | <code>str</code> | Specifies whether Amazon S3 replicates modifications on replicas.  *Allowed values*: ``Enabled`` \| ``Disabled``. |
 
 ---
 
@@ -6928,9 +7768,9 @@ status: str
 
 - *Type:* str
 
-Specifies whether Amazon S3 replicates modifications on replicas.   *Allowed values*: ``Enabled`` | ``Disabled``.
+Specifies whether Amazon S3 replicates modifications on replicas.  *Allowed values*: ``Enabled`` | ``Disabled``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -6964,7 +7804,7 @@ status: str
 
 Specifies whether Amazon S3 replicates objects created with server-side encryption using an AWS KMS key stored in AWS Key Management Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7000,7 +7840,7 @@ key: str
 
 Name of the object key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -7014,7 +7854,7 @@ value: str
 
 Value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -7048,7 +7888,7 @@ status: str
 
 The versioning state of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7088,7 +7928,7 @@ error_document: str
 
 The name of the error document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
 
 ---
 
@@ -7102,7 +7942,7 @@ index_document: str
 
 The name of the index document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
 
 ---
 
@@ -7118,7 +7958,7 @@ The redirect behavior for every request to this bucket's website endpoint.
 
 If you specify this property, you can't specify any other property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
 
 ---
 
@@ -7132,7 +7972,7 @@ routing_rules: IResolvable | typing.List[S3BucketWebsiteConfigurationRoutingRule
 
 Rules that define when a redirect is applied and the redirect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
 
 ---
 
@@ -7168,7 +8008,7 @@ host_name: str
 
 Name of the host where requests are redirected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -7182,7 +8022,7 @@ protocol: str
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -7220,7 +8060,7 @@ Container for redirect information.
 
 You can redirect requests to another host, to another page, or with another protocol. In the event of an error, you can specify a different error code to return.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#redirect_rule S3Bucket#redirect_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#redirect_rule S3Bucket#redirect_rule}
 
 ---
 
@@ -7236,7 +8076,7 @@ A container for describing a condition that must be met for the specified redire
 
 For example, 1. If request is for pages in the `/docs` folder, redirect to the `/documents` folder. 2. If request results in HTTP error 4xx, redirect request to another host where you might process the error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#routing_rule_condition S3Bucket#routing_rule_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#routing_rule_condition S3Bucket#routing_rule_condition}
 
 ---
 
@@ -7278,7 +8118,7 @@ host_name: str
 
 The host name to use in the redirect request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -7292,7 +8132,7 @@ http_redirect_code: str
 
 The HTTP redirect code to use on the response. Not required if one of the siblings is present.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
 
 ---
 
@@ -7306,7 +8146,7 @@ protocol: str
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -7323,7 +8163,7 @@ The object key prefix to use in the redirect request.
 For example, to redirect requests for all pages with prefix `docs/` (objects in the `docs/` folder) to `documents/`, you can set a condition block with `KeyPrefixEquals` set to `docs/` and in the Redirect set `ReplaceKeyPrefixWith` to `/documents`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
 
 ---
 
@@ -7340,7 +8180,7 @@ The specific object key to use in the redirect request.
 For example, redirect request to `error.html`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyPrefixWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
 
 ---
 
@@ -7379,7 +8219,7 @@ The HTTP error code when the redirect is applied.
 In the event of an error, if the error code equals this value, then the specified redirect is applied.
 Required when parent element `Condition` is specified and sibling `KeyPrefixEquals` is not specified. If both are specified, then both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
 
 ---
 
@@ -7393,10 +8233,10 @@ key_prefix_equals: str
 
 The object key name prefix when the redirect is applied.
 
-For example, to redirect requests for `ExamplePage.html`, the key prefix will be `ExamplePage.html`. To redirect request for all pages with the prefix `docs/`, the key prefix will be `/docs`, which identifies all objects in the docs/ folder.
+For example, to redirect requests for `ExamplePage.html`, the key prefix will be `ExamplePage.html`. To redirect request for all pages with the prefix `docs/`, the key prefix will be `docs/`, which identifies all objects in the docs/ folder.
 Required when the parent element `Condition` is specified and sibling `HttpErrorCodeReturnedEquals` is not specified. If both conditions are specified, both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
 
 ---
 
@@ -8143,7 +8983,7 @@ def put_storage_class_analysis(
 
 Specifies how data related to the storage class analysis for an Amazon S3 bucket should be exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
 
 ---
 
@@ -8960,7 +9800,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -8970,7 +9810,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -8978,9 +9818,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
+Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -8990,7 +9830,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -9341,7 +10181,7 @@ def put_data_export(
 
 The place to store the data for an analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -9351,7 +10191,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of the output schema to use when exporting data. Must be ``V_1``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
 
 ---
 
@@ -10269,6 +11109,309 @@ internal_value: IResolvable | S3BucketBucketEncryption
 ---
 
 
+### S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference <a name="S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resetEncryptionType">reset_encryption_type</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_encryption_type` <a name="reset_encryption_type" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resetEncryptionType"></a>
+
+```python
+def reset_encryption_type() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionTypeInput">encryption_type_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionType">encryption_type</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_type_input`<sup>Optional</sup> <a name="encryption_type_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionTypeInput"></a>
+
+```python
+encryption_type_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `encryption_type`<sup>Required</sup> <a name="encryption_type" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionType"></a>
+
+```python
+encryption_type: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a>
+
+---
+
+
 ### S3BucketBucketEncryptionServerSideEncryptionConfigurationList <a name="S3BucketBucketEncryptionServerSideEncryptionConfigurationList" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationList.Initializer"></a>
@@ -10512,7 +11655,9 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putBlockedEncryptionTypes">put_blocked_encryption_types</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putServerSideEncryptionByDefault">put_server_side_encryption_by_default</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetBlockedEncryptionTypes">reset_blocked_encryption_types</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetBucketKeyEnabled">reset_bucket_key_enabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetServerSideEncryptionByDefault">reset_server_side_encryption_by_default</a></code> | *No description.* |
 
@@ -10690,6 +11835,26 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_blocked_encryption_types` <a name="put_blocked_encryption_types" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putBlockedEncryptionTypes"></a>
+
+```python
+def put_blocked_encryption_types(
+  encryption_type: typing.List[str] = None
+) -> None
+```
+
+###### `encryption_type`<sup>Optional</sup> <a name="encryption_type" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putBlockedEncryptionTypes.parameter.encryptionType"></a>
+
+- *Type:* typing.List[str]
+
+The object encryption type that you want to block or unblock for an Amazon S3 general purpose bucket.
+
+Currently, this parameter only supports blocking or unblocking server side encryption with customer-provided keys (SSE-C). For more information about SSE-C, see [Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_type S3Bucket#encryption_type}
+
+---
+
 ##### `put_server_side_encryption_by_default` <a name="put_server_side_encryption_by_default" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putServerSideEncryptionByDefault"></a>
 
 ```python
@@ -10716,12 +11881,12 @@ You can specify the key ID, key alias, or the Amazon Resource Name (ARN) of the 
 
 If you are using encryption with cross-account or AWS service operations, you must use a fully qualified KMS key ARN. For more information, see [Using encryption for cross-account operations](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html#bucket-encryption-update-bucket-policy).
 
-* *General purpose buckets* - If you're specifying a customer managed KMS key, we recommend using a fully qualified KMS key ARN. If you use a KMS key alias instead, then KMS resolves the key within the requester?s account. This behavior can result in data that's encrypted with a KMS key that belongs to the requester, and not the bucket owner. Also, if you use a key ID, you can run into a LogDestination undeliverable error when creating a VPC flow log.
+* *General purpose buckets* - If you're specifying a customer managed KMS key, we recommend using a fully qualified KMS key ARN. If you use a KMS key alias instead, then KMS resolves the key within the requester’s account. This behavior can result in data that's encrypted with a KMS key that belongs to the requester, and not the bucket owner. Also, if you use a key ID, you can run into a LogDestination undeliverable error when creating a VPC flow log.
 * *Directory buckets* - When you specify an [customer managed key](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#customer-cmk) for encryption in your directory bucket, only use the key ID or key ARN. The key alias format of the KMS key isn't supported.
 
 Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
 
 ---
 
@@ -10733,9 +11898,15 @@ Server-side encryption algorithm to use for the default encryption.
 
 For directory buckets, there are only two supported values for server-side encryption: `AES256` and `aws:kms`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
+
+##### `reset_blocked_encryption_types` <a name="reset_blocked_encryption_types" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetBlockedEncryptionTypes"></a>
+
+```python
+def reset_blocked_encryption_types() -> None
+```
 
 ##### `reset_bucket_key_enabled` <a name="reset_bucket_key_enabled" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetBucketKeyEnabled"></a>
 
@@ -10756,7 +11927,9 @@ def reset_server_side_encryption_by_default() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypes">blocked_encryption_types</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.serverSideEncryptionByDefault">server_side_encryption_by_default</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypesInput">blocked_encryption_types_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.bucketKeyEnabledInput">bucket_key_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.serverSideEncryptionByDefaultInput">server_side_encryption_by_default_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.bucketKeyEnabled">bucket_key_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
@@ -10788,6 +11961,16 @@ fqn: str
 
 ---
 
+##### `blocked_encryption_types`<sup>Required</sup> <a name="blocked_encryption_types" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypes"></a>
+
+```python
+blocked_encryption_types: S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference</a>
+
+---
+
 ##### `server_side_encryption_by_default`<sup>Required</sup> <a name="server_side_encryption_by_default" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.serverSideEncryptionByDefault"></a>
 
 ```python
@@ -10795,6 +11978,16 @@ server_side_encryption_by_default: S3BucketBucketEncryptionServerSideEncryptionC
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference</a>
+
+---
+
+##### `blocked_encryption_types_input`<sup>Optional</sup> <a name="blocked_encryption_types_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypesInput"></a>
+
+```python
+blocked_encryption_types_input: IResolvable | S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a>
 
 ---
 
@@ -14646,7 +15839,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -14656,7 +15849,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -14664,9 +15857,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
+Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -14676,7 +15869,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -17271,7 +18464,7 @@ def put_abort_incomplete_multipart_upload(
 
 Specifies the number of days after which Amazon S3 stops an incomplete multipart upload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
 
 ---
 
@@ -17292,7 +18485,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -17304,7 +18497,7 @@ Specifies the number of days an object is noncurrent before S3 can perform the a
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates When an Object Became Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
 
 ---
 
@@ -17326,7 +18519,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -17336,7 +18529,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The class of storage used to store the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -17348,7 +18541,7 @@ Specifies the number of days an object is noncurrent before Amazon S3 can perfor
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates How Long an Object Has Been Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -17396,7 +18589,7 @@ def put_transition(
 
 The storage class to which you want the object to transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -17408,7 +18601,7 @@ Indicates when objects are transitioned to the specified storage class.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
 
 ---
 
@@ -17418,9 +18611,9 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates the number of days after creation when objects are transitioned to the specified storage class.
 
-If the specified storage class is `INTELLIGENT_TIERING`, `GLACIER_IR`, `GLACIER`, or `DEEP_ARCHIVE`, valid values are `0` or positive integers. If the specified storage class is `STANDARD_IA` or `ONEZONE_IA`, valid values are positive integers greater than `30`. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
+The value can be `0` or any positive integer. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -19613,7 +20806,7 @@ def put_target_object_key_format(
 
 Amazon S3 keys for log objects are partitioned in the following format:   ``[DestinationPrefix][SourceAccountId]/[SourceRegion]/[SourceBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString]``   PartitionedPrefix defaults to EventTime delivery when server access logs are delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
 
 ---
 
@@ -19623,7 +20816,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This format defaults the prefix to the given log file prefix for delivering server access log file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
 
 ---
 
@@ -20006,7 +21199,7 @@ Specifies the partition date source for the partitioned prefix.
 For `DeliveryTime`, the time in the log file names corresponds to the delivery time for the log files.
 For `EventTime`, The logs delivered are for a specific day only. The year, month, and day correspond to the day on which the event occurred, and the hour, minutes and seconds are set to 00 in the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
 
 ---
 
@@ -20415,6 +21608,3341 @@ internal_value: IResolvable | S3BucketLoggingConfigurationTargetObjectKeyFormatP
 ---
 
 
+### S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference <a name="S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn">reset_kms_key_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm">reset_sse_algorithm</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_kms_key_arn` <a name="reset_kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn"></a>
+
+```python
+def reset_kms_key_arn() -> None
+```
+
+##### `reset_sse_algorithm` <a name="reset_sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm"></a>
+
+```python
+def reset_sse_algorithm() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput">kms_key_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput">sse_algorithm_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">sse_algorithm</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_arn_input`<sup>Optional</sup> <a name="kms_key_arn_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput"></a>
+
+```python
+kms_key_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `sse_algorithm_input`<sup>Optional</sup> <a name="sse_algorithm_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput"></a>
+
+```python
+sse_algorithm_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_arn`<sup>Required</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```python
+kms_key_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `sse_algorithm`<sup>Required</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```python
+sse_algorithm: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference <a name="S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.putEncryptionConfiguration">put_encryption_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetConfigurationState">reset_configuration_state</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetEncryptionConfiguration">reset_encryption_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetRole">reset_role</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_encryption_configuration` <a name="put_encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.putEncryptionConfiguration"></a>
+
+```python
+def put_encryption_configuration(
+  kms_key_arn: str = None,
+  sse_algorithm: str = None
+) -> None
+```
+
+###### `kms_key_arn`<sup>Optional</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.putEncryptionConfiguration.parameter.kmsKeyArn"></a>
+
+- *Type:* str
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+###### `sse_algorithm`<sup>Optional</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.putEncryptionConfiguration.parameter.sseAlgorithm"></a>
+
+- *Type:* str
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+##### `reset_configuration_state` <a name="reset_configuration_state" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetConfigurationState"></a>
+
+```python
+def reset_configuration_state() -> None
+```
+
+##### `reset_encryption_configuration` <a name="reset_encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetEncryptionConfiguration"></a>
+
+```python
+def reset_encryption_configuration() -> None
+```
+
+##### `reset_role` <a name="reset_role" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetRole"></a>
+
+```python
+def reset_role() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableArn">table_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableName">table_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationStateInput">configuration_state_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfigurationInput">encryption_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.roleInput">role_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationState">configuration_state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.role">role</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_configuration`<sup>Required</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```python
+encryption_configuration: S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `table_arn`<sup>Required</sup> <a name="table_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableArn"></a>
+
+```python
+table_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `table_name`<sup>Required</sup> <a name="table_name" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableName"></a>
+
+```python
+table_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `configuration_state_input`<sup>Optional</sup> <a name="configuration_state_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationStateInput"></a>
+
+```python
+configuration_state_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_configuration_input`<sup>Optional</sup> <a name="encryption_configuration_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfigurationInput"></a>
+
+```python
+encryption_configuration_input: IResolvable | S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `role_input`<sup>Optional</sup> <a name="role_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.roleInput"></a>
+
+```python
+role_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `configuration_state`<sup>Required</sup> <a name="configuration_state" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationState"></a>
+
+```python
+configuration_state: str
+```
+
+- *Type:* str
+
+---
+
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.role"></a>
+
+```python
+role: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketMetadataConfigurationAnnotationTableConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationDestinationOutputReference <a name="S3BucketMetadataConfigurationDestinationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketArn">table_bucket_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketType">table_bucket_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableNamespace">table_namespace</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestination">S3BucketMetadataConfigurationDestination</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `table_bucket_arn`<sup>Required</sup> <a name="table_bucket_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketArn"></a>
+
+```python
+table_bucket_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `table_bucket_type`<sup>Required</sup> <a name="table_bucket_type" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketType"></a>
+
+```python
+table_bucket_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `table_namespace`<sup>Required</sup> <a name="table_namespace" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableNamespace"></a>
+
+```python
+table_namespace: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: S3BucketMetadataConfigurationDestination
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestination">S3BucketMetadataConfigurationDestination</a>
+
+---
+
+
+### S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference <a name="S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn">reset_kms_key_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm">reset_sse_algorithm</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_kms_key_arn` <a name="reset_kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn"></a>
+
+```python
+def reset_kms_key_arn() -> None
+```
+
+##### `reset_sse_algorithm` <a name="reset_sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm"></a>
+
+```python
+def reset_sse_algorithm() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput">kms_key_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput">sse_algorithm_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">sse_algorithm</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_arn_input`<sup>Optional</sup> <a name="kms_key_arn_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput"></a>
+
+```python
+kms_key_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `sse_algorithm_input`<sup>Optional</sup> <a name="sse_algorithm_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput"></a>
+
+```python
+sse_algorithm_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_arn`<sup>Required</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```python
+kms_key_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `sse_algorithm`<sup>Required</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```python
+sse_algorithm: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference <a name="S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.putEncryptionConfiguration">put_encryption_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resetConfigurationState">reset_configuration_state</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resetEncryptionConfiguration">reset_encryption_configuration</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_encryption_configuration` <a name="put_encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.putEncryptionConfiguration"></a>
+
+```python
+def put_encryption_configuration(
+  kms_key_arn: str = None,
+  sse_algorithm: str = None
+) -> None
+```
+
+###### `kms_key_arn`<sup>Optional</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.putEncryptionConfiguration.parameter.kmsKeyArn"></a>
+
+- *Type:* str
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+###### `sse_algorithm`<sup>Optional</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.putEncryptionConfiguration.parameter.sseAlgorithm"></a>
+
+- *Type:* str
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+##### `reset_configuration_state` <a name="reset_configuration_state" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resetConfigurationState"></a>
+
+```python
+def reset_configuration_state() -> None
+```
+
+##### `reset_encryption_configuration` <a name="reset_encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resetEncryptionConfiguration"></a>
+
+```python
+def reset_encryption_configuration() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableArn">table_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableName">table_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationStateInput">configuration_state_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfigurationInput">encryption_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationState">configuration_state</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_configuration`<sup>Required</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```python
+encryption_configuration: S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `table_arn`<sup>Required</sup> <a name="table_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableArn"></a>
+
+```python
+table_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `table_name`<sup>Required</sup> <a name="table_name" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableName"></a>
+
+```python
+table_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `configuration_state_input`<sup>Optional</sup> <a name="configuration_state_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationStateInput"></a>
+
+```python
+configuration_state_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_configuration_input`<sup>Optional</sup> <a name="encryption_configuration_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfigurationInput"></a>
+
+```python
+encryption_configuration_input: IResolvable | S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `configuration_state`<sup>Required</sup> <a name="configuration_state" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationState"></a>
+
+```python
+configuration_state: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketMetadataConfigurationInventoryTableConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference <a name="S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn">reset_kms_key_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm">reset_sse_algorithm</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_kms_key_arn` <a name="reset_kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn"></a>
+
+```python
+def reset_kms_key_arn() -> None
+```
+
+##### `reset_sse_algorithm` <a name="reset_sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm"></a>
+
+```python
+def reset_sse_algorithm() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput">kms_key_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput">sse_algorithm_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">sse_algorithm</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_arn_input`<sup>Optional</sup> <a name="kms_key_arn_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput"></a>
+
+```python
+kms_key_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `sse_algorithm_input`<sup>Optional</sup> <a name="sse_algorithm_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput"></a>
+
+```python
+sse_algorithm_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_arn`<sup>Required</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```python
+kms_key_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `sse_algorithm`<sup>Required</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```python
+sse_algorithm: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationJournalTableConfigurationOutputReference <a name="S3BucketMetadataConfigurationJournalTableConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putEncryptionConfiguration">put_encryption_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putRecordExpiration">put_record_expiration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resetEncryptionConfiguration">reset_encryption_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resetRecordExpiration">reset_record_expiration</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_encryption_configuration` <a name="put_encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putEncryptionConfiguration"></a>
+
+```python
+def put_encryption_configuration(
+  kms_key_arn: str = None,
+  sse_algorithm: str = None
+) -> None
+```
+
+###### `kms_key_arn`<sup>Optional</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putEncryptionConfiguration.parameter.kmsKeyArn"></a>
+
+- *Type:* str
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+###### `sse_algorithm`<sup>Optional</sup> <a name="sse_algorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putEncryptionConfiguration.parameter.sseAlgorithm"></a>
+
+- *Type:* str
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+##### `put_record_expiration` <a name="put_record_expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putRecordExpiration"></a>
+
+```python
+def put_record_expiration(
+  days: typing.Union[int, float] = None,
+  expiration: str = None
+) -> None
+```
+
+###### `days`<sup>Optional</sup> <a name="days" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putRecordExpiration.parameter.days"></a>
+
+- *Type:* typing.Union[int, float]
+
+If you enable journal table record expiration, you can set the number of days to retain your journal table records.
+
+Journal table records must be retained for a minimum of 7 days. To set this value, specify any whole number from `7` to `2147483647`. For example, to retain your journal table records for one year, set this value to `365`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+
+---
+
+###### `expiration`<sup>Optional</sup> <a name="expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putRecordExpiration.parameter.expiration"></a>
+
+- *Type:* str
+
+Specifies whether journal table record expiration is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
+
+---
+
+##### `reset_encryption_configuration` <a name="reset_encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resetEncryptionConfiguration"></a>
+
+```python
+def reset_encryption_configuration() -> None
+```
+
+##### `reset_record_expiration` <a name="reset_record_expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resetRecordExpiration"></a>
+
+```python
+def reset_record_expiration() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfiguration">encryption_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpiration">record_expiration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableArn">table_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableName">table_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfigurationInput">encryption_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpirationInput">record_expiration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_configuration`<sup>Required</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```python
+encryption_configuration: S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `record_expiration`<sup>Required</sup> <a name="record_expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpiration"></a>
+
+```python
+record_expiration: S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference</a>
+
+---
+
+##### `table_arn`<sup>Required</sup> <a name="table_arn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableArn"></a>
+
+```python
+table_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `table_name`<sup>Required</sup> <a name="table_name" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableName"></a>
+
+```python
+table_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_configuration_input`<sup>Optional</sup> <a name="encryption_configuration_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfigurationInput"></a>
+
+```python
+encryption_configuration_input: IResolvable | S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `record_expiration_input`<sup>Optional</sup> <a name="record_expiration_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpirationInput"></a>
+
+```python
+record_expiration_input: IResolvable | S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketMetadataConfigurationJournalTableConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference <a name="S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resetDays">reset_days</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resetExpiration">reset_expiration</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_days` <a name="reset_days" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resetDays"></a>
+
+```python
+def reset_days() -> None
+```
+
+##### `reset_expiration` <a name="reset_expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resetExpiration"></a>
+
+```python
+def reset_expiration() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.daysInput">days_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expirationInput">expiration_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.days">days</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expiration">expiration</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `days_input`<sup>Optional</sup> <a name="days_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.daysInput"></a>
+
+```python
+days_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `expiration_input`<sup>Optional</sup> <a name="expiration_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expirationInput"></a>
+
+```python
+expiration_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `days`<sup>Required</sup> <a name="days" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.days"></a>
+
+```python
+days: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `expiration`<sup>Required</sup> <a name="expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expiration"></a>
+
+```python
+expiration: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationOutputReference <a name="S3BucketMetadataConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketMetadataConfigurationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putAnnotationTableConfiguration">put_annotation_table_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putInventoryTableConfiguration">put_inventory_table_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putJournalTableConfiguration">put_journal_table_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetAnnotationTableConfiguration">reset_annotation_table_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetInventoryTableConfiguration">reset_inventory_table_configuration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetJournalTableConfiguration">reset_journal_table_configuration</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_annotation_table_configuration` <a name="put_annotation_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putAnnotationTableConfiguration"></a>
+
+```python
+def put_annotation_table_configuration(
+  configuration_state: str = None,
+  encryption_configuration: S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration = None,
+  role: str = None
+) -> None
+```
+
+###### `configuration_state`<sup>Optional</sup> <a name="configuration_state" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putAnnotationTableConfiguration.parameter.configurationState"></a>
+
+- *Type:* str
+
+Specifies whether the annotation table configuration is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+
+---
+
+###### `encryption_configuration`<sup>Optional</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putAnnotationTableConfiguration.parameter.encryptionConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the annotation table.
+
+To encrypt your annotation table with server-side encryption using AWS Key Management Service (AWS KMS) keys (SSE-KMS), set `SseAlgorithm` to `aws:kms`. You must also set `KmsKeyArn` to the ARN of a customer managed KMS key in the same Region where your general purpose bucket is located.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+###### `role`<sup>Optional</sup> <a name="role" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putAnnotationTableConfiguration.parameter.role"></a>
+
+- *Type:* str
+
+The ARN of the IAM role that grants Amazon S3 Metadata permission to read annotations from your bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
+
+---
+
+##### `put_inventory_table_configuration` <a name="put_inventory_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putInventoryTableConfiguration"></a>
+
+```python
+def put_inventory_table_configuration(
+  configuration_state: str = None,
+  encryption_configuration: S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration = None
+) -> None
+```
+
+###### `configuration_state`<sup>Optional</sup> <a name="configuration_state" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putInventoryTableConfiguration.parameter.configurationState"></a>
+
+- *Type:* str
+
+The configuration state of the inventory table, indicating whether the inventory table is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+
+---
+
+###### `encryption_configuration`<sup>Optional</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putInventoryTableConfiguration.parameter.encryptionConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the inventory table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+##### `put_journal_table_configuration` <a name="put_journal_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putJournalTableConfiguration"></a>
+
+```python
+def put_journal_table_configuration(
+  encryption_configuration: S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration = None,
+  record_expiration: S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration = None
+) -> None
+```
+
+###### `encryption_configuration`<sup>Optional</sup> <a name="encryption_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putJournalTableConfiguration.parameter.encryptionConfiguration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the journal table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+###### `record_expiration`<sup>Optional</sup> <a name="record_expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putJournalTableConfiguration.parameter.recordExpiration"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+The journal table record expiration settings for the journal table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#record_expiration S3Bucket#record_expiration}
+
+---
+
+##### `reset_annotation_table_configuration` <a name="reset_annotation_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetAnnotationTableConfiguration"></a>
+
+```python
+def reset_annotation_table_configuration() -> None
+```
+
+##### `reset_inventory_table_configuration` <a name="reset_inventory_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetInventoryTableConfiguration"></a>
+
+```python
+def reset_inventory_table_configuration() -> None
+```
+
+##### `reset_journal_table_configuration` <a name="reset_journal_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetJournalTableConfiguration"></a>
+
+```python
+def reset_journal_table_configuration() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.annotationTableConfiguration">annotation_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference">S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.destination">destination</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference">S3BucketMetadataConfigurationDestinationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.inventoryTableConfiguration">inventory_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference">S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.journalTableConfiguration">journal_table_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.annotationTableConfigurationInput">annotation_table_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.inventoryTableConfigurationInput">inventory_table_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.journalTableConfigurationInput">journal_table_configuration_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `annotation_table_configuration`<sup>Required</sup> <a name="annotation_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.annotationTableConfiguration"></a>
+
+```python
+annotation_table_configuration: S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference">S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference</a>
+
+---
+
+##### `destination`<sup>Required</sup> <a name="destination" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.destination"></a>
+
+```python
+destination: S3BucketMetadataConfigurationDestinationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference">S3BucketMetadataConfigurationDestinationOutputReference</a>
+
+---
+
+##### `inventory_table_configuration`<sup>Required</sup> <a name="inventory_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.inventoryTableConfiguration"></a>
+
+```python
+inventory_table_configuration: S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference">S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference</a>
+
+---
+
+##### `journal_table_configuration`<sup>Required</sup> <a name="journal_table_configuration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.journalTableConfiguration"></a>
+
+```python
+journal_table_configuration: S3BucketMetadataConfigurationJournalTableConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationOutputReference</a>
+
+---
+
+##### `annotation_table_configuration_input`<sup>Optional</sup> <a name="annotation_table_configuration_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.annotationTableConfigurationInput"></a>
+
+```python
+annotation_table_configuration_input: IResolvable | S3BucketMetadataConfigurationAnnotationTableConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+---
+
+##### `inventory_table_configuration_input`<sup>Optional</sup> <a name="inventory_table_configuration_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.inventoryTableConfigurationInput"></a>
+
+```python
+inventory_table_configuration_input: IResolvable | S3BucketMetadataConfigurationInventoryTableConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+---
+
+##### `journal_table_configuration_input`<sup>Optional</sup> <a name="journal_table_configuration_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.journalTableConfigurationInput"></a>
+
+```python
+journal_table_configuration_input: IResolvable | S3BucketMetadataConfigurationJournalTableConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketMetadataConfiguration
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a>
+
+---
+
+
 ### S3BucketMetadataTableConfigurationOutputReference <a name="S3BucketMetadataTableConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfigurationOutputReference.Initializer"></a>
@@ -20662,7 +25190,7 @@ The Amazon Resource Name (ARN) for the table bucket that's specified as the dest
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
 
 ---
 
@@ -20674,7 +25202,7 @@ The name for the metadata table in your metadata table configuration.
 
 The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
 
 ---
 
@@ -22770,7 +27298,7 @@ def put_s3_key(
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -24124,7 +28652,7 @@ def put_filter(
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -24508,7 +29036,7 @@ def put_event_bridge_configuration(
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
 
 ---
 
@@ -24956,7 +29484,7 @@ def put_s3_key(
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -26310,7 +30838,7 @@ def put_filter(
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -26688,7 +31216,7 @@ def put_s3_key(
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -28042,7 +32570,7 @@ def put_filter(
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -28423,7 +32951,7 @@ The default Object Lock retention mode and period that you want to apply to new 
 
 If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information about allowable values for mode and period, see [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
 
 ---
 
@@ -28529,6 +33057,338 @@ internal_value: IResolvable | S3BucketObjectLockConfiguration
 ---
 
 
+### S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference <a name="S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import s3_bucket
+
+s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resetDays">reset_days</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resetYears">reset_years</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_days` <a name="reset_days" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resetDays"></a>
+
+```python
+def reset_days() -> None
+```
+
+##### `reset_years` <a name="reset_years" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resetYears"></a>
+
+```python
+def reset_years() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.daysInput">days_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.yearsInput">years_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.days">days</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.years">years</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `days_input`<sup>Optional</sup> <a name="days_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.daysInput"></a>
+
+```python
+days_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `years_input`<sup>Optional</sup> <a name="years_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.yearsInput"></a>
+
+```python
+years_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `days`<sup>Required</sup> <a name="days" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.days"></a>
+
+```python
+days: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `years`<sup>Required</sup> <a name="years" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.years"></a>
+
+```python
+years: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
+
+---
+
+
 ### S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference <a name="S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.Initializer"></a>
@@ -28582,7 +33442,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.putDefaultEventHold">put_default_event_hold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetDays">reset_days</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetDefaultEventHold">reset_default_event_hold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetMode">reset_mode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetYears">reset_years</a></code> | *No description.* |
 
@@ -28760,10 +33622,41 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `put_default_event_hold` <a name="put_default_event_hold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.putDefaultEventHold"></a>
+
+```python
+def put_default_event_hold(
+  days: typing.Union[int, float] = None,
+  years: typing.Union[int, float] = None
+) -> None
+```
+
+###### `days`<sup>Optional</sup> <a name="days" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.putDefaultEventHold.parameter.days"></a>
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}.
+
+---
+
+###### `years`<sup>Optional</sup> <a name="years" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.putDefaultEventHold.parameter.years"></a>
+
+- *Type:* typing.Union[int, float]
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}.
+
+---
+
 ##### `reset_days` <a name="reset_days" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetDays"></a>
 
 ```python
 def reset_days() -> None
+```
+
+##### `reset_default_event_hold` <a name="reset_default_event_hold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetDefaultEventHold"></a>
+
+```python
+def reset_default_event_hold() -> None
 ```
 
 ##### `reset_mode` <a name="reset_mode" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetMode"></a>
@@ -28785,7 +33678,9 @@ def reset_years() -> None
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHold">default_event_hold</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.daysInput">days_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHoldInput">default_event_hold_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.modeInput">mode_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.yearsInput">years_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.days">days</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
@@ -28819,6 +33714,16 @@ fqn: str
 
 ---
 
+##### `default_event_hold`<sup>Required</sup> <a name="default_event_hold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHold"></a>
+
+```python
+default_event_hold: S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference</a>
+
+---
+
 ##### `days_input`<sup>Optional</sup> <a name="days_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.daysInput"></a>
 
 ```python
@@ -28826,6 +33731,16 @@ days_input: typing.Union[int, float]
 ```
 
 - *Type:* typing.Union[int, float]
+
+---
+
+##### `default_event_hold_input`<sup>Optional</sup> <a name="default_event_hold_input" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHoldInput"></a>
+
+```python
+default_event_hold_input: IResolvable | S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
 
 ---
 
@@ -29125,6 +34040,7 @@ Returns a reversible string representation.
 ```python
 def put_default_retention(
   days: typing.Union[int, float] = None,
+  default_event_hold: S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold = None,
   mode: str = None,
   years: typing.Union[int, float] = None
 ) -> None
@@ -29138,7 +34054,15 @@ The number of days that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+
+---
+
+###### `default_event_hold`<sup>Optional</sup> <a name="default_event_hold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleOutputReference.putDefaultRetention.parameter.defaultEventHold"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}.
 
 ---
 
@@ -29150,7 +34074,7 @@ The default Object Lock retention mode you want to apply to new objects placed i
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#mode S3Bucket#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#mode S3Bucket#mode}
 
 ---
 
@@ -29162,7 +34086,7 @@ The number of years that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#years S3Bucket#years}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}
 
 ---
 
@@ -32245,7 +37169,7 @@ def put_event_threshold(
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -32604,7 +37528,7 @@ def put_access_control_translation(
 
 Specifies the replica ownership. For default and valid values, see [PUT bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#owner S3Bucket#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#owner S3Bucket#owner}
 
 ---
 
@@ -32624,7 +37548,7 @@ Specifies the ID (Key ARN or Alias ARN) of the customer managed AWS KMS key stor
 
 Amazon S3 uses this key to encrypt replica objects. Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
 
 ---
 
@@ -32643,7 +37567,7 @@ def put_metrics(
 
 A container specifying the time threshold for emitting the ``s3:Replication:OperationMissedThreshold`` event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
 
 ---
 
@@ -32653,7 +37577,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the replication metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -32672,7 +37596,7 @@ def put_replication_time(
 
 Specifies whether the replication time is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -32682,7 +37606,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A container specifying the time by which replication should be complete for all objects and operations on objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#time S3Bucket#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#time S3Bucket#time}
 
 ---
 
@@ -33173,7 +38097,7 @@ def put_time(
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -34699,7 +39623,7 @@ def put_and(
 
 An object key name prefix that identifies the subset of objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -34709,7 +39633,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of tags containing key and value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -34728,7 +39652,7 @@ def put_tag_filter(
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -34738,7 +39662,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -35646,9 +40570,9 @@ def put_delete_marker_replication(
 
 - *Type:* str
 
-Indicates whether to replicate delete markers. Disabled by default.
+Indicates whether to replicate delete markers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -35674,7 +40598,7 @@ Specify this only in a cross-account scenario (where source and destination buck
 
 If this is not specified in the replication configuration, the replicas are owned by same AWS-account that owns the source object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
 
 ---
 
@@ -35687,7 +40611,7 @@ Destination bucket owner account ID.
 In a cross-account scenario, if you direct Amazon S3 to change replica ownership to the AWS-account that owns the destination bucket by specifying the `AccessControlTranslation` property, this is the account ID of the destination bucket owner. For more information, see [Cross-Region Replication Additional Configuration: Change Replica Owner](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-change-owner.html) in the *Amazon S3 User Guide*.
 If you specify the `AccessControlTranslation` property, the `Account` property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#account S3Bucket#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#account S3Bucket#account}
 
 ---
 
@@ -35697,7 +40621,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the bucket where you want Amazon S3 to store the results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
 
 ---
 
@@ -35707,7 +40631,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies encryption-related information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -35717,7 +40641,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A container specifying replication metrics-related settings enabling replication metrics and events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
 
 ---
 
@@ -35729,7 +40653,7 @@ A container specifying S3 Replication Time Control (S3 RTC), including whether S
 
 Must be specified together with a `Metrics` block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
 
 ---
 
@@ -35741,8 +40665,9 @@ The storage class to use when replicating objects, such as S3 Standard or reduce
 
 By default, Amazon S3 uses the storage class of the source object to create the object replica.
 For valid values, see the `StorageClass` element of the [PUT Bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) action in the *Amazon S3 API Reference*.
+`FSX_OPENZFS` is not an accepted value when replicating objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -35767,7 +40692,7 @@ The filters determine the subset of objects to which the rule applies. This elem
 * If you specify both a `Prefix` and a `TagFilter`, wrap these filters in an `And` tag.
 * If you specify a filter based on multiple tags, wrap the `TagFilter` elements in an `And` tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#and S3Bucket#and}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#and S3Bucket#and}
 
 ---
 
@@ -35779,7 +40704,7 @@ An object key name prefix that identifies the subset of objects to which the rul
 
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -35791,7 +40716,7 @@ A container for specifying a tag key and value.
 
 The rule applies only to objects that have the tag in their tag set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
 
 ---
 
@@ -35810,7 +40735,7 @@ def put_source_selection_criteria(
 
 A filter that you can specify for selection for modifications on replicas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
 
 ---
 
@@ -35820,7 +40745,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A container for filter information for the selection of Amazon S3 objects encrypted with AWS KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
 
 ---
 
@@ -36338,9 +41263,9 @@ def put_replica_modifications(
 
 - *Type:* str
 
-Specifies whether Amazon S3 replicates modifications on replicas.   *Allowed values*: ``Enabled`` | ``Disabled``.
+Specifies whether Amazon S3 replicates modifications on replicas.  *Allowed values*: ``Enabled`` | ``Disabled``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -36358,7 +41283,7 @@ def put_sse_kms_encrypted_objects(
 
 Specifies whether Amazon S3 replicates objects created with server-side encryption using an AWS KMS key stored in AWS Key Management Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -38144,7 +43069,7 @@ def put_redirect_all_requests_to(
 
 Name of the host where requests are redirected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -38154,7 +43079,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -39102,7 +44027,7 @@ def put_redirect_rule(
 
 The host name to use in the redirect request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -39112,7 +44037,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The HTTP redirect code to use on the response. Not required if one of the siblings is present.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
 
 ---
 
@@ -39122,7 +44047,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -39135,7 +44060,7 @@ The object key prefix to use in the redirect request.
 For example, to redirect requests for all pages with prefix `docs/` (objects in the `docs/` folder) to `documents/`, you can set a condition block with `KeyPrefixEquals` set to `docs/` and in the Redirect set `ReplaceKeyPrefixWith` to `/documents`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
 
 ---
 
@@ -39148,7 +44073,7 @@ The specific object key to use in the redirect request.
 For example, redirect request to `error.html`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyPrefixWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
 
 ---
 
@@ -39170,7 +44095,7 @@ The HTTP error code when the redirect is applied.
 In the event of an error, if the error code equals this value, then the specified redirect is applied.
 Required when parent element `Condition` is specified and sibling `KeyPrefixEquals` is not specified. If both are specified, then both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
 
 ---
 
@@ -39180,10 +44105,10 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The object key name prefix when the redirect is applied.
 
-For example, to redirect requests for `ExamplePage.html`, the key prefix will be `ExamplePage.html`. To redirect request for all pages with the prefix `docs/`, the key prefix will be `/docs`, which identifies all objects in the docs/ folder.
+For example, to redirect requests for `ExamplePage.html`, the key prefix will be `ExamplePage.html`. To redirect request for all pages with the prefix `docs/`, the key prefix will be `docs/`, which identifies all objects in the docs/ folder.
 Required when the parent element `Condition` is specified and sibling `HttpErrorCodeReturnedEquals` is not specified. If both conditions are specified, both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### RamSourceAssociation <a name="RamSourceAssociation" id="@cdktn/provider-awscc.ramSourceAssociation.RamSourceAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association awscc_ram_source_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association awscc_ram_source_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramSourceAssociation.RamSourceAssociation.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association#resource_share_arn RamSourceAssociation#resource_share_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association#resource_share_arn RamSourceAssociation#resource_share_arn}
 
 ---
 
@@ -116,7 +116,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the ID of the source account to associate with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association#source_id RamSourceAssociation#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association#source_id RamSourceAssociation#source_id}
 
 ---
 
@@ -565,7 +565,7 @@ The construct id used in the generated config for the RamSourceAssociation to im
 
 The id of the existing RamSourceAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -975,7 +975,7 @@ public java.lang.String getResourceShareArn();
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association#resource_share_arn RamSourceAssociation#resource_share_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association#resource_share_arn RamSourceAssociation#resource_share_arn}
 
 ---
 
@@ -989,7 +989,7 @@ public java.lang.String getSourceId();
 
 Specifies the ID of the source account to associate with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_source_association#source_id RamSourceAssociation#source_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_source_association#source_id RamSourceAssociation#source_id}
 
 ---
 

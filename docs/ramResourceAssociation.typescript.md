@@ -4,7 +4,7 @@
 
 ### RamResourceAssociation <a name="RamResourceAssociation" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association awscc_ram_resource_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association awscc_ram_resource_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramResourceAssociation.RamResourceAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the RamResourceAssociation to 
 
 The id of the existing RamResourceAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -900,7 +900,7 @@ public readonly resourceArn: string;
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource to associate with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association#resource_arn RamResourceAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association#resource_arn RamResourceAssociation#resource_arn}
 
 ---
 
@@ -914,7 +914,7 @@ public readonly resourceShareArn: string;
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_resource_association#resource_share_arn RamResourceAssociation#resource_share_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_resource_association#resource_share_arn RamResourceAssociation#resource_share_arn}
 
 ---
 

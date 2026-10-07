@@ -4,7 +4,7 @@
 
 ### ConnectIntegrationAssociation <a name="ConnectIntegrationAssociation" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association awscc_connect_integration_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.Initializer"></a>
 
@@ -75,6 +75,9 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.putTags">PutTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.resetSourceApplicationName">ResetSourceApplicationName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.resetSourceApplicationUrl">ResetSourceApplicationUrl</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.resetSourceType">ResetSourceType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.resetTags">ResetTags</a></code> | *No description.* |
 
 ---
@@ -400,6 +403,24 @@ private void PutTags(IResolvable|ConnectIntegrationAssociationTags[] Value)
 
 ---
 
+##### `ResetSourceApplicationName` <a name="ResetSourceApplicationName" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.resetSourceApplicationName"></a>
+
+```csharp
+private void ResetSourceApplicationName()
+```
+
+##### `ResetSourceApplicationUrl` <a name="ResetSourceApplicationUrl" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.resetSourceApplicationUrl"></a>
+
+```csharp
+private void ResetSourceApplicationUrl()
+```
+
+##### `ResetSourceType` <a name="ResetSourceType" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.resetSourceType"></a>
+
+```csharp
+private void ResetSourceType()
+```
+
 ##### `ResetTags` <a name="ResetTags" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.resetTags"></a>
 
 ```csharp
@@ -509,7 +530,7 @@ The construct id used in the generated config for the ConnectIntegrationAssociat
 
 The id of the existing ConnectIntegrationAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -545,10 +566,16 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.instanceIdInput">InstanceIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.integrationArnInput">IntegrationArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.integrationTypeInput">IntegrationTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceApplicationNameInput">SourceApplicationNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceApplicationUrlInput">SourceApplicationUrlInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceTypeInput">SourceTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.tagsInput">TagsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationTags">ConnectIntegrationAssociationTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.instanceId">InstanceId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.integrationArn">IntegrationArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.integrationType">IntegrationType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceApplicationName">SourceApplicationName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceApplicationUrl">SourceApplicationUrl</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceType">SourceType</a></code> | <code>string</code> | *No description.* |
 
 ---
 
@@ -754,6 +781,36 @@ public string IntegrationTypeInput { get; }
 
 ---
 
+##### `SourceApplicationNameInput`<sup>Optional</sup> <a name="SourceApplicationNameInput" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceApplicationNameInput"></a>
+
+```csharp
+public string SourceApplicationNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SourceApplicationUrlInput`<sup>Optional</sup> <a name="SourceApplicationUrlInput" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceApplicationUrlInput"></a>
+
+```csharp
+public string SourceApplicationUrlInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SourceTypeInput`<sup>Optional</sup> <a name="SourceTypeInput" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceTypeInput"></a>
+
+```csharp
+public string SourceTypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `TagsInput`<sup>Optional</sup> <a name="TagsInput" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.tagsInput"></a>
 
 ```csharp
@@ -788,6 +845,36 @@ public string IntegrationArn { get; }
 
 ```csharp
 public string IntegrationType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SourceApplicationName`<sup>Required</sup> <a name="SourceApplicationName" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceApplicationName"></a>
+
+```csharp
+public string SourceApplicationName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SourceApplicationUrl`<sup>Required</sup> <a name="SourceApplicationUrl" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceApplicationUrl"></a>
+
+```csharp
+public string SourceApplicationUrl { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SourceType`<sup>Required</sup> <a name="SourceType" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociation.property.sourceType"></a>
+
+```csharp
+public string SourceType { get; }
 ```
 
 - *Type:* string
@@ -832,6 +919,9 @@ new ConnectIntegrationAssociationConfig {
     string InstanceId,
     string IntegrationArn,
     string IntegrationType,
+    string SourceApplicationName = null,
+    string SourceApplicationUrl = null,
+    string SourceType = null,
     IResolvable|ConnectIntegrationAssociationTags[] Tags = null
 };
 ```
@@ -850,6 +940,9 @@ new ConnectIntegrationAssociationConfig {
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.instanceId">InstanceId</a></code> | <code>string</code> | Amazon Connect instance identifier. |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.integrationArn">IntegrationArn</a></code> | <code>string</code> | ARN of Integration being associated with the instance. |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.integrationType">IntegrationType</a></code> | <code>string</code> | Specifies the integration type to be associated with the instance. |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.sourceApplicationName">SourceApplicationName</a></code> | <code>string</code> | The name of the external application. This is only supported for the EVENT integration type. |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.sourceApplicationUrl">SourceApplicationUrl</a></code> | <code>string</code> | The URL for the external application. This is only supported for the EVENT integration type. |
+| <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.sourceType">SourceType</a></code> | <code>string</code> | The type of the data source. This is only supported for the EVENT integration type. |
 | <code><a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationTags">ConnectIntegrationAssociationTags</a>[]</code> | The tags used to organize, track, or control access for this resource. |
 
 ---
@@ -934,7 +1027,7 @@ public string InstanceId { get; set; }
 
 Amazon Connect instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association#instance_id ConnectIntegrationAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#instance_id ConnectIntegrationAssociation#instance_id}
 
 ---
 
@@ -948,7 +1041,7 @@ public string IntegrationArn { get; set; }
 
 ARN of Integration being associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association#integration_arn ConnectIntegrationAssociation#integration_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#integration_arn ConnectIntegrationAssociation#integration_arn}
 
 ---
 
@@ -962,7 +1055,49 @@ public string IntegrationType { get; set; }
 
 Specifies the integration type to be associated with the instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association#integration_type ConnectIntegrationAssociation#integration_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#integration_type ConnectIntegrationAssociation#integration_type}
+
+---
+
+##### `SourceApplicationName`<sup>Optional</sup> <a name="SourceApplicationName" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.sourceApplicationName"></a>
+
+```csharp
+public string SourceApplicationName { get; set; }
+```
+
+- *Type:* string
+
+The name of the external application. This is only supported for the EVENT integration type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#source_application_name ConnectIntegrationAssociation#source_application_name}
+
+---
+
+##### `SourceApplicationUrl`<sup>Optional</sup> <a name="SourceApplicationUrl" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.sourceApplicationUrl"></a>
+
+```csharp
+public string SourceApplicationUrl { get; set; }
+```
+
+- *Type:* string
+
+The URL for the external application. This is only supported for the EVENT integration type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#source_application_url ConnectIntegrationAssociation#source_application_url}
+
+---
+
+##### `SourceType`<sup>Optional</sup> <a name="SourceType" id="@cdktn/provider-awscc.connectIntegrationAssociation.ConnectIntegrationAssociationConfig.property.sourceType"></a>
+
+```csharp
+public string SourceType { get; set; }
+```
+
+- *Type:* string
+
+The type of the data source. This is only supported for the EVENT integration type.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#source_type ConnectIntegrationAssociation#source_type}
 
 ---
 
@@ -976,7 +1111,7 @@ public IResolvable|ConnectIntegrationAssociationTags[] Tags { get; set; }
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association#tags ConnectIntegrationAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#tags ConnectIntegrationAssociation#tags}
 
 ---
 
@@ -1012,7 +1147,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association#key ConnectIntegrationAssociation#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#key ConnectIntegrationAssociation#key}
 
 ---
 
@@ -1026,7 +1161,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_integration_association#value ConnectIntegrationAssociation#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_integration_association#value ConnectIntegrationAssociation#value}
 
 ---
 

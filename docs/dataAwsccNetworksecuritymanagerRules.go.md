@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworksecuritymanagerRules <a name="DataAwsccNetworksecuritymanagerRules" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRules.DataAwsccNetworksecuritymanagerRules"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_rules awscc_networksecuritymanager_rules}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_rules awscc_networksecuritymanager_rules}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerRules.DataAwsccNetworksecuritymanagerRules.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworksecurityma
 
 The id of the existing DataAwsccNetworksecuritymanagerRules that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_rules#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_rules#import import section} in the documentation of this resource for the id to use
 
 ---
 

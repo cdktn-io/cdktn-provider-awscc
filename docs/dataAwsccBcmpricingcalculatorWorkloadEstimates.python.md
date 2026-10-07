@@ -4,7 +4,7 @@
 
 ### DataAwsccBcmpricingcalculatorWorkloadEstimates <a name="DataAwsccBcmpricingcalculatorWorkloadEstimates" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bcmpricingcalculator_workload_estimates awscc_bcmpricingcalculator_workload_estimates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmpricingcalculatorWorkloadEstimates.DataAwsccBcmpricingcalculatorWorkloadEstimates.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccBcmpricingcalcula
 
 The id of the existing DataAwsccBcmpricingcalculatorWorkloadEstimates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcmpricingcalculator_workload_estimates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bcmpricingcalculator_workload_estimates#import import section} in the documentation of this resource for the id to use
 
 ---
 

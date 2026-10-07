@@ -4,7 +4,7 @@
 
 ### FsxVolume <a name="FsxVolume" id="@cdktn/provider-awscc.fsxVolume.FsxVolume"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume awscc_fsx_volume}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume awscc_fsx_volume}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.fsxVolume.FsxVolume.Initializer"></a>
 
@@ -563,7 +563,7 @@ The construct id used in the generated config for the FsxVolume to import.
 
 The id of the existing FsxVolume that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -969,12 +969,12 @@ new FsxVolumeConfig {
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#name FsxVolume#name}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.backupId">BackupId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.ontapConfiguration">OntapConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration">FsxVolumeOntapConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.openZfsConfiguration">OpenZfsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration">FsxVolumeOpenZfsConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeTags">FsxVolumeTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#tags FsxVolume#tags}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.volumeType">VolumeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.name">Name</a></code> | <code>string</code> | The name of the volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.backupId">BackupId</a></code> | <code>string</code> | Specifies the ID of the volume backup to use to create a new volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.ontapConfiguration">OntapConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration">FsxVolumeOntapConfiguration</a></code> | The configuration of an Amazon FSx for NetApp ONTAP volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.openZfsConfiguration">OpenZfsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration">FsxVolumeOpenZfsConfiguration</a></code> | The configuration of an Amazon FSx for OpenZFS volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeTags">FsxVolumeTags</a>[]</code> | One or more tags. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeConfig.property.volumeType">VolumeType</a></code> | <code>string</code> | The type of the volume. |
 
 ---
 
@@ -1056,7 +1056,9 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#name FsxVolume#name}.
+The name of the volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#name FsxVolume#name}
 
 ---
 
@@ -1068,7 +1070,9 @@ public string BackupId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}.
+Specifies the ID of the volume backup to use to create a new volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#backup_id FsxVolume#backup_id}
 
 ---
 
@@ -1080,7 +1084,9 @@ public FsxVolumeOntapConfiguration OntapConfiguration { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration">FsxVolumeOntapConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}.
+The configuration of an Amazon FSx for NetApp ONTAP volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#ontap_configuration FsxVolume#ontap_configuration}
 
 ---
 
@@ -1092,7 +1098,9 @@ public FsxVolumeOpenZfsConfiguration OpenZfsConfiguration { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration">FsxVolumeOpenZfsConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}.
+The configuration of an Amazon FSx for OpenZFS volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#open_zfs_configuration FsxVolume#open_zfs_configuration}
 
 ---
 
@@ -1104,7 +1112,9 @@ public IResolvable|FsxVolumeTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeTags">FsxVolumeTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#tags FsxVolume#tags}.
+One or more tags.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#tags FsxVolume#tags}
 
 ---
 
@@ -1116,7 +1126,9 @@ public string VolumeType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}.
+The type of the volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#volume_type FsxVolume#volume_type}
 
 ---
 
@@ -1148,19 +1160,19 @@ new FsxVolumeOntapConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.aggregateConfiguration">AggregateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration">FsxVolumeOntapConfigurationAggregateConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#aggregate_configuration FsxVolume#aggregate_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.copyTagsToBackups">CopyTagsToBackups</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#copy_tags_to_backups FsxVolume#copy_tags_to_backups}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.junctionPath">JunctionPath</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#junction_path FsxVolume#junction_path}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.ontapVolumeType">OntapVolumeType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#ontap_volume_type FsxVolume#ontap_volume_type}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.securityStyle">SecurityStyle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#security_style FsxVolume#security_style}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.sizeInBytes">SizeInBytes</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#size_in_bytes FsxVolume#size_in_bytes}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.sizeInMegabytes">SizeInMegabytes</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#size_in_megabytes FsxVolume#size_in_megabytes}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.snaplockConfiguration">SnaplockConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration">FsxVolumeOntapConfigurationSnaplockConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#snaplock_configuration FsxVolume#snaplock_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.snapshotPolicy">SnapshotPolicy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#snapshot_policy FsxVolume#snapshot_policy}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.storageEfficiencyEnabled">StorageEfficiencyEnabled</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_efficiency_enabled FsxVolume#storage_efficiency_enabled}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.storageVirtualMachineId">StorageVirtualMachineId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_virtual_machine_id FsxVolume#storage_virtual_machine_id}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.tieringPolicy">TieringPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationTieringPolicy">FsxVolumeOntapConfigurationTieringPolicy</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#tiering_policy FsxVolume#tiering_policy}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.volumeStyle">VolumeStyle</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#volume_style FsxVolume#volume_style}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.aggregateConfiguration">AggregateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration">FsxVolumeOntapConfigurationAggregateConfiguration</a></code> | Used to specify the configuration options for an FSx for ONTAP volume's storage aggregate or aggregates. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.copyTagsToBackups">CopyTagsToBackups</a></code> | <code>string</code> | A boolean flag indicating whether tags for the volume should be copied to backups. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.junctionPath">JunctionPath</a></code> | <code>string</code> | Specifies the location in the SVM's namespace where the volume is mounted. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.ontapVolumeType">OntapVolumeType</a></code> | <code>string</code> | Specifies the type of volume you are creating. Valid values are the following: RW or DP. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.securityStyle">SecurityStyle</a></code> | <code>string</code> | Specifies the security style for the volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.sizeInBytes">SizeInBytes</a></code> | <code>string</code> | Specifies the configured size of the volume, in bytes. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.sizeInMegabytes">SizeInMegabytes</a></code> | <code>string</code> | Use SizeInBytes instead. Specifies the size of the volume, in megabytes (MB), that you are creating. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.snaplockConfiguration">SnaplockConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration">FsxVolumeOntapConfigurationSnaplockConfiguration</a></code> | The SnapLock configuration object for an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.snapshotPolicy">SnapshotPolicy</a></code> | <code>string</code> | Specifies the snapshot policy for the volume. There are three built-in snapshot policies: default, default-1weekly, none. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.storageEfficiencyEnabled">StorageEfficiencyEnabled</a></code> | <code>string</code> | Set to true to enable deduplication, compression, and compaction storage efficiency features on the volume, or set to false to disable them. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.storageVirtualMachineId">StorageVirtualMachineId</a></code> | <code>string</code> | Specifies the ONTAP SVM in which to create the volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.tieringPolicy">TieringPolicy</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationTieringPolicy">FsxVolumeOntapConfigurationTieringPolicy</a></code> | Describes the data tiering policy for an ONTAP volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfiguration.property.volumeStyle">VolumeStyle</a></code> | <code>string</code> | Use to specify the style of an ONTAP volume. |
 
 ---
 
@@ -1172,7 +1184,9 @@ public FsxVolumeOntapConfigurationAggregateConfiguration AggregateConfiguration 
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration">FsxVolumeOntapConfigurationAggregateConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#aggregate_configuration FsxVolume#aggregate_configuration}.
+Used to specify the configuration options for an FSx for ONTAP volume's storage aggregate or aggregates.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#aggregate_configuration FsxVolume#aggregate_configuration}
 
 ---
 
@@ -1184,7 +1198,9 @@ public string CopyTagsToBackups { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#copy_tags_to_backups FsxVolume#copy_tags_to_backups}.
+A boolean flag indicating whether tags for the volume should be copied to backups.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#copy_tags_to_backups FsxVolume#copy_tags_to_backups}
 
 ---
 
@@ -1196,7 +1212,11 @@ public string JunctionPath { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#junction_path FsxVolume#junction_path}.
+Specifies the location in the SVM's namespace where the volume is mounted.
+
+This parameter is required. The JunctionPath must have a leading forward slash, such as /vol3.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#junction_path FsxVolume#junction_path}
 
 ---
 
@@ -1208,7 +1228,9 @@ public string OntapVolumeType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#ontap_volume_type FsxVolume#ontap_volume_type}.
+Specifies the type of volume you are creating. Valid values are the following: RW or DP.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#ontap_volume_type FsxVolume#ontap_volume_type}
 
 ---
 
@@ -1220,7 +1242,11 @@ public string SecurityStyle { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#security_style FsxVolume#security_style}.
+Specifies the security style for the volume.
+
+If a volume's security style is not specified, it is automatically set to the root volume's security style.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#security_style FsxVolume#security_style}
 
 ---
 
@@ -1232,7 +1258,9 @@ public string SizeInBytes { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#size_in_bytes FsxVolume#size_in_bytes}.
+Specifies the configured size of the volume, in bytes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#size_in_bytes FsxVolume#size_in_bytes}
 
 ---
 
@@ -1244,7 +1272,9 @@ public string SizeInMegabytes { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#size_in_megabytes FsxVolume#size_in_megabytes}.
+Use SizeInBytes instead. Specifies the size of the volume, in megabytes (MB), that you are creating.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#size_in_megabytes FsxVolume#size_in_megabytes}
 
 ---
 
@@ -1256,7 +1286,9 @@ public FsxVolumeOntapConfigurationSnaplockConfiguration SnaplockConfiguration { 
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration">FsxVolumeOntapConfigurationSnaplockConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#snaplock_configuration FsxVolume#snaplock_configuration}.
+The SnapLock configuration object for an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#snaplock_configuration FsxVolume#snaplock_configuration}
 
 ---
 
@@ -1268,7 +1300,9 @@ public string SnapshotPolicy { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#snapshot_policy FsxVolume#snapshot_policy}.
+Specifies the snapshot policy for the volume. There are three built-in snapshot policies: default, default-1weekly, none.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#snapshot_policy FsxVolume#snapshot_policy}
 
 ---
 
@@ -1280,7 +1314,9 @@ public string StorageEfficiencyEnabled { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_efficiency_enabled FsxVolume#storage_efficiency_enabled}.
+Set to true to enable deduplication, compression, and compaction storage efficiency features on the volume, or set to false to disable them.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#storage_efficiency_enabled FsxVolume#storage_efficiency_enabled}
 
 ---
 
@@ -1292,7 +1328,9 @@ public string StorageVirtualMachineId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_virtual_machine_id FsxVolume#storage_virtual_machine_id}.
+Specifies the ONTAP SVM in which to create the volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#storage_virtual_machine_id FsxVolume#storage_virtual_machine_id}
 
 ---
 
@@ -1304,7 +1342,9 @@ public FsxVolumeOntapConfigurationTieringPolicy TieringPolicy { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationTieringPolicy">FsxVolumeOntapConfigurationTieringPolicy</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#tiering_policy FsxVolume#tiering_policy}.
+Describes the data tiering policy for an ONTAP volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#tiering_policy FsxVolume#tiering_policy}
 
 ---
 
@@ -1316,7 +1356,9 @@ public string VolumeStyle { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#volume_style FsxVolume#volume_style}.
+Use to specify the style of an ONTAP volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#volume_style FsxVolume#volume_style}
 
 ---
 
@@ -1337,8 +1379,8 @@ new FsxVolumeOntapConfigurationAggregateConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration.property.aggregates">Aggregates</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration.property.constituentsPerAggregate">ConstituentsPerAggregate</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration.property.aggregates">Aggregates</a></code> | <code>string[]</code> | The list of aggregates that this volume resides on. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationAggregateConfiguration.property.constituentsPerAggregate">ConstituentsPerAggregate</a></code> | <code>double</code> | Used to explicitly set the number of constituents within the FlexGroup per storage aggregate. |
 
 ---
 
@@ -1350,7 +1392,11 @@ public string[] Aggregates { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}.
+The list of aggregates that this volume resides on.
+
+Aggregates are storage pools which make up your primary storage tier.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#aggregates FsxVolume#aggregates}
 
 ---
 
@@ -1362,7 +1408,11 @@ public double ConstituentsPerAggregate { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}.
+Used to explicitly set the number of constituents within the FlexGroup per storage aggregate.
+
+This field is optional when creating a FlexGroup volume. If unspecified, the default value will be 8. This field cannot be provided when creating a FlexVol volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#constituents_per_aggregate FsxVolume#constituents_per_aggregate}
 
 ---
 
@@ -1387,12 +1437,12 @@ new FsxVolumeOntapConfigurationSnaplockConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.auditLogVolume">AuditLogVolume</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#audit_log_volume FsxVolume#audit_log_volume}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.autocommitPeriod">AutocommitPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod">FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#autocommit_period FsxVolume#autocommit_period}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.privilegedDelete">PrivilegedDelete</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#privileged_delete FsxVolume#privileged_delete}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.retentionPeriod">RetentionPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#retention_period FsxVolume#retention_period}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.snaplockType">SnaplockType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#snaplock_type FsxVolume#snaplock_type}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.volumeAppendModeEnabled">VolumeAppendModeEnabled</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#volume_append_mode_enabled FsxVolume#volume_append_mode_enabled}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.auditLogVolume">AuditLogVolume</a></code> | <code>string</code> | Enables or disables the audit log volume for an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.autocommitPeriod">AutocommitPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod">FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod</a></code> | The configuration object for setting the autocommit period of files in an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.privilegedDelete">PrivilegedDelete</a></code> | <code>string</code> | Enables, disables, or permanently disables privileged delete on an FSx for ONTAP SnapLock Enterprise volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.retentionPeriod">RetentionPeriod</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod</a></code> | Specifies the retention period of an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.snaplockType">SnaplockType</a></code> | <code>string</code> | Specifies the retention mode of an FSx for ONTAP SnapLock volume. After it is set, it can't be changed. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfiguration.property.volumeAppendModeEnabled">VolumeAppendModeEnabled</a></code> | <code>string</code> | Enables or disables volume-append mode on an FSx for ONTAP SnapLock volume. |
 
 ---
 
@@ -1404,7 +1454,9 @@ public string AuditLogVolume { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#audit_log_volume FsxVolume#audit_log_volume}.
+Enables or disables the audit log volume for an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#audit_log_volume FsxVolume#audit_log_volume}
 
 ---
 
@@ -1416,7 +1468,9 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod Autocomm
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod">FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#autocommit_period FsxVolume#autocommit_period}.
+The configuration object for setting the autocommit period of files in an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#autocommit_period FsxVolume#autocommit_period}
 
 ---
 
@@ -1428,7 +1482,9 @@ public string PrivilegedDelete { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#privileged_delete FsxVolume#privileged_delete}.
+Enables, disables, or permanently disables privileged delete on an FSx for ONTAP SnapLock Enterprise volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#privileged_delete FsxVolume#privileged_delete}
 
 ---
 
@@ -1440,7 +1496,9 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod Retention
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#retention_period FsxVolume#retention_period}.
+Specifies the retention period of an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#retention_period FsxVolume#retention_period}
 
 ---
 
@@ -1452,7 +1510,9 @@ public string SnaplockType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#snaplock_type FsxVolume#snaplock_type}.
+Specifies the retention mode of an FSx for ONTAP SnapLock volume. After it is set, it can't be changed.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#snaplock_type FsxVolume#snaplock_type}
 
 ---
 
@@ -1464,7 +1524,9 @@ public string VolumeAppendModeEnabled { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#volume_append_mode_enabled FsxVolume#volume_append_mode_enabled}.
+Enables or disables volume-append mode on an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#volume_append_mode_enabled FsxVolume#volume_append_mode_enabled}
 
 ---
 
@@ -1485,8 +1547,8 @@ new FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod.property.value">Value</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod.property.type">Type</a></code> | <code>string</code> | Defines the type of time for the autocommit period of a file in an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationAutocommitPeriod.property.value">Value</a></code> | <code>double</code> | Defines the amount of time for the autocommit period of a file in an FSx for ONTAP SnapLock volume. |
 
 ---
 
@@ -1498,7 +1560,11 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}.
+Defines the type of time for the autocommit period of a file in an FSx for ONTAP SnapLock volume.
+
+Setting this value to NONE disables autocommit. The default value is NONE.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -1510,7 +1576,9 @@ public double Value { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}.
+Defines the amount of time for the autocommit period of a file in an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -1532,9 +1600,9 @@ new FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod.property.defaultRetention">DefaultRetention</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod.property.maximumRetention">MaximumRetention</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod.property.minimumRetention">MinimumRetention</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod.property.defaultRetention">DefaultRetention</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention</a></code> | The retention period assigned to a write once, read many (WORM) file by default if an explicit retention period is not set for an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod.property.maximumRetention">MaximumRetention</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention</a></code> | The longest retention period that can be assigned to a WORM file on an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriod.property.minimumRetention">MinimumRetention</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention</a></code> | The shortest retention period that can be assigned to a WORM file on an FSx for ONTAP SnapLock volume. |
 
 ---
 
@@ -1546,7 +1614,9 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRet
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}.
+The retention period assigned to a write once, read many (WORM) file by default if an explicit retention period is not set for an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#default_retention FsxVolume#default_retention}
 
 ---
 
@@ -1558,7 +1628,9 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRet
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}.
+The longest retention period that can be assigned to a WORM file on an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#maximum_retention FsxVolume#maximum_retention}
 
 ---
 
@@ -1570,7 +1642,9 @@ public FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRet
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention">FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}.
+The shortest retention period that can be assigned to a WORM file on an FSx for ONTAP SnapLock volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#minimum_retention FsxVolume#minimum_retention}
 
 ---
 
@@ -1591,8 +1665,8 @@ new FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetent
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention.property.value">Value</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention.property.type">Type</a></code> | <code>string</code> | Defines the type of time for the retention period of an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodDefaultRetention.property.value">Value</a></code> | <code>double</code> | Defines the amount of time for the retention period of an FSx for ONTAP SnapLock volume. |
 
 ---
 
@@ -1604,7 +1678,11 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}.
+Defines the type of time for the retention period of an FSx for ONTAP SnapLock volume.
+
+Set it to one of the valid types. If you set it to INFINITE, the files are retained forever. If you set it to UNSPECIFIED, the files are retained until you set an explicit retention period.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -1616,7 +1694,11 @@ public double Value { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}.
+Defines the amount of time for the retention period of an FSx for ONTAP SnapLock volume.
+
+You can't set a value for INFINITE or UNSPECIFIED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -1637,8 +1719,8 @@ new FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetent
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention.property.value">Value</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention.property.type">Type</a></code> | <code>string</code> | Defines the type of time for the retention period of an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMaximumRetention.property.value">Value</a></code> | <code>double</code> | Defines the amount of time for the retention period of an FSx for ONTAP SnapLock volume. |
 
 ---
 
@@ -1650,7 +1732,11 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}.
+Defines the type of time for the retention period of an FSx for ONTAP SnapLock volume.
+
+Set it to one of the valid types. If you set it to INFINITE, the files are retained forever. If you set it to UNSPECIFIED, the files are retained until you set an explicit retention period.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -1662,7 +1748,11 @@ public double Value { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}.
+Defines the amount of time for the retention period of an FSx for ONTAP SnapLock volume.
+
+You can't set a value for INFINITE or UNSPECIFIED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -1683,8 +1773,8 @@ new FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetent
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention.property.value">Value</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention.property.type">Type</a></code> | <code>string</code> | Defines the type of time for the retention period of an FSx for ONTAP SnapLock volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationSnaplockConfigurationRetentionPeriodMinimumRetention.property.value">Value</a></code> | <code>double</code> | Defines the amount of time for the retention period of an FSx for ONTAP SnapLock volume. |
 
 ---
 
@@ -1696,7 +1786,11 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}.
+Defines the type of time for the retention period of an FSx for ONTAP SnapLock volume.
+
+Set it to one of the valid types. If you set it to INFINITE, the files are retained forever. If you set it to UNSPECIFIED, the files are retained until you set an explicit retention period.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -1708,7 +1802,11 @@ public double Value { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}.
+Defines the amount of time for the retention period of an FSx for ONTAP SnapLock volume.
+
+You can't set a value for INFINITE or UNSPECIFIED.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 
@@ -1729,8 +1827,8 @@ new FsxVolumeOntapConfigurationTieringPolicy {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationTieringPolicy.property.coolingPeriod">CoolingPeriod</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationTieringPolicy.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#name FsxVolume#name}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationTieringPolicy.property.coolingPeriod">CoolingPeriod</a></code> | <code>double</code> | Specifies the number of days that user data in a volume must remain inactive before it is considered "cold" and moved to the capacity pool. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOntapConfigurationTieringPolicy.property.name">Name</a></code> | <code>string</code> | Specifies the tiering policy used to transition data. Default value is SNAPSHOT_ONLY. |
 
 ---
 
@@ -1742,7 +1840,9 @@ public double CoolingPeriod { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}.
+Specifies the number of days that user data in a volume must remain inactive before it is considered "cold" and moved to the capacity pool.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#cooling_period FsxVolume#cooling_period}
 
 ---
 
@@ -1754,7 +1854,9 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#name FsxVolume#name}.
+Specifies the tiering policy used to transition data. Default value is SNAPSHOT_ONLY.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#name FsxVolume#name}
 
 ---
 
@@ -1784,17 +1886,17 @@ new FsxVolumeOpenZfsConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.copyTagsToSnapshots">CopyTagsToSnapshots</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#copy_tags_to_snapshots FsxVolume#copy_tags_to_snapshots}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.dataCompressionType">DataCompressionType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#data_compression_type FsxVolume#data_compression_type}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.nfsExports">NfsExports</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExports">FsxVolumeOpenZfsConfigurationNfsExports</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#nfs_exports FsxVolume#nfs_exports}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.options">Options</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#options FsxVolume#options}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.originSnapshot">OriginSnapshot</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationOriginSnapshot">FsxVolumeOpenZfsConfigurationOriginSnapshot</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#origin_snapshot FsxVolume#origin_snapshot}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.parentVolumeId">ParentVolumeId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#parent_volume_id FsxVolume#parent_volume_id}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.readOnly">ReadOnly</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#read_only FsxVolume#read_only}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.recordSizeKiB">RecordSizeKiB</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#record_size_ki_b FsxVolume#record_size_ki_b}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.storageCapacityQuotaGiB">StorageCapacityQuotaGiB</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.storageCapacityReservationGiB">StorageCapacityReservationGiB</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_capacity_reservation_gi_b FsxVolume#storage_capacity_reservation_gi_b}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.userAndGroupQuotas">UserAndGroupQuotas</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas">FsxVolumeOpenZfsConfigurationUserAndGroupQuotas</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#user_and_group_quotas FsxVolume#user_and_group_quotas}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.copyTagsToSnapshots">CopyTagsToSnapshots</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | A Boolean value indicating whether tags for the volume should be copied to snapshots. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.dataCompressionType">DataCompressionType</a></code> | <code>string</code> | Specifies the method used to compress the data on the volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.nfsExports">NfsExports</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExports">FsxVolumeOpenZfsConfigurationNfsExports</a>[]</code> | The configuration object for mounting a Network File System (NFS) file system. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.options">Options</a></code> | <code>string[]</code> | The configuration object for mounting a Network File System (NFS) file system. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.originSnapshot">OriginSnapshot</a></code> | <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationOriginSnapshot">FsxVolumeOpenZfsConfigurationOriginSnapshot</a></code> | The configuration of an Amazon FSx for OpenZFS volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.parentVolumeId">ParentVolumeId</a></code> | <code>string</code> | The ID of the volume to use as the parent volume of the volume that you are creating. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.readOnly">ReadOnly</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | A Boolean value indicating whether the volume is read-only. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.recordSizeKiB">RecordSizeKiB</a></code> | <code>double</code> | Specifies the suggested block size for a volume in a ZFS dataset, in kibibytes (KiB). |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.storageCapacityQuotaGiB">StorageCapacityQuotaGiB</a></code> | <code>double</code> | Sets the maximum storage size in gibibytes (GiB) for the volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.storageCapacityReservationGiB">StorageCapacityReservationGiB</a></code> | <code>double</code> | Specifies the amount of storage in gibibytes (GiB) to reserve from the parent volume. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfiguration.property.userAndGroupQuotas">UserAndGroupQuotas</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas">FsxVolumeOpenZfsConfigurationUserAndGroupQuotas</a>[]</code> | Configures how much storage users and groups can use on the volume. |
 
 ---
 
@@ -1806,7 +1908,11 @@ public bool|IResolvable CopyTagsToSnapshots { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#copy_tags_to_snapshots FsxVolume#copy_tags_to_snapshots}.
+A Boolean value indicating whether tags for the volume should be copied to snapshots.
+
+This value defaults to false. If this value is set to true, and you do not specify any tags, all tags for the original volume are copied over to snapshots. If this value is set to true, and you do specify one or more tags, only the specified tags for the original volume are copied over to snapshots. If you specify one or more tags when creating a new snapshot, no tags are copied over from the original volume, regardless of this value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#copy_tags_to_snapshots FsxVolume#copy_tags_to_snapshots}
 
 ---
 
@@ -1818,7 +1924,9 @@ public string DataCompressionType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#data_compression_type FsxVolume#data_compression_type}.
+Specifies the method used to compress the data on the volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#data_compression_type FsxVolume#data_compression_type}
 
 ---
 
@@ -1830,7 +1938,9 @@ public IResolvable|FsxVolumeOpenZfsConfigurationNfsExports[] NfsExports { get; s
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExports">FsxVolumeOpenZfsConfigurationNfsExports</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#nfs_exports FsxVolume#nfs_exports}.
+The configuration object for mounting a Network File System (NFS) file system.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#nfs_exports FsxVolume#nfs_exports}
 
 ---
 
@@ -1842,7 +1952,9 @@ public string[] Options { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#options FsxVolume#options}.
+The configuration object for mounting a Network File System (NFS) file system.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#options FsxVolume#options}
 
 ---
 
@@ -1854,7 +1966,9 @@ public FsxVolumeOpenZfsConfigurationOriginSnapshot OriginSnapshot { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationOriginSnapshot">FsxVolumeOpenZfsConfigurationOriginSnapshot</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#origin_snapshot FsxVolume#origin_snapshot}.
+The configuration of an Amazon FSx for OpenZFS volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#origin_snapshot FsxVolume#origin_snapshot}
 
 ---
 
@@ -1866,7 +1980,9 @@ public string ParentVolumeId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#parent_volume_id FsxVolume#parent_volume_id}.
+The ID of the volume to use as the parent volume of the volume that you are creating.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#parent_volume_id FsxVolume#parent_volume_id}
 
 ---
 
@@ -1878,7 +1994,9 @@ public bool|IResolvable ReadOnly { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#read_only FsxVolume#read_only}.
+A Boolean value indicating whether the volume is read-only.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#read_only FsxVolume#read_only}
 
 ---
 
@@ -1890,7 +2008,9 @@ public double RecordSizeKiB { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#record_size_ki_b FsxVolume#record_size_ki_b}.
+Specifies the suggested block size for a volume in a ZFS dataset, in kibibytes (KiB).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#record_size_ki_b FsxVolume#record_size_ki_b}
 
 ---
 
@@ -1902,7 +2022,11 @@ public double StorageCapacityQuotaGiB { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}.
+Sets the maximum storage size in gibibytes (GiB) for the volume.
+
+You can specify a quota that is larger than the storage on the parent volume. A volume quota limits the amount of storage that the volume can consume to the configured amount, but does not guarantee the space will be available on the parent volume. To guarantee quota space, you must also set StorageCapacityReservationGiB. To not specify a storage capacity quota, set this to -1.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
 
 ---
 
@@ -1914,7 +2038,11 @@ public double StorageCapacityReservationGiB { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_capacity_reservation_gi_b FsxVolume#storage_capacity_reservation_gi_b}.
+Specifies the amount of storage in gibibytes (GiB) to reserve from the parent volume.
+
+Setting StorageCapacityReservationGiB guarantees that the specified amount of storage space on the parent volume will always be available for the volume. You can't reserve more storage than the parent volume has. To not specify a storage capacity reservation, set this to 0 or -1. For more information, see Volume properties in the Amazon FSx for OpenZFS User Guide.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#storage_capacity_reservation_gi_b FsxVolume#storage_capacity_reservation_gi_b}
 
 ---
 
@@ -1926,7 +2054,9 @@ public IResolvable|FsxVolumeOpenZfsConfigurationUserAndGroupQuotas[] UserAndGrou
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas">FsxVolumeOpenZfsConfigurationUserAndGroupQuotas</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#user_and_group_quotas FsxVolume#user_and_group_quotas}.
+Configures how much storage users and groups can use on the volume.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#user_and_group_quotas FsxVolume#user_and_group_quotas}
 
 ---
 
@@ -1946,7 +2076,7 @@ new FsxVolumeOpenZfsConfigurationNfsExports {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExports.property.clientConfigurations">ClientConfigurations</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations">FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExports.property.clientConfigurations">ClientConfigurations</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations">FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations</a>[]</code> | The configuration object for mounting a Network File System (NFS) file system. |
 
 ---
 
@@ -1958,7 +2088,9 @@ public IResolvable|FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations[]
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations">FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}.
+The configuration object for mounting a Network File System (NFS) file system.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#client_configurations FsxVolume#client_configurations}
 
 ---
 
@@ -1979,8 +2111,8 @@ new FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations.property.clients">Clients</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#clients FsxVolume#clients}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations.property.options">Options</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#options FsxVolume#options}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations.property.clients">Clients</a></code> | <code>string</code> | A value that specifies who can mount the file system. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationNfsExportsClientConfigurations.property.options">Options</a></code> | <code>string[]</code> | The configuration object for mounting a Network File System (NFS) file system. |
 
 ---
 
@@ -1992,7 +2124,11 @@ public string Clients { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#clients FsxVolume#clients}.
+A value that specifies who can mount the file system.
+
+You can provide a wildcard character (*), an IP address (0.0.0.0), or a CIDR address (192.0.2.0/24). By default, Amazon FSx uses the wildcard character when specifying the client.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#clients FsxVolume#clients}
 
 ---
 
@@ -2004,7 +2140,9 @@ public string[] Options { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#options FsxVolume#options}.
+The configuration object for mounting a Network File System (NFS) file system.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#options FsxVolume#options}
 
 ---
 
@@ -2025,8 +2163,8 @@ new FsxVolumeOpenZfsConfigurationOriginSnapshot {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationOriginSnapshot.property.copyStrategy">CopyStrategy</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#copy_strategy FsxVolume#copy_strategy}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationOriginSnapshot.property.snapshotArn">SnapshotArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#snapshot_arn FsxVolume#snapshot_arn}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationOriginSnapshot.property.copyStrategy">CopyStrategy</a></code> | <code>string</code> | The configuration object for mounting a Network File System (NFS) file system. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationOriginSnapshot.property.snapshotArn">SnapshotArn</a></code> | <code>string</code> | Specifies the snapshot to use when creating an OpenZFS volume from a snapshot. |
 
 ---
 
@@ -2038,7 +2176,9 @@ public string CopyStrategy { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#copy_strategy FsxVolume#copy_strategy}.
+The configuration object for mounting a Network File System (NFS) file system.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#copy_strategy FsxVolume#copy_strategy}
 
 ---
 
@@ -2050,7 +2190,9 @@ public string SnapshotArn { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#snapshot_arn FsxVolume#snapshot_arn}.
+Specifies the snapshot to use when creating an OpenZFS volume from a snapshot.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#snapshot_arn FsxVolume#snapshot_arn}
 
 ---
 
@@ -2072,9 +2214,9 @@ new FsxVolumeOpenZfsConfigurationUserAndGroupQuotas {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas.property.id">Id</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#id FsxVolume#id}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas.property.storageCapacityQuotaGiB">StorageCapacityQuotaGiB</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas.property.type">Type</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas.property.id">Id</a></code> | <code>double</code> | The ID of the user or group that the quota applies to. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas.property.storageCapacityQuotaGiB">StorageCapacityQuotaGiB</a></code> | <code>double</code> | The user or group's storage quota, in gibibytes (GiB). |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeOpenZfsConfigurationUserAndGroupQuotas.property.type">Type</a></code> | <code>string</code> | Specifies whether the quota applies to a user or group. |
 
 ---
 
@@ -2086,7 +2228,9 @@ public double Id { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#id FsxVolume#id}.
+The ID of the user or group that the quota applies to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#id FsxVolume#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2101,7 +2245,9 @@ public double StorageCapacityQuotaGiB { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}.
+The user or group's storage quota, in gibibytes (GiB).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#storage_capacity_quota_gi_b FsxVolume#storage_capacity_quota_gi_b}
 
 ---
 
@@ -2113,7 +2259,9 @@ public string Type { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#type FsxVolume#type}.
+Specifies whether the quota applies to a user or group.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#type FsxVolume#type}
 
 ---
 
@@ -2134,8 +2282,8 @@ new FsxVolumeTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#key FsxVolume#key}. |
-| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeTags.property.key">Key</a></code> | <code>string</code> | A value that specifies the TagKey, the name of the tag. |
+| <code><a href="#@cdktn/provider-awscc.fsxVolume.FsxVolumeTags.property.value">Value</a></code> | <code>string</code> | A value that specifies the TagValue, the value assigned to the corresponding tag key. |
 
 ---
 
@@ -2147,7 +2295,11 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#key FsxVolume#key}.
+A value that specifies the TagKey, the name of the tag.
+
+Tag keys must be unique for the resource to which they are attached.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#key FsxVolume#key}
 
 ---
 
@@ -2159,7 +2311,11 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/fsx_volume#value FsxVolume#value}.
+A value that specifies the TagValue, the value assigned to the corresponding tag key.
+
+Tag values can be null and don't have to be unique in a tag set. For example, you can have a key-value pair in a tag set of finances : April and also of payroll : April.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/fsx_volume#value FsxVolume#value}
 
 ---
 

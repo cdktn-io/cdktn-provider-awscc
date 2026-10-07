@@ -4,7 +4,7 @@
 
 ### DataAwsccMediaconvertJobTemplates <a name="DataAwsccMediaconvertJobTemplates" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediaconvert_job_templates awscc_mediaconvert_job_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediaconvert_job_templates awscc_mediaconvert_job_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediaconvertJobTemplates.DataAwsccMediaconvertJobTemplates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediaconvertJobTe
 
 The id of the existing DataAwsccMediaconvertJobTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediaconvert_job_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediaconvert_job_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

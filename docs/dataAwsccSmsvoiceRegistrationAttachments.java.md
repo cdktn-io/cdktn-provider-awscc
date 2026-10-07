@@ -4,7 +4,7 @@
 
 ### DataAwsccSmsvoiceRegistrationAttachments <a name="DataAwsccSmsvoiceRegistrationAttachments" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachments.DataAwsccSmsvoiceRegistrationAttachments"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/smsvoice_registration_attachments awscc_smsvoice_registration_attachments}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/smsvoice_registration_attachments awscc_smsvoice_registration_attachments}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceRegistrationAttachments.DataAwsccSmsvoiceRegistrationAttachments.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceRegistrat
 
 The id of the existing DataAwsccSmsvoiceRegistrationAttachments that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/smsvoice_registration_attachments#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/smsvoice_registration_attachments#import import section} in the documentation of this resource for the id to use
 
 ---
 

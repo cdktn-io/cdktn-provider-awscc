@@ -4,7 +4,7 @@
 
 ### AppsyncApiKey <a name="AppsyncApiKey" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key awscc_appsync_api_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key awscc_appsync_api_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appsyncApiKey.AppsyncApiKey.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 Unique AWS AppSync GraphQL API ID for this API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Unique description of your API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
 
 ---
 
@@ -132,7 +132,7 @@ The time after which the API key expires.
 
 The date is represented as seconds since the epoch, rounded down to the nearest hour.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
 
 ---
 
@@ -643,7 +643,7 @@ The construct id used in the generated config for the AppsyncApiKey to import.
 
 The id of the existing AppsyncApiKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1066,7 +1066,7 @@ api_id: str
 
 Unique AWS AppSync GraphQL API ID for this API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#api_id AppsyncApiKey#api_id}
 
 ---
 
@@ -1080,7 +1080,7 @@ description: str
 
 Unique description of your API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#description AppsyncApiKey#description}
 
 ---
 
@@ -1096,7 +1096,7 @@ The time after which the API key expires.
 
 The date is represented as seconds since the epoch, rounded down to the nearest hour.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_key#expires AppsyncApiKey#expires}
 
 ---
 

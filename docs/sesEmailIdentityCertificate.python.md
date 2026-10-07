@@ -4,7 +4,7 @@
 
 ### SesEmailIdentityCertificate <a name="SesEmailIdentityCertificate" id="@cdktn/provider-awscc.sesEmailIdentityCertificate.SesEmailIdentityCertificate"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesEmailIdentityCertificate.SesEmailIdentityCertificate.Initializer"></a>
 
@@ -110,7 +110,7 @@ Must be unique amongst siblings in the same scope
 
 The ARN of the AWS Certificate Manager certificate to associate with the sender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#certificate_arn SesEmailIdentityCertificate#certificate_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#certificate_arn SesEmailIdentityCertificate#certificate_arn}
 
 ---
 
@@ -120,7 +120,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The email identity that owns the sender the certificate is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#email_identity SesEmailIdentityCertificate#email_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#email_identity SesEmailIdentityCertificate#email_identity}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The sender the certificate signs for. For an email address identity this is the identity itself.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#from_address SesEmailIdentityCertificate#from_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#from_address SesEmailIdentityCertificate#from_address}
 
 ---
 
@@ -627,7 +627,7 @@ The construct id used in the generated config for the SesEmailIdentityCertificat
 
 The id of the existing SesEmailIdentityCertificate that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1017,7 +1017,7 @@ certificate_arn: str
 
 The ARN of the AWS Certificate Manager certificate to associate with the sender.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#certificate_arn SesEmailIdentityCertificate#certificate_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#certificate_arn SesEmailIdentityCertificate#certificate_arn}
 
 ---
 
@@ -1031,7 +1031,7 @@ email_identity: str
 
 The email identity that owns the sender the certificate is associated with.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#email_identity SesEmailIdentityCertificate#email_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#email_identity SesEmailIdentityCertificate#email_identity}
 
 ---
 
@@ -1045,7 +1045,7 @@ from_address: str
 
 The sender the certificate signs for. For an email address identity this is the identity itself.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#from_address SesEmailIdentityCertificate#from_address}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#from_address SesEmailIdentityCertificate#from_address}
 
 ---
 

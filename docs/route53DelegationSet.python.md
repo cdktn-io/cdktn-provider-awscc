@@ -4,7 +4,7 @@
 
 ### Route53DelegationSet <a name="Route53DelegationSet" id="@cdktn/provider-awscc.route53DelegationSet.Route53DelegationSet"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_delegation_set awscc_route53_delegation_set}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_delegation_set awscc_route53_delegation_set}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53DelegationSet.Route53DelegationSet.Initializer"></a>
 
@@ -591,7 +591,7 @@ The construct id used in the generated config for the Route53DelegationSet to im
 
 The id of the existing Route53DelegationSet that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_delegation_set#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/route53_delegation_set#import import section} in the documentation of this resource for the id to use
 
 ---
 

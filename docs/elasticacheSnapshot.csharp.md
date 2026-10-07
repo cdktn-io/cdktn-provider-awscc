@@ -4,7 +4,7 @@
 
 ### ElasticacheSnapshot <a name="ElasticacheSnapshot" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshot"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheSnapshot.ElasticacheSnapshot.Initializer"></a>
 
@@ -530,7 +530,7 @@ The construct id used in the generated config for the ElasticacheSnapshot to imp
 
 The id of the existing ElasticacheSnapshot that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1221,7 +1221,7 @@ public string SnapshotName { get; set; }
 
 The name of a snapshot. Must be unique within the customer account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#snapshot_name ElasticacheSnapshot#snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#snapshot_name ElasticacheSnapshot#snapshot_name}
 
 ---
 
@@ -1235,7 +1235,7 @@ public string CacheClusterId { get; set; }
 
 The identifier of an existing cluster to create a snapshot from. The snapshot is created from this cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#cache_cluster_id ElasticacheSnapshot#cache_cluster_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#cache_cluster_id ElasticacheSnapshot#cache_cluster_id}
 
 ---
 
@@ -1249,7 +1249,7 @@ public string KmsKeyId { get; set; }
 
 The ID of the KMS key used to encrypt the snapshot.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#kms_key_id ElasticacheSnapshot#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#kms_key_id ElasticacheSnapshot#kms_key_id}
 
 ---
 
@@ -1265,7 +1265,7 @@ The identifier of an existing replication group to create a snapshot from.
 
 The snapshot is created from this replication group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#replication_group_id ElasticacheSnapshot#replication_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#replication_group_id ElasticacheSnapshot#replication_group_id}
 
 ---
 
@@ -1279,7 +1279,7 @@ public IResolvable|ElasticacheSnapshotTags[] Tags { get; set; }
 
 A list of tags to be added to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#tags ElasticacheSnapshot#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#tags ElasticacheSnapshot#tags}
 
 ---
 
@@ -1328,7 +1328,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#key ElasticacheSnapshot#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#key ElasticacheSnapshot#key}
 
 ---
 
@@ -1342,7 +1342,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#value ElasticacheSnapshot#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#value ElasticacheSnapshot#value}
 
 ---
 

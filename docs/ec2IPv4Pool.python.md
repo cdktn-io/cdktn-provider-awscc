@@ -4,7 +4,7 @@
 
 ### Ec2IPv4Pool <a name="Ec2IPv4Pool" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4Pool"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_i_pv_4_pool awscc_ec2_i_pv_4_pool}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ec2IPv4Pool.Ec2IPv4Pool.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Any tags assigned to the public IPv4 pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
 
 ---
 
@@ -625,7 +625,7 @@ The construct id used in the generated config for the Ec2IPv4Pool to import.
 
 The id of the existing Ec2IPv4Pool that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_i_pv_4_pool#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1033,7 +1033,7 @@ tags: IResolvable | typing.List[Ec2IPv4PoolTags]
 
 Any tags assigned to the public IPv4 pool.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_i_pv_4_pool#tags Ec2IPv4Pool#tags}
 
 ---
 
@@ -1069,7 +1069,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#key Ec2IPv4Pool#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_i_pv_4_pool#key Ec2IPv4Pool#key}
 
 ---
 
@@ -1083,7 +1083,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_i_pv_4_pool#value Ec2IPv4Pool#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_i_pv_4_pool#value Ec2IPv4Pool#value}
 
 ---
 

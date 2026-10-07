@@ -4,7 +4,7 @@
 
 ### DataAwsccMgnLaunchConfigurationTemplates <a name="DataAwsccMgnLaunchConfigurationTemplates" id="@cdktn/provider-awscc.dataAwsccMgnLaunchConfigurationTemplates.DataAwsccMgnLaunchConfigurationTemplates"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mgn_launch_configuration_templates awscc_mgn_launch_configuration_templates}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mgn_launch_configuration_templates awscc_mgn_launch_configuration_templates}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMgnLaunchConfigurationTemplates.DataAwsccMgnLaunchConfigurationTemplates.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMgnLaunchConfigur
 
 The id of the existing DataAwsccMgnLaunchConfigurationTemplates that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mgn_launch_configuration_templates#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mgn_launch_configuration_templates#import import section} in the documentation of this resource for the id to use
 
 ---
 

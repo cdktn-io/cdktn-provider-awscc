@@ -4,7 +4,7 @@
 
 ### DataAwsccConnectIntegrationAssociation <a name="DataAwsccConnectIntegrationAssociation" id="@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_integration_association awscc_connect_integration_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/connect_integration_association awscc_connect_integration_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_integration_association#id DataAwsccConnectIntegrationAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/connect_integration_association#id DataAwsccConnectIntegrationAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccConnectIntegratio
 
 The id of the existing DataAwsccConnectIntegrationAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_integration_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/connect_integration_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -524,6 +524,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.integrationArn">integration_arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.integrationAssociationId">integration_association_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.integrationType">integration_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.sourceApplicationName">source_application_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.sourceApplicationUrl">source_application_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.sourceType">source_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociationTagsList">DataAwsccConnectIntegrationAssociationTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -686,6 +689,36 @@ integration_association_id: str
 
 ```python
 integration_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_application_name`<sup>Required</sup> <a name="source_application_name" id="@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.sourceApplicationName"></a>
+
+```python
+source_application_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_application_url`<sup>Required</sup> <a name="source_application_url" id="@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.sourceApplicationUrl"></a>
+
+```python
+source_application_url: str
+```
+
+- *Type:* str
+
+---
+
+##### `source_type`<sup>Required</sup> <a name="source_type" id="@cdktn/provider-awscc.dataAwsccConnectIntegrationAssociation.DataAwsccConnectIntegrationAssociation.property.sourceType"></a>
+
+```python
+source_type: str
 ```
 
 - *Type:* str
@@ -856,7 +889,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/connect_integration_association#id DataAwsccConnectIntegrationAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/connect_integration_association#id DataAwsccConnectIntegrationAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

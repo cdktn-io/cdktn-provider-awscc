@@ -4,7 +4,7 @@
 
 ### ConnectUseCase <a name="ConnectUseCase" id="@cdktn/provider-awscc.connectUseCase.ConnectUseCase"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case awscc_connect_use_case}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case awscc_connect_use_case}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.connectUseCase.ConnectUseCase.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the ConnectUseCase to import.
 
 The id of the existing ConnectUseCase that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -945,7 +945,7 @@ public string InstanceId { get; set; }
 
 The identifier of the Amazon Connect instance.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#instance_id ConnectUseCase#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#instance_id ConnectUseCase#instance_id}
 
 ---
 
@@ -959,7 +959,7 @@ public string IntegrationAssociationId { get; set; }
 
 The identifier for the integration association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#integration_association_id ConnectUseCase#integration_association_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#integration_association_id ConnectUseCase#integration_association_id}
 
 ---
 
@@ -973,7 +973,7 @@ public string UseCaseType { get; set; }
 
 The type of use case to associate to the integration association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#use_case_type ConnectUseCase#use_case_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#use_case_type ConnectUseCase#use_case_type}
 
 ---
 
@@ -987,7 +987,7 @@ public IResolvable|ConnectUseCaseTags[] Tags { get; set; }
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#tags ConnectUseCase#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#tags ConnectUseCase#tags}
 
 ---
 
@@ -1023,7 +1023,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#key ConnectUseCase#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#key ConnectUseCase#key}
 
 ---
 
@@ -1037,7 +1037,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#value ConnectUseCase#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#value ConnectUseCase#value}
 
 ---
 

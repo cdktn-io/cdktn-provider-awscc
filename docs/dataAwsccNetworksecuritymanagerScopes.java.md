@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworksecuritymanagerScopes <a name="DataAwsccNetworksecuritymanagerScopes" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScopes.DataAwsccNetworksecuritymanagerScopes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_scopes awscc_networksecuritymanager_scopes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_scopes awscc_networksecuritymanager_scopes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworksecuritymanagerScopes.DataAwsccNetworksecuritymanagerScopes.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccNetworksecurityma
 
 The id of the existing DataAwsccNetworksecuritymanagerScopes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networksecuritymanager_scopes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networksecuritymanager_scopes#import import section} in the documentation of this resource for the id to use
 
 ---
 

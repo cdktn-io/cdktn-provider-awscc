@@ -4,7 +4,7 @@
 
 ### StoragegatewayVolume <a name="StoragegatewayVolume" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolume"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume awscc_storagegateway_volume}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume awscc_storagegateway_volume}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewayVolume.StoragegatewayVolume.Initializer"></a>
 
@@ -120,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The Amazon Resource Name (ARN) of the gateway on which to create the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#gateway_arn StoragegatewayVolume#gateway_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#gateway_arn StoragegatewayVolume#gateway_arn}
 
 ---
 
@@ -130,7 +130,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The network interface of the gateway on which to expose the iSCSI target. Only IPv4 addresses are accepted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#network_interface_id StoragegatewayVolume#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#network_interface_id StoragegatewayVolume#network_interface_id}
 
 ---
 
@@ -140,7 +140,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the iSCSI target used by an initiator to connect to a volume and used as a suffix for the target ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#target_name StoragegatewayVolume#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#target_name StoragegatewayVolume#target_name}
 
 ---
 
@@ -150,7 +150,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The size of the volume in bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#volume_size_in_bytes StoragegatewayVolume#volume_size_in_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#volume_size_in_bytes StoragegatewayVolume#volume_size_in_bytes}
 
 ---
 
@@ -160,7 +160,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Set to true to use Amazon S3 server-side encryption with your own KMS key, or false to use a key managed by Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#kms_encrypted StoragegatewayVolume#kms_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#kms_encrypted StoragegatewayVolume#kms_encrypted}
 
 ---
 
@@ -170,7 +170,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of a symmetric customer master key (CMK) used for Amazon S3 server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#kms_key StoragegatewayVolume#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#kms_key StoragegatewayVolume#kms_key}
 
 ---
 
@@ -180,7 +180,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The snapshot ID of the snapshot to restore as the new cached volume (e.g., snap-1122aabb).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#snapshot_id StoragegatewayVolume#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#snapshot_id StoragegatewayVolume#snapshot_id}
 
 ---
 
@@ -190,7 +190,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of an existing volume from which to create the new volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#source_volume_arn StoragegatewayVolume#source_volume_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#source_volume_arn StoragegatewayVolume#source_volume_arn}
 
 ---
 
@@ -200,7 +200,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A list of up to 50 tags to assign to the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#tags StoragegatewayVolume#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#tags StoragegatewayVolume#tags}
 
 ---
 
@@ -697,7 +697,7 @@ The construct id used in the generated config for the StoragegatewayVolume to im
 
 The id of the existing StoragegatewayVolume that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1319,7 +1319,7 @@ public java.lang.String getGatewayArn();
 
 The Amazon Resource Name (ARN) of the gateway on which to create the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#gateway_arn StoragegatewayVolume#gateway_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#gateway_arn StoragegatewayVolume#gateway_arn}
 
 ---
 
@@ -1333,7 +1333,7 @@ public java.lang.String getNetworkInterfaceId();
 
 The network interface of the gateway on which to expose the iSCSI target. Only IPv4 addresses are accepted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#network_interface_id StoragegatewayVolume#network_interface_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#network_interface_id StoragegatewayVolume#network_interface_id}
 
 ---
 
@@ -1347,7 +1347,7 @@ public java.lang.String getTargetName();
 
 The name of the iSCSI target used by an initiator to connect to a volume and used as a suffix for the target ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#target_name StoragegatewayVolume#target_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#target_name StoragegatewayVolume#target_name}
 
 ---
 
@@ -1361,7 +1361,7 @@ public java.lang.Number getVolumeSizeInBytes();
 
 The size of the volume in bytes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#volume_size_in_bytes StoragegatewayVolume#volume_size_in_bytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#volume_size_in_bytes StoragegatewayVolume#volume_size_in_bytes}
 
 ---
 
@@ -1375,7 +1375,7 @@ public java.lang.Boolean|IResolvable getKmsEncrypted();
 
 Set to true to use Amazon S3 server-side encryption with your own KMS key, or false to use a key managed by Amazon S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#kms_encrypted StoragegatewayVolume#kms_encrypted}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#kms_encrypted StoragegatewayVolume#kms_encrypted}
 
 ---
 
@@ -1389,7 +1389,7 @@ public java.lang.String getKmsKey();
 
 The Amazon Resource Name (ARN) of a symmetric customer master key (CMK) used for Amazon S3 server-side encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#kms_key StoragegatewayVolume#kms_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#kms_key StoragegatewayVolume#kms_key}
 
 ---
 
@@ -1403,7 +1403,7 @@ public java.lang.String getSnapshotId();
 
 The snapshot ID of the snapshot to restore as the new cached volume (e.g., snap-1122aabb).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#snapshot_id StoragegatewayVolume#snapshot_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#snapshot_id StoragegatewayVolume#snapshot_id}
 
 ---
 
@@ -1417,7 +1417,7 @@ public java.lang.String getSourceVolumeArn();
 
 The ARN of an existing volume from which to create the new volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#source_volume_arn StoragegatewayVolume#source_volume_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#source_volume_arn StoragegatewayVolume#source_volume_arn}
 
 ---
 
@@ -1431,7 +1431,7 @@ public IResolvable|java.util.List<StoragegatewayVolumeTags> getTags();
 
 A list of up to 50 tags to assign to the volume.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#tags StoragegatewayVolume#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#tags StoragegatewayVolume#tags}
 
 ---
 
@@ -1467,7 +1467,7 @@ public java.lang.String getKey();
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#key StoragegatewayVolume#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#key StoragegatewayVolume#key}
 
 ---
 
@@ -1481,7 +1481,7 @@ public java.lang.String getValue();
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/storagegateway_volume#value StoragegatewayVolume#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/storagegateway_volume#value StoragegatewayVolume#value}
 
 ---
 

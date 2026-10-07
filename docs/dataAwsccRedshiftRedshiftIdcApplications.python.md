@@ -4,7 +4,7 @@
 
 ### DataAwsccRedshiftRedshiftIdcApplications <a name="DataAwsccRedshiftRedshiftIdcApplications" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplications"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/redshift_redshift_idc_applications awscc_redshift_redshift_idc_applications}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/redshift_redshift_idc_applications awscc_redshift_redshift_idc_applications}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRedshiftRedshiftIdcApplications.DataAwsccRedshiftRedshiftIdcApplications.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccRedshiftRedshiftI
 
 The id of the existing DataAwsccRedshiftRedshiftIdcApplications that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/redshift_redshift_idc_applications#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/redshift_redshift_idc_applications#import import section} in the documentation of this resource for the id to use
 
 ---
 

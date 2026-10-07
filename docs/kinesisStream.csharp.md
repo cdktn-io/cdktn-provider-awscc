@@ -4,7 +4,7 @@
 
 ### KinesisStream <a name="KinesisStream" id="@cdktn/provider-awscc.kinesisStream.KinesisStream"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream awscc_kinesis_stream}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream awscc_kinesis_stream}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.kinesisStream.KinesisStream.Initializer"></a>
 
@@ -80,6 +80,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.resetDesiredShardLevelMetrics">ResetDesiredShardLevelMetrics</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.resetMaxRecordSizeInKiB">ResetMaxRecordSizeInKiB</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.resetName">ResetName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.resetRecordDistributionStrategy">ResetRecordDistributionStrategy</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.resetRetentionPeriodHours">ResetRetentionPeriodHours</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.resetShardCount">ResetShardCount</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.resetStreamEncryption">ResetStreamEncryption</a></code> | *No description.* |
@@ -452,6 +453,12 @@ private void ResetMaxRecordSizeInKiB()
 private void ResetName()
 ```
 
+##### `ResetRecordDistributionStrategy` <a name="ResetRecordDistributionStrategy" id="@cdktn/provider-awscc.kinesisStream.KinesisStream.resetRecordDistributionStrategy"></a>
+
+```csharp
+private void ResetRecordDistributionStrategy()
+```
+
 ##### `ResetRetentionPeriodHours` <a name="ResetRetentionPeriodHours" id="@cdktn/provider-awscc.kinesisStream.KinesisStream.resetRetentionPeriodHours"></a>
 
 ```csharp
@@ -591,7 +598,7 @@ The construct id used in the generated config for the KinesisStream to import.
 
 The id of the existing KinesisStream that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -630,6 +637,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.desiredShardLevelMetricsInput">DesiredShardLevelMetricsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.maxRecordSizeInKiBInput">MaxRecordSizeInKiBInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.recordDistributionStrategyInput">RecordDistributionStrategyInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.retentionPeriodHoursInput">RetentionPeriodHoursInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.shardCountInput">ShardCountInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.streamEncryptionInput">StreamEncryptionInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamStreamEncryption">KinesisStreamStreamEncryption</a></code> | *No description.* |
@@ -639,6 +647,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.desiredShardLevelMetrics">DesiredShardLevelMetrics</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.maxRecordSizeInKiB">MaxRecordSizeInKiB</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.name">Name</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.recordDistributionStrategy">RecordDistributionStrategy</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.retentionPeriodHours">RetentionPeriodHours</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.shardCount">ShardCount</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStream.property.warmThroughputMiBps">WarmThroughputMiBps</a></code> | <code>double</code> | *No description.* |
@@ -877,6 +886,16 @@ public string NameInput { get; }
 
 ---
 
+##### `RecordDistributionStrategyInput`<sup>Optional</sup> <a name="RecordDistributionStrategyInput" id="@cdktn/provider-awscc.kinesisStream.KinesisStream.property.recordDistributionStrategyInput"></a>
+
+```csharp
+public string RecordDistributionStrategyInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `RetentionPeriodHoursInput`<sup>Optional</sup> <a name="RetentionPeriodHoursInput" id="@cdktn/provider-awscc.kinesisStream.KinesisStream.property.retentionPeriodHoursInput"></a>
 
 ```csharp
@@ -967,6 +986,16 @@ public string Name { get; }
 
 ---
 
+##### `RecordDistributionStrategy`<sup>Required</sup> <a name="RecordDistributionStrategy" id="@cdktn/provider-awscc.kinesisStream.KinesisStream.property.recordDistributionStrategy"></a>
+
+```csharp
+public string RecordDistributionStrategy { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `RetentionPeriodHours`<sup>Required</sup> <a name="RetentionPeriodHours" id="@cdktn/provider-awscc.kinesisStream.KinesisStream.property.retentionPeriodHours"></a>
 
 ```csharp
@@ -1035,6 +1064,7 @@ new KinesisStreamConfig {
     string[] DesiredShardLevelMetrics = null,
     double MaxRecordSizeInKiB = null,
     string Name = null,
+    string RecordDistributionStrategy = null,
     double RetentionPeriodHours = null,
     double ShardCount = null,
     KinesisStreamStreamEncryption StreamEncryption = null,
@@ -1058,6 +1088,7 @@ new KinesisStreamConfig {
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamConfig.property.desiredShardLevelMetrics">DesiredShardLevelMetrics</a></code> | <code>string[]</code> | The final list of shard-level metrics. |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamConfig.property.maxRecordSizeInKiB">MaxRecordSizeInKiB</a></code> | <code>double</code> | Maximum size of a data record in KiB allowed to be put into Kinesis stream. |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamConfig.property.name">Name</a></code> | <code>string</code> | The name of the Kinesis stream. |
+| <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamConfig.property.recordDistributionStrategy">RecordDistributionStrategy</a></code> | <code>string</code> | The record distribution strategy for the stream. This property can ONLY be set when StreamMode is ON_DEMAND. |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamConfig.property.retentionPeriodHours">RetentionPeriodHours</a></code> | <code>double</code> | The number of hours for the data records that are stored in shards to remain accessible. |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamConfig.property.shardCount">ShardCount</a></code> | <code>double</code> | The number of shards that the stream uses. Required when StreamMode = PROVISIONED is passed. |
 | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamConfig.property.streamEncryption">StreamEncryption</a></code> | <code><a href="#@cdktn/provider-awscc.kinesisStream.KinesisStreamStreamEncryption">KinesisStreamStreamEncryption</a></code> | When specified, enables or updates server-side encryption using an AWS KMS key for a specified stream. |
@@ -1147,7 +1178,7 @@ public string[] DesiredShardLevelMetrics { get; set; }
 
 The final list of shard-level metrics.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#desired_shard_level_metrics KinesisStream#desired_shard_level_metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#desired_shard_level_metrics KinesisStream#desired_shard_level_metrics}
 
 ---
 
@@ -1161,7 +1192,7 @@ public double MaxRecordSizeInKiB { get; set; }
 
 Maximum size of a data record in KiB allowed to be put into Kinesis stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#max_record_size_in_ki_b KinesisStream#max_record_size_in_ki_b}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#max_record_size_in_ki_b KinesisStream#max_record_size_in_ki_b}
 
 ---
 
@@ -1175,7 +1206,21 @@ public string Name { get; set; }
 
 The name of the Kinesis stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#name KinesisStream#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#name KinesisStream#name}
+
+---
+
+##### `RecordDistributionStrategy`<sup>Optional</sup> <a name="RecordDistributionStrategy" id="@cdktn/provider-awscc.kinesisStream.KinesisStreamConfig.property.recordDistributionStrategy"></a>
+
+```csharp
+public string RecordDistributionStrategy { get; set; }
+```
+
+- *Type:* string
+
+The record distribution strategy for the stream. This property can ONLY be set when StreamMode is ON_DEMAND.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#record_distribution_strategy KinesisStream#record_distribution_strategy}
 
 ---
 
@@ -1189,7 +1234,7 @@ public double RetentionPeriodHours { get; set; }
 
 The number of hours for the data records that are stored in shards to remain accessible.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#retention_period_hours KinesisStream#retention_period_hours}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#retention_period_hours KinesisStream#retention_period_hours}
 
 ---
 
@@ -1203,7 +1248,7 @@ public double ShardCount { get; set; }
 
 The number of shards that the stream uses. Required when StreamMode = PROVISIONED is passed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#shard_count KinesisStream#shard_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#shard_count KinesisStream#shard_count}
 
 ---
 
@@ -1217,7 +1262,7 @@ public KinesisStreamStreamEncryption StreamEncryption { get; set; }
 
 When specified, enables or updates server-side encryption using an AWS KMS key for a specified stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#stream_encryption KinesisStream#stream_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#stream_encryption KinesisStream#stream_encryption}
 
 ---
 
@@ -1231,7 +1276,7 @@ public KinesisStreamStreamModeDetails StreamModeDetails { get; set; }
 
 The mode in which the stream is running.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#stream_mode_details KinesisStream#stream_mode_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#stream_mode_details KinesisStream#stream_mode_details}
 
 ---
 
@@ -1245,7 +1290,7 @@ public IResolvable|KinesisStreamTags[] Tags { get; set; }
 
 An arbitrary set of tags (key-value pairs) to associate with the Kinesis stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#tags KinesisStream#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#tags KinesisStream#tags}
 
 ---
 
@@ -1259,7 +1304,7 @@ public double WarmThroughputMiBps { get; set; }
 
 Target warm throughput in MiB/s for the stream. This property can ONLY be set when StreamMode is ON_DEMAND.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#warm_throughput_mi_bps KinesisStream#warm_throughput_mi_bps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#warm_throughput_mi_bps KinesisStream#warm_throughput_mi_bps}
 
 ---
 
@@ -1295,7 +1340,7 @@ public string EncryptionType { get; set; }
 
 The encryption type to use. The only valid value is KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#encryption_type KinesisStream#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#encryption_type KinesisStream#encryption_type}
 
 ---
 
@@ -1311,7 +1356,7 @@ The GUID for the customer-managed AWS KMS key to use for encryption.
 
 This value can be a globally unique identifier, a fully specified Amazon Resource Name (ARN) to either an alias or a key, or an alias name prefixed by "alias/".You can also use a master key owned by Kinesis Data Streams by specifying the alias aws/kinesis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#key_id KinesisStream#key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#key_id KinesisStream#key_id}
 
 ---
 
@@ -1345,7 +1390,7 @@ public string StreamMode { get; set; }
 
 The mode of the stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#stream_mode KinesisStream#stream_mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#stream_mode KinesisStream#stream_mode}
 
 ---
 
@@ -1383,7 +1428,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#key KinesisStream#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#key KinesisStream#key}
 
 ---
 
@@ -1399,7 +1444,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 255 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/kinesis_stream#value KinesisStream#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/kinesis_stream#value KinesisStream#value}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### TranscribeMedicalVocabulary <a name="TranscribeMedicalVocabulary" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabulary"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary awscc_transcribe_medical_vocabulary}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.transcribeMedicalVocabulary.TranscribeMedicalVocabulary.Initializer"></a>
 
@@ -516,7 +516,7 @@ The construct id used in the generated config for the TranscribeMedicalVocabular
 
 The id of the existing TranscribeMedicalVocabulary that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -929,7 +929,7 @@ public readonly languageCode: string;
 
 The language code of the vocabulary entries.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#language_code TranscribeMedicalVocabulary#language_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#language_code TranscribeMedicalVocabulary#language_code}
 
 ---
 
@@ -943,7 +943,7 @@ public readonly vocabularyName: string;
 
 The name of the medical vocabulary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#vocabulary_name TranscribeMedicalVocabulary#vocabulary_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#vocabulary_name TranscribeMedicalVocabulary#vocabulary_name}
 
 ---
 
@@ -957,7 +957,7 @@ public readonly tags: IResolvable | TranscribeMedicalVocabularyTags[];
 
 Tags associated with the medical vocabulary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#tags TranscribeMedicalVocabulary#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#tags TranscribeMedicalVocabulary#tags}
 
 ---
 
@@ -971,7 +971,7 @@ public readonly vocabularyFileUri: string;
 
 The Amazon S3 location of the text file that contains the medical vocabulary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#vocabulary_file_uri TranscribeMedicalVocabulary#vocabulary_file_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#vocabulary_file_uri TranscribeMedicalVocabulary#vocabulary_file_uri}
 
 ---
 
@@ -1004,7 +1004,7 @@ public readonly key: string;
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#key TranscribeMedicalVocabulary#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#key TranscribeMedicalVocabulary#key}
 
 ---
 
@@ -1018,7 +1018,7 @@ public readonly value: string;
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/transcribe_medical_vocabulary#value TranscribeMedicalVocabulary#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/transcribe_medical_vocabulary#value TranscribeMedicalVocabulary#value}
 
 ---
 

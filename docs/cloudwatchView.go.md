@@ -4,7 +4,7 @@
 
 ### CloudwatchView <a name="CloudwatchView" id="@cdktn/provider-awscc.cloudwatchView.CloudwatchView"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view awscc_cloudwatch_view}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view awscc_cloudwatch_view}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchView.CloudwatchView.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the CloudwatchView to import.
 
 The id of the existing CloudwatchView that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -981,7 +981,7 @@ Definition *string
 
 The SQL query that defines the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#definition CloudwatchView#definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#definition CloudwatchView#definition}
 
 ---
 
@@ -995,7 +995,7 @@ Description *string
 
 A description of the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#description CloudwatchView#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#description CloudwatchView#description}
 
 ---
 
@@ -1011,7 +1011,7 @@ The name of the view.
 
 Must begin with the "view." prefix followed by lowercase alphanumeric characters, hyphens, and underscores. View names must be unique within the account and region. If not specified, a name is generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#name CloudwatchView#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#name CloudwatchView#name}
 
 ---
 
@@ -1025,7 +1025,7 @@ Tags interface{}
 
 An array of key-value pairs to apply to the view.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#tags CloudwatchView#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#tags CloudwatchView#tags}
 
 ---
 
@@ -1061,7 +1061,7 @@ Key *string
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#key CloudwatchView#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#key CloudwatchView#key}
 
 ---
 
@@ -1075,7 +1075,7 @@ Value *string
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#value CloudwatchView#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#value CloudwatchView#value}
 
 ---
 
