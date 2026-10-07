@@ -4,7 +4,7 @@
 
 ### DataAwsccPersonalizeFilter <a name="DataAwsccPersonalizeFilter" id="@cdktn/provider-awscc.dataAwsccPersonalizeFilter.DataAwsccPersonalizeFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/personalize_filter awscc_personalize_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_filter awscc_personalize_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPersonalizeFilter.DataAwsccPersonalizeFilter.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccPersonalizeFilter
 
 The id of the existing DataAwsccPersonalizeFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/personalize_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -784,7 +784,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/personalize_filter#id DataAwsccPersonalizeFilter#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/personalize_filter#id DataAwsccPersonalizeFilter#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

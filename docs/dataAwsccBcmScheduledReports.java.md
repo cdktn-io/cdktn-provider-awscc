@@ -4,7 +4,7 @@
 
 ### DataAwsccBcmScheduledReports <a name="DataAwsccBcmScheduledReports" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReports"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcm_scheduled_reports awscc_bcm_scheduled_reports}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bcm_scheduled_reports awscc_bcm_scheduled_reports}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccBcmScheduledReports.DataAwsccBcmScheduledReports.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccBcmScheduledRepor
 
 The id of the existing DataAwsccBcmScheduledReports that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/bcm_scheduled_reports#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bcm_scheduled_reports#import import section} in the documentation of this resource for the id to use
 
 ---
 

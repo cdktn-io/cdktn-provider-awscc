@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface AppsyncApiCacheConfig extends cdktn.TerraformMetaArguments {
   /**
   * Caching behavior, such as FULL_REQUEST_CACHING, PER_RESOLVER_CACHING, or OPERATION_LEVEL_CACHING
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache#api_caching_behavior AppsyncApiCache#api_caching_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache#api_caching_behavior AppsyncApiCache#api_caching_behavior}
   */
   readonly apiCachingBehavior: string;
   /**
   * Unique AWS AppSync GraphQL API identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache#api_id AppsyncApiCache#api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache#api_id AppsyncApiCache#api_id}
   */
   readonly apiId: string;
   /**
   * At-rest encryption flag for cache. You cannot update this setting after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache#at_rest_encryption_enabled AppsyncApiCache#at_rest_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache#at_rest_encryption_enabled AppsyncApiCache#at_rest_encryption_enabled}
   */
   readonly atRestEncryptionEnabled?: boolean | cdktn.IResolvable;
   /**
   * Controls how cache health metrics will be emitted to CloudWatch. Cache health metrics include NetworkBandwidthOutAllowanceExceeded and EngineCPUUtilization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache#health_metrics_config AppsyncApiCache#health_metrics_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache#health_metrics_config AppsyncApiCache#health_metrics_config}
   */
   readonly healthMetricsConfig?: string;
   /**
   * Transit encryption flag when connecting to cache. You cannot update this setting after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache#transit_encryption_enabled AppsyncApiCache#transit_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache#transit_encryption_enabled AppsyncApiCache#transit_encryption_enabled}
   */
   readonly transitEncryptionEnabled?: boolean | cdktn.IResolvable;
   /**
   * TTL in seconds for cache entries. Valid values are 1-3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache#ttl AppsyncApiCache#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache#ttl AppsyncApiCache#ttl}
   */
   readonly ttl: number;
   /**
   * The cache instance type, such as SMALL, LARGE and LARGE_4X
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache#type AppsyncApiCache#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache#type AppsyncApiCache#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache awscc_appsync_api_cache}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache awscc_appsync_api_cache}
 */
 export class AppsyncApiCache extends cdktn.TerraformResource {
 
@@ -73,7 +73,7 @@ export class AppsyncApiCache extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a AppsyncApiCache resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppsyncApiCache to import
-  * @param importFromId The id of the existing AppsyncApiCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppsyncApiCache that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppsyncApiCache to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -85,7 +85,7 @@ export class AppsyncApiCache extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appsync_api_cache awscc_appsync_api_cache} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/appsync_api_cache awscc_appsync_api_cache} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,7 +96,7 @@ export class AppsyncApiCache extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_appsync_api_cache',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

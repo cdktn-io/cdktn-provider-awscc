@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2InstanceEventWindows <a name="DataAwsccEc2InstanceEventWindows" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindows.DataAwsccEc2InstanceEventWindows"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_instance_event_windows awscc_ec2_instance_event_windows}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ec2_instance_event_windows awscc_ec2_instance_event_windows}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2InstanceEventWindows.DataAwsccEc2InstanceEventWindows.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEc2InstanceEventW
 
 The id of the existing DataAwsccEc2InstanceEventWindows that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_instance_event_windows#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ec2_instance_event_windows#import import section} in the documentation of this resource for the id to use
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccEventsv2Subscribers <a name="DataAwsccEventsv2Subscribers" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2Subscribers"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_subscribers awscc_eventsv2_subscribers}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2Subscribers.DataAwsccEventsv2Subscribers.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEventsv2Subscribe
 
 The id of the existing DataAwsccEventsv2Subscribers that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_subscribers#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_subscribers#import import section} in the documentation of this resource for the id to use
 
 ---
 

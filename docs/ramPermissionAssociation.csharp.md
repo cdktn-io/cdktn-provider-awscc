@@ -4,7 +4,7 @@
 
 ### RamPermissionAssociation <a name="RamPermissionAssociation" id="@cdktn/provider-awscc.ramPermissionAssociation.RamPermissionAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_permission_association awscc_ram_permission_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_permission_association awscc_ram_permission_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramPermissionAssociation.RamPermissionAssociation.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the RamPermissionAssociation t
 
 The id of the existing RamPermissionAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_permission_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_permission_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -952,7 +952,7 @@ public string PermissionArn { get; set; }
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the AWS RAM permission to associate with the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_permission_association#permission_arn RamPermissionAssociation#permission_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_permission_association#permission_arn RamPermissionAssociation#permission_arn}
 
 ---
 
@@ -966,7 +966,7 @@ public string ResourceShareArn { get; set; }
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_permission_association#resource_share_arn RamPermissionAssociation#resource_share_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_permission_association#resource_share_arn RamPermissionAssociation#resource_share_arn}
 
 ---
 
@@ -982,7 +982,7 @@ Specifies whether to replace the existing permission on the resource share.
 
 Use `true` to replace the current permission. Use `false` to add the permission when no permission is currently associated. The default value is `false`. Updating an existing association also requires `true`, because AWS RAM applies the change by re-associating the permission.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_permission_association#replace RamPermissionAssociation#replace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_permission_association#replace RamPermissionAssociation#replace}
 
 ---
 

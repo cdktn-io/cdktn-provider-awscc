@@ -4,7 +4,7 @@
 
 ### GameliftContainerGroupDefinition <a name="GameliftContainerGroupDefinition" id="@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition awscc_gamelift_container_group_definition}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition awscc_gamelift_container_group_definition}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition.Initializer"></a>
 
@@ -82,6 +82,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition.resetSourceVersionNumber">resetSourceVersionNumber</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition.resetSupportContainerDefinitions">resetSupportContainerDefinitions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition.resetTags">resetTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition.resetTotalVcpuLimit">resetTotalVcpuLimit</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition.resetVersionDescription">resetVersionDescription</a></code> | *No description.* |
 
 ---
@@ -461,6 +462,12 @@ public resetSupportContainerDefinitions(): void
 public resetTags(): void
 ```
 
+##### `resetTotalVcpuLimit` <a name="resetTotalVcpuLimit" id="@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition.resetTotalVcpuLimit"></a>
+
+```typescript
+public resetTotalVcpuLimit(): void
+```
+
 ##### `resetVersionDescription` <a name="resetVersionDescription" id="@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinition.resetVersionDescription"></a>
 
 ```typescript
@@ -570,7 +577,7 @@ The construct id used in the generated config for the GameliftContainerGroupDefi
 
 The id of the existing GameliftContainerGroupDefinition that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1075,12 +1082,12 @@ const gameliftContainerGroupDefinitionConfig: gameliftContainerGroupDefinition.G
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.name">name</a></code> | <code>string</code> | A descriptive label for the container group definition. |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.operatingSystem">operatingSystem</a></code> | <code>string</code> | The operating system of the container group. |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.totalMemoryLimitMebibytes">totalMemoryLimitMebibytes</a></code> | <code>number</code> | The total memory limit of container groups following this definition in MiB. |
-| <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.totalVcpuLimit">totalVcpuLimit</a></code> | <code>number</code> | The total amount of virtual CPUs on the container group definition. |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.containerGroupType">containerGroupType</a></code> | <code>string</code> | The scope of the container group. |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.gameServerContainerDefinition">gameServerContainerDefinition</a></code> | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionGameServerContainerDefinition">GameliftContainerGroupDefinitionGameServerContainerDefinition</a></code> | Specifies the information required to run game servers with this container group. |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.sourceVersionNumber">sourceVersionNumber</a></code> | <code>number</code> | A specific ContainerGroupDefinition version to be updated. |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.supportContainerDefinitions">supportContainerDefinitions</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionSupportContainerDefinitions">GameliftContainerGroupDefinitionSupportContainerDefinitions</a>[]</code> | A collection of support container definitions that define the containers in this group. |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionTags">GameliftContainerGroupDefinitionTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
+| <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.totalVcpuLimit">totalVcpuLimit</a></code> | <code>number</code> | The total amount of virtual CPUs on the container group definition. |
 | <code><a href="#@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.versionDescription">versionDescription</a></code> | <code>string</code> | The description of this version. |
 
 ---
@@ -1165,7 +1172,7 @@ public readonly name: string;
 
 A descriptive label for the container group definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#name GameliftContainerGroupDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#name GameliftContainerGroupDefinition#name}
 
 ---
 
@@ -1179,7 +1186,7 @@ public readonly operatingSystem: string;
 
 The operating system of the container group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#operating_system GameliftContainerGroupDefinition#operating_system}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#operating_system GameliftContainerGroupDefinition#operating_system}
 
 ---
 
@@ -1193,21 +1200,7 @@ public readonly totalMemoryLimitMebibytes: number;
 
 The total memory limit of container groups following this definition in MiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#total_memory_limit_mebibytes GameliftContainerGroupDefinition#total_memory_limit_mebibytes}
-
----
-
-##### `totalVcpuLimit`<sup>Required</sup> <a name="totalVcpuLimit" id="@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.totalVcpuLimit"></a>
-
-```typescript
-public readonly totalVcpuLimit: number;
-```
-
-- *Type:* number
-
-The total amount of virtual CPUs on the container group definition.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#total_vcpu_limit GameliftContainerGroupDefinition#total_vcpu_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#total_memory_limit_mebibytes GameliftContainerGroupDefinition#total_memory_limit_mebibytes}
 
 ---
 
@@ -1221,7 +1214,7 @@ public readonly containerGroupType: string;
 
 The scope of the container group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_group_type GameliftContainerGroupDefinition#container_group_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_group_type GameliftContainerGroupDefinition#container_group_type}
 
 ---
 
@@ -1235,7 +1228,7 @@ public readonly gameServerContainerDefinition: GameliftContainerGroupDefinitionG
 
 Specifies the information required to run game servers with this container group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#game_server_container_definition GameliftContainerGroupDefinition#game_server_container_definition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#game_server_container_definition GameliftContainerGroupDefinition#game_server_container_definition}
 
 ---
 
@@ -1249,7 +1242,7 @@ public readonly sourceVersionNumber: number;
 
 A specific ContainerGroupDefinition version to be updated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#source_version_number GameliftContainerGroupDefinition#source_version_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#source_version_number GameliftContainerGroupDefinition#source_version_number}
 
 ---
 
@@ -1263,7 +1256,7 @@ public readonly supportContainerDefinitions: IResolvable | GameliftContainerGrou
 
 A collection of support container definitions that define the containers in this group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#support_container_definitions GameliftContainerGroupDefinition#support_container_definitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#support_container_definitions GameliftContainerGroupDefinition#support_container_definitions}
 
 ---
 
@@ -1277,7 +1270,21 @@ public readonly tags: IResolvable | GameliftContainerGroupDefinitionTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#tags GameliftContainerGroupDefinition#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#tags GameliftContainerGroupDefinition#tags}
+
+---
+
+##### `totalVcpuLimit`<sup>Optional</sup> <a name="totalVcpuLimit" id="@cdktn/provider-awscc.gameliftContainerGroupDefinition.GameliftContainerGroupDefinitionConfig.property.totalVcpuLimit"></a>
+
+```typescript
+public readonly totalVcpuLimit: number;
+```
+
+- *Type:* number
+
+The total amount of virtual CPUs on the container group definition.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#total_vcpu_limit GameliftContainerGroupDefinition#total_vcpu_limit}
 
 ---
 
@@ -1291,7 +1298,7 @@ public readonly versionDescription: string;
 
 The description of this version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#version_description GameliftContainerGroupDefinition#version_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#version_description GameliftContainerGroupDefinition#version_description}
 
 ---
 
@@ -1331,7 +1338,7 @@ public readonly containerName: string;
 
 A descriptive label for the container definition. Container definition names must be unique with a container group definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_name GameliftContainerGroupDefinition#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_name GameliftContainerGroupDefinition#container_name}
 
 ---
 
@@ -1347,7 +1354,7 @@ A list of container dependencies that determines when this container starts up a
 
 For container groups with multiple containers, dependencies let you define a startup/shutdown sequence across the containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#depends_on GameliftContainerGroupDefinition#depends_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#depends_on GameliftContainerGroupDefinition#depends_on}
 
 ---
 
@@ -1361,7 +1368,7 @@ public readonly environmentOverride: IResolvable | GameliftContainerGroupDefinit
 
 The environment variables to pass to a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#environment_override GameliftContainerGroupDefinition#environment_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#environment_override GameliftContainerGroupDefinition#environment_override}
 
 ---
 
@@ -1375,7 +1382,7 @@ public readonly imageUri: string;
 
 Specifies the image URI of this container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#image_uri GameliftContainerGroupDefinition#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#image_uri GameliftContainerGroupDefinition#image_uri}
 
 ---
 
@@ -1389,7 +1396,7 @@ public readonly linuxCapabilities: GameliftContainerGroupDefinitionGameServerCon
 
 Linux-specific modifications applied to the default Docker container configuration, such as Linux capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#linux_capabilities GameliftContainerGroupDefinition#linux_capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#linux_capabilities GameliftContainerGroupDefinition#linux_capabilities}
 
 ---
 
@@ -1403,7 +1410,7 @@ public readonly mountPoints: IResolvable | GameliftContainerGroupDefinitionGameS
 
 A list of mount point configurations to be used in a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#mount_points GameliftContainerGroupDefinition#mount_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#mount_points GameliftContainerGroupDefinition#mount_points}
 
 ---
 
@@ -1417,7 +1424,7 @@ public readonly portConfiguration: GameliftContainerGroupDefinitionGameServerCon
 
 Defines the ports on the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#port_configuration GameliftContainerGroupDefinition#port_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#port_configuration GameliftContainerGroupDefinition#port_configuration}
 
 ---
 
@@ -1431,7 +1438,7 @@ public readonly resolvedImageDigest: string;
 
 The digest of the container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#resolved_image_digest GameliftContainerGroupDefinition#resolved_image_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#resolved_image_digest GameliftContainerGroupDefinition#resolved_image_digest}
 
 ---
 
@@ -1445,7 +1452,7 @@ public readonly serverSdkVersion: string;
 
 The version of the server SDK used in this container group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#server_sdk_version GameliftContainerGroupDefinition#server_sdk_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#server_sdk_version GameliftContainerGroupDefinition#server_sdk_version}
 
 ---
 
@@ -1478,7 +1485,7 @@ public readonly condition: string;
 
 The type of dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#condition GameliftContainerGroupDefinition#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#condition GameliftContainerGroupDefinition#condition}
 
 ---
 
@@ -1492,7 +1499,7 @@ public readonly containerName: string;
 
 A descriptive label for the container definition. The container being defined depends on this container's condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_name GameliftContainerGroupDefinition#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_name GameliftContainerGroupDefinition#container_name}
 
 ---
 
@@ -1525,7 +1532,7 @@ public readonly name: string;
 
 The environment variable name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#name GameliftContainerGroupDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#name GameliftContainerGroupDefinition#name}
 
 ---
 
@@ -1539,7 +1546,7 @@ public readonly value: string;
 
 The environment variable value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#value GameliftContainerGroupDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#value GameliftContainerGroupDefinition#value}
 
 ---
 
@@ -1571,7 +1578,7 @@ public readonly include: string[];
 
 The list of Linux capabilities to add to the container's default configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#include GameliftContainerGroupDefinition#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#include GameliftContainerGroupDefinition#include}
 
 ---
 
@@ -1605,7 +1612,7 @@ public readonly accessLevel: string;
 
 The access permissions for the mounted path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#access_level GameliftContainerGroupDefinition#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#access_level GameliftContainerGroupDefinition#access_level}
 
 ---
 
@@ -1619,7 +1626,7 @@ public readonly containerPath: string;
 
 The path inside the container where the mount is accessible.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_path GameliftContainerGroupDefinition#container_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_path GameliftContainerGroupDefinition#container_path}
 
 ---
 
@@ -1633,7 +1640,7 @@ public readonly instancePath: string;
 
 The path on the host that will be mounted in the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#instance_path GameliftContainerGroupDefinition#instance_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#instance_path GameliftContainerGroupDefinition#instance_path}
 
 ---
 
@@ -1665,7 +1672,7 @@ public readonly containerPortRanges: IResolvable | GameliftContainerGroupDefinit
 
 Specifies one or more ranges of ports on a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_port_ranges GameliftContainerGroupDefinition#container_port_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_port_ranges GameliftContainerGroupDefinition#container_port_ranges}
 
 ---
 
@@ -1699,7 +1706,7 @@ public readonly fromPort: number;
 
 A starting value for the range of allowed port numbers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#from_port GameliftContainerGroupDefinition#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#from_port GameliftContainerGroupDefinition#from_port}
 
 ---
 
@@ -1713,7 +1720,7 @@ public readonly protocol: string;
 
 Defines the protocol of these ports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#protocol GameliftContainerGroupDefinition#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#protocol GameliftContainerGroupDefinition#protocol}
 
 ---
 
@@ -1729,7 +1736,7 @@ An ending value for the range of allowed port numbers.
 
 Port numbers are end-inclusive. This value must be equal to or greater than FromPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#to_port GameliftContainerGroupDefinition#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#to_port GameliftContainerGroupDefinition#to_port}
 
 ---
 
@@ -1772,7 +1779,7 @@ public readonly containerName: string;
 
 A descriptive label for the container definition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_name GameliftContainerGroupDefinition#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_name GameliftContainerGroupDefinition#container_name}
 
 ---
 
@@ -1788,7 +1795,7 @@ A list of container dependencies that determines when this container starts up a
 
 For container groups with multiple containers, dependencies let you define a startup/shutdown sequence across the containers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#depends_on GameliftContainerGroupDefinition#depends_on}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#depends_on GameliftContainerGroupDefinition#depends_on}
 
 ---
 
@@ -1802,7 +1809,7 @@ public readonly environmentOverride: IResolvable | GameliftContainerGroupDefinit
 
 The environment variables to pass to a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#environment_override GameliftContainerGroupDefinition#environment_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#environment_override GameliftContainerGroupDefinition#environment_override}
 
 ---
 
@@ -1818,7 +1825,7 @@ Specifies if the container is essential.
 
 If an essential container fails a health check, then all containers in the container group will be restarted. You must specify exactly 1 essential container in a container group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#essential GameliftContainerGroupDefinition#essential}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#essential GameliftContainerGroupDefinition#essential}
 
 ---
 
@@ -1832,7 +1839,7 @@ public readonly healthCheck: GameliftContainerGroupDefinitionSupportContainerDef
 
 Specifies how the health of the containers will be checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#health_check GameliftContainerGroupDefinition#health_check}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#health_check GameliftContainerGroupDefinition#health_check}
 
 ---
 
@@ -1846,7 +1853,7 @@ public readonly imageUri: string;
 
 Specifies the image URI of this container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#image_uri GameliftContainerGroupDefinition#image_uri}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#image_uri GameliftContainerGroupDefinition#image_uri}
 
 ---
 
@@ -1860,7 +1867,7 @@ public readonly linuxCapabilities: GameliftContainerGroupDefinitionSupportContai
 
 Linux-specific modifications applied to the default Docker container configuration, such as Linux capabilities.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#linux_capabilities GameliftContainerGroupDefinition#linux_capabilities}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#linux_capabilities GameliftContainerGroupDefinition#linux_capabilities}
 
 ---
 
@@ -1874,7 +1881,7 @@ public readonly memoryHardLimitMebibytes: number;
 
 The total memory limit of container groups following this definition in MiB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#memory_hard_limit_mebibytes GameliftContainerGroupDefinition#memory_hard_limit_mebibytes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#memory_hard_limit_mebibytes GameliftContainerGroupDefinition#memory_hard_limit_mebibytes}
 
 ---
 
@@ -1888,7 +1895,7 @@ public readonly mountPoints: IResolvable | GameliftContainerGroupDefinitionSuppo
 
 A list of mount point configurations to be used in a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#mount_points GameliftContainerGroupDefinition#mount_points}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#mount_points GameliftContainerGroupDefinition#mount_points}
 
 ---
 
@@ -1902,7 +1909,7 @@ public readonly portConfiguration: GameliftContainerGroupDefinitionSupportContai
 
 Defines the ports on the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#port_configuration GameliftContainerGroupDefinition#port_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#port_configuration GameliftContainerGroupDefinition#port_configuration}
 
 ---
 
@@ -1916,7 +1923,7 @@ public readonly resolvedImageDigest: string;
 
 The digest of the container image.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#resolved_image_digest GameliftContainerGroupDefinition#resolved_image_digest}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#resolved_image_digest GameliftContainerGroupDefinition#resolved_image_digest}
 
 ---
 
@@ -1930,7 +1937,7 @@ public readonly vcpu: number;
 
 The number of virtual CPUs to give to the support group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#vcpu GameliftContainerGroupDefinition#vcpu}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#vcpu GameliftContainerGroupDefinition#vcpu}
 
 ---
 
@@ -1963,7 +1970,7 @@ public readonly condition: string;
 
 The type of dependency.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#condition GameliftContainerGroupDefinition#condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#condition GameliftContainerGroupDefinition#condition}
 
 ---
 
@@ -1977,7 +1984,7 @@ public readonly containerName: string;
 
 A descriptive label for the container definition. The container being defined depends on this container's condition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_name GameliftContainerGroupDefinition#container_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_name GameliftContainerGroupDefinition#container_name}
 
 ---
 
@@ -2010,7 +2017,7 @@ public readonly name: string;
 
 The environment variable name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#name GameliftContainerGroupDefinition#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#name GameliftContainerGroupDefinition#name}
 
 ---
 
@@ -2024,7 +2031,7 @@ public readonly value: string;
 
 The environment variable value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#value GameliftContainerGroupDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#value GameliftContainerGroupDefinition#value}
 
 ---
 
@@ -2060,7 +2067,7 @@ public readonly command: string[];
 
 A string array representing the command that the container runs to determine if it is healthy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#command GameliftContainerGroupDefinition#command}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#command GameliftContainerGroupDefinition#command}
 
 ---
 
@@ -2074,7 +2081,7 @@ public readonly interval: number;
 
 How often (in seconds) the health is checked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#interval GameliftContainerGroupDefinition#interval}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#interval GameliftContainerGroupDefinition#interval}
 
 ---
 
@@ -2090,7 +2097,7 @@ How many times the process manager will retry the command after a timeout.
 
 (The first run of the command does not count as a retry.)
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#retries GameliftContainerGroupDefinition#retries}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#retries GameliftContainerGroupDefinition#retries}
 
 ---
 
@@ -2104,7 +2111,7 @@ public readonly startPeriod: number;
 
 The optional grace period (in seconds) to give a container time to boostrap before teh health check is declared failed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#start_period GameliftContainerGroupDefinition#start_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#start_period GameliftContainerGroupDefinition#start_period}
 
 ---
 
@@ -2118,7 +2125,7 @@ public readonly timeout: number;
 
 How many seconds the process manager allows the command to run before canceling it.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#timeout GameliftContainerGroupDefinition#timeout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#timeout GameliftContainerGroupDefinition#timeout}
 
 ---
 
@@ -2150,7 +2157,7 @@ public readonly include: string[];
 
 The list of Linux capabilities to add to the container's default configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#include GameliftContainerGroupDefinition#include}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#include GameliftContainerGroupDefinition#include}
 
 ---
 
@@ -2184,7 +2191,7 @@ public readonly accessLevel: string;
 
 The access permissions for the mounted path.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#access_level GameliftContainerGroupDefinition#access_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#access_level GameliftContainerGroupDefinition#access_level}
 
 ---
 
@@ -2198,7 +2205,7 @@ public readonly containerPath: string;
 
 The path inside the container where the mount is accessible.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_path GameliftContainerGroupDefinition#container_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_path GameliftContainerGroupDefinition#container_path}
 
 ---
 
@@ -2212,7 +2219,7 @@ public readonly instancePath: string;
 
 The path on the host that will be mounted in the container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#instance_path GameliftContainerGroupDefinition#instance_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#instance_path GameliftContainerGroupDefinition#instance_path}
 
 ---
 
@@ -2244,7 +2251,7 @@ public readonly containerPortRanges: IResolvable | GameliftContainerGroupDefinit
 
 Specifies one or more ranges of ports on a container.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#container_port_ranges GameliftContainerGroupDefinition#container_port_ranges}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#container_port_ranges GameliftContainerGroupDefinition#container_port_ranges}
 
 ---
 
@@ -2278,7 +2285,7 @@ public readonly fromPort: number;
 
 A starting value for the range of allowed port numbers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#from_port GameliftContainerGroupDefinition#from_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#from_port GameliftContainerGroupDefinition#from_port}
 
 ---
 
@@ -2292,7 +2299,7 @@ public readonly protocol: string;
 
 Defines the protocol of these ports.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#protocol GameliftContainerGroupDefinition#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#protocol GameliftContainerGroupDefinition#protocol}
 
 ---
 
@@ -2308,7 +2315,7 @@ An ending value for the range of allowed port numbers.
 
 Port numbers are end-inclusive. This value must be equal to or greater than FromPort.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#to_port GameliftContainerGroupDefinition#to_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#to_port GameliftContainerGroupDefinition#to_port}
 
 ---
 
@@ -2343,7 +2350,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#key GameliftContainerGroupDefinition#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#key GameliftContainerGroupDefinition#key}
 
 ---
 
@@ -2357,7 +2364,7 @@ public readonly value: string;
 
 The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/gamelift_container_group_definition#value GameliftContainerGroupDefinition#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/gamelift_container_group_definition#value GameliftContainerGroupDefinition#value}
 
 ---
 

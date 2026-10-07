@@ -4,7 +4,7 @@
 
 ### DataAwsccRamPrincipalAssociations <a name="DataAwsccRamPrincipalAssociations" id="@cdktn/provider-awscc.dataAwsccRamPrincipalAssociations.DataAwsccRamPrincipalAssociations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ram_principal_associations awscc_ram_principal_associations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ram_principal_associations awscc_ram_principal_associations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRamPrincipalAssociations.DataAwsccRamPrincipalAssociations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRamPrincipalAssoc
 
 The id of the existing DataAwsccRamPrincipalAssociations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ram_principal_associations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ram_principal_associations#import import section} in the documentation of this resource for the id to use
 
 ---
 

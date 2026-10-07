@@ -4,7 +4,7 @@
 
 ### SmsvoiceRegistrationAttachment <a name="SmsvoiceRegistrationAttachment" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment awscc_smsvoice_registration_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceRegistrationAttachment.SmsvoiceRegistrationAttachment.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the SmsvoiceRegistrationAttach
 
 The id of the existing SmsvoiceRegistrationAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -970,7 +970,7 @@ The registration file to upload.
 
 The maximum file size is 1500KB and valid file extensions are PDF, JPEG and PNG.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment#attachment_body SmsvoiceRegistrationAttachment#attachment_body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment#attachment_body SmsvoiceRegistrationAttachment#attachment_body}
 
 ---
 
@@ -984,7 +984,7 @@ AttachmentUrl *string
 
 A URL to the required registration file. For example, the URL to an MMS/shortcode form.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment#attachment_url SmsvoiceRegistrationAttachment#attachment_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment#attachment_url SmsvoiceRegistrationAttachment#attachment_url}
 
 ---
 
@@ -998,7 +998,7 @@ Tags interface{}
 
 An array of tags (key and value pairs) to associate with the registration attachment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment#tags SmsvoiceRegistrationAttachment#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment#tags SmsvoiceRegistrationAttachment#tags}
 
 ---
 
@@ -1034,7 +1034,7 @@ Key *string
 
 The key identifier, or name, of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment#key SmsvoiceRegistrationAttachment#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment#key SmsvoiceRegistrationAttachment#key}
 
 ---
 
@@ -1048,7 +1048,7 @@ Value *string
 
 The string value associated with the key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_registration_attachment#value SmsvoiceRegistrationAttachment#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/smsvoice_registration_attachment#value SmsvoiceRegistrationAttachment#value}
 
 ---
 

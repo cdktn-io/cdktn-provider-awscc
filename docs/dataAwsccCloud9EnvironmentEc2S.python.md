@@ -4,7 +4,7 @@
 
 ### DataAwsccCloud9EnvironmentEc2S <a name="DataAwsccCloud9EnvironmentEc2S" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2S.DataAwsccCloud9EnvironmentEc2S"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloud9_environment_ec2s awscc_cloud9_environment_ec2s}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloud9_environment_ec2s awscc_cloud9_environment_ec2s}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloud9EnvironmentEc2S.DataAwsccCloud9EnvironmentEc2S.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCloud9Environment
 
 The id of the existing DataAwsccCloud9EnvironmentEc2S that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloud9_environment_ec2s#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloud9_environment_ec2s#import import section} in the documentation of this resource for the id to use
 
 ---
 

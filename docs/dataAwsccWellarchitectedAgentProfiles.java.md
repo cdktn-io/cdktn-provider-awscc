@@ -4,7 +4,7 @@
 
 ### DataAwsccWellarchitectedAgentProfiles <a name="DataAwsccWellarchitectedAgentProfiles" id="@cdktn/provider-awscc.dataAwsccWellarchitectedAgentProfiles.DataAwsccWellarchitectedAgentProfiles"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/wellarchitected_agent_profiles awscc_wellarchitected_agent_profiles}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/wellarchitected_agent_profiles awscc_wellarchitected_agent_profiles}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccWellarchitectedAgentProfiles.DataAwsccWellarchitectedAgentProfiles.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccWellarchitectedAg
 
 The id of the existing DataAwsccWellarchitectedAgentProfiles that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/wellarchitected_agent_profiles#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/wellarchitected_agent_profiles#import import section} in the documentation of this resource for the id to use
 
 ---
 

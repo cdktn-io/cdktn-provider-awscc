@@ -4,7 +4,7 @@
 
 ### DataAwsccAppstreamFleets <a name="DataAwsccAppstreamFleets" id="@cdktn/provider-awscc.dataAwsccAppstreamFleets.DataAwsccAppstreamFleets"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_fleets awscc_appstream_fleets}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appstream_fleets awscc_appstream_fleets}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamFleets.DataAwsccAppstreamFleets.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccAppstreamFleets t
 
 The id of the existing DataAwsccAppstreamFleets that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_fleets#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/appstream_fleets#import import section} in the documentation of this resource for the id to use
 
 ---
 

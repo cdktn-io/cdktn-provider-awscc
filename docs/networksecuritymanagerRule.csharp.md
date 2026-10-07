@@ -4,7 +4,7 @@
 
 ### NetworksecuritymanagerRule <a name="NetworksecuritymanagerRule" id="@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule awscc_networksecuritymanager_rule}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule awscc_networksecuritymanager_rule}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.Initializer"></a>
 
@@ -537,7 +537,7 @@ The construct id used in the generated config for the NetworksecuritymanagerRule
 
 The id of the existing NetworksecuritymanagerRule that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -572,6 +572,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.property.ruleId">RuleId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.property.status">Status</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRuleTagsList">NetworksecuritymanagerRuleTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.property.updatedAt">UpdatedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.property.version">Version</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.property.configurationInput">ConfigurationInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.property.firewallTypeInput">FirewallTypeInput</a></code> | <code>string</code> | *No description.* |
@@ -776,6 +777,16 @@ public NetworksecuritymanagerRuleTagsList Tags { get; }
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRuleTagsList">NetworksecuritymanagerRuleTagsList</a>
+
+---
+
+##### `UpdatedAt`<sup>Required</sup> <a name="UpdatedAt" id="@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRule.property.updatedAt"></a>
+
+```csharp
+public string UpdatedAt { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -1043,7 +1054,7 @@ public string RuleName { get; set; }
 
 The name of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#rule_name NetworksecuritymanagerRule#rule_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#rule_name NetworksecuritymanagerRule#rule_name}
 
 ---
 
@@ -1057,7 +1068,7 @@ public string Configuration { get; set; }
 
 The rule configuration as a JSON string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#configuration NetworksecuritymanagerRule#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#configuration NetworksecuritymanagerRule#configuration}
 
 ---
 
@@ -1071,7 +1082,7 @@ public string FirewallType { get; set; }
 
 The type of firewall for this rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#firewall_type NetworksecuritymanagerRule#firewall_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#firewall_type NetworksecuritymanagerRule#firewall_type}
 
 ---
 
@@ -1085,7 +1096,7 @@ public string RuleDescription { get; set; }
 
 A description of the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#rule_description NetworksecuritymanagerRule#rule_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#rule_description NetworksecuritymanagerRule#rule_description}
 
 ---
 
@@ -1099,7 +1110,7 @@ public string RuleType { get; set; }
 
 The type of rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#rule_type NetworksecuritymanagerRule#rule_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#rule_type NetworksecuritymanagerRule#rule_type}
 
 ---
 
@@ -1113,7 +1124,7 @@ public IResolvable|NetworksecuritymanagerRuleTags[] Tags { get; set; }
 
 The tags associated with the rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#tags NetworksecuritymanagerRule#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#tags NetworksecuritymanagerRule#tags}
 
 ---
 
@@ -1134,8 +1145,8 @@ new NetworksecuritymanagerRuleTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRuleTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#key NetworksecuritymanagerRule#key}. |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRuleTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#value NetworksecuritymanagerRule#value}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRuleTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#key NetworksecuritymanagerRule#key}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerRule.NetworksecuritymanagerRuleTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#value NetworksecuritymanagerRule#value}. |
 
 ---
 
@@ -1147,7 +1158,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#key NetworksecuritymanagerRule#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#key NetworksecuritymanagerRule#key}.
 
 ---
 
@@ -1159,7 +1170,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networksecuritymanager_rule#value NetworksecuritymanagerRule#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_rule#value NetworksecuritymanagerRule#value}.
 
 ---
 

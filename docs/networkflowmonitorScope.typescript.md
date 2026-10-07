@@ -4,7 +4,7 @@
 
 ### NetworkflowmonitorScope <a name="NetworkflowmonitorScope" id="@cdktn/provider-awscc.networkflowmonitorScope.NetworkflowmonitorScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope awscc_networkflowmonitor_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope awscc_networkflowmonitor_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networkflowmonitorScope.NetworkflowmonitorScope.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the NetworkflowmonitorScope to
 
 The id of the existing NetworkflowmonitorScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -911,7 +911,7 @@ public readonly targets: IResolvable | NetworkflowmonitorScopeTargets[];
 
 The targets for the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#targets NetworkflowmonitorScope#targets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#targets NetworkflowmonitorScope#targets}
 
 ---
 
@@ -925,7 +925,7 @@ public readonly tags: IResolvable | NetworkflowmonitorScopeTags[];
 
 The tags for the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#tags NetworkflowmonitorScope#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#tags NetworkflowmonitorScope#tags}
 
 ---
 
@@ -943,8 +943,8 @@ const networkflowmonitorScopeTags: networkflowmonitorScope.NetworkflowmonitorSco
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networkflowmonitorScope.NetworkflowmonitorScopeTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#key NetworkflowmonitorScope#key}. |
-| <code><a href="#@cdktn/provider-awscc.networkflowmonitorScope.NetworkflowmonitorScopeTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#value NetworkflowmonitorScope#value}. |
+| <code><a href="#@cdktn/provider-awscc.networkflowmonitorScope.NetworkflowmonitorScopeTags.property.key">key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#key NetworkflowmonitorScope#key}. |
+| <code><a href="#@cdktn/provider-awscc.networkflowmonitorScope.NetworkflowmonitorScopeTags.property.value">value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#value NetworkflowmonitorScope#value}. |
 
 ---
 
@@ -956,7 +956,7 @@ public readonly key: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#key NetworkflowmonitorScope#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#key NetworkflowmonitorScope#key}.
 
 ---
 
@@ -968,7 +968,7 @@ public readonly value: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#value NetworkflowmonitorScope#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#value NetworkflowmonitorScope#value}.
 
 ---
 
@@ -1001,7 +1001,7 @@ public readonly region: string;
 
 The AWS Region for the target resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#region NetworkflowmonitorScope#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#region NetworkflowmonitorScope#region}
 
 ---
 
@@ -1015,7 +1015,7 @@ public readonly targetIdentifier: NetworkflowmonitorScopeTargetsTargetIdentifier
 
 A target identifier is a pair of identifying information for a scope target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#target_identifier NetworkflowmonitorScope#target_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#target_identifier NetworkflowmonitorScope#target_identifier}
 
 ---
 
@@ -1048,7 +1048,7 @@ public readonly targetId: NetworkflowmonitorScopeTargetsTargetIdentifierTargetId
 
 A target ID is an internally-generated identifier for a target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#target_id NetworkflowmonitorScope#target_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#target_id NetworkflowmonitorScope#target_id}
 
 ---
 
@@ -1062,7 +1062,7 @@ public readonly targetType: string;
 
 The type of the target. Currently always ACCOUNT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#target_type NetworkflowmonitorScope#target_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#target_type NetworkflowmonitorScope#target_type}
 
 ---
 
@@ -1094,7 +1094,7 @@ public readonly accountId: string;
 
 The account ID for the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networkflowmonitor_scope#account_id NetworkflowmonitorScope#account_id}
 
 ---
 

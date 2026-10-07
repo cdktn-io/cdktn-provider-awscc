@@ -4,7 +4,7 @@
 
 ### Eventsv2Subscriber <a name="Eventsv2Subscriber" id="@cdktn/provider-awscc.eventsv2Subscriber.Eventsv2Subscriber"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber awscc_eventsv2_subscriber}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber awscc_eventsv2_subscriber}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsv2Subscriber.Eventsv2Subscriber.Initializer"></a>
 
@@ -697,7 +697,7 @@ The construct id used in the generated config for the Eventsv2Subscriber to impo
 
 The id of the existing Eventsv2Subscriber that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1330,7 +1330,7 @@ The maximum number of events in a single batch delivered to the target.
 
 The maximum depends on the target: 500 for Kinesis Data Streams and Amazon Data Firehose, 100 for Lambda, Step Functions, and AWS::EventsV2::EventBus targets, 10 for Amazon SQS, Amazon SNS, and AWS::Events::EventBus targets, and 1 for API Gateway, API destinations, and universal service integration targets. The service rejects a value above the target's maximum. Fewer events may be delivered when the batch window elapses. When omitted, the default is 10 for Lambda and Step Functions targets and the target's maximum for other targets. The resolved value applied by the service is returned on read.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#max_batch_size Eventsv2Subscriber#max_batch_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#max_batch_size Eventsv2Subscriber#max_batch_size}
 
 ---
 
@@ -1346,7 +1346,7 @@ The maximum time in seconds to wait for a batch to fill before delivering it, 0-
 
 The default is 0 (no wait). The resolved value applied by the service is returned on read.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#max_batch_window_in_seconds Eventsv2Subscriber#max_batch_window_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#max_batch_window_in_seconds Eventsv2Subscriber#max_batch_window_in_seconds}
 
 ---
 
@@ -1470,7 +1470,7 @@ public readonly eventBusArn: string;
 
 The ARN of the event bus this subscriber belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#event_bus_arn Eventsv2Subscriber#event_bus_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#event_bus_arn Eventsv2Subscriber#event_bus_arn}
 
 ---
 
@@ -1484,7 +1484,7 @@ public readonly invokeConfiguration: Eventsv2SubscriberInvokeConfiguration;
 
 Configuration for how the subscriber invokes its target, including the target ARN, the IAM role used to invoke it, and, optionally, the target-specific parameters object that matches the target type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#invoke_configuration Eventsv2Subscriber#invoke_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#invoke_configuration Eventsv2Subscriber#invoke_configuration}
 
 ---
 
@@ -1500,7 +1500,7 @@ The name of the subscriber.
 
 The first character must be alphanumeric; the remaining characters may also include '.', '-', and '_'.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#name Eventsv2Subscriber#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#name Eventsv2Subscriber#name}
 
 ---
 
@@ -1514,7 +1514,7 @@ public readonly batchConfiguration: Eventsv2SubscriberBatchConfiguration;
 
 Configuration for batching events into a single delivery to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#batch_configuration Eventsv2Subscriber#batch_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#batch_configuration Eventsv2Subscriber#batch_configuration}
 
 ---
 
@@ -1528,7 +1528,7 @@ public readonly description: string;
 
 A description of the subscriber. Control characters and Unicode line separators are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#description Eventsv2Subscriber#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#description Eventsv2Subscriber#description}
 
 ---
 
@@ -1542,7 +1542,7 @@ public readonly filterConfiguration: Eventsv2SubscriberFilterConfiguration;
 
 Configuration for filtering which events are delivered to the target. An event must match every filter to be delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#filter_configuration Eventsv2Subscriber#filter_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#filter_configuration Eventsv2Subscriber#filter_configuration}
 
 ---
 
@@ -1556,7 +1556,7 @@ public readonly logConfiguration: Eventsv2SubscriberLogConfiguration;
 
 Delivery logging configuration for the subscriber.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#log_configuration Eventsv2Subscriber#log_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#log_configuration Eventsv2Subscriber#log_configuration}
 
 ---
 
@@ -1570,7 +1570,7 @@ public readonly onFailureConfiguration: Eventsv2SubscriberOnFailureConfiguration
 
 The destination for events that could not be delivered to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#on_failure_configuration Eventsv2Subscriber#on_failure_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#on_failure_configuration Eventsv2Subscriber#on_failure_configuration}
 
 ---
 
@@ -1584,7 +1584,7 @@ public readonly pointInTimeConfiguration: Eventsv2SubscriberPointInTimeConfigura
 
 The point in time to start delivering events from. Used when StartingPosition is POINT_IN_TIME.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#point_in_time_configuration Eventsv2Subscriber#point_in_time_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#point_in_time_configuration Eventsv2Subscriber#point_in_time_configuration}
 
 ---
 
@@ -1600,7 +1600,7 @@ Resume-time control, never returned by the service.
 
 Applied only when an update transitions State from STOPPED to RUNNING: LAST_PROCESSED (default) resumes from the last processed event, LATEST skips to the newest. Ignored on create and on any update that does not perform that transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#resume_position Eventsv2Subscriber#resume_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#resume_position Eventsv2Subscriber#resume_position}
 
 ---
 
@@ -1614,7 +1614,7 @@ public readonly retryPolicy: Eventsv2SubscriberRetryPolicy;
 
 The retry policy for failed deliveries to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#retry_policy Eventsv2Subscriber#retry_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#retry_policy Eventsv2Subscriber#retry_policy}
 
 ---
 
@@ -1630,7 +1630,7 @@ Where the subscriber starts reading events: LATEST starts from the newest events
 
 POINT_IN_TIME starts from the point specified in PointInTimeConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#starting_position Eventsv2Subscriber#starting_position}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#starting_position Eventsv2Subscriber#starting_position}
 
 ---
 
@@ -1646,7 +1646,7 @@ The run state of the subscriber.
 
 Events are delivered only while the state is RUNNING. Setting the state to STOPPED pauses delivery. When an update sets a stopped subscriber back to RUNNING, ResumePosition controls where delivery resumes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#state Eventsv2Subscriber#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#state Eventsv2Subscriber#state}
 
 ---
 
@@ -1660,7 +1660,7 @@ public readonly tags: IResolvable | Eventsv2SubscriberTags[];
 
 The tags assigned to the subscriber.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#tags Eventsv2Subscriber#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#tags Eventsv2Subscriber#tags}
 
 ---
 
@@ -1674,7 +1674,7 @@ public readonly transformer: Eventsv2SubscriberTransformer;
 
 Configuration for transforming events before delivery to the target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#transformer Eventsv2Subscriber#transformer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#transformer Eventsv2Subscriber#transformer}
 
 ---
 
@@ -1690,7 +1690,7 @@ The delivery ordering mode of the subscriber.
 
 FIFO delivers events in order within an event group; UNORDERED delivers without an ordering guarantee.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#type Eventsv2Subscriber#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#type Eventsv2Subscriber#type}
 
 ---
 
@@ -1723,7 +1723,7 @@ public readonly filters: IResolvable | Eventsv2SubscriberFilterConfigurationFilt
 
 The list of filters, 1-50 entries. An event must match every filter to be delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#filters Eventsv2Subscriber#filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#filters Eventsv2Subscriber#filters}
 
 ---
 
@@ -1737,7 +1737,7 @@ public readonly language: string;
 
 The filter language. The default is EVENT_BRIDGE_PATTERN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#language Eventsv2Subscriber#language}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#language Eventsv2Subscriber#language}
 
 ---
 
@@ -1770,7 +1770,7 @@ public readonly pattern: string;
 
 The event pattern, as a JSON string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#pattern Eventsv2Subscriber#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#pattern Eventsv2Subscriber#pattern}
 
 ---
 
@@ -1784,7 +1784,7 @@ public readonly scope: string;
 
 Which part of the event the pattern is evaluated against: DATA (the event payload), METADATA (event metadata), or SYSTEM_METADATA (service-generated metadata).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#scope Eventsv2Subscriber#scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#scope Eventsv2Subscriber#scope}
 
 ---
 
@@ -1827,7 +1827,7 @@ The ARN of the IAM role the service assumes to invoke the target.
 
 The role must belong to the same account as the subscriber.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#role_arn Eventsv2Subscriber#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#role_arn Eventsv2Subscriber#role_arn}
 
 ---
 
@@ -1843,7 +1843,7 @@ The Amazon Resource Name (ARN) of the target that the subscriber invokes.
 
 For universal service integration targets, use the form arn:{partition}:events:::aws-sdk:{service}:{apiAction}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#target_arn Eventsv2Subscriber#target_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#target_arn Eventsv2Subscriber#target_arn}
 
 ---
 
@@ -1857,7 +1857,7 @@ public readonly eventBusV2Parameters: Eventsv2SubscriberInvokeConfigurationEvent
 
 Parameters for forwarding events to another EventBridge event bus, used when TargetArn is an event bus ARN of the form arn:{partition}:events:{region}:{account}:event-busv2/{name}/{id}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#event_bus_v2_parameters Eventsv2Subscriber#event_bus_v2_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#event_bus_v2_parameters Eventsv2Subscriber#event_bus_v2_parameters}
 
 ---
 
@@ -1871,7 +1871,7 @@ public readonly httpParameters: Eventsv2SubscriberInvokeConfigurationHttpParamet
 
 Parameters for invoking an HTTP endpoint target, such as an Amazon API Gateway endpoint or an EventBridge API destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#http_parameters Eventsv2Subscriber#http_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#http_parameters Eventsv2Subscriber#http_parameters}
 
 ---
 
@@ -1885,7 +1885,7 @@ public readonly kinesisParameters: Eventsv2SubscriberInvokeConfigurationKinesisP
 
 Parameters for writing events to an Amazon Kinesis Data Streams target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#kinesis_parameters Eventsv2Subscriber#kinesis_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#kinesis_parameters Eventsv2Subscriber#kinesis_parameters}
 
 ---
 
@@ -1899,7 +1899,7 @@ public readonly lambdaParameters: Eventsv2SubscriberInvokeConfigurationLambdaPar
 
 Parameters for invoking an AWS Lambda function target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#lambda_parameters Eventsv2Subscriber#lambda_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#lambda_parameters Eventsv2Subscriber#lambda_parameters}
 
 ---
 
@@ -1913,7 +1913,7 @@ public readonly snsParameters: Eventsv2SubscriberInvokeConfigurationSnsParameter
 
 Parameters for publishing events to an Amazon SNS topic target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#sns_parameters Eventsv2Subscriber#sns_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#sns_parameters Eventsv2Subscriber#sns_parameters}
 
 ---
 
@@ -1927,7 +1927,7 @@ public readonly sqsParameters: Eventsv2SubscriberInvokeConfigurationSqsParameter
 
 Parameters for sending events to an Amazon SQS queue target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#sqs_parameters Eventsv2Subscriber#sqs_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#sqs_parameters Eventsv2Subscriber#sqs_parameters}
 
 ---
 
@@ -1941,7 +1941,7 @@ public readonly stepFunctionsParameters: Eventsv2SubscriberInvokeConfigurationSt
 
 Parameters for starting an AWS Step Functions state machine execution target.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#step_functions_parameters Eventsv2Subscriber#step_functions_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#step_functions_parameters Eventsv2Subscriber#step_functions_parameters}
 
 ---
 
@@ -1955,7 +1955,7 @@ public readonly universalTargetParameters: Eventsv2SubscriberInvokeConfiguration
 
 Parameters for invoking an AWS service API as a universal service integration target, used when TargetArn has the form arn:{partition}:events:::aws-sdk:{service}:{apiAction}.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#universal_target_parameters Eventsv2Subscriber#universal_target_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#universal_target_parameters Eventsv2Subscriber#universal_target_parameters}
 
 ---
 
@@ -1989,7 +1989,7 @@ public readonly deduplicationConfiguration: Eventsv2SubscriberInvokeConfiguratio
 
 Deduplication settings applied to the forwarded events on the downstream event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#deduplication_configuration Eventsv2Subscriber#deduplication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#deduplication_configuration Eventsv2Subscriber#deduplication_configuration}
 
 ---
 
@@ -2003,7 +2003,7 @@ public readonly metadata: {[ key: string ]: string};
 
 Metadata forwarded with each event, as key-value string pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#metadata Eventsv2Subscriber#metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#metadata Eventsv2Subscriber#metadata}
 
 ---
 
@@ -2017,7 +2017,7 @@ public readonly systemMetadata: Eventsv2SubscriberInvokeConfigurationEventBusV2P
 
 System metadata attached to each forwarded event, controlling FIFO ordering and deduplication on the downstream event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#system_metadata Eventsv2Subscriber#system_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#system_metadata Eventsv2Subscriber#system_metadata}
 
 ---
 
@@ -2051,7 +2051,7 @@ How duplicate events are detected: CONTENT_BASED deduplicates by a hash of the e
 
 To deduplicate by a caller-supplied token instead, omit DeduplicationConfiguration and set SystemMetadata.DeduplicationId.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#deduplication_type Eventsv2Subscriber#deduplication_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#deduplication_type Eventsv2Subscriber#deduplication_type}
 
 ---
 
@@ -2084,7 +2084,7 @@ public readonly deduplicationId: string;
 
 The deduplication ID for FIFO deduplication on the downstream event bus. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#deduplication_id Eventsv2Subscriber#deduplication_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#deduplication_id Eventsv2Subscriber#deduplication_id}
 
 ---
 
@@ -2100,7 +2100,7 @@ The event group ID for FIFO ordering on the downstream event bus.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#event_group_id Eventsv2Subscriber#event_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#event_group_id Eventsv2Subscriber#event_group_id}
 
 ---
 
@@ -2135,7 +2135,7 @@ public readonly headerParameters: {[ key: string ]: string};
 
 HTTP headers to add to the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#header_parameters Eventsv2Subscriber#header_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#header_parameters Eventsv2Subscriber#header_parameters}
 
 ---
 
@@ -2151,7 +2151,7 @@ The timeout in seconds for each invocation of the target, written as a string.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#invocation_timeout_seconds Eventsv2Subscriber#invocation_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#invocation_timeout_seconds Eventsv2Subscriber#invocation_timeout_seconds}
 
 ---
 
@@ -2165,7 +2165,7 @@ public readonly pathParameterValues: string[];
 
 Values for the path parameters (wildcards) in the target URL, in order.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#path_parameter_values Eventsv2Subscriber#path_parameter_values}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#path_parameter_values Eventsv2Subscriber#path_parameter_values}
 
 ---
 
@@ -2179,7 +2179,7 @@ public readonly queryStringParameters: {[ key: string ]: string};
 
 Query string parameters to add to the request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#query_string_parameters Eventsv2Subscriber#query_string_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#query_string_parameters Eventsv2Subscriber#query_string_parameters}
 
 ---
 
@@ -2212,7 +2212,7 @@ public readonly explicitHashKey: string;
 
 An explicit hash key that overrides the partition key's shard assignment. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#explicit_hash_key Eventsv2Subscriber#explicit_hash_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#explicit_hash_key Eventsv2Subscriber#explicit_hash_key}
 
 ---
 
@@ -2228,7 +2228,7 @@ The partition key that determines which shard each record is written to.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#partition_key Eventsv2Subscriber#partition_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#partition_key Eventsv2Subscriber#partition_key}
 
 ---
 
@@ -2264,7 +2264,7 @@ public readonly durableExecutionName: string;
 
 A unique name for a durable function execution. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#durable_execution_name Eventsv2Subscriber#durable_execution_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#durable_execution_name Eventsv2Subscriber#durable_execution_name}
 
 ---
 
@@ -2280,7 +2280,7 @@ The timeout in seconds for each invocation of the target, written as a string.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#invocation_timeout_seconds Eventsv2Subscriber#invocation_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#invocation_timeout_seconds Eventsv2Subscriber#invocation_timeout_seconds}
 
 ---
 
@@ -2294,7 +2294,7 @@ public readonly invocationType: string;
 
 How the function is invoked: EVENT (asynchronous) or REQUEST_RESPONSE (synchronous).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#invocation_type Eventsv2Subscriber#invocation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#invocation_type Eventsv2Subscriber#invocation_type}
 
 ---
 
@@ -2308,7 +2308,7 @@ public readonly qualifier: string;
 
 The version or alias of the Lambda function to invoke. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#qualifier Eventsv2Subscriber#qualifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#qualifier Eventsv2Subscriber#qualifier}
 
 ---
 
@@ -2322,7 +2322,7 @@ public readonly tenantId: string;
 
 The tenant identifier for multi-tenant Lambda functions. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#tenant_id Eventsv2Subscriber#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#tenant_id Eventsv2Subscriber#tenant_id}
 
 ---
 
@@ -2358,7 +2358,7 @@ public readonly messageAttributes: IResolvable | {[ key: string ]: Eventsv2Subsc
 
 Custom message attributes to attach to each message; Amazon SNS subscription filter policies can match on them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#message_attributes Eventsv2Subscriber#message_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#message_attributes Eventsv2Subscriber#message_attributes}
 
 ---
 
@@ -2374,7 +2374,7 @@ The message deduplication ID to use when the target is a FIFO topic.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#message_deduplication_id Eventsv2Subscriber#message_deduplication_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#message_deduplication_id Eventsv2Subscriber#message_deduplication_id}
 
 ---
 
@@ -2390,7 +2390,7 @@ The message group ID to use when the target is a FIFO topic.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#message_group_id Eventsv2Subscriber#message_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#message_group_id Eventsv2Subscriber#message_group_id}
 
 ---
 
@@ -2404,7 +2404,7 @@ public readonly messageStructure: string;
 
 Set to json to send a different message per delivery protocol. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#message_structure Eventsv2Subscriber#message_structure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#message_structure Eventsv2Subscriber#message_structure}
 
 ---
 
@@ -2418,7 +2418,7 @@ public readonly subject: string;
 
 The subject line to use for email-protocol subscriptions. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#subject Eventsv2Subscriber#subject}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#subject Eventsv2Subscriber#subject}
 
 ---
 
@@ -2452,7 +2452,7 @@ public readonly binaryValue: string;
 
 The attribute value for the Binary data type, Base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#binary_value Eventsv2Subscriber#binary_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#binary_value Eventsv2Subscriber#binary_value}
 
 ---
 
@@ -2468,7 +2468,7 @@ The attribute data type.
 
 For Amazon SQS targets, specify String, Number, or Binary, optionally with a custom label suffix such as Number.float. For Amazon SNS targets, specify String, String.Array, Number, or Binary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#data_type Eventsv2Subscriber#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#data_type Eventsv2Subscriber#data_type}
 
 ---
 
@@ -2482,7 +2482,7 @@ public readonly stringValue: string;
 
 The attribute value for the String and Number data types (and String.Array for Amazon SNS targets).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#string_value Eventsv2Subscriber#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#string_value Eventsv2Subscriber#string_value}
 
 ---
 
@@ -2518,7 +2518,7 @@ public readonly delaySeconds: string;
 
 The delay in seconds for the message, written as a string. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#delay_seconds Eventsv2Subscriber#delay_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#delay_seconds Eventsv2Subscriber#delay_seconds}
 
 ---
 
@@ -2532,7 +2532,7 @@ public readonly messageAttributes: IResolvable | {[ key: string ]: Eventsv2Subsc
 
 Custom message attributes to attach to each message.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#message_attributes Eventsv2Subscriber#message_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#message_attributes Eventsv2Subscriber#message_attributes}
 
 ---
 
@@ -2548,7 +2548,7 @@ The message deduplication ID to use when the target is a FIFO queue.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#message_deduplication_id Eventsv2Subscriber#message_deduplication_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#message_deduplication_id Eventsv2Subscriber#message_deduplication_id}
 
 ---
 
@@ -2564,7 +2564,7 @@ The message group ID to use when the target is a FIFO queue.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#message_group_id Eventsv2Subscriber#message_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#message_group_id Eventsv2Subscriber#message_group_id}
 
 ---
 
@@ -2578,7 +2578,7 @@ public readonly messageSystemAttributes: IResolvable | {[ key: string ]: Eventsv
 
 Message system attributes to attach to each message, such as AWSTraceHeader.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#message_system_attributes Eventsv2Subscriber#message_system_attributes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#message_system_attributes Eventsv2Subscriber#message_system_attributes}
 
 ---
 
@@ -2612,7 +2612,7 @@ public readonly binaryValue: string;
 
 The attribute value for the Binary data type, Base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#binary_value Eventsv2Subscriber#binary_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#binary_value Eventsv2Subscriber#binary_value}
 
 ---
 
@@ -2628,7 +2628,7 @@ The attribute data type.
 
 For Amazon SQS targets, specify String, Number, or Binary, optionally with a custom label suffix such as Number.float. For Amazon SNS targets, specify String, String.Array, Number, or Binary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#data_type Eventsv2Subscriber#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#data_type Eventsv2Subscriber#data_type}
 
 ---
 
@@ -2642,7 +2642,7 @@ public readonly stringValue: string;
 
 The attribute value for the String and Number data types (and String.Array for Amazon SNS targets).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#string_value Eventsv2Subscriber#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#string_value Eventsv2Subscriber#string_value}
 
 ---
 
@@ -2676,7 +2676,7 @@ public readonly binaryValue: string;
 
 The attribute value for the Binary data type, Base64-encoded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#binary_value Eventsv2Subscriber#binary_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#binary_value Eventsv2Subscriber#binary_value}
 
 ---
 
@@ -2692,7 +2692,7 @@ The attribute data type.
 
 For Amazon SQS targets, specify String, Number, or Binary, optionally with a custom label suffix such as Number.float. For Amazon SNS targets, specify String, String.Array, Number, or Binary.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#data_type Eventsv2Subscriber#data_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#data_type Eventsv2Subscriber#data_type}
 
 ---
 
@@ -2706,7 +2706,7 @@ public readonly stringValue: string;
 
 The attribute value for the String and Number data types (and String.Array for Amazon SNS targets).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#string_value Eventsv2Subscriber#string_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#string_value Eventsv2Subscriber#string_value}
 
 ---
 
@@ -2743,7 +2743,7 @@ The timeout in seconds for each invocation of the target, written as a string.
 
 Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#invocation_timeout_seconds Eventsv2Subscriber#invocation_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#invocation_timeout_seconds Eventsv2Subscriber#invocation_timeout_seconds}
 
 ---
 
@@ -2757,7 +2757,7 @@ public readonly invocationType: string;
 
 How the execution is started: EVENT (StartExecution, asynchronous) or REQUEST_RESPONSE (StartSyncExecution, synchronous).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#invocation_type Eventsv2Subscriber#invocation_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#invocation_type Eventsv2Subscriber#invocation_type}
 
 ---
 
@@ -2773,7 +2773,7 @@ A name for the execution.
 
 Must be unique for the account, Region, and state machine. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#name Eventsv2Subscriber#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#name Eventsv2Subscriber#name}
 
 ---
 
@@ -2787,7 +2787,7 @@ public readonly traceHeader: string;
 
 The AWS X-Ray trace header for distributed tracing. Accepts a literal value or a JSONata expression.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#trace_header Eventsv2Subscriber#trace_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#trace_header Eventsv2Subscriber#trace_header}
 
 ---
 
@@ -2822,7 +2822,7 @@ JSON string or JSONata expression that produces the API request.
 
 Supports {% ... %} JSONata expressions for dynamic values from the event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#input Eventsv2Subscriber#input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#input Eventsv2Subscriber#input}
 
 ---
 
@@ -2838,7 +2838,7 @@ Timeout in seconds for each invocation of the target (1-30, default 30).
 
 Must be a literal integer written as a string; JSONata expressions are not supported for this field.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#invocation_timeout_seconds Eventsv2Subscriber#invocation_timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#invocation_timeout_seconds Eventsv2Subscriber#invocation_timeout_seconds}
 
 ---
 
@@ -2873,7 +2873,7 @@ Whether the event payload is included in emitted log records: FULL includes it i
 
 The default is ON_ERROR_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#include_payload Eventsv2Subscriber#include_payload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#include_payload Eventsv2Subscriber#include_payload}
 
 ---
 
@@ -2889,7 +2889,7 @@ The minimum log level: OFF (no logging), ERROR, or INFO.
 
 Records below this level are not emitted. The default is OFF.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#level Eventsv2Subscriber#level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#level Eventsv2Subscriber#level}
 
 ---
 
@@ -2923,7 +2923,7 @@ The ARN of the destination that receives events that could not be delivered.
 
 An Amazon SQS queue is the supported destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#arn Eventsv2Subscriber#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#arn Eventsv2Subscriber#arn}
 
 ---
 
@@ -2957,7 +2957,7 @@ public readonly endPoint: number;
 
 An optional time to stop delivering events at, in seconds since the Unix epoch.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#end_point Eventsv2Subscriber#end_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#end_point Eventsv2Subscriber#end_point}
 
 ---
 
@@ -2971,7 +2971,7 @@ public readonly pointType: string;
 
 Where to start: HORIZON starts from the earliest available event; TIMESTAMP starts from the StartingPoint timestamp.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#point_type Eventsv2Subscriber#point_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#point_type Eventsv2Subscriber#point_type}
 
 ---
 
@@ -2985,7 +2985,7 @@ public readonly startingPoint: number;
 
 The time to start delivering events from, in seconds since the Unix epoch. Required when PointType is TIMESTAMP.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#starting_point Eventsv2Subscriber#starting_point}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#starting_point Eventsv2Subscriber#starting_point}
 
 ---
 
@@ -3021,7 +3021,7 @@ The maximum age of an event in seconds, 60-86400 (24 hours).
 
 When an event reaches this age, retries stop; if OnFailureConfiguration is set, the event is delivered to that destination, otherwise it is dropped. The default is 300.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#max_event_age_in_seconds Eventsv2Subscriber#max_event_age_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#max_event_age_in_seconds Eventsv2Subscriber#max_event_age_in_seconds}
 
 ---
 
@@ -3037,7 +3037,7 @@ The maximum number of retry attempts, 0-185.
 
 When the attempts are exhausted, retries stop; if OnFailureConfiguration is set, the event is delivered to that destination, otherwise it is dropped. The default is 5.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#max_retry_attempts Eventsv2Subscriber#max_retry_attempts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#max_retry_attempts Eventsv2Subscriber#max_retry_attempts}
 
 ---
 
@@ -3051,7 +3051,7 @@ public readonly retryStrategy: string;
 
 Which errors are retried. ALL retries all errors. The default is ALL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#retry_strategy Eventsv2Subscriber#retry_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#retry_strategy Eventsv2Subscriber#retry_strategy}
 
 ---
 
@@ -3086,7 +3086,7 @@ The tag key.
 
 For each resource, each tag key must be unique and each key can have only one value; keys are case sensitive. A key cannot begin or end with a whitespace character; whitespace inside the key is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#key Eventsv2Subscriber#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#key Eventsv2Subscriber#key}
 
 ---
 
@@ -3102,7 +3102,7 @@ The tag value.
 
 May be empty. A value cannot begin or end with a whitespace character; whitespace inside the value is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#value Eventsv2Subscriber#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#value Eventsv2Subscriber#value}
 
 ---
 
@@ -3135,7 +3135,7 @@ public readonly jsonataConfiguration: Eventsv2SubscriberTransformerJsonataConfig
 
 The JSONata expression configuration. Required when Type is JSONATA.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#jsonata_configuration Eventsv2Subscriber#jsonata_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#jsonata_configuration Eventsv2Subscriber#jsonata_configuration}
 
 ---
 
@@ -3151,7 +3151,7 @@ The transform type: RAW delivers the event payload only;
 
 WITH_METADATA delivers the event with its metadata envelope; JSONATA delivers the output of the JSONata expression in JsonataConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#type Eventsv2Subscriber#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#type Eventsv2Subscriber#type}
 
 ---
 
@@ -3183,7 +3183,7 @@ public readonly expression: string;
 
 The JSONata expression that transforms the event, enclosed in {% %} delimiters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_subscriber#expression Eventsv2Subscriber#expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_subscriber#expression Eventsv2Subscriber#expression}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### SagemakerCodeRepository <a name="SagemakerCodeRepository" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepository"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository awscc_sagemaker_code_repository}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository awscc_sagemaker_code_repository}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sagemakerCodeRepository.SagemakerCodeRepository.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the SagemakerCodeRepository to
 
 The id of the existing SagemakerCodeRepository that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -919,7 +919,7 @@ public readonly gitConfig: SagemakerCodeRepositoryGitConfig;
 
 Configuration details for the Git repository, including the URL where it is located and the ARN of the AWS Secrets Manager secret that contains the credentials used to access the repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#git_config SagemakerCodeRepository#git_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#git_config SagemakerCodeRepository#git_config}
 
 ---
 
@@ -933,7 +933,7 @@ public readonly codeRepositoryName: string;
 
 The name of the Git repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#code_repository_name SagemakerCodeRepository#code_repository_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#code_repository_name SagemakerCodeRepository#code_repository_name}
 
 ---
 
@@ -947,7 +947,7 @@ public readonly tags: IResolvable | SagemakerCodeRepositoryTags[];
 
 An array of key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#tags SagemakerCodeRepository#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#tags SagemakerCodeRepository#tags}
 
 ---
 
@@ -981,7 +981,7 @@ public readonly repositoryUrl: string;
 
 The URL where the Git repository is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#repository_url SagemakerCodeRepository#repository_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#repository_url SagemakerCodeRepository#repository_url}
 
 ---
 
@@ -995,7 +995,7 @@ public readonly branch: string;
 
 The default branch for the Git repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#branch SagemakerCodeRepository#branch}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#branch SagemakerCodeRepository#branch}
 
 ---
 
@@ -1009,7 +1009,7 @@ public readonly secretArn: string;
 
 The Amazon Resource Name (ARN) of the AWS Secrets Manager secret that contains the credentials used to access the git repository.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#secret_arn SagemakerCodeRepository#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#secret_arn SagemakerCodeRepository#secret_arn}
 
 ---
 
@@ -1042,7 +1042,7 @@ public readonly key: string;
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#key SagemakerCodeRepository#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#key SagemakerCodeRepository#key}
 
 ---
 
@@ -1056,7 +1056,7 @@ public readonly value: string;
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/sagemaker_code_repository#value SagemakerCodeRepository#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/sagemaker_code_repository#value SagemakerCodeRepository#value}
 
 ---
 

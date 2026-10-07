@@ -4,7 +4,7 @@
 
 ### Eventsv2EventSource <a name="Eventsv2EventSource" id="@cdktn/provider-awscc.eventsv2EventSource.Eventsv2EventSource"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source awscc_eventsv2_event_source}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source awscc_eventsv2_event_source}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.eventsv2EventSource.Eventsv2EventSource.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the Eventsv2EventSource to imp
 
 The id of the existing Eventsv2EventSource that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1022,7 +1022,7 @@ Configuration Eventsv2EventSourceConfiguration
 
 The event source configuration. Specify exactly one of AwsServiceEventsConfiguration or PartnerEventsConfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#configuration Eventsv2EventSource#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#configuration Eventsv2EventSource#configuration}
 
 ---
 
@@ -1036,7 +1036,7 @@ EventBusArn *string
 
 The ARN of the custom event bus the event source forwards onto.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#event_bus_arn Eventsv2EventSource#event_bus_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#event_bus_arn Eventsv2EventSource#event_bus_arn}
 
 ---
 
@@ -1052,7 +1052,7 @@ The name of the event source.
 
 The first character must be alphanumeric; the remaining characters may also include '.', '-', and '_'. Names cannot begin with the reserved aws. prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#name Eventsv2EventSource#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#name Eventsv2EventSource#name}
 
 ---
 
@@ -1066,7 +1066,7 @@ Description *string
 
 A description of the event source. Control characters and Unicode line separators are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#description Eventsv2EventSource#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#description Eventsv2EventSource#description}
 
 ---
 
@@ -1080,7 +1080,7 @@ Tags interface{}
 
 The tags assigned to the event source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#tags Eventsv2EventSource#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#tags Eventsv2EventSource#tags}
 
 ---
 
@@ -1116,7 +1116,7 @@ AwsServiceEventsConfiguration Eventsv2EventSourceConfigurationAwsServiceEventsCo
 
 Configuration for forwarding a single AWS service's events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#aws_service_events_configuration Eventsv2EventSource#aws_service_events_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#aws_service_events_configuration Eventsv2EventSource#aws_service_events_configuration}
 
 ---
 
@@ -1130,7 +1130,7 @@ PartnerEventsConfiguration Eventsv2EventSourceConfigurationPartnerEventsConfigur
 
 Configuration for forwarding a partner event source's events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#partner_events_configuration Eventsv2EventSource#partner_events_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#partner_events_configuration Eventsv2EventSource#partner_events_configuration}
 
 ---
 
@@ -1168,7 +1168,7 @@ AwsService *string
 
 A single AWS service source identifier, for example aws.s3. Wildcards and lists are not allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#aws_service Eventsv2EventSource#aws_service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#aws_service Eventsv2EventSource#aws_service}
 
 ---
 
@@ -1182,7 +1182,7 @@ OnFailureConfiguration Eventsv2EventSourceConfigurationAwsServiceEventsConfigura
 
 The destination for events that could not be forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#on_failure_configuration Eventsv2EventSource#on_failure_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#on_failure_configuration Eventsv2EventSource#on_failure_configuration}
 
 ---
 
@@ -1198,7 +1198,7 @@ A filter pattern, as a JSON string, that defines which events from the specified
 
 Do not include source, account, or region as top-level fields. If you do not specify a pattern, all events from the service are forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#pattern Eventsv2EventSource#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#pattern Eventsv2EventSource#pattern}
 
 ---
 
@@ -1234,7 +1234,7 @@ The ARN of the Amazon SQS standard queue that receives events that could not be 
 
 FIFO queues are not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#arn Eventsv2EventSource#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#arn Eventsv2EventSource#arn}
 
 ---
 
@@ -1274,7 +1274,7 @@ OnFailureConfiguration Eventsv2EventSourceConfigurationPartnerEventsConfiguratio
 
 The destination for events that could not be forwarded, covering both the forwarding target and the managed partner event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#on_failure_configuration Eventsv2EventSource#on_failure_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#on_failure_configuration Eventsv2EventSource#on_failure_configuration}
 
 ---
 
@@ -1290,7 +1290,7 @@ The identifier of the AWS KMS customer managed key for EventBridge to use, if yo
 
 The identifier can be the key Amazon Resource Name (ARN), KeyId, key alias, or key alias ARN. If you do not specify a customer managed key identifier, EventBridge uses an AWS owned key to encrypt events on the event bus.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#partner_bus_kms_key_identifier Eventsv2EventSource#partner_bus_kms_key_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#partner_bus_kms_key_identifier Eventsv2EventSource#partner_bus_kms_key_identifier}
 
 ---
 
@@ -1306,7 +1306,7 @@ The ARN of the partner event source to forward.
 
 The partner owns the event source, so the ARN's account segment is empty. Changing this property replaces the event source. Because Name and EventBusArn together identify an event source, and the replacement is created before the old resource is deleted, change Name in the same update.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#partner_event_source_arn Eventsv2EventSource#partner_event_source_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#partner_event_source_arn Eventsv2EventSource#partner_event_source_arn}
 
 ---
 
@@ -1322,7 +1322,7 @@ A filter pattern, as a JSON string, that defines which events from the specified
 
 If you do not specify a pattern, all events from the partner event source are forwarded.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#pattern Eventsv2EventSource#pattern}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#pattern Eventsv2EventSource#pattern}
 
 ---
 
@@ -1358,7 +1358,7 @@ The ARN of the Amazon SQS standard queue that receives events that could not be 
 
 FIFO queues are not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#arn Eventsv2EventSource#arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#arn Eventsv2EventSource#arn}
 
 ---
 
@@ -1394,7 +1394,7 @@ Key *string
 
 The tag key. Unique per resource; keys are case sensitive. No leading or trailing whitespace (interior whitespace is allowed).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#key Eventsv2EventSource#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#key Eventsv2EventSource#key}
 
 ---
 
@@ -1408,7 +1408,7 @@ Value *string
 
 The tag value. May be empty. No leading or trailing whitespace (interior whitespace is allowed).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/eventsv2_event_source#value Eventsv2EventSource#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/eventsv2_event_source#value Eventsv2EventSource#value}
 
 ---
 

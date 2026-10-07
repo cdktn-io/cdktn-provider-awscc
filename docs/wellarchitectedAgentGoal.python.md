@@ -4,7 +4,7 @@
 
 ### WellarchitectedAgentGoal <a name="WellarchitectedAgentGoal" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoal"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wellarchitectedAgentGoal.WellarchitectedAgentGoal.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The list of Well-Architected pillars this goal targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
 
 ---
 
@@ -124,7 +124,7 @@ The Amazon Resource Name (ARN) of the parent Agent Profile that owns this goal.
 
 Pass `!Ref` of the parent AWS::WellArchitected::AgentProfile to flow its ARN here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The title of the Agent Goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A description of the Agent Goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
 
 ---
 
@@ -648,7 +648,7 @@ The construct id used in the generated config for the WellarchitectedAgentGoal t
 
 The id of the existing WellarchitectedAgentGoal that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1128,7 +1128,7 @@ pillars: typing.List[str]
 
 The list of Well-Architected pillars this goal targets.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
 
 ---
 
@@ -1144,7 +1144,7 @@ The Amazon Resource Name (ARN) of the parent Agent Profile that owns this goal.
 
 Pass `!Ref` of the parent AWS::WellArchitected::AgentProfile to flow its ARN here.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
 
 ---
 
@@ -1158,7 +1158,7 @@ title: str
 
 The title of the Agent Goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
 
 ---
 
@@ -1172,7 +1172,7 @@ description: str
 
 A description of the Agent Goal.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### RamPrincipalAssociation <a name="RamPrincipalAssociation" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_principal_association awscc_ram_principal_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_principal_association awscc_ram_principal_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.ramPrincipalAssociation.RamPrincipalAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the RamPrincipalAssociation to
 
 The id of the existing RamPrincipalAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_principal_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_principal_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -910,7 +910,7 @@ An AWS account ID
 
 - An ARN of an IAM user
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_principal_association#principal RamPrincipalAssociation#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_principal_association#principal RamPrincipalAssociation#principal}
 
 ---
 
@@ -924,7 +924,7 @@ public readonly resourceShareArn: string;
 
 Specifies the [Amazon Resource Name (ARN)](https://docs.aws.amazon.com/general/latest/gr/aws-arns-and-namespaces.html) of the resource share.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ram_principal_association#resource_share_arn RamPrincipalAssociation#resource_share_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ram_principal_association#resource_share_arn RamPrincipalAssociation#resource_share_arn}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### PersonalizeFilter <a name="PersonalizeFilter" id="@cdktn/provider-awscc.personalizeFilter.PersonalizeFilter"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter awscc_personalize_filter}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter awscc_personalize_filter}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeFilter.PersonalizeFilter.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the PersonalizeFilter to impor
 
 The id of the existing PersonalizeFilter that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -967,7 +967,7 @@ public string DatasetGroupArn { get; set; }
 
 The ARN of the dataset group that the filter belongs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#dataset_group_arn PersonalizeFilter#dataset_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#dataset_group_arn PersonalizeFilter#dataset_group_arn}
 
 ---
 
@@ -981,7 +981,7 @@ public string FilterExpression { get; set; }
 
 The filter expression that defines which items are included or excluded from recommendations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#filter_expression PersonalizeFilter#filter_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#filter_expression PersonalizeFilter#filter_expression}
 
 ---
 
@@ -995,7 +995,7 @@ public string Name { get; set; }
 
 The name of the filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#name PersonalizeFilter#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#name PersonalizeFilter#name}
 
 ---
 
@@ -1009,7 +1009,7 @@ public IResolvable|PersonalizeFilterTags[] Tags { get; set; }
 
 Tags to associate with the filter.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#tags PersonalizeFilter#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#tags PersonalizeFilter#tags}
 
 ---
 
@@ -1045,7 +1045,7 @@ public string Key { get; set; }
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#key PersonalizeFilter#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#key PersonalizeFilter#key}
 
 ---
 
@@ -1059,7 +1059,7 @@ public string Value { get; set; }
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/personalize_filter#value PersonalizeFilter#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_filter#value PersonalizeFilter#value}
 
 ---
 

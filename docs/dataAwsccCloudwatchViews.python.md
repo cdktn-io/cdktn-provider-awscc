@@ -4,7 +4,7 @@
 
 ### DataAwsccCloudwatchViews <a name="DataAwsccCloudwatchViews" id="@cdktn/provider-awscc.dataAwsccCloudwatchViews.DataAwsccCloudwatchViews"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloudwatch_views awscc_cloudwatch_views}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_views awscc_cloudwatch_views}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccCloudwatchViews.DataAwsccCloudwatchViews.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccCloudwatchViews t
 
 The id of the existing DataAwsccCloudwatchViews that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/cloudwatch_views#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_views#import import section} in the documentation of this resource for the id to use
 
 ---
 

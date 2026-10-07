@@ -4,7 +4,7 @@
 
 ### S3Bucket <a name="S3Bucket" id="@cdktn/provider-awscc.s3Bucket.S3Bucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket awscc_s3_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer"></a>
 
@@ -82,6 +82,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putInventoryConfigurations">PutInventoryConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putLifecycleConfiguration">PutLifecycleConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putLoggingConfiguration">PutLoggingConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataConfiguration">PutMetadataConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataTableConfiguration">PutMetadataTableConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetricsConfigurations">PutMetricsConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putNotificationConfiguration">PutNotificationConfiguration</a></code> | *No description.* |
@@ -92,16 +93,20 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putVersioningConfiguration">PutVersioningConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.putWebsiteConfiguration">PutWebsiteConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAbacStatus">ResetAbacStatus</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAccelerateConfiguration">ResetAccelerateConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAccessControl">ResetAccessControl</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAnalyticsConfigurations">ResetAnalyticsConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketEncryption">ResetBucketEncryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketName">ResetBucketName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketNamePrefix">ResetBucketNamePrefix</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketNamespace">ResetBucketNamespace</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetCorsConfiguration">ResetCorsConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetIntelligentTieringConfigurations">ResetIntelligentTieringConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetInventoryConfigurations">ResetInventoryConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetLifecycleConfiguration">ResetLifecycleConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetLoggingConfiguration">ResetLoggingConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetadataConfiguration">ResetMetadataConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetadataTableConfiguration">ResetMetadataTableConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetricsConfigurations">ResetMetricsConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.resetNotificationConfiguration">ResetNotificationConfiguration</a></code> | *No description.* |
@@ -521,6 +526,18 @@ private void PutLoggingConfiguration(S3BucketLoggingConfiguration Value)
 
 ---
 
+##### `PutMetadataConfiguration` <a name="PutMetadataConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataConfiguration"></a>
+
+```csharp
+private void PutMetadataConfiguration(S3BucketMetadataConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a>
+
+---
+
 ##### `PutMetadataTableConfiguration` <a name="PutMetadataTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.putMetadataTableConfiguration"></a>
 
 ```csharp
@@ -641,6 +658,12 @@ private void PutWebsiteConfiguration(S3BucketWebsiteConfiguration Value)
 
 ---
 
+##### `ResetAbacStatus` <a name="ResetAbacStatus" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAbacStatus"></a>
+
+```csharp
+private void ResetAbacStatus()
+```
+
 ##### `ResetAccelerateConfiguration` <a name="ResetAccelerateConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetAccelerateConfiguration"></a>
 
 ```csharp
@@ -671,6 +694,18 @@ private void ResetBucketEncryption()
 private void ResetBucketName()
 ```
 
+##### `ResetBucketNamePrefix` <a name="ResetBucketNamePrefix" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketNamePrefix"></a>
+
+```csharp
+private void ResetBucketNamePrefix()
+```
+
+##### `ResetBucketNamespace` <a name="ResetBucketNamespace" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetBucketNamespace"></a>
+
+```csharp
+private void ResetBucketNamespace()
+```
+
 ##### `ResetCorsConfiguration` <a name="ResetCorsConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetCorsConfiguration"></a>
 
 ```csharp
@@ -699,6 +734,12 @@ private void ResetLifecycleConfiguration()
 
 ```csharp
 private void ResetLoggingConfiguration()
+```
+
+##### `ResetMetadataConfiguration` <a name="ResetMetadataConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetadataConfiguration"></a>
+
+```csharp
+private void ResetMetadataConfiguration()
 ```
 
 ##### `ResetMetadataTableConfiguration` <a name="ResetMetadataTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.resetMetadataTableConfiguration"></a>
@@ -870,7 +911,7 @@ The construct id used in the generated config for the S3Bucket to import.
 
 The id of the existing S3Bucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -912,6 +953,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.inventoryConfigurations">InventoryConfigurations</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsList">S3BucketInventoryConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.lifecycleConfiguration">LifecycleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLifecycleConfigurationOutputReference">S3BucketLifecycleConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.loggingConfiguration">LoggingConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfigurationOutputReference">S3BucketLoggingConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataConfiguration">MetadataConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference">S3BucketMetadataConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataTableConfiguration">MetadataTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfigurationOutputReference">S3BucketMetadataTableConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metricsConfigurations">MetricsConfigurations</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetricsConfigurationsList">S3BucketMetricsConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.notificationConfiguration">NotificationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketNotificationConfigurationOutputReference">S3BucketNotificationConfigurationOutputReference</a></code> | *No description.* |
@@ -924,16 +966,20 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.versioningConfiguration">VersioningConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketVersioningConfigurationOutputReference">S3BucketVersioningConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.websiteConfiguration">WebsiteConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketWebsiteConfigurationOutputReference">S3BucketWebsiteConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.websiteUrl">WebsiteUrl</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.abacStatusInput">AbacStatusInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accelerateConfigurationInput">AccelerateConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAccelerateConfiguration">S3BucketAccelerateConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accessControlInput">AccessControlInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.analyticsConfigurationsInput">AnalyticsConfigurationsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurations">S3BucketAnalyticsConfigurations</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketEncryptionInput">BucketEncryptionInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryption">S3BucketBucketEncryption</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNameInput">BucketNameInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamePrefixInput">BucketNamePrefixInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamespaceInput">BucketNamespaceInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.corsConfigurationInput">CorsConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketCorsConfiguration">S3BucketCorsConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.intelligentTieringConfigurationsInput">IntelligentTieringConfigurationsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketIntelligentTieringConfigurations">S3BucketIntelligentTieringConfigurations</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.inventoryConfigurationsInput">InventoryConfigurationsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.lifecycleConfigurationInput">LifecycleConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLifecycleConfiguration">S3BucketLifecycleConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.loggingConfigurationInput">LoggingConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfiguration">S3BucketLoggingConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataConfigurationInput">MetadataConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataTableConfigurationInput">MetadataTableConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfiguration">S3BucketMetadataTableConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metricsConfigurationsInput">MetricsConfigurationsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetricsConfigurations">S3BucketMetricsConfigurations</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.notificationConfigurationInput">NotificationConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketNotificationConfiguration">S3BucketNotificationConfiguration</a></code> | *No description.* |
@@ -945,8 +991,11 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.tagsInput">TagsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketTags">S3BucketTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.versioningConfigurationInput">VersioningConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketVersioningConfiguration">S3BucketVersioningConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.websiteConfigurationInput">WebsiteConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketWebsiteConfiguration">S3BucketWebsiteConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.abacStatus">AbacStatus</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accessControl">AccessControl</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketName">BucketName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamePrefix">BucketNamePrefix</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamespace">BucketNamespace</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.property.objectLockEnabled">ObjectLockEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 
 ---
@@ -1213,6 +1262,16 @@ public S3BucketLoggingConfigurationOutputReference LoggingConfiguration { get; }
 
 ---
 
+##### `MetadataConfiguration`<sup>Required</sup> <a name="MetadataConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationOutputReference MetadataConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference">S3BucketMetadataConfigurationOutputReference</a>
+
+---
+
 ##### `MetadataTableConfiguration`<sup>Required</sup> <a name="MetadataTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataTableConfiguration"></a>
 
 ```csharp
@@ -1333,6 +1392,16 @@ public string WebsiteUrl { get; }
 
 ---
 
+##### `AbacStatusInput`<sup>Optional</sup> <a name="AbacStatusInput" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.abacStatusInput"></a>
+
+```csharp
+public string AbacStatusInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `AccelerateConfigurationInput`<sup>Optional</sup> <a name="AccelerateConfigurationInput" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accelerateConfigurationInput"></a>
 
 ```csharp
@@ -1377,6 +1446,26 @@ public IResolvable|S3BucketBucketEncryption BucketEncryptionInput { get; }
 
 ```csharp
 public string BucketNameInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BucketNamePrefixInput`<sup>Optional</sup> <a name="BucketNamePrefixInput" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamePrefixInput"></a>
+
+```csharp
+public string BucketNamePrefixInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BucketNamespaceInput`<sup>Optional</sup> <a name="BucketNamespaceInput" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamespaceInput"></a>
+
+```csharp
+public string BucketNamespaceInput { get; }
 ```
 
 - *Type:* string
@@ -1430,6 +1519,16 @@ public IResolvable|S3BucketLoggingConfiguration LoggingConfigurationInput { get;
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfiguration">S3BucketLoggingConfiguration</a>
+
+---
+
+##### `MetadataConfigurationInput`<sup>Optional</sup> <a name="MetadataConfigurationInput" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.metadataConfigurationInput"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfiguration MetadataConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a>
 
 ---
 
@@ -1543,6 +1642,16 @@ public IResolvable|S3BucketWebsiteConfiguration WebsiteConfigurationInput { get;
 
 ---
 
+##### `AbacStatus`<sup>Required</sup> <a name="AbacStatus" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.abacStatus"></a>
+
+```csharp
+public string AbacStatus { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `AccessControl`<sup>Required</sup> <a name="AccessControl" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.accessControl"></a>
 
 ```csharp
@@ -1557,6 +1666,26 @@ public string AccessControl { get; }
 
 ```csharp
 public string BucketName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BucketNamePrefix`<sup>Required</sup> <a name="BucketNamePrefix" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamePrefix"></a>
+
+```csharp
+public string BucketNamePrefix { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `BucketNamespace`<sup>Required</sup> <a name="BucketNamespace" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.property.bucketNamespace"></a>
+
+```csharp
+public string BucketNamespace { get; }
 ```
 
 - *Type:* string
@@ -1623,7 +1752,7 @@ public string AccelerationStatus { get; set; }
 
 Specifies the transfer acceleration status of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
 
 ---
 
@@ -1663,7 +1792,7 @@ public string Id { get; set; }
 
 The ID that identifies the analytics configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1680,7 +1809,7 @@ public string Prefix { get; set; }
 
 The prefix that an object must have to be included in the analytics results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -1694,7 +1823,7 @@ public S3BucketAnalyticsConfigurationsStorageClassAnalysis StorageClassAnalysis 
 
 Contains data related to access patterns to be collected and made available to analyze the tradeoffs between different storage classes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class_analysis S3Bucket#storage_class_analysis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class_analysis S3Bucket#storage_class_analysis}
 
 ---
 
@@ -1710,7 +1839,7 @@ The tags to use when evaluating an analytics filter.
 
 The analytics only includes objects that meet the filter's criteria. If no filter is specified, all of the contents of the bucket are included in the analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -1744,7 +1873,7 @@ public S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExport DataExport 
 
 Specifies how data related to the storage class analysis for an Amazon S3 bucket should be exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
 
 ---
 
@@ -1780,7 +1909,7 @@ public S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination 
 
 The place to store the data for an analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -1794,7 +1923,7 @@ public string OutputSchemaVersion { get; set; }
 
 The version of the output schema to use when exporting data. Must be ``V_1``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
 
 ---
 
@@ -1819,7 +1948,7 @@ new S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination {
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.bucketAccountId">BucketAccountId</a></code> | <code>string</code> | The account ID that owns the destination S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.bucketArn">BucketArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the bucket to which data is exported. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.format">Format</a></code> | <code>string</code> | Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` \| ``ORC`` \| ``Parquet``. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.format">Format</a></code> | <code>string</code> | Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` \| ``ORC`` \| ``Parquet``. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestination.property.prefix">Prefix</a></code> | <code>string</code> | The prefix to use when exporting data. The prefix is prepended to all results. |
 
 ---
@@ -1837,7 +1966,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -1851,7 +1980,7 @@ public string BucketArn { get; set; }
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -1863,9 +1992,9 @@ public string Format { get; set; }
 
 - *Type:* string
 
-Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
+Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -1879,7 +2008,7 @@ public string Prefix { get; set; }
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -1915,7 +2044,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -1929,7 +2058,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -1963,7 +2092,7 @@ public IResolvable|S3BucketBucketEncryptionServerSideEncryptionConfiguration[] S
 
 Specifies the default server-side-encryption configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
 
 ---
 
@@ -1975,6 +2104,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.Awscc;
 
 new S3BucketBucketEncryptionServerSideEncryptionConfiguration {
+    S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes BlockedEncryptionTypes = null,
     bool|IResolvable BucketKeyEnabled = null,
     S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault ServerSideEncryptionByDefault = null
 };
@@ -1984,8 +2114,26 @@ new S3BucketBucketEncryptionServerSideEncryptionConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration.property.blockedEncryptionTypes">BlockedEncryptionTypes</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a></code> | A bucket-level setting for Amazon S3 general purpose buckets used to prevent the upload of new objects encrypted with the specified server-side encryption type. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration.property.bucketKeyEnabled">BucketKeyEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Specifies whether Amazon S3 should use an S3 Bucket Key with server-side encryption using KMS (SSE-KMS) for new objects in the bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration.property.serverSideEncryptionByDefault">ServerSideEncryptionByDefault</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault</a></code> | Specifies the default server-side encryption to apply to new objects in the bucket. |
+
+---
+
+##### `BlockedEncryptionTypes`<sup>Optional</sup> <a name="BlockedEncryptionTypes" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfiguration.property.blockedEncryptionTypes"></a>
+
+```csharp
+public S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes BlockedEncryptionTypes { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a>
+
+A bucket-level setting for Amazon S3 general purpose buckets used to prevent the upload of new objects encrypted with the specified server-side encryption type.
+
+For example, blocking an encryption type will block `PutObject`, `CopyObject`, `PostObject`, multipart upload, and replication requests to the bucket for objects with the specified encryption type. However, you can continue to read and list any pre-existing objects already encrypted with the specified encryption type. For more information, see [Blocking or unblocking SSE-C for a general purpose bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/blocking-unblocking-s3-c-encryption-gpb.html).
+Currently, this parameter only supports blocking or unblocking server-side encryption with customer-provided keys (SSE-C). For more information about SSE-C, see [Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#blocked_encryption_types S3Bucket#blocked_encryption_types}
 
 ---
 
@@ -2002,7 +2150,7 @@ Specifies whether Amazon S3 should use an S3 Bucket Key with server-side encrypt
 Existing objects are not affected. Setting the `BucketKeyEnabled` element to `true` causes Amazon S3 to use an S3 Bucket Key. By default, S3 Bucket Key is not enabled.
 For more information, see [Amazon S3 Bucket Keys](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-key.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_key_enabled S3Bucket#bucket_key_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_key_enabled S3Bucket#bucket_key_enabled}
 
 ---
 
@@ -2018,7 +2166,43 @@ Specifies the default server-side encryption to apply to new objects in the buck
 
 If a PUT Object request doesn't specify any server-side encryption, this default encryption will be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#server_side_encryption_by_default S3Bucket#server_side_encryption_by_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#server_side_encryption_by_default S3Bucket#server_side_encryption_by_default}
+
+---
+
+### S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes <a name="S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes {
+    string[] EncryptionType = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes.property.encryptionType">EncryptionType</a></code> | <code>string[]</code> | The object encryption type that you want to block or unblock for an Amazon S3 general purpose bucket. |
+
+---
+
+##### `EncryptionType`<sup>Optional</sup> <a name="EncryptionType" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes.property.encryptionType"></a>
+
+```csharp
+public string[] EncryptionType { get; set; }
+```
+
+- *Type:* string[]
+
+The object encryption type that you want to block or unblock for an Amazon S3 general purpose bucket.
+
+Currently, this parameter only supports blocking or unblocking server side encryption with customer-provided keys (SSE-C). For more information about SSE-C, see [Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_type S3Bucket#encryption_type}
 
 ---
 
@@ -2065,12 +2249,12 @@ You can specify the key ID, key alias, or the Amazon Resource Name (ARN) of the 
 
 If you are using encryption with cross-account or AWS service operations, you must use a fully qualified KMS key ARN. For more information, see [Using encryption for cross-account operations](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html#bucket-encryption-update-bucket-policy).
 
-* *General purpose buckets* - If you're specifying a customer managed KMS key, we recommend using a fully qualified KMS key ARN. If you use a KMS key alias instead, then KMS resolves the key within the requester?s account. This behavior can result in data that's encrypted with a KMS key that belongs to the requester, and not the bucket owner. Also, if you use a key ID, you can run into a LogDestination undeliverable error when creating a VPC flow log.
+* *General purpose buckets* - If you're specifying a customer managed KMS key, we recommend using a fully qualified KMS key ARN. If you use a KMS key alias instead, then KMS resolves the key within the requester’s account. This behavior can result in data that's encrypted with a KMS key that belongs to the requester, and not the bucket owner. Also, if you use a key ID, you can run into a LogDestination undeliverable error when creating a VPC flow log.
 * *Directory buckets* - When you specify an [customer managed key](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#customer-cmk) for encryption in your directory bucket, only use the key ID or key ARN. The key alias format of the KMS key isn't supported.
 
 Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
 
 ---
 
@@ -2086,7 +2270,7 @@ Server-side encryption algorithm to use for the default encryption.
 
 For directory buckets, there are only two supported values for server-side encryption: `AES256` and `aws:kms`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -2105,16 +2289,20 @@ new S3BucketConfig {
     TerraformResourceLifecycle Lifecycle = null,
     TerraformProvider Provider = null,
     (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisioners = null,
+    string AbacStatus = null,
     S3BucketAccelerateConfiguration AccelerateConfiguration = null,
     string AccessControl = null,
     IResolvable|S3BucketAnalyticsConfigurations[] AnalyticsConfigurations = null,
     S3BucketBucketEncryption BucketEncryption = null,
     string BucketName = null,
+    string BucketNamePrefix = null,
+    string BucketNamespace = null,
     S3BucketCorsConfiguration CorsConfiguration = null,
     IResolvable|S3BucketIntelligentTieringConfigurations[] IntelligentTieringConfigurations = null,
     IResolvable|S3BucketInventoryConfigurations[] InventoryConfigurations = null,
     S3BucketLifecycleConfiguration LifecycleConfiguration = null,
     S3BucketLoggingConfiguration LoggingConfiguration = null,
+    S3BucketMetadataConfiguration MetadataConfiguration = null,
     S3BucketMetadataTableConfiguration MetadataTableConfiguration = null,
     IResolvable|S3BucketMetricsConfigurations[] MetricsConfigurations = null,
     S3BucketNotificationConfiguration NotificationConfiguration = null,
@@ -2140,16 +2328,20 @@ new S3BucketConfig {
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.abacStatus">AbacStatus</a></code> | <code>string</code> | The ABAC status of the general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.accelerateConfiguration">AccelerateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAccelerateConfiguration">S3BucketAccelerateConfiguration</a></code> | Configures the transfer acceleration state for an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.accessControl">AccessControl</a></code> | <code>string</code> | This is a legacy property, and it is not recommended for most use cases. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.analyticsConfigurations">AnalyticsConfigurations</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurations">S3BucketAnalyticsConfigurations</a>[]</code> | Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketEncryption">BucketEncryption</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryption">S3BucketBucketEncryption</a></code> | Specifies default encryption for a bucket using server-side encryption with Amazon S3-managed keys (SSE-S3), AWS KMS-managed keys (SSE-KMS), or dual-layer server-side encryption with KMS-managed keys (DSSE-KMS). |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketName">BucketName</a></code> | <code>string</code> | A name for the bucket. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamePrefix">BucketNamePrefix</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamespace">BucketNamespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.corsConfiguration">CorsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketCorsConfiguration">S3BucketCorsConfiguration</a></code> | Describes the cross-origin access configuration for objects in an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.intelligentTieringConfigurations">IntelligentTieringConfigurations</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketIntelligentTieringConfigurations">S3BucketIntelligentTieringConfigurations</a>[]</code> | Defines how Amazon S3 handles Intelligent-Tiering storage. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.inventoryConfigurations">InventoryConfigurations</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>[]</code> | Specifies the inventory configuration for an Amazon S3 bucket. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.inventoryConfigurations">InventoryConfigurations</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>[]</code> | Specifies the S3 Inventory configuration for an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.lifecycleConfiguration">LifecycleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLifecycleConfiguration">S3BucketLifecycleConfiguration</a></code> | Specifies the lifecycle configuration for objects in an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.loggingConfiguration">LoggingConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketLoggingConfiguration">S3BucketLoggingConfiguration</a></code> | Settings that define where logs are stored. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.metadataConfiguration">MetadataConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a></code> | The S3 Metadata configuration for a general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.metadataTableConfiguration">MetadataTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfiguration">S3BucketMetadataTableConfiguration</a></code> | The metadata table configuration of an S3 general purpose bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.metricsConfigurations">MetricsConfigurations</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetricsConfigurations">S3BucketMetricsConfigurations</a>[]</code> | Specifies a metrics configuration for the CloudWatch request metrics (specified by the metrics configuration ID) from an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.notificationConfiguration">NotificationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketNotificationConfiguration">S3BucketNotificationConfiguration</a></code> | Configuration that defines how Amazon S3 handles bucket notifications. |
@@ -2234,6 +2426,22 @@ public (FileProvisioner|LocalExecProvisioner|RemoteExecProvisioner)[] Provisione
 
 ---
 
+##### `AbacStatus`<sup>Optional</sup> <a name="AbacStatus" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.abacStatus"></a>
+
+```csharp
+public string AbacStatus { get; set; }
+```
+
+- *Type:* string
+
+The ABAC status of the general purpose bucket.
+
+When ABAC is enabled for the general purpose bucket, you can use tags to manage access to the general purpose buckets as well as for cost tracking purposes. When ABAC is disabled for the general purpose buckets, you can only use tags for cost tracking purposes. For more information, see [Using tags with S3 general purpose buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/buckets-tagging.html).
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#abac_status S3Bucket#abac_status}
+
+---
+
 ##### `AccelerateConfiguration`<sup>Optional</sup> <a name="AccelerateConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.accelerateConfiguration"></a>
 
 ```csharp
@@ -2246,7 +2454,7 @@ Configures the transfer acceleration state for an Amazon S3 bucket.
 
 For more information, see [Amazon S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
 
 ---
 
@@ -2265,7 +2473,7 @@ A canned access control list (ACL) that grants predefined permissions to the buc
 S3 buckets are created with ACLs disabled by default. Therefore, unless you explicitly set the [AWS::S3::OwnershipControls](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-ownershipcontrols.html) property to enable ACLs, your resource will fail to deploy with any value other than Private. Use cases requiring ACLs are uncommon.
 The majority of access control configurations can be successfully and more easily achieved with bucket policies. For more information, see [AWS::S3::BucketPolicy](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-policy.html). For examples of common policy configurations, including S3 Server Access Logs buckets and more, see [Bucket policy examples](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
 
 ---
 
@@ -2279,7 +2487,7 @@ public IResolvable|S3BucketAnalyticsConfigurations[] AnalyticsConfigurations { g
 
 Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
 
 ---
 
@@ -2295,7 +2503,7 @@ Specifies default encryption for a bucket using server-side encryption with Amaz
 
 For information about the Amazon S3 default encryption feature, see [Amazon S3 Default Encryption for S3 Buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
 
 ---
 
@@ -2312,7 +2520,31 @@ A name for the bucket.
 If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the bucket name. The bucket name must contain only lowercase letters, numbers, periods (.), and dashes (-) and must follow [Amazon S3 bucket restrictions and limitations](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html). For more information, see [Rules for naming Amazon S3 buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html) in the *Amazon S3 User Guide*.
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you need to replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
+
+---
+
+##### `BucketNamePrefix`<sup>Optional</sup> <a name="BucketNamePrefix" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamePrefix"></a>
+
+```csharp
+public string BucketNamePrefix { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}.
+
+---
+
+##### `BucketNamespace`<sup>Optional</sup> <a name="BucketNamespace" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamespace"></a>
+
+```csharp
+public string BucketNamespace { get; set; }
+```
+
+- *Type:* string
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.
 
 ---
 
@@ -2328,7 +2560,7 @@ Describes the cross-origin access configuration for objects in an Amazon S3 buck
 
 For more information, see [Enabling Cross-Origin Resource Sharing](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
 
 ---
 
@@ -2342,7 +2574,7 @@ public IResolvable|S3BucketIntelligentTieringConfigurations[] IntelligentTiering
 
 Defines how Amazon S3 handles Intelligent-Tiering storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
 
 ---
 
@@ -2354,11 +2586,11 @@ public IResolvable|S3BucketInventoryConfigurations[] InventoryConfigurations { g
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>[]
 
-Specifies the inventory configuration for an Amazon S3 bucket.
+Specifies the S3 Inventory configuration for an Amazon S3 bucket.
 
 For more information, see [GET Bucket inventory](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGETInventoryConfig.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
 
 ---
 
@@ -2374,7 +2606,7 @@ Specifies the lifecycle configuration for objects in an Amazon S3 bucket.
 
 For more information, see [Object Lifecycle Management](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
 
 ---
 
@@ -2388,7 +2620,21 @@ public S3BucketLoggingConfiguration LoggingConfiguration { get; set; }
 
 Settings that define where logs are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
+
+---
+
+##### `MetadataConfiguration`<sup>Optional</sup> <a name="MetadataConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.metadataConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfiguration MetadataConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a>
+
+The S3 Metadata configuration for a general purpose bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_configuration S3Bucket#metadata_configuration}
 
 ---
 
@@ -2402,9 +2648,7 @@ public S3BucketMetadataTableConfiguration MetadataTableConfiguration { get; set;
 
 The metadata table configuration of an S3 general purpose bucket.
 
-For more information, see [Accelerating data discovery with S3 Metadata](https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-overview.html) and [Setting up permissions for configuring metadata tables](https://docs.aws.amazon.com/AmazonS3/latest/userguide/metadata-tables-permissions.html).
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
 
 ---
 
@@ -2420,7 +2664,7 @@ Specifies a metrics configuration for the CloudWatch request metrics (specified 
 
 If you're updating an existing metrics configuration, note that this is a full replacement of the existing metrics configuration. If you don't include the elements you want to keep, they are erased. For more information, see [PutBucketMetricsConfiguration](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTMetricConfiguration.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
 
 ---
 
@@ -2434,7 +2678,7 @@ public S3BucketNotificationConfiguration NotificationConfiguration { get; set; }
 
 Configuration that defines how Amazon S3 handles bucket notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
 
 ---
 
@@ -2454,7 +2698,9 @@ Places an Object Lock configuration on the specified bucket. The rule specified 
 * The `DefaultRetention` period can be either `Days` or `Years` but you must select one. You cannot specify `Days` and `Years` at the same time.
 * You can enable Object Lock for new or existing buckets. For more information, see [Configuring Object Lock](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock-configure.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
+You must URL encode any signed header values that contain spaces. For example, if your header value is `my file.txt`, containing two spaces after `my`, you must URL encode this value to `my%20%20file.txt`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
 
 ---
 
@@ -2468,7 +2714,7 @@ public bool|IResolvable ObjectLockEnabled { get; set; }
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -2482,7 +2728,7 @@ public S3BucketOwnershipControls OwnershipControls { get; set; }
 
 Configuration that defines how Amazon S3 handles Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
 
 ---
 
@@ -2496,7 +2742,7 @@ public S3BucketPublicAccessBlockConfiguration PublicAccessBlockConfiguration { g
 
 Configuration that defines how Amazon S3 handles public access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
 
 ---
 
@@ -2513,7 +2759,7 @@ Configuration for replicating objects in an S3 bucket.
 To enable replication, you must also enable versioning by using the `VersioningConfiguration` property.
 Amazon S3 can store replicated objects in a single destination bucket or multiple destination buckets. The destination bucket or buckets must already exist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
 
 ---
 
@@ -2527,7 +2773,7 @@ public IResolvable|S3BucketTags[] Tags { get; set; }
 
 An arbitrary set of tags (key-value pairs) for this S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tags S3Bucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tags S3Bucket#tags}
 
 ---
 
@@ -2544,7 +2790,7 @@ Enables multiple versions of all objects in this bucket.
 You might enable versioning to prevent objects from being deleted or overwritten by mistake or to archive objects so that you can retrieve previous versions of them.
 When you enable versioning on a bucket for the first time, it might take a short amount of time for the change to be fully propagated. We recommend that you wait for 15 minutes after enabling versioning before issuing write operations (`PUT` or `DELETE`) on objects in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
 
 ---
 
@@ -2558,7 +2804,7 @@ public S3BucketWebsiteConfiguration WebsiteConfiguration { get; set; }
 
 Information used to configure the bucket as a static website. For more information, see [Hosting Websites on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
 
 ---
 
@@ -2594,7 +2840,7 @@ A set of origins and methods (cross-origin access that you want to allow).
 
 You can add up to 100 rules to the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
 
 ---
 
@@ -2640,7 +2886,7 @@ Headers that are specified in the ``Access-Control-Request-Headers`` header.
 
 These headers are allowed in a preflight OPTIONS request. In response to any preflight OPTIONS request, Amazon S3 returns any requested headers that are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#allowed_headers S3Bucket#allowed_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_headers S3Bucket#allowed_headers}
 
 ---
 
@@ -2656,7 +2902,7 @@ An HTTP method that you allow the origin to run.
 
 *Allowed values*: `GET` | `PUT` | `HEAD` | `POST` | `DELETE`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#allowed_methods S3Bucket#allowed_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_methods S3Bucket#allowed_methods}
 
 ---
 
@@ -2670,7 +2916,7 @@ public string[] AllowedOrigins { get; set; }
 
 One or more origins you want customers to be able to access the bucket from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#allowed_origins S3Bucket#allowed_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_origins S3Bucket#allowed_origins}
 
 ---
 
@@ -2684,7 +2930,7 @@ public string[] ExposedHeaders { get; set; }
 
 One or more headers in the response that you want customers to be able to access from their applications (for example, from a JavaScript ``XMLHttpRequest`` object).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#exposed_headers S3Bucket#exposed_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#exposed_headers S3Bucket#exposed_headers}
 
 ---
 
@@ -2698,7 +2944,7 @@ public string Id { get; set; }
 
 A unique identifier for this rule. The value must be no more than 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2715,7 +2961,7 @@ public double MaxAge { get; set; }
 
 The time in seconds that your browser is to cache the preflight response for the specified resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#max_age S3Bucket#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#max_age S3Bucket#max_age}
 
 ---
 
@@ -2757,7 +3003,7 @@ public string Id { get; set; }
 
 The ID used to identify the S3 Intelligent-Tiering configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2774,7 +3020,7 @@ public string Prefix { get; set; }
 
 An object key name prefix that identifies the subset of objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -2788,7 +3034,7 @@ public string Status { get; set; }
 
 Specifies the status of the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -2802,7 +3048,7 @@ public IResolvable|S3BucketIntelligentTieringConfigurationsTagFilters[] TagFilte
 
 A container for a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -2819,7 +3065,7 @@ Specifies a list of S3 Intelligent-Tiering storage class tiers in the configurat
 At least one tier must be defined in the list. At most, you can specify two tiers in the list, one for each available AccessTier: `ARCHIVE_ACCESS` and `DEEP_ARCHIVE_ACCESS`.
 You only need Intelligent Tiering Configuration enabled on a bucket if you want to automatically move objects stored in the Intelligent-Tiering storage class to Archive Access or Deep Archive Access tiers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tierings S3Bucket#tierings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tierings S3Bucket#tierings}
 
 ---
 
@@ -2855,7 +3101,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -2869,7 +3115,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -2907,7 +3153,7 @@ S3 Intelligent-Tiering access tier.
 
 See [Storage class for automatically optimizing frequently and infrequently accessed objects](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html#sc-dynamic-data-access) for a list of access tiers in the S3 Intelligent-Tiering storage class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_tier S3Bucket#access_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_tier S3Bucket#access_tier}
 
 ---
 
@@ -2923,7 +3169,7 @@ The number of consecutive days of no access after which an object will be eligib
 
 The minimum number of days specified for Archive Access tier must be at least 90 days and Deep Archive Access tier must be at least 180 days. The maximum can be up to 2 years (730 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -2969,7 +3215,7 @@ public S3BucketInventoryConfigurationsDestination Destination { get; set; }
 
 Contains information about where to publish the inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -2985,7 +3231,7 @@ Specifies whether the inventory is enabled or disabled.
 
 If set to `True`, an inventory list is generated. If set to `False`, no inventory list is generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#enabled S3Bucket#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#enabled S3Bucket#enabled}
 
 ---
 
@@ -2999,7 +3245,7 @@ public string Id { get; set; }
 
 The ID used to identify the inventory configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3018,7 +3264,7 @@ Object versions to include in the inventory list.
 
 If set to `All`, the list includes all the object versions, which adds the version-related fields `VersionId`, `IsLatest`, and `DeleteMarker` to the list. If set to `Current`, the list does not contain these version-related fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#included_object_versions S3Bucket#included_object_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#included_object_versions S3Bucket#included_object_versions}
 
 ---
 
@@ -3032,7 +3278,7 @@ public string[] OptionalFields { get; set; }
 
 Contains the optional fields that are included in the inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#optional_fields S3Bucket#optional_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#optional_fields S3Bucket#optional_fields}
 
 ---
 
@@ -3046,7 +3292,7 @@ public string Prefix { get; set; }
 
 Specifies the inventory filter prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -3060,7 +3306,7 @@ public string ScheduleFrequency { get; set; }
 
 Specifies the schedule for generating inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#schedule_frequency S3Bucket#schedule_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#schedule_frequency S3Bucket#schedule_frequency}
 
 ---
 
@@ -3085,7 +3331,7 @@ new S3BucketInventoryConfigurationsDestination {
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.bucketAccountId">BucketAccountId</a></code> | <code>string</code> | The account ID that owns the destination S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.bucketArn">BucketArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the bucket to which data is exported. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.format">Format</a></code> | <code>string</code> | Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` \| ``ORC`` \| ``Parquet``. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.format">Format</a></code> | <code>string</code> | Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` \| ``ORC`` \| ``Parquet``. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurationsDestination.property.prefix">Prefix</a></code> | <code>string</code> | The prefix to use when exporting data. The prefix is prepended to all results. |
 
 ---
@@ -3103,7 +3349,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -3117,7 +3363,7 @@ public string BucketArn { get; set; }
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -3129,9 +3375,9 @@ public string Format { get; set; }
 
 - *Type:* string
 
-Specifies the file format used when exporting data to Amazon S3.   *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
+Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -3145,7 +3391,7 @@ public string Prefix { get; set; }
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -3181,7 +3427,7 @@ public IResolvable|S3BucketLifecycleConfigurationRules[] Rules { get; set; }
 
 A lifecycle rule for individual objects in an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -3202,7 +3448,7 @@ This parameter applies to general purpose buckets only. It isn't supported for d
 
 To customize the minimum object size for any transition you can add a filter that specifies a custom `ObjectSizeGreaterThan` or `ObjectSizeLessThan` in the body of your transition rule. Custom filters always take precedence over the default transition behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
 
 ---
 
@@ -3266,7 +3512,7 @@ public S3BucketLifecycleConfigurationRulesAbortIncompleteMultipartUpload AbortIn
 
 Specifies a lifecycle rule that stops incomplete multipart uploads to an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#abort_incomplete_multipart_upload S3Bucket#abort_incomplete_multipart_upload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#abort_incomplete_multipart_upload S3Bucket#abort_incomplete_multipart_upload}
 
 ---
 
@@ -3282,7 +3528,7 @@ Indicates when objects are deleted from Amazon S3 and Amazon S3 Glacier.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC. If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#expiration_date S3Bucket#expiration_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration_date S3Bucket#expiration_date}
 
 ---
 
@@ -3298,7 +3544,7 @@ Indicates the number of days after creation when objects are deleted from Amazon
 
 If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#expiration_in_days S3Bucket#expiration_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration_in_days S3Bucket#expiration_in_days}
 
 ---
 
@@ -3314,7 +3560,7 @@ Indicates whether Amazon S3 will remove a delete marker without any noncurrent v
 
 If set to true, the delete marker will be removed if there are no noncurrent versions. This cannot be specified with `ExpirationInDays`, `ExpirationDate`, or `TagFilters`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#expired_object_delete_marker S3Bucket#expired_object_delete_marker}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expired_object_delete_marker S3Bucket#expired_object_delete_marker}
 
 ---
 
@@ -3328,7 +3574,7 @@ public string Id { get; set; }
 
 Unique identifier for the rule. The value can't be longer than 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3347,7 +3593,7 @@ Specifies when noncurrent object versions expire.
 
 Upon expiration, S3 permanently deletes the noncurrent object versions. You set this lifecycle configuration action on a bucket that has versioning enabled (or suspended) to request that S3 delete noncurrent object versions at a specific period in the object's lifetime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_version_expiration S3Bucket#noncurrent_version_expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_expiration S3Bucket#noncurrent_version_expiration}
 
 ---
 
@@ -3361,7 +3607,7 @@ public double NoncurrentVersionExpirationInDays { get; set; }
 
 (Deprecated.) For buckets with versioning enabled (or suspended), specifies the time, in days, between when a new version of the object is uploaded to the bucket and when old versions of the object expire. When object versions expire, Amazon S3 permanently deletes them. If you specify a transition and expiration time, the expiration time must be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_version_expiration_in_days S3Bucket#noncurrent_version_expiration_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_expiration_in_days S3Bucket#noncurrent_version_expiration_in_days}
 
 ---
 
@@ -3375,7 +3621,7 @@ public S3BucketLifecycleConfigurationRulesNoncurrentVersionTransition Noncurrent
 
 (Deprecated.) For buckets with versioning enabled (or suspended), specifies when non-current objects transition to a specified storage class. If you specify a transition and expiration time, the expiration time must be later than the transition time. If you specify this property, don't specify the ``NoncurrentVersionTransitions`` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_version_transition S3Bucket#noncurrent_version_transition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_transition S3Bucket#noncurrent_version_transition}
 
 ---
 
@@ -3391,7 +3637,7 @@ For buckets with versioning enabled (or suspended), one or more transition rules
 
 If you specify a transition and expiration time, the expiration time must be later than the transition time. If you specify this property, don't specify the `NoncurrentVersionTransition` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_version_transitions S3Bucket#noncurrent_version_transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_transitions S3Bucket#noncurrent_version_transitions}
 
 ---
 
@@ -3407,7 +3653,7 @@ Specifies the minimum object size in bytes for this rule to apply to.
 
 Objects must be larger than this value in bytes. For more information about size based rules, see [Lifecycle configuration using size-based rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-configuration-examples.html#lc-size-rules) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_size_greater_than S3Bucket#object_size_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_size_greater_than S3Bucket#object_size_greater_than}
 
 ---
 
@@ -3423,7 +3669,7 @@ Specifies the maximum object size in bytes for this rule to apply to.
 
 Objects must be smaller than this value in bytes. For more information about sized based rules, see [Lifecycle configuration using size-based rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-configuration-examples.html#lc-size-rules) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_size_less_than S3Bucket#object_size_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_size_less_than S3Bucket#object_size_less_than}
 
 ---
 
@@ -3439,7 +3685,7 @@ Object key prefix that identifies one or more objects to which this rule applies
 
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -3453,7 +3699,7 @@ public string Status { get; set; }
 
 If ``Enabled``, the rule is currently being applied. If ``Disabled``, the rule is not currently being applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -3467,7 +3713,7 @@ public IResolvable|S3BucketLifecycleConfigurationRulesTagFilters[] TagFilters { 
 
 Tags to use to identify a subset of objects to which the lifecycle rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -3481,7 +3727,7 @@ public S3BucketLifecycleConfigurationRulesTransition Transition { get; set; }
 
 (Deprecated.) Specifies when an object transitions to a specified storage class. If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time. If you specify this property, don't specify the ``Transitions`` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition S3Bucket#transition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition S3Bucket#transition}
 
 ---
 
@@ -3497,7 +3743,7 @@ One or more transition rules that specify when an object transitions to a specif
 
 If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time. If you specify this property, don't specify the `Transition` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transitions S3Bucket#transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transitions S3Bucket#transitions}
 
 ---
 
@@ -3531,7 +3777,7 @@ public double DaysAfterInitiation { get; set; }
 
 Specifies the number of days after which Amazon S3 stops an incomplete multipart upload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
 
 ---
 
@@ -3569,7 +3815,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -3585,7 +3831,7 @@ Specifies the number of days an object is noncurrent before S3 can perform the a
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates When an Object Became Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
 
 ---
 
@@ -3625,7 +3871,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -3639,7 +3885,7 @@ public string StorageClass { get; set; }
 
 The class of storage used to store the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -3655,7 +3901,7 @@ Specifies the number of days an object is noncurrent before Amazon S3 can perfor
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates How Long an Object Has Been Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -3695,7 +3941,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -3709,7 +3955,7 @@ public string StorageClass { get; set; }
 
 The class of storage used to store the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -3725,7 +3971,7 @@ Specifies the number of days an object is noncurrent before Amazon S3 can perfor
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates How Long an Object Has Been Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -3761,7 +4007,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -3775,7 +4021,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -3813,7 +4059,7 @@ public string StorageClass { get; set; }
 
 The storage class to which you want the object to transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -3829,7 +4075,7 @@ Indicates when objects are transitioned to the specified storage class.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
 
 ---
 
@@ -3843,9 +4089,9 @@ public double TransitionInDays { get; set; }
 
 Indicates the number of days after creation when objects are transitioned to the specified storage class.
 
-If the specified storage class is `INTELLIGENT_TIERING`, `GLACIER_IR`, `GLACIER`, or `DEEP_ARCHIVE`, valid values are `0` or positive integers. If the specified storage class is `STANDARD_IA` or `ONEZONE_IA`, valid values are positive integers greater than `30`. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
+The value can be `0` or any positive integer. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -3883,7 +4129,7 @@ public string StorageClass { get; set; }
 
 The storage class to which you want the object to transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -3899,7 +4145,7 @@ Indicates when objects are transitioned to the specified storage class.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
 
 ---
 
@@ -3913,9 +4159,9 @@ public double TransitionInDays { get; set; }
 
 Indicates the number of days after creation when objects are transitioned to the specified storage class.
 
-If the specified storage class is `INTELLIGENT_TIERING`, `GLACIER_IR`, `GLACIER`, or `DEEP_ARCHIVE`, valid values are `0` or positive integers. If the specified storage class is `STANDARD_IA` or `ONEZONE_IA`, valid values are positive integers greater than `30`. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
+The value can be `0` or any positive integer. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -3955,7 +4201,7 @@ The name of the bucket where Amazon S3 should store server access log files.
 
 You can store log files in any bucket that you own. By default, logs are stored in the bucket where the `LoggingConfiguration` property is defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
 
 ---
 
@@ -3971,7 +4217,7 @@ A prefix for all log object keys.
 
 If you store log files from multiple Amazon S3 buckets in a single bucket, you can use a prefix to distinguish which log files came from which bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
 
 ---
 
@@ -3985,7 +4231,7 @@ public S3BucketLoggingConfigurationTargetObjectKeyFormat TargetObjectKeyFormat {
 
 Amazon S3 key format for log objects. Only one format, either PartitionedPrefix or SimplePrefix, is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
 
 ---
 
@@ -4021,7 +4267,7 @@ public S3BucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix Partit
 
 Amazon S3 keys for log objects are partitioned in the following format:   ``[DestinationPrefix][SourceAccountId]/[SourceRegion]/[SourceBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString]``   PartitionedPrefix defaults to EventTime delivery when server access logs are delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
 
 ---
 
@@ -4035,7 +4281,7 @@ public string SimplePrefix { get; set; }
 
 This format defaults the prefix to the given log file prefix for delivering server access log file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
 
 ---
 
@@ -4073,7 +4319,468 @@ Specifies the partition date source for the partitioned prefix.
 For `DeliveryTime`, the time in the log file names corresponds to the delivery time for the log files.
 For `EventTime`, The logs delivered are for a specific day only. The year, month, and day correspond to the day on which the event occurred, and the hour, minutes and seconds are set to 00 in the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
+
+---
+
+### S3BucketMetadataConfiguration <a name="S3BucketMetadataConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfiguration {
+    S3BucketMetadataConfigurationAnnotationTableConfiguration AnnotationTableConfiguration = null,
+    S3BucketMetadataConfigurationInventoryTableConfiguration InventoryTableConfiguration = null,
+    S3BucketMetadataConfigurationJournalTableConfiguration JournalTableConfiguration = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.annotationTableConfiguration">AnnotationTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a></code> | The annotation table configuration for a metadata configuration. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.inventoryTableConfiguration">InventoryTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a></code> | The inventory table configuration for a metadata configuration. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.journalTableConfiguration">JournalTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a></code> | The journal table configuration for a metadata configuration. |
+
+---
+
+##### `AnnotationTableConfiguration`<sup>Optional</sup> <a name="AnnotationTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.annotationTableConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationAnnotationTableConfiguration AnnotationTableConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+The annotation table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#annotation_table_configuration S3Bucket#annotation_table_configuration}
+
+---
+
+##### `InventoryTableConfiguration`<sup>Optional</sup> <a name="InventoryTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.inventoryTableConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationInventoryTableConfiguration InventoryTableConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+The inventory table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_table_configuration S3Bucket#inventory_table_configuration}
+
+---
+
+##### `JournalTableConfiguration`<sup>Optional</sup> <a name="JournalTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration.property.journalTableConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationJournalTableConfiguration JournalTableConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+The journal table configuration for a metadata configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#journal_table_configuration S3Bucket#journal_table_configuration}
+
+---
+
+### S3BucketMetadataConfigurationAnnotationTableConfiguration <a name="S3BucketMetadataConfigurationAnnotationTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationAnnotationTableConfiguration {
+    string ConfigurationState = null,
+    S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration EncryptionConfiguration = null,
+    string Role = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.configurationState">ConfigurationState</a></code> | <code>string</code> | Specifies whether the annotation table configuration is enabled or disabled. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a></code> | The encryption configuration for the annotation table. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.role">Role</a></code> | <code>string</code> | The ARN of the IAM role that grants Amazon S3 Metadata permission to read annotations from your bucket. |
+
+---
+
+##### `ConfigurationState`<sup>Optional</sup> <a name="ConfigurationState" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.configurationState"></a>
+
+```csharp
+public string ConfigurationState { get; set; }
+```
+
+- *Type:* string
+
+Specifies whether the annotation table configuration is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+
+---
+
+##### `EncryptionConfiguration`<sup>Optional</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.encryptionConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration EncryptionConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the annotation table.
+
+To encrypt your annotation table with server-side encryption using AWS Key Management Service (AWS KMS) keys (SSE-KMS), set `SseAlgorithm` to `aws:kms`. You must also set `KmsKeyArn` to the ARN of a customer managed KMS key in the same Region where your general purpose bucket is located.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+##### `Role`<sup>Optional</sup> <a name="Role" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration.property.role"></a>
+
+```csharp
+public string Role { get; set; }
+```
+
+- *Type:* string
+
+The ARN of the IAM role that grants Amazon S3 Metadata permission to read annotations from your bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
+
+---
+
+### S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration <a name="S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration {
+    string KmsKeyArn = null,
+    string SseAlgorithm = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.property.kmsKeyArn">KmsKeyArn</a></code> | <code>string</code> | If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN). |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.property.sseAlgorithm">SseAlgorithm</a></code> | <code>string</code> | The encryption type specified for a metadata table. |
+
+---
+
+##### `KmsKeyArn`<sup>Optional</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.property.kmsKeyArn"></a>
+
+```csharp
+public string KmsKeyArn { get; set; }
+```
+
+- *Type:* string
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+##### `SseAlgorithm`<sup>Optional</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.property.sseAlgorithm"></a>
+
+```csharp
+public string SseAlgorithm { get; set; }
+```
+
+- *Type:* string
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+### S3BucketMetadataConfigurationDestination <a name="S3BucketMetadataConfigurationDestination" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestination"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestination.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationDestination {
+
+};
+```
+
+
+### S3BucketMetadataConfigurationInventoryTableConfiguration <a name="S3BucketMetadataConfigurationInventoryTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationInventoryTableConfiguration {
+    string ConfigurationState = null,
+    S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration EncryptionConfiguration = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.property.configurationState">ConfigurationState</a></code> | <code>string</code> | The configuration state of the inventory table, indicating whether the inventory table is enabled or disabled. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a></code> | The encryption configuration for the inventory table. |
+
+---
+
+##### `ConfigurationState`<sup>Optional</sup> <a name="ConfigurationState" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.property.configurationState"></a>
+
+```csharp
+public string ConfigurationState { get; set; }
+```
+
+- *Type:* string
+
+The configuration state of the inventory table, indicating whether the inventory table is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+
+---
+
+##### `EncryptionConfiguration`<sup>Optional</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration.property.encryptionConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration EncryptionConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the inventory table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+### S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration <a name="S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration {
+    string KmsKeyArn = null,
+    string SseAlgorithm = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.property.kmsKeyArn">KmsKeyArn</a></code> | <code>string</code> | If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN). |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.property.sseAlgorithm">SseAlgorithm</a></code> | <code>string</code> | The encryption type specified for a metadata table. |
+
+---
+
+##### `KmsKeyArn`<sup>Optional</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.property.kmsKeyArn"></a>
+
+```csharp
+public string KmsKeyArn { get; set; }
+```
+
+- *Type:* string
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+##### `SseAlgorithm`<sup>Optional</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.property.sseAlgorithm"></a>
+
+```csharp
+public string SseAlgorithm { get; set; }
+```
+
+- *Type:* string
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+### S3BucketMetadataConfigurationJournalTableConfiguration <a name="S3BucketMetadataConfigurationJournalTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationJournalTableConfiguration {
+    S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration EncryptionConfiguration = null,
+    S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration RecordExpiration = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a></code> | The encryption configuration for the journal table. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.property.recordExpiration">RecordExpiration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a></code> | The journal table record expiration settings for the journal table. |
+
+---
+
+##### `EncryptionConfiguration`<sup>Optional</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.property.encryptionConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration EncryptionConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+The encryption configuration for the journal table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+
+---
+
+##### `RecordExpiration`<sup>Optional</sup> <a name="RecordExpiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration.property.recordExpiration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration RecordExpiration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+The journal table record expiration settings for the journal table.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#record_expiration S3Bucket#record_expiration}
+
+---
+
+### S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration <a name="S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration {
+    string KmsKeyArn = null,
+    string SseAlgorithm = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.property.kmsKeyArn">KmsKeyArn</a></code> | <code>string</code> | If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN). |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.property.sseAlgorithm">SseAlgorithm</a></code> | <code>string</code> | The encryption type specified for a metadata table. |
+
+---
+
+##### `KmsKeyArn`<sup>Optional</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.property.kmsKeyArn"></a>
+
+```csharp
+public string KmsKeyArn { get; set; }
+```
+
+- *Type:* string
+
+If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you must also specify the KMS key Amazon Resource Name (ARN).
+
+You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+
+---
+
+##### `SseAlgorithm`<sup>Optional</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.property.sseAlgorithm"></a>
+
+```csharp
+public string SseAlgorithm { get; set; }
+```
+
+- *Type:* string
+
+The encryption type specified for a metadata table.
+
+To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+
+---
+
+### S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration <a name="S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration {
+    double Days = null,
+    string Expiration = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.property.days">Days</a></code> | <code>double</code> | If you enable journal table record expiration, you can set the number of days to retain your journal table records. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.property.expiration">Expiration</a></code> | <code>string</code> | Specifies whether journal table record expiration is enabled or disabled. |
+
+---
+
+##### `Days`<sup>Optional</sup> <a name="Days" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.property.days"></a>
+
+```csharp
+public double Days { get; set; }
+```
+
+- *Type:* double
+
+If you enable journal table record expiration, you can set the number of days to retain your journal table records.
+
+Journal table records must be retained for a minimum of 7 days. To set this value, specify any whole number from `7` to `2147483647`. For example, to retain your journal table records for one year, set this value to `365`.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+
+---
+
+##### `Expiration`<sup>Optional</sup> <a name="Expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.property.expiration"></a>
+
+```csharp
+public string Expiration { get; set; }
+```
+
+- *Type:* string
+
+Specifies whether journal table record expiration is enabled or disabled.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
 
 ---
 
@@ -4109,7 +4816,7 @@ The destination information for the metadata table configuration.
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket. The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
 
 ---
 
@@ -4147,7 +4854,7 @@ The Amazon Resource Name (ARN) for the table bucket that's specified as the dest
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
 
 ---
 
@@ -4163,7 +4870,7 @@ The name for the metadata table in your metadata table configuration.
 
 The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
 
 ---
 
@@ -4205,7 +4912,7 @@ The access point that was used while performing operations on the object.
 
 The metrics configuration only includes objects that meet the filter's criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_point_arn S3Bucket#access_point_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_point_arn S3Bucket#access_point_arn}
 
 ---
 
@@ -4221,7 +4928,7 @@ The ID used to identify the metrics configuration.
 
 This can be any value you choose that helps you identify your metrics configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4238,7 +4945,7 @@ public string Prefix { get; set; }
 
 The prefix that an object must have to be included in the metrics results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -4254,7 +4961,7 @@ Specifies a list of tag filters to use as a metrics configuration filter.
 
 The metrics configuration includes only objects that meet the filter's criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -4290,7 +4997,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -4304,7 +5011,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -4344,7 +5051,7 @@ public S3BucketNotificationConfigurationEventBridgeConfiguration EventBridgeConf
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
 
 ---
 
@@ -4358,7 +5065,7 @@ public IResolvable|S3BucketNotificationConfigurationLambdaConfigurations[] Lambd
 
 Describes the LAMlong functions to invoke and the events for which to invoke them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
 
 ---
 
@@ -4372,7 +5079,7 @@ public IResolvable|S3BucketNotificationConfigurationQueueConfigurations[] QueueC
 
 The Amazon Simple Queue Service queues to publish messages to and the events for which to publish messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
 
 ---
 
@@ -4386,7 +5093,7 @@ public IResolvable|S3BucketNotificationConfigurationTopicConfigurations[] TopicC
 
 The topic to which notifications are sent and the events for which notifications are generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
 
 ---
 
@@ -4420,7 +5127,7 @@ public bool|IResolvable EventBridgeEnabled { get; set; }
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
 
 ---
 
@@ -4460,7 +5167,7 @@ The Amazon S3 bucket event for which to invoke the LAMlong function.
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -4476,7 +5183,7 @@ The filtering rules that determine which objects invoke the AWS Lambda function.
 
 For example, you can create a filter so that only image files with a `.jpg` extension invoke the function when they are added to the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -4490,7 +5197,7 @@ public string Function { get; set; }
 
 The Amazon Resource Name (ARN) of the LAMlong function that Amazon S3 invokes when the specified event type occurs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#function S3Bucket#function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#function S3Bucket#function}
 
 ---
 
@@ -4524,7 +5231,7 @@ public S3BucketNotificationConfigurationLambdaConfigurationsFilterS3Key S3Key { 
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -4558,7 +5265,7 @@ public IResolvable|S3BucketNotificationConfigurationLambdaConfigurationsFilterS3
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -4596,7 +5303,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -4610,7 +5317,7 @@ public string Value { get; set; }
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -4650,7 +5357,7 @@ The Amazon S3 bucket event about which you want to publish messages to Amazon SQ
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -4666,7 +5373,7 @@ The filtering rules that determine which objects trigger notifications.
 
 For example, you can create a filter so that Amazon S3 sends notifications only when image files with a `.jpg` extension are added to the bucket. For more information, see [Configuring event notifications using object key name filtering](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/notification-how-to-filtering.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -4682,7 +5389,7 @@ The Amazon Resource Name (ARN) of the Amazon SQS queue to which Amazon S3 publis
 
 FIFO queues are not allowed when enabling an SQS queue as the event notification destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#queue S3Bucket#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#queue S3Bucket#queue}
 
 ---
 
@@ -4716,7 +5423,7 @@ public S3BucketNotificationConfigurationQueueConfigurationsFilterS3Key S3Key { g
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -4750,7 +5457,7 @@ public IResolvable|S3BucketNotificationConfigurationQueueConfigurationsFilterS3K
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -4788,7 +5495,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -4802,7 +5509,7 @@ public string Value { get; set; }
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -4842,7 +5549,7 @@ The Amazon S3 bucket event about which to send notifications.
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -4858,7 +5565,7 @@ The filtering rules that determine for which objects to send notifications.
 
 For example, you can create a filter so that Amazon S3 sends notifications only when image files with a `.jpg` extension are added to the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -4872,7 +5579,7 @@ public string Topic { get; set; }
 
 The Amazon Resource Name (ARN) of the Amazon SNS topic to which Amazon S3 publishes a message when it detects events of the specified type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#topic S3Bucket#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#topic S3Bucket#topic}
 
 ---
 
@@ -4906,7 +5613,7 @@ public S3BucketNotificationConfigurationTopicConfigurationsFilterS3Key S3Key { g
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -4940,7 +5647,7 @@ public IResolvable|S3BucketNotificationConfigurationTopicConfigurationsFilterS3K
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -4978,7 +5685,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -4992,7 +5699,7 @@ public string Value { get; set; }
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -5028,7 +5735,7 @@ public string ObjectLockEnabled { get; set; }
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -5044,7 +5751,7 @@ Specifies the Object Lock rule for the specified object.
 
 Enable this rule when you apply `ObjectLockConfiguration` to a bucket. If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information, see [ObjectLockRule](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-objectlockrule.html) and [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rule S3Bucket#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rule S3Bucket#rule}
 
 ---
 
@@ -5080,7 +5787,7 @@ The default Object Lock retention mode and period that you want to apply to new 
 
 If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information about allowable values for mode and period, see [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
 
 ---
 
@@ -5093,6 +5800,7 @@ using Io.Cdktn.Providers.Awscc;
 
 new S3BucketObjectLockConfigurationRuleDefaultRetention {
     double Days = null,
+    S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold DefaultEventHold = null,
     string Mode = null,
     double Years = null
 };
@@ -5103,6 +5811,7 @@ new S3BucketObjectLockConfigurationRuleDefaultRetention {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.days">Days</a></code> | <code>double</code> | The number of days that you want to specify for the default retention period. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.defaultEventHold">DefaultEventHold</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.mode">Mode</a></code> | <code>string</code> | The default Object Lock retention mode you want to apply to new objects placed in the specified bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.years">Years</a></code> | <code>double</code> | The number of years that you want to specify for the default retention period. |
 
@@ -5120,7 +5829,19 @@ The number of days that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+
+---
+
+##### `DefaultEventHold`<sup>Optional</sup> <a name="DefaultEventHold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.defaultEventHold"></a>
+
+```csharp
+public S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold DefaultEventHold { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}.
 
 ---
 
@@ -5136,7 +5857,7 @@ The default Object Lock retention mode you want to apply to new objects placed i
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#mode S3Bucket#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#mode S3Bucket#mode}
 
 ---
 
@@ -5152,7 +5873,53 @@ The number of years that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#years S3Bucket#years}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}
+
+---
+
+### S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold <a name="S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold {
+    double Days = null,
+    double Years = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.days">Days</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.years">Years</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}. |
+
+---
+
+##### `Days`<sup>Optional</sup> <a name="Days" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.days"></a>
+
+```csharp
+public double Days { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}.
+
+---
+
+##### `Years`<sup>Optional</sup> <a name="Years" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.years"></a>
+
+```csharp
+public double Years { get; set; }
+```
+
+- *Type:* double
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}.
 
 ---
 
@@ -5186,7 +5953,7 @@ public IResolvable|S3BucketOwnershipControlsRules[] Rules { get; set; }
 
 Specifies the container element for Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -5220,7 +5987,7 @@ public string ObjectOwnership { get; set; }
 
 Specifies an object ownership rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#object_ownership S3Bucket#object_ownership}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_ownership S3Bucket#object_ownership}
 
 ---
 
@@ -5268,7 +6035,7 @@ Setting this element to `TRUE` causes the following behavior:
 
 Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
 
 ---
 
@@ -5285,7 +6052,7 @@ Specifies whether Amazon S3 should block public bucket policies for this bucket.
 Setting this element to `TRUE` causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access.
 Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
 
 ---
 
@@ -5302,7 +6069,7 @@ Specifies whether Amazon S3 should ignore public ACLs for this bucket and object
 Setting this element to `TRUE` causes Amazon S3 to ignore all public ACLs on this bucket and objects in this bucket.
 Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
 
 ---
 
@@ -5319,7 +6086,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to `TRUE` restricts access to this bucket to only AWS-service principals and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
 
 ---
 
@@ -5357,7 +6124,7 @@ The Amazon Resource Name (ARN) of the IAMlong (IAM) role that Amazon S3 assumes 
 
 For more information, see [How to Set Up Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-how-setup.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#role S3Bucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
 
 ---
 
@@ -5373,7 +6140,7 @@ A container for one or more replication rules.
 
 A replication configuration must have at least one rule and can contain a maximum of 1,000 rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -5421,11 +6188,11 @@ public S3BucketReplicationConfigurationRulesDeleteMarkerReplication DeleteMarker
 
 Specifies whether Amazon S3 replicates delete markers.
 
-If you specify a `Filter` in your replication configuration, you must also include a `DeleteMarkerReplication` element. If your `Filter` includes a `Tag` element, the `DeleteMarkerReplication` `Status` must be set to Disabled, because Amazon S3 does not support replicating delete markers for tag-based rules. For an example configuration, see [Basic Rule Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-config-min-rule-config).
+If you specify a `Filter` in your replication configuration, you must also include a `DeleteMarkerReplication` element. If your `Filter` includes a `Tag` element, the `DeleteMarkerReplication````Status` must be set to Disabled, because Amazon S3 does not support replicating delete markers for tag-based rules. For an example configuration, see [Basic Rule Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-config-min-rule-config).
 For more information about delete marker replication, see [Basic Rule Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/delete-marker-replication.html).
 If you are using an earlier version of the replication configuration, Amazon S3 handles replication of delete markers differently. For more information, see [Backward Compatibility](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-backward-compat-considerations).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#delete_marker_replication S3Bucket#delete_marker_replication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#delete_marker_replication S3Bucket#delete_marker_replication}
 
 ---
 
@@ -5439,7 +6206,7 @@ public S3BucketReplicationConfigurationRulesDestination Destination { get; set; 
 
 A container for information about the replication destination and its configurations including enabling the S3 Replication Time Control (S3 RTC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -5456,7 +6223,7 @@ A filter that identifies the subset of objects to which the replication rule app
 A `Filter` must specify exactly one `Prefix`, `TagFilter`, or an `And` child element. The use of the filter field indicates that this is a V2 replication configuration. This field isn't supported in a V1 replication configuration.
 V1 replication configuration only supports filtering by key prefix. To filter using a V1 replication configuration, add the `Prefix` directly as a child element of the `Rule` element.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -5472,7 +6239,7 @@ A unique identifier for the rule.
 
 The maximum value is 255 characters. If you don't specify a value, AWS CloudFormation generates a random ID. When using a V2 replication configuration this property is capitalized as "ID".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5492,7 +6259,7 @@ An object key name prefix that identifies the object or objects to which the rul
 The maximum prefix length is 1,024 characters. To include all objects in a bucket, specify an empty string. To filter using a V1 replication configuration, add the `Prefix` directly as a child element of the `Rule` element.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -5509,7 +6276,7 @@ The priority indicates which rule has precedence whenever two or more replicatio
 Amazon S3 will attempt to replicate objects according to all replication rules. However, if there are two or more rules with the same destination bucket, then objects will be replicated according to the rule with the highest priority. The higher the number, the higher the priority.
 For more information, see [Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#priority S3Bucket#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#priority S3Bucket#priority}
 
 ---
 
@@ -5525,7 +6292,7 @@ A container that describes additional filters for identifying the source objects
 
 You can choose to enable or disable the replication of these objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#source_selection_criteria S3Bucket#source_selection_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#source_selection_criteria S3Bucket#source_selection_criteria}
 
 ---
 
@@ -5539,7 +6306,7 @@ public string Status { get; set; }
 
 Specifies whether the rule is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -5559,7 +6326,7 @@ new S3BucketReplicationConfigurationRulesDeleteMarkerReplication {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketReplicationConfigurationRulesDeleteMarkerReplication.property.status">Status</a></code> | <code>string</code> | Indicates whether to replicate delete markers. Disabled by default. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketReplicationConfigurationRulesDeleteMarkerReplication.property.status">Status</a></code> | <code>string</code> | Indicates whether to replicate delete markers. |
 
 ---
 
@@ -5571,9 +6338,9 @@ public string Status { get; set; }
 
 - *Type:* string
 
-Indicates whether to replicate delete markers. Disabled by default.
+Indicates whether to replicate delete markers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -5621,7 +6388,7 @@ Specify this only in a cross-account scenario (where source and destination buck
 
 If this is not specified in the replication configuration, the replicas are owned by same AWS-account that owns the source object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
 
 ---
 
@@ -5638,7 +6405,7 @@ Destination bucket owner account ID.
 In a cross-account scenario, if you direct Amazon S3 to change replica ownership to the AWS-account that owns the destination bucket by specifying the `AccessControlTranslation` property, this is the account ID of the destination bucket owner. For more information, see [Cross-Region Replication Additional Configuration: Change Replica Owner](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-change-owner.html) in the *Amazon S3 User Guide*.
 If you specify the `AccessControlTranslation` property, the `Account` property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#account S3Bucket#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#account S3Bucket#account}
 
 ---
 
@@ -5652,7 +6419,7 @@ public string Bucket { get; set; }
 
 The Amazon Resource Name (ARN) of the bucket where you want Amazon S3 to store the results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
 
 ---
 
@@ -5666,7 +6433,7 @@ public S3BucketReplicationConfigurationRulesDestinationEncryptionConfiguration E
 
 Specifies encryption-related information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -5680,7 +6447,7 @@ public S3BucketReplicationConfigurationRulesDestinationMetrics Metrics { get; se
 
 A container specifying replication metrics-related settings enabling replication metrics and events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
 
 ---
 
@@ -5696,7 +6463,7 @@ A container specifying S3 Replication Time Control (S3 RTC), including whether S
 
 Must be specified together with a `Metrics` block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
 
 ---
 
@@ -5712,8 +6479,9 @@ The storage class to use when replicating objects, such as S3 Standard or reduce
 
 By default, Amazon S3 uses the storage class of the source object to create the object replica.
 For valid values, see the `StorageClass` element of the [PUT Bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) action in the *Amazon S3 API Reference*.
+`FSX_OPENZFS` is not an accepted value when replicating objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -5747,7 +6515,7 @@ public string Owner { get; set; }
 
 Specifies the replica ownership. For default and valid values, see [PUT bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#owner S3Bucket#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#owner S3Bucket#owner}
 
 ---
 
@@ -5783,7 +6551,7 @@ Specifies the ID (Key ARN or Alias ARN) of the customer managed AWS KMS key stor
 
 Amazon S3 uses this key to encrypt replica objects. Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
 
 ---
 
@@ -5819,7 +6587,7 @@ public S3BucketReplicationConfigurationRulesDestinationMetricsEventThreshold Eve
 
 A container specifying the time threshold for emitting the ``s3:Replication:OperationMissedThreshold`` event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
 
 ---
 
@@ -5833,7 +6601,7 @@ public string Status { get; set; }
 
 Specifies whether the replication metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -5867,7 +6635,7 @@ public double Minutes { get; set; }
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -5903,7 +6671,7 @@ public string Status { get; set; }
 
 Specifies whether the replication time is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -5917,7 +6685,7 @@ public S3BucketReplicationConfigurationRulesDestinationReplicationTimeTime Time 
 
 A container specifying the time by which replication should be complete for all objects and operations on objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#time S3Bucket#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#time S3Bucket#time}
 
 ---
 
@@ -5951,7 +6719,7 @@ public double Minutes { get; set; }
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -5994,7 +6762,7 @@ The filters determine the subset of objects to which the rule applies. This elem
 * If you specify both a `Prefix` and a `TagFilter`, wrap these filters in an `And` tag.
 * If you specify a filter based on multiple tags, wrap the `TagFilter` elements in an `And` tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#and S3Bucket#and}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#and S3Bucket#and}
 
 ---
 
@@ -6010,7 +6778,7 @@ An object key name prefix that identifies the subset of objects to which the rul
 
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -6026,7 +6794,7 @@ A container for specifying a tag key and value.
 
 The rule applies only to objects that have the tag in their tag set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
 
 ---
 
@@ -6062,7 +6830,7 @@ public string Prefix { get; set; }
 
 An object key name prefix that identifies the subset of objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -6076,7 +6844,7 @@ public IResolvable|S3BucketReplicationConfigurationRulesFilterAndTagFilters[] Ta
 
 An array of tags containing key and value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -6112,7 +6880,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -6126,7 +6894,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -6162,7 +6930,7 @@ public string Key { get; set; }
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -6176,7 +6944,7 @@ public string Value { get; set; }
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -6212,7 +6980,7 @@ public S3BucketReplicationConfigurationRulesSourceSelectionCriteriaReplicaModifi
 
 A filter that you can specify for selection for modifications on replicas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
 
 ---
 
@@ -6226,7 +6994,7 @@ public S3BucketReplicationConfigurationRulesSourceSelectionCriteriaSseKmsEncrypt
 
 A container for filter information for the selection of Amazon S3 objects encrypted with AWS KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
 
 ---
 
@@ -6246,7 +7014,7 @@ new S3BucketReplicationConfigurationRulesSourceSelectionCriteriaReplicaModificat
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaReplicaModifications.property.status">Status</a></code> | <code>string</code> | Specifies whether Amazon S3 replicates modifications on replicas.   *Allowed values*: ``Enabled`` \| ``Disabled``. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketReplicationConfigurationRulesSourceSelectionCriteriaReplicaModifications.property.status">Status</a></code> | <code>string</code> | Specifies whether Amazon S3 replicates modifications on replicas.  *Allowed values*: ``Enabled`` \| ``Disabled``. |
 
 ---
 
@@ -6258,9 +7026,9 @@ public string Status { get; set; }
 
 - *Type:* string
 
-Specifies whether Amazon S3 replicates modifications on replicas.   *Allowed values*: ``Enabled`` | ``Disabled``.
+Specifies whether Amazon S3 replicates modifications on replicas.  *Allowed values*: ``Enabled`` | ``Disabled``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -6294,7 +7062,7 @@ public string Status { get; set; }
 
 Specifies whether Amazon S3 replicates objects created with server-side encryption using an AWS KMS key stored in AWS Key Management Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -6330,7 +7098,7 @@ public string Key { get; set; }
 
 Name of the object key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -6344,7 +7112,7 @@ public string Value { get; set; }
 
 Value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -6378,7 +7146,7 @@ public string Status { get; set; }
 
 The versioning state of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -6418,7 +7186,7 @@ public string ErrorDocument { get; set; }
 
 The name of the error document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
 
 ---
 
@@ -6432,7 +7200,7 @@ public string IndexDocument { get; set; }
 
 The name of the index document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
 
 ---
 
@@ -6448,7 +7216,7 @@ The redirect behavior for every request to this bucket's website endpoint.
 
 If you specify this property, you can't specify any other property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
 
 ---
 
@@ -6462,7 +7230,7 @@ public IResolvable|S3BucketWebsiteConfigurationRoutingRules[] RoutingRules { get
 
 Rules that define when a redirect is applied and the redirect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
 
 ---
 
@@ -6498,7 +7266,7 @@ public string HostName { get; set; }
 
 Name of the host where requests are redirected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -6512,7 +7280,7 @@ public string Protocol { get; set; }
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -6550,7 +7318,7 @@ Container for redirect information.
 
 You can redirect requests to another host, to another page, or with another protocol. In the event of an error, you can specify a different error code to return.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#redirect_rule S3Bucket#redirect_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#redirect_rule S3Bucket#redirect_rule}
 
 ---
 
@@ -6566,7 +7334,7 @@ A container for describing a condition that must be met for the specified redire
 
 For example, 1. If request is for pages in the `/docs` folder, redirect to the `/documents` folder. 2. If request results in HTTP error 4xx, redirect request to another host where you might process the error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#routing_rule_condition S3Bucket#routing_rule_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#routing_rule_condition S3Bucket#routing_rule_condition}
 
 ---
 
@@ -6608,7 +7376,7 @@ public string HostName { get; set; }
 
 The host name to use in the redirect request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -6622,7 +7390,7 @@ public string HttpRedirectCode { get; set; }
 
 The HTTP redirect code to use on the response. Not required if one of the siblings is present.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
 
 ---
 
@@ -6636,7 +7404,7 @@ public string Protocol { get; set; }
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -6653,7 +7421,7 @@ The object key prefix to use in the redirect request.
 For example, to redirect requests for all pages with prefix `docs/` (objects in the `docs/` folder) to `documents/`, you can set a condition block with `KeyPrefixEquals` set to `docs/` and in the Redirect set `ReplaceKeyPrefixWith` to `/documents`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
 
 ---
 
@@ -6670,7 +7438,7 @@ The specific object key to use in the redirect request.
 For example, redirect request to `error.html`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyPrefixWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
 
 ---
 
@@ -6709,7 +7477,7 @@ The HTTP error code when the redirect is applied.
 In the event of an error, if the error code equals this value, then the specified redirect is applied.
 Required when parent element `Condition` is specified and sibling `KeyPrefixEquals` is not specified. If both are specified, then both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
 
 ---
 
@@ -6723,10 +7491,10 @@ public string KeyPrefixEquals { get; set; }
 
 The object key name prefix when the redirect is applied.
 
-For example, to redirect requests for `ExamplePage.html`, the key prefix will be `ExamplePage.html`. To redirect request for all pages with the prefix `docs/`, the key prefix will be `/docs`, which identifies all objects in the docs/ folder.
+For example, to redirect requests for `ExamplePage.html`, the key prefix will be `ExamplePage.html`. To redirect request for all pages with the prefix `docs/`, the key prefix will be `docs/`, which identifies all objects in the docs/ folder.
 Required when the parent element `Condition` is specified and sibling `HttpErrorCodeReturnedEquals` is not specified. If both conditions are specified, both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
 
 ---
 
@@ -9331,6 +10099,284 @@ public IResolvable|S3BucketBucketEncryption InternalValue { get; }
 ---
 
 
+### S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference <a name="S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resetEncryptionType">ResetEncryptionType</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEncryptionType` <a name="ResetEncryptionType" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resetEncryptionType"></a>
+
+```csharp
+private void ResetEncryptionType()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionTypeInput">EncryptionTypeInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionType">EncryptionType</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncryptionTypeInput`<sup>Optional</sup> <a name="EncryptionTypeInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionTypeInput"></a>
+
+```csharp
+public string[] EncryptionTypeInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `EncryptionType`<sup>Required</sup> <a name="EncryptionType" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionType"></a>
+
+```csharp
+public string[] EncryptionType { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a>
+
+---
+
+
 ### S3BucketBucketEncryptionServerSideEncryptionConfigurationList <a name="S3BucketBucketEncryptionServerSideEncryptionConfigurationList" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationList.Initializer"></a>
@@ -9559,7 +10605,9 @@ whether the list is wrapping a set (will add tolist() to be able to access an it
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putBlockedEncryptionTypes">PutBlockedEncryptionTypes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putServerSideEncryptionByDefault">PutServerSideEncryptionByDefault</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetBlockedEncryptionTypes">ResetBlockedEncryptionTypes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetBucketKeyEnabled">ResetBucketKeyEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetServerSideEncryptionByDefault">ResetServerSideEncryptionByDefault</a></code> | *No description.* |
 
@@ -9715,6 +10763,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutBlockedEncryptionTypes` <a name="PutBlockedEncryptionTypes" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putBlockedEncryptionTypes"></a>
+
+```csharp
+private void PutBlockedEncryptionTypes(S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putBlockedEncryptionTypes.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a>
+
+---
+
 ##### `PutServerSideEncryptionByDefault` <a name="PutServerSideEncryptionByDefault" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.putServerSideEncryptionByDefault"></a>
 
 ```csharp
@@ -9726,6 +10786,12 @@ private void PutServerSideEncryptionByDefault(S3BucketBucketEncryptionServerSide
 - *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault</a>
 
 ---
+
+##### `ResetBlockedEncryptionTypes` <a name="ResetBlockedEncryptionTypes" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetBlockedEncryptionTypes"></a>
+
+```csharp
+private void ResetBlockedEncryptionTypes()
+```
 
 ##### `ResetBucketKeyEnabled` <a name="ResetBucketKeyEnabled" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.resetBucketKeyEnabled"></a>
 
@@ -9746,7 +10812,9 @@ private void ResetServerSideEncryptionByDefault()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypes">BlockedEncryptionTypes</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.serverSideEncryptionByDefault">ServerSideEncryptionByDefault</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypesInput">BlockedEncryptionTypesInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.bucketKeyEnabledInput">BucketKeyEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.serverSideEncryptionByDefaultInput">ServerSideEncryptionByDefaultInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.bucketKeyEnabled">BucketKeyEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
@@ -9778,6 +10846,16 @@ public string Fqn { get; }
 
 ---
 
+##### `BlockedEncryptionTypes`<sup>Required</sup> <a name="BlockedEncryptionTypes" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypes"></a>
+
+```csharp
+public S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference BlockedEncryptionTypes { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference</a>
+
+---
+
 ##### `ServerSideEncryptionByDefault`<sup>Required</sup> <a name="ServerSideEncryptionByDefault" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.serverSideEncryptionByDefault"></a>
 
 ```csharp
@@ -9785,6 +10863,16 @@ public S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryp
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference">S3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference</a>
+
+---
+
+##### `BlockedEncryptionTypesInput`<sup>Optional</sup> <a name="BlockedEncryptionTypesInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypesInput"></a>
+
+```csharp
+public IResolvable|S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes BlockedEncryptionTypesInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">S3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a>
 
 ---
 
@@ -18623,6 +19711,2970 @@ public IResolvable|S3BucketLoggingConfigurationTargetObjectKeyFormatPartitionedP
 ---
 
 
+### S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference <a name="S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn">ResetKmsKeyArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm">ResetSseAlgorithm</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetKmsKeyArn` <a name="ResetKmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn"></a>
+
+```csharp
+private void ResetKmsKeyArn()
+```
+
+##### `ResetSseAlgorithm` <a name="ResetSseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm"></a>
+
+```csharp
+private void ResetSseAlgorithm()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput">KmsKeyArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput">SseAlgorithmInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">KmsKeyArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">SseAlgorithm</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `KmsKeyArnInput`<sup>Optional</sup> <a name="KmsKeyArnInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput"></a>
+
+```csharp
+public string KmsKeyArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SseAlgorithmInput`<sup>Optional</sup> <a name="SseAlgorithmInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput"></a>
+
+```csharp
+public string SseAlgorithmInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `KmsKeyArn`<sup>Required</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```csharp
+public string KmsKeyArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SseAlgorithm`<sup>Required</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```csharp
+public string SseAlgorithm { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference <a name="S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.putEncryptionConfiguration">PutEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetConfigurationState">ResetConfigurationState</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetEncryptionConfiguration">ResetEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetRole">ResetRole</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutEncryptionConfiguration` <a name="PutEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.putEncryptionConfiguration"></a>
+
+```csharp
+private void PutEncryptionConfiguration(S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.putEncryptionConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `ResetConfigurationState` <a name="ResetConfigurationState" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetConfigurationState"></a>
+
+```csharp
+private void ResetConfigurationState()
+```
+
+##### `ResetEncryptionConfiguration` <a name="ResetEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetEncryptionConfiguration"></a>
+
+```csharp
+private void ResetEncryptionConfiguration()
+```
+
+##### `ResetRole` <a name="ResetRole" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resetRole"></a>
+
+```csharp
+private void ResetRole()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableArn">TableArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableName">TableName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationStateInput">ConfigurationStateInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfigurationInput">EncryptionConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.roleInput">RoleInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationState">ConfigurationState</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.role">Role</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncryptionConfiguration`<sup>Required</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference EncryptionConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `TableArn`<sup>Required</sup> <a name="TableArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableArn"></a>
+
+```csharp
+public string TableArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TableName`<sup>Required</sup> <a name="TableName" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableName"></a>
+
+```csharp
+public string TableName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ConfigurationStateInput`<sup>Optional</sup> <a name="ConfigurationStateInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationStateInput"></a>
+
+```csharp
+public string ConfigurationStateInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncryptionConfigurationInput`<sup>Optional</sup> <a name="EncryptionConfigurationInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfigurationInput"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration EncryptionConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `RoleInput`<sup>Optional</sup> <a name="RoleInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.roleInput"></a>
+
+```csharp
+public string RoleInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ConfigurationState`<sup>Required</sup> <a name="ConfigurationState" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationState"></a>
+
+```csharp
+public string ConfigurationState { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Role`<sup>Required</sup> <a name="Role" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.role"></a>
+
+```csharp
+public string Role { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationAnnotationTableConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationDestinationOutputReference <a name="S3BucketMetadataConfigurationDestinationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationDestinationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketArn">TableBucketArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketType">TableBucketType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableNamespace">TableNamespace</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestination">S3BucketMetadataConfigurationDestination</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TableBucketArn`<sup>Required</sup> <a name="TableBucketArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketArn"></a>
+
+```csharp
+public string TableBucketArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TableBucketType`<sup>Required</sup> <a name="TableBucketType" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketType"></a>
+
+```csharp
+public string TableBucketType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TableNamespace`<sup>Required</sup> <a name="TableNamespace" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.tableNamespace"></a>
+
+```csharp
+public string TableNamespace { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference.property.internalValue"></a>
+
+```csharp
+public S3BucketMetadataConfigurationDestination InternalValue { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestination">S3BucketMetadataConfigurationDestination</a>
+
+---
+
+
+### S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference <a name="S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn">ResetKmsKeyArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm">ResetSseAlgorithm</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetKmsKeyArn` <a name="ResetKmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn"></a>
+
+```csharp
+private void ResetKmsKeyArn()
+```
+
+##### `ResetSseAlgorithm` <a name="ResetSseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm"></a>
+
+```csharp
+private void ResetSseAlgorithm()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput">KmsKeyArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput">SseAlgorithmInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">KmsKeyArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">SseAlgorithm</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `KmsKeyArnInput`<sup>Optional</sup> <a name="KmsKeyArnInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput"></a>
+
+```csharp
+public string KmsKeyArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SseAlgorithmInput`<sup>Optional</sup> <a name="SseAlgorithmInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput"></a>
+
+```csharp
+public string SseAlgorithmInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `KmsKeyArn`<sup>Required</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```csharp
+public string KmsKeyArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SseAlgorithm`<sup>Required</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```csharp
+public string SseAlgorithm { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference <a name="S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.putEncryptionConfiguration">PutEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resetConfigurationState">ResetConfigurationState</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resetEncryptionConfiguration">ResetEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutEncryptionConfiguration` <a name="PutEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.putEncryptionConfiguration"></a>
+
+```csharp
+private void PutEncryptionConfiguration(S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.putEncryptionConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `ResetConfigurationState` <a name="ResetConfigurationState" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resetConfigurationState"></a>
+
+```csharp
+private void ResetConfigurationState()
+```
+
+##### `ResetEncryptionConfiguration` <a name="ResetEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resetEncryptionConfiguration"></a>
+
+```csharp
+private void ResetEncryptionConfiguration()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableArn">TableArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableName">TableName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationStateInput">ConfigurationStateInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfigurationInput">EncryptionConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationState">ConfigurationState</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncryptionConfiguration`<sup>Required</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference EncryptionConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `TableArn`<sup>Required</sup> <a name="TableArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableArn"></a>
+
+```csharp
+public string TableArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TableName`<sup>Required</sup> <a name="TableName" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableName"></a>
+
+```csharp
+public string TableName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `ConfigurationStateInput`<sup>Optional</sup> <a name="ConfigurationStateInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationStateInput"></a>
+
+```csharp
+public string ConfigurationStateInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncryptionConfigurationInput`<sup>Optional</sup> <a name="EncryptionConfigurationInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfigurationInput"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration EncryptionConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `ConfigurationState`<sup>Required</sup> <a name="ConfigurationState" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationState"></a>
+
+```csharp
+public string ConfigurationState { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationInventoryTableConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference <a name="S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn">ResetKmsKeyArn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm">ResetSseAlgorithm</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetKmsKeyArn` <a name="ResetKmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resetKmsKeyArn"></a>
+
+```csharp
+private void ResetKmsKeyArn()
+```
+
+##### `ResetSseAlgorithm` <a name="ResetSseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resetSseAlgorithm"></a>
+
+```csharp
+private void ResetSseAlgorithm()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput">KmsKeyArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput">SseAlgorithmInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">KmsKeyArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">SseAlgorithm</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `KmsKeyArnInput`<sup>Optional</sup> <a name="KmsKeyArnInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArnInput"></a>
+
+```csharp
+public string KmsKeyArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SseAlgorithmInput`<sup>Optional</sup> <a name="SseAlgorithmInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithmInput"></a>
+
+```csharp
+public string SseAlgorithmInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `KmsKeyArn`<sup>Required</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```csharp
+public string KmsKeyArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SseAlgorithm`<sup>Required</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```csharp
+public string SseAlgorithm { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationJournalTableConfigurationOutputReference <a name="S3BucketMetadataConfigurationJournalTableConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationJournalTableConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putEncryptionConfiguration">PutEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putRecordExpiration">PutRecordExpiration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resetEncryptionConfiguration">ResetEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resetRecordExpiration">ResetRecordExpiration</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutEncryptionConfiguration` <a name="PutEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putEncryptionConfiguration"></a>
+
+```csharp
+private void PutEncryptionConfiguration(S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putEncryptionConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `PutRecordExpiration` <a name="PutRecordExpiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putRecordExpiration"></a>
+
+```csharp
+private void PutRecordExpiration(S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.putRecordExpiration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+---
+
+##### `ResetEncryptionConfiguration` <a name="ResetEncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resetEncryptionConfiguration"></a>
+
+```csharp
+private void ResetEncryptionConfiguration()
+```
+
+##### `ResetRecordExpiration` <a name="ResetRecordExpiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resetRecordExpiration"></a>
+
+```csharp
+private void ResetRecordExpiration()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpiration">RecordExpiration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableArn">TableArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableName">TableName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfigurationInput">EncryptionConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpirationInput">RecordExpirationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncryptionConfiguration`<sup>Required</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference EncryptionConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `RecordExpiration`<sup>Required</sup> <a name="RecordExpiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpiration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference RecordExpiration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference</a>
+
+---
+
+##### `TableArn`<sup>Required</sup> <a name="TableArn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableArn"></a>
+
+```csharp
+public string TableArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `TableName`<sup>Required</sup> <a name="TableName" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableName"></a>
+
+```csharp
+public string TableName { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EncryptionConfigurationInput`<sup>Optional</sup> <a name="EncryptionConfigurationInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfigurationInput"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration EncryptionConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">S3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+---
+
+##### `RecordExpirationInput`<sup>Optional</sup> <a name="RecordExpirationInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpirationInput"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration RecordExpirationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationJournalTableConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference <a name="S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resetDays">ResetDays</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resetExpiration">ResetExpiration</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetDays` <a name="ResetDays" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resetDays"></a>
+
+```csharp
+private void ResetDays()
+```
+
+##### `ResetExpiration` <a name="ResetExpiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resetExpiration"></a>
+
+```csharp
+private void ResetExpiration()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.daysInput">DaysInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expirationInput">ExpirationInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.days">Days</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expiration">Expiration</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DaysInput`<sup>Optional</sup> <a name="DaysInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.daysInput"></a>
+
+```csharp
+public double DaysInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `ExpirationInput`<sup>Optional</sup> <a name="ExpirationInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expirationInput"></a>
+
+```csharp
+public string ExpirationInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Days`<sup>Required</sup> <a name="Days" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.days"></a>
+
+```csharp
+public double Days { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `Expiration`<sup>Required</sup> <a name="Expiration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expiration"></a>
+
+```csharp
+public string Expiration { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">S3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+---
+
+
+### S3BucketMetadataConfigurationOutputReference <a name="S3BucketMetadataConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketMetadataConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putAnnotationTableConfiguration">PutAnnotationTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putInventoryTableConfiguration">PutInventoryTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putJournalTableConfiguration">PutJournalTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetAnnotationTableConfiguration">ResetAnnotationTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetInventoryTableConfiguration">ResetInventoryTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetJournalTableConfiguration">ResetJournalTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutAnnotationTableConfiguration` <a name="PutAnnotationTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putAnnotationTableConfiguration"></a>
+
+```csharp
+private void PutAnnotationTableConfiguration(S3BucketMetadataConfigurationAnnotationTableConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putAnnotationTableConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+---
+
+##### `PutInventoryTableConfiguration` <a name="PutInventoryTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putInventoryTableConfiguration"></a>
+
+```csharp
+private void PutInventoryTableConfiguration(S3BucketMetadataConfigurationInventoryTableConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putInventoryTableConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+---
+
+##### `PutJournalTableConfiguration` <a name="PutJournalTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putJournalTableConfiguration"></a>
+
+```csharp
+private void PutJournalTableConfiguration(S3BucketMetadataConfigurationJournalTableConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.putJournalTableConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+---
+
+##### `ResetAnnotationTableConfiguration` <a name="ResetAnnotationTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetAnnotationTableConfiguration"></a>
+
+```csharp
+private void ResetAnnotationTableConfiguration()
+```
+
+##### `ResetInventoryTableConfiguration` <a name="ResetInventoryTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetInventoryTableConfiguration"></a>
+
+```csharp
+private void ResetInventoryTableConfiguration()
+```
+
+##### `ResetJournalTableConfiguration` <a name="ResetJournalTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.resetJournalTableConfiguration"></a>
+
+```csharp
+private void ResetJournalTableConfiguration()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.annotationTableConfiguration">AnnotationTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference">S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.destination">Destination</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference">S3BucketMetadataConfigurationDestinationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.inventoryTableConfiguration">InventoryTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference">S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.journalTableConfiguration">JournalTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.annotationTableConfigurationInput">AnnotationTableConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.inventoryTableConfigurationInput">InventoryTableConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.journalTableConfigurationInput">JournalTableConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AnnotationTableConfiguration`<sup>Required</sup> <a name="AnnotationTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.annotationTableConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference AnnotationTableConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference">S3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference</a>
+
+---
+
+##### `Destination`<sup>Required</sup> <a name="Destination" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.destination"></a>
+
+```csharp
+public S3BucketMetadataConfigurationDestinationOutputReference Destination { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationDestinationOutputReference">S3BucketMetadataConfigurationDestinationOutputReference</a>
+
+---
+
+##### `InventoryTableConfiguration`<sup>Required</sup> <a name="InventoryTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.inventoryTableConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference InventoryTableConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference">S3BucketMetadataConfigurationInventoryTableConfigurationOutputReference</a>
+
+---
+
+##### `JournalTableConfiguration`<sup>Required</sup> <a name="JournalTableConfiguration" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.journalTableConfiguration"></a>
+
+```csharp
+public S3BucketMetadataConfigurationJournalTableConfigurationOutputReference JournalTableConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfigurationOutputReference">S3BucketMetadataConfigurationJournalTableConfigurationOutputReference</a>
+
+---
+
+##### `AnnotationTableConfigurationInput`<sup>Optional</sup> <a name="AnnotationTableConfigurationInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.annotationTableConfigurationInput"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationAnnotationTableConfiguration AnnotationTableConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationAnnotationTableConfiguration">S3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+---
+
+##### `InventoryTableConfigurationInput`<sup>Optional</sup> <a name="InventoryTableConfigurationInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.inventoryTableConfigurationInput"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationInventoryTableConfiguration InventoryTableConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationInventoryTableConfiguration">S3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+---
+
+##### `JournalTableConfigurationInput`<sup>Optional</sup> <a name="JournalTableConfigurationInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.journalTableConfigurationInput"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfigurationJournalTableConfiguration JournalTableConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationJournalTableConfiguration">S3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketMetadataConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketMetadataConfiguration">S3BucketMetadataConfiguration</a>
+
+---
+
+
 ### S3BucketMetadataTableConfigurationOutputReference <a name="S3BucketMetadataTableConfigurationOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketMetadataTableConfigurationOutputReference.Initializer"></a>
@@ -26081,6 +30133,313 @@ public IResolvable|S3BucketObjectLockConfiguration InternalValue { get; }
 ---
 
 
+### S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference <a name="S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resetDays">ResetDays</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resetYears">ResetYears</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetDays` <a name="ResetDays" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resetDays"></a>
+
+```csharp
+private void ResetDays()
+```
+
+##### `ResetYears` <a name="ResetYears" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resetYears"></a>
+
+```csharp
+private void ResetYears()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.daysInput">DaysInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.yearsInput">YearsInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.days">Days</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.years">Years</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `DaysInput`<sup>Optional</sup> <a name="DaysInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.daysInput"></a>
+
+```csharp
+public double DaysInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `YearsInput`<sup>Optional</sup> <a name="YearsInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.yearsInput"></a>
+
+```csharp
+public double YearsInput { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `Days`<sup>Required</sup> <a name="Days" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.days"></a>
+
+```csharp
+public double Days { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `Years`<sup>Required</sup> <a name="Years" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.years"></a>
+
+```csharp
+public double Years { get; }
+```
+
+- *Type:* double
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
+
+---
+
+
 ### S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference <a name="S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.Initializer"></a>
@@ -26131,7 +30490,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.putDefaultEventHold">PutDefaultEventHold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetDays">ResetDays</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetDefaultEventHold">ResetDefaultEventHold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetMode">ResetMode</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetYears">ResetYears</a></code> | *No description.* |
 
@@ -26287,10 +30648,28 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutDefaultEventHold` <a name="PutDefaultEventHold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.putDefaultEventHold"></a>
+
+```csharp
+private void PutDefaultEventHold(S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.putDefaultEventHold.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
+
+---
+
 ##### `ResetDays` <a name="ResetDays" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetDays"></a>
 
 ```csharp
 private void ResetDays()
+```
+
+##### `ResetDefaultEventHold` <a name="ResetDefaultEventHold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetDefaultEventHold"></a>
+
+```csharp
+private void ResetDefaultEventHold()
 ```
 
 ##### `ResetMode` <a name="ResetMode" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.resetMode"></a>
@@ -26312,7 +30691,9 @@ private void ResetYears()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHold">DefaultEventHold</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.daysInput">DaysInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHoldInput">DefaultEventHoldInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.modeInput">ModeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.yearsInput">YearsInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.days">Days</a></code> | <code>double</code> | *No description.* |
@@ -26346,6 +30727,16 @@ public string Fqn { get; }
 
 ---
 
+##### `DefaultEventHold`<sup>Required</sup> <a name="DefaultEventHold" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHold"></a>
+
+```csharp
+public S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference DefaultEventHold { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference</a>
+
+---
+
 ##### `DaysInput`<sup>Optional</sup> <a name="DaysInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.daysInput"></a>
 
 ```csharp
@@ -26353,6 +30744,16 @@ public double DaysInput { get; }
 ```
 
 - *Type:* double
+
+---
+
+##### `DefaultEventHoldInput`<sup>Optional</sup> <a name="DefaultEventHoldInput" id="@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHoldInput"></a>
+
+```csharp
+public IResolvable|S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold DefaultEventHoldInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
 
 ---
 

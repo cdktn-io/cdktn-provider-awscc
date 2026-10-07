@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface CloudwatchViewConfig extends cdktn.TerraformMetaArguments {
   /**
   * The SQL query that defines the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#definition CloudwatchView#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#definition CloudwatchView#definition}
   */
   readonly definition: string;
   /**
   * A description of the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#description CloudwatchView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#description CloudwatchView#description}
   */
   readonly description?: string;
   /**
   * The name of the view. Must begin with the "view." prefix followed by lowercase alphanumeric characters, hyphens, and underscores. View names must be unique within the account and region. If not specified, a name is generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#name CloudwatchView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#name CloudwatchView#name}
   */
   readonly name?: string;
   /**
   * An array of key-value pairs to apply to the view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#tags CloudwatchView#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#tags CloudwatchView#tags}
   */
   readonly tags?: CloudwatchViewTags[] | cdktn.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface CloudwatchViewTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#key CloudwatchView#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#key CloudwatchView#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#value CloudwatchView#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#value CloudwatchView#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class CloudwatchViewTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view awscc_cloudwatch_view}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view awscc_cloudwatch_view}
 */
 export class CloudwatchView extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class CloudwatchView extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CloudwatchView resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudwatchView to import
-  * @param importFromId The id of the existing CloudwatchView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudwatchView that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudwatchView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class CloudwatchView extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cloudwatch_view awscc_cloudwatch_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_view awscc_cloudwatch_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class CloudwatchView extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cloudwatch_view',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

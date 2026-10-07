@@ -4,7 +4,7 @@
 
 ### DataAwsccComprehendEntityRecognizerEndpoints <a name="DataAwsccComprehendEntityRecognizerEndpoints" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizerEndpoints.DataAwsccComprehendEntityRecognizerEndpoints"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/comprehend_entity_recognizer_endpoints awscc_comprehend_entity_recognizer_endpoints}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/comprehend_entity_recognizer_endpoints awscc_comprehend_entity_recognizer_endpoints}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccComprehendEntityRecognizerEndpoints.DataAwsccComprehendEntityRecognizerEndpoints.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccComprehendEntityR
 
 The id of the existing DataAwsccComprehendEntityRecognizerEndpoints that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/comprehend_entity_recognizer_endpoints#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/comprehend_entity_recognizer_endpoints#import import section} in the documentation of this resource for the id to use
 
 ---
 

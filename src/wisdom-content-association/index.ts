@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,37 +15,37 @@ export interface WisdomContentAssociationConfig extends cdktn.TerraformMetaArgum
   /**
   * The identifier of the associated resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#association WisdomContentAssociation#association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#association WisdomContentAssociation#association}
   */
   readonly association: WisdomContentAssociationAssociation;
   /**
   * The type of association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#association_type WisdomContentAssociation#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#association_type WisdomContentAssociation#association_type}
   */
   readonly associationType: string;
   /**
   * The identifier of the content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#content_id WisdomContentAssociation#content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#content_id WisdomContentAssociation#content_id}
   */
   readonly contentId: string;
   /**
   * The identifier of the knowledge base.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#knowledge_base_id WisdomContentAssociation#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#knowledge_base_id WisdomContentAssociation#knowledge_base_id}
   */
   readonly knowledgeBaseId: string;
   /**
   * The tags used to organize, track, or control access for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#tags WisdomContentAssociation#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#tags WisdomContentAssociation#tags}
   */
   readonly tags?: WisdomContentAssociationTags[] | cdktn.IResolvable;
 }
 export interface WisdomContentAssociationAssociationAmazonConnectGuideAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}
   */
   readonly flowId?: string;
 }
@@ -139,7 +139,7 @@ export class WisdomContentAssociationAssociationAmazonConnectGuideAssociationOut
 }
 export interface WisdomContentAssociationAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}
   */
   readonly amazonConnectGuideAssociation: WisdomContentAssociationAssociationAmazonConnectGuideAssociation;
 }
@@ -230,11 +230,11 @@ export class WisdomContentAssociationAssociationOutputReference extends cdktn.Co
 }
 export interface WisdomContentAssociationTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}
   */
   readonly value?: string;
 }
@@ -379,7 +379,7 @@ export class WisdomContentAssociationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association awscc_wisdom_content_association}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association awscc_wisdom_content_association}
 */
 export class WisdomContentAssociation extends cdktn.TerraformResource {
 
@@ -395,7 +395,7 @@ export class WisdomContentAssociation extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WisdomContentAssociation resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WisdomContentAssociation to import
-  * @param importFromId The id of the existing WisdomContentAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WisdomContentAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WisdomContentAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -407,7 +407,7 @@ export class WisdomContentAssociation extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association awscc_wisdom_content_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association awscc_wisdom_content_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,7 +418,7 @@ export class WisdomContentAssociation extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wisdom_content_association',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

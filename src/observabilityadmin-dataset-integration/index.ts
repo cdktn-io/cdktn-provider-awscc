@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/observabilityadmin_dataset_integration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/observabilityadmin_dataset_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,13 +15,13 @@ export interface ObservabilityadminDatasetIntegrationConfig extends cdktn.Terraf
   /**
   * The ARN of the IAM role that the service assumes to forward telemetry to the customer's CloudWatch dataset. The role must live in the caller's account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/observabilityadmin_dataset_integration#role_arn ObservabilityadminDatasetIntegration#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/observabilityadmin_dataset_integration#role_arn ObservabilityadminDatasetIntegration#role_arn}
   */
   readonly roleArn: string;
   /**
   * An array of key-value pairs to apply to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/observabilityadmin_dataset_integration#tags ObservabilityadminDatasetIntegration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/observabilityadmin_dataset_integration#tags ObservabilityadminDatasetIntegration#tags}
   */
   readonly tags?: ObservabilityadminDatasetIntegrationTags[] | cdktn.IResolvable;
 }
@@ -29,13 +29,13 @@ export interface ObservabilityadminDatasetIntegrationTags {
   /**
   * The key name of the tag. You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/observabilityadmin_dataset_integration#key ObservabilityadminDatasetIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/observabilityadmin_dataset_integration#key ObservabilityadminDatasetIntegration#key}
   */
   readonly key?: string;
   /**
   * The value for the tag. You can specify a value that is 0 to 256 Unicode characters in length and cannot be prefixed with aws:. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/observabilityadmin_dataset_integration#value ObservabilityadminDatasetIntegration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/observabilityadmin_dataset_integration#value ObservabilityadminDatasetIntegration#value}
   */
   readonly value?: string;
 }
@@ -180,7 +180,7 @@ export class ObservabilityadminDatasetIntegrationTagsList extends cdktn.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration}
 */
 export class ObservabilityadminDatasetIntegration extends cdktn.TerraformResource {
 
@@ -196,7 +196,7 @@ export class ObservabilityadminDatasetIntegration extends cdktn.TerraformResourc
   * Generates CDKTN code for importing a ObservabilityadminDatasetIntegration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObservabilityadminDatasetIntegration to import
-  * @param importFromId The id of the existing ObservabilityadminDatasetIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/observabilityadmin_dataset_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObservabilityadminDatasetIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/observabilityadmin_dataset_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObservabilityadminDatasetIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -208,7 +208,7 @@ export class ObservabilityadminDatasetIntegration extends cdktn.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/observabilityadmin_dataset_integration awscc_observabilityadmin_dataset_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,7 +219,7 @@ export class ObservabilityadminDatasetIntegration extends cdktn.TerraformResourc
       terraformResourceType: 'awscc_observabilityadmin_dataset_integration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

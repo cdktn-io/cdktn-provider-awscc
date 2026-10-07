@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface Ec2InstanceEventWindowConfig extends cdktn.TerraformMetaArgumen
   /**
   * The cron expression defined for the event window. Exactly one of TimeRanges or CronExpression must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#cron_expression Ec2InstanceEventWindow#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#cron_expression Ec2InstanceEventWindow#cron_expression}
   */
   readonly cronExpression?: string;
   /**
   * The name of the event window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#name Ec2InstanceEventWindow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#name Ec2InstanceEventWindow#name}
   */
   readonly name?: string;
   /**
   * The tags applied to the event window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#tags Ec2InstanceEventWindow#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#tags Ec2InstanceEventWindow#tags}
   */
   readonly tags?: Ec2InstanceEventWindowTags[] | cdktn.IResolvable;
   /**
   * The time ranges of the event window. Exactly one of TimeRanges or CronExpression must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#time_ranges Ec2InstanceEventWindow#time_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#time_ranges Ec2InstanceEventWindow#time_ranges}
   */
   readonly timeRanges?: Ec2InstanceEventWindowTimeRanges[] | cdktn.IResolvable;
 }
@@ -41,13 +41,13 @@ export interface Ec2InstanceEventWindowTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#key Ec2InstanceEventWindow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#key Ec2InstanceEventWindow#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#value Ec2InstanceEventWindow#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#value Ec2InstanceEventWindow#value}
   */
   readonly value?: string;
 }
@@ -194,25 +194,25 @@ export interface Ec2InstanceEventWindowTimeRanges {
   /**
   * The hour when the time range ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#end_hour Ec2InstanceEventWindow#end_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#end_hour Ec2InstanceEventWindow#end_hour}
   */
   readonly endHour?: number;
   /**
   * The day on which the time range ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#end_week_day Ec2InstanceEventWindow#end_week_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#end_week_day Ec2InstanceEventWindow#end_week_day}
   */
   readonly endWeekDay?: string;
   /**
   * The hour when the time range begins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#start_hour Ec2InstanceEventWindow#start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#start_hour Ec2InstanceEventWindow#start_hour}
   */
   readonly startHour?: number;
   /**
   * The day on which the time range begins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#start_week_day Ec2InstanceEventWindow#start_week_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#start_week_day Ec2InstanceEventWindow#start_week_day}
   */
   readonly startWeekDay?: string;
 }
@@ -415,7 +415,7 @@ export class Ec2InstanceEventWindowTimeRangesList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window}
 */
 export class Ec2InstanceEventWindow extends cdktn.TerraformResource {
 
@@ -431,7 +431,7 @@ export class Ec2InstanceEventWindow extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2InstanceEventWindow resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2InstanceEventWindow to import
-  * @param importFromId The id of the existing Ec2InstanceEventWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2InstanceEventWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2InstanceEventWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -443,7 +443,7 @@ export class Ec2InstanceEventWindow extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_instance_event_window awscc_ec2_instance_event_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -454,7 +454,7 @@ export class Ec2InstanceEventWindow extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_instance_event_window',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

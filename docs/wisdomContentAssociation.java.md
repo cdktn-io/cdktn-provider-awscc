@@ -4,7 +4,7 @@
 
 ### WisdomContentAssociation <a name="WisdomContentAssociation" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association awscc_wisdom_content_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association awscc_wisdom_content_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociation.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The identifier of the associated resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#association WisdomContentAssociation#association}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#association WisdomContentAssociation#association}
 
 ---
 
@@ -122,7 +122,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The type of association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#association_type WisdomContentAssociation#association_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#association_type WisdomContentAssociation#association_type}
 
 ---
 
@@ -132,7 +132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#content_id WisdomContentAssociation#content_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#content_id WisdomContentAssociation#content_id}
 
 ---
 
@@ -142,7 +142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The identifier of the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#knowledge_base_id WisdomContentAssociation#knowledge_base_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#knowledge_base_id WisdomContentAssociation#knowledge_base_id}
 
 ---
 
@@ -152,7 +152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#tags WisdomContentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#tags WisdomContentAssociation#tags}
 
 ---
 
@@ -634,7 +634,7 @@ The construct id used in the generated config for the WisdomContentAssociation t
 
 The id of the existing WisdomContentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1010,7 +1010,7 @@ WisdomContentAssociationAssociation.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociation.property.amazonConnectGuideAssociation">amazonConnectGuideAssociation</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation">WisdomContentAssociationAssociationAmazonConnectGuideAssociation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociation.property.amazonConnectGuideAssociation">amazonConnectGuideAssociation</a></code> | <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation">WisdomContentAssociationAssociationAmazonConnectGuideAssociation</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}. |
 
 ---
 
@@ -1022,7 +1022,7 @@ public WisdomContentAssociationAssociationAmazonConnectGuideAssociation getAmazo
 
 - *Type:* <a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation">WisdomContentAssociationAssociationAmazonConnectGuideAssociation</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#amazon_connect_guide_association WisdomContentAssociation#amazon_connect_guide_association}.
 
 ---
 
@@ -1042,7 +1042,7 @@ WisdomContentAssociationAssociationAmazonConnectGuideAssociation.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation.property.flowId">flowId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationAssociationAmazonConnectGuideAssociation.property.flowId">flowId</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}. |
 
 ---
 
@@ -1054,7 +1054,7 @@ public java.lang.String getFlowId();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#flow_id WisdomContentAssociation#flow_id}.
 
 ---
 
@@ -1180,7 +1180,7 @@ public WisdomContentAssociationAssociation getAssociation();
 
 The identifier of the associated resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#association WisdomContentAssociation#association}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#association WisdomContentAssociation#association}
 
 ---
 
@@ -1194,7 +1194,7 @@ public java.lang.String getAssociationType();
 
 The type of association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#association_type WisdomContentAssociation#association_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#association_type WisdomContentAssociation#association_type}
 
 ---
 
@@ -1208,7 +1208,7 @@ public java.lang.String getContentId();
 
 The identifier of the content.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#content_id WisdomContentAssociation#content_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#content_id WisdomContentAssociation#content_id}
 
 ---
 
@@ -1222,7 +1222,7 @@ public java.lang.String getKnowledgeBaseId();
 
 The identifier of the knowledge base.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#knowledge_base_id WisdomContentAssociation#knowledge_base_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#knowledge_base_id WisdomContentAssociation#knowledge_base_id}
 
 ---
 
@@ -1236,7 +1236,7 @@ public IResolvable|java.util.List<WisdomContentAssociationTags> getTags();
 
 The tags used to organize, track, or control access for this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#tags WisdomContentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#tags WisdomContentAssociation#tags}
 
 ---
 
@@ -1257,8 +1257,8 @@ WisdomContentAssociationTags.builder()
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.property.key">key</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.wisdomContentAssociation.WisdomContentAssociationTags.property.value">value</a></code> | <code>java.lang.String</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}. |
 
 ---
 
@@ -1270,7 +1270,7 @@ public java.lang.String getKey();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#key WisdomContentAssociation#key}.
 
 ---
 
@@ -1282,7 +1282,7 @@ public java.lang.String getValue();
 
 - *Type:* java.lang.String
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wisdom_content_association#value WisdomContentAssociation#value}.
 
 ---
 

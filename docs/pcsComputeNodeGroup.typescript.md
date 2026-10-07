@@ -4,7 +4,7 @@
 
 ### PcsComputeNodeGroup <a name="PcsComputeNodeGroup" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group awscc_pcs_compute_node_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.Initializer"></a>
 
@@ -81,6 +81,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.putSlurmConfiguration">putSlurmConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.putSpotOptions">putSpotOptions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.resetAmiId">resetAmiId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.resetCustomLaunchTemplate">resetCustomLaunchTemplate</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.resetName">resetName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.resetNodeLifecycleActions">resetNodeLifecycleActions</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.resetPurchaseOption">resetPurchaseOption</a></code> | *No description.* |
@@ -477,6 +478,12 @@ public putSpotOptions(value: PcsComputeNodeGroupSpotOptions): void
 public resetAmiId(): void
 ```
 
+##### `resetCustomLaunchTemplate` <a name="resetCustomLaunchTemplate" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.resetCustomLaunchTemplate"></a>
+
+```typescript
+public resetCustomLaunchTemplate(): void
+```
+
 ##### `resetName` <a name="resetName" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroup.resetName"></a>
 
 ```typescript
@@ -616,7 +623,7 @@ The construct id used in the generated config for the PcsComputeNodeGroup to imp
 
 The id of the existing PcsComputeNodeGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1174,12 +1181,12 @@ const pcsComputeNodeGroupConfig: pcsComputeNodeGroup.PcsComputeNodeGroupConfig =
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.clusterId">clusterId</a></code> | <code>string</code> | The ID of the cluster of the compute node group. |
-| <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.customLaunchTemplate">customLaunchTemplate</a></code> | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate">PcsComputeNodeGroupCustomLaunchTemplate</a></code> | An Amazon EC2 launch template AWS PCS uses to launch compute nodes. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.iamInstanceProfileArn">iamInstanceProfileArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the IAM instance profile used to pass an IAM role when launching EC2 instances. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.instanceConfigs">instanceConfigs</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupInstanceConfigs">PcsComputeNodeGroupInstanceConfigs</a>[]</code> | A list of EC2 instance configurations that AWS PCS can provision in the compute node group. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.scalingConfiguration">scalingConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupScalingConfiguration">PcsComputeNodeGroupScalingConfiguration</a></code> | Specifies the boundaries of the compute node group auto scaling. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.subnetIds">subnetIds</a></code> | <code>string[]</code> | The list of subnet IDs where instances are provisioned by the compute node group. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.amiId">amiId</a></code> | <code>string</code> | The ID of the Amazon Machine Image (AMI) that AWS PCS uses to launch instances. |
+| <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.customLaunchTemplate">customLaunchTemplate</a></code> | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate">PcsComputeNodeGroupCustomLaunchTemplate</a></code> | An Amazon EC2 launch template AWS PCS uses to launch compute nodes. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.name">name</a></code> | <code>string</code> | The name that identifies the compute node group. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.nodeLifecycleActions">nodeLifecycleActions</a></code> | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupNodeLifecycleActions">PcsComputeNodeGroupNodeLifecycleActions</a></code> | Custom scripts that run at defined points in a compute node's lifecycle. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.purchaseOption">purchaseOption</a></code> | <code>string</code> | Specifies how EC2 instances are purchased on your behalf. |
@@ -1269,21 +1276,7 @@ public readonly clusterId: string;
 
 The ID of the cluster of the compute node group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#cluster_id PcsComputeNodeGroup#cluster_id}
-
----
-
-##### `customLaunchTemplate`<sup>Required</sup> <a name="customLaunchTemplate" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.customLaunchTemplate"></a>
-
-```typescript
-public readonly customLaunchTemplate: PcsComputeNodeGroupCustomLaunchTemplate;
-```
-
-- *Type:* <a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate">PcsComputeNodeGroupCustomLaunchTemplate</a>
-
-An Amazon EC2 launch template AWS PCS uses to launch compute nodes.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#custom_launch_template PcsComputeNodeGroup#custom_launch_template}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#cluster_id PcsComputeNodeGroup#cluster_id}
 
 ---
 
@@ -1299,7 +1292,7 @@ The Amazon Resource Name (ARN) of the IAM instance profile used to pass an IAM r
 
 The role contained in your instance profile must have pcs:RegisterComputeNodeGroupInstance permissions attached to provision instances correctly.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#iam_instance_profile_arn PcsComputeNodeGroup#iam_instance_profile_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#iam_instance_profile_arn PcsComputeNodeGroup#iam_instance_profile_arn}
 
 ---
 
@@ -1313,7 +1306,7 @@ public readonly instanceConfigs: IResolvable | PcsComputeNodeGroupInstanceConfig
 
 A list of EC2 instance configurations that AWS PCS can provision in the compute node group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#instance_configs PcsComputeNodeGroup#instance_configs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#instance_configs PcsComputeNodeGroup#instance_configs}
 
 ---
 
@@ -1327,7 +1320,7 @@ public readonly scalingConfiguration: PcsComputeNodeGroupScalingConfiguration;
 
 Specifies the boundaries of the compute node group auto scaling.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#scaling_configuration PcsComputeNodeGroup#scaling_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#scaling_configuration PcsComputeNodeGroup#scaling_configuration}
 
 ---
 
@@ -1343,7 +1336,7 @@ The list of subnet IDs where instances are provisioned by the compute node group
 
 The subnets must be in the same VPC as the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#subnet_ids PcsComputeNodeGroup#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#subnet_ids PcsComputeNodeGroup#subnet_ids}
 
 ---
 
@@ -1359,7 +1352,21 @@ The ID of the Amazon Machine Image (AMI) that AWS PCS uses to launch instances.
 
 If not provided, AWS PCS uses the AMI ID specified in the custom launch template.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#ami_id PcsComputeNodeGroup#ami_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#ami_id PcsComputeNodeGroup#ami_id}
+
+---
+
+##### `customLaunchTemplate`<sup>Optional</sup> <a name="customLaunchTemplate" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupConfig.property.customLaunchTemplate"></a>
+
+```typescript
+public readonly customLaunchTemplate: PcsComputeNodeGroupCustomLaunchTemplate;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate">PcsComputeNodeGroupCustomLaunchTemplate</a>
+
+An Amazon EC2 launch template AWS PCS uses to launch compute nodes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#custom_launch_template PcsComputeNodeGroup#custom_launch_template}
 
 ---
 
@@ -1373,7 +1380,7 @@ public readonly name: string;
 
 The name that identifies the compute node group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
 
 ---
 
@@ -1387,7 +1394,7 @@ public readonly nodeLifecycleActions: PcsComputeNodeGroupNodeLifecycleActions;
 
 Custom scripts that run at defined points in a compute node's lifecycle.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#node_lifecycle_actions PcsComputeNodeGroup#node_lifecycle_actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#node_lifecycle_actions PcsComputeNodeGroup#node_lifecycle_actions}
 
 ---
 
@@ -1403,7 +1410,7 @@ Specifies how EC2 instances are purchased on your behalf.
 
 AWS PCS supports On-Demand, Spot, Capacity Block, and Interruptible Capacity Reservation instances. For more information, see Instance purchasing options in the Amazon Elastic Compute Cloud User Guide. If you don't provide this option, it defaults to On-Demand.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#purchase_option PcsComputeNodeGroup#purchase_option}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#purchase_option PcsComputeNodeGroup#purchase_option}
 
 ---
 
@@ -1417,7 +1424,7 @@ public readonly slurmConfiguration: PcsComputeNodeGroupSlurmConfiguration;
 
 Additional options related to the Slurm scheduler.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#slurm_configuration PcsComputeNodeGroup#slurm_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#slurm_configuration PcsComputeNodeGroup#slurm_configuration}
 
 ---
 
@@ -1431,7 +1438,7 @@ public readonly spotOptions: PcsComputeNodeGroupSpotOptions;
 
 Additional configuration when you specify SPOT as the purchase option.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#spot_options PcsComputeNodeGroup#spot_options}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#spot_options PcsComputeNodeGroup#spot_options}
 
 ---
 
@@ -1447,7 +1454,7 @@ public readonly tags: {[ key: string ]: string};
 
 Each tag consists of a tag key and tag value. The tag value is optional and can be an empty string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#tags PcsComputeNodeGroup#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#tags PcsComputeNodeGroup#tags}
 
 ---
 
@@ -1465,22 +1472,8 @@ const pcsComputeNodeGroupCustomLaunchTemplate: pcsComputeNodeGroup.PcsComputeNod
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate.property.version">version</a></code> | <code>string</code> | The version of the EC2 launch template to use to provision instances. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate.property.templateId">templateId</a></code> | <code>string</code> | The ID of the EC2 launch template to use to provision instances. |
-
----
-
-##### `version`<sup>Required</sup> <a name="version" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate.property.version"></a>
-
-```typescript
-public readonly version: string;
-```
-
-- *Type:* string
-
-The version of the EC2 launch template to use to provision instances.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#version PcsComputeNodeGroup#version}
+| <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate.property.version">version</a></code> | <code>string</code> | The version of the EC2 launch template to use to provision instances. |
 
 ---
 
@@ -1494,7 +1487,21 @@ public readonly templateId: string;
 
 The ID of the EC2 launch template to use to provision instances.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#template_id PcsComputeNodeGroup#template_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#template_id PcsComputeNodeGroup#template_id}
+
+---
+
+##### `version`<sup>Optional</sup> <a name="version" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplate.property.version"></a>
+
+```typescript
+public readonly version: string;
+```
+
+- *Type:* string
+
+The version of the EC2 launch template to use to provision instances.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#version PcsComputeNodeGroup#version}
 
 ---
 
@@ -1537,7 +1544,7 @@ public readonly instanceType: string;
 
 The EC2 instance type that AWS PCS can provision in the compute node group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#instance_type PcsComputeNodeGroup#instance_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#instance_type PcsComputeNodeGroup#instance_type}
 
 ---
 
@@ -1572,7 +1579,7 @@ Controls whether lifecycle scripts are downloaded once at first boot (CACHE_ONCE
 
 Defaults to CACHE_ONCE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#script_caching_policy PcsComputeNodeGroup#script_caching_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#script_caching_policy PcsComputeNodeGroup#script_caching_policy}
 
 ---
 
@@ -1586,7 +1593,7 @@ public readonly stages: PcsComputeNodeGroupNodeLifecycleActionsStages;
 
 The ordered scripts to run at each compute node lifecycle stage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#stages PcsComputeNodeGroup#stages}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#stages PcsComputeNodeGroup#stages}
 
 ---
 
@@ -1619,7 +1626,7 @@ public readonly nodeBootstrapped: IResolvable | PcsComputeNodeGroupNodeLifecycle
 
 Scripts to run after the node is bootstrapped, once the PCS configuration phase completes and before slurmd starts.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#node_bootstrapped PcsComputeNodeGroup#node_bootstrapped}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#node_bootstrapped PcsComputeNodeGroup#node_bootstrapped}
 
 ---
 
@@ -1633,7 +1640,7 @@ public readonly nodeReady: IResolvable | PcsComputeNodeGroupNodeLifecycleActions
 
 Scripts to execute when the node becomes ready (every boot).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#node_ready PcsComputeNodeGroup#node_ready}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#node_ready PcsComputeNodeGroup#node_ready}
 
 ---
 
@@ -1669,7 +1676,7 @@ public readonly arguments: string[];
 
 An ordered list of arguments passed to the script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#arguments PcsComputeNodeGroup#arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#arguments PcsComputeNodeGroup#arguments}
 
 ---
 
@@ -1685,7 +1692,7 @@ Whether the script runs only on the node's first boot (FIRST_BOOT_ONLY) or on ev
 
 Defaults to FIRST_BOOT_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#execution_policy PcsComputeNodeGroup#execution_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#execution_policy PcsComputeNodeGroup#execution_policy}
 
 ---
 
@@ -1699,7 +1706,7 @@ public readonly name: string;
 
 A human-readable name that identifies the script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
 
 ---
 
@@ -1713,7 +1720,7 @@ public readonly onError: string;
 
 The behavior when the script exits with an error. Defaults to TERMINATE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#on_error PcsComputeNodeGroup#on_error}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#on_error PcsComputeNodeGroup#on_error}
 
 ---
 
@@ -1727,7 +1734,7 @@ public readonly scriptSource: PcsComputeNodeGroupNodeLifecycleActionsStagesNodeB
 
 The external location of a lifecycle script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#script_source PcsComputeNodeGroup#script_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#script_source PcsComputeNodeGroup#script_source}
 
 ---
 
@@ -1761,7 +1768,7 @@ public readonly checksum: string;
 
 A 64-character hexadecimal SHA-256 digest used to verify script integrity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#checksum PcsComputeNodeGroup#checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#checksum PcsComputeNodeGroup#checksum}
 
 ---
 
@@ -1775,7 +1782,7 @@ public readonly s3VersionId: string;
 
 The S3 object version ID of the script, when stored in a versioned bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#s3_version_id PcsComputeNodeGroup#s3_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#s3_version_id PcsComputeNodeGroup#s3_version_id}
 
 ---
 
@@ -1789,7 +1796,7 @@ public readonly scriptLocation: string;
 
 The S3 URI or HTTPS URL where the script is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#script_location PcsComputeNodeGroup#script_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#script_location PcsComputeNodeGroup#script_location}
 
 ---
 
@@ -1825,7 +1832,7 @@ public readonly arguments: string[];
 
 An ordered list of arguments passed to the script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#arguments PcsComputeNodeGroup#arguments}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#arguments PcsComputeNodeGroup#arguments}
 
 ---
 
@@ -1841,7 +1848,7 @@ Whether the script runs only on the node's first boot (FIRST_BOOT_ONLY) or on ev
 
 Defaults to FIRST_BOOT_ONLY.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#execution_policy PcsComputeNodeGroup#execution_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#execution_policy PcsComputeNodeGroup#execution_policy}
 
 ---
 
@@ -1855,7 +1862,7 @@ public readonly name: string;
 
 A human-readable name that identifies the script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#name PcsComputeNodeGroup#name}
 
 ---
 
@@ -1869,7 +1876,7 @@ public readonly onError: string;
 
 The behavior when the script exits with an error. Defaults to TERMINATE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#on_error PcsComputeNodeGroup#on_error}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#on_error PcsComputeNodeGroup#on_error}
 
 ---
 
@@ -1883,7 +1890,7 @@ public readonly scriptSource: PcsComputeNodeGroupNodeLifecycleActionsStagesNodeR
 
 The external location of a lifecycle script.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#script_source PcsComputeNodeGroup#script_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#script_source PcsComputeNodeGroup#script_source}
 
 ---
 
@@ -1917,7 +1924,7 @@ public readonly checksum: string;
 
 A 64-character hexadecimal SHA-256 digest used to verify script integrity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#checksum PcsComputeNodeGroup#checksum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#checksum PcsComputeNodeGroup#checksum}
 
 ---
 
@@ -1931,7 +1938,7 @@ public readonly s3VersionId: string;
 
 The S3 object version ID of the script, when stored in a versioned bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#s3_version_id PcsComputeNodeGroup#s3_version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#s3_version_id PcsComputeNodeGroup#s3_version_id}
 
 ---
 
@@ -1945,7 +1952,7 @@ public readonly scriptLocation: string;
 
 The S3 URI or HTTPS URL where the script is stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#script_location PcsComputeNodeGroup#script_location}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#script_location PcsComputeNodeGroup#script_location}
 
 ---
 
@@ -1978,7 +1985,7 @@ public readonly maxInstanceCount: number;
 
 The upper bound of the number of instances allowed in the compute fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#max_instance_count PcsComputeNodeGroup#max_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#max_instance_count PcsComputeNodeGroup#max_instance_count}
 
 ---
 
@@ -1992,7 +1999,7 @@ public readonly minInstanceCount: number;
 
 The lower bound of the number of instances allowed in the compute fleet.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#min_instance_count PcsComputeNodeGroup#min_instance_count}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#min_instance_count PcsComputeNodeGroup#min_instance_count}
 
 ---
 
@@ -2026,7 +2033,7 @@ public readonly gresCustomSettings: IResolvable | {[ key: string ]: string}[];
 
 Additional Slurm gres.conf records for the compute node group. Each item is a map of gres.conf attribute names to values describing one gres.conf record (for example a GPU topology, MIG, MPS, or custom GRES entry). AWS PCS adds the NodeName= prefix and merges these records with the GPU record it derives from the instance type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#gres_custom_settings PcsComputeNodeGroup#gres_custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#gres_custom_settings PcsComputeNodeGroup#gres_custom_settings}
 
 ---
 
@@ -2040,7 +2047,7 @@ public readonly scaleDownIdleTimeInSeconds: number;
 
 The time before an idle node is scaled down.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#scale_down_idle_time_in_seconds PcsComputeNodeGroup#scale_down_idle_time_in_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#scale_down_idle_time_in_seconds PcsComputeNodeGroup#scale_down_idle_time_in_seconds}
 
 ---
 
@@ -2054,7 +2061,7 @@ public readonly slurmCustomSettings: IResolvable | PcsComputeNodeGroupSlurmConfi
 
 Additional Slurm-specific configuration that directly maps to Slurm settings.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#slurm_custom_settings PcsComputeNodeGroup#slurm_custom_settings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#slurm_custom_settings PcsComputeNodeGroup#slurm_custom_settings}
 
 ---
 
@@ -2087,7 +2094,7 @@ public readonly parameterName: string;
 
 AWS PCS supports configuration of the following Slurm parameters for compute node groups: Weight and RealMemory.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#parameter_name PcsComputeNodeGroup#parameter_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#parameter_name PcsComputeNodeGroup#parameter_name}
 
 ---
 
@@ -2101,7 +2108,7 @@ public readonly parameterValue: string;
 
 The value for the configured Slurm setting.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#parameter_value PcsComputeNodeGroup#parameter_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#parameter_value PcsComputeNodeGroup#parameter_value}
 
 ---
 
@@ -2135,7 +2142,7 @@ The Amazon EC2 allocation strategy AWS PCS uses to provision EC2 instances.
 
 AWS PCS supports lowest price, capacity optimized, and price capacity optimized. If you don't provide this option, it defaults to price capacity optimized.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pcs_compute_node_group#allocation_strategy PcsComputeNodeGroup#allocation_strategy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/pcs_compute_node_group#allocation_strategy PcsComputeNodeGroup#allocation_strategy}
 
 ---
 
@@ -2192,6 +2199,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplateOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplateOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplateOutputReference.resetTemplateId">resetTemplateId</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplateOutputReference.resetVersion">resetVersion</a></code> | *No description.* |
 
 ---
 
@@ -2349,6 +2357,12 @@ Returns a reversible string representation.
 
 ```typescript
 public resetTemplateId(): void
+```
+
+##### `resetVersion` <a name="resetVersion" id="@cdktn/provider-awscc.pcsComputeNodeGroup.PcsComputeNodeGroupCustomLaunchTemplateOutputReference.resetVersion"></a>
+
+```typescript
+public resetVersion(): void
 ```
 
 

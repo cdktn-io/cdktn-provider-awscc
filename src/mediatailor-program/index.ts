@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,49 +15,49 @@ export interface MediatailorProgramConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ad break configuration settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#ad_breaks MediatailorProgram#ad_breaks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#ad_breaks MediatailorProgram#ad_breaks}
   */
   readonly adBreaks?: MediatailorProgramAdBreaks[] | cdktn.IResolvable;
   /**
   * The list of AudienceMedia defined in program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#audience_media MediatailorProgram#audience_media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#audience_media MediatailorProgram#audience_media}
   */
   readonly audienceMedia?: MediatailorProgramAudienceMedia[] | cdktn.IResolvable;
   /**
   * The name of the channel for this Program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#channel_name MediatailorProgram#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#channel_name MediatailorProgram#channel_name}
   */
   readonly channelName: string;
   /**
   * The name of the LiveSource for this Program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#live_source_name MediatailorProgram#live_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#live_source_name MediatailorProgram#live_source_name}
   */
   readonly liveSourceName?: string;
   /**
   * The name of the Program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#program_name MediatailorProgram#program_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#program_name MediatailorProgram#program_name}
   */
   readonly programName: string;
   /**
   * The schedule configuration settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#schedule_configuration MediatailorProgram#schedule_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#schedule_configuration MediatailorProgram#schedule_configuration}
   */
   readonly scheduleConfiguration?: MediatailorProgramScheduleConfiguration;
   /**
   * The name of the source location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
   */
   readonly sourceLocationName: string;
   /**
   * The name that's used to refer to a VOD source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
   */
   readonly vodSourceName?: string;
 }
@@ -65,13 +65,13 @@ export interface MediatailorProgramAdBreaksAdBreakMetadata {
   /**
   * The key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
   */
   readonly key?: string;
   /**
   * The value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
   */
   readonly value?: string;
 }
@@ -218,13 +218,13 @@ export interface MediatailorProgramAdBreaksSlate {
   /**
   * The name of the source location where the slate VOD source is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
   */
   readonly sourceLocationName?: string;
   /**
   * The slate VOD source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
   */
   readonly vodSourceName?: string;
 }
@@ -349,25 +349,25 @@ export interface MediatailorProgramAdBreaksSpliceInsertMessage {
   /**
   * This is written to splice_insert.avail_num.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#avail_num MediatailorProgram#avail_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#avail_num MediatailorProgram#avail_num}
   */
   readonly availNum?: number;
   /**
   * This is written to splice_insert.avails_expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#avails_expected MediatailorProgram#avails_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#avails_expected MediatailorProgram#avails_expected}
   */
   readonly availsExpected?: number;
   /**
   * This is written to splice_insert.splice_event_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#splice_event_id MediatailorProgram#splice_event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#splice_event_id MediatailorProgram#splice_event_id}
   */
   readonly spliceEventId?: number;
   /**
   * This is written to splice_insert.unique_program_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#unique_program_id MediatailorProgram#unique_program_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#unique_program_id MediatailorProgram#unique_program_id}
   */
   readonly uniqueProgramId?: number;
 }
@@ -550,49 +550,49 @@ export interface MediatailorProgramAdBreaksTimeSignalMessageSegmentationDescript
   /**
   * The segment number to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segment_num MediatailorProgram#segment_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segment_num MediatailorProgram#segment_num}
   */
   readonly segmentNum?: number;
   /**
   * The Event Identifier to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_event_id MediatailorProgram#segmentation_event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_event_id MediatailorProgram#segmentation_event_id}
   */
   readonly segmentationEventId?: number;
   /**
   * The Type Identifier to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_type_id MediatailorProgram#segmentation_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_type_id MediatailorProgram#segmentation_type_id}
   */
   readonly segmentationTypeId?: number;
   /**
   * The Upid to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_upid MediatailorProgram#segmentation_upid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_upid MediatailorProgram#segmentation_upid}
   */
   readonly segmentationUpid?: string;
   /**
   * The Upid Type to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_upid_type MediatailorProgram#segmentation_upid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_upid_type MediatailorProgram#segmentation_upid_type}
   */
   readonly segmentationUpidType?: number;
   /**
   * The number of segments expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segments_expected MediatailorProgram#segments_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segments_expected MediatailorProgram#segments_expected}
   */
   readonly segmentsExpected?: number;
   /**
   * The sub-segment number to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#sub_segment_num MediatailorProgram#sub_segment_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#sub_segment_num MediatailorProgram#sub_segment_num}
   */
   readonly subSegmentNum?: number;
   /**
   * The number of sub-segments expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#sub_segments_expected MediatailorProgram#sub_segments_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#sub_segments_expected MediatailorProgram#sub_segments_expected}
   */
   readonly subSegmentsExpected?: number;
 }
@@ -913,7 +913,7 @@ export interface MediatailorProgramAdBreaksTimeSignalMessage {
   /**
   * The configurations for the SCTE-35 segmentation_descriptor message(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
   */
   readonly segmentationDescriptors?: MediatailorProgramAdBreaksTimeSignalMessageSegmentationDescriptors[] | cdktn.IResolvable;
 }
@@ -1009,37 +1009,37 @@ export interface MediatailorProgramAdBreaks {
   /**
   * Defines a list of key/value pairs that MediaTailor generates within the EXT-X-ASSET tag for SCTE35_ENHANCED output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#ad_break_metadata MediatailorProgram#ad_break_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#ad_break_metadata MediatailorProgram#ad_break_metadata}
   */
   readonly adBreakMetadata?: MediatailorProgramAdBreaksAdBreakMetadata[] | cdktn.IResolvable;
   /**
   * The SCTE-35 ad insertion type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#message_type MediatailorProgram#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#message_type MediatailorProgram#message_type}
   */
   readonly messageType?: string;
   /**
   * How long (in milliseconds) after the beginning of the program that an ad starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#offset_millis MediatailorProgram#offset_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#offset_millis MediatailorProgram#offset_millis}
   */
   readonly offsetMillis?: number;
   /**
   * Slate VOD source configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#slate MediatailorProgram#slate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#slate MediatailorProgram#slate}
   */
   readonly slate?: MediatailorProgramAdBreaksSlate;
   /**
   * Splice insert message configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#splice_insert_message MediatailorProgram#splice_insert_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#splice_insert_message MediatailorProgram#splice_insert_message}
   */
   readonly spliceInsertMessage?: MediatailorProgramAdBreaksSpliceInsertMessage;
   /**
   * The SCTE-35 time_signal message configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#time_signal_message MediatailorProgram#time_signal_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#time_signal_message MediatailorProgram#time_signal_message}
   */
   readonly timeSignalMessage?: MediatailorProgramAdBreaksTimeSignalMessage;
 }
@@ -1302,13 +1302,13 @@ export interface MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMet
   /**
   * The key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#key MediatailorProgram#key}
   */
   readonly key?: string;
   /**
   * The value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#value MediatailorProgram#value}
   */
   readonly value?: string;
 }
@@ -1455,13 +1455,13 @@ export interface MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate {
   /**
   * The name of the source location where the slate VOD source is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
   */
   readonly sourceLocationName?: string;
   /**
   * The slate VOD source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
   */
   readonly vodSourceName?: string;
 }
@@ -1586,25 +1586,25 @@ export interface MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInse
   /**
   * This is written to splice_insert.avail_num.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#avail_num MediatailorProgram#avail_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#avail_num MediatailorProgram#avail_num}
   */
   readonly availNum?: number;
   /**
   * This is written to splice_insert.avails_expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#avails_expected MediatailorProgram#avails_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#avails_expected MediatailorProgram#avails_expected}
   */
   readonly availsExpected?: number;
   /**
   * This is written to splice_insert.splice_event_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#splice_event_id MediatailorProgram#splice_event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#splice_event_id MediatailorProgram#splice_event_id}
   */
   readonly spliceEventId?: number;
   /**
   * This is written to splice_insert.unique_program_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#unique_program_id MediatailorProgram#unique_program_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#unique_program_id MediatailorProgram#unique_program_id}
   */
   readonly uniqueProgramId?: number;
 }
@@ -1787,49 +1787,49 @@ export interface MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignal
   /**
   * The segment number to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segment_num MediatailorProgram#segment_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segment_num MediatailorProgram#segment_num}
   */
   readonly segmentNum?: number;
   /**
   * The Event Identifier to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_event_id MediatailorProgram#segmentation_event_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_event_id MediatailorProgram#segmentation_event_id}
   */
   readonly segmentationEventId?: number;
   /**
   * The Type Identifier to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_type_id MediatailorProgram#segmentation_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_type_id MediatailorProgram#segmentation_type_id}
   */
   readonly segmentationTypeId?: number;
   /**
   * The Upid to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_upid MediatailorProgram#segmentation_upid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_upid MediatailorProgram#segmentation_upid}
   */
   readonly segmentationUpid?: string;
   /**
   * The Upid Type to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_upid_type MediatailorProgram#segmentation_upid_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_upid_type MediatailorProgram#segmentation_upid_type}
   */
   readonly segmentationUpidType?: number;
   /**
   * The number of segments expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segments_expected MediatailorProgram#segments_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segments_expected MediatailorProgram#segments_expected}
   */
   readonly segmentsExpected?: number;
   /**
   * The sub-segment number to assign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#sub_segment_num MediatailorProgram#sub_segment_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#sub_segment_num MediatailorProgram#sub_segment_num}
   */
   readonly subSegmentNum?: number;
   /**
   * The number of sub-segments expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#sub_segments_expected MediatailorProgram#sub_segments_expected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#sub_segments_expected MediatailorProgram#sub_segments_expected}
   */
   readonly subSegmentsExpected?: number;
 }
@@ -2150,7 +2150,7 @@ export interface MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignal
   /**
   * The configurations for the SCTE-35 segmentation_descriptor message(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#segmentation_descriptors MediatailorProgram#segmentation_descriptors}
   */
   readonly segmentationDescriptors?: MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessageSegmentationDescriptors[] | cdktn.IResolvable;
 }
@@ -2246,37 +2246,37 @@ export interface MediatailorProgramAudienceMediaAlternateMediaAdBreaks {
   /**
   * Defines a list of key/value pairs that MediaTailor generates within the EXT-X-ASSET tag for SCTE35_ENHANCED output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#ad_break_metadata MediatailorProgram#ad_break_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#ad_break_metadata MediatailorProgram#ad_break_metadata}
   */
   readonly adBreakMetadata?: MediatailorProgramAudienceMediaAlternateMediaAdBreaksAdBreakMetadata[] | cdktn.IResolvable;
   /**
   * The SCTE-35 ad insertion type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#message_type MediatailorProgram#message_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#message_type MediatailorProgram#message_type}
   */
   readonly messageType?: string;
   /**
   * How long (in milliseconds) after the beginning of the program that an ad starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#offset_millis MediatailorProgram#offset_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#offset_millis MediatailorProgram#offset_millis}
   */
   readonly offsetMillis?: number;
   /**
   * Slate VOD source configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#slate MediatailorProgram#slate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#slate MediatailorProgram#slate}
   */
   readonly slate?: MediatailorProgramAudienceMediaAlternateMediaAdBreaksSlate;
   /**
   * Splice insert message configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#splice_insert_message MediatailorProgram#splice_insert_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#splice_insert_message MediatailorProgram#splice_insert_message}
   */
   readonly spliceInsertMessage?: MediatailorProgramAudienceMediaAlternateMediaAdBreaksSpliceInsertMessage;
   /**
   * The SCTE-35 time_signal message configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#time_signal_message MediatailorProgram#time_signal_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#time_signal_message MediatailorProgram#time_signal_message}
   */
   readonly timeSignalMessage?: MediatailorProgramAudienceMediaAlternateMediaAdBreaksTimeSignalMessage;
 }
@@ -2539,13 +2539,13 @@ export interface MediatailorProgramAudienceMediaAlternateMediaClipRange {
   /**
   * The end offset of the clip range, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#end_offset_millis MediatailorProgram#end_offset_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#end_offset_millis MediatailorProgram#end_offset_millis}
   */
   readonly endOffsetMillis?: number;
   /**
   * The start offset of the clip range, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#start_offset_millis MediatailorProgram#start_offset_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#start_offset_millis MediatailorProgram#start_offset_millis}
   */
   readonly startOffsetMillis?: number;
 }
@@ -2670,43 +2670,43 @@ export interface MediatailorProgramAudienceMediaAlternateMedia {
   /**
   * Ad break configuration parameters defined in AlternateMedia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#ad_breaks MediatailorProgram#ad_breaks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#ad_breaks MediatailorProgram#ad_breaks}
   */
   readonly adBreaks?: MediatailorProgramAudienceMediaAlternateMediaAdBreaks[] | cdktn.IResolvable;
   /**
   * Clip range configuration for the VOD source associated with the program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#clip_range MediatailorProgram#clip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#clip_range MediatailorProgram#clip_range}
   */
   readonly clipRange?: MediatailorProgramAudienceMediaAlternateMediaClipRange;
   /**
   * The duration of the alternateMedia in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#duration_millis MediatailorProgram#duration_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#duration_millis MediatailorProgram#duration_millis}
   */
   readonly durationMillis?: number;
   /**
   * The name of the live source for alternateMedia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#live_source_name MediatailorProgram#live_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#live_source_name MediatailorProgram#live_source_name}
   */
   readonly liveSourceName?: string;
   /**
   * The date and time that the alternateMedia is scheduled to start, in epoch milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#scheduled_start_time_millis MediatailorProgram#scheduled_start_time_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#scheduled_start_time_millis MediatailorProgram#scheduled_start_time_millis}
   */
   readonly scheduledStartTimeMillis?: number;
   /**
   * The name of the source location for alternateMedia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#source_location_name MediatailorProgram#source_location_name}
   */
   readonly sourceLocationName?: string;
   /**
   * The name of the VOD source for alternateMedia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#vod_source_name MediatailorProgram#vod_source_name}
   */
   readonly vodSourceName?: string;
 }
@@ -2998,13 +2998,13 @@ export interface MediatailorProgramAudienceMedia {
   /**
   * The list of AlternateMedia defined in AudienceMedia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#alternate_media MediatailorProgram#alternate_media}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#alternate_media MediatailorProgram#alternate_media}
   */
   readonly alternateMedia?: MediatailorProgramAudienceMediaAlternateMedia[] | cdktn.IResolvable;
   /**
   * The Audience defined in AudienceMedia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#audience MediatailorProgram#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#audience MediatailorProgram#audience}
   */
   readonly audience?: string;
 }
@@ -3210,13 +3210,13 @@ export interface MediatailorProgramScheduleConfigurationClipRange {
   /**
   * The end offset of the clip range, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#end_offset_millis MediatailorProgram#end_offset_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#end_offset_millis MediatailorProgram#end_offset_millis}
   */
   readonly endOffsetMillis?: number;
   /**
   * The start offset of the clip range, in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#start_offset_millis MediatailorProgram#start_offset_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#start_offset_millis MediatailorProgram#start_offset_millis}
   */
   readonly startOffsetMillis?: number;
 }
@@ -3341,31 +3341,31 @@ export interface MediatailorProgramScheduleConfigurationTransition {
   /**
   * The duration of the live program in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#duration_millis MediatailorProgram#duration_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#duration_millis MediatailorProgram#duration_millis}
   */
   readonly durationMillis?: number;
   /**
   * The position where this program will be inserted relative to the RelativePosition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#relative_position MediatailorProgram#relative_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#relative_position MediatailorProgram#relative_position}
   */
   readonly relativePosition?: string;
   /**
   * The name of the program that this program will be inserted next to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#relative_program MediatailorProgram#relative_program}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#relative_program MediatailorProgram#relative_program}
   */
   readonly relativeProgram?: string;
   /**
   * The date and time that the program is scheduled to start, in epoch milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#scheduled_start_time_millis MediatailorProgram#scheduled_start_time_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#scheduled_start_time_millis MediatailorProgram#scheduled_start_time_millis}
   */
   readonly scheduledStartTimeMillis?: number;
   /**
   * Defines when the program plays in the schedule. You can set the value to ABSOLUTE or RELATIVE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#type MediatailorProgram#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#type MediatailorProgram#type}
   */
   readonly type?: string;
 }
@@ -3577,13 +3577,13 @@ export interface MediatailorProgramScheduleConfiguration {
   /**
   * Clip range configuration for the VOD source associated with the program.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#clip_range MediatailorProgram#clip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#clip_range MediatailorProgram#clip_range}
   */
   readonly clipRange?: MediatailorProgramScheduleConfigurationClipRange;
   /**
   * Program transition configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#transition MediatailorProgram#transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#transition MediatailorProgram#transition}
   */
   readonly transition?: MediatailorProgramScheduleConfigurationTransition;
 }
@@ -3706,7 +3706,7 @@ export class MediatailorProgramScheduleConfigurationOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program awscc_mediatailor_program}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program awscc_mediatailor_program}
 */
 export class MediatailorProgram extends cdktn.TerraformResource {
 
@@ -3722,7 +3722,7 @@ export class MediatailorProgram extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a MediatailorProgram resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MediatailorProgram to import
-  * @param importFromId The id of the existing MediatailorProgram that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MediatailorProgram that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MediatailorProgram to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -3734,7 +3734,7 @@ export class MediatailorProgram extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediatailor_program awscc_mediatailor_program} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediatailor_program awscc_mediatailor_program} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3745,7 +3745,7 @@ export class MediatailorProgram extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_mediatailor_program',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

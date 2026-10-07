@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface ElasticacheSnapshotConfig extends cdktn.TerraformMetaArguments 
   /**
   * The identifier of an existing cluster to create a snapshot from. The snapshot is created from this cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#cache_cluster_id ElasticacheSnapshot#cache_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#cache_cluster_id ElasticacheSnapshot#cache_cluster_id}
   */
   readonly cacheClusterId?: string;
   /**
   * The ID of the KMS key used to encrypt the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#kms_key_id ElasticacheSnapshot#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#kms_key_id ElasticacheSnapshot#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * The identifier of an existing replication group to create a snapshot from. The snapshot is created from this replication group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#replication_group_id ElasticacheSnapshot#replication_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#replication_group_id ElasticacheSnapshot#replication_group_id}
   */
   readonly replicationGroupId?: string;
   /**
   * The name of a snapshot. Must be unique within the customer account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#snapshot_name ElasticacheSnapshot#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#snapshot_name ElasticacheSnapshot#snapshot_name}
   */
   readonly snapshotName: string;
   /**
   * A list of tags to be added to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#tags ElasticacheSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#tags ElasticacheSnapshot#tags}
   */
   readonly tags?: ElasticacheSnapshotTags[] | cdktn.IResolvable;
 }
@@ -147,13 +147,13 @@ export interface ElasticacheSnapshotTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#key ElasticacheSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#key ElasticacheSnapshot#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#value ElasticacheSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#value ElasticacheSnapshot#value}
   */
   readonly value?: string;
 }
@@ -298,7 +298,7 @@ export class ElasticacheSnapshotTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot}
 */
 export class ElasticacheSnapshot extends cdktn.TerraformResource {
 
@@ -314,7 +314,7 @@ export class ElasticacheSnapshot extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticacheSnapshot resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticacheSnapshot to import
-  * @param importFromId The id of the existing ElasticacheSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticacheSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticacheSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -326,7 +326,7 @@ export class ElasticacheSnapshot extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/elasticache_snapshot awscc_elasticache_snapshot} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,7 +337,7 @@ export class ElasticacheSnapshot extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticache_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface WellarchitectedAgentGoalConfig extends cdktn.TerraformMetaArgum
   /**
   * A description of the Agent Goal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#description WellarchitectedAgentGoal#description}
   */
   readonly description?: string;
   /**
   * The list of Well-Architected pillars this goal targets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#pillars WellarchitectedAgentGoal#pillars}
   */
   readonly pillars: string[];
   /**
   * The Amazon Resource Name (ARN) of the parent Agent Profile that owns this goal. Pass `!Ref` of the parent AWS::WellArchitected::AgentProfile to flow its ARN here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#profile_arn WellarchitectedAgentGoal#profile_arn}
   */
   readonly profileArn: string;
   /**
   * The title of the Agent Goal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#title WellarchitectedAgentGoal#title}
   */
   readonly title: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal}
 */
 export class WellarchitectedAgentGoal extends cdktn.TerraformResource {
 
@@ -55,7 +55,7 @@ export class WellarchitectedAgentGoal extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a WellarchitectedAgentGoal resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WellarchitectedAgentGoal to import
-  * @param importFromId The id of the existing WellarchitectedAgentGoal that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WellarchitectedAgentGoal that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WellarchitectedAgentGoal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -67,7 +67,7 @@ export class WellarchitectedAgentGoal extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/wellarchitected_agent_goal awscc_wellarchitected_agent_goal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,7 @@ export class WellarchitectedAgentGoal extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_wellarchitected_agent_goal',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

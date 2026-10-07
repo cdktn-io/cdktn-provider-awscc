@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface ConnectUseCaseConfig extends cdktn.TerraformMetaArguments {
   /**
   * The identifier of the Amazon Connect instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#instance_id ConnectUseCase#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#instance_id ConnectUseCase#instance_id}
   */
   readonly instanceId: string;
   /**
   * The identifier for the integration association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#integration_association_id ConnectUseCase#integration_association_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#integration_association_id ConnectUseCase#integration_association_id}
   */
   readonly integrationAssociationId: string;
   /**
   * The tags used to organize, track, or control access for this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#tags ConnectUseCase#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#tags ConnectUseCase#tags}
   */
   readonly tags?: ConnectUseCaseTags[] | cdktn.IResolvable;
   /**
   * The type of use case to associate to the integration association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#use_case_type ConnectUseCase#use_case_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#use_case_type ConnectUseCase#use_case_type}
   */
   readonly useCaseType: string;
 }
@@ -41,13 +41,13 @@ export interface ConnectUseCaseTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#key ConnectUseCase#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#key ConnectUseCase#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#value ConnectUseCase#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#value ConnectUseCase#value}
   */
   readonly value?: string;
 }
@@ -192,7 +192,7 @@ export class ConnectUseCaseTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case awscc_connect_use_case}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case awscc_connect_use_case}
 */
 export class ConnectUseCase extends cdktn.TerraformResource {
 
@@ -208,7 +208,7 @@ export class ConnectUseCase extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ConnectUseCase resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConnectUseCase to import
-  * @param importFromId The id of the existing ConnectUseCase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConnectUseCase that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConnectUseCase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +220,7 @@ export class ConnectUseCase extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/connect_use_case awscc_connect_use_case} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/connect_use_case awscc_connect_use_case} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +231,7 @@ export class ConnectUseCase extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_connect_use_case',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

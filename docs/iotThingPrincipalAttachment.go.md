@@ -4,7 +4,7 @@
 
 ### IotThingPrincipalAttachment <a name="IotThingPrincipalAttachment" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.iotThingPrincipalAttachment.IotThingPrincipalAttachment.Initializer"></a>
 
@@ -496,7 +496,7 @@ The construct id used in the generated config for the IotThingPrincipalAttachmen
 
 The id of the existing IotThingPrincipalAttachment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iot_thing_principal_attachment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -886,7 +886,7 @@ Principal *string
 
 The principal, which can be a certificate ARN (as returned from the CreateCertificate operation) or an Amazon Cognito ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment#principal IotThingPrincipalAttachment#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iot_thing_principal_attachment#principal IotThingPrincipalAttachment#principal}
 
 ---
 
@@ -900,7 +900,7 @@ ThingName *string
 
 The name of the AWS IoT thing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment#thing_name IotThingPrincipalAttachment#thing_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iot_thing_principal_attachment#thing_name IotThingPrincipalAttachment#thing_name}
 
 ---
 
@@ -914,7 +914,7 @@ ThingPrincipalType *string
 
 The type of the relation you want to specify when you attach a principal to a thing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment#thing_principal_type IotThingPrincipalAttachment#thing_principal_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/iot_thing_principal_attachment#thing_principal_type IotThingPrincipalAttachment#thing_principal_type}
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccS3BucketConfig extends cdktn.TerraformMetaArguments {
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket#id DataAwsccS3Bucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket#id DataAwsccS3Bucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -432,6 +432,60 @@ export class DataAwsccS3BucketAnalyticsConfigurationsList extends cdktn.ComplexL
     return new DataAwsccS3BucketAnalyticsConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes {
+}
+
+export function dataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesToTerraform(struct?: DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesToHclTerraform(struct?: DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // encryption_type - computed: true, optional: false, required: false
+  public get encryptionType() {
+    return this.getListAttribute('encryption_type');
+  }
+}
 export interface DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault {
 }
 
@@ -540,6 +594,12 @@ export class DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationO
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
     }
+  }
+
+  // blocked_encryption_types - computed: true, optional: false, required: false
+  private _blockedEncryptionTypes = new DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference(this, "blocked_encryption_types");
+  public get blockedEncryptionTypes() {
+    return this._blockedEncryptionTypes;
   }
 
   // bucket_key_enabled - computed: true, optional: false, required: false
@@ -2101,6 +2161,595 @@ export class DataAwsccS3BucketLoggingConfigurationOutputReference extends cdktn.
     return this._targetObjectKeyFormat;
   }
 }
+export interface DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationToTerraform(struct?: DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // kms_key_arn - computed: true, optional: false, required: false
+  public get kmsKeyArn() {
+    return this.getStringAttribute('kms_key_arn');
+  }
+
+  // sse_algorithm - computed: true, optional: false, required: false
+  public get sseAlgorithm() {
+    return this.getStringAttribute('sse_algorithm');
+  }
+}
+export interface DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationToTerraform(struct?: DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // configuration_state - computed: true, optional: false, required: false
+  public get configurationState() {
+    return this.getStringAttribute('configuration_state');
+  }
+
+  // encryption_configuration - computed: true, optional: false, required: false
+  private _encryptionConfiguration = new DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference(this, "encryption_configuration");
+  public get encryptionConfiguration() {
+    return this._encryptionConfiguration;
+  }
+
+  // role - computed: true, optional: false, required: false
+  public get role() {
+    return this.getStringAttribute('role');
+  }
+
+  // table_arn - computed: true, optional: false, required: false
+  public get tableArn() {
+    return this.getStringAttribute('table_arn');
+  }
+
+  // table_name - computed: true, optional: false, required: false
+  public get tableName() {
+    return this.getStringAttribute('table_name');
+  }
+}
+export interface DataAwsccS3BucketMetadataConfigurationDestination {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationDestinationToTerraform(struct?: DataAwsccS3BucketMetadataConfigurationDestination): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationDestinationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfigurationDestination): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationDestinationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfigurationDestination | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfigurationDestination | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // table_bucket_arn - computed: true, optional: false, required: false
+  public get tableBucketArn() {
+    return this.getStringAttribute('table_bucket_arn');
+  }
+
+  // table_bucket_type - computed: true, optional: false, required: false
+  public get tableBucketType() {
+    return this.getStringAttribute('table_bucket_type');
+  }
+
+  // table_namespace - computed: true, optional: false, required: false
+  public get tableNamespace() {
+    return this.getStringAttribute('table_namespace');
+  }
+}
+export interface DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationToTerraform(struct?: DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // kms_key_arn - computed: true, optional: false, required: false
+  public get kmsKeyArn() {
+    return this.getStringAttribute('kms_key_arn');
+  }
+
+  // sse_algorithm - computed: true, optional: false, required: false
+  public get sseAlgorithm() {
+    return this.getStringAttribute('sse_algorithm');
+  }
+}
+export interface DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationToTerraform(struct?: DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // configuration_state - computed: true, optional: false, required: false
+  public get configurationState() {
+    return this.getStringAttribute('configuration_state');
+  }
+
+  // encryption_configuration - computed: true, optional: false, required: false
+  private _encryptionConfiguration = new DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference(this, "encryption_configuration");
+  public get encryptionConfiguration() {
+    return this._encryptionConfiguration;
+  }
+
+  // table_arn - computed: true, optional: false, required: false
+  public get tableArn() {
+    return this.getStringAttribute('table_arn');
+  }
+
+  // table_name - computed: true, optional: false, required: false
+  public get tableName() {
+    return this.getStringAttribute('table_name');
+  }
+}
+export interface DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationToTerraform(struct?: DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // kms_key_arn - computed: true, optional: false, required: false
+  public get kmsKeyArn() {
+    return this.getStringAttribute('kms_key_arn');
+  }
+
+  // sse_algorithm - computed: true, optional: false, required: false
+  public get sseAlgorithm() {
+    return this.getStringAttribute('sse_algorithm');
+  }
+}
+export interface DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationToTerraform(struct?: DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // days - computed: true, optional: false, required: false
+  public get days() {
+    return this.getNumberAttribute('days');
+  }
+
+  // expiration - computed: true, optional: false, required: false
+  public get expiration() {
+    return this.getStringAttribute('expiration');
+  }
+}
+export interface DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationJournalTableConfigurationToTerraform(struct?: DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationJournalTableConfigurationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // encryption_configuration - computed: true, optional: false, required: false
+  private _encryptionConfiguration = new DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference(this, "encryption_configuration");
+  public get encryptionConfiguration() {
+    return this._encryptionConfiguration;
+  }
+
+  // record_expiration - computed: true, optional: false, required: false
+  private _recordExpiration = new DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference(this, "record_expiration");
+  public get recordExpiration() {
+    return this._recordExpiration;
+  }
+
+  // table_arn - computed: true, optional: false, required: false
+  public get tableArn() {
+    return this.getStringAttribute('table_arn');
+  }
+
+  // table_name - computed: true, optional: false, required: false
+  public get tableName() {
+    return this.getStringAttribute('table_name');
+  }
+}
+export interface DataAwsccS3BucketMetadataConfiguration {
+}
+
+export function dataAwsccS3BucketMetadataConfigurationToTerraform(struct?: DataAwsccS3BucketMetadataConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketMetadataConfigurationToHclTerraform(struct?: DataAwsccS3BucketMetadataConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketMetadataConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketMetadataConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketMetadataConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // annotation_table_configuration - computed: true, optional: false, required: false
+  private _annotationTableConfiguration = new DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference(this, "annotation_table_configuration");
+  public get annotationTableConfiguration() {
+    return this._annotationTableConfiguration;
+  }
+
+  // destination - computed: true, optional: false, required: false
+  private _destination = new DataAwsccS3BucketMetadataConfigurationDestinationOutputReference(this, "destination");
+  public get destination() {
+    return this._destination;
+  }
+
+  // inventory_table_configuration - computed: true, optional: false, required: false
+  private _inventoryTableConfiguration = new DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference(this, "inventory_table_configuration");
+  public get inventoryTableConfiguration() {
+    return this._inventoryTableConfiguration;
+  }
+
+  // journal_table_configuration - computed: true, optional: false, required: false
+  private _journalTableConfiguration = new DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference(this, "journal_table_configuration");
+  public get journalTableConfiguration() {
+    return this._journalTableConfiguration;
+  }
+}
 export interface DataAwsccS3BucketMetadataTableConfigurationS3TablesDestination {
 }
 
@@ -3351,6 +4000,65 @@ export class DataAwsccS3BucketNotificationConfigurationOutputReference extends c
     return this._topicConfigurations;
   }
 }
+export interface DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold {
+}
+
+export function dataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldToTerraform(struct?: DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldToHclTerraform(struct?: DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // days - computed: true, optional: false, required: false
+  public get days() {
+    return this.getNumberAttribute('days');
+  }
+
+  // years - computed: true, optional: false, required: false
+  public get years() {
+    return this.getNumberAttribute('years');
+  }
+}
 export interface DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetention {
 }
 
@@ -3403,6 +4111,12 @@ export class DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputR
   // days - computed: true, optional: false, required: false
   public get days() {
     return this.getNumberAttribute('days');
+  }
+
+  // default_event_hold - computed: true, optional: false, required: false
+  private _defaultEventHold = new DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference(this, "default_event_hold");
+  public get defaultEventHold() {
+    return this._defaultEventHold;
   }
 
   // mode - computed: true, optional: false, required: false
@@ -5296,7 +6010,7 @@ export class DataAwsccS3BucketWebsiteConfigurationOutputReference extends cdktn.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket awscc_s3_bucket}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket awscc_s3_bucket}
 */
 export class DataAwsccS3Bucket extends cdktn.TerraformDataSource {
 
@@ -5312,7 +6026,7 @@ export class DataAwsccS3Bucket extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccS3Bucket resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccS3Bucket to import
-  * @param importFromId The id of the existing DataAwsccS3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccS3Bucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccS3Bucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -5324,7 +6038,7 @@ export class DataAwsccS3Bucket extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket awscc_s3_bucket} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5335,7 +6049,7 @@ export class DataAwsccS3Bucket extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_s3_bucket',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -5352,6 +6066,11 @@ export class DataAwsccS3Bucket extends cdktn.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // abac_status - computed: true, optional: false, required: false
+  public get abacStatus() {
+    return this.getStringAttribute('abac_status');
+  }
 
   // accelerate_configuration - computed: true, optional: false, required: false
   private _accelerateConfiguration = new DataAwsccS3BucketAccelerateConfigurationOutputReference(this, "accelerate_configuration");
@@ -5384,6 +6103,16 @@ export class DataAwsccS3Bucket extends cdktn.TerraformDataSource {
   // bucket_name - computed: true, optional: false, required: false
   public get bucketName() {
     return this.getStringAttribute('bucket_name');
+  }
+
+  // bucket_name_prefix - computed: true, optional: false, required: false
+  public get bucketNamePrefix() {
+    return this.getStringAttribute('bucket_name_prefix');
+  }
+
+  // bucket_namespace - computed: true, optional: false, required: false
+  public get bucketNamespace() {
+    return this.getStringAttribute('bucket_namespace');
   }
 
   // cors_configuration - computed: true, optional: false, required: false
@@ -5437,6 +6166,12 @@ export class DataAwsccS3Bucket extends cdktn.TerraformDataSource {
   private _loggingConfiguration = new DataAwsccS3BucketLoggingConfigurationOutputReference(this, "logging_configuration");
   public get loggingConfiguration() {
     return this._loggingConfiguration;
+  }
+
+  // metadata_configuration - computed: true, optional: false, required: false
+  private _metadataConfiguration = new DataAwsccS3BucketMetadataConfigurationOutputReference(this, "metadata_configuration");
+  public get metadataConfiguration() {
+    return this._metadataConfiguration;
   }
 
   // metadata_table_configuration - computed: true, optional: false, required: false

@@ -4,7 +4,7 @@
 
 ### DataAwsccNetworkflowmonitorScopes <a name="DataAwsccNetworkflowmonitorScopes" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopes"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networkflowmonitor_scopes awscc_networkflowmonitor_scopes}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccNetworkflowmonitorScopes.DataAwsccNetworkflowmonitorScopes.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccNetworkflowmonito
 
 The id of the existing DataAwsccNetworkflowmonitorScopes that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/networkflowmonitor_scopes#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/networkflowmonitor_scopes#import import section} in the documentation of this resource for the id to use
 
 ---
 

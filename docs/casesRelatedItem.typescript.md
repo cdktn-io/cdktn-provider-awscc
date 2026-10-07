@@ -4,7 +4,7 @@
 
 ### CasesRelatedItem <a name="CasesRelatedItem" id="@cdktn/provider-awscc.casesRelatedItem.CasesRelatedItem"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item awscc_cases_related_item}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item awscc_cases_related_item}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.casesRelatedItem.CasesRelatedItem.Initializer"></a>
 
@@ -522,7 +522,7 @@ The construct id used in the generated config for the CasesRelatedItem to import
 
 The id of the existing CasesRelatedItem that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -969,7 +969,7 @@ public readonly caseId: string;
 
 A unique identifier of the case.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#case_id CasesRelatedItem#case_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#case_id CasesRelatedItem#case_id}
 
 ---
 
@@ -983,7 +983,7 @@ public readonly content: CasesRelatedItemContent;
 
 The content of a related item to be created.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#content CasesRelatedItem#content}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#content CasesRelatedItem#content}
 
 ---
 
@@ -997,7 +997,7 @@ public readonly domainId: string;
 
 The unique identifier of the Cases domain.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#domain_id CasesRelatedItem#domain_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#domain_id CasesRelatedItem#domain_id}
 
 ---
 
@@ -1011,7 +1011,7 @@ public readonly type: string;
 
 The type of a related item.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#type CasesRelatedItem#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#type CasesRelatedItem#type}
 
 ---
 
@@ -1025,7 +1025,7 @@ public readonly tags: IResolvable | CasesRelatedItemTags[];
 
 A list of tags on the related item.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#tags CasesRelatedItem#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#tags CasesRelatedItem#tags}
 
 ---
 
@@ -1057,7 +1057,7 @@ public readonly comment: CasesRelatedItemContentComment;
 
 Represents a comment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#comment CasesRelatedItem#comment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#comment CasesRelatedItem#comment}
 
 ---
 
@@ -1090,7 +1090,7 @@ public readonly body: string;
 
 Text in the body of a comment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#body CasesRelatedItem#body}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#body CasesRelatedItem#body}
 
 ---
 
@@ -1104,7 +1104,7 @@ public readonly contentType: string;
 
 Type of the text in the comment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#content_type CasesRelatedItem#content_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#content_type CasesRelatedItem#content_type}
 
 ---
 
@@ -1137,7 +1137,7 @@ public readonly key: string;
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#key CasesRelatedItem#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#key CasesRelatedItem#key}
 
 ---
 
@@ -1151,7 +1151,7 @@ public readonly value: string;
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#value CasesRelatedItem#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cases_related_item#value CasesRelatedItem#value}
 
 ---
 

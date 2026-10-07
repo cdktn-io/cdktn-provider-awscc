@@ -4,7 +4,7 @@
 
 ### DataAwsccEventsv2EventSources <a name="DataAwsccEventsv2EventSources" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSources.DataAwsccEventsv2EventSources"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_event_sources awscc_eventsv2_event_sources}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_event_sources awscc_eventsv2_event_sources}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEventsv2EventSources.DataAwsccEventsv2EventSources.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccEventsv2EventSour
 
 The id of the existing DataAwsccEventsv2EventSources that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/eventsv2_event_sources#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/eventsv2_event_sources#import import section} in the documentation of this resource for the id to use
 
 ---
 

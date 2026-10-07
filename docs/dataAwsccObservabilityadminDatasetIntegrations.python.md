@@ -4,7 +4,7 @@
 
 ### DataAwsccObservabilityadminDatasetIntegrations <a name="DataAwsccObservabilityadminDatasetIntegrations" id="@cdktn/provider-awscc.dataAwsccObservabilityadminDatasetIntegrations.DataAwsccObservabilityadminDatasetIntegrations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/observabilityadmin_dataset_integrations awscc_observabilityadmin_dataset_integrations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/observabilityadmin_dataset_integrations awscc_observabilityadmin_dataset_integrations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccObservabilityadminDatasetIntegrations.DataAwsccObservabilityadminDatasetIntegrations.Initializer"></a>
 
@@ -477,7 +477,7 @@ The construct id used in the generated config for the DataAwsccObservabilityadmi
 
 The id of the existing DataAwsccObservabilityadminDatasetIntegrations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/observabilityadmin_dataset_integrations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/observabilityadmin_dataset_integrations#import import section} in the documentation of this resource for the id to use
 
 ---
 

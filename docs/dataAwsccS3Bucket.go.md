@@ -4,7 +4,7 @@
 
 ### DataAwsccS3Bucket <a name="DataAwsccS3Bucket" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket awscc_s3_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket awscc_s3_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccS3Bucket to impor
 
 The id of the existing DataAwsccS3Bucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -415,12 +415,15 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.forEach">ForEach</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.ITerraformIterator</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.abacStatus">AbacStatus</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.accelerateConfiguration">AccelerateConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketAccelerateConfigurationOutputReference">DataAwsccS3BucketAccelerateConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.accessControl">AccessControl</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.analyticsConfigurations">AnalyticsConfigurations</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketAnalyticsConfigurationsList">DataAwsccS3BucketAnalyticsConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.arn">Arn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.bucketEncryption">BucketEncryption</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionOutputReference">DataAwsccS3BucketBucketEncryptionOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.bucketName">BucketName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.bucketNamePrefix">BucketNamePrefix</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.bucketNamespace">BucketNamespace</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.corsConfiguration">CorsConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketCorsConfigurationOutputReference">DataAwsccS3BucketCorsConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.domainName">DomainName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.dualStackDomainName">DualStackDomainName</a></code> | <code>*string</code> | *No description.* |
@@ -428,6 +431,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.inventoryConfigurations">InventoryConfigurations</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketInventoryConfigurationsList">DataAwsccS3BucketInventoryConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.lifecycleConfiguration">LifecycleConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketLifecycleConfigurationOutputReference">DataAwsccS3BucketLifecycleConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.loggingConfiguration">LoggingConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketLoggingConfigurationOutputReference">DataAwsccS3BucketLoggingConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.metadataConfiguration">MetadataConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.metadataTableConfiguration">MetadataTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataTableConfigurationOutputReference">DataAwsccS3BucketMetadataTableConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.metricsConfigurations">MetricsConfigurations</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetricsConfigurationsList">DataAwsccS3BucketMetricsConfigurationsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.notificationConfiguration">NotificationConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketNotificationConfigurationOutputReference">DataAwsccS3BucketNotificationConfigurationOutputReference</a></code> | *No description.* |
@@ -568,6 +572,16 @@ func Provider() TerraformProvider
 
 ---
 
+##### `AbacStatus`<sup>Required</sup> <a name="AbacStatus" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.abacStatus"></a>
+
+```go
+func AbacStatus() *string
+```
+
+- *Type:* *string
+
+---
+
 ##### `AccelerateConfiguration`<sup>Required</sup> <a name="AccelerateConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.accelerateConfiguration"></a>
 
 ```go
@@ -622,6 +636,26 @@ func BucketEncryption() DataAwsccS3BucketBucketEncryptionOutputReference
 
 ```go
 func BucketName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BucketNamePrefix`<sup>Required</sup> <a name="BucketNamePrefix" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.bucketNamePrefix"></a>
+
+```go
+func BucketNamePrefix() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `BucketNamespace`<sup>Required</sup> <a name="BucketNamespace" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.bucketNamespace"></a>
+
+```go
+func BucketNamespace() *string
 ```
 
 - *Type:* *string
@@ -695,6 +729,16 @@ func LoggingConfiguration() DataAwsccS3BucketLoggingConfigurationOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketLoggingConfigurationOutputReference">DataAwsccS3BucketLoggingConfigurationOutputReference</a>
+
+---
+
+##### `MetadataConfiguration`<sup>Required</sup> <a name="MetadataConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3Bucket.property.metadataConfiguration"></a>
+
+```go
+func MetadataConfiguration() DataAwsccS3BucketMetadataConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationOutputReference</a>
 
 ---
 
@@ -972,6 +1016,19 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
 ```
 
 
+### DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes <a name="DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes {
+
+}
+```
+
+
 ### DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault <a name="DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault"></a>
 
 #### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefault.Initializer"></a>
@@ -1099,7 +1156,7 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/s3_bucket#id DataAwsccS3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/s3_bucket#id DataAwsccS3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1348,6 +1405,123 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
 
 &dataawsccs3bucket.DataAwsccS3BucketLoggingConfigurationTargetObjectKeyFormatPartitionedPrefix {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfiguration <a name="DataAwsccS3BucketMetadataConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfiguration {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration <a name="DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration <a name="DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfigurationDestination <a name="DataAwsccS3BucketMetadataConfigurationDestination" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestination"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestination.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfigurationDestination {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration <a name="DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration <a name="DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration <a name="DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration <a name="DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration {
+
+}
+```
+
+
+### DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration <a name="DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration {
 
 }
 ```
@@ -1621,6 +1795,19 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
 
 &dataawsccs3bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetention {
+
+}
+```
+
+
+### DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold <a name="DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+&dataawsccs3bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold {
 
 }
 ```
@@ -4221,6 +4408,266 @@ func InternalValue() DataAwsccS3BucketBucketEncryption
 ---
 
 
+### DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference <a name="DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionType">EncryptionType</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EncryptionType`<sup>Required</sup> <a name="EncryptionType" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.encryptionType"></a>
+
+```go
+func EncryptionType() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes">DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypes</a>
+
+---
+
+
 ### DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationList <a name="DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationList" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationList"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationList.Initializer"></a>
@@ -4598,6 +5045,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypes">BlockedEncryptionTypes</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference">DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.bucketKeyEnabled">BucketKeyEnabled</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.serverSideEncryptionByDefault">ServerSideEncryptionByDefault</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference">DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationServerSideEncryptionByDefaultOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfiguration">DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfiguration</a></code> | *No description.* |
@@ -4625,6 +5073,16 @@ func Fqn() *string
 ```
 
 - *Type:* *string
+
+---
+
+##### `BlockedEncryptionTypes`<sup>Required</sup> <a name="BlockedEncryptionTypes" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationOutputReference.property.blockedEncryptionTypes"></a>
+
+```go
+func BlockedEncryptionTypes() DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference">DataAwsccS3BucketBucketEncryptionServerSideEncryptionConfigurationBlockedEncryptionTypesOutputReference</a>
 
 ---
 
@@ -11912,6 +12370,2555 @@ func InternalValue() DataAwsccS3BucketLoggingConfigurationTargetObjectKeyFormatP
 ---
 
 
+### DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">KmsKeyArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">SseAlgorithm</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KmsKeyArn`<sup>Required</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```go
+func KmsKeyArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SseAlgorithm`<sup>Required</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```go
+func SseAlgorithm() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration">DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationState">ConfigurationState</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.role">Role</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableArn">TableArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableName">TableName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration">DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ConfigurationState`<sup>Required</sup> <a name="ConfigurationState" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.configurationState"></a>
+
+```go
+func ConfigurationState() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EncryptionConfiguration`<sup>Required</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```go
+func EncryptionConfiguration() DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `Role`<sup>Required</sup> <a name="Role" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.role"></a>
+
+```go
+func Role() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableArn`<sup>Required</sup> <a name="TableArn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableArn"></a>
+
+```go
+func TableArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableName`<sup>Required</sup> <a name="TableName" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.tableName"></a>
+
+```go
+func TableName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration">DataAwsccS3BucketMetadataConfigurationAnnotationTableConfiguration</a>
+
+---
+
+
+### DataAwsccS3BucketMetadataConfigurationDestinationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationDestinationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationDestinationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationDestinationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketArn">TableBucketArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketType">TableBucketType</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.tableNamespace">TableNamespace</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestination">DataAwsccS3BucketMetadataConfigurationDestination</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableBucketArn`<sup>Required</sup> <a name="TableBucketArn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketArn"></a>
+
+```go
+func TableBucketArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableBucketType`<sup>Required</sup> <a name="TableBucketType" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.tableBucketType"></a>
+
+```go
+func TableBucketType() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableNamespace`<sup>Required</sup> <a name="TableNamespace" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.tableNamespace"></a>
+
+```go
+func TableNamespace() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfigurationDestination
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestination">DataAwsccS3BucketMetadataConfigurationDestination</a>
+
+---
+
+
+### DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">KmsKeyArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">SseAlgorithm</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KmsKeyArn`<sup>Required</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```go
+func KmsKeyArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SseAlgorithm`<sup>Required</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```go
+func SseAlgorithm() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration">DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationState">ConfigurationState</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableArn">TableArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableName">TableName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration">DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ConfigurationState`<sup>Required</sup> <a name="ConfigurationState" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.configurationState"></a>
+
+```go
+func ConfigurationState() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EncryptionConfiguration`<sup>Required</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```go
+func EncryptionConfiguration() DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `TableArn`<sup>Required</sup> <a name="TableArn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableArn"></a>
+
+```go
+func TableArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableName`<sup>Required</sup> <a name="TableName" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.tableName"></a>
+
+```go
+func TableName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration">DataAwsccS3BucketMetadataConfigurationInventoryTableConfiguration</a>
+
+---
+
+
+### DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn">KmsKeyArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm">SseAlgorithm</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `KmsKeyArn`<sup>Required</sup> <a name="KmsKeyArn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.kmsKeyArn"></a>
+
+```go
+func KmsKeyArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SseAlgorithm`<sup>Required</sup> <a name="SseAlgorithm" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.sseAlgorithm"></a>
+
+```go
+func SseAlgorithm() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfiguration</a>
+
+---
+
+
+### DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpiration">RecordExpiration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableArn">TableArn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableName">TableName</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration">DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `EncryptionConfiguration`<sup>Required</sup> <a name="EncryptionConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.encryptionConfiguration"></a>
+
+```go
+func EncryptionConfiguration() DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationEncryptionConfigurationOutputReference</a>
+
+---
+
+##### `RecordExpiration`<sup>Required</sup> <a name="RecordExpiration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.recordExpiration"></a>
+
+```go
+func RecordExpiration() DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference</a>
+
+---
+
+##### `TableArn`<sup>Required</sup> <a name="TableArn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableArn"></a>
+
+```go
+func TableArn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `TableName`<sup>Required</sup> <a name="TableName" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.tableName"></a>
+
+```go
+func TableName() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration">DataAwsccS3BucketMetadataConfigurationJournalTableConfiguration</a>
+
+---
+
+
+### DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.days">Days</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expiration">Expiration</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Days`<sup>Required</sup> <a name="Days" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.days"></a>
+
+```go
+func Days() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `Expiration`<sup>Required</sup> <a name="Expiration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.expiration"></a>
+
+```go
+func Expiration() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpirationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationRecordExpiration</a>
+
+---
+
+
+### DataAwsccS3BucketMetadataConfigurationOutputReference <a name="DataAwsccS3BucketMetadataConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketMetadataConfigurationOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketMetadataConfigurationOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.annotationTableConfiguration">AnnotationTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.destination">Destination</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference">DataAwsccS3BucketMetadataConfigurationDestinationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.inventoryTableConfiguration">InventoryTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.journalTableConfiguration">JournalTableConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfiguration">DataAwsccS3BucketMetadataConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `AnnotationTableConfiguration`<sup>Required</sup> <a name="AnnotationTableConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.annotationTableConfiguration"></a>
+
+```go
+func AnnotationTableConfiguration() DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationAnnotationTableConfigurationOutputReference</a>
+
+---
+
+##### `Destination`<sup>Required</sup> <a name="Destination" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.destination"></a>
+
+```go
+func Destination() DataAwsccS3BucketMetadataConfigurationDestinationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationDestinationOutputReference">DataAwsccS3BucketMetadataConfigurationDestinationOutputReference</a>
+
+---
+
+##### `InventoryTableConfiguration`<sup>Required</sup> <a name="InventoryTableConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.inventoryTableConfiguration"></a>
+
+```go
+func InventoryTableConfiguration() DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationInventoryTableConfigurationOutputReference</a>
+
+---
+
+##### `JournalTableConfiguration`<sup>Required</sup> <a name="JournalTableConfiguration" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.journalTableConfiguration"></a>
+
+```go
+func JournalTableConfiguration() DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference">DataAwsccS3BucketMetadataConfigurationJournalTableConfigurationOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfigurationOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketMetadataConfiguration
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataConfiguration">DataAwsccS3BucketMetadataConfiguration</a>
+
+---
+
+
 ### DataAwsccS3BucketMetadataTableConfigurationOutputReference <a name="DataAwsccS3BucketMetadataTableConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataTableConfigurationOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketMetadataTableConfigurationOutputReference.Initializer"></a>
@@ -18408,6 +21415,277 @@ func InternalValue() DataAwsccS3BucketObjectLockConfiguration
 ---
 
 
+### DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference <a name="DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccs3bucket"
+
+dataawsccs3bucket.NewDataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.days">Days</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.years">Years</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Days`<sup>Required</sup> <a name="Days" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.days"></a>
+
+```go
+func Days() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `Years`<sup>Required</sup> <a name="Years" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.years"></a>
+
+```go
+func Years() *f64
+```
+
+- *Type:* *f64
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
+
+---
+
+
 ### DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference <a name="DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.Initializer"></a>
@@ -18619,6 +21897,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.days">Days</a></code> | <code>*f64</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHold">DefaultEventHold</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference">DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.mode">Mode</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.years">Years</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetention">DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetention</a></code> | *No description.* |
@@ -18656,6 +21935,16 @@ func Days() *f64
 ```
 
 - *Type:* *f64
+
+---
+
+##### `DefaultEventHold`<sup>Required</sup> <a name="DefaultEventHold" id="@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionOutputReference.property.defaultEventHold"></a>
+
+```go
+func DefaultEventHold() DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccS3Bucket.DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference">DataAwsccS3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHoldOutputReference</a>
 
 ---
 

@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate
+// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface SesEmailIdentityCertificateConfig extends cdktn.TerraformMetaAr
   /**
   * The ARN of the AWS Certificate Manager certificate to associate with the sender.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#certificate_arn SesEmailIdentityCertificate#certificate_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#certificate_arn SesEmailIdentityCertificate#certificate_arn}
   */
   readonly certificateArn: string;
   /**
   * The email identity that owns the sender the certificate is associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#email_identity SesEmailIdentityCertificate#email_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#email_identity SesEmailIdentityCertificate#email_identity}
   */
   readonly emailIdentity: string;
   /**
   * The sender the certificate signs for. For an email address identity this is the identity itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#from_address SesEmailIdentityCertificate#from_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#from_address SesEmailIdentityCertificate#from_address}
   */
   readonly fromAddress: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate}
 */
 export class SesEmailIdentityCertificate extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SesEmailIdentityCertificate extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a SesEmailIdentityCertificate resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SesEmailIdentityCertificate to import
-  * @param importFromId The id of the existing SesEmailIdentityCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SesEmailIdentityCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SesEmailIdentityCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SesEmailIdentityCertificate extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_email_identity_certificate awscc_ses_email_identity_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class SesEmailIdentityCertificate extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ses_email_identity_certificate',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.104.0',
+        providerVersion: '1.105.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
