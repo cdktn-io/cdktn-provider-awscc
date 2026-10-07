@@ -4,7 +4,7 @@
 
 ### DataAwsccSagemakerCodeRepositories <a name="DataAwsccSagemakerCodeRepositories" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepositories.DataAwsccSagemakerCodeRepositories"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_code_repositories awscc_sagemaker_code_repositories}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_code_repositories awscc_sagemaker_code_repositories}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSagemakerCodeRepositories.DataAwsccSagemakerCodeRepositories.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccSagemakerCodeRepo
 
 The id of the existing DataAwsccSagemakerCodeRepositories that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/sagemaker_code_repositories#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/sagemaker_code_repositories#import import section} in the documentation of this resource for the id to use
 
 ---
 

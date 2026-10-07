@@ -4,7 +4,7 @@
 
 ### DataAwsccMediatailorFunction <a name="DataAwsccMediatailorFunction" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function awscc_mediatailor_function}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function awscc_mediatailor_function}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccMediatailorFuncti
 
 The id of the existing DataAwsccMediatailorFunction that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,6 +416,8 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.arn">arn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.awsServiceRequestConfiguration">awsServiceRequestConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference">DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.concurrentExecutorConfiguration">concurrentExecutorConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference">DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.customOutputConfiguration">customOutputConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionCustomOutputConfigurationOutputReference">DataAwsccMediatailorFunctionCustomOutputConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.functionId">functionId</a></code> | <code>string</code> | *No description.* |
@@ -423,6 +425,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.httpRequestConfiguration">httpRequestConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionHttpRequestConfigurationOutputReference">DataAwsccMediatailorFunctionHttpRequestConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.sequentialExecutorConfiguration">sequentialExecutorConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationOutputReference">DataAwsccMediatailorFunctionSequentialExecutorConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionTagsList">DataAwsccMediatailorFunctionTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.vastRequestConfiguration">vastRequestConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference">DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.id">id</a></code> | <code>string</code> | *No description.* |
 
@@ -560,6 +563,26 @@ public readonly arn: string;
 
 ---
 
+##### `awsServiceRequestConfiguration`<sup>Required</sup> <a name="awsServiceRequestConfiguration" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.awsServiceRequestConfiguration"></a>
+
+```typescript
+public readonly awsServiceRequestConfiguration: DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference">DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference</a>
+
+---
+
+##### `concurrentExecutorConfiguration`<sup>Required</sup> <a name="concurrentExecutorConfiguration" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.concurrentExecutorConfiguration"></a>
+
+```typescript
+public readonly concurrentExecutorConfiguration: DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference">DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference</a>
+
+---
+
 ##### `customOutputConfiguration`<sup>Required</sup> <a name="customOutputConfiguration" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.customOutputConfiguration"></a>
 
 ```typescript
@@ -630,6 +653,16 @@ public readonly tags: DataAwsccMediatailorFunctionTagsList;
 
 ---
 
+##### `vastRequestConfiguration`<sup>Required</sup> <a name="vastRequestConfiguration" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.vastRequestConfiguration"></a>
+
+```typescript
+public readonly vastRequestConfiguration: DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference">DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference</a>
+
+---
+
 ##### `idInput`<sup>Optional</sup> <a name="idInput" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunction.property.idInput"></a>
 
 ```typescript
@@ -669,6 +702,39 @@ public readonly tfResourceType: string;
 ---
 
 ## Structs <a name="Structs" id="Structs"></a>
+
+### DataAwsccMediatailorFunctionAwsServiceRequestConfiguration <a name="DataAwsccMediatailorFunctionAwsServiceRequestConfiguration" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfiguration.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+const dataAwsccMediatailorFunctionAwsServiceRequestConfiguration: dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfiguration = { ... }
+```
+
+
+### DataAwsccMediatailorFunctionConcurrentExecutorConfiguration <a name="DataAwsccMediatailorFunctionConcurrentExecutorConfiguration" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfiguration.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+const dataAwsccMediatailorFunctionConcurrentExecutorConfiguration: dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfiguration = { ... }
+```
+
+
+### DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct <a name="DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+const dataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct: dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct = { ... }
+```
+
 
 ### DataAwsccMediatailorFunctionConfig <a name="DataAwsccMediatailorFunctionConfig" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConfig"></a>
 
@@ -775,7 +841,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/mediatailor_function#id DataAwsccMediatailorFunction#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/mediatailor_function#id DataAwsccMediatailorFunction#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -837,7 +903,1119 @@ const dataAwsccMediatailorFunctionTags: dataAwsccMediatailorFunction.DataAwsccMe
 ```
 
 
+### DataAwsccMediatailorFunctionVastRequestConfiguration <a name="DataAwsccMediatailorFunctionVastRequestConfiguration" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfiguration.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+const dataAwsccMediatailorFunctionVastRequestConfiguration: dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfiguration = { ... }
+```
+
+
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference <a name="DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+new dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.body">body</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.headers">headers</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.methodType">methodType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.output">output</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.requestTimeoutMilliseconds">requestTimeoutMilliseconds</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.runtime">runtime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.targetRegion">targetRegion</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.targetService">targetService</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.url">url</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfiguration">DataAwsccMediatailorFunctionAwsServiceRequestConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `body`<sup>Required</sup> <a name="body" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.body"></a>
+
+```typescript
+public readonly body: string;
+```
+
+- *Type:* string
+
+---
+
+##### `headers`<sup>Required</sup> <a name="headers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.headers"></a>
+
+```typescript
+public readonly headers: StringMap;
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `methodType`<sup>Required</sup> <a name="methodType" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.methodType"></a>
+
+```typescript
+public readonly methodType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `output`<sup>Required</sup> <a name="output" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.output"></a>
+
+```typescript
+public readonly output: StringMap;
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `requestTimeoutMilliseconds`<sup>Required</sup> <a name="requestTimeoutMilliseconds" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.requestTimeoutMilliseconds"></a>
+
+```typescript
+public readonly requestTimeoutMilliseconds: number;
+```
+
+- *Type:* number
+
+---
+
+##### `runtime`<sup>Required</sup> <a name="runtime" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.runtime"></a>
+
+```typescript
+public readonly runtime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `targetRegion`<sup>Required</sup> <a name="targetRegion" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.targetRegion"></a>
+
+```typescript
+public readonly targetRegion: string;
+```
+
+- *Type:* string
+
+---
+
+##### `targetService`<sup>Required</sup> <a name="targetService" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.targetService"></a>
+
+```typescript
+public readonly targetService: string;
+```
+
+- *Type:* string
+
+---
+
+##### `url`<sup>Required</sup> <a name="url" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.url"></a>
+
+```typescript
+public readonly url: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccMediatailorFunctionAwsServiceRequestConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionAwsServiceRequestConfiguration">DataAwsccMediatailorFunctionAwsServiceRequestConfiguration</a>
+
+---
+
+
+### DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList <a name="DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+new dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.get"></a>
+
+```typescript
+public get(index: number): DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference <a name="DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+new dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.alias">alias</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.functionId">functionId</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.runCondition">runCondition</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct">DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `alias`<sup>Required</sup> <a name="alias" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.alias"></a>
+
+```typescript
+public readonly alias: string;
+```
+
+- *Type:* string
+
+---
+
+##### `functionId`<sup>Required</sup> <a name="functionId" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.functionId"></a>
+
+```typescript
+public readonly functionId: string;
+```
+
+- *Type:* string
+
+---
+
+##### `runCondition`<sup>Required</sup> <a name="runCondition" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.runCondition"></a>
+
+```typescript
+public readonly runCondition: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct">DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStruct</a>
+
+---
+
+
+### DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference <a name="DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+new dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.functionList">functionList</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList">DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.maxConcurrency">maxConcurrency</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.output">output</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.runtime">runtime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.timeoutMilliseconds">timeoutMilliseconds</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfiguration">DataAwsccMediatailorFunctionConcurrentExecutorConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `functionList`<sup>Required</sup> <a name="functionList" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.functionList"></a>
+
+```typescript
+public readonly functionList: DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList">DataAwsccMediatailorFunctionConcurrentExecutorConfigurationFunctionListStructList</a>
+
+---
+
+##### `maxConcurrency`<sup>Required</sup> <a name="maxConcurrency" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.maxConcurrency"></a>
+
+```typescript
+public readonly maxConcurrency: number;
+```
+
+- *Type:* number
+
+---
+
+##### `output`<sup>Required</sup> <a name="output" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.output"></a>
+
+```typescript
+public readonly output: StringMap;
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `runtime`<sup>Required</sup> <a name="runtime" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.runtime"></a>
+
+```typescript
+public readonly runtime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `timeoutMilliseconds`<sup>Required</sup> <a name="timeoutMilliseconds" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.timeoutMilliseconds"></a>
+
+```typescript
+public readonly timeoutMilliseconds: number;
+```
+
+- *Type:* number
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccMediatailorFunctionConcurrentExecutorConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionConcurrentExecutorConfiguration">DataAwsccMediatailorFunctionConcurrentExecutorConfiguration</a>
+
+---
+
 
 ### DataAwsccMediatailorFunctionCustomOutputConfigurationOutputReference <a name="DataAwsccMediatailorFunctionCustomOutputConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionCustomOutputConfigurationOutputReference"></a>
 
@@ -1813,6 +2991,7 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference.property.alias">alias</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference.property.functionId">functionId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference.property.runCondition">runCondition</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStruct">DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStruct</a></code> | *No description.* |
@@ -1837,6 +3016,16 @@ If this returns an empty array the stack will not be attached.
 
 ```typescript
 public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `alias`<sup>Required</sup> <a name="alias" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionSequentialExecutorConfigurationFunctionListStructOutputReference.property.alias"></a>
+
+```typescript
+public readonly alias: string;
 ```
 
 - *Type:* string
@@ -2601,6 +3790,332 @@ public readonly internalValue: DataAwsccMediatailorFunctionTags;
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionTags">DataAwsccMediatailorFunctionTags</a>
+
+---
+
+
+### DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference <a name="DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccMediatailorFunction } from '@cdktn/provider-awscc'
+
+new dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.body">body</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.headers">headers</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.methodType">methodType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.output">output</a></code> | <code>cdktn.StringMap</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.requestTimeoutMilliseconds">requestTimeoutMilliseconds</a></code> | <code>number</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.runtime">runtime</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.url">url</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfiguration">DataAwsccMediatailorFunctionVastRequestConfiguration</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `body`<sup>Required</sup> <a name="body" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.body"></a>
+
+```typescript
+public readonly body: string;
+```
+
+- *Type:* string
+
+---
+
+##### `headers`<sup>Required</sup> <a name="headers" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.headers"></a>
+
+```typescript
+public readonly headers: StringMap;
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `methodType`<sup>Required</sup> <a name="methodType" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.methodType"></a>
+
+```typescript
+public readonly methodType: string;
+```
+
+- *Type:* string
+
+---
+
+##### `output`<sup>Required</sup> <a name="output" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.output"></a>
+
+```typescript
+public readonly output: StringMap;
+```
+
+- *Type:* cdktn.StringMap
+
+---
+
+##### `requestTimeoutMilliseconds`<sup>Required</sup> <a name="requestTimeoutMilliseconds" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.requestTimeoutMilliseconds"></a>
+
+```typescript
+public readonly requestTimeoutMilliseconds: number;
+```
+
+- *Type:* number
+
+---
+
+##### `runtime`<sup>Required</sup> <a name="runtime" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.runtime"></a>
+
+```typescript
+public readonly runtime: string;
+```
+
+- *Type:* string
+
+---
+
+##### `url`<sup>Required</sup> <a name="url" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.url"></a>
+
+```typescript
+public readonly url: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfigurationOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccMediatailorFunctionVastRequestConfiguration;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccMediatailorFunction.DataAwsccMediatailorFunctionVastRequestConfiguration">DataAwsccMediatailorFunctionVastRequestConfiguration</a>
 
 ---
 

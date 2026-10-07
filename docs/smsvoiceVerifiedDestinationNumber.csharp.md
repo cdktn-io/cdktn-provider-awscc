@@ -4,7 +4,7 @@
 
 ### SmsvoiceVerifiedDestinationNumber <a name="SmsvoiceVerifiedDestinationNumber" id="@cdktn/provider-awscc.smsvoiceVerifiedDestinationNumber.SmsvoiceVerifiedDestinationNumber"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number awscc_smsvoice_verified_destination_number}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.smsvoiceVerifiedDestinationNumber.SmsvoiceVerifiedDestinationNumber.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the SmsvoiceVerifiedDestinatio
 
 The id of the existing SmsvoiceVerifiedDestinationNumber that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -919,7 +919,7 @@ public string DestinationPhoneNumber { get; set; }
 
 The verified destination phone number, in E.164 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#destination_phone_number SmsvoiceVerifiedDestinationNumber#destination_phone_number}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#destination_phone_number SmsvoiceVerifiedDestinationNumber#destination_phone_number}
 
 ---
 
@@ -933,7 +933,7 @@ public IResolvable|SmsvoiceVerifiedDestinationNumberTags[] Tags { get; set; }
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#tags SmsvoiceVerifiedDestinationNumber#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#tags SmsvoiceVerifiedDestinationNumber#tags}
 
 ---
 
@@ -969,7 +969,7 @@ public string Key { get; set; }
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#key SmsvoiceVerifiedDestinationNumber#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#key SmsvoiceVerifiedDestinationNumber#key}
 
 ---
 
@@ -983,7 +983,7 @@ public string Value { get; set; }
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/smsvoice_verified_destination_number#value SmsvoiceVerifiedDestinationNumber#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/smsvoice_verified_destination_number#value SmsvoiceVerifiedDestinationNumber#value}
 
 ---
 

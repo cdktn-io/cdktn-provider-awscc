@@ -4,7 +4,7 @@
 
 ### QuicksightTheme <a name="QuicksightTheme" id="@cdktn/provider-awscc.quicksightTheme.QuicksightTheme"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme awscc_quicksight_theme}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme awscc_quicksight_theme}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.quicksightTheme.QuicksightTheme.Initializer"></a>
 
@@ -549,7 +549,7 @@ The construct id used in the generated config for the QuicksightTheme to import.
 
 The id of the existing QuicksightTheme that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1023,14 +1023,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.provisioners">Provisioners</a></code> | <code>*[]interface{}</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.baseThemeId">BaseThemeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.awsAccountId">AwsAccountId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.baseThemeId">BaseThemeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfiguration">QuicksightThemeConfiguration</a></code> | <p>The theme configuration. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.themeId">ThemeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.permissions">Permissions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.versionDescription">VersionDescription</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.themeId">ThemeId</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.permissions">Permissions</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.tags">Tags</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfig.property.versionDescription">VersionDescription</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}. |
 
 ---
 
@@ -1112,7 +1112,7 @@ AwsAccountId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#aws_account_id QuicksightTheme#aws_account_id}.
 
 ---
 
@@ -1124,7 +1124,7 @@ BaseThemeId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#base_theme_id QuicksightTheme#base_theme_id}.
 
 ---
 
@@ -1141,7 +1141,7 @@ Configuration QuicksightThemeConfiguration
 This configuration contains all of the display properties for
 a theme.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#configuration QuicksightTheme#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#configuration QuicksightTheme#configuration}
 
 ---
 
@@ -1153,7 +1153,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 
 ---
 
@@ -1165,7 +1165,7 @@ ThemeId *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#theme_id QuicksightTheme#theme_id}.
 
 ---
 
@@ -1177,7 +1177,7 @@ Permissions interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#permissions QuicksightTheme#permissions}.
 
 ---
 
@@ -1189,7 +1189,7 @@ Tags interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#tags QuicksightTheme#tags}.
 
 ---
 
@@ -1201,7 +1201,7 @@ VersionDescription *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#version_description QuicksightTheme#version_description}.
 
 ---
 
@@ -1226,7 +1226,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfiguration.property.dataColorPalette">DataColorPalette</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationDataColorPalette">QuicksightThemeConfigurationDataColorPalette</a></code> | <p>The theme colors that are used for data colors in charts. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfiguration.property.sheet">Sheet</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheet">QuicksightThemeConfigurationSheet</a></code> | <p>The theme display options for sheets. </p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfiguration.property.typography">Typography</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography">QuicksightThemeConfigurationTypography</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfiguration.property.typography">Typography</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography">QuicksightThemeConfigurationTypography</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfiguration.property.uiColorPalette">UiColorPalette</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationUiColorPalette">QuicksightThemeConfigurationUiColorPalette</a></code> | <p>The theme colors that apply to UI and to charts, excluding data colors. |
 
 ---
@@ -1245,7 +1245,7 @@ The colors description is a
 hexadecimal color code that consists of six alphanumerical characters, prefixed with
 <code>#</code>, for example #37BFF5. </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#data_color_palette QuicksightTheme#data_color_palette}
 
 ---
 
@@ -1259,7 +1259,7 @@ Sheet QuicksightThemeConfigurationSheet
 
 <p>The theme display options for sheets. </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#sheet QuicksightTheme#sheet}
 
 ---
 
@@ -1271,7 +1271,7 @@ Typography QuicksightThemeConfigurationTypography
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography">QuicksightThemeConfigurationTypography</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#typography QuicksightTheme#typography}.
 
 ---
 
@@ -1291,7 +1291,7 @@ prefixed with <code>#</code>, for example #37BFF5. For more information, see <a 
 Guide.</i>
 </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#ui_color_palette QuicksightTheme#ui_color_palette}
 
 ---
 
@@ -1329,7 +1329,7 @@ Colors *[]*string
 
 <p>The hexadecimal codes for the colors.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#colors QuicksightTheme#colors}
 
 ---
 
@@ -1343,7 +1343,7 @@ EmptyFillColor *string
 
 <p>The hexadecimal code of a color that applies to charts where a lack of data is             highlighted.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#empty_fill_color QuicksightTheme#empty_fill_color}
 
 ---
 
@@ -1357,7 +1357,7 @@ MinMaxGradient *[]*string
 
 <p>The minimum and maximum hexadecimal codes that describe a color gradient. </p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#min_max_gradient QuicksightTheme#min_max_gradient}
 
 ---
 
@@ -1379,7 +1379,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheet.property.background">Background</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetBackground">QuicksightThemeConfigurationSheetBackground</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#background QuicksightTheme#background}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheet.property.background">Background</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetBackground">QuicksightThemeConfigurationSheetBackground</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#background QuicksightTheme#background}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheet.property.tile">Tile</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTile">QuicksightThemeConfigurationSheetTile</a></code> | <p>Display options related to tiles on a sheet.</p>. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheet.property.tileLayout">TileLayout</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTileLayout">QuicksightThemeConfigurationSheetTileLayout</a></code> | <p>The display options for the layout of tiles on a sheet.</p>. |
 
@@ -1393,7 +1393,7 @@ Background QuicksightThemeConfigurationSheetBackground
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetBackground">QuicksightThemeConfigurationSheetBackground</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#background QuicksightTheme#background}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#background QuicksightTheme#background}.
 
 ---
 
@@ -1407,7 +1407,7 @@ Tile QuicksightThemeConfigurationSheetTile
 
 <p>Display options related to tiles on a sheet.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#tile QuicksightTheme#tile}
 
 ---
 
@@ -1421,7 +1421,7 @@ TileLayout QuicksightThemeConfigurationSheetTileLayout
 
 <p>The display options for the layout of tiles on a sheet.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#tile_layout QuicksightTheme#tile_layout}
 
 ---
 
@@ -1443,7 +1443,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetBackground.property.color">Color</a></code> | <code>*string</code> | String to encapsulate the most generic way Color can be formatted (words, hexStrings etc). |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetBackground.property.gradient">Gradient</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#gradient QuicksightTheme#gradient}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetBackground.property.gradient">Gradient</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#gradient QuicksightTheme#gradient}. |
 
 ---
 
@@ -1457,7 +1457,7 @@ Color *string
 
 String to encapsulate the most generic way Color can be formatted (words, hexStrings etc).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#color QuicksightTheme#color}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#color QuicksightTheme#color}
 
 ---
 
@@ -1469,7 +1469,7 @@ Gradient *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#gradient QuicksightTheme#gradient}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#gradient QuicksightTheme#gradient}.
 
 ---
 
@@ -1494,8 +1494,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTile.property.backgroundColor">BackgroundColor</a></code> | <code>*string</code> | String to encapsulate the most generic way Color can be formatted (words, hexStrings etc). |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTile.property.border">Border</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTileBorder">QuicksightThemeConfigurationSheetTileBorder</a></code> | <p>The display options for tile borders for visuals.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTile.property.borderRadius">BorderRadius</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#border_radius QuicksightTheme#border_radius}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTile.property.padding">Padding</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#padding QuicksightTheme#padding}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTile.property.borderRadius">BorderRadius</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#border_radius QuicksightTheme#border_radius}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationSheetTile.property.padding">Padding</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#padding QuicksightTheme#padding}. |
 
 ---
 
@@ -1509,7 +1509,7 @@ BackgroundColor *string
 
 String to encapsulate the most generic way Color can be formatted (words, hexStrings etc).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#background_color QuicksightTheme#background_color}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#background_color QuicksightTheme#background_color}
 
 ---
 
@@ -1523,7 +1523,7 @@ Border QuicksightThemeConfigurationSheetTileBorder
 
 <p>The display options for tile borders for visuals.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#border QuicksightTheme#border}
 
 ---
 
@@ -1535,7 +1535,7 @@ BorderRadius *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#border_radius QuicksightTheme#border_radius}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#border_radius QuicksightTheme#border_radius}.
 
 ---
 
@@ -1547,7 +1547,7 @@ Padding *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#padding QuicksightTheme#padding}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#padding QuicksightTheme#padding}.
 
 ---
 
@@ -1585,7 +1585,7 @@ Color *string
 
 String to encapsulate the most generic way Color can be formatted (words, hexStrings etc).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#color QuicksightTheme#color}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#color QuicksightTheme#color}
 
 ---
 
@@ -1599,7 +1599,7 @@ Show interface{}
 
 <p>The option to enable display of borders for visuals.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
 
 ---
 
@@ -1613,7 +1613,7 @@ Width *string
 
 String to encapsulate the most generic way Width can be formatted with whatever units (px, em etc).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#width QuicksightTheme#width}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#width QuicksightTheme#width}
 
 ---
 
@@ -1649,7 +1649,7 @@ Gutter QuicksightThemeConfigurationSheetTileLayoutGutter
 
 <p>The display options for gutter spacing between tiles on a sheet.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#gutter QuicksightTheme#gutter}
 
 ---
 
@@ -1663,7 +1663,7 @@ Margin QuicksightThemeConfigurationSheetTileLayoutMargin
 
 <p>The display options for margins around the outside edge of sheets.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#margin QuicksightTheme#margin}
 
 ---
 
@@ -1699,7 +1699,7 @@ Show interface{}
 
 </p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
 
 ---
 
@@ -1733,7 +1733,7 @@ Show interface{}
 
 <p>This Boolean value controls whether to display sheet margins.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#show QuicksightTheme#show}
 
 ---
 
@@ -1760,14 +1760,14 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.axisLabelFontConfiguration">AxisLabelFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration">QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#axis_label_font_configuration QuicksightTheme#axis_label_font_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.axisTitleFontConfiguration">AxisTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration">QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#axis_title_font_configuration QuicksightTheme#axis_title_font_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.dataLabelFontConfiguration">DataLabelFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration">QuicksightThemeConfigurationTypographyDataLabelFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#data_label_font_configuration QuicksightTheme#data_label_font_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.fontFamilies">FontFamilies</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.legendTitleFontConfiguration">LegendTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration">QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#legend_title_font_configuration QuicksightTheme#legend_title_font_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.legendValueFontConfiguration">LegendValueFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration">QuicksightThemeConfigurationTypographyLegendValueFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#legend_value_font_configuration QuicksightTheme#legend_value_font_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.visualSubtitleFontConfiguration">VisualSubtitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#visual_subtitle_font_configuration QuicksightTheme#visual_subtitle_font_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.visualTitleFontConfiguration">VisualTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration">QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#visual_title_font_configuration QuicksightTheme#visual_title_font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.axisLabelFontConfiguration">AxisLabelFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration">QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#axis_label_font_configuration QuicksightTheme#axis_label_font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.axisTitleFontConfiguration">AxisTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration">QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#axis_title_font_configuration QuicksightTheme#axis_title_font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.dataLabelFontConfiguration">DataLabelFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration">QuicksightThemeConfigurationTypographyDataLabelFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#data_label_font_configuration QuicksightTheme#data_label_font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.fontFamilies">FontFamilies</a></code> | <code>interface{}</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.legendTitleFontConfiguration">LegendTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration">QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#legend_title_font_configuration QuicksightTheme#legend_title_font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.legendValueFontConfiguration">LegendValueFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration">QuicksightThemeConfigurationTypographyLegendValueFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#legend_value_font_configuration QuicksightTheme#legend_value_font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.visualSubtitleFontConfiguration">VisualSubtitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#visual_subtitle_font_configuration QuicksightTheme#visual_subtitle_font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypography.property.visualTitleFontConfiguration">VisualTitleFontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration">QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#visual_title_font_configuration QuicksightTheme#visual_title_font_configuration}. |
 
 ---
 
@@ -1779,7 +1779,7 @@ AxisLabelFontConfiguration QuicksightThemeConfigurationTypographyAxisLabelFontCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration">QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#axis_label_font_configuration QuicksightTheme#axis_label_font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#axis_label_font_configuration QuicksightTheme#axis_label_font_configuration}.
 
 ---
 
@@ -1791,7 +1791,7 @@ AxisTitleFontConfiguration QuicksightThemeConfigurationTypographyAxisTitleFontCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration">QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#axis_title_font_configuration QuicksightTheme#axis_title_font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#axis_title_font_configuration QuicksightTheme#axis_title_font_configuration}.
 
 ---
 
@@ -1803,7 +1803,7 @@ DataLabelFontConfiguration QuicksightThemeConfigurationTypographyDataLabelFontCo
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration">QuicksightThemeConfigurationTypographyDataLabelFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#data_label_font_configuration QuicksightTheme#data_label_font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#data_label_font_configuration QuicksightTheme#data_label_font_configuration}.
 
 ---
 
@@ -1815,7 +1815,7 @@ FontFamilies interface{}
 
 - *Type:* interface{}
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_families QuicksightTheme#font_families}.
 
 ---
 
@@ -1827,7 +1827,7 @@ LegendTitleFontConfiguration QuicksightThemeConfigurationTypographyLegendTitleFo
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration">QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#legend_title_font_configuration QuicksightTheme#legend_title_font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#legend_title_font_configuration QuicksightTheme#legend_title_font_configuration}.
 
 ---
 
@@ -1839,7 +1839,7 @@ LegendValueFontConfiguration QuicksightThemeConfigurationTypographyLegendValueFo
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration">QuicksightThemeConfigurationTypographyLegendValueFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#legend_value_font_configuration QuicksightTheme#legend_value_font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#legend_value_font_configuration QuicksightTheme#legend_value_font_configuration}.
 
 ---
 
@@ -1851,7 +1851,7 @@ VisualSubtitleFontConfiguration QuicksightThemeConfigurationTypographyVisualSubt
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#visual_subtitle_font_configuration QuicksightTheme#visual_subtitle_font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#visual_subtitle_font_configuration QuicksightTheme#visual_subtitle_font_configuration}.
 
 ---
 
@@ -1863,7 +1863,7 @@ VisualTitleFontConfiguration QuicksightThemeConfigurationTypographyVisualTitleFo
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration">QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#visual_title_font_configuration QuicksightTheme#visual_title_font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#visual_title_font_configuration QuicksightTheme#visual_title_font_configuration}.
 
 ---
 
@@ -1888,12 +1888,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontFamily">FontFamily</a></code> | <code>*string</code> | <p>The font family that you want to use.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize">QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize">QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
 
 ---
 
@@ -1905,7 +1905,7 @@ FontColor *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
 
 ---
 
@@ -1917,7 +1917,7 @@ FontDecoration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
 
 ---
 
@@ -1931,7 +1931,7 @@ FontFamily *string
 
 <p>The font family that you want to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
 
 ---
 
@@ -1943,7 +1943,7 @@ FontSize QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSiz
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize">QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontSize</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
 
 ---
 
@@ -1955,7 +1955,7 @@ FontStyle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
 
 ---
 
@@ -1967,7 +1967,7 @@ FontWeight QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontW
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
 
 ---
 
@@ -2001,7 +2001,7 @@ Absolute *string
 
 <p>The font size that you want to use in px.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
 
 ---
 
@@ -2021,7 +2021,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisLabelFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
 
 ---
 
@@ -2033,7 +2033,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 
 ---
 
@@ -2058,12 +2058,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontFamily">FontFamily</a></code> | <code>*string</code> | <p>The font family that you want to use.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize">QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize">QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
 
 ---
 
@@ -2075,7 +2075,7 @@ FontColor *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
 
 ---
 
@@ -2087,7 +2087,7 @@ FontDecoration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
 
 ---
 
@@ -2101,7 +2101,7 @@ FontFamily *string
 
 <p>The font family that you want to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
 
 ---
 
@@ -2113,7 +2113,7 @@ FontSize QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSiz
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize">QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontSize</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
 
 ---
 
@@ -2125,7 +2125,7 @@ FontStyle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
 
 ---
 
@@ -2137,7 +2137,7 @@ FontWeight QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontW
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
 
 ---
 
@@ -2171,7 +2171,7 @@ Absolute *string
 
 <p>The font size that you want to use in px.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
 
 ---
 
@@ -2191,7 +2191,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyAxisTitleFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
 
 ---
 
@@ -2203,7 +2203,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 
 ---
 
@@ -2228,12 +2228,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontFamily">FontFamily</a></code> | <code>*string</code> | <p>The font family that you want to use.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize">QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize">QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
 
 ---
 
@@ -2245,7 +2245,7 @@ FontColor *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
 
 ---
 
@@ -2257,7 +2257,7 @@ FontDecoration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
 
 ---
 
@@ -2271,7 +2271,7 @@ FontFamily *string
 
 <p>The font family that you want to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
 
 ---
 
@@ -2283,7 +2283,7 @@ FontSize QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSiz
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize">QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontSize</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
 
 ---
 
@@ -2295,7 +2295,7 @@ FontStyle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
 
 ---
 
@@ -2307,7 +2307,7 @@ FontWeight QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontW
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
 
 ---
 
@@ -2341,7 +2341,7 @@ Absolute *string
 
 <p>The font size that you want to use in px.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
 
 ---
 
@@ -2361,7 +2361,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyDataLabelFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
 
 ---
 
@@ -2373,7 +2373,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 
 ---
 
@@ -2393,7 +2393,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies.property.fontFamily">FontFamily</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyFontFamilies.property.fontFamily">FontFamily</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}. |
 
 ---
 
@@ -2405,7 +2405,7 @@ FontFamily *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}.
 
 ---
 
@@ -2430,12 +2430,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontFamily">FontFamily</a></code> | <code>*string</code> | <p>The font family that you want to use.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize">QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize">QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
 
 ---
 
@@ -2447,7 +2447,7 @@ FontColor *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
 
 ---
 
@@ -2459,7 +2459,7 @@ FontDecoration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
 
 ---
 
@@ -2473,7 +2473,7 @@ FontFamily *string
 
 <p>The font family that you want to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
 
 ---
 
@@ -2485,7 +2485,7 @@ FontSize QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontS
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize">QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontSize</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
 
 ---
 
@@ -2497,7 +2497,7 @@ FontStyle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
 
 ---
 
@@ -2509,7 +2509,7 @@ FontWeight QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFon
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
 
 ---
 
@@ -2543,7 +2543,7 @@ Absolute *string
 
 <p>The font size that you want to use in px.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
 
 ---
 
@@ -2563,7 +2563,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendTitleFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
 
 ---
 
@@ -2575,7 +2575,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 
 ---
 
@@ -2600,12 +2600,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontFamily">FontFamily</a></code> | <code>*string</code> | <p>The font family that you want to use.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize">QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize">QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
 
 ---
 
@@ -2617,7 +2617,7 @@ FontColor *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
 
 ---
 
@@ -2629,7 +2629,7 @@ FontDecoration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
 
 ---
 
@@ -2643,7 +2643,7 @@ FontFamily *string
 
 <p>The font family that you want to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
 
 ---
 
@@ -2655,7 +2655,7 @@ FontSize QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontS
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize">QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontSize</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
 
 ---
 
@@ -2667,7 +2667,7 @@ FontStyle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
 
 ---
 
@@ -2679,7 +2679,7 @@ FontWeight QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFon
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
 
 ---
 
@@ -2713,7 +2713,7 @@ Absolute *string
 
 <p>The font size that you want to use in px.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
 
 ---
 
@@ -2733,7 +2733,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyLegendValueFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
 
 ---
 
@@ -2745,7 +2745,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 
 ---
 
@@ -2767,9 +2767,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration.property.fontConfiguration">FontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration.property.textAlignment">TextAlignment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration.property.textTransform">TextTransform</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration.property.fontConfiguration">FontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration.property.textAlignment">TextAlignment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration.property.textTransform">TextTransform</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}. |
 
 ---
 
@@ -2781,7 +2781,7 @@ FontConfiguration QuicksightThemeConfigurationTypographyVisualSubtitleFontConfig
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}.
 
 ---
 
@@ -2793,7 +2793,7 @@ TextAlignment *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}.
 
 ---
 
@@ -2805,7 +2805,7 @@ TextTransform *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}.
 
 ---
 
@@ -2830,12 +2830,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontFamily">FontFamily</a></code> | <code>*string</code> | <p>The font family that you want to use.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
 
 ---
 
@@ -2847,7 +2847,7 @@ FontColor *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
 
 ---
 
@@ -2859,7 +2859,7 @@ FontDecoration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
 
 ---
 
@@ -2873,7 +2873,7 @@ FontFamily *string
 
 <p>The font family that you want to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
 
 ---
 
@@ -2885,7 +2885,7 @@ FontSize QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFo
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontSize</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
 
 ---
 
@@ -2897,7 +2897,7 @@ FontStyle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
 
 ---
 
@@ -2909,7 +2909,7 @@ FontWeight QuicksightThemeConfigurationTypographyVisualSubtitleFontConfiguration
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
 
 ---
 
@@ -2943,7 +2943,7 @@ Absolute *string
 
 <p>The font size that you want to use in px.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
 
 ---
 
@@ -2963,7 +2963,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualSubtitleFontConfigurationFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
 
 ---
 
@@ -2975,7 +2975,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 
 ---
 
@@ -2997,9 +2997,9 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration.property.fontConfiguration">FontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration.property.textAlignment">TextAlignment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration.property.textTransform">TextTransform</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration.property.fontConfiguration">FontConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration.property.textAlignment">TextAlignment</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfiguration.property.textTransform">TextTransform</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}. |
 
 ---
 
@@ -3011,7 +3011,7 @@ FontConfiguration QuicksightThemeConfigurationTypographyVisualTitleFontConfigura
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_configuration QuicksightTheme#font_configuration}.
 
 ---
 
@@ -3023,7 +3023,7 @@ TextAlignment *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#text_alignment QuicksightTheme#text_alignment}.
 
 ---
 
@@ -3035,7 +3035,7 @@ TextTransform *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#text_transform QuicksightTheme#text_transform}.
 
 ---
 
@@ -3060,12 +3060,12 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontColor">FontColor</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontDecoration">FontDecoration</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}. |
 | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontFamily">FontFamily</a></code> | <code>*string</code> | <p>The font family that you want to use.</p>. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontSize">FontSize</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontStyle">FontStyle</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfiguration.property.fontWeight">FontWeight</a></code> | <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}. |
 
 ---
 
@@ -3077,7 +3077,7 @@ FontColor *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_color QuicksightTheme#font_color}.
 
 ---
 
@@ -3089,7 +3089,7 @@ FontDecoration *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_decoration QuicksightTheme#font_decoration}.
 
 ---
 
@@ -3103,7 +3103,7 @@ FontFamily *string
 
 <p>The font family that you want to use.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_family QuicksightTheme#font_family}
 
 ---
 
@@ -3115,7 +3115,7 @@ FontSize QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontC
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontSize</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_size QuicksightTheme#font_size}.
 
 ---
 
@@ -3127,7 +3127,7 @@ FontStyle *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_style QuicksightTheme#font_style}.
 
 ---
 
@@ -3139,7 +3139,7 @@ FontWeight QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFon
 
 - *Type:* <a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight">QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#font_weight QuicksightTheme#font_weight}.
 
 ---
 
@@ -3173,7 +3173,7 @@ Absolute *string
 
 <p>The font size that you want to use in px.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#absolute QuicksightTheme#absolute}
 
 ---
 
@@ -3193,7 +3193,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/quicksighttheme"
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
+| <code><a href="#@cdktn/provider-awscc.quicksightTheme.QuicksightThemeConfigurationTypographyVisualTitleFontConfigurationFontConfigurationFontWeight.property.name">Name</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}. |
 
 ---
 
@@ -3205,7 +3205,7 @@ Name *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#name QuicksightTheme#name}.
 
 ---
 
@@ -3269,7 +3269,7 @@ Accent *string
 
 <p>This color is that applies to selected states and buttons.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#accent QuicksightTheme#accent}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#accent QuicksightTheme#accent}
 
 ---
 
@@ -3283,7 +3283,7 @@ AccentForeground *string
 
 <p>The foreground color that applies to any text or other elements that appear over the             accent color.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#accent_foreground QuicksightTheme#accent_foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#accent_foreground QuicksightTheme#accent_foreground}
 
 ---
 
@@ -3297,7 +3297,7 @@ Danger *string
 
 <p>The color that applies to error messages.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#danger QuicksightTheme#danger}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#danger QuicksightTheme#danger}
 
 ---
 
@@ -3311,7 +3311,7 @@ DangerForeground *string
 
 <p>The foreground color that applies to any text or other elements that appear over the             error color.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#danger_foreground QuicksightTheme#danger_foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#danger_foreground QuicksightTheme#danger_foreground}
 
 ---
 
@@ -3325,7 +3325,7 @@ Dimension *string
 
 <p>The color that applies to the names of fields that are identified as             dimensions.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#dimension QuicksightTheme#dimension}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#dimension QuicksightTheme#dimension}
 
 ---
 
@@ -3339,7 +3339,7 @@ DimensionForeground *string
 
 <p>The foreground color that applies to any text or other elements that appear over the             dimension color.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#dimension_foreground QuicksightTheme#dimension_foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#dimension_foreground QuicksightTheme#dimension_foreground}
 
 ---
 
@@ -3353,7 +3353,7 @@ Measure *string
 
 <p>The color that applies to the names of fields that are identified as measures.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#measure QuicksightTheme#measure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#measure QuicksightTheme#measure}
 
 ---
 
@@ -3367,7 +3367,7 @@ MeasureForeground *string
 
 <p>The foreground color that applies to any text or other elements that appear over the             measure color.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#measure_foreground QuicksightTheme#measure_foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#measure_foreground QuicksightTheme#measure_foreground}
 
 ---
 
@@ -3381,7 +3381,7 @@ PrimaryBackground *string
 
 <p>The background color that applies to visuals and other high emphasis UI.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#primary_background QuicksightTheme#primary_background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#primary_background QuicksightTheme#primary_background}
 
 ---
 
@@ -3395,7 +3395,7 @@ PrimaryForeground *string
 
 <p>The color of text and other foreground elements that appear over the primary             background regions, such as grid lines, borders, table banding, icons, and so on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#primary_foreground QuicksightTheme#primary_foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#primary_foreground QuicksightTheme#primary_foreground}
 
 ---
 
@@ -3409,7 +3409,7 @@ SecondaryBackground *string
 
 <p>The background color that applies to the sheet background and sheet controls.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#secondary_background QuicksightTheme#secondary_background}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#secondary_background QuicksightTheme#secondary_background}
 
 ---
 
@@ -3423,7 +3423,7 @@ SecondaryForeground *string
 
 <p>The foreground color that applies to any sheet title, sheet control text, or UI that             appears over the secondary background.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#secondary_foreground QuicksightTheme#secondary_foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#secondary_foreground QuicksightTheme#secondary_foreground}
 
 ---
 
@@ -3437,7 +3437,7 @@ Success *string
 
 <p>The color that applies to success messages, for example the check mark for a             successful download.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#success QuicksightTheme#success}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#success QuicksightTheme#success}
 
 ---
 
@@ -3451,7 +3451,7 @@ SuccessForeground *string
 
 <p>The foreground color that applies to any text or other elements that appear over the             success color.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#success_foreground QuicksightTheme#success_foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#success_foreground QuicksightTheme#success_foreground}
 
 ---
 
@@ -3465,7 +3465,7 @@ Warning *string
 
 <p>This color that applies to warning and informational messages.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#warning QuicksightTheme#warning}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#warning QuicksightTheme#warning}
 
 ---
 
@@ -3479,7 +3479,7 @@ WarningForeground *string
 
 <p>The foreground color that applies to any text or other elements that appear over the             warning color.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#warning_foreground QuicksightTheme#warning_foreground}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#warning_foreground QuicksightTheme#warning_foreground}
 
 ---
 
@@ -3515,7 +3515,7 @@ Actions *[]*string
 
 <p>The IAM action to grant or revoke permissions on.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#actions QuicksightTheme#actions}
 
 ---
 
@@ -3545,7 +3545,7 @@ ARN. Use this option only to share resources (templates) across Amazon Web Servi
 </li>
 </ul>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#principal QuicksightTheme#principal}
 
 ---
 
@@ -3581,7 +3581,7 @@ Key *string
 
 <p>Tag key.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#key QuicksightTheme#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#key QuicksightTheme#key}
 
 ---
 
@@ -3595,7 +3595,7 @@ Value *string
 
 <p>Tag value.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_theme#value QuicksightTheme#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_theme#value QuicksightTheme#value}
 
 ---
 

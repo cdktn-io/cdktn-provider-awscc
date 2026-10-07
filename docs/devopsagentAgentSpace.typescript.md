@@ -4,7 +4,7 @@
 
 ### DevopsagentAgentSpace <a name="DevopsagentAgentSpace" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space awscc_devopsagent_agent_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.Initializer"></a>
 
@@ -75,11 +75,13 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.putOperatorApp">putOperatorApp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.putPreferences">putPreferences</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.putTags">putTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.resetKmsKeyArn">resetKmsKeyArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.resetLocale">resetLocale</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.resetOperatorApp">resetOperatorApp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.resetPreferences">resetPreferences</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.resetTags">resetTags</a></code> | *No description.* |
 
 ---
@@ -405,6 +407,18 @@ public putOperatorApp(value: DevopsagentAgentSpaceOperatorApp): void
 
 ---
 
+##### `putPreferences` <a name="putPreferences" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.putPreferences"></a>
+
+```typescript
+public putPreferences(value: DevopsagentAgentSpacePreferences): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.putPreferences.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences">DevopsagentAgentSpacePreferences</a>
+
+---
+
 ##### `putTags` <a name="putTags" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.putTags"></a>
 
 ```typescript
@@ -439,6 +453,12 @@ public resetLocale(): void
 
 ```typescript
 public resetOperatorApp(): void
+```
+
+##### `resetPreferences` <a name="resetPreferences" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.resetPreferences"></a>
+
+```typescript
+public resetPreferences(): void
 ```
 
 ##### `resetTags` <a name="resetTags" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.resetTags"></a>
@@ -550,7 +570,7 @@ The construct id used in the generated config for the DevopsagentAgentSpace to i
 
 The id of the existing DevopsagentAgentSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -585,6 +605,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.createdAt">createdAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.id">id</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.operatorApp">operatorApp</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppOutputReference">DevopsagentAgentSpaceOperatorAppOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.preferences">preferences</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference">DevopsagentAgentSpacePreferencesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceTagsList">DevopsagentAgentSpaceTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.updatedAt">updatedAt</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
@@ -592,6 +613,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.localeInput">localeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.nameInput">nameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.operatorAppInput">operatorAppInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp">DevopsagentAgentSpaceOperatorApp</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.preferencesInput">preferencesInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences">DevopsagentAgentSpacePreferences</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.tagsInput">tagsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceTags">DevopsagentAgentSpaceTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.kmsKeyArn">kmsKeyArn</a></code> | <code>string</code> | *No description.* |
@@ -792,6 +814,16 @@ public readonly operatorApp: DevopsagentAgentSpaceOperatorAppOutputReference;
 
 ---
 
+##### `preferences`<sup>Required</sup> <a name="preferences" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.preferences"></a>
+
+```typescript
+public readonly preferences: DevopsagentAgentSpacePreferencesOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference">DevopsagentAgentSpacePreferencesOutputReference</a>
+
+---
+
 ##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.tags"></a>
 
 ```typescript
@@ -859,6 +891,16 @@ public readonly operatorAppInput: IResolvable | DevopsagentAgentSpaceOperatorApp
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp">DevopsagentAgentSpaceOperatorApp</a>
+
+---
+
+##### `preferencesInput`<sup>Optional</sup> <a name="preferencesInput" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpace.property.preferencesInput"></a>
+
+```typescript
+public readonly preferencesInput: IResolvable | DevopsagentAgentSpacePreferences;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences">DevopsagentAgentSpacePreferences</a>
 
 ---
 
@@ -957,7 +999,8 @@ const devopsagentAgentSpaceConfig: devopsagentAgentSpace.DevopsagentAgentSpaceCo
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceConfig.property.description">description</a></code> | <code>string</code> | The description of the AgentSpace. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceConfig.property.kmsKeyArn">kmsKeyArn</a></code> | <code>string</code> | The ARN of the KMS key to use for encryption. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceConfig.property.locale">locale</a></code> | <code>string</code> | The locale for the AgentSpace, which determines the language used in agent responses. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceConfig.property.operatorApp">operatorApp</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp">DevopsagentAgentSpaceOperatorApp</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app DevopsagentAgentSpace#operator_app}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceConfig.property.operatorApp">operatorApp</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp">DevopsagentAgentSpaceOperatorApp</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app DevopsagentAgentSpace#operator_app}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceConfig.property.preferences">preferences</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences">DevopsagentAgentSpacePreferences</a></code> | Preferences that configure behavior of this AgentSpace. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceTags">DevopsagentAgentSpaceTags</a>[]</code> | An array of key-value pairs to apply to this resource. |
 
 ---
@@ -1042,7 +1085,7 @@ public readonly name: string;
 
 The name of the AgentSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#name DevopsagentAgentSpace#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#name DevopsagentAgentSpace#name}
 
 ---
 
@@ -1056,7 +1099,7 @@ public readonly description: string;
 
 The description of the AgentSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#description DevopsagentAgentSpace#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#description DevopsagentAgentSpace#description}
 
 ---
 
@@ -1070,7 +1113,7 @@ public readonly kmsKeyArn: string;
 
 The ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#kms_key_arn DevopsagentAgentSpace#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#kms_key_arn DevopsagentAgentSpace#kms_key_arn}
 
 ---
 
@@ -1084,7 +1127,7 @@ public readonly locale: string;
 
 The locale for the AgentSpace, which determines the language used in agent responses.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#locale DevopsagentAgentSpace#locale}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#locale DevopsagentAgentSpace#locale}
 
 ---
 
@@ -1096,7 +1139,23 @@ public readonly operatorApp: DevopsagentAgentSpaceOperatorApp;
 
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp">DevopsagentAgentSpaceOperatorApp</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app DevopsagentAgentSpace#operator_app}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app DevopsagentAgentSpace#operator_app}.
+
+---
+
+##### `preferences`<sup>Optional</sup> <a name="preferences" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceConfig.property.preferences"></a>
+
+```typescript
+public readonly preferences: DevopsagentAgentSpacePreferences;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences">DevopsagentAgentSpacePreferences</a>
+
+Preferences that configure behavior of this AgentSpace.
+
+This container fully owns the AgentSpace preferences: the properties supplied here replace the stored preferences in their entirety, and omitting the Preferences container reverts all preferences to their service defaults.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#preferences DevopsagentAgentSpace#preferences}
 
 ---
 
@@ -1110,7 +1169,7 @@ public readonly tags: IResolvable | DevopsagentAgentSpaceTags[];
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#tags DevopsagentAgentSpace#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#tags DevopsagentAgentSpace#tags}
 
 ---
 
@@ -1128,8 +1187,8 @@ const devopsagentAgentSpaceOperatorApp: devopsagentAgentSpace.DevopsagentAgentSp
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp.property.iam">iam</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIam">DevopsagentAgentSpaceOperatorAppIam</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp.property.idc">idc</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIdc">DevopsagentAgentSpaceOperatorAppIdc</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp.property.iam">iam</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIam">DevopsagentAgentSpaceOperatorAppIam</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp.property.idc">idc</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIdc">DevopsagentAgentSpaceOperatorAppIdc</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}. |
 
 ---
 
@@ -1141,7 +1200,7 @@ public readonly iam: DevopsagentAgentSpaceOperatorAppIam;
 
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIam">DevopsagentAgentSpaceOperatorAppIam</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#iam DevopsagentAgentSpace#iam}.
 
 ---
 
@@ -1153,7 +1212,7 @@ public readonly idc: DevopsagentAgentSpaceOperatorAppIdc;
 
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIdc">DevopsagentAgentSpaceOperatorAppIdc</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#idc DevopsagentAgentSpace#idc}.
 
 ---
 
@@ -1171,7 +1230,7 @@ const devopsagentAgentSpaceOperatorAppIam: devopsagentAgentSpace.DevopsagentAgen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIam.property.operatorAppRoleArn">operatorAppRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIam.property.operatorAppRoleArn">operatorAppRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}. |
 
 ---
 
@@ -1183,7 +1242,7 @@ public readonly operatorAppRoleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}.
 
 ---
 
@@ -1201,8 +1260,8 @@ const devopsagentAgentSpaceOperatorAppIdc: devopsagentAgentSpace.DevopsagentAgen
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIdc.property.idcInstanceArn">idcInstanceArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#idc_instance_arn DevopsagentAgentSpace#idc_instance_arn}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIdc.property.operatorAppRoleArn">operatorAppRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIdc.property.idcInstanceArn">idcInstanceArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#idc_instance_arn DevopsagentAgentSpace#idc_instance_arn}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorAppIdc.property.operatorAppRoleArn">operatorAppRoleArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}. |
 
 ---
 
@@ -1214,7 +1273,7 @@ public readonly idcInstanceArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#idc_instance_arn DevopsagentAgentSpace#idc_instance_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#idc_instance_arn DevopsagentAgentSpace#idc_instance_arn}.
 
 ---
 
@@ -1226,7 +1285,39 @@ public readonly operatorAppRoleArn: string;
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#operator_app_role_arn DevopsagentAgentSpace#operator_app_role_arn}.
+
+---
+
+### DevopsagentAgentSpacePreferences <a name="DevopsagentAgentSpacePreferences" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences.Initializer"></a>
+
+```typescript
+import { devopsagentAgentSpace } from '@cdktn/provider-awscc'
+
+const devopsagentAgentSpacePreferences: devopsagentAgentSpace.DevopsagentAgentSpacePreferences = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences.property.elevatedActionsEnabled">elevatedActionsEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | Indicates whether elevated directed actions are permitted in this AgentSpace. Defaults to false when not set. |
+
+---
+
+##### `elevatedActionsEnabled`<sup>Optional</sup> <a name="elevatedActionsEnabled" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences.property.elevatedActionsEnabled"></a>
+
+```typescript
+public readonly elevatedActionsEnabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+Indicates whether elevated directed actions are permitted in this AgentSpace. Defaults to false when not set.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#elevated_actions_enabled DevopsagentAgentSpace#elevated_actions_enabled}
 
 ---
 
@@ -1259,7 +1350,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#key DevopsagentAgentSpace#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#key DevopsagentAgentSpace#key}
 
 ---
 
@@ -1273,7 +1364,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/devopsagent_agent_space#value DevopsagentAgentSpace#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/devopsagent_agent_space#value DevopsagentAgentSpace#value}
 
 ---
 
@@ -2248,6 +2339,284 @@ public readonly internalValue: IResolvable | DevopsagentAgentSpaceOperatorApp;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpaceOperatorApp">DevopsagentAgentSpaceOperatorApp</a>
+
+---
+
+
+### DevopsagentAgentSpacePreferencesOutputReference <a name="DevopsagentAgentSpacePreferencesOutputReference" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.Initializer"></a>
+
+```typescript
+import { devopsagentAgentSpace } from '@cdktn/provider-awscc'
+
+new devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.resetElevatedActionsEnabled">resetElevatedActionsEnabled</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetElevatedActionsEnabled` <a name="resetElevatedActionsEnabled" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.resetElevatedActionsEnabled"></a>
+
+```typescript
+public resetElevatedActionsEnabled(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.elevatedActionsEnabledInput">elevatedActionsEnabledInput</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.elevatedActionsEnabled">elevatedActionsEnabled</a></code> | <code>boolean \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences">DevopsagentAgentSpacePreferences</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `elevatedActionsEnabledInput`<sup>Optional</sup> <a name="elevatedActionsEnabledInput" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.elevatedActionsEnabledInput"></a>
+
+```typescript
+public readonly elevatedActionsEnabledInput: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `elevatedActionsEnabled`<sup>Required</sup> <a name="elevatedActionsEnabled" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.elevatedActionsEnabled"></a>
+
+```typescript
+public readonly elevatedActionsEnabled: boolean | IResolvable;
+```
+
+- *Type:* boolean | cdktn.IResolvable
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferencesOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | DevopsagentAgentSpacePreferences;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentAgentSpace.DevopsagentAgentSpacePreferences">DevopsagentAgentSpacePreferences</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### BcmScheduledReport <a name="BcmScheduledReport" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReport"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report awscc_bcm_scheduled_report}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report awscc_bcm_scheduled_report}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.bcmScheduledReport.BcmScheduledReport.Initializer"></a>
 
@@ -556,7 +556,7 @@ The construct id used in the generated config for the BcmScheduledReport to impo
 
 The id of the existing BcmScheduledReport that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1094,7 +1094,7 @@ public readonly dashboardArn: string;
 
 The ARN of the dashboard associated with the scheduled report. Managed dashboards cannot be used.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#dashboard_arn BcmScheduledReport#dashboard_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#dashboard_arn BcmScheduledReport#dashboard_arn}
 
 ---
 
@@ -1108,7 +1108,7 @@ public readonly name: string;
 
 The name of the scheduled report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#name BcmScheduledReport#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#name BcmScheduledReport#name}
 
 ---
 
@@ -1122,7 +1122,7 @@ public readonly scheduleConfig: BcmScheduledReportScheduleConfig;
 
 The schedule configuration that defines when and how often the report is generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#schedule_config BcmScheduledReport#schedule_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#schedule_config BcmScheduledReport#schedule_config}
 
 ---
 
@@ -1138,7 +1138,7 @@ The ARN of the IAM role that the scheduled report uses to execute.
 
 AWS Billing and Cost Management Dashboards assumes this IAM role while executing the scheduled report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#scheduled_report_execution_role_arn BcmScheduledReport#scheduled_report_execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#scheduled_report_execution_role_arn BcmScheduledReport#scheduled_report_execution_role_arn}
 
 ---
 
@@ -1152,7 +1152,7 @@ public readonly description: string;
 
 A description of the scheduled report's purpose or contents.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#description BcmScheduledReport#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#description BcmScheduledReport#description}
 
 ---
 
@@ -1166,7 +1166,7 @@ public readonly tags: IResolvable | BcmScheduledReportTags[];
 
 The tags applied to the scheduled report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#tags BcmScheduledReport#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#tags BcmScheduledReport#tags}
 
 ---
 
@@ -1180,7 +1180,7 @@ public readonly widgetDateRangeOverride: BcmScheduledReportWidgetDateRangeOverri
 
 The date range override applied to widgets in the scheduled report.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#widget_date_range_override BcmScheduledReport#widget_date_range_override}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#widget_date_range_override BcmScheduledReport#widget_date_range_override}
 
 ---
 
@@ -1196,7 +1196,7 @@ The list of widget identifiers included in the scheduled report.
 
 If not specified, all widgets in the dashboard are included.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#widget_ids BcmScheduledReport#widget_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#widget_ids BcmScheduledReport#widget_ids}
 
 ---
 
@@ -1244,7 +1244,7 @@ The schedule expression that specifies when to trigger the scheduled report run.
 
 This value must be a cron expression consisting of six fields separated by white spaces: cron(minutes hours day_of_month month day_of_week year).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#schedule_expression BcmScheduledReport#schedule_expression}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#schedule_expression BcmScheduledReport#schedule_expression}
 
 ---
 
@@ -1258,7 +1258,7 @@ public readonly scheduleExpressionTimeZone: string;
 
 The time zone for the schedule expression, for example, UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#schedule_expression_time_zone BcmScheduledReport#schedule_expression_time_zone}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#schedule_expression_time_zone BcmScheduledReport#schedule_expression_time_zone}
 
 ---
 
@@ -1272,7 +1272,7 @@ public readonly schedulePeriod: BcmScheduledReportScheduleConfigSchedulePeriod;
 
 The time period during which the schedule is active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#schedule_period BcmScheduledReport#schedule_period}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#schedule_period BcmScheduledReport#schedule_period}
 
 ---
 
@@ -1288,7 +1288,7 @@ The state of the schedule.
 
 ENABLED means the scheduled report runs according to its schedule expression. DISABLED means the scheduled report is paused and will not run until re-enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#state BcmScheduledReport#state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#state BcmScheduledReport#state}
 
 ---
 
@@ -1321,7 +1321,7 @@ public readonly endTime: string;
 
 The time at which the schedule stops being active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#end_time BcmScheduledReport#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#end_time BcmScheduledReport#end_time}
 
 ---
 
@@ -1335,7 +1335,7 @@ public readonly startTime: string;
 
 The time at which the schedule becomes active.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#start_time BcmScheduledReport#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#start_time BcmScheduledReport#start_time}
 
 ---
 
@@ -1368,7 +1368,7 @@ public readonly key: string;
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#key BcmScheduledReport#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#key BcmScheduledReport#key}
 
 ---
 
@@ -1382,7 +1382,7 @@ public readonly value: string;
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
 
 ---
 
@@ -1415,7 +1415,7 @@ public readonly endTime: BcmScheduledReportWidgetDateRangeOverrideEndTime;
 
 The end of the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#end_time BcmScheduledReport#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#end_time BcmScheduledReport#end_time}
 
 ---
 
@@ -1429,7 +1429,7 @@ public readonly startTime: BcmScheduledReportWidgetDateRangeOverrideStartTime;
 
 The start of the range.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#start_time BcmScheduledReport#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#start_time BcmScheduledReport#start_time}
 
 ---
 
@@ -1462,7 +1462,7 @@ public readonly type: string;
 
 Whether Value is an absolute date or a duration relative to now.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#type BcmScheduledReport#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#type BcmScheduledReport#type}
 
 ---
 
@@ -1476,7 +1476,7 @@ public readonly value: string;
 
 The date, or an ISO 8601 duration when Type is RELATIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
 
 ---
 
@@ -1509,7 +1509,7 @@ public readonly type: string;
 
 Whether Value is an absolute date or a duration relative to now.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#type BcmScheduledReport#type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#type BcmScheduledReport#type}
 
 ---
 
@@ -1523,7 +1523,7 @@ public readonly value: string;
 
 The date, or an ISO 8601 duration when Type is RELATIVE.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/bcm_scheduled_report#value BcmScheduledReport#value}
 
 ---
 

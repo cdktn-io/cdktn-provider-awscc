@@ -4,7 +4,7 @@
 
 ### DataAwsccEc2IPv4Pools <a name="DataAwsccEc2IPv4Pools" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4Pools"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_i_pv_4_pools awscc_ec2_i_pv_4_pools}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccEc2IPv4Pools.DataAwsccEc2IPv4Pools.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccEc2IPv4Pools to i
 
 The id of the existing DataAwsccEc2IPv4Pools that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/ec2_i_pv_4_pools#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/ec2_i_pv_4_pools#import import section} in the documentation of this resource for the id to use
 
 ---
 

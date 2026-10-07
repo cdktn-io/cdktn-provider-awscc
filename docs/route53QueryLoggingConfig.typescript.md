@@ -4,7 +4,7 @@
 
 ### Route53QueryLoggingConfig <a name="Route53QueryLoggingConfig" id="@cdktn/provider-awscc.route53QueryLoggingConfig.Route53QueryLoggingConfig"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_query_logging_config awscc_route53_query_logging_config}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config awscc_route53_query_logging_config}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.route53QueryLoggingConfig.Route53QueryLoggingConfig.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the Route53QueryLoggingConfig 
 
 The id of the existing Route53QueryLoggingConfig that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_query_logging_config#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -867,7 +867,7 @@ public readonly cloudwatchLogsLogGroupArn: string;
 
 The Amazon Resource Name (ARN) of the CloudWatch Logs log group in us-east-1 that Amazon Route 53 publishes query logs to.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_query_logging_config#cloudwatch_logs_log_group_arn Route53QueryLoggingConfig#cloudwatch_logs_log_group_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config#cloudwatch_logs_log_group_arn Route53QueryLoggingConfig#cloudwatch_logs_log_group_arn}
 
 ---
 
@@ -881,7 +881,7 @@ public readonly hostedZoneId: string;
 
 The ID of the public hosted zone that Amazon Route 53 logs queries for.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/route53_query_logging_config#hosted_zone_id Route53QueryLoggingConfig#hosted_zone_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/route53_query_logging_config#hosted_zone_id Route53QueryLoggingConfig#hosted_zone_id}
 
 ---
 

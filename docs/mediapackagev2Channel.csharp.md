@@ -4,7 +4,7 @@
 
 ### Mediapackagev2Channel <a name="Mediapackagev2Channel" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel awscc_mediapackagev2_channel}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2Channel.Initializer"></a>
 
@@ -590,7 +590,7 @@ The construct id used in the generated config for the Mediapackagev2Channel to i
 
 The id of the existing Mediapackagev2Channel that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1098,15 +1098,15 @@ new Mediapackagev2ChannelConfig {
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.channelGroupName">ChannelGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.channelName">ChannelName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.channelGroupName">ChannelGroupName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.channelName">ChannelName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.description">Description</a></code> | <code>string</code> | <p>Enter any descriptive text that helps you to identify the channel.</p>. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.inputSwitchConfiguration">InputSwitchConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelInputSwitchConfiguration">Mediapackagev2ChannelInputSwitchConfiguration</a></code> | <p>The configuration for input switching based on the media quality confidence score (MQCS) as provided from AWS Elemental MediaLive.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.inputType">InputType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.inputType">InputType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.multiviewConfiguration">MultiviewConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelMultiviewConfiguration">Mediapackagev2ChannelMultiviewConfiguration</a></code> | <p>The multiview configuration for a channel. |
 | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.outputHeaderConfiguration">OutputHeaderConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelOutputHeaderConfiguration">Mediapackagev2ChannelOutputHeaderConfiguration</a></code> | <p>The settings for what common media server data (CMSD) headers AWS Elemental MediaPackage includes in responses to the CDN.</p>. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.outputLockingMode">OutputLockingMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.outputLockingMode">OutputLockingMode</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelConfig.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}. |
 
 ---
 
@@ -1188,7 +1188,7 @@ public string ChannelGroupName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#channel_group_name Mediapackagev2Channel#channel_group_name}.
 
 ---
 
@@ -1200,7 +1200,7 @@ public string ChannelName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#channel_name Mediapackagev2Channel#channel_name}.
 
 ---
 
@@ -1214,7 +1214,7 @@ public string Description { get; set; }
 
 <p>Enter any descriptive text that helps you to identify the channel.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#description Mediapackagev2Channel#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#description Mediapackagev2Channel#description}
 
 ---
 
@@ -1228,7 +1228,7 @@ public Mediapackagev2ChannelInputSwitchConfiguration InputSwitchConfiguration { 
 
 <p>The configuration for input switching based on the media quality confidence score (MQCS) as provided from AWS Elemental MediaLive.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_switch_configuration Mediapackagev2Channel#input_switch_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#input_switch_configuration Mediapackagev2Channel#input_switch_configuration}
 
 ---
 
@@ -1240,7 +1240,7 @@ public string InputType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#input_type Mediapackagev2Channel#input_type}.
 
 ---
 
@@ -1256,7 +1256,7 @@ public Mediapackagev2ChannelMultiviewConfiguration MultiviewConfiguration { get;
 
 A multiview channel composites video from several source channels into a single tiled output stream. Players receive one standard HLS or DASH stream instead of several separate streams. This setting is required when <code>InputType</code> is <code>MULTIVIEW</code>, and can't be set for any other input type.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#multiview_configuration Mediapackagev2Channel#multiview_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#multiview_configuration Mediapackagev2Channel#multiview_configuration}
 
 ---
 
@@ -1270,7 +1270,7 @@ public Mediapackagev2ChannelOutputHeaderConfiguration OutputHeaderConfiguration 
 
 <p>The settings for what common media server data (CMSD) headers AWS Elemental MediaPackage includes in responses to the CDN.</p>.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_header_configuration Mediapackagev2Channel#output_header_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#output_header_configuration Mediapackagev2Channel#output_header_configuration}
 
 ---
 
@@ -1282,7 +1282,7 @@ public string OutputLockingMode { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#output_locking_mode Mediapackagev2Channel#output_locking_mode}.
 
 ---
 
@@ -1294,7 +1294,7 @@ public IResolvable|Mediapackagev2ChannelTags[] Tags { get; set; }
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags">Mediapackagev2ChannelTags</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#tags Mediapackagev2Channel#tags}.
 
 ---
 
@@ -1345,7 +1345,7 @@ public bool|IResolvable MqcsInputSwitching { get; set; }
 
 Default is false. This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#mqcs_input_switching Mediapackagev2Channel#mqcs_input_switching}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#mqcs_input_switching Mediapackagev2Channel#mqcs_input_switching}
 
 ---
 
@@ -1361,7 +1361,7 @@ public double PreferredInput { get; set; }
 
 Select <code>1</code> to prefer the first ingest endpoint, or <code>2</code> to prefer the second ingest endpoint. If you don't specify a preferred input, MediaPackage uses its default switching behavior when MQCS scores are equal.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#preferred_input Mediapackagev2Channel#preferred_input}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#preferred_input Mediapackagev2Channel#preferred_input}
 
 ---
 
@@ -1399,7 +1399,7 @@ public string[] AvailableLayouts { get; set; }
 
 Only the layouts that you list here are available. Each layout must appear at most once.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#available_layouts Mediapackagev2Channel#available_layouts}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#available_layouts Mediapackagev2Channel#available_layouts}
 
 ---
 
@@ -1415,7 +1415,7 @@ public string[] AvailableSources { get; set; }
 
 Each source channel must be in the same channel group as the multiview channel, and must have an <code>InputType</code> of <code>CMAF</code>. Only the channels that you list here are available as tiles.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#available_sources Mediapackagev2Channel#available_sources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#available_sources Mediapackagev2Channel#available_sources}
 
 ---
 
@@ -1451,7 +1451,7 @@ public bool|IResolvable PublishMqcs { get; set; }
 
 This setting is valid only when <code>InputType</code> is <code>CMAF</code>.</p>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#publish_mqcs Mediapackagev2Channel#publish_mqcs}
 
 ---
 
@@ -1472,8 +1472,8 @@ new Mediapackagev2ChannelTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediapackagev2Channel.Mediapackagev2ChannelTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}. |
 
 ---
 
@@ -1485,7 +1485,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#key Mediapackagev2Channel#key}.
 
 ---
 
@@ -1497,7 +1497,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mediapackagev2_channel#value Mediapackagev2Channel#value}.
 
 ---
 

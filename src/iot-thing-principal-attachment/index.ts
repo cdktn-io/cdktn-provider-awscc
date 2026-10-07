@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_principal_attachment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,25 @@ export interface IotThingPrincipalAttachmentConfig extends cdktn.TerraformMetaAr
   /**
   * The principal, which can be a certificate ARN (as returned from the CreateCertificate operation) or an Amazon Cognito ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_principal_attachment#principal IotThingPrincipalAttachment#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment#principal IotThingPrincipalAttachment#principal}
   */
   readonly principal: string;
   /**
   * The name of the AWS IoT thing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_principal_attachment#thing_name IotThingPrincipalAttachment#thing_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment#thing_name IotThingPrincipalAttachment#thing_name}
   */
   readonly thingName: string;
   /**
   * The type of the relation you want to specify when you attach a principal to a thing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_principal_attachment#thing_principal_type IotThingPrincipalAttachment#thing_principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment#thing_principal_type IotThingPrincipalAttachment#thing_principal_type}
   */
   readonly thingPrincipalType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment}
 */
 export class IotThingPrincipalAttachment extends cdktn.TerraformResource {
 
@@ -49,7 +49,7 @@ export class IotThingPrincipalAttachment extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a IotThingPrincipalAttachment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotThingPrincipalAttachment to import
-  * @param importFromId The id of the existing IotThingPrincipalAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_principal_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotThingPrincipalAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotThingPrincipalAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -61,7 +61,7 @@ export class IotThingPrincipalAttachment extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/iot_thing_principal_attachment awscc_iot_thing_principal_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,7 +72,7 @@ export class IotThingPrincipalAttachment extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_iot_thing_principal_attachment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

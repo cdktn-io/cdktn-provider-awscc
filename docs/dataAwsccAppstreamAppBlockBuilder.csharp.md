@@ -4,7 +4,7 @@
 
 ### DataAwsccAppstreamAppBlockBuilder <a name="DataAwsccAppstreamAppBlockBuilder" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_app_block_builder awscc_appstream_app_block_builder}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccAppstreamAppBlock
 
 The id of the existing DataAwsccAppstreamAppBlockBuilder that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_app_block_builder#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_app_block_builder#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -420,6 +420,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.property.arn">Arn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.property.createdTime">CreatedTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.property.description">Description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.property.disableImdsv1">DisableImdsv1</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.property.displayName">DisplayName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.property.enableDefaultInternetAccess">EnableDefaultInternetAccess</a></code> | <code>Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.property.iamRoleArn">IamRoleArn</a></code> | <code>string</code> | *No description.* |
@@ -602,6 +603,16 @@ public string Description { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `DisableImdsv1`<sup>Required</sup> <a name="DisableImdsv1" id="@cdktn/provider-awscc.dataAwsccAppstreamAppBlockBuilder.DataAwsccAppstreamAppBlockBuilder.property.disableImdsv1"></a>
+
+```csharp
+public IResolvable DisableImdsv1 { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable
 
 ---
 
@@ -852,7 +863,7 @@ public string Id { get; set; }
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_app_block_builder#id DataAwsccAppstreamAppBlockBuilder#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_app_block_builder#id DataAwsccAppstreamAppBlockBuilder#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

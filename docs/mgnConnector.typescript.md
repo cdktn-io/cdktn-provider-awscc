@@ -4,7 +4,7 @@
 
 ### MgnConnector <a name="MgnConnector" id="@cdktn/provider-awscc.mgnConnector.MgnConnector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector awscc_mgn_connector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector awscc_mgn_connector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mgnConnector.MgnConnector.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the MgnConnector to import.
 
 The id of the existing MgnConnector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -953,7 +953,7 @@ public readonly name: string;
 
 The name of the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#name MgnConnector#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#name MgnConnector#name}
 
 ---
 
@@ -967,7 +967,7 @@ public readonly ssmInstanceId: string;
 
 The SSM instance ID associated with this connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#ssm_instance_id MgnConnector#ssm_instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#ssm_instance_id MgnConnector#ssm_instance_id}
 
 ---
 
@@ -981,7 +981,7 @@ public readonly ssmCommandConfig: MgnConnectorSsmCommandConfig;
 
 SSM command configuration for the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#ssm_command_config MgnConnector#ssm_command_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#ssm_command_config MgnConnector#ssm_command_config}
 
 ---
 
@@ -995,7 +995,7 @@ public readonly tags: IResolvable | MgnConnectorTags[];
 
 Tags to assign to the connector.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#tags MgnConnector#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#tags MgnConnector#tags}
 
 ---
 
@@ -1030,7 +1030,7 @@ public readonly cloudwatchLogGroupName: string;
 
 The CloudWatch Logs group name for SSM command output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#cloudwatch_log_group_name MgnConnector#cloudwatch_log_group_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#cloudwatch_log_group_name MgnConnector#cloudwatch_log_group_name}
 
 ---
 
@@ -1044,7 +1044,7 @@ public readonly cloudwatchOutputEnabled: boolean | IResolvable;
 
 Whether SSM command output is sent to CloudWatch Logs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#cloudwatch_output_enabled MgnConnector#cloudwatch_output_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#cloudwatch_output_enabled MgnConnector#cloudwatch_output_enabled}
 
 ---
 
@@ -1058,7 +1058,7 @@ public readonly outputS3BucketName: string;
 
 The S3 bucket name for SSM command output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#output_s3_bucket_name MgnConnector#output_s3_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#output_s3_bucket_name MgnConnector#output_s3_bucket_name}
 
 ---
 
@@ -1072,7 +1072,7 @@ public readonly s3OutputEnabled: boolean | IResolvable;
 
 Whether SSM command output is stored in S3.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#s3_output_enabled MgnConnector#s3_output_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#s3_output_enabled MgnConnector#s3_output_enabled}
 
 ---
 
@@ -1105,7 +1105,7 @@ public readonly key: string;
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#key MgnConnector#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#key MgnConnector#key}
 
 ---
 
@@ -1119,7 +1119,7 @@ public readonly value: string;
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/mgn_connector#value MgnConnector#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/mgn_connector#value MgnConnector#value}
 
 ---
 

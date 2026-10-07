@@ -4,7 +4,7 @@
 
 ### DataAwsccRdsDbProxyTargetGroup <a name="DataAwsccRdsDbProxyTargetGroup" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/rds_db_proxy_target_group awscc_rds_db_proxy_target_group}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRdsDbProxyTargetG
 
 The id of the existing DataAwsccRdsDbProxyTargetGroup that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/rds_db_proxy_target_group#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/rds_db_proxy_target_group#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -419,6 +419,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.dbClusterIdentifiers">dbClusterIdentifiers</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.dbInstanceIdentifiers">dbInstanceIdentifiers</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.dbProxyName">dbProxyName</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList">DataAwsccRdsDbProxyTargetGroupTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.targetGroupArn">targetGroupArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.targetGroupName">targetGroupName</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.idInput">idInput</a></code> | <code>string</code> | *No description.* |
@@ -588,6 +589,16 @@ public readonly dbProxyName: string;
 
 ---
 
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.tags"></a>
+
+```typescript
+public readonly tags: DataAwsccRdsDbProxyTargetGroupTagsList;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList">DataAwsccRdsDbProxyTargetGroupTagsList</a>
+
+---
+
 ##### `targetGroupArn`<sup>Required</sup> <a name="targetGroupArn" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroup.property.targetGroupArn"></a>
 
 ```typescript
@@ -753,7 +764,7 @@ public readonly id: string;
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/rds_db_proxy_target_group#id DataAwsccRdsDbProxyTargetGroup#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/rds_db_proxy_target_group#id DataAwsccRdsDbProxyTargetGroup#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -768,6 +779,17 @@ If you experience problems setting this value it might not be settable. Please t
 import { dataAwsccRdsDbProxyTargetGroup } from '@cdktn/provider-awscc'
 
 const dataAwsccRdsDbProxyTargetGroupConnectionPoolConfigurationInfo: dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupConnectionPoolConfigurationInfo = { ... }
+```
+
+
+### DataAwsccRdsDbProxyTargetGroupTags <a name="DataAwsccRdsDbProxyTargetGroupTags" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTags.Initializer"></a>
+
+```typescript
+import { dataAwsccRdsDbProxyTargetGroup } from '@cdktn/provider-awscc'
+
+const dataAwsccRdsDbProxyTargetGroupTags: dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTags = { ... }
 ```
 
 
@@ -1073,6 +1095,444 @@ public readonly internalValue: DataAwsccRdsDbProxyTargetGroupConnectionPoolConfi
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupConnectionPoolConfigurationInfo">DataAwsccRdsDbProxyTargetGroupConnectionPoolConfigurationInfo</a>
+
+---
+
+
+### DataAwsccRdsDbProxyTargetGroupTagsList <a name="DataAwsccRdsDbProxyTargetGroupTagsList" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.Initializer"></a>
+
+```typescript
+import { dataAwsccRdsDbProxyTargetGroup } from '@cdktn/provider-awscc'
+
+new dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList(terraformResource: IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.Initializer.parameter.wrapsSet">wrapsSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wrapsSet`<sup>Required</sup> <a name="wrapsSet" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.allWithMapKey">allWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `allWithMapKey` <a name="allWithMapKey" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.allWithMapKey"></a>
+
+```typescript
+public allWithMapKey(mapKeyAttributeName: string): DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `mapKeyAttributeName`<sup>Required</sup> <a name="mapKeyAttributeName" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.get"></a>
+
+```typescript
+public get(index: number): DataAwsccRdsDbProxyTargetGroupTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.get.parameter.index"></a>
+
+- *Type:* number
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsList.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+
+### DataAwsccRdsDbProxyTargetGroupTagsOutputReference <a name="DataAwsccRdsDbProxyTargetGroupTagsOutputReference" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer"></a>
+
+```typescript
+import { dataAwsccRdsDbProxyTargetGroup } from '@cdktn/provider-awscc'
+
+new dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer.parameter.complexObjectIndex">complexObjectIndex</a></code> | <code>number</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complexObjectIsFromSet</a></code> | <code>boolean</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complexObjectIndex`<sup>Required</sup> <a name="complexObjectIndex" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* number
+
+the index of this item in the list.
+
+---
+
+##### `complexObjectIsFromSet`<sup>Required</sup> <a name="complexObjectIsFromSet" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* boolean
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.key">key</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.value">value</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTags">DataAwsccRdsDbProxyTargetGroupTags</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.key"></a>
+
+```typescript
+public readonly key: string;
+```
+
+- *Type:* string
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.value"></a>
+
+```typescript
+public readonly value: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTagsOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: DataAwsccRdsDbProxyTargetGroupTags;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccRdsDbProxyTargetGroup.DataAwsccRdsDbProxyTargetGroupTags">DataAwsccRdsDbProxyTargetGroupTags</a>
 
 ---
 

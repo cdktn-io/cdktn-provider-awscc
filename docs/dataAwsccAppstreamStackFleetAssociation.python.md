@@ -4,7 +4,7 @@
 
 ### DataAwsccAppstreamStackFleetAssociation <a name="DataAwsccAppstreamStackFleetAssociation" id="@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_stack_fleet_association#id DataAwsccAppstreamStackFleetAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_stack_fleet_association#id DataAwsccAppstreamStackFleetAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccAppstreamStackFle
 
 The id of the existing DataAwsccAppstreamStackFleetAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_stack_fleet_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_stack_fleet_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -521,7 +521,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.property.fleetName">fleet_name</a></code> | <code>str</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.property.stackFleetAssociationId">stack_fleet_association_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.property.stackName">stack_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.property.idInput">id_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.property.id">id</a></code> | <code>str</code> | *No description.* |
@@ -654,16 +653,6 @@ provider: TerraformProvider
 
 ```python
 fleet_name: str
-```
-
-- *Type:* str
-
----
-
-##### `stack_fleet_association_id`<sup>Required</sup> <a name="stack_fleet_association_id" id="@cdktn/provider-awscc.dataAwsccAppstreamStackFleetAssociation.DataAwsccAppstreamStackFleetAssociation.property.stackFleetAssociationId"></a>
-
-```python
-stack_fleet_association_id: str
 ```
 
 - *Type:* str
@@ -834,7 +823,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/appstream_stack_fleet_association#id DataAwsccAppstreamStackFleetAssociation#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/appstream_stack_fleet_association#id DataAwsccAppstreamStackFleetAssociation#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.

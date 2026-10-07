@@ -4,7 +4,7 @@
 
 ### ElasticacheServerlessCache <a name="ElasticacheServerlessCache" id="@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache awscc_elasticache_serverless_cache}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.Initializer"></a>
 
@@ -79,6 +79,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.putReaderEndpoint">putReaderEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.putTags">putTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.resetCacheUsageLimits">resetCacheUsageLimits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.resetConnectionType">resetConnectionType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.resetDailySnapshotTime">resetDailySnapshotTime</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.resetDescription">resetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.resetEndpoint">resetEndpoint</a></code> | *No description.* |
@@ -459,6 +460,12 @@ public putTags(value: IResolvable | ElasticacheServerlessCacheTags[]): void
 public resetCacheUsageLimits(): void
 ```
 
+##### `resetConnectionType` <a name="resetConnectionType" id="@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.resetConnectionType"></a>
+
+```typescript
+public resetConnectionType(): void
+```
+
 ##### `resetDailySnapshotTime` <a name="resetDailySnapshotTime" id="@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.resetDailySnapshotTime"></a>
 
 ```typescript
@@ -646,7 +653,7 @@ The construct id used in the generated config for the ElasticacheServerlessCache
 
 The id of the existing ElasticacheServerlessCache that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -686,6 +693,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.status">status</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheTagsList">ElasticacheServerlessCacheTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.cacheUsageLimitsInput">cacheUsageLimitsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimits">ElasticacheServerlessCacheCacheUsageLimits</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.connectionTypeInput">connectionTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.dailySnapshotTimeInput">dailySnapshotTimeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.descriptionInput">descriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.endpointInput">endpointInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheEndpoint">ElasticacheServerlessCacheEndpoint</a></code> | *No description.* |
@@ -702,6 +710,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.subnetIdsInput">subnetIdsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.tagsInput">tagsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheTags">ElasticacheServerlessCacheTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.userGroupIdInput">userGroupIdInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.connectionType">connectionType</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.dailySnapshotTime">dailySnapshotTime</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.description">description</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.engine">engine</a></code> | <code>string</code> | *No description.* |
@@ -960,6 +969,16 @@ public readonly cacheUsageLimitsInput: IResolvable | ElasticacheServerlessCacheC
 
 ---
 
+##### `connectionTypeInput`<sup>Optional</sup> <a name="connectionTypeInput" id="@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.connectionTypeInput"></a>
+
+```typescript
+public readonly connectionTypeInput: string;
+```
+
+- *Type:* string
+
+---
+
 ##### `dailySnapshotTimeInput`<sup>Optional</sup> <a name="dailySnapshotTimeInput" id="@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.dailySnapshotTimeInput"></a>
 
 ```typescript
@@ -1114,6 +1133,16 @@ public readonly tagsInput: IResolvable | ElasticacheServerlessCacheTags[];
 
 ```typescript
 public readonly userGroupIdInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `connectionType`<sup>Required</sup> <a name="connectionType" id="@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCache.property.connectionType"></a>
+
+```typescript
+public readonly connectionType: string;
 ```
 
 - *Type:* string
@@ -1299,7 +1328,7 @@ public readonly dataStorage: ElasticacheServerlessCacheCacheUsageLimitsDataStora
 
 The cached data capacity of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#data_storage ElasticacheServerlessCache#data_storage}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#data_storage ElasticacheServerlessCache#data_storage}
 
 ---
 
@@ -1313,7 +1342,7 @@ public readonly ecpuPerSecond: ElasticacheServerlessCacheCacheUsageLimitsEcpuPer
 
 The ECPU per second of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#ecpu_per_second ElasticacheServerlessCache#ecpu_per_second}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#ecpu_per_second ElasticacheServerlessCache#ecpu_per_second}
 
 ---
 
@@ -1347,7 +1376,7 @@ public readonly maximum: number;
 
 The maximum cached data capacity of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#maximum ElasticacheServerlessCache#maximum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#maximum ElasticacheServerlessCache#maximum}
 
 ---
 
@@ -1361,7 +1390,7 @@ public readonly minimum: number;
 
 The minimum cached data capacity of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#minimum ElasticacheServerlessCache#minimum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#minimum ElasticacheServerlessCache#minimum}
 
 ---
 
@@ -1375,7 +1404,7 @@ public readonly unit: string;
 
 The unit of cached data capacity of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#unit ElasticacheServerlessCache#unit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#unit ElasticacheServerlessCache#unit}
 
 ---
 
@@ -1408,7 +1437,7 @@ public readonly maximum: number;
 
 The maximum ECPU per second of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#maximum ElasticacheServerlessCache#maximum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#maximum ElasticacheServerlessCache#maximum}
 
 ---
 
@@ -1422,7 +1451,7 @@ public readonly minimum: number;
 
 The minimum ECPU per second of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#minimum ElasticacheServerlessCache#minimum}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#minimum ElasticacheServerlessCache#minimum}
 
 ---
 
@@ -1450,6 +1479,7 @@ const elasticacheServerlessCacheConfig: elasticacheServerlessCache.ElasticacheSe
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheConfig.property.engine">engine</a></code> | <code>string</code> | The engine name of the Serverless Cache. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheConfig.property.serverlessCacheName">serverlessCacheName</a></code> | <code>string</code> | The name of the Serverless Cache. This value must be unique. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheConfig.property.cacheUsageLimits">cacheUsageLimits</a></code> | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheCacheUsageLimits">ElasticacheServerlessCacheCacheUsageLimits</a></code> | The cache capacity limit of the Serverless Cache. |
+| <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheConfig.property.connectionType">connectionType</a></code> | <code>string</code> | The connection type for the serverless cache. Valid values are vpc or public. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheConfig.property.dailySnapshotTime">dailySnapshotTime</a></code> | <code>string</code> | The daily time range (in UTC) during which the service takes automatic snapshot of the Serverless Cache. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheConfig.property.description">description</a></code> | <code>string</code> | The description of the Serverless Cache. |
 | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheConfig.property.endpoint">endpoint</a></code> | <code><a href="#@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheEndpoint">ElasticacheServerlessCacheEndpoint</a></code> | The address and the port. |
@@ -1547,7 +1577,7 @@ public readonly engine: string;
 
 The engine name of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#engine ElasticacheServerlessCache#engine}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#engine ElasticacheServerlessCache#engine}
 
 ---
 
@@ -1561,7 +1591,7 @@ public readonly serverlessCacheName: string;
 
 The name of the Serverless Cache. This value must be unique.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#serverless_cache_name ElasticacheServerlessCache#serverless_cache_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#serverless_cache_name ElasticacheServerlessCache#serverless_cache_name}
 
 ---
 
@@ -1575,7 +1605,21 @@ public readonly cacheUsageLimits: ElasticacheServerlessCacheCacheUsageLimits;
 
 The cache capacity limit of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#cache_usage_limits ElasticacheServerlessCache#cache_usage_limits}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#cache_usage_limits ElasticacheServerlessCache#cache_usage_limits}
+
+---
+
+##### `connectionType`<sup>Optional</sup> <a name="connectionType" id="@cdktn/provider-awscc.elasticacheServerlessCache.ElasticacheServerlessCacheConfig.property.connectionType"></a>
+
+```typescript
+public readonly connectionType: string;
+```
+
+- *Type:* string
+
+The connection type for the serverless cache. Valid values are vpc or public.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#connection_type ElasticacheServerlessCache#connection_type}
 
 ---
 
@@ -1589,7 +1633,7 @@ public readonly dailySnapshotTime: string;
 
 The daily time range (in UTC) during which the service takes automatic snapshot of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#daily_snapshot_time ElasticacheServerlessCache#daily_snapshot_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#daily_snapshot_time ElasticacheServerlessCache#daily_snapshot_time}
 
 ---
 
@@ -1603,7 +1647,7 @@ public readonly description: string;
 
 The description of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#description ElasticacheServerlessCache#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#description ElasticacheServerlessCache#description}
 
 ---
 
@@ -1617,7 +1661,7 @@ public readonly endpoint: ElasticacheServerlessCacheEndpoint;
 
 The address and the port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#endpoint ElasticacheServerlessCache#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#endpoint ElasticacheServerlessCache#endpoint}
 
 ---
 
@@ -1631,7 +1675,7 @@ public readonly finalSnapshotName: string;
 
 The final snapshot name which is taken before Serverless Cache is deleted.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#final_snapshot_name ElasticacheServerlessCache#final_snapshot_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#final_snapshot_name ElasticacheServerlessCache#final_snapshot_name}
 
 ---
 
@@ -1645,7 +1689,7 @@ public readonly kmsKeyId: string;
 
 The ID of the KMS key used to encrypt the cluster.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#kms_key_id ElasticacheServerlessCache#kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#kms_key_id ElasticacheServerlessCache#kms_key_id}
 
 ---
 
@@ -1659,7 +1703,7 @@ public readonly majorEngineVersion: string;
 
 The major engine version of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#major_engine_version ElasticacheServerlessCache#major_engine_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#major_engine_version ElasticacheServerlessCache#major_engine_version}
 
 ---
 
@@ -1673,7 +1717,7 @@ public readonly networkType: string;
 
 The network type for the serverless cache. Valid values are ipv4, ipv6, or dual_stack.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#network_type ElasticacheServerlessCache#network_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#network_type ElasticacheServerlessCache#network_type}
 
 ---
 
@@ -1687,7 +1731,7 @@ public readonly readerEndpoint: ElasticacheServerlessCacheReaderEndpoint;
 
 The address and the port.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#reader_endpoint ElasticacheServerlessCache#reader_endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#reader_endpoint ElasticacheServerlessCache#reader_endpoint}
 
 ---
 
@@ -1701,7 +1745,7 @@ public readonly securityGroupIds: string[];
 
 One or more Amazon VPC security groups associated with this Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#security_group_ids ElasticacheServerlessCache#security_group_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#security_group_ids ElasticacheServerlessCache#security_group_ids}
 
 ---
 
@@ -1715,7 +1759,7 @@ public readonly snapshotArnsToRestore: string[];
 
 The ARN's of snapshot to restore Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#snapshot_arns_to_restore ElasticacheServerlessCache#snapshot_arns_to_restore}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#snapshot_arns_to_restore ElasticacheServerlessCache#snapshot_arns_to_restore}
 
 ---
 
@@ -1729,7 +1773,7 @@ public readonly snapshotRetentionLimit: number;
 
 The snapshot retention limit of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#snapshot_retention_limit ElasticacheServerlessCache#snapshot_retention_limit}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#snapshot_retention_limit ElasticacheServerlessCache#snapshot_retention_limit}
 
 ---
 
@@ -1743,7 +1787,7 @@ public readonly subnetIds: string[];
 
 The subnet id's of the Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#subnet_ids ElasticacheServerlessCache#subnet_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#subnet_ids ElasticacheServerlessCache#subnet_ids}
 
 ---
 
@@ -1757,7 +1801,7 @@ public readonly tags: IResolvable | ElasticacheServerlessCacheTags[];
 
 An array of key-value pairs to apply to this Serverless Cache.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#tags ElasticacheServerlessCache#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#tags ElasticacheServerlessCache#tags}
 
 ---
 
@@ -1771,7 +1815,7 @@ public readonly userGroupId: string;
 
 The ID of the user group.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#user_group_id ElasticacheServerlessCache#user_group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#user_group_id ElasticacheServerlessCache#user_group_id}
 
 ---
 
@@ -1828,7 +1872,7 @@ The key name of the tag.
 
 You can specify a value that is 1 to 128 Unicode characters in length and cannot be prefixed with 'aws:'. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#key ElasticacheServerlessCache#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#key ElasticacheServerlessCache#key}
 
 ---
 
@@ -1844,7 +1888,7 @@ The value for the tag.
 
 You can specify a value that is 0 to 256 Unicode characters in length. You can use any of the following characters: the set of Unicode letters, digits, whitespace, _, ., /, =, +, and -.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_serverless_cache#value ElasticacheServerlessCache#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_serverless_cache#value ElasticacheServerlessCache#value}
 
 ---
 

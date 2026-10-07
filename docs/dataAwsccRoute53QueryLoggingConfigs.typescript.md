@@ -4,7 +4,7 @@
 
 ### DataAwsccRoute53QueryLoggingConfigs <a name="DataAwsccRoute53QueryLoggingConfigs" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigs"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/route53_query_logging_configs awscc_route53_query_logging_configs}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccRoute53QueryLoggingConfigs.DataAwsccRoute53QueryLoggingConfigs.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccRoute53QueryLoggi
 
 The id of the existing DataAwsccRoute53QueryLoggingConfigs that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/route53_query_logging_configs#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/route53_query_logging_configs#import import section} in the documentation of this resource for the id to use
 
 ---
 

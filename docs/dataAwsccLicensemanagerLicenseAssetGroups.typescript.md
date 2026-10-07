@@ -4,7 +4,7 @@
 
 ### DataAwsccLicensemanagerLicenseAssetGroups <a name="DataAwsccLicensemanagerLicenseAssetGroups" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetGroups.DataAwsccLicensemanagerLicenseAssetGroups"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/licensemanager_license_asset_groups awscc_licensemanager_license_asset_groups}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/licensemanager_license_asset_groups awscc_licensemanager_license_asset_groups}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLicensemanagerLicenseAssetGroups.DataAwsccLicensemanagerLicenseAssetGroups.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccLicensemanagerLic
 
 The id of the existing DataAwsccLicensemanagerLicenseAssetGroups that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/data-sources/licensemanager_license_asset_groups#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/data-sources/licensemanager_license_asset_groups#import import section} in the documentation of this resource for the id to use
 
 ---
 

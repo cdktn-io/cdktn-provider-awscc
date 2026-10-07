@@ -4,7 +4,7 @@
 
 ### AppstreamStackFleetAssociation <a name="AppstreamStackFleetAssociation" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_stack_fleet_association awscc_appstream_stack_fleet_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the AppstreamStackFleetAssocia
 
 The id of the existing AppstreamStackFleetAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_stack_fleet_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_stack_fleet_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -520,7 +520,6 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.id">Id</a></code> | <code>string</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.stackFleetAssociationId">StackFleetAssociationId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.fleetNameInput">FleetNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.stackNameInput">StackNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.fleetName">FleetName</a></code> | <code>string</code> | *No description.* |
@@ -680,16 +679,6 @@ public string Id { get; }
 
 ---
 
-##### `StackFleetAssociationId`<sup>Required</sup> <a name="StackFleetAssociationId" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.stackFleetAssociationId"></a>
-
-```csharp
-public string StackFleetAssociationId { get; }
-```
-
-- *Type:* string
-
----
-
 ##### `FleetNameInput`<sup>Optional</sup> <a name="FleetNameInput" id="@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociation.property.fleetNameInput"></a>
 
 ```csharp
@@ -781,8 +770,8 @@ new AppstreamStackFleetAssociationConfig {
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociationConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociationConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociationConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociationConfig.property.fleetName">FleetName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}. |
-| <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociationConfig.property.stackName">StackName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}. |
+| <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociationConfig.property.fleetName">FleetName</a></code> | <code>string</code> | The name of the fleet. |
+| <code><a href="#@cdktn/provider-awscc.appstreamStackFleetAssociation.AppstreamStackFleetAssociationConfig.property.stackName">StackName</a></code> | <code>string</code> | The name of the stack. |
 
 ---
 
@@ -864,7 +853,11 @@ public string FleetName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}.
+The name of the fleet.
+
+To associate a fleet with a stack, you must specify a dependency on the fleet resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_stack_fleet_association#fleet_name AppstreamStackFleetAssociation#fleet_name}
 
 ---
 
@@ -876,7 +869,11 @@ public string StackName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}.
+The name of the stack.
+
+To associate a fleet with a stack, you must specify a dependency on the stack resource.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/appstream_stack_fleet_association#stack_name AppstreamStackFleetAssociation#stack_name}
 
 ---
 

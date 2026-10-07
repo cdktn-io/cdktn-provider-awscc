@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,81 +15,87 @@ export interface ElasticacheGlobalReplicationGroupConfig extends cdktn.Terraform
   /**
   * AutomaticFailoverEnabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#automatic_failover_enabled ElasticacheGlobalReplicationGroup#automatic_failover_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#automatic_failover_enabled ElasticacheGlobalReplicationGroup#automatic_failover_enabled}
   */
   readonly automaticFailoverEnabled?: boolean | cdktn.IResolvable;
   /**
   * The cache node type of the Global Datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#cache_node_type ElasticacheGlobalReplicationGroup#cache_node_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#cache_node_type ElasticacheGlobalReplicationGroup#cache_node_type}
   */
   readonly cacheNodeType?: string;
   /**
   * Cache parameter group name to use for the new engine version. This parameter cannot be modified independently.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#cache_parameter_group_name ElasticacheGlobalReplicationGroup#cache_parameter_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#cache_parameter_group_name ElasticacheGlobalReplicationGroup#cache_parameter_group_name}
   */
   readonly cacheParameterGroupName?: string;
   /**
   * The engine of the Global Datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#engine ElasticacheGlobalReplicationGroup#engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#engine ElasticacheGlobalReplicationGroup#engine}
   */
   readonly engine?: string;
   /**
   * The engine version of the Global Datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#engine_version ElasticacheGlobalReplicationGroup#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#engine_version ElasticacheGlobalReplicationGroup#engine_version}
   */
   readonly engineVersion?: string;
   /**
   * Indicates the number of node groups in the Global Datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#global_node_group_count ElasticacheGlobalReplicationGroup#global_node_group_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#global_node_group_count ElasticacheGlobalReplicationGroup#global_node_group_count}
   */
   readonly globalNodeGroupCount?: number;
   /**
   * The optional description of the Global Datastore
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#global_replication_group_description ElasticacheGlobalReplicationGroup#global_replication_group_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#global_replication_group_description ElasticacheGlobalReplicationGroup#global_replication_group_description}
   */
   readonly globalReplicationGroupDescription?: string;
   /**
   * The suffix name of a Global Datastore. Amazon ElastiCache automatically applies a prefix to the Global Datastore ID when it is created. Each AWS Region has its own prefix. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#global_replication_group_id_suffix ElasticacheGlobalReplicationGroup#global_replication_group_id_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#global_replication_group_id_suffix ElasticacheGlobalReplicationGroup#global_replication_group_id_suffix}
   */
   readonly globalReplicationGroupIdSuffix?: string;
   /**
   * The replication groups that comprise the Global Datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#members ElasticacheGlobalReplicationGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#members ElasticacheGlobalReplicationGroup#members}
   */
   readonly members: ElasticacheGlobalReplicationGroupMembers[] | cdktn.IResolvable;
   /**
   * Describes the replication group IDs, the AWS regions where they are stored and the shard configuration for each that comprise the Global Datastore 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#regional_configurations ElasticacheGlobalReplicationGroup#regional_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#regional_configurations ElasticacheGlobalReplicationGroup#regional_configurations}
   */
   readonly regionalConfigurations?: ElasticacheGlobalReplicationGroupRegionalConfigurations[] | cdktn.IResolvable;
+  /**
+  * An array of key-value pairs to apply to this Global Datastore.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#tags ElasticacheGlobalReplicationGroup#tags}
+  */
+  readonly tags?: ElasticacheGlobalReplicationGroupTags[] | cdktn.IResolvable;
 }
 export interface ElasticacheGlobalReplicationGroupMembers {
   /**
   * Regionally unique identifier for the member i.e. ReplicationGroupId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#replication_group_id ElasticacheGlobalReplicationGroup#replication_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#replication_group_id ElasticacheGlobalReplicationGroup#replication_group_id}
   */
   readonly replicationGroupId?: string;
   /**
   * The AWS region of the Global Datastore member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#replication_group_region ElasticacheGlobalReplicationGroup#replication_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#replication_group_region ElasticacheGlobalReplicationGroup#replication_group_region}
   */
   readonly replicationGroupRegion?: string;
   /**
   * Indicates the role of the member, primary or secondary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#role ElasticacheGlobalReplicationGroup#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#role ElasticacheGlobalReplicationGroup#role}
   */
   readonly role?: string;
 }
@@ -265,13 +271,13 @@ export interface ElasticacheGlobalReplicationGroupRegionalConfigurationsReshardi
   /**
   * Unique identifier for the Node Group. This is either auto-generated by ElastiCache (4-digit id) or a user supplied id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#node_group_id ElasticacheGlobalReplicationGroup#node_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#node_group_id ElasticacheGlobalReplicationGroup#node_group_id}
   */
   readonly nodeGroupId?: string;
   /**
   * A list of preferred availability zones for the nodes of new node groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#preferred_availability_zones ElasticacheGlobalReplicationGroup#preferred_availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#preferred_availability_zones ElasticacheGlobalReplicationGroup#preferred_availability_zones}
   */
   readonly preferredAvailabilityZones?: string[];
 }
@@ -418,19 +424,19 @@ export interface ElasticacheGlobalReplicationGroupRegionalConfigurations {
   /**
   * The replication group id of the Global Datastore member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#replication_group_id ElasticacheGlobalReplicationGroup#replication_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#replication_group_id ElasticacheGlobalReplicationGroup#replication_group_id}
   */
   readonly replicationGroupId?: string;
   /**
   * The AWS region of the Global Datastore member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#replication_group_region ElasticacheGlobalReplicationGroup#replication_group_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#replication_group_region ElasticacheGlobalReplicationGroup#replication_group_region}
   */
   readonly replicationGroupRegion?: string;
   /**
   * A list of PreferredAvailabilityZones objects that specifies the configuration of a node group in the resharded cluster. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#resharding_configurations ElasticacheGlobalReplicationGroup#resharding_configurations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#resharding_configurations ElasticacheGlobalReplicationGroup#resharding_configurations}
   */
   readonly reshardingConfigurations?: ElasticacheGlobalReplicationGroupRegionalConfigurationsReshardingConfigurations[] | cdktn.IResolvable;
 }
@@ -602,9 +608,162 @@ export class ElasticacheGlobalReplicationGroupRegionalConfigurationsList extends
     return new ElasticacheGlobalReplicationGroupRegionalConfigurationsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface ElasticacheGlobalReplicationGroupTags {
+  /**
+  * The key for the tag. May not be null.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#key ElasticacheGlobalReplicationGroup#key}
+  */
+  readonly key?: string;
+  /**
+  * The tag's value. May be null.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#value ElasticacheGlobalReplicationGroup#value}
+  */
+  readonly value?: string;
+}
+
+export function elasticacheGlobalReplicationGroupTagsToTerraform(struct?: ElasticacheGlobalReplicationGroupTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+    key: cdktn.stringToTerraform(struct!.key),
+    value: cdktn.stringToTerraform(struct!.value),
+  }
+}
+
+
+export function elasticacheGlobalReplicationGroupTagsToHclTerraform(struct?: ElasticacheGlobalReplicationGroupTags | cdktn.IResolvable): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+    key: {
+      value: cdktn.stringToHclTerraform(struct!.key),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value: {
+      value: cdktn.stringToHclTerraform(struct!.value),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ElasticacheGlobalReplicationGroupTagsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktn.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ElasticacheGlobalReplicationGroupTags | cdktn.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._key !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.key = this._key;
+    }
+    if (this._value !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.value = this._value;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ElasticacheGlobalReplicationGroupTags | cdktn.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._key = undefined;
+      this._value = undefined;
+    }
+    else if (cdktn.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._key = value.key;
+      this._value = value.value;
+    }
+  }
+
+  // key - computed: true, optional: true, required: false
+  private _key?: string; 
+  public get key() {
+    return this.getStringAttribute('key');
+  }
+  public set key(value: string) {
+    this._key = value;
+  }
+  public resetKey() {
+    this._key = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get keyInput() {
+    return this._key;
+  }
+
+  // value - computed: true, optional: true, required: false
+  private _value?: string; 
+  public get value() {
+    return this.getStringAttribute('value');
+  }
+  public set value(value: string) {
+    this._value = value;
+  }
+  public resetValue() {
+    this._value = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueInput() {
+    return this._value;
+  }
+}
+
+export class ElasticacheGlobalReplicationGroupTagsList extends cdktn.ComplexList {
+  public internalValue? : ElasticacheGlobalReplicationGroupTags[] | cdktn.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ElasticacheGlobalReplicationGroupTagsOutputReference {
+    return new ElasticacheGlobalReplicationGroupTagsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group}
 */
 export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
 
@@ -620,7 +779,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ElasticacheGlobalReplicationGroup resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticacheGlobalReplicationGroup to import
-  * @param importFromId The id of the existing ElasticacheGlobalReplicationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticacheGlobalReplicationGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticacheGlobalReplicationGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -632,7 +791,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/elasticache_global_replication_group awscc_elasticache_global_replication_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -643,7 +802,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_elasticache_global_replication_group',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -664,11 +823,17 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
     this._globalReplicationGroupIdSuffix = config.globalReplicationGroupIdSuffix;
     this._members.internalValue = config.members;
     this._regionalConfigurations.internalValue = config.regionalConfigurations;
+    this._tags.internalValue = config.tags;
   }
 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // arn - computed: true, optional: false, required: false
+  public get arn() {
+    return this.getStringAttribute('arn');
+  }
 
   // automatic_failover_enabled - computed: true, optional: true, required: false
   private _automaticFailoverEnabled?: boolean | cdktn.IResolvable; 
@@ -842,6 +1007,22 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
     return this.getStringAttribute('status');
   }
 
+  // tags - computed: true, optional: true, required: false
+  private _tags = new ElasticacheGlobalReplicationGroupTagsList(this, "tags", true);
+  public get tags() {
+    return this._tags;
+  }
+  public putTags(value: ElasticacheGlobalReplicationGroupTags[] | cdktn.IResolvable) {
+    this._tags.internalValue = value;
+  }
+  public resetTags() {
+    this._tags.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tagsInput() {
+    return this._tags.internalValue;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -858,6 +1039,7 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
       global_replication_group_id_suffix: cdktn.stringToTerraform(this._globalReplicationGroupIdSuffix),
       members: cdktn.listMapper(elasticacheGlobalReplicationGroupMembersToTerraform, false)(this._members.internalValue),
       regional_configurations: cdktn.listMapper(elasticacheGlobalReplicationGroupRegionalConfigurationsToTerraform, false)(this._regionalConfigurations.internalValue),
+      tags: cdktn.listMapper(elasticacheGlobalReplicationGroupTagsToTerraform, false)(this._tags.internalValue),
     };
   }
 
@@ -922,6 +1104,12 @@ export class ElasticacheGlobalReplicationGroup extends cdktn.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "ElasticacheGlobalReplicationGroupRegionalConfigurationsList",
+      },
+      tags: {
+        value: cdktn.listMapperHcl(elasticacheGlobalReplicationGroupTagsToHclTerraform, false)(this._tags.internalValue),
+        isBlock: true,
+        type: "set",
+        storageClassType: "ElasticacheGlobalReplicationGroupTagsList",
       },
     };
 

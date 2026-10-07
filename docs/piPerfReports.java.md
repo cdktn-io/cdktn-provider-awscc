@@ -4,7 +4,7 @@
 
 ### PiPerfReports <a name="PiPerfReports" id="@cdktn/provider-awscc.piPerfReports.PiPerfReports"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports awscc_pi_perf_reports}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports awscc_pi_perf_reports}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.piPerfReports.PiPerfReports.Initializer"></a>
 
@@ -112,7 +112,7 @@ Must be unique amongst siblings in the same scope
 
 The end time defined for the analysis report in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#end_time PiPerfReports#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#end_time PiPerfReports#end_time}
 
 ---
 
@@ -124,7 +124,7 @@ An immutable, AWS Region-unique identifier for a data source.
 
 Performance Insights gathers metrics from this data source. To use an Amazon RDS instance as a data source, specify its DbiResourceId value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#identifier PiPerfReports#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#identifier PiPerfReports#identifier}
 
 ---
 
@@ -134,7 +134,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The AWS service for which Performance Insights returns metrics. Valid values are RDS and DOCDB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#service_type PiPerfReports#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#service_type PiPerfReports#service_type}
 
 ---
 
@@ -144,7 +144,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The start time defined for the analysis report in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#start_time PiPerfReports#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#start_time PiPerfReports#start_time}
 
 ---
 
@@ -154,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#tags PiPerfReports#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#tags PiPerfReports#tags}
 
 ---
 
@@ -623,7 +623,7 @@ The construct id used in the generated config for the PiPerfReports to import.
 
 The id of the existing PiPerfReports that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1105,7 +1105,7 @@ public java.lang.String getEndTime();
 
 The end time defined for the analysis report in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#end_time PiPerfReports#end_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#end_time PiPerfReports#end_time}
 
 ---
 
@@ -1121,7 +1121,7 @@ An immutable, AWS Region-unique identifier for a data source.
 
 Performance Insights gathers metrics from this data source. To use an Amazon RDS instance as a data source, specify its DbiResourceId value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#identifier PiPerfReports#identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#identifier PiPerfReports#identifier}
 
 ---
 
@@ -1135,7 +1135,7 @@ public java.lang.String getServiceType();
 
 The AWS service for which Performance Insights returns metrics. Valid values are RDS and DOCDB.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#service_type PiPerfReports#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#service_type PiPerfReports#service_type}
 
 ---
 
@@ -1149,7 +1149,7 @@ public java.lang.String getStartTime();
 
 The start time defined for the analysis report in ISO 8601 format.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#start_time PiPerfReports#start_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#start_time PiPerfReports#start_time}
 
 ---
 
@@ -1163,7 +1163,7 @@ public IResolvable|java.util.List<PiPerfReportsTags> getTags();
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#tags PiPerfReports#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#tags PiPerfReports#tags}
 
 ---
 
@@ -1199,7 +1199,7 @@ public java.lang.String getKey();
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#key PiPerfReports#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#key PiPerfReports#key}
 
 ---
 
@@ -1213,7 +1213,7 @@ public java.lang.String getValue();
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/pi_perf_reports#value PiPerfReports#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/pi_perf_reports#value PiPerfReports#value}
 
 ---
 

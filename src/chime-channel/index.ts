@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,73 +15,73 @@ export interface ChimeChannelConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ARN of the AppInstance that contains the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#app_instance_arn ChimeChannel#app_instance_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#app_instance_arn ChimeChannel#app_instance_arn}
   */
   readonly appInstanceArn: string;
   /**
   * The ID of the channel. When omitted, the service generates a UUID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#channel_id ChimeChannel#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#channel_id ChimeChannel#channel_id}
   */
   readonly channelId?: string;
   /**
   * The ARN of the AppInstanceUser or AppInstanceBot that performs every operation on this channel. Whichever of the two creates a channel automatically becomes one of its moderators, so the same ARN can subsequently read, update and delete the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#chime_bearer ChimeChannel#chime_bearer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#chime_bearer ChimeChannel#chime_bearer}
   */
   readonly chimeBearer: string;
   /**
   * The attributes required to configure and create an elastic channel. An elastic channel must use RESTRICTED mode, cannot be created with MemberArns, and is available only in some regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#elastic_channel_configuration ChimeChannel#elastic_channel_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#elastic_channel_configuration ChimeChannel#elastic_channel_configuration}
   */
   readonly elasticChannelConfiguration?: ChimeChannelElasticChannelConfiguration;
   /**
   * Settings that control the interval after which the channel is automatically deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#expiration_settings ChimeChannel#expiration_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#expiration_settings ChimeChannel#expiration_settings}
   */
   readonly expirationSettings?: ChimeChannelExpirationSettings;
   /**
   * The ARNs of the AppInstanceUsers to add to the channel as members when it is created. Cannot be combined with ElasticChannelConfiguration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#member_arns ChimeChannel#member_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#member_arns ChimeChannel#member_arns}
   */
   readonly memberArns?: string[];
   /**
   * The metadata of the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#metadata ChimeChannel#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#metadata ChimeChannel#metadata}
   */
   readonly metadata?: string;
   /**
   * The channel mode. In an UNRESTRICTED channel, members can add themselves and other members; in a RESTRICTED channel, only administrators and moderators can add members. An elastic channel must be RESTRICTED.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#mode ChimeChannel#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#mode ChimeChannel#mode}
   */
   readonly mode?: string;
   /**
   * The ARNs of the AppInstanceUsers to add to the channel as moderators when it is created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#moderator_arns ChimeChannel#moderator_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#moderator_arns ChimeChannel#moderator_arns}
   */
   readonly moderatorArns?: string[];
   /**
   * The name of the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#name ChimeChannel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#name ChimeChannel#name}
   */
   readonly name: string;
   /**
   * The channel's privacy level. A PUBLIC channel is discoverable by anyone in the AppInstance; a PRIVATE channel is not. Privacy cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#privacy ChimeChannel#privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#privacy ChimeChannel#privacy}
   */
   readonly privacy?: string;
   /**
   * The tags for the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#tags ChimeChannel#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#tags ChimeChannel#tags}
   */
   readonly tags?: ChimeChannelTags[] | cdktn.IResolvable;
 }
@@ -148,19 +148,19 @@ export interface ChimeChannelElasticChannelConfiguration {
   /**
   * The maximum number of SubChannels allowed in the elastic channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#maximum_sub_channels ChimeChannel#maximum_sub_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#maximum_sub_channels ChimeChannel#maximum_sub_channels}
   */
   readonly maximumSubChannels?: number;
   /**
   * The minimum allowed percentage of TargetMembershipsPerSubChannel users, used to balance members across SubChannels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#minimum_membership_percentage ChimeChannel#minimum_membership_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#minimum_membership_percentage ChimeChannel#minimum_membership_percentage}
   */
   readonly minimumMembershipPercentage?: number;
   /**
   * The maximum number of members allowed in a SubChannel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#target_memberships_per_sub_channel ChimeChannel#target_memberships_per_sub_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#target_memberships_per_sub_channel ChimeChannel#target_memberships_per_sub_channel}
   */
   readonly targetMembershipsPerSubChannel?: number;
 }
@@ -314,13 +314,13 @@ export interface ChimeChannelExpirationSettings {
   /**
   * The condition the expiration period is measured from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#expiration_criterion ChimeChannel#expiration_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#expiration_criterion ChimeChannel#expiration_criterion}
   */
   readonly expirationCriterion?: string;
   /**
   * The period in days after which the system automatically deletes the channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#expiration_days ChimeChannel#expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#expiration_days ChimeChannel#expiration_days}
   */
   readonly expirationDays?: number;
 }
@@ -445,13 +445,13 @@ export interface ChimeChannelTags {
   /**
   * The key in a tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#key ChimeChannel#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#key ChimeChannel#key}
   */
   readonly key?: string;
   /**
   * The value in a tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#value ChimeChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#value ChimeChannel#value}
   */
   readonly value?: string;
 }
@@ -596,7 +596,7 @@ export class ChimeChannelTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel awscc_chime_channel}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel awscc_chime_channel}
 */
 export class ChimeChannel extends cdktn.TerraformResource {
 
@@ -612,7 +612,7 @@ export class ChimeChannel extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a ChimeChannel resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChimeChannel to import
-  * @param importFromId The id of the existing ChimeChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChimeChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChimeChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -624,7 +624,7 @@ export class ChimeChannel extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/chime_channel awscc_chime_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/chime_channel awscc_chime_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,7 +635,7 @@ export class ChimeChannel extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_chime_channel',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
