@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface CasesRelatedItemConfig extends cdktn.TerraformMetaArguments {
   /**
   * A unique identifier of the case.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#case_id CasesRelatedItem#case_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#case_id CasesRelatedItem#case_id}
   */
   readonly caseId: string;
   /**
   * The content of a related item to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#content CasesRelatedItem#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#content CasesRelatedItem#content}
   */
   readonly content: CasesRelatedItemContent;
   /**
   * The unique identifier of the Cases domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#domain_id CasesRelatedItem#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#domain_id CasesRelatedItem#domain_id}
   */
   readonly domainId: string;
   /**
   * A list of tags on the related item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#tags CasesRelatedItem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#tags CasesRelatedItem#tags}
   */
   readonly tags?: CasesRelatedItemTags[] | cdktn.IResolvable;
   /**
   * The type of a related item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#type CasesRelatedItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#type CasesRelatedItem#type}
   */
   readonly type: string;
 }
@@ -47,13 +47,13 @@ export interface CasesRelatedItemContentComment {
   /**
   * Text in the body of a comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#body CasesRelatedItem#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#body CasesRelatedItem#body}
   */
   readonly body?: string;
   /**
   * Type of the text in the comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#content_type CasesRelatedItem#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#content_type CasesRelatedItem#content_type}
   */
   readonly contentType?: string;
 }
@@ -178,7 +178,7 @@ export interface CasesRelatedItemContent {
   /**
   * Represents a comment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#comment CasesRelatedItem#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#comment CasesRelatedItem#comment}
   */
   readonly comment?: CasesRelatedItemContentComment;
 }
@@ -274,13 +274,13 @@ export interface CasesRelatedItemTags {
   /**
   * The key of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#key CasesRelatedItem#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#key CasesRelatedItem#key}
   */
   readonly key?: string;
   /**
   * The value of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#value CasesRelatedItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#value CasesRelatedItem#value}
   */
   readonly value?: string;
 }
@@ -425,7 +425,7 @@ export class CasesRelatedItemTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item awscc_cases_related_item}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item awscc_cases_related_item}
 */
 export class CasesRelatedItem extends cdktn.TerraformResource {
 
@@ -441,7 +441,7 @@ export class CasesRelatedItem extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a CasesRelatedItem resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CasesRelatedItem to import
-  * @param importFromId The id of the existing CasesRelatedItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CasesRelatedItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CasesRelatedItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -453,7 +453,7 @@ export class CasesRelatedItem extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/cases_related_item awscc_cases_related_item} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/cases_related_item awscc_cases_related_item} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,7 +464,7 @@ export class CasesRelatedItem extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_cases_related_item',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

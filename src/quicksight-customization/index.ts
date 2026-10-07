@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization
+// https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,19 +15,19 @@ export interface QuicksightCustomizationConfig extends cdktn.TerraformMetaArgume
   /**
   * The ARN of the theme applied by default in the QuickSight console for this namespace. May be an AWS-managed starter theme such as arn:{Partition}:quicksight::aws:theme/MIDNIGHT or a theme owned by this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#default_theme QuicksightCustomization#default_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#default_theme QuicksightCustomization#default_theme}
   */
   readonly defaultTheme: string;
   /**
   * The QuickSight namespace the customization applies to. One customization exists per (account, region, namespace), so this is create-only: changing it addresses a different resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#namespace QuicksightCustomization#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#namespace QuicksightCustomization#namespace}
   */
   readonly namespace: string;
   /**
   * Tags applied to the customization. QuickSight rejects any key prefixed aws: or quicksight:, so CloudFormation system tags are not propagated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#tags QuicksightCustomization#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#tags QuicksightCustomization#tags}
   */
   readonly tags?: QuicksightCustomizationTags[] | cdktn.IResolvable;
 }
@@ -35,13 +35,13 @@ export interface QuicksightCustomizationTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#key QuicksightCustomization#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#key QuicksightCustomization#key}
   */
   readonly key?: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#value QuicksightCustomization#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#value QuicksightCustomization#value}
   */
   readonly value?: string;
 }
@@ -186,7 +186,7 @@ export class QuicksightCustomizationTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization awscc_quicksight_customization}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization awscc_quicksight_customization}
 */
 export class QuicksightCustomization extends cdktn.TerraformResource {
 
@@ -202,7 +202,7 @@ export class QuicksightCustomization extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a QuicksightCustomization resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the QuicksightCustomization to import
-  * @param importFromId The id of the existing QuicksightCustomization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing QuicksightCustomization that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the QuicksightCustomization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -214,7 +214,7 @@ export class QuicksightCustomization extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.103.0/docs/resources/quicksight_customization awscc_quicksight_customization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.104.0/docs/resources/quicksight_customization awscc_quicksight_customization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,7 +225,7 @@ export class QuicksightCustomization extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_quicksight_customization',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.103.0',
+        providerVersion: '1.104.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
