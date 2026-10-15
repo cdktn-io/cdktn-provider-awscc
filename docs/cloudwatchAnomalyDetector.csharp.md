@@ -4,7 +4,7 @@
 
 ### CloudwatchAnomalyDetector <a name="CloudwatchAnomalyDetector" id="@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetector"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector awscc_cloudwatch_anomaly_detector}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector awscc_cloudwatch_anomaly_detector}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetector.Initializer"></a>
 
@@ -610,7 +610,7 @@ The construct id used in the generated config for the CloudwatchAnomalyDetector 
 
 The id of the existing CloudwatchAnomalyDetector that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -1040,14 +1040,14 @@ new CloudwatchAnomalyDetectorConfig {
 | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.lifecycle">Lifecycle</a></code> | <code>Io.Cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfiguration">CloudwatchAnomalyDetectorConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#configuration CloudwatchAnomalyDetector#configuration}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.dimensions">Dimensions</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorDimensions">CloudwatchAnomalyDetectorDimensions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.metricCharacteristics">MetricCharacteristics</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricCharacteristics">CloudwatchAnomalyDetectorMetricCharacteristics</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_characteristics CloudwatchAnomalyDetector#metric_characteristics}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.metricMathAnomalyDetector">MetricMathAnomalyDetector</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetector">CloudwatchAnomalyDetectorMetricMathAnomalyDetector</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_math_anomaly_detector CloudwatchAnomalyDetector#metric_math_anomaly_detector}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.singleMetricAnomalyDetector">SingleMetricAnomalyDetector</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector">CloudwatchAnomalyDetectorSingleMetricAnomalyDetector</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#single_metric_anomaly_detector CloudwatchAnomalyDetector#single_metric_anomaly_detector}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.stat">Stat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.configuration">Configuration</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfiguration">CloudwatchAnomalyDetectorConfiguration</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#configuration CloudwatchAnomalyDetector#configuration}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.dimensions">Dimensions</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorDimensions">CloudwatchAnomalyDetectorDimensions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.metricCharacteristics">MetricCharacteristics</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricCharacteristics">CloudwatchAnomalyDetectorMetricCharacteristics</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_characteristics CloudwatchAnomalyDetector#metric_characteristics}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.metricMathAnomalyDetector">MetricMathAnomalyDetector</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetector">CloudwatchAnomalyDetectorMetricMathAnomalyDetector</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_math_anomaly_detector CloudwatchAnomalyDetector#metric_math_anomaly_detector}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.singleMetricAnomalyDetector">SingleMetricAnomalyDetector</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector">CloudwatchAnomalyDetectorSingleMetricAnomalyDetector</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#single_metric_anomaly_detector CloudwatchAnomalyDetector#single_metric_anomaly_detector}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfig.property.stat">Stat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}. |
 
 ---
 
@@ -1129,7 +1129,7 @@ public CloudwatchAnomalyDetectorConfiguration Configuration { get; set; }
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfiguration">CloudwatchAnomalyDetectorConfiguration</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#configuration CloudwatchAnomalyDetector#configuration}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#configuration CloudwatchAnomalyDetector#configuration}.
 
 ---
 
@@ -1141,7 +1141,7 @@ public IResolvable|CloudwatchAnomalyDetectorDimensions[] Dimensions { get; set; 
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorDimensions">CloudwatchAnomalyDetectorDimensions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}.
 
 ---
 
@@ -1153,7 +1153,7 @@ public CloudwatchAnomalyDetectorMetricCharacteristics MetricCharacteristics { ge
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricCharacteristics">CloudwatchAnomalyDetectorMetricCharacteristics</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_characteristics CloudwatchAnomalyDetector#metric_characteristics}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_characteristics CloudwatchAnomalyDetector#metric_characteristics}.
 
 ---
 
@@ -1165,7 +1165,7 @@ public CloudwatchAnomalyDetectorMetricMathAnomalyDetector MetricMathAnomalyDetec
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetector">CloudwatchAnomalyDetectorMetricMathAnomalyDetector</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_math_anomaly_detector CloudwatchAnomalyDetector#metric_math_anomaly_detector}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_math_anomaly_detector CloudwatchAnomalyDetector#metric_math_anomaly_detector}.
 
 ---
 
@@ -1177,7 +1177,7 @@ public string MetricName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}.
 
 ---
 
@@ -1189,7 +1189,7 @@ public string Namespace { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}.
 
 ---
 
@@ -1201,7 +1201,7 @@ public CloudwatchAnomalyDetectorSingleMetricAnomalyDetector SingleMetricAnomalyD
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector">CloudwatchAnomalyDetectorSingleMetricAnomalyDetector</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#single_metric_anomaly_detector CloudwatchAnomalyDetector#single_metric_anomaly_detector}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#single_metric_anomaly_detector CloudwatchAnomalyDetector#single_metric_anomaly_detector}.
 
 ---
 
@@ -1213,7 +1213,7 @@ public string Stat { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}.
 
 ---
 
@@ -1234,8 +1234,8 @@ new CloudwatchAnomalyDetectorConfiguration {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfiguration.property.excludedTimeRanges">ExcludedTimeRanges</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges">CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#excluded_time_ranges CloudwatchAnomalyDetector#excluded_time_ranges}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfiguration.property.metricTimeZone">MetricTimeZone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_time_zone CloudwatchAnomalyDetector#metric_time_zone}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfiguration.property.excludedTimeRanges">ExcludedTimeRanges</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges">CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#excluded_time_ranges CloudwatchAnomalyDetector#excluded_time_ranges}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfiguration.property.metricTimeZone">MetricTimeZone</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_time_zone CloudwatchAnomalyDetector#metric_time_zone}. |
 
 ---
 
@@ -1247,7 +1247,7 @@ public IResolvable|CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges[] Ex
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges">CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#excluded_time_ranges CloudwatchAnomalyDetector#excluded_time_ranges}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#excluded_time_ranges CloudwatchAnomalyDetector#excluded_time_ranges}.
 
 ---
 
@@ -1259,7 +1259,7 @@ public string MetricTimeZone { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_time_zone CloudwatchAnomalyDetector#metric_time_zone}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_time_zone CloudwatchAnomalyDetector#metric_time_zone}.
 
 ---
 
@@ -1280,8 +1280,8 @@ new CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges.property.endTime">EndTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#end_time CloudwatchAnomalyDetector#end_time}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges.property.startTime">StartTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#start_time CloudwatchAnomalyDetector#start_time}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges.property.endTime">EndTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#end_time CloudwatchAnomalyDetector#end_time}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorConfigurationExcludedTimeRanges.property.startTime">StartTime</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#start_time CloudwatchAnomalyDetector#start_time}. |
 
 ---
 
@@ -1293,7 +1293,7 @@ public string EndTime { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#end_time CloudwatchAnomalyDetector#end_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#end_time CloudwatchAnomalyDetector#end_time}.
 
 ---
 
@@ -1305,7 +1305,7 @@ public string StartTime { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#start_time CloudwatchAnomalyDetector#start_time}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#start_time CloudwatchAnomalyDetector#start_time}.
 
 ---
 
@@ -1326,8 +1326,8 @@ new CloudwatchAnomalyDetectorDimensions {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}. |
 
 ---
 
@@ -1339,7 +1339,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}.
 
 ---
 
@@ -1351,7 +1351,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}.
 
 ---
 
@@ -1371,7 +1371,7 @@ new CloudwatchAnomalyDetectorMetricCharacteristics {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricCharacteristics.property.periodicSpikes">PeriodicSpikes</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#periodic_spikes CloudwatchAnomalyDetector#periodic_spikes}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricCharacteristics.property.periodicSpikes">PeriodicSpikes</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#periodic_spikes CloudwatchAnomalyDetector#periodic_spikes}. |
 
 ---
 
@@ -1383,7 +1383,7 @@ public bool|IResolvable PeriodicSpikes { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#periodic_spikes CloudwatchAnomalyDetector#periodic_spikes}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#periodic_spikes CloudwatchAnomalyDetector#periodic_spikes}.
 
 ---
 
@@ -1403,7 +1403,7 @@ new CloudwatchAnomalyDetectorMetricMathAnomalyDetector {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetector.property.metricDataQueries">MetricDataQueries</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_data_queries CloudwatchAnomalyDetector#metric_data_queries}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetector.property.metricDataQueries">MetricDataQueries</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_data_queries CloudwatchAnomalyDetector#metric_data_queries}. |
 
 ---
 
@@ -1415,7 +1415,7 @@ public IResolvable|CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQ
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_data_queries CloudwatchAnomalyDetector#metric_data_queries}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_data_queries CloudwatchAnomalyDetector#metric_data_queries}.
 
 ---
 
@@ -1441,13 +1441,13 @@ new CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.accountId">AccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#account_id CloudwatchAnomalyDetector#account_id}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#expression CloudwatchAnomalyDetector#expression}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#id CloudwatchAnomalyDetector#id}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.label">Label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#label CloudwatchAnomalyDetector#label}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.metricStat">MetricStat</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_stat CloudwatchAnomalyDetector#metric_stat}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#period CloudwatchAnomalyDetector#period}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.returnData">ReturnData</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#return_data CloudwatchAnomalyDetector#return_data}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.accountId">AccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#account_id CloudwatchAnomalyDetector#account_id}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.expression">Expression</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#expression CloudwatchAnomalyDetector#expression}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.id">Id</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#id CloudwatchAnomalyDetector#id}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.label">Label</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#label CloudwatchAnomalyDetector#label}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.metricStat">MetricStat</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_stat CloudwatchAnomalyDetector#metric_stat}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#period CloudwatchAnomalyDetector#period}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueries.property.returnData">ReturnData</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#return_data CloudwatchAnomalyDetector#return_data}. |
 
 ---
 
@@ -1459,7 +1459,7 @@ public string AccountId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#account_id CloudwatchAnomalyDetector#account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#account_id CloudwatchAnomalyDetector#account_id}.
 
 ---
 
@@ -1471,7 +1471,7 @@ public string Expression { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#expression CloudwatchAnomalyDetector#expression}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#expression CloudwatchAnomalyDetector#expression}.
 
 ---
 
@@ -1483,7 +1483,7 @@ public string Id { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#id CloudwatchAnomalyDetector#id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#id CloudwatchAnomalyDetector#id}.
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1498,7 +1498,7 @@ public string Label { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#label CloudwatchAnomalyDetector#label}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#label CloudwatchAnomalyDetector#label}.
 
 ---
 
@@ -1510,7 +1510,7 @@ public CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetric
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_stat CloudwatchAnomalyDetector#metric_stat}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_stat CloudwatchAnomalyDetector#metric_stat}.
 
 ---
 
@@ -1522,7 +1522,7 @@ public double Period { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#period CloudwatchAnomalyDetector#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#period CloudwatchAnomalyDetector#period}.
 
 ---
 
@@ -1534,7 +1534,7 @@ public bool|IResolvable ReturnData { get; set; }
 
 - *Type:* bool|Io.Cdktn.IResolvable
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#return_data CloudwatchAnomalyDetector#return_data}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#return_data CloudwatchAnomalyDetector#return_data}.
 
 ---
 
@@ -1557,10 +1557,10 @@ new CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricSta
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat.property.metric">Metric</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric CloudwatchAnomalyDetector#metric}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#period CloudwatchAnomalyDetector#period}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat.property.stat">Stat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#unit CloudwatchAnomalyDetector#unit}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat.property.metric">Metric</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric CloudwatchAnomalyDetector#metric}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat.property.period">Period</a></code> | <code>double</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#period CloudwatchAnomalyDetector#period}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat.property.stat">Stat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStat.property.unit">Unit</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#unit CloudwatchAnomalyDetector#unit}. |
 
 ---
 
@@ -1572,7 +1572,7 @@ public CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetric
 
 - *Type:* <a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric CloudwatchAnomalyDetector#metric}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric CloudwatchAnomalyDetector#metric}.
 
 ---
 
@@ -1584,7 +1584,7 @@ public double Period { get; set; }
 
 - *Type:* double
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#period CloudwatchAnomalyDetector#period}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#period CloudwatchAnomalyDetector#period}.
 
 ---
 
@@ -1596,7 +1596,7 @@ public string Stat { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}.
 
 ---
 
@@ -1608,7 +1608,7 @@ public string Unit { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#unit CloudwatchAnomalyDetector#unit}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#unit CloudwatchAnomalyDetector#unit}.
 
 ---
 
@@ -1630,9 +1630,9 @@ new CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricSta
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric.property.dimensions">Dimensions</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric.property.dimensions">Dimensions</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetric.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}. |
 
 ---
 
@@ -1644,7 +1644,7 @@ public IResolvable|CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQ
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions">CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}.
 
 ---
 
@@ -1656,7 +1656,7 @@ public string MetricName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}.
 
 ---
 
@@ -1668,7 +1668,7 @@ public string Namespace { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}.
 
 ---
 
@@ -1689,8 +1689,8 @@ new CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricSta
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorMetricMathAnomalyDetectorMetricDataQueriesMetricStatMetricDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}. |
 
 ---
 
@@ -1702,7 +1702,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}.
 
 ---
 
@@ -1714,7 +1714,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}.
 
 ---
 
@@ -1738,11 +1738,11 @@ new CloudwatchAnomalyDetectorSingleMetricAnomalyDetector {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.accountId">AccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#account_id CloudwatchAnomalyDetector#account_id}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.dimensions">Dimensions</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions">CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.stat">Stat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.accountId">AccountId</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#account_id CloudwatchAnomalyDetector#account_id}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.dimensions">Dimensions</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions">CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions</a>[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.metricName">MetricName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.namespace">Namespace</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetector.property.stat">Stat</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}. |
 
 ---
 
@@ -1754,7 +1754,7 @@ public string AccountId { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#account_id CloudwatchAnomalyDetector#account_id}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#account_id CloudwatchAnomalyDetector#account_id}.
 
 ---
 
@@ -1766,7 +1766,7 @@ public IResolvable|CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimension
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions">CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions</a>[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#dimensions CloudwatchAnomalyDetector#dimensions}.
 
 ---
 
@@ -1778,7 +1778,7 @@ public string MetricName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#metric_name CloudwatchAnomalyDetector#metric_name}.
 
 ---
 
@@ -1790,7 +1790,7 @@ public string Namespace { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#namespace CloudwatchAnomalyDetector#namespace}.
 
 ---
 
@@ -1802,7 +1802,7 @@ public string Stat { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#stat CloudwatchAnomalyDetector#stat}.
 
 ---
 
@@ -1823,8 +1823,8 @@ new CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}. |
-| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions.property.name">Name</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchAnomalyDetector.CloudwatchAnomalyDetectorSingleMetricAnomalyDetectorDimensions.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}. |
 
 ---
 
@@ -1836,7 +1836,7 @@ public string Name { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#name CloudwatchAnomalyDetector#name}.
 
 ---
 
@@ -1848,7 +1848,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_anomaly_detector#value CloudwatchAnomalyDetector#value}.
 
 ---
 

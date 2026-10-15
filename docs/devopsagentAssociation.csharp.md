@@ -4,7 +4,7 @@
 
 ### DevopsagentAssociation <a name="DevopsagentAssociation" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association awscc_devopsagent_association}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociation.Initializer"></a>
 
@@ -509,7 +509,7 @@ The construct id used in the generated config for the DevopsagentAssociation to 
 
 The id of the existing DevopsagentAssociation that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -956,7 +956,7 @@ public string AgentSpaceId { get; set; }
 
 The unique identifier of the AgentSpace.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#agent_space_id DevopsagentAssociation#agent_space_id}
 
 ---
 
@@ -970,7 +970,7 @@ public DevopsagentAssociationConfiguration Configuration { get; set; }
 
 The configuration that directs how AgentSpace interacts with the given service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#configuration DevopsagentAssociation#configuration}
 
 ---
 
@@ -984,7 +984,7 @@ public string ServiceId { get; set; }
 
 The identifier for the associated service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#service_id DevopsagentAssociation#service_id}
 
 ---
 
@@ -998,7 +998,7 @@ public string[] LinkedAssociationIds { get; set; }
 
 Set of linked association IDs for parent-child relationships.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#linked_association_ids DevopsagentAssociation#linked_association_ids}
 
 ---
 
@@ -1062,7 +1062,7 @@ public DevopsagentAssociationConfigurationAws Aws { get; set; }
 
 AWS association for 'monitor' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#aws DevopsagentAssociation#aws}
 
 ---
 
@@ -1076,7 +1076,7 @@ public DevopsagentAssociationConfigurationAzure Azure { get; set; }
 
 Azure subscription integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#azure DevopsagentAssociation#azure}
 
 ---
 
@@ -1090,7 +1090,7 @@ public DevopsagentAssociationConfigurationDynatrace Dynatrace { get; set; }
 
 Dynatrace monitoring configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#dynatrace DevopsagentAssociation#dynatrace}
 
 ---
 
@@ -1104,7 +1104,7 @@ public DevopsagentAssociationConfigurationEventChannel EventChannel { get; set; 
 
 EventChannelconfiguration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#event_channel DevopsagentAssociation#event_channel}
 
 ---
 
@@ -1118,7 +1118,7 @@ public DevopsagentAssociationConfigurationGitHub GitHub { get; set; }
 
 GitHub repository integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#git_hub DevopsagentAssociation#git_hub}
 
 ---
 
@@ -1132,7 +1132,7 @@ public DevopsagentAssociationConfigurationGitLab GitLab { get; set; }
 
 GitLab project integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#git_lab DevopsagentAssociation#git_lab}
 
 ---
 
@@ -1146,7 +1146,7 @@ public DevopsagentAssociationConfigurationMcpServer McpServer { get; set; }
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server DevopsagentAssociation#mcp_server}
 
 ---
 
@@ -1160,7 +1160,7 @@ public DevopsagentAssociationConfigurationMcpServerDatadog McpServerDatadog { ge
 
 Datadog MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_datadog DevopsagentAssociation#mcp_server_datadog}
 
 ---
 
@@ -1174,7 +1174,7 @@ public DevopsagentAssociationConfigurationMcpServerGrafana McpServerGrafana { ge
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_grafana DevopsagentAssociation#mcp_server_grafana}
 
 ---
 
@@ -1188,7 +1188,7 @@ public DevopsagentAssociationConfigurationMcpServerNewRelic McpServerNewRelic { 
 
 NewRelic MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_new_relic DevopsagentAssociation#mcp_server_new_relic}
 
 ---
 
@@ -1202,7 +1202,7 @@ public DevopsagentAssociationConfigurationMcpServerSigV4 McpServerSigV4 { get; s
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_sig_v4 DevopsagentAssociation#mcp_server_sig_v4}
 
 ---
 
@@ -1216,7 +1216,7 @@ public DevopsagentAssociationConfigurationMcpServerSplunk McpServerSplunk { get;
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#mcp_server_splunk DevopsagentAssociation#mcp_server_splunk}
 
 ---
 
@@ -1230,7 +1230,7 @@ public DevopsagentAssociationConfigurationPagerDuty PagerDuty { get; set; }
 
 PagerDuty integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#pager_duty DevopsagentAssociation#pager_duty}
 
 ---
 
@@ -1244,7 +1244,7 @@ public DevopsagentAssociationConfigurationServiceNow ServiceNow { get; set; }
 
 ServiceNow integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#service_now DevopsagentAssociation#service_now}
 
 ---
 
@@ -1258,7 +1258,7 @@ public DevopsagentAssociationConfigurationSlack Slack { get; set; }
 
 Slack workspace integration configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#slack DevopsagentAssociation#slack}
 
 ---
 
@@ -1272,7 +1272,7 @@ public DevopsagentAssociationConfigurationSourceAws SourceAws { get; set; }
 
 AWS association for 'source' account.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#source_aws DevopsagentAssociation#source_aws}
 
 ---
 
@@ -1286,6 +1286,7 @@ using Io.Cdktn.Providers.Awscc;
 new DevopsagentAssociationConfigurationAws {
     string AccountId = null,
     string AccountType = null,
+    string AgentElevatedRoleArn = null,
     string AssumableRoleArn = null,
     IResolvable|DevopsagentAssociationConfigurationAwsResources[] Resources = null,
     IResolvable|DevopsagentAssociationConfigurationAwsTags[] Tags = null
@@ -1298,6 +1299,7 @@ new DevopsagentAssociationConfigurationAws {
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws.property.accountId">AccountId</a></code> | <code>string</code> | AWS Account Id corresponding to provided resources. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws.property.accountType">AccountType</a></code> | <code>string</code> | Account Type 'monitor' for DevOpsAgent monitoring. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws.property.agentElevatedRoleArn">AgentElevatedRoleArn</a></code> | <code>string</code> | The IAM role that AWS DevOps Agent assumes to perform elevated directed actions in this AWS account. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws.property.assumableRoleArn">AssumableRoleArn</a></code> | <code>string</code> | Role ARN to be assumed by DevOpsAgent to operate on behalf of customer. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws.property.resources">Resources</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsResources">DevopsagentAssociationConfigurationAwsResources</a>[]</code> | List of AWS resources. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags">DevopsagentAssociationConfigurationAwsTags</a>[]</code> | List of AWS tags as key-value pairs. |
@@ -1314,7 +1316,7 @@ public string AccountId { get; set; }
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -1328,7 +1330,23 @@ public string AccountType { get; set; }
 
 Account Type 'monitor' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+
+---
+
+##### `AgentElevatedRoleArn`<sup>Optional</sup> <a name="AgentElevatedRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws.property.agentElevatedRoleArn"></a>
+
+```csharp
+public string AgentElevatedRoleArn { get; set; }
+```
+
+- *Type:* string
+
+The IAM role that AWS DevOps Agent assumes to perform elevated directed actions in this AWS account.
+
+Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -1342,7 +1360,7 @@ public string AssumableRoleArn { get; set; }
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -1356,7 +1374,7 @@ public IResolvable|DevopsagentAssociationConfigurationAwsResources[] Resources {
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1370,7 +1388,7 @@ public IResolvable|DevopsagentAssociationConfigurationAwsTags[] Tags { get; set;
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -1408,7 +1426,7 @@ public string ResourceArn { get; set; }
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -1422,7 +1440,7 @@ public string ResourceMetadata { get; set; }
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -1436,7 +1454,7 @@ public string ResourceType { get; set; }
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -1457,8 +1475,8 @@ new DevopsagentAssociationConfigurationAwsTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -1470,7 +1488,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -1482,7 +1500,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
@@ -1516,7 +1534,7 @@ public string SubscriptionId { get; set; }
 
 Azure subscription ID corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#subscription_id DevopsagentAssociation#subscription_id}
 
 ---
 
@@ -1554,7 +1572,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1568,7 +1586,7 @@ public string EnvId { get; set; }
 
 Dynatrace environment id.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#env_id DevopsagentAssociation#env_id}
 
 ---
 
@@ -1582,7 +1600,7 @@ public string[] Resources { get; set; }
 
 List of Dynatrace resources to monitor.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -1616,7 +1634,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1656,7 +1674,7 @@ public string Owner { get; set; }
 
 Repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#owner DevopsagentAssociation#owner}
 
 ---
 
@@ -1670,7 +1688,7 @@ public string OwnerType { get; set; }
 
 Type of repository owner.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#owner_type DevopsagentAssociation#owner_type}
 
 ---
 
@@ -1684,7 +1702,7 @@ public string RepoId { get; set; }
 
 Associated Github repo ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#repo_id DevopsagentAssociation#repo_id}
 
 ---
 
@@ -1698,7 +1716,7 @@ public string RepoName { get; set; }
 
 Associated Github repo name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#repo_name DevopsagentAssociation#repo_name}
 
 ---
 
@@ -1738,7 +1756,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1752,7 +1770,7 @@ public string InstanceIdentifier { get; set; }
 
 GitLab instance identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#instance_identifier DevopsagentAssociation#instance_identifier}
 
 ---
 
@@ -1766,7 +1784,7 @@ public string ProjectId { get; set; }
 
 GitLab numeric project ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#project_id DevopsagentAssociation#project_id}
 
 ---
 
@@ -1780,7 +1798,7 @@ public string ProjectPath { get; set; }
 
 Full GitLab project path (e.g., namespace/project-name).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#project_path DevopsagentAssociation#project_path}
 
 ---
 
@@ -1822,7 +1840,7 @@ public string Description { get; set; }
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -1836,7 +1854,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1850,7 +1868,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1864,7 +1882,7 @@ public string Name { get; set; }
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -1878,7 +1896,7 @@ public string[] Tools { get; set; }
 
 List of MCP tools that can be used with the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -1891,6 +1909,7 @@ using Io.Cdktn.Providers.Awscc;
 
 new DevopsagentAssociationConfigurationMcpServerDatadog {
     string Description = null,
+    string[] EnabledElevatedTools = null,
     bool|IResolvable EnableWebhookUpdates = null,
     string Endpoint = null,
     string Name = null
@@ -1902,6 +1921,7 @@ new DevopsagentAssociationConfigurationMcpServerDatadog {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog.property.description">Description</a></code> | <code>string</code> | The description of the MCP server. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog.property.enabledElevatedTools">EnabledElevatedTools</a></code> | <code>string[]</code> | The mutative MCP tools enabled for this integration, by tool name. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog.property.enableWebhookUpdates">EnableWebhookUpdates</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog.property.endpoint">Endpoint</a></code> | <code>string</code> | MCP server endpoint URL. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog.property.name">Name</a></code> | <code>string</code> | The name of the MCP server. |
@@ -1918,7 +1938,23 @@ public string Description { get; set; }
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+
+---
+
+##### `EnabledElevatedTools`<sup>Optional</sup> <a name="EnabledElevatedTools" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadog.property.enabledElevatedTools"></a>
+
+```csharp
+public string[] EnabledElevatedTools { get; set; }
+```
+
+- *Type:* string[]
+
+The mutative MCP tools enabled for this integration, by tool name.
+
+Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -1932,7 +1968,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -1946,7 +1982,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -1960,7 +1996,7 @@ public string Name { get; set; }
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -1972,6 +2008,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.Awscc;
 
 new DevopsagentAssociationConfigurationMcpServerGrafana {
+    string[] EnabledElevatedTools = null,
     bool|IResolvable EnableWebhookUpdates = null,
     string Endpoint = null,
     string[] Tools = null
@@ -1982,9 +2019,26 @@ new DevopsagentAssociationConfigurationMcpServerGrafana {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafana.property.enabledElevatedTools">EnabledElevatedTools</a></code> | <code>string[]</code> | The mutative MCP tools enabled for this integration, by tool name. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafana.property.enableWebhookUpdates">EnableWebhookUpdates</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafana.property.endpoint">Endpoint</a></code> | <code>string</code> | MCP server endpoint URL. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafana.property.tools">Tools</a></code> | <code>string[]</code> | List of tool categories to enable for the Grafana MCP server. |
+
+---
+
+##### `EnabledElevatedTools`<sup>Optional</sup> <a name="EnabledElevatedTools" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafana.property.enabledElevatedTools"></a>
+
+```csharp
+public string[] EnabledElevatedTools { get; set; }
+```
+
+- *Type:* string[]
+
+The mutative MCP tools enabled for this integration, by tool name.
+
+Only tools the service classifies as MUTATIVE may be listed; other names are rejected. Tool names can be found in the console or from the association's current configuration. The list fully replaces the stored value on update: removing a name disables that tool, and removing the property disables all elevated tools. Independent of Tools, which selects the toolsets available to the agent.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enabled_elevated_tools DevopsagentAssociation#enabled_elevated_tools}
 
 ---
 
@@ -1998,7 +2052,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2012,7 +2066,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2026,7 +2080,7 @@ public string[] Tools { get; set; }
 
 List of tool categories to enable for the Grafana MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2062,7 +2116,7 @@ public string AccountId { get; set; }
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2076,7 +2130,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL (e.g., https://mcp.newrelic.com/mcp/).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2110,7 +2164,7 @@ public string[] Tools { get; set; }
 
 List of MCP tools available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tools DevopsagentAssociation#tools}
 
 ---
 
@@ -2150,7 +2204,7 @@ public string Description { get; set; }
 
 The description of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#description DevopsagentAssociation#description}
 
 ---
 
@@ -2164,7 +2218,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2178,7 +2232,7 @@ public string Endpoint { get; set; }
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#endpoint DevopsagentAssociation#endpoint}
 
 ---
 
@@ -2192,7 +2246,7 @@ public string Name { get; set; }
 
 The name of the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#name DevopsagentAssociation#name}
 
 ---
 
@@ -2230,7 +2284,7 @@ public string CustomerEmail { get; set; }
 
 Email to be used in PagerDuty API header.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#customer_email DevopsagentAssociation#customer_email}
 
 ---
 
@@ -2244,7 +2298,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2258,7 +2312,7 @@ public string[] Services { get; set; }
 
 List of PagerDuty service IDs available for the association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#services DevopsagentAssociation#services}
 
 ---
 
@@ -2294,7 +2348,7 @@ public bool|IResolvable EnableWebhookUpdates { get; set; }
 
 When set to true, enables the Agent Space to create and update webhooks for receiving notifications and events from the service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enable_webhook_updates DevopsagentAssociation#enable_webhook_updates}
 
 ---
 
@@ -2308,7 +2362,7 @@ public string InstanceId { get; set; }
 
 ServiceNow instance ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#instance_id DevopsagentAssociation#instance_id}
 
 ---
 
@@ -2320,6 +2374,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 using Io.Cdktn.Providers.Awscc;
 
 new DevopsagentAssociationConfigurationSlack {
+    DevopsagentAssociationConfigurationSlackBidirectional Bidirectional = null,
     DevopsagentAssociationConfigurationSlackTransmissionTarget TransmissionTarget = null,
     string WorkspaceId = null,
     string WorkspaceName = null
@@ -2330,9 +2385,26 @@ new DevopsagentAssociationConfigurationSlack {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack.property.bidirectional">Bidirectional</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional">DevopsagentAssociationConfigurationSlackBidirectional</a></code> | Optional bidirectional communication configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack.property.transmissionTarget">TransmissionTarget</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTarget">DevopsagentAssociationConfigurationSlackTransmissionTarget</a></code> | Transmission targets for agent notifications. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack.property.workspaceId">WorkspaceId</a></code> | <code>string</code> | Associated Slack workspace ID. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack.property.workspaceName">WorkspaceName</a></code> | <code>string</code> | Associated Slack workspace name. |
+
+---
+
+##### `Bidirectional`<sup>Optional</sup> <a name="Bidirectional" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlack.property.bidirectional"></a>
+
+```csharp
+public DevopsagentAssociationConfigurationSlackBidirectional Bidirectional { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional">DevopsagentAssociationConfigurationSlackBidirectional</a>
+
+Optional bidirectional communication configuration.
+
+Supply this configuration and set Enabled to true so you can interact with the agent directly from Slack
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#bidirectional DevopsagentAssociation#bidirectional}
 
 ---
 
@@ -2346,7 +2418,7 @@ public DevopsagentAssociationConfigurationSlackTransmissionTarget TransmissionTa
 
 Transmission targets for agent notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#transmission_target DevopsagentAssociation#transmission_target}
 
 ---
 
@@ -2360,7 +2432,7 @@ public string WorkspaceId { get; set; }
 
 Associated Slack workspace ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#workspace_id DevopsagentAssociation#workspace_id}
 
 ---
 
@@ -2374,7 +2446,59 @@ public string WorkspaceName { get; set; }
 
 Associated Slack workspace name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#workspace_name DevopsagentAssociation#workspace_name}
+
+---
+
+### DevopsagentAssociationConfigurationSlackBidirectional <a name="DevopsagentAssociationConfigurationSlackBidirectional" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationConfigurationSlackBidirectional {
+    bool|IResolvable Enabled = null,
+    string RoleArn = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Whether bidirectional communication is enabled for this association. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional.property.roleArn">RoleArn</a></code> | <code>string</code> | IAM role ARN that AWS DevOps Agent assumes to exchange messages with your Slack workspace on behalf of this association. |
+
+---
+
+##### `Enabled`<sup>Optional</sup> <a name="Enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional.property.enabled"></a>
+
+```csharp
+public bool|IResolvable Enabled { get; set; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+Whether bidirectional communication is enabled for this association.
+
+When set to true, you can mention the agent in a configured Slack channel and it responds in that channel. When omitted or set to false, the agent ignores mentions and only sends notifications
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#enabled DevopsagentAssociation#enabled}
+
+---
+
+##### `RoleArn`<sup>Optional</sup> <a name="RoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional.property.roleArn"></a>
+
+```csharp
+public string RoleArn { get; set; }
+```
+
+- *Type:* string
+
+IAM role ARN that AWS DevOps Agent assumes to exchange messages with your Slack workspace on behalf of this association.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#role_arn DevopsagentAssociation#role_arn}
 
 ---
 
@@ -2408,7 +2532,7 @@ public DevopsagentAssociationConfigurationSlackTransmissionTargetIncidentRespons
 
 Destination for IncidentResponse agent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#incident_response_target DevopsagentAssociation#incident_response_target}
 
 ---
 
@@ -2444,7 +2568,7 @@ public string ChannelId { get; set; }
 
 Slack channel ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#channel_id DevopsagentAssociation#channel_id}
 
 ---
 
@@ -2458,7 +2582,7 @@ public string ChannelName { get; set; }
 
 Slack channel name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#channel_name DevopsagentAssociation#channel_name}
 
 ---
 
@@ -2472,6 +2596,7 @@ using Io.Cdktn.Providers.Awscc;
 new DevopsagentAssociationConfigurationSourceAws {
     string AccountId = null,
     string AccountType = null,
+    string AgentElevatedRoleArn = null,
     string AssumableRoleArn = null,
     IResolvable|DevopsagentAssociationConfigurationSourceAwsResources[] Resources = null,
     IResolvable|DevopsagentAssociationConfigurationSourceAwsTags[] Tags = null
@@ -2484,6 +2609,7 @@ new DevopsagentAssociationConfigurationSourceAws {
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws.property.accountId">AccountId</a></code> | <code>string</code> | AWS Account Id corresponding to provided resources. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws.property.accountType">AccountType</a></code> | <code>string</code> | Account Type 'source' for DevOpsAgent monitoring. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws.property.agentElevatedRoleArn">AgentElevatedRoleArn</a></code> | <code>string</code> | The IAM role that AWS DevOps Agent assumes to perform elevated directed actions in this AWS account. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws.property.assumableRoleArn">AssumableRoleArn</a></code> | <code>string</code> | Role ARN to be assumed by DevOpsAgent to operate on behalf of customer. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws.property.resources">Resources</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsResources">DevopsagentAssociationConfigurationSourceAwsResources</a>[]</code> | List of AWS resources. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws.property.tags">Tags</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags">DevopsagentAssociationConfigurationSourceAwsTags</a>[]</code> | List of AWS tags as key-value pairs. |
@@ -2500,7 +2626,7 @@ public string AccountId { get; set; }
 
 AWS Account Id corresponding to provided resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_id DevopsagentAssociation#account_id}
 
 ---
 
@@ -2514,7 +2640,23 @@ public string AccountType { get; set; }
 
 Account Type 'source' for DevOpsAgent monitoring.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#account_type DevopsagentAssociation#account_type}
+
+---
+
+##### `AgentElevatedRoleArn`<sup>Optional</sup> <a name="AgentElevatedRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws.property.agentElevatedRoleArn"></a>
+
+```csharp
+public string AgentElevatedRoleArn { get; set; }
+```
+
+- *Type:* string
+
+The IAM role that AWS DevOps Agent assumes to perform elevated directed actions in this AWS account.
+
+Elevated actions also require ElevatedActionsEnabled to be set in the Preferences of the AgentSpace. When not provided, only non-elevated directed actions are available. Removing this property from the template clears the role on update. Setting this role is subject to the same iam:PassRole requirement as AssumableRoleArn.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#agent_elevated_role_arn DevopsagentAssociation#agent_elevated_role_arn}
 
 ---
 
@@ -2528,7 +2670,7 @@ public string AssumableRoleArn { get; set; }
 
 Role ARN to be assumed by DevOpsAgent to operate on behalf of customer.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#assumable_role_arn DevopsagentAssociation#assumable_role_arn}
 
 ---
 
@@ -2542,7 +2684,7 @@ public IResolvable|DevopsagentAssociationConfigurationSourceAwsResources[] Resou
 
 List of AWS resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resources DevopsagentAssociation#resources}
 
 ---
 
@@ -2556,7 +2698,7 @@ public IResolvable|DevopsagentAssociationConfigurationSourceAwsTags[] Tags { get
 
 List of AWS tags as key-value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#tags DevopsagentAssociation#tags}
 
 ---
 
@@ -2594,7 +2736,7 @@ public string ResourceArn { get; set; }
 
 The Amazon Resource Name (ARN) of the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_arn DevopsagentAssociation#resource_arn}
 
 ---
 
@@ -2608,7 +2750,7 @@ public string ResourceMetadata { get; set; }
 
 Additional metadata for the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_metadata DevopsagentAssociation#resource_metadata}
 
 ---
 
@@ -2622,7 +2764,7 @@ public string ResourceType { get; set; }
 
 Resource type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#resource_type DevopsagentAssociation#resource_type}
 
 ---
 
@@ -2643,8 +2785,8 @@ new DevopsagentAssociationConfigurationSourceAwsTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
-| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}. |
 
 ---
 
@@ -2656,7 +2798,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#key DevopsagentAssociation#key}.
 
 ---
 
@@ -2668,7 +2810,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_association#value DevopsagentAssociation#value}.
 
 ---
 
@@ -2728,6 +2870,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.resetAccountId">ResetAccountId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.resetAccountType">ResetAccountType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.resetAgentElevatedRoleArn">ResetAgentElevatedRoleArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.resetAssumableRoleArn">ResetAssumableRoleArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.resetResources">ResetResources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.resetTags">ResetTags</a></code> | *No description.* |
@@ -2920,6 +3063,12 @@ private void ResetAccountId()
 private void ResetAccountType()
 ```
 
+##### `ResetAgentElevatedRoleArn` <a name="ResetAgentElevatedRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.resetAgentElevatedRoleArn"></a>
+
+```csharp
+private void ResetAgentElevatedRoleArn()
+```
+
 ##### `ResetAssumableRoleArn` <a name="ResetAssumableRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.resetAssumableRoleArn"></a>
 
 ```csharp
@@ -2949,11 +3098,13 @@ private void ResetTags()
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTagsList">DevopsagentAssociationConfigurationAwsTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.accountIdInput">AccountIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.accountTypeInput">AccountTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.agentElevatedRoleArnInput">AgentElevatedRoleArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.assumableRoleArnInput">AssumableRoleArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.resourcesInput">ResourcesInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsResources">DevopsagentAssociationConfigurationAwsResources</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.tagsInput">TagsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsTags">DevopsagentAssociationConfigurationAwsTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.accountId">AccountId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.accountType">AccountType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.agentElevatedRoleArn">AgentElevatedRoleArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.assumableRoleArn">AssumableRoleArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAws">DevopsagentAssociationConfigurationAws</a></code> | *No description.* |
 
@@ -3023,6 +3174,16 @@ public string AccountTypeInput { get; }
 
 ---
 
+##### `AgentElevatedRoleArnInput`<sup>Optional</sup> <a name="AgentElevatedRoleArnInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.agentElevatedRoleArnInput"></a>
+
+```csharp
+public string AgentElevatedRoleArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `AssumableRoleArnInput`<sup>Optional</sup> <a name="AssumableRoleArnInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.assumableRoleArnInput"></a>
 
 ```csharp
@@ -3067,6 +3228,16 @@ public string AccountId { get; }
 
 ```csharp
 public string AccountType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AgentElevatedRoleArn`<sup>Required</sup> <a name="AgentElevatedRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationAwsOutputReference.property.agentElevatedRoleArn"></a>
+
+```csharp
+public string AgentElevatedRoleArn { get; }
 ```
 
 - *Type:* string
@@ -5766,6 +5937,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.resetDescription">ResetDescription</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.resetEnabledElevatedTools">ResetEnabledElevatedTools</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.resetEnableWebhookUpdates">ResetEnableWebhookUpdates</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.resetEndpoint">ResetEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.resetName">ResetName</a></code> | *No description.* |
@@ -5928,6 +6100,12 @@ Returns a reversible string representation.
 private void ResetDescription()
 ```
 
+##### `ResetEnabledElevatedTools` <a name="ResetEnabledElevatedTools" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.resetEnabledElevatedTools"></a>
+
+```csharp
+private void ResetEnabledElevatedTools()
+```
+
 ##### `ResetEnableWebhookUpdates` <a name="ResetEnableWebhookUpdates" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.resetEnableWebhookUpdates"></a>
 
 ```csharp
@@ -5954,10 +6132,12 @@ private void ResetName()
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.enabledElevatedToolsInput">EnabledElevatedToolsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.enableWebhookUpdatesInput">EnableWebhookUpdatesInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.endpointInput">EndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.nameInput">NameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.description">Description</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.enabledElevatedTools">EnabledElevatedTools</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.enableWebhookUpdates">EnableWebhookUpdates</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.endpoint">Endpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.name">Name</a></code> | <code>string</code> | *No description.* |
@@ -5999,6 +6179,16 @@ public string DescriptionInput { get; }
 
 ---
 
+##### `EnabledElevatedToolsInput`<sup>Optional</sup> <a name="EnabledElevatedToolsInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.enabledElevatedToolsInput"></a>
+
+```csharp
+public string[] EnabledElevatedToolsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
 ##### `EnableWebhookUpdatesInput`<sup>Optional</sup> <a name="EnableWebhookUpdatesInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.enableWebhookUpdatesInput"></a>
 
 ```csharp
@@ -6036,6 +6226,16 @@ public string Description { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `EnabledElevatedTools`<sup>Required</sup> <a name="EnabledElevatedTools" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerDatadogOutputReference.property.enabledElevatedTools"></a>
+
+```csharp
+public string[] EnabledElevatedTools { get; }
+```
+
+- *Type:* string[]
 
 ---
 
@@ -6130,6 +6330,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.resetEnabledElevatedTools">ResetEnabledElevatedTools</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.resetEnableWebhookUpdates">ResetEnableWebhookUpdates</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.resetEndpoint">ResetEndpoint</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.resetTools">ResetTools</a></code> | *No description.* |
@@ -6286,6 +6487,12 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `ResetEnabledElevatedTools` <a name="ResetEnabledElevatedTools" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.resetEnabledElevatedTools"></a>
+
+```csharp
+private void ResetEnabledElevatedTools()
+```
+
 ##### `ResetEnableWebhookUpdates` <a name="ResetEnableWebhookUpdates" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.resetEnableWebhookUpdates"></a>
 
 ```csharp
@@ -6311,9 +6518,11 @@ private void ResetTools()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.enabledElevatedToolsInput">EnabledElevatedToolsInput</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.enableWebhookUpdatesInput">EnableWebhookUpdatesInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.endpointInput">EndpointInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.toolsInput">ToolsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.enabledElevatedTools">EnabledElevatedTools</a></code> | <code>string[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.enableWebhookUpdates">EnableWebhookUpdates</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.endpoint">Endpoint</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.tools">Tools</a></code> | <code>string[]</code> | *No description.* |
@@ -6345,6 +6554,16 @@ public string Fqn { get; }
 
 ---
 
+##### `EnabledElevatedToolsInput`<sup>Optional</sup> <a name="EnabledElevatedToolsInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.enabledElevatedToolsInput"></a>
+
+```csharp
+public string[] EnabledElevatedToolsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
 ##### `EnableWebhookUpdatesInput`<sup>Optional</sup> <a name="EnableWebhookUpdatesInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.enableWebhookUpdatesInput"></a>
 
 ```csharp
@@ -6369,6 +6588,16 @@ public string EndpointInput { get; }
 
 ```csharp
 public string[] ToolsInput { get; }
+```
+
+- *Type:* string[]
+
+---
+
+##### `EnabledElevatedTools`<sup>Required</sup> <a name="EnabledElevatedTools" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationMcpServerGrafanaOutputReference.property.enabledElevatedTools"></a>
+
+```csharp
+public string[] EnabledElevatedTools { get; }
 ```
 
 - *Type:* string[]
@@ -9324,6 +9553,313 @@ public IResolvable|DevopsagentAssociationConfigurationServiceNow InternalValue {
 ---
 
 
+### DevopsagentAssociationConfigurationSlackBidirectionalOutputReference <a name="DevopsagentAssociationConfigurationSlackBidirectionalOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new DevopsagentAssociationConfigurationSlackBidirectionalOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.resetEnabled">ResetEnabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.resetRoleArn">ResetRoleArn</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetEnabled` <a name="ResetEnabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.resetEnabled"></a>
+
+```csharp
+private void ResetEnabled()
+```
+
+##### `ResetRoleArn` <a name="ResetRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.resetRoleArn"></a>
+
+```csharp
+private void ResetRoleArn()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.enabledInput">EnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.roleArnInput">RoleArnInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.enabled">Enabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.roleArn">RoleArn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional">DevopsagentAssociationConfigurationSlackBidirectional</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `EnabledInput`<sup>Optional</sup> <a name="EnabledInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.enabledInput"></a>
+
+```csharp
+public bool|IResolvable EnabledInput { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `RoleArnInput`<sup>Optional</sup> <a name="RoleArnInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.roleArnInput"></a>
+
+```csharp
+public string RoleArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Enabled`<sup>Required</sup> <a name="Enabled" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.enabled"></a>
+
+```csharp
+public bool|IResolvable Enabled { get; }
+```
+
+- *Type:* bool|Io.Cdktn.IResolvable
+
+---
+
+##### `RoleArn`<sup>Required</sup> <a name="RoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.roleArn"></a>
+
+```csharp
+public string RoleArn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationConfigurationSlackBidirectional InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional">DevopsagentAssociationConfigurationSlackBidirectional</a>
+
+---
+
+
 ### DevopsagentAssociationConfigurationSlackOutputReference <a name="DevopsagentAssociationConfigurationSlackOutputReference" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.Initializer"></a>
@@ -9374,7 +9910,9 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.putBidirectional">PutBidirectional</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.putTransmissionTarget">PutTransmissionTarget</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.resetBidirectional">ResetBidirectional</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.resetTransmissionTarget">ResetTransmissionTarget</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.resetWorkspaceId">ResetWorkspaceId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.resetWorkspaceName">ResetWorkspaceName</a></code> | *No description.* |
@@ -9531,6 +10069,18 @@ Return a string representation of this resolvable object.
 
 Returns a reversible string representation.
 
+##### `PutBidirectional` <a name="PutBidirectional" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.putBidirectional"></a>
+
+```csharp
+private void PutBidirectional(DevopsagentAssociationConfigurationSlackBidirectional Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.putBidirectional.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional">DevopsagentAssociationConfigurationSlackBidirectional</a>
+
+---
+
 ##### `PutTransmissionTarget` <a name="PutTransmissionTarget" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.putTransmissionTarget"></a>
 
 ```csharp
@@ -9542,6 +10092,12 @@ private void PutTransmissionTarget(DevopsagentAssociationConfigurationSlackTrans
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTarget">DevopsagentAssociationConfigurationSlackTransmissionTarget</a>
 
 ---
+
+##### `ResetBidirectional` <a name="ResetBidirectional" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.resetBidirectional"></a>
+
+```csharp
+private void ResetBidirectional()
+```
 
 ##### `ResetTransmissionTarget` <a name="ResetTransmissionTarget" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.resetTransmissionTarget"></a>
 
@@ -9568,7 +10124,9 @@ private void ResetWorkspaceName()
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.bidirectional">Bidirectional</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference">DevopsagentAssociationConfigurationSlackBidirectionalOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.transmissionTarget">TransmissionTarget</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTargetOutputReference">DevopsagentAssociationConfigurationSlackTransmissionTargetOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.bidirectionalInput">BidirectionalInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional">DevopsagentAssociationConfigurationSlackBidirectional</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.transmissionTargetInput">TransmissionTargetInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTarget">DevopsagentAssociationConfigurationSlackTransmissionTarget</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.workspaceIdInput">WorkspaceIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.workspaceNameInput">WorkspaceNameInput</a></code> | <code>string</code> | *No description.* |
@@ -9602,6 +10160,16 @@ public string Fqn { get; }
 
 ---
 
+##### `Bidirectional`<sup>Required</sup> <a name="Bidirectional" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.bidirectional"></a>
+
+```csharp
+public DevopsagentAssociationConfigurationSlackBidirectionalOutputReference Bidirectional { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectionalOutputReference">DevopsagentAssociationConfigurationSlackBidirectionalOutputReference</a>
+
+---
+
 ##### `TransmissionTarget`<sup>Required</sup> <a name="TransmissionTarget" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.transmissionTarget"></a>
 
 ```csharp
@@ -9609,6 +10177,16 @@ public DevopsagentAssociationConfigurationSlackTransmissionTargetOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackTransmissionTargetOutputReference">DevopsagentAssociationConfigurationSlackTransmissionTargetOutputReference</a>
+
+---
+
+##### `BidirectionalInput`<sup>Optional</sup> <a name="BidirectionalInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackOutputReference.property.bidirectionalInput"></a>
+
+```csharp
+public IResolvable|DevopsagentAssociationConfigurationSlackBidirectional BidirectionalInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSlackBidirectional">DevopsagentAssociationConfigurationSlackBidirectional</a>
 
 ---
 
@@ -10325,6 +10903,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.putTags">PutTags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.resetAccountId">ResetAccountId</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.resetAccountType">ResetAccountType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.resetAgentElevatedRoleArn">ResetAgentElevatedRoleArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.resetAssumableRoleArn">ResetAssumableRoleArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.resetResources">ResetResources</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.resetTags">ResetTags</a></code> | *No description.* |
@@ -10517,6 +11096,12 @@ private void ResetAccountId()
 private void ResetAccountType()
 ```
 
+##### `ResetAgentElevatedRoleArn` <a name="ResetAgentElevatedRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.resetAgentElevatedRoleArn"></a>
+
+```csharp
+private void ResetAgentElevatedRoleArn()
+```
+
 ##### `ResetAssumableRoleArn` <a name="ResetAssumableRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.resetAssumableRoleArn"></a>
 
 ```csharp
@@ -10546,11 +11131,13 @@ private void ResetTags()
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTagsList">DevopsagentAssociationConfigurationSourceAwsTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.accountIdInput">AccountIdInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.accountTypeInput">AccountTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.agentElevatedRoleArnInput">AgentElevatedRoleArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.assumableRoleArnInput">AssumableRoleArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.resourcesInput">ResourcesInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsResources">DevopsagentAssociationConfigurationSourceAwsResources</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.tagsInput">TagsInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsTags">DevopsagentAssociationConfigurationSourceAwsTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.accountId">AccountId</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.accountType">AccountType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.agentElevatedRoleArn">AgentElevatedRoleArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.assumableRoleArn">AssumableRoleArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAws">DevopsagentAssociationConfigurationSourceAws</a></code> | *No description.* |
 
@@ -10620,6 +11207,16 @@ public string AccountTypeInput { get; }
 
 ---
 
+##### `AgentElevatedRoleArnInput`<sup>Optional</sup> <a name="AgentElevatedRoleArnInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.agentElevatedRoleArnInput"></a>
+
+```csharp
+public string AgentElevatedRoleArnInput { get; }
+```
+
+- *Type:* string
+
+---
+
 ##### `AssumableRoleArnInput`<sup>Optional</sup> <a name="AssumableRoleArnInput" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.assumableRoleArnInput"></a>
 
 ```csharp
@@ -10664,6 +11261,16 @@ public string AccountId { get; }
 
 ```csharp
 public string AccountType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `AgentElevatedRoleArn`<sup>Required</sup> <a name="AgentElevatedRoleArn" id="@cdktn/provider-awscc.devopsagentAssociation.DevopsagentAssociationConfigurationSourceAwsOutputReference.property.agentElevatedRoleArn"></a>
+
+```csharp
+public string AgentElevatedRoleArn { get; }
 ```
 
 - *Type:* string

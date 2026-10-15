@@ -4,7 +4,7 @@
 
 ### SesTenant <a name="SesTenant" id="@cdktn/provider-awscc.sesTenant.SesTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant awscc_ses_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenant.Initializer"></a>
 
@@ -22,7 +22,9 @@ sesTenant.SesTenant(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   tenant_name: str,
+  reputation_entity: SesTenantReputationEntity = None,
   resource_associations: IResolvable | typing.List[SesTenantResourceAssociations] = None,
+  suppression_attributes: SesTenantSuppressionAttributes = None,
   tags: IResolvable | typing.List[SesTenantTags] = None
 )
 ```
@@ -39,7 +41,9 @@ sesTenant.SesTenant(
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.tenantName">tenant_name</a></code> | <code>str</code> | The name of the tenant. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.reputationEntity">reputation_entity</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a></code> | The reputation configuration for the tenant. Sending status remains managed by SES. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.resourceAssociations">resource_associations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>]</code> | The list of resources to associate with the tenant. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.suppressionAttributes">suppression_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a></code> | The suppression attributes for the tenant. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.sesTenant.SesTenantTags">SesTenantTags</a>]</code> | The tags (keys and values) associated with the tenant. |
 
 ---
@@ -110,7 +114,17 @@ Must be unique amongst siblings in the same scope
 
 The name of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+
+---
+
+##### `reputation_entity`<sup>Optional</sup> <a name="reputation_entity" id="@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.reputationEntity"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a>
+
+The reputation configuration for the tenant. Sending status remains managed by SES.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity SesTenant#reputation_entity}
 
 ---
 
@@ -120,7 +134,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The list of resources to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+
+---
+
+##### `suppression_attributes`<sup>Optional</sup> <a name="suppression_attributes" id="@cdktn/provider-awscc.sesTenant.SesTenant.Initializer.parameter.suppressionAttributes"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a>
+
+The suppression attributes for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_attributes SesTenant#suppression_attributes}
 
 ---
 
@@ -130,7 +154,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tags (keys and values) associated with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#tags SesTenant#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tags SesTenant#tags}
 
 ---
 
@@ -162,9 +186,13 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.putReputationEntity">put_reputation_entity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.putResourceAssociations">put_resource_associations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.putSuppressionAttributes">put_suppression_attributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.putTags">put_tags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.resetReputationEntity">reset_reputation_entity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.resetResourceAssociations">reset_resource_associations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.resetSuppressionAttributes">reset_suppression_attributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.resetTags">reset_tags</a></code> | *No description.* |
 
 ---
@@ -517,6 +545,24 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_reputation_entity` <a name="put_reputation_entity" id="@cdktn/provider-awscc.sesTenant.SesTenant.putReputationEntity"></a>
+
+```python
+def put_reputation_entity(
+  policy: SesTenantReputationEntityPolicy = None
+) -> None
+```
+
+###### `policy`<sup>Optional</sup> <a name="policy" id="@cdktn/provider-awscc.sesTenant.SesTenant.putReputationEntity.parameter.policy"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a>
+
+The reputation policy for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#policy SesTenant#policy}
+
+---
+
 ##### `put_resource_associations` <a name="put_resource_associations" id="@cdktn/provider-awscc.sesTenant.SesTenant.putResourceAssociations"></a>
 
 ```python
@@ -528,6 +574,35 @@ def put_resource_associations(
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.sesTenant.SesTenant.putResourceAssociations.parameter.value"></a>
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>]
+
+---
+
+##### `put_suppression_attributes` <a name="put_suppression_attributes" id="@cdktn/provider-awscc.sesTenant.SesTenant.putSuppressionAttributes"></a>
+
+```python
+def put_suppression_attributes(
+  suppressed_reasons: typing.List[str] = None,
+  suppression_scope: str = None
+) -> None
+```
+
+###### `suppressed_reasons`<sup>Optional</sup> <a name="suppressed_reasons" id="@cdktn/provider-awscc.sesTenant.SesTenant.putSuppressionAttributes.parameter.suppressedReasons"></a>
+
+- *Type:* typing.List[str]
+
+The reasons that cause messages to be added to the suppression list.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppressed_reasons SesTenant#suppressed_reasons}
+
+---
+
+###### `suppression_scope`<sup>Optional</sup> <a name="suppression_scope" id="@cdktn/provider-awscc.sesTenant.SesTenant.putSuppressionAttributes.parameter.suppressionScope"></a>
+
+- *Type:* str
+
+The scope of the suppression list for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_scope SesTenant#suppression_scope}
 
 ---
 
@@ -545,10 +620,22 @@ def put_tags(
 
 ---
 
+##### `reset_reputation_entity` <a name="reset_reputation_entity" id="@cdktn/provider-awscc.sesTenant.SesTenant.resetReputationEntity"></a>
+
+```python
+def reset_reputation_entity() -> None
+```
+
 ##### `reset_resource_associations` <a name="reset_resource_associations" id="@cdktn/provider-awscc.sesTenant.SesTenant.resetResourceAssociations"></a>
 
 ```python
 def reset_resource_associations() -> None
+```
+
+##### `reset_suppression_attributes` <a name="reset_suppression_attributes" id="@cdktn/provider-awscc.sesTenant.SesTenant.resetSuppressionAttributes"></a>
+
+```python
+def reset_suppression_attributes() -> None
 ```
 
 ##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.sesTenant.SesTenant.resetTags"></a>
@@ -671,7 +758,7 @@ The construct id used in the generated config for the SesTenant to import.
 
 The id of the existing SesTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -703,9 +790,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.arn">arn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.reputationEntity">reputation_entity</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference">SesTenantReputationEntityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.resourceAssociations">resource_associations</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociationsList">SesTenantResourceAssociationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.suppressionAttributes">suppression_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference">SesTenantSuppressionAttributesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantTagsList">SesTenantTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.reputationEntityInput">reputation_entity_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.resourceAssociationsInput">resource_associations_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.suppressionAttributesInput">suppression_attributes_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.sesTenant.SesTenantTags">SesTenantTags</a>]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.tenantNameInput">tenant_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.tenantName">tenant_name</a></code> | <code>str</code> | *No description.* |
@@ -874,6 +965,16 @@ id: str
 
 ---
 
+##### `reputation_entity`<sup>Required</sup> <a name="reputation_entity" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.reputationEntity"></a>
+
+```python
+reputation_entity: SesTenantReputationEntityOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference">SesTenantReputationEntityOutputReference</a>
+
+---
+
 ##### `resource_associations`<sup>Required</sup> <a name="resource_associations" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.resourceAssociations"></a>
 
 ```python
@@ -881,6 +982,16 @@ resource_associations: SesTenantResourceAssociationsList
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociationsList">SesTenantResourceAssociationsList</a>
+
+---
+
+##### `suppression_attributes`<sup>Required</sup> <a name="suppression_attributes" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.suppressionAttributes"></a>
+
+```python
+suppression_attributes: SesTenantSuppressionAttributesOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference">SesTenantSuppressionAttributesOutputReference</a>
 
 ---
 
@@ -894,6 +1005,16 @@ tags: SesTenantTagsList
 
 ---
 
+##### `reputation_entity_input`<sup>Optional</sup> <a name="reputation_entity_input" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.reputationEntityInput"></a>
+
+```python
+reputation_entity_input: IResolvable | SesTenantReputationEntity
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a>
+
+---
+
 ##### `resource_associations_input`<sup>Optional</sup> <a name="resource_associations_input" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.resourceAssociationsInput"></a>
 
 ```python
@@ -901,6 +1022,16 @@ resource_associations_input: IResolvable | typing.List[SesTenantResourceAssociat
 ```
 
 - *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>]
+
+---
+
+##### `suppression_attributes_input`<sup>Optional</sup> <a name="suppression_attributes_input" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.suppressionAttributesInput"></a>
+
+```python
+suppression_attributes_input: IResolvable | SesTenantSuppressionAttributes
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a>
 
 ---
 
@@ -970,7 +1101,9 @@ sesTenant.SesTenantConfig(
   provider: TerraformProvider = None,
   provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
   tenant_name: str,
+  reputation_entity: SesTenantReputationEntity = None,
   resource_associations: IResolvable | typing.List[SesTenantResourceAssociations] = None,
+  suppression_attributes: SesTenantSuppressionAttributes = None,
   tags: IResolvable | typing.List[SesTenantTags] = None
 )
 ```
@@ -987,7 +1120,9 @@ sesTenant.SesTenantConfig(
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.tenantName">tenant_name</a></code> | <code>str</code> | The name of the tenant. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.reputationEntity">reputation_entity</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a></code> | The reputation configuration for the tenant. Sending status remains managed by SES. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.resourceAssociations">resource_associations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>]</code> | The list of resources to associate with the tenant. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.suppressionAttributes">suppression_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a></code> | The suppression attributes for the tenant. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.sesTenant.SesTenantTags">SesTenantTags</a>]</code> | The tags (keys and values) associated with the tenant. |
 
 ---
@@ -1072,7 +1207,21 @@ tenant_name: str
 
 The name of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+
+---
+
+##### `reputation_entity`<sup>Optional</sup> <a name="reputation_entity" id="@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.reputationEntity"></a>
+
+```python
+reputation_entity: SesTenantReputationEntity
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a>
+
+The reputation configuration for the tenant. Sending status remains managed by SES.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity SesTenant#reputation_entity}
 
 ---
 
@@ -1086,7 +1235,21 @@ resource_associations: IResolvable | typing.List[SesTenantResourceAssociations]
 
 The list of resources to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+
+---
+
+##### `suppression_attributes`<sup>Optional</sup> <a name="suppression_attributes" id="@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.suppressionAttributes"></a>
+
+```python
+suppression_attributes: SesTenantSuppressionAttributes
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a>
+
+The suppression attributes for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_attributes SesTenant#suppression_attributes}
 
 ---
 
@@ -1100,7 +1263,75 @@ tags: IResolvable | typing.List[SesTenantTags]
 
 The tags (keys and values) associated with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#tags SesTenant#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tags SesTenant#tags}
+
+---
+
+### SesTenantReputationEntity <a name="SesTenantReputationEntity" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ses_tenant
+
+sesTenant.SesTenantReputationEntity(
+  policy: SesTenantReputationEntityPolicy = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity.property.policy">policy</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a></code> | The reputation policy for the tenant. |
+
+---
+
+##### `policy`<sup>Optional</sup> <a name="policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity.property.policy"></a>
+
+```python
+policy: SesTenantReputationEntityPolicy
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a>
+
+The reputation policy for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#policy SesTenant#policy}
+
+---
+
+### SesTenantReputationEntityPolicy <a name="SesTenantReputationEntityPolicy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ses_tenant
+
+sesTenant.SesTenantReputationEntityPolicy(
+  reputation_entity_policy: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy.property.reputationEntityPolicy">reputation_entity_policy</a></code> | <code>str</code> | The ARN of an SES-managed reputation policy. |
+
+---
+
+##### `reputation_entity_policy`<sup>Optional</sup> <a name="reputation_entity_policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy.property.reputationEntityPolicy"></a>
+
+```python
+reputation_entity_policy: str
+```
+
+- *Type:* str
+
+The ARN of an SES-managed reputation policy.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity_policy SesTenant#reputation_entity_policy}
 
 ---
 
@@ -1134,7 +1365,57 @@ resource_arn: str
 
 The ARN of the resource to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
+
+---
+
+### SesTenantSuppressionAttributes <a name="SesTenantSuppressionAttributes" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ses_tenant
+
+sesTenant.SesTenantSuppressionAttributes(
+  suppressed_reasons: typing.List[str] = None,
+  suppression_scope: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.property.suppressedReasons">suppressed_reasons</a></code> | <code>typing.List[str]</code> | The reasons that cause messages to be added to the suppression list. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.property.suppressionScope">suppression_scope</a></code> | <code>str</code> | The scope of the suppression list for the tenant. |
+
+---
+
+##### `suppressed_reasons`<sup>Optional</sup> <a name="suppressed_reasons" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.property.suppressedReasons"></a>
+
+```python
+suppressed_reasons: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The reasons that cause messages to be added to the suppression list.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppressed_reasons SesTenant#suppressed_reasons}
+
+---
+
+##### `suppression_scope`<sup>Optional</sup> <a name="suppression_scope" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.property.suppressionScope"></a>
+
+```python
+suppression_scope: str
+```
+
+- *Type:* str
+
+The scope of the suppression list for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_scope SesTenant#suppression_scope}
 
 ---
 
@@ -1170,7 +1451,7 @@ key: str
 
 The key of the key-value tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#key SesTenant#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#key SesTenant#key}
 
 ---
 
@@ -1184,11 +1465,636 @@ value: str
 
 The value of the key-value tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#value SesTenant#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#value SesTenant#value}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### SesTenantReputationEntityOutputReference <a name="SesTenantReputationEntityOutputReference" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ses_tenant
+
+sesTenant.SesTenantReputationEntityOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.putPolicy">put_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resetPolicy">reset_policy</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_policy` <a name="put_policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.putPolicy"></a>
+
+```python
+def put_policy(
+  reputation_entity_policy: str = None
+) -> None
+```
+
+###### `reputation_entity_policy`<sup>Optional</sup> <a name="reputation_entity_policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.putPolicy.parameter.reputationEntityPolicy"></a>
+
+- *Type:* str
+
+The ARN of an SES-managed reputation policy.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity_policy SesTenant#reputation_entity_policy}
+
+---
+
+##### `reset_policy` <a name="reset_policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resetPolicy"></a>
+
+```python
+def reset_policy() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.policy">policy</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference">SesTenantReputationEntityPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.policyInput">policy_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `policy`<sup>Required</sup> <a name="policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.policy"></a>
+
+```python
+policy: SesTenantReputationEntityPolicyOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference">SesTenantReputationEntityPolicyOutputReference</a>
+
+---
+
+##### `policy_input`<sup>Optional</sup> <a name="policy_input" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.policyInput"></a>
+
+```python
+policy_input: IResolvable | SesTenantReputationEntityPolicy
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | SesTenantReputationEntity
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a>
+
+---
+
+
+### SesTenantReputationEntityPolicyOutputReference <a name="SesTenantReputationEntityPolicyOutputReference" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ses_tenant
+
+sesTenant.SesTenantReputationEntityPolicyOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resetReputationEntityPolicy">reset_reputation_entity_policy</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_reputation_entity_policy` <a name="reset_reputation_entity_policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resetReputationEntityPolicy"></a>
+
+```python
+def reset_reputation_entity_policy() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicyInput">reputation_entity_policy_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicy">reputation_entity_policy</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `reputation_entity_policy_input`<sup>Optional</sup> <a name="reputation_entity_policy_input" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicyInput"></a>
+
+```python
+reputation_entity_policy_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `reputation_entity_policy`<sup>Required</sup> <a name="reputation_entity_policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicy"></a>
+
+```python
+reputation_entity_policy: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | SesTenantReputationEntityPolicy
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a>
+
+---
+
 
 ### SesTenantResourceAssociationsList <a name="SesTenantResourceAssociationsList" id="@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociationsList"></a>
 
@@ -1679,6 +2585,338 @@ internal_value: IResolvable | SesTenantResourceAssociations
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>
+
+---
+
+
+### SesTenantSuppressionAttributesOutputReference <a name="SesTenantSuppressionAttributesOutputReference" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import ses_tenant
+
+sesTenant.SesTenantSuppressionAttributesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resetSuppressedReasons">reset_suppressed_reasons</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resetSuppressionScope">reset_suppression_scope</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_suppressed_reasons` <a name="reset_suppressed_reasons" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resetSuppressedReasons"></a>
+
+```python
+def reset_suppressed_reasons() -> None
+```
+
+##### `reset_suppression_scope` <a name="reset_suppression_scope" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resetSuppressionScope"></a>
+
+```python
+def reset_suppression_scope() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressedReasonsInput">suppressed_reasons_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressionScopeInput">suppression_scope_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressedReasons">suppressed_reasons</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressionScope">suppression_scope</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `suppressed_reasons_input`<sup>Optional</sup> <a name="suppressed_reasons_input" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressedReasonsInput"></a>
+
+```python
+suppressed_reasons_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `suppression_scope_input`<sup>Optional</sup> <a name="suppression_scope_input" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressionScopeInput"></a>
+
+```python
+suppression_scope_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `suppressed_reasons`<sup>Required</sup> <a name="suppressed_reasons" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressedReasons"></a>
+
+```python
+suppressed_reasons: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `suppression_scope`<sup>Required</sup> <a name="suppression_scope" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressionScope"></a>
+
+```python
+suppression_scope: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | SesTenantSuppressionAttributes
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a>
 
 ---
 

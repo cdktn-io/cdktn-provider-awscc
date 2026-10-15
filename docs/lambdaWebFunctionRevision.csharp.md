@@ -4,7 +4,7 @@
 
 ### LambdaWebFunctionRevision <a name="LambdaWebFunctionRevision" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevision"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision awscc_lambda_web_function_revision}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision awscc_lambda_web_function_revision}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevision.Initializer"></a>
 
@@ -529,7 +529,7 @@ The construct id used in the generated config for the LambdaWebFunctionRevision 
 
 The id of the existing LambdaWebFunctionRevision that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -943,7 +943,7 @@ public LambdaWebFunctionRevisionBuildConfigCodeConfig CodeConfig { get; set; }
 
 The code configuration for the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#code_config LambdaWebFunctionRevision#code_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#code_config LambdaWebFunctionRevision#code_config}
 
 ---
 
@@ -957,7 +957,7 @@ public LambdaWebFunctionRevisionBuildConfigRuntimeConfig RuntimeConfig { get; se
 
 The runtime configuration for the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#runtime_config LambdaWebFunctionRevision#runtime_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#runtime_config LambdaWebFunctionRevision#runtime_config}
 
 ---
 
@@ -991,7 +991,7 @@ public LambdaWebFunctionRevisionBuildConfigCodeConfigS3Object S3Object { get; se
 
 The Amazon S3 location of the deployment artifact.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#s3_object LambdaWebFunctionRevision#s3_object}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#s3_object LambdaWebFunctionRevision#s3_object}
 
 ---
 
@@ -1029,7 +1029,7 @@ public string Bucket { get; set; }
 
 The S3 bucket name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#bucket LambdaWebFunctionRevision#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#bucket LambdaWebFunctionRevision#bucket}
 
 ---
 
@@ -1043,7 +1043,7 @@ public string Key { get; set; }
 
 The S3 object key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#key LambdaWebFunctionRevision#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#key LambdaWebFunctionRevision#key}
 
 ---
 
@@ -1057,7 +1057,7 @@ public string VersionId { get; set; }
 
 The S3 object version ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#version_id LambdaWebFunctionRevision#version_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#version_id LambdaWebFunctionRevision#version_id}
 
 ---
 
@@ -1091,7 +1091,7 @@ public string Runtime { get; set; }
 
 The runtime identifier.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#runtime LambdaWebFunctionRevision#runtime}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#runtime LambdaWebFunctionRevision#runtime}
 
 ---
 
@@ -1217,7 +1217,7 @@ public LambdaWebFunctionRevisionBuildConfig BuildConfig { get; set; }
 
 The build configuration for the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#build_config LambdaWebFunctionRevision#build_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#build_config LambdaWebFunctionRevision#build_config}
 
 ---
 
@@ -1233,7 +1233,7 @@ The name of the web function this revision belongs to.
 
 The length constraint applies only to the full ARN. If you specify only the function name, it is limited to 64 characters in length.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#function_name LambdaWebFunctionRevision#function_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#function_name LambdaWebFunctionRevision#function_name}
 
 ---
 
@@ -1247,7 +1247,7 @@ public LambdaWebFunctionRevisionServiceConfig ServiceConfig { get; set; }
 
 The service configuration for the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#service_config LambdaWebFunctionRevision#service_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#service_config LambdaWebFunctionRevision#service_config}
 
 ---
 
@@ -1261,7 +1261,7 @@ public string Description { get; set; }
 
 A description of the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#description LambdaWebFunctionRevision#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#description LambdaWebFunctionRevision#description}
 
 ---
 
@@ -1275,7 +1275,7 @@ public string KmsKeyArn { get; set; }
 
 The ARN of the KMS key used to encrypt the revision.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#kms_key_arn LambdaWebFunctionRevision#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#kms_key_arn LambdaWebFunctionRevision#kms_key_arn}
 
 ---
 
@@ -1288,6 +1288,7 @@ using Io.Cdktn.Providers.Awscc;
 
 new LambdaWebFunctionRevisionServiceConfig {
     string ExecutionRoleArn,
+    string EgressNetworkConnectorArn = null,
     System.Collections.Generic.IDictionary<string, string> EnvironmentVariables = null,
     double MaxConcurrencyPerEnvironment = null,
     LambdaWebFunctionRevisionServiceConfigTelemetryConfig TelemetryConfig = null,
@@ -1300,6 +1301,7 @@ new LambdaWebFunctionRevisionServiceConfig {
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig.property.executionRoleArn">ExecutionRoleArn</a></code> | <code>string</code> | The ARN of the execution role. |
+| <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig.property.egressNetworkConnectorArn">EgressNetworkConnectorArn</a></code> | <code>string</code> | The versioned ARN of the network connector used for outbound network access from the revision. |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig.property.environmentVariables">EnvironmentVariables</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | Environment variables for the function. |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig.property.maxConcurrencyPerEnvironment">MaxConcurrencyPerEnvironment</a></code> | <code>double</code> | The maximum concurrency per environment. |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig.property.telemetryConfig">TelemetryConfig</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfig">LambdaWebFunctionRevisionServiceConfigTelemetryConfig</a></code> | The telemetry configuration. |
@@ -1317,7 +1319,21 @@ public string ExecutionRoleArn { get; set; }
 
 The ARN of the execution role.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#execution_role_arn LambdaWebFunctionRevision#execution_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#execution_role_arn LambdaWebFunctionRevision#execution_role_arn}
+
+---
+
+##### `EgressNetworkConnectorArn`<sup>Optional</sup> <a name="EgressNetworkConnectorArn" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfig.property.egressNetworkConnectorArn"></a>
+
+```csharp
+public string EgressNetworkConnectorArn { get; set; }
+```
+
+- *Type:* string
+
+The versioned ARN of the network connector used for outbound network access from the revision.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#egress_network_connector_arn LambdaWebFunctionRevision#egress_network_connector_arn}
 
 ---
 
@@ -1331,7 +1347,7 @@ public System.Collections.Generic.IDictionary<string, string> EnvironmentVariabl
 
 Environment variables for the function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#environment_variables LambdaWebFunctionRevision#environment_variables}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#environment_variables LambdaWebFunctionRevision#environment_variables}
 
 ---
 
@@ -1345,7 +1361,7 @@ public double MaxConcurrencyPerEnvironment { get; set; }
 
 The maximum concurrency per environment.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#max_concurrency_per_environment LambdaWebFunctionRevision#max_concurrency_per_environment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#max_concurrency_per_environment LambdaWebFunctionRevision#max_concurrency_per_environment}
 
 ---
 
@@ -1359,7 +1375,7 @@ public LambdaWebFunctionRevisionServiceConfigTelemetryConfig TelemetryConfig { g
 
 The telemetry configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#telemetry_config LambdaWebFunctionRevision#telemetry_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#telemetry_config LambdaWebFunctionRevision#telemetry_config}
 
 ---
 
@@ -1373,7 +1389,7 @@ public double TimeoutSeconds { get; set; }
 
 The function timeout in seconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#timeout_seconds LambdaWebFunctionRevision#timeout_seconds}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#timeout_seconds LambdaWebFunctionRevision#timeout_seconds}
 
 ---
 
@@ -1407,7 +1423,7 @@ public LambdaWebFunctionRevisionServiceConfigTelemetryConfigLoggingConfig Loggin
 
 The logging configuration for the web function.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#logging_config LambdaWebFunctionRevision#logging_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#logging_config LambdaWebFunctionRevision#logging_config}
 
 ---
 
@@ -1445,7 +1461,7 @@ public string ApplicationLogLevel { get; set; }
 
 The application log level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#application_log_level LambdaWebFunctionRevision#application_log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#application_log_level LambdaWebFunctionRevision#application_log_level}
 
 ---
 
@@ -1459,7 +1475,7 @@ public string LogGroup { get; set; }
 
 The CloudWatch log group name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#log_group LambdaWebFunctionRevision#log_group}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#log_group LambdaWebFunctionRevision#log_group}
 
 ---
 
@@ -1473,7 +1489,7 @@ public string SystemLogLevel { get; set; }
 
 The system log level.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_web_function_revision#system_log_level LambdaWebFunctionRevision#system_log_level}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_web_function_revision#system_log_level LambdaWebFunctionRevision#system_log_level}
 
 ---
 
@@ -2726,6 +2742,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.putTelemetryConfig">PutTelemetryConfig</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.resetEgressNetworkConnectorArn">ResetEgressNetworkConnectorArn</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.resetEnvironmentVariables">ResetEnvironmentVariables</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.resetMaxConcurrencyPerEnvironment">ResetMaxConcurrencyPerEnvironment</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.resetTelemetryConfig">ResetTelemetryConfig</a></code> | *No description.* |
@@ -2895,6 +2912,12 @@ private void PutTelemetryConfig(LambdaWebFunctionRevisionServiceConfigTelemetryC
 
 ---
 
+##### `ResetEgressNetworkConnectorArn` <a name="ResetEgressNetworkConnectorArn" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.resetEgressNetworkConnectorArn"></a>
+
+```csharp
+private void ResetEgressNetworkConnectorArn()
+```
+
 ##### `ResetEnvironmentVariables` <a name="ResetEnvironmentVariables" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.resetEnvironmentVariables"></a>
 
 ```csharp
@@ -2927,11 +2950,13 @@ private void ResetTimeoutSeconds()
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.telemetryConfig">TelemetryConfig</a></code> | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference">LambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.egressNetworkConnectorArnInput">EgressNetworkConnectorArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.environmentVariablesInput">EnvironmentVariablesInput</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.executionRoleArnInput">ExecutionRoleArnInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.maxConcurrencyPerEnvironmentInput">MaxConcurrencyPerEnvironmentInput</a></code> | <code>double</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.telemetryConfigInput">TelemetryConfigInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfig">LambdaWebFunctionRevisionServiceConfigTelemetryConfig</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.timeoutSecondsInput">TimeoutSecondsInput</a></code> | <code>double</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.egressNetworkConnectorArn">EgressNetworkConnectorArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.environmentVariables">EnvironmentVariables</a></code> | <code>System.Collections.Generic.IDictionary<string, string></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.executionRoleArn">ExecutionRoleArn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.maxConcurrencyPerEnvironment">MaxConcurrencyPerEnvironment</a></code> | <code>double</code> | *No description.* |
@@ -2971,6 +2996,16 @@ public LambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference Tele
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference">LambdaWebFunctionRevisionServiceConfigTelemetryConfigOutputReference</a>
+
+---
+
+##### `EgressNetworkConnectorArnInput`<sup>Optional</sup> <a name="EgressNetworkConnectorArnInput" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.egressNetworkConnectorArnInput"></a>
+
+```csharp
+public string EgressNetworkConnectorArnInput { get; }
+```
+
+- *Type:* string
 
 ---
 
@@ -3021,6 +3056,16 @@ public double TimeoutSecondsInput { get; }
 ```
 
 - *Type:* double
+
+---
+
+##### `EgressNetworkConnectorArn`<sup>Required</sup> <a name="EgressNetworkConnectorArn" id="@cdktn/provider-awscc.lambdaWebFunctionRevision.LambdaWebFunctionRevisionServiceConfigOutputReference.property.egressNetworkConnectorArn"></a>
+
+```csharp
+public string EgressNetworkConnectorArn { get; }
+```
+
+- *Type:* string
 
 ---
 

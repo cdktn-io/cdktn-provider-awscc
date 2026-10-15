@@ -4,7 +4,7 @@
 
 ### DataAwsccPaymentcryptographyKey <a name="DataAwsccPaymentcryptographyKey" id="@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKey"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/paymentcryptography_key awscc_paymentcryptography_key}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/paymentcryptography_key awscc_paymentcryptography_key}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKey.Initializer"></a>
 
@@ -106,7 +106,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/paymentcryptography_key#id DataAwsccPaymentcryptographyKey#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/paymentcryptography_key#id DataAwsccPaymentcryptographyKey#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -492,7 +492,7 @@ The construct id used in the generated config for the DataAwsccPaymentcryptograp
 
 The id of the existing DataAwsccPaymentcryptographyKey that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/paymentcryptography_key#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/paymentcryptography_key#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -933,7 +933,7 @@ id: str
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/paymentcryptography_key#id DataAwsccPaymentcryptographyKey#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/paymentcryptography_key#id DataAwsccPaymentcryptographyKey#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2067,6 +2067,8 @@ Returns a reversible string representation.
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.kmsKeyId">kms_key_id</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.status">status</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.statusMessage">status_message</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatus">DataAwsccPaymentcryptographyKeyReplicationStatus</a></code> | *No description.* |
@@ -2091,6 +2093,26 @@ If this returns an empty array the stack will not be attached.
 
 ```python
 fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_arn`<sup>Required</sup> <a name="kms_key_arn" id="@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.kmsKeyArn"></a>
+
+```python
+kms_key_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `kms_key_id`<sup>Required</sup> <a name="kms_key_id" id="@cdktn/provider-awscc.dataAwsccPaymentcryptographyKey.DataAwsccPaymentcryptographyKeyReplicationStatusOutputReference.property.kmsKeyId"></a>
+
+```python
+kms_key_id: str
 ```
 
 - *Type:* str

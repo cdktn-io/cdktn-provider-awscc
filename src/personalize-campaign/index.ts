@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface PersonalizeCampaignConfig extends cdktn.TerraformMetaArguments 
   /**
   * The configuration details of a campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#campaign_config PersonalizeCampaign#campaign_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#campaign_config PersonalizeCampaign#campaign_config}
   */
   readonly campaignConfig?: PersonalizeCampaignCampaignConfig;
   /**
   * Specifies the requested minimum provisioned transactions per second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#min_provisioned_tps PersonalizeCampaign#min_provisioned_tps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#min_provisioned_tps PersonalizeCampaign#min_provisioned_tps}
   */
   readonly minProvisionedTps?: number;
   /**
   * The name of the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#name PersonalizeCampaign#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#name PersonalizeCampaign#name}
   */
   readonly name: string;
   /**
   * The ARN of the solution version to deploy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#solution_version_arn PersonalizeCampaign#solution_version_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#solution_version_arn PersonalizeCampaign#solution_version_arn}
   */
   readonly solutionVersionArn: string;
   /**
   * Tags to associate with the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#tags PersonalizeCampaign#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#tags PersonalizeCampaign#tags}
   */
   readonly tags?: PersonalizeCampaignTags[] | cdktn.IResolvable;
 }
@@ -47,25 +47,25 @@ export interface PersonalizeCampaignCampaignConfig {
   /**
   * Whether metadata with recommendations is enabled for the campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#enable_metadata_with_recommendations PersonalizeCampaign#enable_metadata_with_recommendations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#enable_metadata_with_recommendations PersonalizeCampaign#enable_metadata_with_recommendations}
   */
   readonly enableMetadataWithRecommendations?: boolean | cdktn.IResolvable;
   /**
   * Specifies the exploration configuration hyperparameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#item_exploration_config PersonalizeCampaign#item_exploration_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#item_exploration_config PersonalizeCampaign#item_exploration_config}
   */
   readonly itemExplorationConfig?: { [key: string]: string };
   /**
   * A map of ranking influence values for POPULARITY and FRESHNESS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#ranking_influence PersonalizeCampaign#ranking_influence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#ranking_influence PersonalizeCampaign#ranking_influence}
   */
   readonly rankingInfluence?: { [key: string]: number };
   /**
   * Whether the campaign automatically updates to use the latest solution version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#sync_with_latest_solution_version PersonalizeCampaign#sync_with_latest_solution_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#sync_with_latest_solution_version PersonalizeCampaign#sync_with_latest_solution_version}
   */
   readonly syncWithLatestSolutionVersion?: boolean | cdktn.IResolvable;
 }
@@ -248,13 +248,13 @@ export interface PersonalizeCampaignTags {
   /**
   * The key name of the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#key PersonalizeCampaign#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#key PersonalizeCampaign#key}
   */
   readonly key?: string;
   /**
   * The value for the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#value PersonalizeCampaign#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#value PersonalizeCampaign#value}
   */
   readonly value?: string;
 }
@@ -399,7 +399,7 @@ export class PersonalizeCampaignTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign awscc_personalize_campaign}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign}
 */
 export class PersonalizeCampaign extends cdktn.TerraformResource {
 
@@ -415,7 +415,7 @@ export class PersonalizeCampaign extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a PersonalizeCampaign resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PersonalizeCampaign to import
-  * @param importFromId The id of the existing PersonalizeCampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PersonalizeCampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PersonalizeCampaign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -427,7 +427,7 @@ export class PersonalizeCampaign extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -438,7 +438,7 @@ export class PersonalizeCampaign extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_personalize_campaign',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

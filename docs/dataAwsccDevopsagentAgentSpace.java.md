@@ -4,7 +4,7 @@
 
 ### DataAwsccDevopsagentAgentSpace <a name="DataAwsccDevopsagentAgentSpace" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpace"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_agent_space awscc_devopsagent_agent_space}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_agent_space awscc_devopsagent_agent_space}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpace.Initializer"></a>
 
@@ -104,7 +104,7 @@ Must be unique amongst siblings in the same scope
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_agent_space#id DataAwsccDevopsagentAgentSpace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_agent_space#id DataAwsccDevopsagentAgentSpace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -452,7 +452,7 @@ The construct id used in the generated config for the DataAwsccDevopsagentAgentS
 
 The id of the existing DataAwsccDevopsagentAgentSpace that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_agent_space#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_agent_space#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -882,7 +882,7 @@ public java.lang.String getId();
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_agent_space#id DataAwsccDevopsagentAgentSpace#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_agent_space#id DataAwsccDevopsagentAgentSpace#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -921,6 +921,18 @@ DataAwsccDevopsagentAgentSpaceOperatorAppIam.builder()
 import io.cdktn.providers.awscc.data_awscc_devopsagent_agent_space.DataAwsccDevopsagentAgentSpaceOperatorAppIdc;
 
 DataAwsccDevopsagentAgentSpaceOperatorAppIdc.builder()
+    .build();
+```
+
+
+### DataAwsccDevopsagentAgentSpaceOperatorAppIdp <a name="DataAwsccDevopsagentAgentSpaceOperatorAppIdp" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdp"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdp.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_devopsagent_agent_space.DataAwsccDevopsagentAgentSpaceOperatorAppIdp;
+
+DataAwsccDevopsagentAgentSpaceOperatorAppIdp.builder()
     .build();
 ```
 
@@ -1537,6 +1549,343 @@ public DataAwsccDevopsagentAgentSpaceOperatorAppIdc getInternalValue();
 ---
 
 
+### DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference <a name="DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.Initializer"></a>
+
+```java
+import io.cdktn.providers.awscc.data_awscc_devopsagent_agent_space.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference;
+
+new DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference(IInterpolatingParent terraformResource, java.lang.String terraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>io.cdktn.cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>java.lang.String</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* io.cdktn.cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.computeFqn"></a>
+
+```java
+public java.lang.String computeFqn()
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getAnyMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Object> getAnyMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getBooleanAttribute"></a>
+
+```java
+public IResolvable getBooleanAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getBooleanMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Boolean> getBooleanMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getListAttribute"></a>
+
+```java
+public java.util.List<java.lang.String> getListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberAttribute"></a>
+
+```java
+public java.lang.Number getNumberAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberListAttribute"></a>
+
+```java
+public java.util.List<java.lang.Number> getNumberListAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.Number> getNumberMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getStringAttribute"></a>
+
+```java
+public java.lang.String getStringAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getStringMapAttribute"></a>
+
+```java
+public java.util.Map<java.lang.String, java.lang.String> getStringMapAttribute(java.lang.String terraformAttribute)
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.interpolationForAttribute"></a>
+
+```java
+public IResolvable interpolationForAttribute(java.lang.String property)
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* java.lang.String
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.resolve"></a>
+
+```java
+public java.lang.Object resolve(IResolveContext _context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.resolve.parameter._context"></a>
+
+- *Type:* io.cdktn.cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.toString"></a>
+
+```java
+public java.lang.String toString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.creationStack">creationStack</a></code> | <code>java.util.List<java.lang.String></code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.clientId">clientId</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.clientSecret">clientSecret</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.createdAt">createdAt</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.issuerUrl">issuerUrl</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.operatorAppRoleArn">operatorAppRoleArn</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.provider">provider</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.updatedAt">updatedAt</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.userIdClaim">userIdClaim</a></code> | <code>java.lang.String</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdp">DataAwsccDevopsagentAgentSpaceOperatorAppIdp</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.creationStack"></a>
+
+```java
+public java.util.List<java.lang.String> getCreationStack();
+```
+
+- *Type:* java.util.List<java.lang.String>
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.fqn"></a>
+
+```java
+public java.lang.String getFqn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `clientId`<sup>Required</sup> <a name="clientId" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.clientId"></a>
+
+```java
+public java.lang.String getClientId();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `clientSecret`<sup>Required</sup> <a name="clientSecret" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.clientSecret"></a>
+
+```java
+public java.lang.String getClientSecret();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `createdAt`<sup>Required</sup> <a name="createdAt" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.createdAt"></a>
+
+```java
+public java.lang.String getCreatedAt();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `issuerUrl`<sup>Required</sup> <a name="issuerUrl" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.issuerUrl"></a>
+
+```java
+public java.lang.String getIssuerUrl();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `operatorAppRoleArn`<sup>Required</sup> <a name="operatorAppRoleArn" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.operatorAppRoleArn"></a>
+
+```java
+public java.lang.String getOperatorAppRoleArn();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `provider`<sup>Required</sup> <a name="provider" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.provider"></a>
+
+```java
+public java.lang.String getProvider();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `updatedAt`<sup>Required</sup> <a name="updatedAt" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.updatedAt"></a>
+
+```java
+public java.lang.String getUpdatedAt();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `userIdClaim`<sup>Required</sup> <a name="userIdClaim" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.userIdClaim"></a>
+
+```java
+public java.lang.String getUserIdClaim();
+```
+
+- *Type:* java.lang.String
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference.property.internalValue"></a>
+
+```java
+public DataAwsccDevopsagentAgentSpaceOperatorAppIdp getInternalValue();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdp">DataAwsccDevopsagentAgentSpaceOperatorAppIdp</a>
+
+---
+
+
 ### DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference <a name="DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference"></a>
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference.Initializer"></a>
@@ -1749,6 +2098,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference.property.fqn">fqn</a></code> | <code>java.lang.String</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference.property.iam">iam</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIamOutputReference">DataAwsccDevopsagentAgentSpaceOperatorAppIamOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference.property.idc">idc</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdcOutputReference">DataAwsccDevopsagentAgentSpaceOperatorAppIdcOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference.property.idp">idp</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference">DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference.property.internalValue">internalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorApp">DataAwsccDevopsagentAgentSpaceOperatorApp</a></code> | *No description.* |
 
 ---
@@ -1794,6 +2144,16 @@ public DataAwsccDevopsagentAgentSpaceOperatorAppIdcOutputReference getIdc();
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdcOutputReference">DataAwsccDevopsagentAgentSpaceOperatorAppIdcOutputReference</a>
+
+---
+
+##### `idp`<sup>Required</sup> <a name="idp" id="@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppOutputReference.property.idp"></a>
+
+```java
+public DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference getIdp();
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccDevopsagentAgentSpace.DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference">DataAwsccDevopsagentAgentSpaceOperatorAppIdpOutputReference</a>
 
 ---
 

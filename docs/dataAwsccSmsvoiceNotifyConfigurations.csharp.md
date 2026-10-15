@@ -4,7 +4,7 @@
 
 ### DataAwsccSmsvoiceNotifyConfigurations <a name="DataAwsccSmsvoiceNotifyConfigurations" id="@cdktn/provider-awscc.dataAwsccSmsvoiceNotifyConfigurations.DataAwsccSmsvoiceNotifyConfigurations"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/smsvoice_notify_configurations awscc_smsvoice_notify_configurations}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_notify_configurations awscc_smsvoice_notify_configurations}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSmsvoiceNotifyConfigurations.DataAwsccSmsvoiceNotifyConfigurations.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSmsvoiceNotifyCon
 
 The id of the existing DataAwsccSmsvoiceNotifyConfigurations that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/smsvoice_notify_configurations#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/smsvoice_notify_configurations#import import section} in the documentation of this resource for the id to use
 
 ---
 

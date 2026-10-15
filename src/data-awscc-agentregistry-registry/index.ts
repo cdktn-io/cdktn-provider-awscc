@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccAgentregistryRegistryConfig extends cdktn.TerraformMet
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry#id DataAwsccAgentregistryRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry#id DataAwsccAgentregistryRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -74,6 +74,146 @@ export class DataAwsccAgentregistryRegistryApprovalConfigurationOutputReference 
   // auto_approval_rules - computed: true, optional: false, required: false
   public get autoApprovalRules() {
     return this.getListAttribute('auto_approval_rules');
+  }
+}
+export interface DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides {
+}
+
+export function dataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesToTerraform(struct?: DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesToHclTerraform(struct?: DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // record_type - computed: true, optional: false, required: false
+  public get recordType() {
+    return this.getStringAttribute('record_type');
+  }
+
+  // schema - computed: true, optional: false, required: false
+  public get schema() {
+    return this.getStringAttribute('schema');
+  }
+}
+
+export class DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference {
+    return new DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccAgentregistryRegistryCustomMetadataSchemaConfiguration {
+}
+
+export function dataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationToTerraform(struct?: DataAwsccAgentregistryRegistryCustomMetadataSchemaConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationToHclTerraform(struct?: DataAwsccAgentregistryRegistryCustomMetadataSchemaConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccAgentregistryRegistryCustomMetadataSchemaConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccAgentregistryRegistryCustomMetadataSchemaConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default_schema - computed: true, optional: false, required: false
+  public get defaultSchema() {
+    return this.getStringAttribute('default_schema');
+  }
+
+  // record_type_schema_overrides - computed: true, optional: false, required: false
+  private _recordTypeSchemaOverrides = new DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList(this, "record_type_schema_overrides", false);
+  public get recordTypeSchemaOverrides() {
+    return this._recordTypeSchemaOverrides;
   }
 }
 export interface DataAwsccAgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue {
@@ -602,7 +742,7 @@ export class DataAwsccAgentregistryRegistryTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry}
 */
 export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
 
@@ -618,7 +758,7 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccAgentregistryRegistry resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccAgentregistryRegistry to import
-  * @param importFromId The id of the existing DataAwsccAgentregistryRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccAgentregistryRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccAgentregistryRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -630,7 +770,7 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/agentregistry_registry awscc_agentregistry_registry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -641,7 +781,7 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_agentregistry_registry',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -688,6 +828,12 @@ export class DataAwsccAgentregistryRegistry extends cdktn.TerraformDataSource {
   // created_at - computed: true, optional: false, required: false
   public get createdAt() {
     return this.getStringAttribute('created_at');
+  }
+
+  // custom_metadata_schema_configuration - computed: true, optional: false, required: false
+  private _customMetadataSchemaConfiguration = new DataAwsccAgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference(this, "custom_metadata_schema_configuration");
+  public get customMetadataSchemaConfiguration() {
+    return this._customMetadataSchemaConfiguration;
   }
 
   // description - computed: true, optional: false, required: false

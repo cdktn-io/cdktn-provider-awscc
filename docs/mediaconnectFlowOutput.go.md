@@ -4,7 +4,7 @@
 
 ### MediaconnectFlowOutput <a name="MediaconnectFlowOutput" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output awscc_mediaconnect_flow_output}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.Initializer"></a>
 
@@ -87,6 +87,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetMediaStreamOutputConfigurations">ResetMediaStreamOutputConfigurations</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetMinLatency">ResetMinLatency</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetName">ResetName</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetNdiAudioReferenceLevel">ResetNdiAudioReferenceLevel</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetNdiOutputTimecodeSource">ResetNdiOutputTimecodeSource</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetNdiProgramName">ResetNdiProgramName</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetNdiSpeedHqQuality">ResetNdiSpeedHqQuality</a></code> | *No description.* |
@@ -520,6 +521,12 @@ func ResetMinLatency()
 func ResetName()
 ```
 
+##### `ResetNdiAudioReferenceLevel` <a name="ResetNdiAudioReferenceLevel" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetNdiAudioReferenceLevel"></a>
+
+```go
+func ResetNdiAudioReferenceLevel()
+```
+
 ##### `ResetNdiOutputTimecodeSource` <a name="ResetNdiOutputTimecodeSource" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.resetNdiOutputTimecodeSource"></a>
 
 ```go
@@ -701,7 +708,7 @@ The construct id used in the generated config for the MediaconnectFlowOutput to 
 
 The id of the existing MediaconnectFlowOutput that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -747,6 +754,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.mediaStreamOutputConfigurationsInput">MediaStreamOutputConfigurationsInput</a></code> | <code>interface{}</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.minLatencyInput">MinLatencyInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.nameInput">NameInput</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiAudioReferenceLevelInput">NdiAudioReferenceLevelInput</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiOutputTimecodeSourceInput">NdiOutputTimecodeSourceInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiProgramNameInput">NdiProgramNameInput</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiSpeedHqQualityInput">NdiSpeedHqQualityInput</a></code> | <code>*f64</code> | *No description.* |
@@ -767,6 +775,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.maxLatency">MaxLatency</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.minLatency">MinLatency</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.name">Name</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiAudioReferenceLevel">NdiAudioReferenceLevel</a></code> | <code>*f64</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiOutputTimecodeSource">NdiOutputTimecodeSource</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiProgramName">NdiProgramName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiSpeedHqQuality">NdiSpeedHqQuality</a></code> | <code>*f64</code> | *No description.* |
@@ -1082,6 +1091,16 @@ func NameInput() *string
 
 ---
 
+##### `NdiAudioReferenceLevelInput`<sup>Optional</sup> <a name="NdiAudioReferenceLevelInput" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiAudioReferenceLevelInput"></a>
+
+```go
+func NdiAudioReferenceLevelInput() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `NdiOutputTimecodeSourceInput`<sup>Optional</sup> <a name="NdiOutputTimecodeSourceInput" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiOutputTimecodeSourceInput"></a>
 
 ```go
@@ -1282,6 +1301,16 @@ func Name() *string
 
 ---
 
+##### `NdiAudioReferenceLevel`<sup>Required</sup> <a name="NdiAudioReferenceLevel" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiAudioReferenceLevel"></a>
+
+```go
+func NdiAudioReferenceLevel() *f64
+```
+
+- *Type:* *f64
+
+---
+
 ##### `NdiOutputTimecodeSource`<sup>Required</sup> <a name="NdiOutputTimecodeSource" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutput.property.ndiOutputTimecodeSource"></a>
 
 ```go
@@ -1426,6 +1455,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectflowoutput
 	MediaStreamOutputConfigurations: interface{},
 	MinLatency: *f64,
 	Name: *string,
+	NdiAudioReferenceLevel: *f64,
 	NdiOutputTimecodeSource: *string,
 	NdiProgramName: *string,
 	NdiSpeedHqQuality: *f64,
@@ -1462,6 +1492,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectflowoutput
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.mediaStreamOutputConfigurations">MediaStreamOutputConfigurations</a></code> | <code>interface{}</code> | The definition for each media stream that is associated with the output. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.minLatency">MinLatency</a></code> | <code>*f64</code> | The minimum latency in milliseconds. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.name">Name</a></code> | <code>*string</code> | The name of the output. This value must be unique within the current flow. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.ndiAudioReferenceLevel">NdiAudioReferenceLevel</a></code> | <code>*f64</code> | The audio reference level of the NDI receiver, in dBFS. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.ndiOutputTimecodeSource">NdiOutputTimecodeSource</a></code> | <code>*string</code> | The timecode source for the NDI output. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.ndiProgramName">NdiProgramName</a></code> | <code>*string</code> | A suffix for the names of the NDI sources that the flow creates. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.ndiSpeedHqQuality">NdiSpeedHqQuality</a></code> | <code>*f64</code> | A quality setting for the NDI Speed HQ encoder. |
@@ -1469,7 +1500,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectflowoutput
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.port">Port</a></code> | <code>*f64</code> | The port to use when content is distributed to this output. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.protocol">Protocol</a></code> | <code>*string</code> | The protocol that is used by the source or output. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.remoteId">RemoteId</a></code> | <code>*string</code> | The remote ID for the Zixi-pull stream. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.routerIntegrationState">RouterIntegrationState</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#router_integration_state MediaconnectFlowOutput#router_integration_state}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.routerIntegrationState">RouterIntegrationState</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#router_integration_state MediaconnectFlowOutput#router_integration_state}. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.routerIntegrationTransitEncryption">RouterIntegrationTransitEncryption</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputRouterIntegrationTransitEncryption">MediaconnectFlowOutputRouterIntegrationTransitEncryption</a></code> | The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.smoothingLatency">SmoothingLatency</a></code> | <code>*f64</code> | The smoothing latency in milliseconds for RIST, RTP, and RTP-FEC streams. |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.streamId">StreamId</a></code> | <code>*string</code> | The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams. |
@@ -1558,7 +1589,7 @@ FlowArn *string
 
 The Amazon Resource Name (ARN), a unique identifier for any AWS resource, of the flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#flow_arn MediaconnectFlowOutput#flow_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#flow_arn MediaconnectFlowOutput#flow_arn}
 
 ---
 
@@ -1574,7 +1605,7 @@ The range of IP addresses that should be allowed to initiate output requests to 
 
 These IP addresses should be in the form of a Classless Inter-Domain Routing (CIDR) block; for example, 10.0.0.0/16.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#cidr_allow_list MediaconnectFlowOutput#cidr_allow_list}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#cidr_allow_list MediaconnectFlowOutput#cidr_allow_list}
 
 ---
 
@@ -1588,7 +1619,7 @@ Description *string
 
 A description of the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#description MediaconnectFlowOutput#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#description MediaconnectFlowOutput#description}
 
 ---
 
@@ -1602,7 +1633,7 @@ Destination *string
 
 The address where you want to send the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#destination MediaconnectFlowOutput#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#destination MediaconnectFlowOutput#destination}
 
 ---
 
@@ -1618,7 +1649,7 @@ The type of key used for the encryption.
 
 If no keyType is provided, the service will use the default setting (static-key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#encryption MediaconnectFlowOutput#encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#encryption MediaconnectFlowOutput#encryption}
 
 ---
 
@@ -1632,7 +1663,7 @@ MaxLatency *f64
 
 The maximum latency in milliseconds. This parameter applies only to RIST-based and Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#max_latency MediaconnectFlowOutput#max_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#max_latency MediaconnectFlowOutput#max_latency}
 
 ---
 
@@ -1646,7 +1677,7 @@ MediaStreamOutputConfigurations interface{}
 
 The definition for each media stream that is associated with the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#media_stream_output_configurations MediaconnectFlowOutput#media_stream_output_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#media_stream_output_configurations MediaconnectFlowOutput#media_stream_output_configurations}
 
 ---
 
@@ -1660,7 +1691,7 @@ MinLatency *f64
 
 The minimum latency in milliseconds.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#min_latency MediaconnectFlowOutput#min_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#min_latency MediaconnectFlowOutput#min_latency}
 
 ---
 
@@ -1674,7 +1705,21 @@ Name *string
 
 The name of the output. This value must be unique within the current flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#name MediaconnectFlowOutput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#name MediaconnectFlowOutput#name}
+
+---
+
+##### `NdiAudioReferenceLevel`<sup>Optional</sup> <a name="NdiAudioReferenceLevel" id="@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputConfig.property.ndiAudioReferenceLevel"></a>
+
+```go
+NdiAudioReferenceLevel *f64
+```
+
+- *Type:* *f64
+
+The audio reference level of the NDI receiver, in dBFS.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#ndi_audio_reference_level MediaconnectFlowOutput#ndi_audio_reference_level}
 
 ---
 
@@ -1688,7 +1733,7 @@ NdiOutputTimecodeSource *string
 
 The timecode source for the NDI output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#ndi_output_timecode_source MediaconnectFlowOutput#ndi_output_timecode_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#ndi_output_timecode_source MediaconnectFlowOutput#ndi_output_timecode_source}
 
 ---
 
@@ -1704,7 +1749,7 @@ A suffix for the names of the NDI sources that the flow creates.
 
 If a custom name isn't specified, MediaConnect uses the output name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#ndi_program_name MediaconnectFlowOutput#ndi_program_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#ndi_program_name MediaconnectFlowOutput#ndi_program_name}
 
 ---
 
@@ -1718,7 +1763,7 @@ NdiSpeedHqQuality *f64
 
 A quality setting for the NDI Speed HQ encoder.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#ndi_speed_hq_quality MediaconnectFlowOutput#ndi_speed_hq_quality}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#ndi_speed_hq_quality MediaconnectFlowOutput#ndi_speed_hq_quality}
 
 ---
 
@@ -1732,7 +1777,7 @@ OutputStatus *string
 
 An indication of whether the output should transmit data or not.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#output_status MediaconnectFlowOutput#output_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#output_status MediaconnectFlowOutput#output_status}
 
 ---
 
@@ -1746,7 +1791,7 @@ Port *f64
 
 The port to use when content is distributed to this output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#port MediaconnectFlowOutput#port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#port MediaconnectFlowOutput#port}
 
 ---
 
@@ -1760,7 +1805,7 @@ Protocol *string
 
 The protocol that is used by the source or output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#protocol MediaconnectFlowOutput#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#protocol MediaconnectFlowOutput#protocol}
 
 ---
 
@@ -1774,7 +1819,7 @@ RemoteId *string
 
 The remote ID for the Zixi-pull stream.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#remote_id MediaconnectFlowOutput#remote_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#remote_id MediaconnectFlowOutput#remote_id}
 
 ---
 
@@ -1786,7 +1831,7 @@ RouterIntegrationState *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#router_integration_state MediaconnectFlowOutput#router_integration_state}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#router_integration_state MediaconnectFlowOutput#router_integration_state}.
 
 ---
 
@@ -1800,7 +1845,7 @@ RouterIntegrationTransitEncryption MediaconnectFlowOutputRouterIntegrationTransi
 
 The configuration that defines how content is encrypted during transit between the MediaConnect router and a MediaConnect flow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#router_integration_transit_encryption MediaconnectFlowOutput#router_integration_transit_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#router_integration_transit_encryption MediaconnectFlowOutput#router_integration_transit_encryption}
 
 ---
 
@@ -1814,7 +1859,7 @@ SmoothingLatency *f64
 
 The smoothing latency in milliseconds for RIST, RTP, and RTP-FEC streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#smoothing_latency MediaconnectFlowOutput#smoothing_latency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#smoothing_latency MediaconnectFlowOutput#smoothing_latency}
 
 ---
 
@@ -1828,7 +1873,7 @@ StreamId *string
 
 The stream ID that you want to use for this transport. This parameter applies only to Zixi-based streams.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#stream_id MediaconnectFlowOutput#stream_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#stream_id MediaconnectFlowOutput#stream_id}
 
 ---
 
@@ -1842,7 +1887,7 @@ Tags interface{}
 
 Key-value pairs that can be used to tag and organize this flow output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#tags MediaconnectFlowOutput#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#tags MediaconnectFlowOutput#tags}
 
 ---
 
@@ -1856,7 +1901,7 @@ VpcInterfaceAttachment MediaconnectFlowOutputVpcInterfaceAttachment
 
 The name of the VPC interface attachment to use for this output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#vpc_interface_attachment MediaconnectFlowOutput#vpc_interface_attachment}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#vpc_interface_attachment MediaconnectFlowOutput#vpc_interface_attachment}
 
 ---
 
@@ -1896,7 +1941,7 @@ Algorithm *string
 
 The type of algorithm that is used for the encryption (such as aes128, aes192, or aes256).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#algorithm MediaconnectFlowOutput#algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#algorithm MediaconnectFlowOutput#algorithm}
 
 ---
 
@@ -1912,7 +1957,7 @@ The type of key that is used for the encryption.
 
 If no keyType is provided, the service will use the default setting (static-key).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#key_type MediaconnectFlowOutput#key_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#key_type MediaconnectFlowOutput#key_type}
 
 ---
 
@@ -1926,7 +1971,7 @@ RoleArn *string
 
 The ARN of the role that you created during setup (when you set up AWS Elemental MediaConnect as a trusted entity).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#role_arn MediaconnectFlowOutput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#role_arn MediaconnectFlowOutput#role_arn}
 
 ---
 
@@ -1942,7 +1987,7 @@ The ARN of the secret that you created in AWS Secrets Manager to store the encry
 
 This parameter is required for static key encryption and is not valid for SPEKE encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#secret_arn MediaconnectFlowOutput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#secret_arn MediaconnectFlowOutput#secret_arn}
 
 ---
 
@@ -1982,7 +2027,7 @@ DestinationConfigurations interface{}
 
 The media streams that you want to associate with the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#destination_configurations MediaconnectFlowOutput#destination_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#destination_configurations MediaconnectFlowOutput#destination_configurations}
 
 ---
 
@@ -1998,7 +2043,7 @@ The format that will be used to encode the data.
 
 For ancillary data streams, set the encoding name to smpte291. For audio streams, set the encoding name to pcm. For video streams on sources or outputs that use the CDI protocol, set the encoding name to raw. For video streams on sources or outputs that use the ST 2110 JPEG XS protocol, set the encoding name to jxsv.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#encoding_name MediaconnectFlowOutput#encoding_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#encoding_name MediaconnectFlowOutput#encoding_name}
 
 ---
 
@@ -2014,7 +2059,7 @@ A collection of parameters that determine how MediaConnect will convert the cont
 
 These fields only apply to outputs on flows that have a CDI source.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#encoding_parameters MediaconnectFlowOutput#encoding_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#encoding_parameters MediaconnectFlowOutput#encoding_parameters}
 
 ---
 
@@ -2028,7 +2073,7 @@ MediaStreamName *string
 
 A name that helps you distinguish one media stream from another.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#media_stream_name MediaconnectFlowOutput#media_stream_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#media_stream_name MediaconnectFlowOutput#media_stream_name}
 
 ---
 
@@ -2066,7 +2111,7 @@ DestinationIp *string
 
 The IP address where contents of the media stream will be sent.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#destination_ip MediaconnectFlowOutput#destination_ip}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#destination_ip MediaconnectFlowOutput#destination_ip}
 
 ---
 
@@ -2080,7 +2125,7 @@ DestinationPort *f64
 
 The port to use when the content of the media stream is distributed to the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#destination_port MediaconnectFlowOutput#destination_port}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#destination_port MediaconnectFlowOutput#destination_port}
 
 ---
 
@@ -2094,7 +2139,7 @@ Interface MediaconnectFlowOutputMediaStreamOutputConfigurationsDestinationConfig
 
 The VPC interface that is used for the media stream associated with the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#interface MediaconnectFlowOutput#interface}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#interface MediaconnectFlowOutput#interface}
 
 ---
 
@@ -2128,7 +2173,7 @@ Name *string
 
 The name of the VPC interface that you want to use for the media stream associated with the output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#name MediaconnectFlowOutput#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#name MediaconnectFlowOutput#name}
 
 ---
 
@@ -2166,7 +2211,7 @@ A value that is used to calculate compression for an output.
 
 The bitrate of the output is calculated as follows: Output bitrate = (1 / compressionFactor) * (source bitrate) This property only applies to outputs that use the ST 2110 JPEG XS protocol, with a flow source that uses the CDI protocol. Valid values are in the range of 3.0 to 10.0, inclusive.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#compression_factor MediaconnectFlowOutput#compression_factor}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#compression_factor MediaconnectFlowOutput#compression_factor}
 
 ---
 
@@ -2182,7 +2227,7 @@ A setting on the encoder that drives compression settings.
 
 This property only applies to video media streams associated with outputs that use the ST 2110 JPEG XS protocol, with a flow source that uses the CDI protocol.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#encoder_profile MediaconnectFlowOutput#encoder_profile}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#encoder_profile MediaconnectFlowOutput#encoder_profile}
 
 ---
 
@@ -2204,7 +2249,7 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectflowoutput
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputRouterIntegrationTransitEncryption.property.encryptionKeyConfiguration">EncryptionKeyConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputRouterIntegrationTransitEncryptionEncryptionKeyConfiguration">MediaconnectFlowOutputRouterIntegrationTransitEncryptionEncryptionKeyConfiguration</a></code> | Configuration settings for flow transit encryption keys. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputRouterIntegrationTransitEncryption.property.encryptionKeyType">EncryptionKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#encryption_key_type MediaconnectFlowOutput#encryption_key_type}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputRouterIntegrationTransitEncryption.property.encryptionKeyType">EncryptionKeyType</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#encryption_key_type MediaconnectFlowOutput#encryption_key_type}. |
 
 ---
 
@@ -2218,7 +2263,7 @@ EncryptionKeyConfiguration MediaconnectFlowOutputRouterIntegrationTransitEncrypt
 
 Configuration settings for flow transit encryption keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#encryption_key_configuration MediaconnectFlowOutput#encryption_key_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#encryption_key_configuration MediaconnectFlowOutput#encryption_key_configuration}
 
 ---
 
@@ -2230,7 +2275,7 @@ EncryptionKeyType *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#encryption_key_type MediaconnectFlowOutput#encryption_key_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#encryption_key_type MediaconnectFlowOutput#encryption_key_type}.
 
 ---
 
@@ -2266,7 +2311,7 @@ Automatic *string
 
 Configuration settings for automatic encryption key management, where MediaConnect handles key creation and rotation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#automatic MediaconnectFlowOutput#automatic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#automatic MediaconnectFlowOutput#automatic}
 
 ---
 
@@ -2280,7 +2325,7 @@ SecretsManager MediaconnectFlowOutputRouterIntegrationTransitEncryptionEncryptio
 
 The configuration settings for transit encryption of a flow output using AWS Secrets Manager, including the secret ARN and role ARN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#secrets_manager MediaconnectFlowOutput#secrets_manager}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#secrets_manager MediaconnectFlowOutput#secrets_manager}
 
 ---
 
@@ -2316,7 +2361,7 @@ RoleArn *string
 
 The ARN of the IAM role used for transit encryption to the router input using AWS Secrets Manager.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#role_arn MediaconnectFlowOutput#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#role_arn MediaconnectFlowOutput#role_arn}
 
 ---
 
@@ -2330,7 +2375,7 @@ SecretArn *string
 
 The ARN of the AWS Secrets Manager secret used for transit encryption to the router input.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#secret_arn MediaconnectFlowOutput#secret_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#secret_arn MediaconnectFlowOutput#secret_arn}
 
 ---
 
@@ -2351,8 +2396,8 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/mediaconnectflowoutput
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#key MediaconnectFlowOutput#key}. |
-| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#value MediaconnectFlowOutput#value}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputTags.property.key">Key</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#key MediaconnectFlowOutput#key}. |
+| <code><a href="#@cdktn/provider-awscc.mediaconnectFlowOutput.MediaconnectFlowOutputTags.property.value">Value</a></code> | <code>*string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#value MediaconnectFlowOutput#value}. |
 
 ---
 
@@ -2364,7 +2409,7 @@ Key *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#key MediaconnectFlowOutput#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#key MediaconnectFlowOutput#key}.
 
 ---
 
@@ -2376,7 +2421,7 @@ Value *string
 
 - *Type:* *string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#value MediaconnectFlowOutput#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#value MediaconnectFlowOutput#value}.
 
 ---
 
@@ -2410,7 +2455,7 @@ VpcInterfaceName *string
 
 The name of the VPC interface to use for this output.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/mediaconnect_flow_output#vpc_interface_name MediaconnectFlowOutput#vpc_interface_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/mediaconnect_flow_output#vpc_interface_name MediaconnectFlowOutput#vpc_interface_name}
 
 ---
 

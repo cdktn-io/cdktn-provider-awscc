@@ -4,7 +4,7 @@
 
 ### AgentregistryRegistry <a name="AgentregistryRegistry" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry awscc_agentregistry_registry}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry awscc_agentregistry_registry}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.Initializer"></a>
 
@@ -75,6 +75,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.moveTo">MoveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.moveToId">MoveToId</a></code> | Moves this resource to the resource corresponding to "id". |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.putApprovalConfiguration">PutApprovalConfiguration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.putCustomMetadataSchemaConfiguration">PutCustomMetadataSchemaConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.putDiscoveryConfiguration">PutDiscoveryConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.putEncryptionConfiguration">PutEncryptionConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.putTags">PutTags</a></code> | *No description.* |
@@ -82,6 +83,7 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetAuthorizerType">ResetAuthorizerType</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetAutoDetectionEnabled">ResetAutoDetectionEnabled</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetAutoDetectionScope">ResetAutoDetectionScope</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetCustomMetadataSchemaConfiguration">ResetCustomMetadataSchemaConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetDescription">ResetDescription</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetDiscoveryConfiguration">ResetDiscoveryConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetEncryptionConfiguration">ResetEncryptionConfiguration</a></code> | *No description.* |
@@ -410,6 +412,18 @@ private void PutApprovalConfiguration(AgentregistryRegistryApprovalConfiguration
 
 ---
 
+##### `PutCustomMetadataSchemaConfiguration` <a name="PutCustomMetadataSchemaConfiguration" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.putCustomMetadataSchemaConfiguration"></a>
+
+```csharp
+private void PutCustomMetadataSchemaConfiguration(AgentregistryRegistryCustomMetadataSchemaConfiguration Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.putCustomMetadataSchemaConfiguration.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration">AgentregistryRegistryCustomMetadataSchemaConfiguration</a>
+
+---
+
 ##### `PutDiscoveryConfiguration` <a name="PutDiscoveryConfiguration" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.putDiscoveryConfiguration"></a>
 
 ```csharp
@@ -468,6 +482,12 @@ private void ResetAutoDetectionEnabled()
 
 ```csharp
 private void ResetAutoDetectionScope()
+```
+
+##### `ResetCustomMetadataSchemaConfiguration` <a name="ResetCustomMetadataSchemaConfiguration" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetCustomMetadataSchemaConfiguration"></a>
+
+```csharp
+private void ResetCustomMetadataSchemaConfiguration()
 ```
 
 ##### `ResetDescription` <a name="ResetDescription" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.resetDescription"></a>
@@ -597,7 +617,7 @@ The construct id used in the generated config for the AgentregistryRegistry to i
 
 The id of the existing AgentregistryRegistry that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -630,6 +650,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.approvalConfiguration">ApprovalConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryApprovalConfigurationOutputReference">AgentregistryRegistryApprovalConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.autoDetectionStatus">AutoDetectionStatus</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.createdAt">CreatedAt</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.customMetadataSchemaConfiguration">CustomMetadataSchemaConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference">AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.discoveryConfiguration">DiscoveryConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationOutputReference">AgentregistryRegistryDiscoveryConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryEncryptionConfigurationOutputReference">AgentregistryRegistryEncryptionConfigurationOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.id">Id</a></code> | <code>string</code> | *No description.* |
@@ -642,6 +663,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.authorizerTypeInput">AuthorizerTypeInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.autoDetectionEnabledInput">AutoDetectionEnabledInput</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.autoDetectionScopeInput">AutoDetectionScopeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.customMetadataSchemaConfigurationInput">CustomMetadataSchemaConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration">AgentregistryRegistryCustomMetadataSchemaConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.descriptionInput">DescriptionInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.discoveryConfigurationInput">DiscoveryConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfiguration">AgentregistryRegistryDiscoveryConfiguration</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.encryptionConfigurationInput">EncryptionConfigurationInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryEncryptionConfiguration">AgentregistryRegistryEncryptionConfiguration</a></code> | *No description.* |
@@ -827,6 +849,16 @@ public string CreatedAt { get; }
 
 ---
 
+##### `CustomMetadataSchemaConfiguration`<sup>Required</sup> <a name="CustomMetadataSchemaConfiguration" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.customMetadataSchemaConfiguration"></a>
+
+```csharp
+public AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference CustomMetadataSchemaConfiguration { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference">AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference</a>
+
+---
+
 ##### `DiscoveryConfiguration`<sup>Required</sup> <a name="DiscoveryConfiguration" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.discoveryConfiguration"></a>
 
 ```csharp
@@ -944,6 +976,16 @@ public string AutoDetectionScopeInput { get; }
 ```
 
 - *Type:* string
+
+---
+
+##### `CustomMetadataSchemaConfigurationInput`<sup>Optional</sup> <a name="CustomMetadataSchemaConfigurationInput" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistry.property.customMetadataSchemaConfigurationInput"></a>
+
+```csharp
+public IResolvable|AgentregistryRegistryCustomMetadataSchemaConfiguration CustomMetadataSchemaConfigurationInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration">AgentregistryRegistryCustomMetadataSchemaConfiguration</a>
 
 ---
 
@@ -1099,7 +1141,7 @@ The rules that determine which registry records are automatically approved on su
 
 When omitted or empty, submitted records require manual review.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#auto_approval_rules AgentregistryRegistry#auto_approval_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#auto_approval_rules AgentregistryRegistry#auto_approval_rules}
 
 ---
 
@@ -1123,6 +1165,7 @@ new AgentregistryRegistryConfig {
     string AuthorizerType = null,
     bool|IResolvable AutoDetectionEnabled = null,
     string AutoDetectionScope = null,
+    AgentregistryRegistryCustomMetadataSchemaConfiguration CustomMetadataSchemaConfiguration = null,
     string Description = null,
     AgentregistryRegistryDiscoveryConfiguration DiscoveryConfiguration = null,
     AgentregistryRegistryEncryptionConfiguration EncryptionConfiguration = null,
@@ -1146,6 +1189,7 @@ new AgentregistryRegistryConfig {
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig.property.authorizerType">AuthorizerType</a></code> | <code>string</code> | The type of authorizer that controls how consumers access the registry's search and MCP invoke operations. |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig.property.autoDetectionEnabled">AutoDetectionEnabled</a></code> | <code>bool\|Io.Cdktn.IResolvable</code> | Specifies whether auto-detection is requested for the registry. |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig.property.autoDetectionScope">AutoDetectionScope</a></code> | <code>string</code> | The source from which resources are detected. ORGANIZATION sources resources from all member accounts of an AWS Organization. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig.property.customMetadataSchemaConfiguration">CustomMetadataSchemaConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration">AgentregistryRegistryCustomMetadataSchemaConfiguration</a></code> | Configuration that defines a typed metadata schema for a registry. |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig.property.description">Description</a></code> | <code>string</code> | The description of the registry. |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig.property.discoveryConfiguration">DiscoveryConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfiguration">AgentregistryRegistryDiscoveryConfiguration</a></code> | Discovery configuration for the registry. Controls how consumers are authorized to search the registry and invoke its MCP endpoint. |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig.property.encryptionConfiguration">EncryptionConfiguration</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryEncryptionConfiguration">AgentregistryRegistryEncryptionConfiguration</a></code> | The server-side encryption configuration for a registry. |
@@ -1233,7 +1277,7 @@ public string Name { get; set; }
 
 The name of the registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#name AgentregistryRegistry#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#name AgentregistryRegistry#name}
 
 ---
 
@@ -1247,7 +1291,7 @@ public AgentregistryRegistryApprovalConfiguration ApprovalConfiguration { get; s
 
 Configuration for the registry's record approval workflow.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#approval_configuration AgentregistryRegistry#approval_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#approval_configuration AgentregistryRegistry#approval_configuration}
 
 ---
 
@@ -1261,7 +1305,7 @@ public string AuthorizerType { get; set; }
 
 The type of authorizer that controls how consumers access the registry's search and MCP invoke operations.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#authorizer_type AgentregistryRegistry#authorizer_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#authorizer_type AgentregistryRegistry#authorizer_type}
 
 ---
 
@@ -1277,7 +1321,7 @@ Specifies whether auto-detection is requested for the registry.
 
 Must be specified together with AutoDetectionScope. Setting this to true is necessary but not sufficient for auto-detection to become active; the preconditions of the configured scope must also be met. To turn auto-detection off, explicitly set this to false - removing AutoDetectionEnabled and AutoDetectionScope from the template is a no-op and leaves the existing auto-detection settings unchanged. A registry cannot be deleted while auto-detection is enabled: set this to false and update the stack before deleting the registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#auto_detection_enabled AgentregistryRegistry#auto_detection_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#auto_detection_enabled AgentregistryRegistry#auto_detection_enabled}
 
 ---
 
@@ -1291,7 +1335,23 @@ public string AutoDetectionScope { get; set; }
 
 The source from which resources are detected. ORGANIZATION sources resources from all member accounts of an AWS Organization.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#auto_detection_scope AgentregistryRegistry#auto_detection_scope}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#auto_detection_scope AgentregistryRegistry#auto_detection_scope}
+
+---
+
+##### `CustomMetadataSchemaConfiguration`<sup>Optional</sup> <a name="CustomMetadataSchemaConfiguration" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryConfig.property.customMetadataSchemaConfiguration"></a>
+
+```csharp
+public AgentregistryRegistryCustomMetadataSchemaConfiguration CustomMetadataSchemaConfiguration { get; set; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration">AgentregistryRegistryCustomMetadataSchemaConfiguration</a>
+
+Configuration that defines a typed metadata schema for a registry.
+
+A default schema and per-record-type schema overrides are both optional. Schema evolution is additive only: you can add fields and enum values, but you cannot remove fields, change types, or remove enum values.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#custom_metadata_schema_configuration AgentregistryRegistry#custom_metadata_schema_configuration}
 
 ---
 
@@ -1305,7 +1365,7 @@ public string Description { get; set; }
 
 The description of the registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#description AgentregistryRegistry#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#description AgentregistryRegistry#description}
 
 ---
 
@@ -1319,7 +1379,7 @@ public AgentregistryRegistryDiscoveryConfiguration DiscoveryConfiguration { get;
 
 Discovery configuration for the registry. Controls how consumers are authorized to search the registry and invoke its MCP endpoint.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#discovery_configuration AgentregistryRegistry#discovery_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#discovery_configuration AgentregistryRegistry#discovery_configuration}
 
 ---
 
@@ -1335,7 +1395,7 @@ The server-side encryption configuration for a registry.
 
 Specifies a customer managed key used to encrypt the registry's content. When omitted, the registry's content is encrypted with an AWS owned key. You cannot change the encryption configuration after registry creation. Specifying a different KMS key, adding this property to an existing registry, or removing it replaces the registry: CloudFormation creates a new registry with a new Amazon Resource Name (ARN) and then deletes the original, including all registry records it contains. Registry records that are not managed by the stack are not re-created in the new registry, and if any remain in the original registry its deletion fails and it is left behind.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#encryption_configuration AgentregistryRegistry#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#encryption_configuration AgentregistryRegistry#encryption_configuration}
 
 ---
 
@@ -1349,7 +1409,111 @@ public IResolvable|AgentregistryRegistryTags[] Tags { get; set; }
 
 Tags to assign to the registry.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#tags AgentregistryRegistry#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#tags AgentregistryRegistry#tags}
+
+---
+
+### AgentregistryRegistryCustomMetadataSchemaConfiguration <a name="AgentregistryRegistryCustomMetadataSchemaConfiguration" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AgentregistryRegistryCustomMetadataSchemaConfiguration {
+    string DefaultSchema = null,
+    IResolvable|AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides[] RecordTypeSchemaOverrides = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration.property.defaultSchema">DefaultSchema</a></code> | <code>string</code> | The default JSON Schema that applies to record types without a specific override. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration.property.recordTypeSchemaOverrides">RecordTypeSchemaOverrides</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a>[]</code> | A list of per-record-type schema overrides. |
+
+---
+
+##### `DefaultSchema`<sup>Optional</sup> <a name="DefaultSchema" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration.property.defaultSchema"></a>
+
+```csharp
+public string DefaultSchema { get; set; }
+```
+
+- *Type:* string
+
+The default JSON Schema that applies to record types without a specific override.
+
+Supported property types are string, string with an enum constraint, string with a uri format, and boolean.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#default_schema AgentregistryRegistry#default_schema}
+
+---
+
+##### `RecordTypeSchemaOverrides`<sup>Optional</sup> <a name="RecordTypeSchemaOverrides" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration.property.recordTypeSchemaOverrides"></a>
+
+```csharp
+public IResolvable|AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides[] RecordTypeSchemaOverrides { get; set; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a>[]
+
+A list of per-record-type schema overrides.
+
+When a record's type matches an override, that override's schema is used instead of the default schema for validation.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#record_type_schema_overrides AgentregistryRegistry#record_type_schema_overrides}
+
+---
+
+### AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides <a name="AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides {
+    string RecordType = null,
+    string Schema = null
+};
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides.property.recordType">RecordType</a></code> | <code>string</code> | The record type that this schema override applies to. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides.property.schema">Schema</a></code> | <code>string</code> | The JSON Schema for the specified record type. Must follow the same structural rules as the default schema. |
+
+---
+
+##### `RecordType`<sup>Optional</sup> <a name="RecordType" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides.property.recordType"></a>
+
+```csharp
+public string RecordType { get; set; }
+```
+
+- *Type:* string
+
+The record type that this schema override applies to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#record_type AgentregistryRegistry#record_type}
+
+---
+
+##### `Schema`<sup>Optional</sup> <a name="Schema" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides.property.schema"></a>
+
+```csharp
+public string Schema { get; set; }
+```
+
+- *Type:* string
+
+The JSON Schema for the specified record type. Must follow the same structural rules as the default schema.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#schema AgentregistryRegistry#schema}
 
 ---
 
@@ -1383,7 +1547,7 @@ public AgentregistryRegistryDiscoveryConfigurationAuthorizerConfiguration Author
 
 The authorizer configuration for the registry. This is a union - specify exactly one member.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#authorizer_configuration AgentregistryRegistry#authorizer_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#authorizer_configuration AgentregistryRegistry#authorizer_configuration}
 
 ---
 
@@ -1417,7 +1581,7 @@ public AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJ
 
 Configuration for a custom JWT authorizer that validates inbound bearer tokens against an OpenID Connect identity provider.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#custom_jwt_authorizer AgentregistryRegistry#custom_jwt_authorizer}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#custom_jwt_authorizer AgentregistryRegistry#custom_jwt_authorizer}
 
 ---
 
@@ -1459,7 +1623,7 @@ public string[] AllowedAudience { get; set; }
 
 The audience values accepted during JWT validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#allowed_audience AgentregistryRegistry#allowed_audience}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#allowed_audience AgentregistryRegistry#allowed_audience}
 
 ---
 
@@ -1473,7 +1637,7 @@ public string[] AllowedClients { get; set; }
 
 The client identifiers accepted during JWT validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#allowed_clients AgentregistryRegistry#allowed_clients}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#allowed_clients AgentregistryRegistry#allowed_clients}
 
 ---
 
@@ -1487,7 +1651,7 @@ public string[] AllowedScopes { get; set; }
 
 The scopes accepted during JWT validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#allowed_scopes AgentregistryRegistry#allowed_scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#allowed_scopes AgentregistryRegistry#allowed_scopes}
 
 ---
 
@@ -1501,7 +1665,7 @@ public IResolvable|AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigur
 
 Additional custom claim validations applied to the inbound JWT.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#custom_claims AgentregistryRegistry#custom_claims}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#custom_claims AgentregistryRegistry#custom_claims}
 
 ---
 
@@ -1515,7 +1679,7 @@ public string DiscoveryUrl { get; set; }
 
 The OpenID Connect discovery URL used to retrieve the identity provider's metadata and signing keys.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#discovery_url AgentregistryRegistry#discovery_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#discovery_url AgentregistryRegistry#discovery_url}
 
 ---
 
@@ -1538,8 +1702,8 @@ new AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtA
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaims.property.authorizingClaimMatchValue">AuthorizingClaimMatchValue</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValue">AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValue</a></code> | The value and match operator used to authorize a claim during JWT validation. |
-| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaims.property.inboundTokenClaimName">InboundTokenClaimName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#inbound_token_claim_name AgentregistryRegistry#inbound_token_claim_name}. |
-| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaims.property.inboundTokenClaimValueType">InboundTokenClaimValueType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#inbound_token_claim_value_type AgentregistryRegistry#inbound_token_claim_value_type}. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaims.property.inboundTokenClaimName">InboundTokenClaimName</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#inbound_token_claim_name AgentregistryRegistry#inbound_token_claim_name}. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaims.property.inboundTokenClaimValueType">InboundTokenClaimValueType</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#inbound_token_claim_value_type AgentregistryRegistry#inbound_token_claim_value_type}. |
 
 ---
 
@@ -1553,7 +1717,7 @@ public AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJ
 
 The value and match operator used to authorize a claim during JWT validation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#authorizing_claim_match_value AgentregistryRegistry#authorizing_claim_match_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#authorizing_claim_match_value AgentregistryRegistry#authorizing_claim_match_value}
 
 ---
 
@@ -1565,7 +1729,7 @@ public string InboundTokenClaimName { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#inbound_token_claim_name AgentregistryRegistry#inbound_token_claim_name}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#inbound_token_claim_name AgentregistryRegistry#inbound_token_claim_name}.
 
 ---
 
@@ -1577,7 +1741,7 @@ public string InboundTokenClaimValueType { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#inbound_token_claim_value_type AgentregistryRegistry#inbound_token_claim_value_type}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#inbound_token_claim_value_type AgentregistryRegistry#inbound_token_claim_value_type}.
 
 ---
 
@@ -1598,7 +1762,7 @@ new AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtA
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValue.property.claimMatchOperator">ClaimMatchOperator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#claim_match_operator AgentregistryRegistry#claim_match_operator}. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValue.property.claimMatchOperator">ClaimMatchOperator</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#claim_match_operator AgentregistryRegistry#claim_match_operator}. |
 | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValue.property.claimMatchValue">ClaimMatchValue</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue">AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue</a></code> | The expected value used to match a claim. Exactly one member is set. |
 
 ---
@@ -1611,7 +1775,7 @@ public string ClaimMatchOperator { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#claim_match_operator AgentregistryRegistry#claim_match_operator}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#claim_match_operator AgentregistryRegistry#claim_match_operator}.
 
 ---
 
@@ -1625,7 +1789,7 @@ public AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJ
 
 The expected value used to match a claim. Exactly one member is set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#claim_match_value AgentregistryRegistry#claim_match_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#claim_match_value AgentregistryRegistry#claim_match_value}
 
 ---
 
@@ -1646,8 +1810,8 @@ new AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtA
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue.property.matchValueString">MatchValueString</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#match_value_string AgentregistryRegistry#match_value_string}. |
-| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue.property.matchValueStringList">MatchValueStringList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#match_value_string_list AgentregistryRegistry#match_value_string_list}. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue.property.matchValueString">MatchValueString</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#match_value_string AgentregistryRegistry#match_value_string}. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryDiscoveryConfigurationAuthorizerConfigurationCustomJwtAuthorizerCustomClaimsAuthorizingClaimMatchValueClaimMatchValue.property.matchValueStringList">MatchValueStringList</a></code> | <code>string[]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#match_value_string_list AgentregistryRegistry#match_value_string_list}. |
 
 ---
 
@@ -1659,7 +1823,7 @@ public string MatchValueString { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#match_value_string AgentregistryRegistry#match_value_string}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#match_value_string AgentregistryRegistry#match_value_string}.
 
 ---
 
@@ -1671,7 +1835,7 @@ public string[] MatchValueStringList { get; set; }
 
 - *Type:* string[]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#match_value_string_list AgentregistryRegistry#match_value_string_list}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#match_value_string_list AgentregistryRegistry#match_value_string_list}.
 
 ---
 
@@ -1707,7 +1871,7 @@ The Amazon Resource Name (ARN) of the customer-managed AWS KMS key used to encry
 
 The key must be a symmetric encryption key in the same AWS account and Region as the registry. Multi-Region keys are not supported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#kms_key_arn AgentregistryRegistry#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#kms_key_arn AgentregistryRegistry#kms_key_arn}
 
 ---
 
@@ -1743,7 +1907,7 @@ public string Key { get; set; }
 
 The key of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#key AgentregistryRegistry#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#key AgentregistryRegistry#key}
 
 ---
 
@@ -1757,7 +1921,7 @@ public string Value { get; set; }
 
 The value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/agentregistry_registry#value AgentregistryRegistry#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/agentregistry_registry#value AgentregistryRegistry#value}
 
 ---
 
@@ -2037,6 +2201,811 @@ public IResolvable|AgentregistryRegistryApprovalConfiguration InternalValue { ge
 ```
 
 - *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryApprovalConfiguration">AgentregistryRegistryApprovalConfiguration</a>
+
+---
+
+
+### AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference <a name="AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.putRecordTypeSchemaOverrides">PutRecordTypeSchemaOverrides</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.resetDefaultSchema">ResetDefaultSchema</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.resetRecordTypeSchemaOverrides">ResetRecordTypeSchemaOverrides</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `PutRecordTypeSchemaOverrides` <a name="PutRecordTypeSchemaOverrides" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.putRecordTypeSchemaOverrides"></a>
+
+```csharp
+private void PutRecordTypeSchemaOverrides(IResolvable|AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides[] Value)
+```
+
+###### `Value`<sup>Required</sup> <a name="Value" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.putRecordTypeSchemaOverrides.parameter.value"></a>
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a>[]
+
+---
+
+##### `ResetDefaultSchema` <a name="ResetDefaultSchema" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.resetDefaultSchema"></a>
+
+```csharp
+private void ResetDefaultSchema()
+```
+
+##### `ResetRecordTypeSchemaOverrides` <a name="ResetRecordTypeSchemaOverrides" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.resetRecordTypeSchemaOverrides"></a>
+
+```csharp
+private void ResetRecordTypeSchemaOverrides()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.recordTypeSchemaOverrides">RecordTypeSchemaOverrides</a></code> | <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.defaultSchemaInput">DefaultSchemaInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.recordTypeSchemaOverridesInput">RecordTypeSchemaOverridesInput</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.defaultSchema">DefaultSchema</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration">AgentregistryRegistryCustomMetadataSchemaConfiguration</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RecordTypeSchemaOverrides`<sup>Required</sup> <a name="RecordTypeSchemaOverrides" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.recordTypeSchemaOverrides"></a>
+
+```csharp
+public AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList RecordTypeSchemaOverrides { get; }
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList</a>
+
+---
+
+##### `DefaultSchemaInput`<sup>Optional</sup> <a name="DefaultSchemaInput" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.defaultSchemaInput"></a>
+
+```csharp
+public string DefaultSchemaInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RecordTypeSchemaOverridesInput`<sup>Optional</sup> <a name="RecordTypeSchemaOverridesInput" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.recordTypeSchemaOverridesInput"></a>
+
+```csharp
+public IResolvable|AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides[] RecordTypeSchemaOverridesInput { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a>[]
+
+---
+
+##### `DefaultSchema`<sup>Required</sup> <a name="DefaultSchema" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.defaultSchema"></a>
+
+```csharp
+public string DefaultSchema { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|AgentregistryRegistryCustomMetadataSchemaConfiguration InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfiguration">AgentregistryRegistryCustomMetadataSchemaConfiguration</a>
+
+---
+
+
+### AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList <a name="AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList(IInterpolatingParent TerraformResource, string TerraformAttribute, bool WrapsSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.Initializer.parameter.wrapsSet">WrapsSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `WrapsSet`<sup>Required</sup> <a name="WrapsSet" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.allWithMapKey">AllWithMapKey</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.get">Get</a></code> | *No description.* |
+
+---
+
+##### `AllWithMapKey` <a name="AllWithMapKey" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.allWithMapKey"></a>
+
+```csharp
+private DynamicListTerraformIterator AllWithMapKey(string MapKeyAttributeName)
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `MapKeyAttributeName`<sup>Required</sup> <a name="MapKeyAttributeName" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* string
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `Get` <a name="Get" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.get"></a>
+
+```csharp
+private AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference Get(double Index)
+```
+
+###### `Index`<sup>Required</sup> <a name="Index" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.get.parameter.index"></a>
+
+- *Type:* double
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a>[]</code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesList.property.internalValue"></a>
+
+```csharp
+public IResolvable|AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides[] InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a>[]
+
+---
+
+
+### AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference <a name="AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer"></a>
+
+```csharp
+using Io.Cdktn.Providers.Awscc;
+
+new AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference(IInterpolatingParent TerraformResource, string TerraformAttribute, double ComplexObjectIndex, bool ComplexObjectIsFromSet);
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer.parameter.terraformResource">TerraformResource</a></code> | <code>Io.Cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer.parameter.terraformAttribute">TerraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer.parameter.complexObjectIndex">ComplexObjectIndex</a></code> | <code>double</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer.parameter.complexObjectIsFromSet">ComplexObjectIsFromSet</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `TerraformResource`<sup>Required</sup> <a name="TerraformResource" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* Io.Cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `ComplexObjectIndex`<sup>Required</sup> <a name="ComplexObjectIndex" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* double
+
+the index of this item in the list.
+
+---
+
+##### `ComplexObjectIsFromSet`<sup>Required</sup> <a name="ComplexObjectIsFromSet" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.resetRecordType">ResetRecordType</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.resetSchema">ResetSchema</a></code> | *No description.* |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.computeFqn"></a>
+
+```csharp
+private string ComputeFqn()
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getAnyMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, object> GetAnyMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getBooleanAttribute"></a>
+
+```csharp
+private IResolvable GetBooleanAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getBooleanMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, bool> GetBooleanMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getListAttribute"></a>
+
+```csharp
+private string[] GetListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberAttribute"></a>
+
+```csharp
+private double GetNumberAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberListAttribute"></a>
+
+```csharp
+private double[] GetNumberListAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, double> GetNumberMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getStringAttribute"></a>
+
+```csharp
+private string GetStringAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getStringMapAttribute"></a>
+
+```csharp
+private System.Collections.Generic.IDictionary<string, string> GetStringMapAttribute(string TerraformAttribute)
+```
+
+###### `TerraformAttribute`<sup>Required</sup> <a name="TerraformAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.interpolationForAttribute"></a>
+
+```csharp
+private IResolvable InterpolationForAttribute(string Property)
+```
+
+###### `Property`<sup>Required</sup> <a name="Property" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.resolve"></a>
+
+```csharp
+private object Resolve(IResolveContext Context)
+```
+
+Produce the Token's value at resolution time.
+
+###### `Context`<sup>Required</sup> <a name="Context" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* Io.Cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.toString"></a>
+
+```csharp
+private string ToString()
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `ResetRecordType` <a name="ResetRecordType" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.resetRecordType"></a>
+
+```csharp
+private void ResetRecordType()
+```
+
+##### `ResetSchema` <a name="ResetSchema" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.resetSchema"></a>
+
+```csharp
+private void ResetSchema()
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.creationStack">CreationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.fqn">Fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.recordTypeInput">RecordTypeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.schemaInput">SchemaInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.recordType">RecordType</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.schema">Schema</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.internalValue">InternalValue</a></code> | <code>Io.Cdktn.IResolvable\|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.creationStack"></a>
+
+```csharp
+public string[] CreationStack { get; }
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.fqn"></a>
+
+```csharp
+public string Fqn { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RecordTypeInput`<sup>Optional</sup> <a name="RecordTypeInput" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.recordTypeInput"></a>
+
+```csharp
+public string RecordTypeInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `SchemaInput`<sup>Optional</sup> <a name="SchemaInput" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.schemaInput"></a>
+
+```csharp
+public string SchemaInput { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `RecordType`<sup>Required</sup> <a name="RecordType" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.recordType"></a>
+
+```csharp
+public string RecordType { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `Schema`<sup>Required</sup> <a name="Schema" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.schema"></a>
+
+```csharp
+public string Schema { get; }
+```
+
+- *Type:* string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverridesOutputReference.property.internalValue"></a>
+
+```csharp
+public IResolvable|AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides InternalValue { get; }
+```
+
+- *Type:* Io.Cdktn.IResolvable|<a href="#@cdktn/provider-awscc.agentregistryRegistry.AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides">AgentregistryRegistryCustomMetadataSchemaConfigurationRecordTypeSchemaOverrides</a>
 
 ---
 

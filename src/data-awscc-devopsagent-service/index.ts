@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_service
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccDevopsagentServiceConfig extends cdktn.TerraformMetaAr
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_service#id DataAwsccDevopsagentService#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_service#id DataAwsccDevopsagentService#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,6 +143,85 @@ export class DataAwsccDevopsagentServiceAdditionalServiceDetailsDynatraceOutputR
   // account_urn - computed: true, optional: false, required: false
   public get accountUrn() {
     return this.getStringAttribute('account_urn');
+  }
+}
+export interface DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHub {
+}
+
+export function dataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubToTerraform(struct?: DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHub): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubToHclTerraform(struct?: DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHub): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHub | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHub | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // app_variant - computed: true, optional: false, required: false
+  public get appVariant() {
+    return this.getStringAttribute('app_variant');
+  }
+
+  // auth_mode - computed: true, optional: false, required: false
+  public get authMode() {
+    return this.getStringAttribute('auth_mode');
+  }
+
+  // hosting_type - computed: true, optional: false, required: false
+  public get hostingType() {
+    return this.getStringAttribute('hosting_type');
+  }
+
+  // owner - computed: true, optional: false, required: false
+  public get owner() {
+    return this.getStringAttribute('owner');
+  }
+
+  // owner_type - computed: true, optional: false, required: false
+  public get ownerType() {
+    return this.getStringAttribute('owner_type');
+  }
+
+  // target_url - computed: true, optional: false, required: false
+  public get targetUrl() {
+    return this.getStringAttribute('target_url');
   }
 }
 export interface DataAwsccDevopsagentServiceAdditionalServiceDetailsGitLab {
@@ -749,6 +828,12 @@ export class DataAwsccDevopsagentServiceAdditionalServiceDetailsOutputReference 
     return this._dynatrace;
   }
 
+  // git_hub - computed: true, optional: false, required: false
+  private _gitHub = new DataAwsccDevopsagentServiceAdditionalServiceDetailsGitHubOutputReference(this, "git_hub");
+  public get gitHub() {
+    return this._gitHub;
+  }
+
   // git_lab - computed: true, optional: false, required: false
   private _gitLab = new DataAwsccDevopsagentServiceAdditionalServiceDetailsGitLabOutputReference(this, "git_lab");
   public get gitLab() {
@@ -1048,6 +1133,200 @@ export class DataAwsccDevopsagentServiceServiceDetailsDynatraceOutputReference e
   private _authorizationConfig = new DataAwsccDevopsagentServiceServiceDetailsDynatraceAuthorizationConfigOutputReference(this, "authorization_config");
   public get authorizationConfig() {
     return this._authorizationConfig;
+  }
+}
+export interface DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerification {
+}
+
+export function dataAwsccDevopsagentServiceServiceDetailsGitHubAppVerificationToTerraform(struct?: DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentServiceServiceDetailsGitHubAppVerificationToHclTerraform(struct?: DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerification): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerification | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerification | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // app_variant - computed: true, optional: false, required: false
+  public get appVariant() {
+    return this.getStringAttribute('app_variant');
+  }
+
+  // organization_name - computed: true, optional: false, required: false
+  public get organizationName() {
+    return this.getStringAttribute('organization_name');
+  }
+
+  // target_url - computed: true, optional: false, required: false
+  public get targetUrl() {
+    return this.getStringAttribute('target_url');
+  }
+
+  // token_value - computed: true, optional: false, required: false
+  public get tokenValue() {
+    return this.getStringAttribute('token_value');
+  }
+}
+export interface DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccess {
+}
+
+export function dataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccessToTerraform(struct?: DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccess): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccessToHclTerraform(struct?: DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccess): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccess | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccess | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // organization_name - computed: true, optional: false, required: false
+  public get organizationName() {
+    return this.getStringAttribute('organization_name');
+  }
+
+  // target_url - computed: true, optional: false, required: false
+  public get targetUrl() {
+    return this.getStringAttribute('target_url');
+  }
+
+  // token_value - computed: true, optional: false, required: false
+  public get tokenValue() {
+    return this.getStringAttribute('token_value');
+  }
+}
+export interface DataAwsccDevopsagentServiceServiceDetailsGitHub {
+}
+
+export function dataAwsccDevopsagentServiceServiceDetailsGitHubToTerraform(struct?: DataAwsccDevopsagentServiceServiceDetailsGitHub): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccDevopsagentServiceServiceDetailsGitHubToHclTerraform(struct?: DataAwsccDevopsagentServiceServiceDetailsGitHub): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccDevopsagentServiceServiceDetailsGitHubOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccDevopsagentServiceServiceDetailsGitHub | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccDevopsagentServiceServiceDetailsGitHub | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // app_verification - computed: true, optional: false, required: false
+  private _appVerification = new DataAwsccDevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference(this, "app_verification");
+  public get appVerification() {
+    return this._appVerification;
+  }
+
+  // direct_access - computed: true, optional: false, required: false
+  private _directAccess = new DataAwsccDevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference(this, "direct_access");
+  public get directAccess() {
+    return this._directAccess;
   }
 }
 export interface DataAwsccDevopsagentServiceServiceDetailsGitLab {
@@ -2604,6 +2883,12 @@ export class DataAwsccDevopsagentServiceServiceDetailsOutputReference extends cd
     return this._dynatrace;
   }
 
+  // git_hub - computed: true, optional: false, required: false
+  private _gitHub = new DataAwsccDevopsagentServiceServiceDetailsGitHubOutputReference(this, "git_hub");
+  public get gitHub() {
+    return this._gitHub;
+  }
+
   // git_lab - computed: true, optional: false, required: false
   private _gitLab = new DataAwsccDevopsagentServiceServiceDetailsGitLabOutputReference(this, "git_lab");
   public get gitLab() {
@@ -2734,7 +3019,7 @@ export class DataAwsccDevopsagentServiceTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_service awscc_devopsagent_service}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_service awscc_devopsagent_service}
 */
 export class DataAwsccDevopsagentService extends cdktn.TerraformDataSource {
 
@@ -2750,7 +3035,7 @@ export class DataAwsccDevopsagentService extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccDevopsagentService resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccDevopsagentService to import
-  * @param importFromId The id of the existing DataAwsccDevopsagentService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccDevopsagentService that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccDevopsagentService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2762,7 +3047,7 @@ export class DataAwsccDevopsagentService extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/devopsagent_service awscc_devopsagent_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/devopsagent_service awscc_devopsagent_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2773,7 +3058,7 @@ export class DataAwsccDevopsagentService extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_devopsagent_service',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -2829,6 +3114,11 @@ export class DataAwsccDevopsagentService extends cdktn.TerraformDataSource {
   // kms_key_arn - computed: true, optional: false, required: false
   public get kmsKeyArn() {
     return this.getStringAttribute('kms_key_arn');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
   }
 
   // private_connection_name - computed: true, optional: false, required: false

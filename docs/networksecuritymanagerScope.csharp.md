@@ -4,7 +4,7 @@
 
 ### NetworksecuritymanagerScope <a name="NetworksecuritymanagerScope" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope awscc_networksecuritymanager_scope}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScope.Initializer"></a>
 
@@ -523,7 +523,7 @@ The construct id used in the generated config for the NetworksecuritymanagerScop
 
 The id of the existing NetworksecuritymanagerScope that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -992,7 +992,7 @@ public string ScopeName { get; set; }
 
 The name of the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#scope_name NetworksecuritymanagerScope#scope_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#scope_name NetworksecuritymanagerScope#scope_name}
 
 ---
 
@@ -1006,7 +1006,7 @@ public string ScopeConfiguration { get; set; }
 
 The scope configuration as a JSON string.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#scope_configuration NetworksecuritymanagerScope#scope_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#scope_configuration NetworksecuritymanagerScope#scope_configuration}
 
 ---
 
@@ -1020,7 +1020,7 @@ public string ScopeDescription { get; set; }
 
 A description of the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#scope_description NetworksecuritymanagerScope#scope_description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#scope_description NetworksecuritymanagerScope#scope_description}
 
 ---
 
@@ -1034,7 +1034,7 @@ public IResolvable|NetworksecuritymanagerScopeTags[] Tags { get; set; }
 
 The tags associated with the scope.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#tags NetworksecuritymanagerScope#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#tags NetworksecuritymanagerScope#tags}
 
 ---
 
@@ -1055,8 +1055,8 @@ new NetworksecuritymanagerScopeTags {
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}. |
-| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.key">Key</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}. |
+| <code><a href="#@cdktn/provider-awscc.networksecuritymanagerScope.NetworksecuritymanagerScopeTags.property.value">Value</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}. |
 
 ---
 
@@ -1068,7 +1068,7 @@ public string Key { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#key NetworksecuritymanagerScope#key}.
 
 ---
 
@@ -1080,7 +1080,7 @@ public string Value { get; set; }
 
 - *Type:* string
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/networksecuritymanager_scope#value NetworksecuritymanagerScope#value}.
 
 ---
 

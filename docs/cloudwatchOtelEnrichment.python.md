@@ -4,7 +4,7 @@
 
 ### CloudwatchOtelEnrichment <a name="CloudwatchOtelEnrichment" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer"></a>
 
@@ -20,7 +20,9 @@ cloudwatchOtelEnrichment.CloudwatchOtelEnrichment(
   for_each: ITerraformIterator = None,
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
-  provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None
+  provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  exclude_filters: IResolvable | typing.List[CloudwatchOtelEnrichmentExcludeFilters] = None,
+  include_filters: IResolvable | typing.List[CloudwatchOtelEnrichmentIncludeFilters] = None
 )
 ```
 
@@ -35,6 +37,8 @@ cloudwatchOtelEnrichment.CloudwatchOtelEnrichment(
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer.parameter.excludeFilters">exclude_filters</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]</code> | Removes metrics from the include set. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer.parameter.includeFilters">include_filters</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]</code> | Scopes enrichment to a subset of the account's telemetry. |
 
 ---
 
@@ -98,6 +102,30 @@ Must be unique amongst siblings in the same scope
 
 ---
 
+##### `exclude_filters`<sup>Optional</sup> <a name="exclude_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer.parameter.excludeFilters"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]
+
+Removes metrics from the include set.
+
+Absent or empty means nothing is removed. Evaluated after IncludeFilters, so ExcludeFilters always wins.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#exclude_filters CloudwatchOtelEnrichment#exclude_filters}
+
+---
+
+##### `include_filters`<sup>Optional</sup> <a name="include_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.Initializer.parameter.includeFilters"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]
+
+Scopes enrichment to a subset of the account's telemetry.
+
+Absent or empty means all namespaces are in scope. Present means only these are. The service enforces a combined cap of 100 selectors across IncludeFilters and ExcludeFilters, and rejects more than one selector for the same namespace within a direction.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#include_filters CloudwatchOtelEnrichment#include_filters}
+
+---
+
 #### Methods <a name="Methods" id="Methods"></a>
 
 | **Name** | **Description** |
@@ -126,6 +154,10 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.putExcludeFilters">put_exclude_filters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.putIncludeFilters">put_include_filters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.resetExcludeFilters">reset_exclude_filters</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.resetIncludeFilters">reset_include_filters</a></code> | *No description.* |
 
 ---
 
@@ -477,6 +509,46 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `put_exclude_filters` <a name="put_exclude_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.putExcludeFilters"></a>
+
+```python
+def put_exclude_filters(
+  value: IResolvable | typing.List[CloudwatchOtelEnrichmentExcludeFilters]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.putExcludeFilters.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]
+
+---
+
+##### `put_include_filters` <a name="put_include_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.putIncludeFilters"></a>
+
+```python
+def put_include_filters(
+  value: IResolvable | typing.List[CloudwatchOtelEnrichmentIncludeFilters]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.putIncludeFilters.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]
+
+---
+
+##### `reset_exclude_filters` <a name="reset_exclude_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.resetExcludeFilters"></a>
+
+```python
+def reset_exclude_filters() -> None
+```
+
+##### `reset_include_filters` <a name="reset_include_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.resetIncludeFilters"></a>
+
+```python
+def reset_include_filters() -> None
+```
+
 #### Static Functions <a name="Static Functions" id="Static Functions"></a>
 
 | **Name** | **Description** |
@@ -591,7 +663,7 @@ The construct id used in the generated config for the CloudwatchOtelEnrichment t
 
 The id of the existing CloudwatchOtelEnrichment that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/cloudwatch_otel_enrichment#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -622,8 +694,12 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.accountId">account_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.excludeFilters">exclude_filters</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList">CloudwatchOtelEnrichmentExcludeFiltersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.includeFilters">include_filters</a></code> | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList">CloudwatchOtelEnrichmentIncludeFiltersList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.status">status</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.excludeFiltersInput">exclude_filters_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.includeFiltersInput">include_filters_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]</code> | *No description.* |
 
 ---
 
@@ -779,6 +855,16 @@ account_id: str
 
 ---
 
+##### `exclude_filters`<sup>Required</sup> <a name="exclude_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.excludeFilters"></a>
+
+```python
+exclude_filters: CloudwatchOtelEnrichmentExcludeFiltersList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList">CloudwatchOtelEnrichmentExcludeFiltersList</a>
+
+---
+
 ##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.id"></a>
 
 ```python
@@ -789,6 +875,16 @@ id: str
 
 ---
 
+##### `include_filters`<sup>Required</sup> <a name="include_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.includeFilters"></a>
+
+```python
+include_filters: CloudwatchOtelEnrichmentIncludeFiltersList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList">CloudwatchOtelEnrichmentIncludeFiltersList</a>
+
+---
+
 ##### `status`<sup>Required</sup> <a name="status" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.status"></a>
 
 ```python
@@ -796,6 +892,26 @@ status: str
 ```
 
 - *Type:* str
+
+---
+
+##### `exclude_filters_input`<sup>Optional</sup> <a name="exclude_filters_input" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.excludeFiltersInput"></a>
+
+```python
+exclude_filters_input: IResolvable | typing.List[CloudwatchOtelEnrichmentExcludeFilters]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]
+
+---
+
+##### `include_filters_input`<sup>Optional</sup> <a name="include_filters_input" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichment.property.includeFiltersInput"></a>
+
+```python
+include_filters_input: IResolvable | typing.List[CloudwatchOtelEnrichmentIncludeFilters]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]
 
 ---
 
@@ -833,7 +949,9 @@ cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig(
   for_each: ITerraformIterator = None,
   lifecycle: TerraformResourceLifecycle = None,
   provider: TerraformProvider = None,
-  provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None
+  provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  exclude_filters: IResolvable | typing.List[CloudwatchOtelEnrichmentExcludeFilters] = None,
+  include_filters: IResolvable | typing.List[CloudwatchOtelEnrichmentIncludeFilters] = None
 )
 ```
 
@@ -848,6 +966,8 @@ cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig(
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig.property.excludeFilters">exclude_filters</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]</code> | Removes metrics from the include set. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig.property.includeFilters">include_filters</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]</code> | Scopes enrichment to a subset of the account's telemetry. |
 
 ---
 
@@ -918,6 +1038,1187 @@ provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecPro
 ```
 
 - *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
+
+---
+
+##### `exclude_filters`<sup>Optional</sup> <a name="exclude_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig.property.excludeFilters"></a>
+
+```python
+exclude_filters: IResolvable | typing.List[CloudwatchOtelEnrichmentExcludeFilters]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]
+
+Removes metrics from the include set.
+
+Absent or empty means nothing is removed. Evaluated after IncludeFilters, so ExcludeFilters always wins.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#exclude_filters CloudwatchOtelEnrichment#exclude_filters}
+
+---
+
+##### `include_filters`<sup>Optional</sup> <a name="include_filters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentConfig.property.includeFilters"></a>
+
+```python
+include_filters: IResolvable | typing.List[CloudwatchOtelEnrichmentIncludeFilters]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]
+
+Scopes enrichment to a subset of the account's telemetry.
+
+Absent or empty means all namespaces are in scope. Present means only these are. The service enforces a combined cap of 100 selectors across IncludeFilters and ExcludeFilters, and rejects more than one selector for the same namespace within a direction.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#include_filters CloudwatchOtelEnrichment#include_filters}
+
+---
+
+### CloudwatchOtelEnrichmentExcludeFilters <a name="CloudwatchOtelEnrichmentExcludeFilters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import cloudwatch_otel_enrichment
+
+cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters(
+  metric_names: typing.List[str] = None,
+  namespace: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters.property.metricNames">metric_names</a></code> | <code>typing.List[str]</code> | Absent or empty means every metric in this namespace, in whichever direction this selector appears. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters.property.namespace">namespace</a></code> | <code>str</code> | The CloudWatch namespace this selector applies to. |
+
+---
+
+##### `metric_names`<sup>Optional</sup> <a name="metric_names" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters.property.metricNames"></a>
+
+```python
+metric_names: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Absent or empty means every metric in this namespace, in whichever direction this selector appears.
+
+Present means only these metric names.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#metric_names CloudwatchOtelEnrichment#metric_names}
+
+---
+
+##### `namespace`<sup>Optional</sup> <a name="namespace" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters.property.namespace"></a>
+
+```python
+namespace: str
+```
+
+- *Type:* str
+
+The CloudWatch namespace this selector applies to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#namespace CloudwatchOtelEnrichment#namespace}
+
+---
+
+### CloudwatchOtelEnrichmentIncludeFilters <a name="CloudwatchOtelEnrichmentIncludeFilters" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import cloudwatch_otel_enrichment
+
+cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters(
+  metric_names: typing.List[str] = None,
+  namespace: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters.property.metricNames">metric_names</a></code> | <code>typing.List[str]</code> | Absent or empty means every metric in this namespace, in whichever direction this selector appears. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters.property.namespace">namespace</a></code> | <code>str</code> | The CloudWatch namespace this selector applies to. |
+
+---
+
+##### `metric_names`<sup>Optional</sup> <a name="metric_names" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters.property.metricNames"></a>
+
+```python
+metric_names: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Absent or empty means every metric in this namespace, in whichever direction this selector appears.
+
+Present means only these metric names.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#metric_names CloudwatchOtelEnrichment#metric_names}
+
+---
+
+##### `namespace`<sup>Optional</sup> <a name="namespace" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters.property.namespace"></a>
+
+```python
+namespace: str
+```
+
+- *Type:* str
+
+The CloudWatch namespace this selector applies to.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/cloudwatch_otel_enrichment#namespace CloudwatchOtelEnrichment#namespace}
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### CloudwatchOtelEnrichmentExcludeFiltersList <a name="CloudwatchOtelEnrichmentExcludeFiltersList" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import cloudwatch_otel_enrichment
+
+cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> CloudwatchOtelEnrichmentExcludeFiltersOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[CloudwatchOtelEnrichmentExcludeFilters]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>]
+
+---
+
+
+### CloudwatchOtelEnrichmentExcludeFiltersOutputReference <a name="CloudwatchOtelEnrichmentExcludeFiltersOutputReference" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import cloudwatch_otel_enrichment
+
+cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.resetMetricNames">reset_metric_names</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.resetNamespace">reset_namespace</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_metric_names` <a name="reset_metric_names" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.resetMetricNames"></a>
+
+```python
+def reset_metric_names() -> None
+```
+
+##### `reset_namespace` <a name="reset_namespace" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.resetNamespace"></a>
+
+```python
+def reset_namespace() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.metricNamesInput">metric_names_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.namespaceInput">namespace_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.metricNames">metric_names</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.namespace">namespace</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `metric_names_input`<sup>Optional</sup> <a name="metric_names_input" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.metricNamesInput"></a>
+
+```python
+metric_names_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `namespace_input`<sup>Optional</sup> <a name="namespace_input" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.namespaceInput"></a>
+
+```python
+namespace_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `metric_names`<sup>Required</sup> <a name="metric_names" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.metricNames"></a>
+
+```python
+metric_names: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `namespace`<sup>Required</sup> <a name="namespace" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.namespace"></a>
+
+```python
+namespace: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFiltersOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | CloudwatchOtelEnrichmentExcludeFilters
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentExcludeFilters">CloudwatchOtelEnrichmentExcludeFilters</a>
+
+---
+
+
+### CloudwatchOtelEnrichmentIncludeFiltersList <a name="CloudwatchOtelEnrichmentIncludeFiltersList" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import cloudwatch_otel_enrichment
+
+cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> CloudwatchOtelEnrichmentIncludeFiltersOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[CloudwatchOtelEnrichmentIncludeFilters]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>]
+
+---
+
+
+### CloudwatchOtelEnrichmentIncludeFiltersOutputReference <a name="CloudwatchOtelEnrichmentIncludeFiltersOutputReference" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import cloudwatch_otel_enrichment
+
+cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.resetMetricNames">reset_metric_names</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.resetNamespace">reset_namespace</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_metric_names` <a name="reset_metric_names" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.resetMetricNames"></a>
+
+```python
+def reset_metric_names() -> None
+```
+
+##### `reset_namespace` <a name="reset_namespace" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.resetNamespace"></a>
+
+```python
+def reset_namespace() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.metricNamesInput">metric_names_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.namespaceInput">namespace_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.metricNames">metric_names</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.namespace">namespace</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `metric_names_input`<sup>Optional</sup> <a name="metric_names_input" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.metricNamesInput"></a>
+
+```python
+metric_names_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `namespace_input`<sup>Optional</sup> <a name="namespace_input" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.namespaceInput"></a>
+
+```python
+namespace_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `metric_names`<sup>Required</sup> <a name="metric_names" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.metricNames"></a>
+
+```python
+metric_names: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `namespace`<sup>Required</sup> <a name="namespace" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.namespace"></a>
+
+```python
+namespace: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFiltersOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | CloudwatchOtelEnrichmentIncludeFilters
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.cloudwatchOtelEnrichment.CloudwatchOtelEnrichmentIncludeFilters">CloudwatchOtelEnrichmentIncludeFilters</a>
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### DataAwsccSesTenant <a name="DataAwsccSesTenant" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ses_tenant awscc_ses_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant awscc_ses_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.Initializer"></a>
 
@@ -387,7 +387,7 @@ The construct id used in the generated config for the DataAwsccSesTenant to impo
 
 The id of the existing DataAwsccSesTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ses_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -416,7 +416,9 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.lifecycle">Lifecycle</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformResourceLifecycle</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.provider">Provider</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.arn">Arn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.reputationEntity">ReputationEntity</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference">DataAwsccSesTenantReputationEntityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.resourceAssociations">ResourceAssociations</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantResourceAssociationsList">DataAwsccSesTenantResourceAssociationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.suppressionAttributes">SuppressionAttributes</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference">DataAwsccSesTenantSuppressionAttributesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.tags">Tags</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantTagsList">DataAwsccSesTenantTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.tenantName">TenantName</a></code> | <code>*string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.idInput">IdInput</a></code> | <code>*string</code> | *No description.* |
@@ -556,6 +558,16 @@ func Arn() *string
 
 ---
 
+##### `ReputationEntity`<sup>Required</sup> <a name="ReputationEntity" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.reputationEntity"></a>
+
+```go
+func ReputationEntity() DataAwsccSesTenantReputationEntityOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference">DataAwsccSesTenantReputationEntityOutputReference</a>
+
+---
+
 ##### `ResourceAssociations`<sup>Required</sup> <a name="ResourceAssociations" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.resourceAssociations"></a>
 
 ```go
@@ -563,6 +575,16 @@ func ResourceAssociations() DataAwsccSesTenantResourceAssociationsList
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantResourceAssociationsList">DataAwsccSesTenantResourceAssociationsList</a>
+
+---
+
+##### `SuppressionAttributes`<sup>Required</sup> <a name="SuppressionAttributes" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenant.property.suppressionAttributes"></a>
+
+```go
+func SuppressionAttributes() DataAwsccSesTenantSuppressionAttributesOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference">DataAwsccSesTenantSuppressionAttributesOutputReference</a>
 
 ---
 
@@ -740,12 +762,38 @@ Id *string
 
 Uniquely identifies the resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/ses_tenant#id DataAwsccSesTenant#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/ses_tenant#id DataAwsccSesTenant#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
 
 ---
+
+### DataAwsccSesTenantReputationEntity <a name="DataAwsccSesTenantReputationEntity" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntity.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+
+&dataawsccsestenant.DataAwsccSesTenantReputationEntity {
+
+}
+```
+
+
+### DataAwsccSesTenantReputationEntityPolicy <a name="DataAwsccSesTenantReputationEntityPolicy" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicy.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+
+&dataawsccsestenant.DataAwsccSesTenantReputationEntityPolicy {
+
+}
+```
+
 
 ### DataAwsccSesTenantResourceAssociations <a name="DataAwsccSesTenantResourceAssociations" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantResourceAssociations"></a>
 
@@ -755,6 +803,19 @@ If you experience problems setting this value it might not be settable. Please t
 import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
 
 &dataawsccsestenant.DataAwsccSesTenantResourceAssociations {
+
+}
+```
+
+
+### DataAwsccSesTenantSuppressionAttributes <a name="DataAwsccSesTenantSuppressionAttributes" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributes"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributes.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+
+&dataawsccsestenant.DataAwsccSesTenantSuppressionAttributes {
 
 }
 ```
@@ -774,6 +835,526 @@ import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
 
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### DataAwsccSesTenantReputationEntityOutputReference <a name="DataAwsccSesTenantReputationEntityOutputReference" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+
+dataawsccsestenant.NewDataAwsccSesTenantReputationEntityOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesTenantReputationEntityOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.property.policy">Policy</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference">DataAwsccSesTenantReputationEntityPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntity">DataAwsccSesTenantReputationEntity</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `Policy`<sup>Required</sup> <a name="Policy" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.property.policy"></a>
+
+```go
+func Policy() DataAwsccSesTenantReputationEntityPolicyOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference">DataAwsccSesTenantReputationEntityPolicyOutputReference</a>
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccSesTenantReputationEntity
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntity">DataAwsccSesTenantReputationEntity</a>
+
+---
+
+
+### DataAwsccSesTenantReputationEntityPolicyOutputReference <a name="DataAwsccSesTenantReputationEntityPolicyOutputReference" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+
+dataawsccsestenant.NewDataAwsccSesTenantReputationEntityPolicyOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesTenantReputationEntityPolicyOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicy">ReputationEntityPolicy</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicy">DataAwsccSesTenantReputationEntityPolicy</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `ReputationEntityPolicy`<sup>Required</sup> <a name="ReputationEntityPolicy" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicy"></a>
+
+```go
+func ReputationEntityPolicy() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicyOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccSesTenantReputationEntityPolicy
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantReputationEntityPolicy">DataAwsccSesTenantReputationEntityPolicy</a>
+
+---
+
 
 ### DataAwsccSesTenantResourceAssociationsList <a name="DataAwsccSesTenantResourceAssociationsList" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantResourceAssociationsList"></a>
 
@@ -1198,6 +1779,277 @@ func InternalValue() DataAwsccSesTenantResourceAssociations
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantResourceAssociations">DataAwsccSesTenantResourceAssociations</a>
+
+---
+
+
+### DataAwsccSesTenantSuppressionAttributesOutputReference <a name="DataAwsccSesTenantSuppressionAttributesOutputReference" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.Initializer"></a>
+
+```go
+import "github.com/cdktn-io/cdktn-provider-awscc-go/awscc/dataawsccsestenant"
+
+dataawsccsestenant.NewDataAwsccSesTenantSuppressionAttributesOutputReference(terraformResource IInterpolatingParent, terraformAttribute *string) DataAwsccSesTenantSuppressionAttributesOutputReference
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>*string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.computeFqn">ComputeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getAnyMapAttribute">GetAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getBooleanAttribute">GetBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute">GetBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getListAttribute">GetListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberAttribute">GetNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberListAttribute">GetNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberMapAttribute">GetNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getStringAttribute">GetStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getStringMapAttribute">GetStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.interpolationForAttribute">InterpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.resolve">Resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.toString">ToString</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `ComputeFqn` <a name="ComputeFqn" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.computeFqn"></a>
+
+```go
+func ComputeFqn() *string
+```
+
+##### `GetAnyMapAttribute` <a name="GetAnyMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getAnyMapAttribute"></a>
+
+```go
+func GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanAttribute` <a name="GetBooleanAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getBooleanAttribute"></a>
+
+```go
+func GetBooleanAttribute(terraformAttribute *string) IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetBooleanMapAttribute` <a name="GetBooleanMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute"></a>
+
+```go
+func GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetListAttribute` <a name="GetListAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getListAttribute"></a>
+
+```go
+func GetListAttribute(terraformAttribute *string) *[]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberAttribute` <a name="GetNumberAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberAttribute"></a>
+
+```go
+func GetNumberAttribute(terraformAttribute *string) *f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberListAttribute` <a name="GetNumberListAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberListAttribute"></a>
+
+```go
+func GetNumberListAttribute(terraformAttribute *string) *[]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetNumberMapAttribute` <a name="GetNumberMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberMapAttribute"></a>
+
+```go
+func GetNumberMapAttribute(terraformAttribute *string) *map[string]*f64
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringAttribute` <a name="GetStringAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getStringAttribute"></a>
+
+```go
+func GetStringAttribute(terraformAttribute *string) *string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `GetStringMapAttribute` <a name="GetStringMapAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getStringMapAttribute"></a>
+
+```go
+func GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* *string
+
+---
+
+##### `InterpolationForAttribute` <a name="InterpolationForAttribute" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.interpolationForAttribute"></a>
+
+```go
+func InterpolationForAttribute(property *string) IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* *string
+
+---
+
+##### `Resolve` <a name="Resolve" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.resolve"></a>
+
+```go
+func Resolve(_context IResolveContext) interface{}
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* github.com/open-constructs/cdk-terrain-go/cdktn.IResolveContext
+
+---
+
+##### `ToString` <a name="ToString" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.toString"></a>
+
+```go
+func ToString() *string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.creationStack">CreationStack</a></code> | <code>*[]*string</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.fqn">Fqn</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.suppressedReasons">SuppressedReasons</a></code> | <code>*[]*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.suppressionScope">SuppressionScope</a></code> | <code>*string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.internalValue">InternalValue</a></code> | <code><a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributes">DataAwsccSesTenantSuppressionAttributes</a></code> | *No description.* |
+
+---
+
+##### `CreationStack`<sup>Required</sup> <a name="CreationStack" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.creationStack"></a>
+
+```go
+func CreationStack() *[]*string
+```
+
+- *Type:* *[]*string
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `Fqn`<sup>Required</sup> <a name="Fqn" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.fqn"></a>
+
+```go
+func Fqn() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `SuppressedReasons`<sup>Required</sup> <a name="SuppressedReasons" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.suppressedReasons"></a>
+
+```go
+func SuppressedReasons() *[]*string
+```
+
+- *Type:* *[]*string
+
+---
+
+##### `SuppressionScope`<sup>Required</sup> <a name="SuppressionScope" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.suppressionScope"></a>
+
+```go
+func SuppressionScope() *string
+```
+
+- *Type:* *string
+
+---
+
+##### `InternalValue`<sup>Optional</sup> <a name="InternalValue" id="@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributesOutputReference.property.internalValue"></a>
+
+```go
+func InternalValue() DataAwsccSesTenantSuppressionAttributes
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.dataAwsccSesTenant.DataAwsccSesTenantSuppressionAttributes">DataAwsccSesTenantSuppressionAttributes</a>
 
 ---
 

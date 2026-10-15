@@ -4,7 +4,7 @@
 
 ### LambdaResourcePolicy <a name="LambdaResourcePolicy" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicy"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_resource_policy awscc_lambda_resource_policy}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy awscc_lambda_resource_policy}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicy.Initializer"></a>
 
@@ -489,7 +489,7 @@ The construct id used in the generated config for the LambdaResourcePolicy to im
 
 The id of the existing LambdaResourcePolicy that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_resource_policy#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -771,7 +771,7 @@ new LambdaResourcePolicyConfig {
 | <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.provider">Provider</a></code> | <code>Io.Cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.provisioners">Provisioners</a></code> | <code>Io.Cdktn.FileProvisioner\|Io.Cdktn.LocalExecProvisioner\|Io.Cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.policyDocument">PolicyDocument</a></code> | <code>string</code> | The policy document you want to add to your LAM resource. |
-| <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.resourceArn">ResourceArn</a></code> | <code>string</code> | The Amazon Resource Name (ARN) of the LAM resource you want to add the policy to. |
+| <code><a href="#@cdktn/provider-awscc.lambdaResourcePolicy.LambdaResourcePolicyConfig.property.resourceArn">ResourceArn</a></code> | <code>string</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}. |
 
 ---
 
@@ -858,7 +858,7 @@ The policy document you want to add to your LAM resource.
 This is formatted as a JSON string.
 For more information, see [Working with resource-based policies in](https://docs.aws.amazon.com/lambda/latest/dg/access-control-resource-based.html) in the *Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_resource_policy#policy_document LambdaResourcePolicy#policy_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#policy_document LambdaResourcePolicy#policy_document}
 
 ---
 
@@ -870,11 +870,7 @@ public string ResourceArn { get; set; }
 
 - *Type:* string
 
-The Amazon Resource Name (ARN) of the LAM resource you want to add the policy to.
-
-For a function, you can use a qualified or an unqualified ARN. The value must be a complete ARN, and the operation does not accept wildcard characters.
-
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/lambda_resource_policy#resource_arn LambdaResourcePolicy#resource_arn}.
 
 ---
 
