@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_client_vpn_route
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,31 +15,31 @@ export interface Ec2ClientVpnRouteConfig extends cdktn.TerraformMetaArguments {
   /**
   * The ID of the Client VPN endpoint to which to add the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_client_vpn_route#client_vpn_endpoint_id Ec2ClientVpnRoute#client_vpn_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#client_vpn_endpoint_id Ec2ClientVpnRoute#client_vpn_endpoint_id}
   */
   readonly clientVpnEndpointId: string;
   /**
   * A brief description of the route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_client_vpn_route#description Ec2ClientVpnRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#description Ec2ClientVpnRoute#description}
   */
   readonly description?: string;
   /**
   * The IPv4 address range, in CIDR notation, of the route destination. For example: To add a route for Internet access, enter 0.0.0.0/0. To add a route for a peered VPC, enter the peered VPC's IPv4 CIDR range. To add a route for an on-premises network, enter the AWS Site-to-Site VPN connection's IPv4 CIDR range. To add a route for the local network, enter the client CIDR range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_client_vpn_route#destination_cidr_block Ec2ClientVpnRoute#destination_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#destination_cidr_block Ec2ClientVpnRoute#destination_cidr_block}
   */
   readonly destinationCidrBlock: string;
   /**
   * The ID of the subnet through which you want to route traffic. The specified subnet must be an existing target network of the Client VPN endpoint. Alternatively, if you're adding a route for the local network, specify local.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_client_vpn_route#target_vpc_subnet_id Ec2ClientVpnRoute#target_vpc_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#target_vpc_subnet_id Ec2ClientVpnRoute#target_vpc_subnet_id}
   */
   readonly targetVpcSubnetId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_client_vpn_route awscc_ec2_client_vpn_route}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route awscc_ec2_client_vpn_route}
 */
 export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
 
@@ -55,7 +55,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a Ec2ClientVpnRoute resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ec2ClientVpnRoute to import
-  * @param importFromId The id of the existing Ec2ClientVpnRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_client_vpn_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ec2ClientVpnRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ec2ClientVpnRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -67,7 +67,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ec2_client_vpn_route awscc_ec2_client_vpn_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ec2_client_vpn_route awscc_ec2_client_vpn_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,7 +78,7 @@ export class Ec2ClientVpnRoute extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_ec2_client_vpn_route',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

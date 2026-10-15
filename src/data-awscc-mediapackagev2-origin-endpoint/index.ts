@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediapackagev2_origin_endpoint
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccMediapackagev2OriginEndpointConfig extends cdktn.Terra
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediapackagev2_origin_endpoint#id DataAwsccMediapackagev2OriginEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint#id DataAwsccMediapackagev2OriginEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1857,6 +1857,60 @@ export class DataAwsccMediapackagev2OriginEndpointSegmentEncryptionEncryptionMet
     return this.getStringAttribute('ts_encryption_method');
   }
 }
+export interface DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration {
+}
+
+export function dataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationToTerraform(struct?: DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationToHclTerraform(struct?: DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // content_key_period_timing - computed: true, optional: false, required: false
+  public get contentKeyPeriodTiming() {
+    return this.getStringAttribute('content_key_period_timing');
+  }
+}
 export interface DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderEncryptionContractConfiguration {
 }
 
@@ -1970,6 +2024,12 @@ export class DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvi
     return this.getStringAttribute('certificate_arn');
   }
 
+  // content_key_period_configuration - computed: true, optional: false, required: false
+  private _contentKeyPeriodConfiguration = new DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProviderContentKeyPeriodConfigurationOutputReference(this, "content_key_period_configuration");
+  public get contentKeyPeriodConfiguration() {
+    return this._contentKeyPeriodConfiguration;
+  }
+
   // drm_systems - computed: true, optional: false, required: false
   public get drmSystems() {
     return this.getListAttribute('drm_systems');
@@ -1989,6 +2049,11 @@ export class DataAwsccMediapackagev2OriginEndpointSegmentEncryptionSpekeKeyProvi
   // role_arn - computed: true, optional: false, required: false
   public get roleArn() {
     return this.getStringAttribute('role_arn');
+  }
+
+  // speke_version - computed: true, optional: false, required: false
+  public get spekeVersion() {
+    return this.getStringAttribute('speke_version');
   }
 
   // url - computed: true, optional: false, required: false
@@ -2309,7 +2374,7 @@ export class DataAwsccMediapackagev2OriginEndpointTagsList extends cdktn.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint}
 */
 export class DataAwsccMediapackagev2OriginEndpoint extends cdktn.TerraformDataSource {
 
@@ -2325,7 +2390,7 @@ export class DataAwsccMediapackagev2OriginEndpoint extends cdktn.TerraformDataSo
   * Generates CDKTN code for importing a DataAwsccMediapackagev2OriginEndpoint resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccMediapackagev2OriginEndpoint to import
-  * @param importFromId The id of the existing DataAwsccMediapackagev2OriginEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediapackagev2_origin_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccMediapackagev2OriginEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccMediapackagev2OriginEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -2337,7 +2402,7 @@ export class DataAwsccMediapackagev2OriginEndpoint extends cdktn.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/mediapackagev2_origin_endpoint awscc_mediapackagev2_origin_endpoint} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2348,7 +2413,7 @@ export class DataAwsccMediapackagev2OriginEndpoint extends cdktn.TerraformDataSo
       terraformResourceType: 'awscc_mediapackagev2_origin_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

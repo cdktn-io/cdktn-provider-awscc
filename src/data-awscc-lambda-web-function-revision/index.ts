@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_function_revision
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccLambdaWebFunctionRevisionConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_function_revision#id DataAwsccLambdaWebFunctionRevision#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision#id DataAwsccLambdaWebFunctionRevision#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -424,6 +424,11 @@ export class DataAwsccLambdaWebFunctionRevisionServiceConfigOutputReference exte
     }
   }
 
+  // egress_network_connector_arn - computed: true, optional: false, required: false
+  public get egressNetworkConnectorArn() {
+    return this.getStringAttribute('egress_network_connector_arn');
+  }
+
   // environment_variables - computed: true, optional: false, required: false
   private _environmentVariables = new cdktn.StringMap(this, "environment_variables");
   public get environmentVariables() {
@@ -453,7 +458,7 @@ export class DataAwsccLambdaWebFunctionRevisionServiceConfigOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision}
 */
 export class DataAwsccLambdaWebFunctionRevision extends cdktn.TerraformDataSource {
 
@@ -469,7 +474,7 @@ export class DataAwsccLambdaWebFunctionRevision extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccLambdaWebFunctionRevision resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccLambdaWebFunctionRevision to import
-  * @param importFromId The id of the existing DataAwsccLambdaWebFunctionRevision that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccLambdaWebFunctionRevision that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccLambdaWebFunctionRevision to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -481,7 +486,7 @@ export class DataAwsccLambdaWebFunctionRevision extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_function_revision awscc_lambda_web_function_revision} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,7 +497,7 @@ export class DataAwsccLambdaWebFunctionRevision extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_lambda_web_function_revision',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

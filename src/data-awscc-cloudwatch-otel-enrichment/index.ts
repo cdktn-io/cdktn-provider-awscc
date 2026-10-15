@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_otel_enrichment
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,16 +15,176 @@ export interface DataAwsccCloudwatchOtelEnrichmentConfig extends cdktn.Terraform
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_otel_enrichment#id DataAwsccCloudwatchOtelEnrichment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichment#id DataAwsccCloudwatchOtelEnrichment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
 }
+export interface DataAwsccCloudwatchOtelEnrichmentExcludeFilters {
+}
+
+export function dataAwsccCloudwatchOtelEnrichmentExcludeFiltersToTerraform(struct?: DataAwsccCloudwatchOtelEnrichmentExcludeFilters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCloudwatchOtelEnrichmentExcludeFiltersToHclTerraform(struct?: DataAwsccCloudwatchOtelEnrichmentExcludeFilters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCloudwatchOtelEnrichmentExcludeFiltersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccCloudwatchOtelEnrichmentExcludeFilters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCloudwatchOtelEnrichmentExcludeFilters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // metric_names - computed: true, optional: false, required: false
+  public get metricNames() {
+    return cdktn.Fn.tolist(this.getListAttribute('metric_names'));
+  }
+
+  // namespace - computed: true, optional: false, required: false
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+}
+
+export class DataAwsccCloudwatchOtelEnrichmentExcludeFiltersList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccCloudwatchOtelEnrichmentExcludeFiltersOutputReference {
+    return new DataAwsccCloudwatchOtelEnrichmentExcludeFiltersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAwsccCloudwatchOtelEnrichmentIncludeFilters {
+}
+
+export function dataAwsccCloudwatchOtelEnrichmentIncludeFiltersToTerraform(struct?: DataAwsccCloudwatchOtelEnrichmentIncludeFilters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccCloudwatchOtelEnrichmentIncludeFiltersToHclTerraform(struct?: DataAwsccCloudwatchOtelEnrichmentIncludeFilters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccCloudwatchOtelEnrichmentIncludeFiltersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAwsccCloudwatchOtelEnrichmentIncludeFilters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccCloudwatchOtelEnrichmentIncludeFilters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // metric_names - computed: true, optional: false, required: false
+  public get metricNames() {
+    return cdktn.Fn.tolist(this.getListAttribute('metric_names'));
+  }
+
+  // namespace - computed: true, optional: false, required: false
+  public get namespace() {
+    return this.getStringAttribute('namespace');
+  }
+}
+
+export class DataAwsccCloudwatchOtelEnrichmentIncludeFiltersList extends cdktn.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string, wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet);
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAwsccCloudwatchOtelEnrichmentIncludeFiltersOutputReference {
+    return new DataAwsccCloudwatchOtelEnrichmentIncludeFiltersOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment}
 */
 export class DataAwsccCloudwatchOtelEnrichment extends cdktn.TerraformDataSource {
 
@@ -40,7 +200,7 @@ export class DataAwsccCloudwatchOtelEnrichment extends cdktn.TerraformDataSource
   * Generates CDKTN code for importing a DataAwsccCloudwatchOtelEnrichment resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccCloudwatchOtelEnrichment to import
-  * @param importFromId The id of the existing DataAwsccCloudwatchOtelEnrichment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_otel_enrichment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccCloudwatchOtelEnrichment that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccCloudwatchOtelEnrichment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -52,7 +212,7 @@ export class DataAwsccCloudwatchOtelEnrichment extends cdktn.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/cloudwatch_otel_enrichment awscc_cloudwatch_otel_enrichment} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,7 +223,7 @@ export class DataAwsccCloudwatchOtelEnrichment extends cdktn.TerraformDataSource
       terraformResourceType: 'awscc_cloudwatch_otel_enrichment',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -86,6 +246,12 @@ export class DataAwsccCloudwatchOtelEnrichment extends cdktn.TerraformDataSource
     return this.getStringAttribute('account_id');
   }
 
+  // exclude_filters - computed: true, optional: false, required: false
+  private _excludeFilters = new DataAwsccCloudwatchOtelEnrichmentExcludeFiltersList(this, "exclude_filters", true);
+  public get excludeFilters() {
+    return this._excludeFilters;
+  }
+
   // id - computed: false, optional: false, required: true
   private _id?: string; 
   public get id() {
@@ -97,6 +263,12 @@ export class DataAwsccCloudwatchOtelEnrichment extends cdktn.TerraformDataSource
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // include_filters - computed: true, optional: false, required: false
+  private _includeFilters = new DataAwsccCloudwatchOtelEnrichmentIncludeFiltersList(this, "include_filters", true);
+  public get includeFilters() {
+    return this._includeFilters;
   }
 
   // status - computed: true, optional: false, required: false

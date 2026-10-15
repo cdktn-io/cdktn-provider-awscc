@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/config_organization_config_rules
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccConfigOrganizationConfigRulesConfig extends cdktn.Terr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/config_organization_config_rules awscc_config_organization_config_rules}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rules awscc_config_organization_config_rules}
 */
 export class DataAwsccConfigOrganizationConfigRules extends cdktn.TerraformDataSource {
 
@@ -31,7 +31,7 @@ export class DataAwsccConfigOrganizationConfigRules extends cdktn.TerraformDataS
   * Generates CDKTN code for importing a DataAwsccConfigOrganizationConfigRules resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccConfigOrganizationConfigRules to import
-  * @param importFromId The id of the existing DataAwsccConfigOrganizationConfigRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/config_organization_config_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccConfigOrganizationConfigRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccConfigOrganizationConfigRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -43,7 +43,7 @@ export class DataAwsccConfigOrganizationConfigRules extends cdktn.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/config_organization_config_rules awscc_config_organization_config_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/config_organization_config_rules awscc_config_organization_config_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -54,7 +54,7 @@ export class DataAwsccConfigOrganizationConfigRules extends cdktn.TerraformDataS
       terraformResourceType: 'awscc_config_organization_config_rules',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,

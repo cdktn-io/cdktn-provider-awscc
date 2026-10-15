@@ -67,6 +67,8 @@ Object.defineProperty(exports, 'appconfigExperimentRun', { get: function () { re
 Object.defineProperty(exports, 'appconfigExtension', { get: function () { return require('./appconfig-extension'); } });
 Object.defineProperty(exports, 'appconfigExtensionAssociation', { get: function () { return require('./appconfig-extension-association'); } });
 Object.defineProperty(exports, 'appconfigHostedConfigurationVersion', { get: function () { return require('./appconfig-hosted-configuration-version'); } });
+Object.defineProperty(exports, 'appfabricAppAuthorization', { get: function () { return require('./appfabric-app-authorization'); } });
+Object.defineProperty(exports, 'appfabricIngestionDestination', { get: function () { return require('./appfabric-ingestion-destination'); } });
 Object.defineProperty(exports, 'appflowConnector', { get: function () { return require('./appflow-connector'); } });
 Object.defineProperty(exports, 'appflowConnectorProfile', { get: function () { return require('./appflow-connector-profile'); } });
 Object.defineProperty(exports, 'appflowFlow', { get: function () { return require('./appflow-flow'); } });
@@ -185,6 +187,7 @@ Object.defineProperty(exports, 'bedrockagentcoreBrowserProfile', { get: function
 Object.defineProperty(exports, 'bedrockagentcoreCapacityProvider', { get: function () { return require('./bedrockagentcore-capacity-provider'); } });
 Object.defineProperty(exports, 'bedrockagentcoreCodeInterpreterCustom', { get: function () { return require('./bedrockagentcore-code-interpreter-custom'); } });
 Object.defineProperty(exports, 'bedrockagentcoreConfigurationBundle', { get: function () { return require('./bedrockagentcore-configuration-bundle'); } });
+Object.defineProperty(exports, 'bedrockagentcoreConsentPortal', { get: function () { return require('./bedrockagentcore-consent-portal'); } });
 Object.defineProperty(exports, 'bedrockagentcoreEvaluator', { get: function () { return require('./bedrockagentcore-evaluator'); } });
 Object.defineProperty(exports, 'bedrockagentcoreGateway', { get: function () { return require('./bedrockagentcore-gateway'); } });
 Object.defineProperty(exports, 'bedrockagentcoreGatewayRateLimit', { get: function () { return require('./bedrockagentcore-gateway-rate-limit'); } });
@@ -299,6 +302,7 @@ Object.defineProperty(exports, 'cloudwatchAnomalyDetector', { get: function () {
 Object.defineProperty(exports, 'cloudwatchCompositeAlarm', { get: function () { return require('./cloudwatch-composite-alarm'); } });
 Object.defineProperty(exports, 'cloudwatchDashboard', { get: function () { return require('./cloudwatch-dashboard'); } });
 Object.defineProperty(exports, 'cloudwatchInsightRule', { get: function () { return require('./cloudwatch-insight-rule'); } });
+Object.defineProperty(exports, 'cloudwatchIntegration', { get: function () { return require('./cloudwatch-integration'); } });
 Object.defineProperty(exports, 'cloudwatchLogAlarm', { get: function () { return require('./cloudwatch-log-alarm'); } });
 Object.defineProperty(exports, 'cloudwatchMetricStream', { get: function () { return require('./cloudwatch-metric-stream'); } });
 Object.defineProperty(exports, 'cloudwatchOtelEnrichment', { get: function () { return require('./cloudwatch-otel-enrichment'); } });
@@ -409,6 +413,7 @@ Object.defineProperty(exports, 'customerprofilesEventTrigger', { get: function (
 Object.defineProperty(exports, 'customerprofilesIntegration', { get: function () { return require('./customerprofiles-integration'); } });
 Object.defineProperty(exports, 'customerprofilesObjectType', { get: function () { return require('./customerprofiles-object-type'); } });
 Object.defineProperty(exports, 'customerprofilesRecommender', { get: function () { return require('./customerprofiles-recommender'); } });
+Object.defineProperty(exports, 'customerprofilesRecommenderFilter', { get: function () { return require('./customerprofiles-recommender-filter'); } });
 Object.defineProperty(exports, 'customerprofilesSegmentDefinition', { get: function () { return require('./customerprofiles-segment-definition'); } });
 Object.defineProperty(exports, 'databrewDataset', { get: function () { return require('./databrew-dataset'); } });
 Object.defineProperty(exports, 'databrewJob', { get: function () { return require('./databrew-job'); } });
@@ -515,6 +520,7 @@ Object.defineProperty(exports, 'ec2CapacityManagerDataExport', { get: function (
 Object.defineProperty(exports, 'ec2CapacityReservation', { get: function () { return require('./ec2-capacity-reservation'); } });
 Object.defineProperty(exports, 'ec2CapacityReservationFleet', { get: function () { return require('./ec2-capacity-reservation-fleet'); } });
 Object.defineProperty(exports, 'ec2CarrierGateway', { get: function () { return require('./ec2-carrier-gateway'); } });
+Object.defineProperty(exports, 'ec2ClientVpnAuthorizationRule', { get: function () { return require('./ec2-client-vpn-authorization-rule'); } });
 Object.defineProperty(exports, 'ec2ClientVpnRoute', { get: function () { return require('./ec2-client-vpn-route'); } });
 Object.defineProperty(exports, 'ec2CustomerGateway', { get: function () { return require('./ec2-customer-gateway'); } });
 Object.defineProperty(exports, 'ec2DhcpOptions', { get: function () { return require('./ec2-dhcp-options'); } });
@@ -731,6 +737,8 @@ Object.defineProperty(exports, 'frauddetectorOutcome', { get: function () { retu
 Object.defineProperty(exports, 'frauddetectorVariable', { get: function () { return require('./frauddetector-variable'); } });
 Object.defineProperty(exports, 'fsxDataRepositoryAssociation', { get: function () { return require('./fsx-data-repository-association'); } });
 Object.defineProperty(exports, 'fsxS3AccessPointAttachment', { get: function () { return require('./fsx-s3-access-point-attachment'); } });
+Object.defineProperty(exports, 'fsxSnapshot', { get: function () { return require('./fsx-snapshot'); } });
+Object.defineProperty(exports, 'fsxStorageVirtualMachine', { get: function () { return require('./fsx-storage-virtual-machine'); } });
 Object.defineProperty(exports, 'fsxVolume', { get: function () { return require('./fsx-volume'); } });
 Object.defineProperty(exports, 'gameliftAlias', { get: function () { return require('./gamelift-alias'); } });
 Object.defineProperty(exports, 'gameliftBuild', { get: function () { return require('./gamelift-build'); } });
@@ -769,6 +777,7 @@ Object.defineProperty(exports, 'glueSchemaVersion', { get: function () { return 
 Object.defineProperty(exports, 'glueSchemaVersionMetadata', { get: function () { return require('./glue-schema-version-metadata'); } });
 Object.defineProperty(exports, 'glueSecurityConfiguration', { get: function () { return require('./glue-security-configuration'); } });
 Object.defineProperty(exports, 'glueSession', { get: function () { return require('./glue-session'); } });
+Object.defineProperty(exports, 'glueTable', { get: function () { return require('./glue-table'); } });
 Object.defineProperty(exports, 'glueTableOptimizer', { get: function () { return require('./glue-table-optimizer'); } });
 Object.defineProperty(exports, 'glueTrigger', { get: function () { return require('./glue-trigger'); } });
 Object.defineProperty(exports, 'glueUserDefinedFunction', { get: function () { return require('./glue-user-defined-function'); } });
@@ -970,7 +979,10 @@ Object.defineProperty(exports, 'licensemanagerGrant', { get: function () { retur
 Object.defineProperty(exports, 'licensemanagerLicense', { get: function () { return require('./licensemanager-license'); } });
 Object.defineProperty(exports, 'licensemanagerLicenseAssetGroup', { get: function () { return require('./licensemanager-license-asset-group'); } });
 Object.defineProperty(exports, 'licensemanagerLicenseAssetRuleSet', { get: function () { return require('./licensemanager-license-asset-rule-set'); } });
+Object.defineProperty(exports, 'licensemanagerLicenseConfiguration', { get: function () { return require('./licensemanager-license-configuration'); } });
 Object.defineProperty(exports, 'licensemanagerReportGenerator', { get: function () { return require('./licensemanager-report-generator'); } });
+Object.defineProperty(exports, 'licensemanagerlinuxsubscriptionsSubscriptionProvider', { get: function () { return require('./licensemanagerlinuxsubscriptions-subscription-provider'); } });
+Object.defineProperty(exports, 'licensemanagerusersubscriptionsLicenseServerEndpoint', { get: function () { return require('./licensemanagerusersubscriptions-license-server-endpoint'); } });
 Object.defineProperty(exports, 'lightsailAlarm', { get: function () { return require('./lightsail-alarm'); } });
 Object.defineProperty(exports, 'lightsailBucket', { get: function () { return require('./lightsail-bucket'); } });
 Object.defineProperty(exports, 'lightsailCertificate', { get: function () { return require('./lightsail-certificate'); } });
@@ -1209,6 +1221,7 @@ Object.defineProperty(exports, 'personalizeSolution', { get: function () { retur
 Object.defineProperty(exports, 'piPerfReports', { get: function () { return require('./pi-perf-reports'); } });
 Object.defineProperty(exports, 'pinpointInAppTemplate', { get: function () { return require('./pinpoint-in-app-template'); } });
 Object.defineProperty(exports, 'pipesPipe', { get: function () { return require('./pipes-pipe'); } });
+Object.defineProperty(exports, 'pollyLexicon', { get: function () { return require('./polly-lexicon'); } });
 Object.defineProperty(exports, 'pricingplanmanagerSubscription', { get: function () { return require('./pricingplanmanager-subscription'); } });
 Object.defineProperty(exports, 'protonEnvironmentAccountConnection', { get: function () { return require('./proton-environment-account-connection'); } });
 Object.defineProperty(exports, 'protonEnvironmentTemplate', { get: function () { return require('./proton-environment-template'); } });
@@ -1224,6 +1237,8 @@ Object.defineProperty(exports, 'qldbStream', { get: function () { return require
 Object.defineProperty(exports, 'quicksightActionConnector', { get: function () { return require('./quicksight-action-connector'); } });
 Object.defineProperty(exports, 'quicksightAgent', { get: function () { return require('./quicksight-agent'); } });
 Object.defineProperty(exports, 'quicksightAnalysis', { get: function () { return require('./quicksight-analysis'); } });
+Object.defineProperty(exports, 'quicksightAssignment', { get: function () { return require('./quicksight-assignment'); } });
+Object.defineProperty(exports, 'quicksightBrand', { get: function () { return require('./quicksight-brand'); } });
 Object.defineProperty(exports, 'quicksightCustomPermissions', { get: function () { return require('./quicksight-custom-permissions'); } });
 Object.defineProperty(exports, 'quicksightCustomization', { get: function () { return require('./quicksight-customization'); } });
 Object.defineProperty(exports, 'quicksightDashboard', { get: function () { return require('./quicksight-dashboard'); } });
@@ -1232,6 +1247,7 @@ Object.defineProperty(exports, 'quicksightDataSource', { get: function () { retu
 Object.defineProperty(exports, 'quicksightDlpSetting', { get: function () { return require('./quicksight-dlp-setting'); } });
 Object.defineProperty(exports, 'quicksightFlow', { get: function () { return require('./quicksight-flow'); } });
 Object.defineProperty(exports, 'quicksightFolder', { get: function () { return require('./quicksight-folder'); } });
+Object.defineProperty(exports, 'quicksightGroup', { get: function () { return require('./quicksight-group'); } });
 Object.defineProperty(exports, 'quicksightKnowledgeBase', { get: function () { return require('./quicksight-knowledge-base'); } });
 Object.defineProperty(exports, 'quicksightLimitsProfile', { get: function () { return require('./quicksight-limits-profile'); } });
 Object.defineProperty(exports, 'quicksightOAuthClientApplication', { get: function () { return require('./quicksight-o-auth-client-application'); } });
@@ -1262,6 +1278,7 @@ Object.defineProperty(exports, 'rdsDbProxyTargetGroup', { get: function () { ret
 Object.defineProperty(exports, 'rdsDbShardGroup', { get: function () { return require('./rds-db-shard-group'); } });
 Object.defineProperty(exports, 'rdsDbSnapshot', { get: function () { return require('./rds-db-snapshot'); } });
 Object.defineProperty(exports, 'rdsDbSubnetGroup', { get: function () { return require('./rds-db-subnet-group'); } });
+Object.defineProperty(exports, 'rdsDeployment', { get: function () { return require('./rds-deployment'); } });
 Object.defineProperty(exports, 'rdsEventSubscription', { get: function () { return require('./rds-event-subscription'); } });
 Object.defineProperty(exports, 'rdsGlobalCluster', { get: function () { return require('./rds-global-cluster'); } });
 Object.defineProperty(exports, 'rdsIntegration', { get: function () { return require('./rds-integration'); } });
@@ -1448,6 +1465,7 @@ Object.defineProperty(exports, 'secretsmanagerSecretTargetAttachment', { get: fu
 Object.defineProperty(exports, 'securityagentAgentSpace', { get: function () { return require('./securityagent-agent-space'); } });
 Object.defineProperty(exports, 'securityagentApplication', { get: function () { return require('./securityagent-application'); } });
 Object.defineProperty(exports, 'securityagentArtifact', { get: function () { return require('./securityagent-artifact'); } });
+Object.defineProperty(exports, 'securityagentIntegration', { get: function () { return require('./securityagent-integration'); } });
 Object.defineProperty(exports, 'securityagentPentest', { get: function () { return require('./securityagent-pentest'); } });
 Object.defineProperty(exports, 'securityagentSecurityRequirementPack', { get: function () { return require('./securityagent-security-requirement-pack'); } });
 Object.defineProperty(exports, 'securityagentTargetDomain', { get: function () { return require('./securityagent-target-domain'); } });
@@ -1571,6 +1589,8 @@ Object.defineProperty(exports, 'stepfunctionsActivity', { get: function () { ret
 Object.defineProperty(exports, 'stepfunctionsStateMachine', { get: function () { return require('./stepfunctions-state-machine'); } });
 Object.defineProperty(exports, 'stepfunctionsStateMachineAlias', { get: function () { return require('./stepfunctions-state-machine-alias'); } });
 Object.defineProperty(exports, 'stepfunctionsStateMachineVersion', { get: function () { return require('./stepfunctions-state-machine-version'); } });
+Object.defineProperty(exports, 'storagegatewayNfsFileShare', { get: function () { return require('./storagegateway-nfs-file-share'); } });
+Object.defineProperty(exports, 'storagegatewaySmbFileShare', { get: function () { return require('./storagegateway-smb-file-share'); } });
 Object.defineProperty(exports, 'storagegatewayTape', { get: function () { return require('./storagegateway-tape'); } });
 Object.defineProperty(exports, 'storagegatewayTapePool', { get: function () { return require('./storagegateway-tape-pool'); } });
 Object.defineProperty(exports, 'storagegatewayVolume', { get: function () { return require('./storagegateway-volume'); } });
@@ -1583,6 +1603,7 @@ Object.defineProperty(exports, 'syntheticsGroup', { get: function () { return re
 Object.defineProperty(exports, 'systemsmanagersapApplication', { get: function () { return require('./systemsmanagersap-application'); } });
 Object.defineProperty(exports, 'textractAdapter', { get: function () { return require('./textract-adapter'); } });
 Object.defineProperty(exports, 'timestreamDatabase', { get: function () { return require('./timestream-database'); } });
+Object.defineProperty(exports, 'timestreamInfluxDbBackup', { get: function () { return require('./timestream-influx-db-backup'); } });
 Object.defineProperty(exports, 'timestreamInfluxDbCluster', { get: function () { return require('./timestream-influx-db-cluster'); } });
 Object.defineProperty(exports, 'timestreamInfluxDbInstance', { get: function () { return require('./timestream-influx-db-instance'); } });
 Object.defineProperty(exports, 'timestreamScheduledQuery', { get: function () { return require('./timestream-scheduled-query'); } });
@@ -1760,6 +1781,8 @@ Object.defineProperty(exports, 'dataAwsccAppconfigExtensionAssociation', { get: 
 Object.defineProperty(exports, 'dataAwsccAppconfigExtensionAssociations', { get: function () { return require('./data-awscc-appconfig-extension-associations'); } });
 Object.defineProperty(exports, 'dataAwsccAppconfigExtensions', { get: function () { return require('./data-awscc-appconfig-extensions'); } });
 Object.defineProperty(exports, 'dataAwsccAppconfigHostedConfigurationVersion', { get: function () { return require('./data-awscc-appconfig-hosted-configuration-version'); } });
+Object.defineProperty(exports, 'dataAwsccAppfabricAppAuthorization', { get: function () { return require('./data-awscc-appfabric-app-authorization'); } });
+Object.defineProperty(exports, 'dataAwsccAppfabricIngestionDestination', { get: function () { return require('./data-awscc-appfabric-ingestion-destination'); } });
 Object.defineProperty(exports, 'dataAwsccAppflowConnector', { get: function () { return require('./data-awscc-appflow-connector'); } });
 Object.defineProperty(exports, 'dataAwsccAppflowConnectorProfile', { get: function () { return require('./data-awscc-appflow-connector-profile'); } });
 Object.defineProperty(exports, 'dataAwsccAppflowConnectorProfiles', { get: function () { return require('./data-awscc-appflow-connector-profiles'); } });
@@ -1966,6 +1989,8 @@ Object.defineProperty(exports, 'dataAwsccBedrockagentcoreCodeInterpreterCustom',
 Object.defineProperty(exports, 'dataAwsccBedrockagentcoreCodeInterpreterCustoms', { get: function () { return require('./data-awscc-bedrockagentcore-code-interpreter-customs'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockagentcoreConfigurationBundle', { get: function () { return require('./data-awscc-bedrockagentcore-configuration-bundle'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockagentcoreConfigurationBundles', { get: function () { return require('./data-awscc-bedrockagentcore-configuration-bundles'); } });
+Object.defineProperty(exports, 'dataAwsccBedrockagentcoreConsentPortal', { get: function () { return require('./data-awscc-bedrockagentcore-consent-portal'); } });
+Object.defineProperty(exports, 'dataAwsccBedrockagentcoreConsentPortals', { get: function () { return require('./data-awscc-bedrockagentcore-consent-portals'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockagentcoreEvaluator', { get: function () { return require('./data-awscc-bedrockagentcore-evaluator'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockagentcoreEvaluators', { get: function () { return require('./data-awscc-bedrockagentcore-evaluators'); } });
 Object.defineProperty(exports, 'dataAwsccBedrockagentcoreGateway', { get: function () { return require('./data-awscc-bedrockagentcore-gateway'); } });
@@ -2168,6 +2193,8 @@ Object.defineProperty(exports, 'dataAwsccCloudwatchDashboard', { get: function (
 Object.defineProperty(exports, 'dataAwsccCloudwatchDashboards', { get: function () { return require('./data-awscc-cloudwatch-dashboards'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchInsightRule', { get: function () { return require('./data-awscc-cloudwatch-insight-rule'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchInsightRules', { get: function () { return require('./data-awscc-cloudwatch-insight-rules'); } });
+Object.defineProperty(exports, 'dataAwsccCloudwatchIntegration', { get: function () { return require('./data-awscc-cloudwatch-integration'); } });
+Object.defineProperty(exports, 'dataAwsccCloudwatchIntegrations', { get: function () { return require('./data-awscc-cloudwatch-integrations'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchLogAlarm', { get: function () { return require('./data-awscc-cloudwatch-log-alarm'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchLogAlarms', { get: function () { return require('./data-awscc-cloudwatch-log-alarms'); } });
 Object.defineProperty(exports, 'dataAwsccCloudwatchMetricStream', { get: function () { return require('./data-awscc-cloudwatch-metric-stream'); } });
@@ -2330,6 +2357,7 @@ Object.defineProperty(exports, 'dataAwsccCustomerprofilesEventTrigger', { get: f
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesIntegration', { get: function () { return require('./data-awscc-customerprofiles-integration'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesObjectType', { get: function () { return require('./data-awscc-customerprofiles-object-type'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesRecommender', { get: function () { return require('./data-awscc-customerprofiles-recommender'); } });
+Object.defineProperty(exports, 'dataAwsccCustomerprofilesRecommenderFilter', { get: function () { return require('./data-awscc-customerprofiles-recommender-filter'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesRecommenders', { get: function () { return require('./data-awscc-customerprofiles-recommenders'); } });
 Object.defineProperty(exports, 'dataAwsccCustomerprofilesSegmentDefinition', { get: function () { return require('./data-awscc-customerprofiles-segment-definition'); } });
 Object.defineProperty(exports, 'dataAwsccDatabrewDataset', { get: function () { return require('./data-awscc-databrew-dataset'); } });
@@ -2514,6 +2542,7 @@ Object.defineProperty(exports, 'dataAwsccEc2CapacityReservationFleets', { get: f
 Object.defineProperty(exports, 'dataAwsccEc2CapacityReservations', { get: function () { return require('./data-awscc-ec2-capacity-reservations'); } });
 Object.defineProperty(exports, 'dataAwsccEc2CarrierGateway', { get: function () { return require('./data-awscc-ec2-carrier-gateway'); } });
 Object.defineProperty(exports, 'dataAwsccEc2CarrierGateways', { get: function () { return require('./data-awscc-ec2-carrier-gateways'); } });
+Object.defineProperty(exports, 'dataAwsccEc2ClientVpnAuthorizationRule', { get: function () { return require('./data-awscc-ec2-client-vpn-authorization-rule'); } });
 Object.defineProperty(exports, 'dataAwsccEc2ClientVpnRoute', { get: function () { return require('./data-awscc-ec2-client-vpn-route'); } });
 Object.defineProperty(exports, 'dataAwsccEc2CustomerGateway', { get: function () { return require('./data-awscc-ec2-customer-gateway'); } });
 Object.defineProperty(exports, 'dataAwsccEc2CustomerGateways', { get: function () { return require('./data-awscc-ec2-customer-gateways'); } });
@@ -2915,6 +2944,10 @@ Object.defineProperty(exports, 'dataAwsccFsxDataRepositoryAssociations', { get: 
 Object.defineProperty(exports, 'dataAwsccFsxFileCaches', { get: function () { return require('./data-awscc-fsx-file-caches'); } });
 Object.defineProperty(exports, 'dataAwsccFsxS3AccessPointAttachment', { get: function () { return require('./data-awscc-fsx-s3-access-point-attachment'); } });
 Object.defineProperty(exports, 'dataAwsccFsxS3AccessPointAttachments', { get: function () { return require('./data-awscc-fsx-s3-access-point-attachments'); } });
+Object.defineProperty(exports, 'dataAwsccFsxSnapshot', { get: function () { return require('./data-awscc-fsx-snapshot'); } });
+Object.defineProperty(exports, 'dataAwsccFsxSnapshots', { get: function () { return require('./data-awscc-fsx-snapshots'); } });
+Object.defineProperty(exports, 'dataAwsccFsxStorageVirtualMachine', { get: function () { return require('./data-awscc-fsx-storage-virtual-machine'); } });
+Object.defineProperty(exports, 'dataAwsccFsxStorageVirtualMachines', { get: function () { return require('./data-awscc-fsx-storage-virtual-machines'); } });
 Object.defineProperty(exports, 'dataAwsccFsxVolume', { get: function () { return require('./data-awscc-fsx-volume'); } });
 Object.defineProperty(exports, 'dataAwsccFsxVolumes', { get: function () { return require('./data-awscc-fsx-volumes'); } });
 Object.defineProperty(exports, 'dataAwsccGameliftAlias', { get: function () { return require('./data-awscc-gamelift-alias'); } });
@@ -2985,6 +3018,7 @@ Object.defineProperty(exports, 'dataAwsccGlueSecurityConfiguration', { get: func
 Object.defineProperty(exports, 'dataAwsccGlueSecurityConfigurations', { get: function () { return require('./data-awscc-glue-security-configurations'); } });
 Object.defineProperty(exports, 'dataAwsccGlueSession', { get: function () { return require('./data-awscc-glue-session'); } });
 Object.defineProperty(exports, 'dataAwsccGlueSessions', { get: function () { return require('./data-awscc-glue-sessions'); } });
+Object.defineProperty(exports, 'dataAwsccGlueTable', { get: function () { return require('./data-awscc-glue-table'); } });
 Object.defineProperty(exports, 'dataAwsccGlueTableOptimizer', { get: function () { return require('./data-awscc-glue-table-optimizer'); } });
 Object.defineProperty(exports, 'dataAwsccGlueTrigger', { get: function () { return require('./data-awscc-glue-trigger'); } });
 Object.defineProperty(exports, 'dataAwsccGlueTriggers', { get: function () { return require('./data-awscc-glue-triggers'); } });
@@ -3348,9 +3382,15 @@ Object.defineProperty(exports, 'dataAwsccLicensemanagerLicenseAssetGroup', { get
 Object.defineProperty(exports, 'dataAwsccLicensemanagerLicenseAssetGroups', { get: function () { return require('./data-awscc-licensemanager-license-asset-groups'); } });
 Object.defineProperty(exports, 'dataAwsccLicensemanagerLicenseAssetRuleSet', { get: function () { return require('./data-awscc-licensemanager-license-asset-rule-set'); } });
 Object.defineProperty(exports, 'dataAwsccLicensemanagerLicenseAssetRuleSets', { get: function () { return require('./data-awscc-licensemanager-license-asset-rule-sets'); } });
+Object.defineProperty(exports, 'dataAwsccLicensemanagerLicenseConfiguration', { get: function () { return require('./data-awscc-licensemanager-license-configuration'); } });
+Object.defineProperty(exports, 'dataAwsccLicensemanagerLicenseConfigurations', { get: function () { return require('./data-awscc-licensemanager-license-configurations'); } });
 Object.defineProperty(exports, 'dataAwsccLicensemanagerLicenses', { get: function () { return require('./data-awscc-licensemanager-licenses'); } });
 Object.defineProperty(exports, 'dataAwsccLicensemanagerReportGenerator', { get: function () { return require('./data-awscc-licensemanager-report-generator'); } });
 Object.defineProperty(exports, 'dataAwsccLicensemanagerReportGenerators', { get: function () { return require('./data-awscc-licensemanager-report-generators'); } });
+Object.defineProperty(exports, 'dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProvider', { get: function () { return require('./data-awscc-licensemanagerlinuxsubscriptions-subscription-provider'); } });
+Object.defineProperty(exports, 'dataAwsccLicensemanagerlinuxsubscriptionsSubscriptionProviders', { get: function () { return require('./data-awscc-licensemanagerlinuxsubscriptions-subscription-providers'); } });
+Object.defineProperty(exports, 'dataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoint', { get: function () { return require('./data-awscc-licensemanagerusersubscriptions-license-server-endpoint'); } });
+Object.defineProperty(exports, 'dataAwsccLicensemanagerusersubscriptionsLicenseServerEndpoints', { get: function () { return require('./data-awscc-licensemanagerusersubscriptions-license-server-endpoints'); } });
 Object.defineProperty(exports, 'dataAwsccLightsailAlarm', { get: function () { return require('./data-awscc-lightsail-alarm'); } });
 Object.defineProperty(exports, 'dataAwsccLightsailAlarms', { get: function () { return require('./data-awscc-lightsail-alarms'); } });
 Object.defineProperty(exports, 'dataAwsccLightsailBucket', { get: function () { return require('./data-awscc-lightsail-bucket'); } });
@@ -3778,6 +3818,8 @@ Object.defineProperty(exports, 'dataAwsccPinpointInAppTemplate', { get: function
 Object.defineProperty(exports, 'dataAwsccPinpointInAppTemplates', { get: function () { return require('./data-awscc-pinpoint-in-app-templates'); } });
 Object.defineProperty(exports, 'dataAwsccPipesPipe', { get: function () { return require('./data-awscc-pipes-pipe'); } });
 Object.defineProperty(exports, 'dataAwsccPipesPipes', { get: function () { return require('./data-awscc-pipes-pipes'); } });
+Object.defineProperty(exports, 'dataAwsccPollyLexicon', { get: function () { return require('./data-awscc-polly-lexicon'); } });
+Object.defineProperty(exports, 'dataAwsccPollyLexicons', { get: function () { return require('./data-awscc-polly-lexicons'); } });
 Object.defineProperty(exports, 'dataAwsccPricingplanmanagerSubscription', { get: function () { return require('./data-awscc-pricingplanmanager-subscription'); } });
 Object.defineProperty(exports, 'dataAwsccPricingplanmanagerSubscriptions', { get: function () { return require('./data-awscc-pricingplanmanager-subscriptions'); } });
 Object.defineProperty(exports, 'dataAwsccProtonEnvironmentAccountConnection', { get: function () { return require('./data-awscc-proton-environment-account-connection'); } });
@@ -3801,6 +3843,9 @@ Object.defineProperty(exports, 'dataAwsccQuicksightActionConnectors', { get: fun
 Object.defineProperty(exports, 'dataAwsccQuicksightAgent', { get: function () { return require('./data-awscc-quicksight-agent'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightAnalyses', { get: function () { return require('./data-awscc-quicksight-analyses'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightAnalysis', { get: function () { return require('./data-awscc-quicksight-analysis'); } });
+Object.defineProperty(exports, 'dataAwsccQuicksightAssignment', { get: function () { return require('./data-awscc-quicksight-assignment'); } });
+Object.defineProperty(exports, 'dataAwsccQuicksightBrand', { get: function () { return require('./data-awscc-quicksight-brand'); } });
+Object.defineProperty(exports, 'dataAwsccQuicksightBrands', { get: function () { return require('./data-awscc-quicksight-brands'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightCustomPermissions', { get: function () { return require('./data-awscc-quicksight-custom-permissions'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightCustomPermissionsPlural', { get: function () { return require('./data-awscc-quicksight-custom-permissions-plural'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightCustomization', { get: function () { return require('./data-awscc-quicksight-customization'); } });
@@ -3815,6 +3860,7 @@ Object.defineProperty(exports, 'dataAwsccQuicksightFlow', { get: function () { r
 Object.defineProperty(exports, 'dataAwsccQuicksightFlows', { get: function () { return require('./data-awscc-quicksight-flows'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightFolder', { get: function () { return require('./data-awscc-quicksight-folder'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightFolders', { get: function () { return require('./data-awscc-quicksight-folders'); } });
+Object.defineProperty(exports, 'dataAwsccQuicksightGroup', { get: function () { return require('./data-awscc-quicksight-group'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightKnowledgeBase', { get: function () { return require('./data-awscc-quicksight-knowledge-base'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightKnowledgeBases', { get: function () { return require('./data-awscc-quicksight-knowledge-bases'); } });
 Object.defineProperty(exports, 'dataAwsccQuicksightLimitsProfile', { get: function () { return require('./data-awscc-quicksight-limits-profile'); } });
@@ -3871,6 +3917,8 @@ Object.defineProperty(exports, 'dataAwsccRdsDbSnapshot', { get: function () { re
 Object.defineProperty(exports, 'dataAwsccRdsDbSnapshots', { get: function () { return require('./data-awscc-rds-db-snapshots'); } });
 Object.defineProperty(exports, 'dataAwsccRdsDbSubnetGroup', { get: function () { return require('./data-awscc-rds-db-subnet-group'); } });
 Object.defineProperty(exports, 'dataAwsccRdsDbSubnetGroups', { get: function () { return require('./data-awscc-rds-db-subnet-groups'); } });
+Object.defineProperty(exports, 'dataAwsccRdsDeployment', { get: function () { return require('./data-awscc-rds-deployment'); } });
+Object.defineProperty(exports, 'dataAwsccRdsDeployments', { get: function () { return require('./data-awscc-rds-deployments'); } });
 Object.defineProperty(exports, 'dataAwsccRdsEventSubscription', { get: function () { return require('./data-awscc-rds-event-subscription'); } });
 Object.defineProperty(exports, 'dataAwsccRdsEventSubscriptions', { get: function () { return require('./data-awscc-rds-event-subscriptions'); } });
 Object.defineProperty(exports, 'dataAwsccRdsGlobalCluster', { get: function () { return require('./data-awscc-rds-global-cluster'); } });
@@ -4205,6 +4253,8 @@ Object.defineProperty(exports, 'dataAwsccSecurityagentAgentSpaces', { get: funct
 Object.defineProperty(exports, 'dataAwsccSecurityagentApplication', { get: function () { return require('./data-awscc-securityagent-application'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityagentApplications', { get: function () { return require('./data-awscc-securityagent-applications'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityagentArtifact', { get: function () { return require('./data-awscc-securityagent-artifact'); } });
+Object.defineProperty(exports, 'dataAwsccSecurityagentIntegration', { get: function () { return require('./data-awscc-securityagent-integration'); } });
+Object.defineProperty(exports, 'dataAwsccSecurityagentIntegrations', { get: function () { return require('./data-awscc-securityagent-integrations'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityagentPentest', { get: function () { return require('./data-awscc-securityagent-pentest'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityagentSecurityRequirementPack', { get: function () { return require('./data-awscc-securityagent-security-requirement-pack'); } });
 Object.defineProperty(exports, 'dataAwsccSecurityagentSecurityRequirementPacks', { get: function () { return require('./data-awscc-securityagent-security-requirement-packs'); } });
@@ -4424,6 +4474,10 @@ Object.defineProperty(exports, 'dataAwsccStepfunctionsStateMachine', { get: func
 Object.defineProperty(exports, 'dataAwsccStepfunctionsStateMachineAlias', { get: function () { return require('./data-awscc-stepfunctions-state-machine-alias'); } });
 Object.defineProperty(exports, 'dataAwsccStepfunctionsStateMachineVersion', { get: function () { return require('./data-awscc-stepfunctions-state-machine-version'); } });
 Object.defineProperty(exports, 'dataAwsccStepfunctionsStateMachines', { get: function () { return require('./data-awscc-stepfunctions-state-machines'); } });
+Object.defineProperty(exports, 'dataAwsccStoragegatewayNfsFileShare', { get: function () { return require('./data-awscc-storagegateway-nfs-file-share'); } });
+Object.defineProperty(exports, 'dataAwsccStoragegatewayNfsFileShares', { get: function () { return require('./data-awscc-storagegateway-nfs-file-shares'); } });
+Object.defineProperty(exports, 'dataAwsccStoragegatewaySmbFileShare', { get: function () { return require('./data-awscc-storagegateway-smb-file-share'); } });
+Object.defineProperty(exports, 'dataAwsccStoragegatewaySmbFileShares', { get: function () { return require('./data-awscc-storagegateway-smb-file-shares'); } });
 Object.defineProperty(exports, 'dataAwsccStoragegatewayTape', { get: function () { return require('./data-awscc-storagegateway-tape'); } });
 Object.defineProperty(exports, 'dataAwsccStoragegatewayTapePool', { get: function () { return require('./data-awscc-storagegateway-tape-pool'); } });
 Object.defineProperty(exports, 'dataAwsccStoragegatewayTapePools', { get: function () { return require('./data-awscc-storagegateway-tape-pools'); } });
@@ -4447,6 +4501,8 @@ Object.defineProperty(exports, 'dataAwsccTextractAdapter', { get: function () { 
 Object.defineProperty(exports, 'dataAwsccTextractAdapters', { get: function () { return require('./data-awscc-textract-adapters'); } });
 Object.defineProperty(exports, 'dataAwsccTimestreamDatabase', { get: function () { return require('./data-awscc-timestream-database'); } });
 Object.defineProperty(exports, 'dataAwsccTimestreamDatabases', { get: function () { return require('./data-awscc-timestream-databases'); } });
+Object.defineProperty(exports, 'dataAwsccTimestreamInfluxDbBackup', { get: function () { return require('./data-awscc-timestream-influx-db-backup'); } });
+Object.defineProperty(exports, 'dataAwsccTimestreamInfluxDbBackups', { get: function () { return require('./data-awscc-timestream-influx-db-backups'); } });
 Object.defineProperty(exports, 'dataAwsccTimestreamInfluxDbCluster', { get: function () { return require('./data-awscc-timestream-influx-db-cluster'); } });
 Object.defineProperty(exports, 'dataAwsccTimestreamInfluxDbClusters', { get: function () { return require('./data-awscc-timestream-influx-db-clusters'); } });
 Object.defineProperty(exports, 'dataAwsccTimestreamInfluxDbInstance', { get: function () { return require('./data-awscc-timestream-influx-db-instance'); } });

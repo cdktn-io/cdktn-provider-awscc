@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bedrockagentcore_evaluator
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_evaluator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccBedrockagentcoreEvaluatorConfig extends cdktn.Terrafor
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bedrockagentcore_evaluator#id DataAwsccBedrockagentcoreEvaluator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_evaluator#id DataAwsccBedrockagentcoreEvaluator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -136,6 +136,390 @@ export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigCodeBasedOutputRef
     return this._lambdaConfig;
   }
 }
+export interface DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfig {
+}
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigToTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigToHclTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // max_tokens - computed: true, optional: false, required: false
+  public get maxTokens() {
+    return this.getNumberAttribute('max_tokens');
+  }
+
+  // stop_sequences - computed: true, optional: false, required: false
+  public get stopSequences() {
+    return this.getListAttribute('stop_sequences');
+  }
+
+  // temperature - computed: true, optional: false, required: false
+  public get temperature() {
+    return this.getNumberAttribute('temperature');
+  }
+
+  // top_p - computed: true, optional: false, required: false
+  public get topP() {
+    return this.getNumberAttribute('top_p');
+  }
+}
+export interface DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfig {
+}
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigToTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigToHclTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // additional_model_request_fields - computed: true, optional: false, required: false
+  public get additionalModelRequestFields() {
+    return this.getStringAttribute('additional_model_request_fields');
+  }
+
+  // inference_config - computed: true, optional: false, required: false
+  private _inferenceConfig = new DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigInferenceConfigOutputReference(this, "inference_config");
+  public get inferenceConfig() {
+    return this._inferenceConfig;
+  }
+
+  // model_id - computed: true, optional: false, required: false
+  public get modelId() {
+    return this.getStringAttribute('model_id');
+  }
+}
+export interface DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoning {
+}
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoningToTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoning): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoningToHclTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoning): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoningOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoning | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoning | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // effort - computed: true, optional: false, required: false
+  public get effort() {
+    return this.getStringAttribute('effort');
+  }
+}
+export interface DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfig {
+}
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigToTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigToHclTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // max_output_tokens - computed: true, optional: false, required: false
+  public get maxOutputTokens() {
+    return this.getNumberAttribute('max_output_tokens');
+  }
+
+  // model_id - computed: true, optional: false, required: false
+  public get modelId() {
+    return this.getStringAttribute('model_id');
+  }
+
+  // reasoning - computed: true, optional: false, required: false
+  private _reasoning = new DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigReasoningOutputReference(this, "reasoning");
+  public get reasoning() {
+    return this._reasoning;
+  }
+
+  // temperature - computed: true, optional: false, required: false
+  public get temperature() {
+    return this.getNumberAttribute('temperature');
+  }
+
+  // top_p - computed: true, optional: false, required: false
+  public get topP() {
+    return this.getNumberAttribute('top_p');
+  }
+}
+export interface DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfig {
+}
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigToTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigToHclTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfig): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // bedrock_evaluator_model_config - computed: true, optional: false, required: false
+  private _bedrockEvaluatorModelConfig = new DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigBedrockEvaluatorModelConfigOutputReference(this, "bedrock_evaluator_model_config");
+  public get bedrockEvaluatorModelConfig() {
+    return this._bedrockEvaluatorModelConfig;
+  }
+
+  // responses_evaluator_model_config - computed: true, optional: false, required: false
+  private _responsesEvaluatorModelConfig = new DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigResponsesEvaluatorModelConfigOutputReference(this, "responses_evaluator_model_config");
+  public get responsesEvaluatorModelConfig() {
+    return this._responsesEvaluatorModelConfig;
+  }
+}
+export interface DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerived {
+}
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedToTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerived): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedToHclTerraform(struct?: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerived): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerived | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerived | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // base_evaluator_id - computed: true, optional: false, required: false
+  public get baseEvaluatorId() {
+    return this.getStringAttribute('base_evaluator_id');
+  }
+
+  // model_config - computed: true, optional: false, required: false
+  private _modelConfig = new DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedModelConfigOutputReference(this, "model_config");
+  public get modelConfig() {
+    return this._modelConfig;
+  }
+}
 export interface DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelConfigBedrockEvaluatorModelConfigInferenceConfig {
 }
 
@@ -188,6 +572,11 @@ export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeModelCo
   // max_tokens - computed: true, optional: false, required: false
   public get maxTokens() {
     return this.getNumberAttribute('max_tokens');
+  }
+
+  // stop_sequences - computed: true, optional: false, required: false
+  public get stopSequences() {
+    return this.getListAttribute('stop_sequences');
   }
 
   // temperature - computed: true, optional: false, required: false
@@ -802,6 +1191,12 @@ export class DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigOutputReference ex
     return this._codeBased;
   }
 
+  // derived - computed: true, optional: false, required: false
+  private _derived = new DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigDerivedOutputReference(this, "derived");
+  public get derived() {
+    return this._derived;
+  }
+
   // llm_as_a_judge - computed: true, optional: false, required: false
   private _llmAsAJudge = new DataAwsccBedrockagentcoreEvaluatorEvaluatorConfigLlmAsAJudgeOutputReference(this, "llm_as_a_judge");
   public get llmAsAJudge() {
@@ -890,7 +1285,7 @@ export class DataAwsccBedrockagentcoreEvaluatorTagsList extends cdktn.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator}
 */
 export class DataAwsccBedrockagentcoreEvaluator extends cdktn.TerraformDataSource {
 
@@ -906,7 +1301,7 @@ export class DataAwsccBedrockagentcoreEvaluator extends cdktn.TerraformDataSourc
   * Generates CDKTN code for importing a DataAwsccBedrockagentcoreEvaluator resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccBedrockagentcoreEvaluator to import
-  * @param importFromId The id of the existing DataAwsccBedrockagentcoreEvaluator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bedrockagentcore_evaluator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccBedrockagentcoreEvaluator that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_evaluator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccBedrockagentcoreEvaluator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -918,7 +1313,7 @@ export class DataAwsccBedrockagentcoreEvaluator extends cdktn.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/bedrockagentcore_evaluator awscc_bedrockagentcore_evaluator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -929,7 +1324,7 @@ export class DataAwsccBedrockagentcoreEvaluator extends cdktn.TerraformDataSourc
       terraformResourceType: 'awscc_bedrockagentcore_evaluator',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -978,6 +1373,11 @@ export class DataAwsccBedrockagentcoreEvaluator extends cdktn.TerraformDataSourc
     return this.getStringAttribute('evaluator_name');
   }
 
+  // evaluator_type - computed: true, optional: false, required: false
+  public get evaluatorType() {
+    return this.getStringAttribute('evaluator_type');
+  }
+
   // id - computed: false, optional: false, required: true
   private _id?: string; 
   public get id() {
@@ -999,6 +1399,11 @@ export class DataAwsccBedrockagentcoreEvaluator extends cdktn.TerraformDataSourc
   // level - computed: true, optional: false, required: false
   public get level() {
     return this.getStringAttribute('level');
+  }
+
+  // provider_name - computed: true, optional: false, required: false
+  public get providerName() {
+    return this.getStringAttribute('provider_name');
   }
 
   // status - computed: true, optional: false, required: false

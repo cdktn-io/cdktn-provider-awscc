@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/quicksight_data_source
+// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccQuicksightDataSourceConfig extends cdktn.TerraformMeta
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/quicksight_data_source#id DataAwsccQuicksightDataSource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_source#id DataAwsccQuicksightDataSource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -382,6 +382,130 @@ export class DataAwsccQuicksightDataSourceAlternateDataSourceParametersAuroraPos
     return this.getNumberAttribute('port');
   }
 }
+export interface DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties {
+}
+
+export function dataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesToTerraform(struct?: DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesToHclTerraform(struct?: DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // vpc_connection_arn - computed: true, optional: false, required: false
+  public get vpcConnectionArn() {
+    return this.getStringAttribute('vpc_connection_arn');
+  }
+}
+export interface DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters {
+}
+
+export function dataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersToTerraform(struct?: DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersToHclTerraform(struct?: DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // identity_provider_resource_uri - computed: true, optional: false, required: false
+  public get identityProviderResourceUri() {
+    return this.getStringAttribute('identity_provider_resource_uri');
+  }
+
+  // identity_provider_vpc_connection_properties - computed: true, optional: false, required: false
+  private _identityProviderVpcConnectionProperties = new DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(this, "identity_provider_vpc_connection_properties");
+  public get identityProviderVpcConnectionProperties() {
+    return this._identityProviderVpcConnectionProperties;
+  }
+
+  // o_auth_scope - computed: true, optional: false, required: false
+  public get oAuthScope() {
+    return this.getStringAttribute('o_auth_scope');
+  }
+
+  // token_provider_url - computed: true, optional: false, required: false
+  public get tokenProviderUrl() {
+    return this.getStringAttribute('token_provider_url');
+  }
+}
 export interface DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParameters {
 }
 
@@ -431,9 +555,20 @@ export class DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabrick
     }
   }
 
+  // authentication_type - computed: true, optional: false, required: false
+  public get authenticationType() {
+    return this.getStringAttribute('authentication_type');
+  }
+
   // host - computed: true, optional: false, required: false
   public get host() {
     return this.getStringAttribute('host');
+  }
+
+  // o_auth_parameters - computed: true, optional: false, required: false
+  private _oAuthParameters = new DataAwsccQuicksightDataSourceAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference(this, "o_auth_parameters");
+  public get oAuthParameters() {
+    return this._oAuthParameters;
   }
 
   // port - computed: true, optional: false, required: false
@@ -2427,6 +2562,130 @@ export class DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateData
     return this.getNumberAttribute('port');
   }
 }
+export interface DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties {
+}
+
+export function dataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesToTerraform(struct?: DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesToHclTerraform(struct?: DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // vpc_connection_arn - computed: true, optional: false, required: false
+  public get vpcConnectionArn() {
+    return this.getStringAttribute('vpc_connection_arn');
+  }
+}
+export interface DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters {
+}
+
+export function dataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersToTerraform(struct?: DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersToHclTerraform(struct?: DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // identity_provider_resource_uri - computed: true, optional: false, required: false
+  public get identityProviderResourceUri() {
+    return this.getStringAttribute('identity_provider_resource_uri');
+  }
+
+  // identity_provider_vpc_connection_properties - computed: true, optional: false, required: false
+  private _identityProviderVpcConnectionProperties = new DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(this, "identity_provider_vpc_connection_properties");
+  public get identityProviderVpcConnectionProperties() {
+    return this._identityProviderVpcConnectionProperties;
+  }
+
+  // o_auth_scope - computed: true, optional: false, required: false
+  public get oAuthScope() {
+    return this.getStringAttribute('o_auth_scope');
+  }
+
+  // token_provider_url - computed: true, optional: false, required: false
+  public get tokenProviderUrl() {
+    return this.getStringAttribute('token_provider_url');
+  }
+}
 export interface DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParameters {
 }
 
@@ -2476,9 +2735,20 @@ export class DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateData
     }
   }
 
+  // authentication_type - computed: true, optional: false, required: false
+  public get authenticationType() {
+    return this.getStringAttribute('authentication_type');
+  }
+
   // host - computed: true, optional: false, required: false
   public get host() {
     return this.getStringAttribute('host');
+  }
+
+  // o_auth_parameters - computed: true, optional: false, required: false
+  private _oAuthParameters = new DataAwsccQuicksightDataSourceCredentialsCredentialPairAlternateDataSourceParametersDatabricksParametersOAuthParametersOutputReference(this, "o_auth_parameters");
+  public get oAuthParameters() {
+    return this._oAuthParameters;
   }
 
   // port - computed: true, optional: false, required: false
@@ -4241,6 +4511,70 @@ export class DataAwsccQuicksightDataSourceCredentialsKeyPairCredentialsOutputRef
     return this.getStringAttribute('private_key_passphrase');
   }
 }
+export interface DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentials {
+}
+
+export function dataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsToTerraform(struct?: DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentials): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsToHclTerraform(struct?: DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentials): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentials | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentials | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // client_id - computed: true, optional: false, required: false
+  public get clientId() {
+    return this.getStringAttribute('client_id');
+  }
+
+  // client_secret - computed: true, optional: false, required: false
+  public get clientSecret() {
+    return this.getStringAttribute('client_secret');
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+}
 export interface DataAwsccQuicksightDataSourceCredentials {
 }
 
@@ -4305,6 +4639,12 @@ export class DataAwsccQuicksightDataSourceCredentialsOutputReference extends cdk
   private _keyPairCredentials = new DataAwsccQuicksightDataSourceCredentialsKeyPairCredentialsOutputReference(this, "key_pair_credentials");
   public get keyPairCredentials() {
     return this._keyPairCredentials;
+  }
+
+  // o_auth_client_credentials - computed: true, optional: false, required: false
+  private _oAuthClientCredentials = new DataAwsccQuicksightDataSourceCredentialsOAuthClientCredentialsOutputReference(this, "o_auth_client_credentials");
+  public get oAuthClientCredentials() {
+    return this._oAuthClientCredentials;
   }
 
   // secret_arn - computed: true, optional: false, required: false
@@ -4672,6 +5012,130 @@ export class DataAwsccQuicksightDataSourceDataSourceParametersAuroraPostgreSqlPa
     return this.getNumberAttribute('port');
   }
 }
+export interface DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties {
+}
+
+export function dataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesToTerraform(struct?: DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesToHclTerraform(struct?: DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionProperties | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // vpc_connection_arn - computed: true, optional: false, required: false
+  public get vpcConnectionArn() {
+    return this.getStringAttribute('vpc_connection_arn');
+  }
+}
+export interface DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters {
+}
+
+export function dataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersToTerraform(struct?: DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersToHclTerraform(struct?: DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParameters | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // identity_provider_resource_uri - computed: true, optional: false, required: false
+  public get identityProviderResourceUri() {
+    return this.getStringAttribute('identity_provider_resource_uri');
+  }
+
+  // identity_provider_vpc_connection_properties - computed: true, optional: false, required: false
+  private _identityProviderVpcConnectionProperties = new DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersIdentityProviderVpcConnectionPropertiesOutputReference(this, "identity_provider_vpc_connection_properties");
+  public get identityProviderVpcConnectionProperties() {
+    return this._identityProviderVpcConnectionProperties;
+  }
+
+  // o_auth_scope - computed: true, optional: false, required: false
+  public get oAuthScope() {
+    return this.getStringAttribute('o_auth_scope');
+  }
+
+  // token_provider_url - computed: true, optional: false, required: false
+  public get tokenProviderUrl() {
+    return this.getStringAttribute('token_provider_url');
+  }
+}
 export interface DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParameters {
 }
 
@@ -4721,9 +5185,20 @@ export class DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParamete
     }
   }
 
+  // authentication_type - computed: true, optional: false, required: false
+  public get authenticationType() {
+    return this.getStringAttribute('authentication_type');
+  }
+
   // host - computed: true, optional: false, required: false
   public get host() {
     return this.getStringAttribute('host');
+  }
+
+  // o_auth_parameters - computed: true, optional: false, required: false
+  private _oAuthParameters = new DataAwsccQuicksightDataSourceDataSourceParametersDatabricksParametersOAuthParametersOutputReference(this, "o_auth_parameters");
+  public get oAuthParameters() {
+    return this._oAuthParameters;
   }
 
   // port - computed: true, optional: false, required: false
@@ -6670,7 +7145,7 @@ export class DataAwsccQuicksightDataSourceVpcConnectionPropertiesOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source}
 */
 export class DataAwsccQuicksightDataSource extends cdktn.TerraformDataSource {
 
@@ -6686,7 +7161,7 @@ export class DataAwsccQuicksightDataSource extends cdktn.TerraformDataSource {
   * Generates CDKTN code for importing a DataAwsccQuicksightDataSource resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccQuicksightDataSource to import
-  * @param importFromId The id of the existing DataAwsccQuicksightDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccQuicksightDataSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccQuicksightDataSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -6698,7 +7173,7 @@ export class DataAwsccQuicksightDataSource extends cdktn.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/quicksight_data_source awscc_quicksight_data_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6709,7 +7184,7 @@ export class DataAwsccQuicksightDataSource extends cdktn.TerraformDataSource {
       terraformResourceType: 'awscc_quicksight_data_source',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.105.0',
+        providerVersion: '1.106.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
