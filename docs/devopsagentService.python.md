@@ -4,7 +4,7 @@
 
 ### DevopsagentService <a name="DevopsagentService" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service awscc_devopsagent_service}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer"></a>
 
@@ -24,6 +24,7 @@ devopsagentService.DevopsagentService(
   service_type: str,
   exchange_url_private_connection_name: str = None,
   kms_key_arn: str = None,
+  name: str = None,
   private_connection_name: str = None,
   service_details: DevopsagentServiceServiceDetails = None,
   tags: IResolvable | typing.List[DevopsagentServiceTags] = None,
@@ -45,6 +46,7 @@ devopsagentService.DevopsagentService(
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer.parameter.serviceType">service_type</a></code> | <code>str</code> | The type of service being registered. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer.parameter.exchangeUrlPrivateConnectionName">exchange_url_private_connection_name</a></code> | <code>str</code> | The name of the private connection to use for OAuth token exchange requests only. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer.parameter.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | The ARN of the KMS key to use for encryption. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer.parameter.name">name</a></code> | <code>str</code> | The display name for the service registration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer.parameter.privateConnectionName">private_connection_name</a></code> | <code>str</code> | The name of the private connection to use for VPC connectivity. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer.parameter.serviceDetails">service_details</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails">DevopsagentServiceServiceDetails</a></code> | Service-specific configuration details for create operation. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceTags">DevopsagentServiceTags</a>]</code> | An array of key-value pairs to apply to this resource. |
@@ -118,7 +120,7 @@ Must be unique amongst siblings in the same scope
 
 The type of service being registered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
 
 ---
 
@@ -130,7 +132,7 @@ The name of the private connection to use for OAuth token exchange requests only
 
 Cannot be specified when PrivateConnectionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
 
 ---
 
@@ -140,7 +142,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
+
+---
+
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.Initializer.parameter.name"></a>
+
+- *Type:* str
+
+The display name for the service registration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -150,7 +162,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the private connection to use for VPC connectivity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
 
 ---
 
@@ -160,7 +172,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Service-specific configuration details for create operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
 
 ---
 
@@ -170,7 +182,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
 
 ---
 
@@ -182,7 +194,7 @@ The name of the private connection to use for API calls (target URL) only.
 
 Cannot be specified when PrivateConnectionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
 
 ---
 
@@ -218,6 +230,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.putTags">put_tags</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.resetExchangeUrlPrivateConnectionName">reset_exchange_url_private_connection_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.resetKmsKeyArn">reset_kms_key_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.resetName">reset_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.resetPrivateConnectionName">reset_private_connection_name</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.resetServiceDetails">reset_service_details</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.resetTags">reset_tags</a></code> | *No description.* |
@@ -579,6 +592,7 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 def put_service_details(
   azure_identity: DevopsagentServiceServiceDetailsAzureIdentity = None,
   dynatrace: DevopsagentServiceServiceDetailsDynatrace = None,
+  git_hub: DevopsagentServiceServiceDetailsGitHub = None,
   git_lab: DevopsagentServiceServiceDetailsGitLab = None,
   mcp_server: DevopsagentServiceServiceDetailsMcpServer = None,
   mcp_server_grafana: DevopsagentServiceServiceDetailsMcpServerGrafana = None,
@@ -596,7 +610,7 @@ def put_service_details(
 
 Azure Identity service configuration for federated identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
 
 ---
 
@@ -606,7 +620,17 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Dynatrace service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
+
+---
+
+###### `git_hub`<sup>Optional</sup> <a name="git_hub" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.putServiceDetails.parameter.gitHub"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub">DevopsagentServiceServiceDetailsGitHub</a>
+
+GitHub personal access token (PAT) service configuration. Exactly one of AppVerification or DirectAccess selects how the token is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#git_hub DevopsagentService#git_hub}
 
 ---
 
@@ -616,7 +640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitLab service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
 
 ---
 
@@ -626,7 +650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
 
 ---
 
@@ -636,7 +660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
 
 ---
 
@@ -646,7 +670,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 New Relic service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
 
 ---
 
@@ -656,7 +680,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
 
 ---
 
@@ -666,7 +690,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
 
 ---
 
@@ -676,7 +700,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 PagerDuty service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
 
 ---
 
@@ -686,7 +710,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ServiceNow service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
 
 ---
 
@@ -714,6 +738,12 @@ def reset_exchange_url_private_connection_name() -> None
 
 ```python
 def reset_kms_key_arn() -> None
+```
+
+##### `reset_name` <a name="reset_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.resetName"></a>
+
+```python
+def reset_name() -> None
 ```
 
 ##### `reset_private_connection_name` <a name="reset_private_connection_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.resetPrivateConnectionName"></a>
@@ -854,7 +884,7 @@ The construct id used in the generated config for the DevopsagentService to impo
 
 The id of the existing DevopsagentService that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -893,6 +923,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceTagsList">DevopsagentServiceTagsList</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.exchangeUrlPrivateConnectionNameInput">exchange_url_private_connection_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.kmsKeyArnInput">kms_key_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.nameInput">name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.privateConnectionNameInput">private_connection_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.serviceDetailsInput">service_details_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails">DevopsagentServiceServiceDetails</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.serviceTypeInput">service_type_input</a></code> | <code>str</code> | *No description.* |
@@ -900,6 +931,7 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.targetUrlPrivateConnectionNameInput">target_url_private_connection_name_input</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.exchangeUrlPrivateConnectionName">exchange_url_private_connection_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.name">name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.privateConnectionName">private_connection_name</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.serviceType">service_type</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.targetUrlPrivateConnectionName">target_url_private_connection_name</a></code> | <code>str</code> | *No description.* |
@@ -1138,6 +1170,16 @@ kms_key_arn_input: str
 
 ---
 
+##### `name_input`<sup>Optional</sup> <a name="name_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.nameInput"></a>
+
+```python
+name_input: str
+```
+
+- *Type:* str
+
+---
+
 ##### `private_connection_name_input`<sup>Optional</sup> <a name="private_connection_name_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.privateConnectionNameInput"></a>
 
 ```python
@@ -1202,6 +1244,16 @@ exchange_url_private_connection_name: str
 
 ```python
 kms_key_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `name`<sup>Required</sup> <a name="name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentService.property.name"></a>
+
+```python
+name: str
 ```
 
 - *Type:* str
@@ -1288,6 +1340,17 @@ devopsagentService.DevopsagentServiceAdditionalServiceDetailsAzureIdentity()
 from cdktn_provider_awscc import devopsagent_service
 
 devopsagentService.DevopsagentServiceAdditionalServiceDetailsDynatrace()
+```
+
+
+### DevopsagentServiceAdditionalServiceDetailsGitHub <a name="DevopsagentServiceAdditionalServiceDetailsGitHub" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHub"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHub.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_service
+
+devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHub()
 ```
 
 
@@ -1397,6 +1460,7 @@ devopsagentService.DevopsagentServiceConfig(
   service_type: str,
   exchange_url_private_connection_name: str = None,
   kms_key_arn: str = None,
+  name: str = None,
   private_connection_name: str = None,
   service_details: DevopsagentServiceServiceDetails = None,
   tags: IResolvable | typing.List[DevopsagentServiceTags] = None,
@@ -1418,6 +1482,7 @@ devopsagentService.DevopsagentServiceConfig(
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.property.serviceType">service_type</a></code> | <code>str</code> | The type of service being registered. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.property.exchangeUrlPrivateConnectionName">exchange_url_private_connection_name</a></code> | <code>str</code> | The name of the private connection to use for OAuth token exchange requests only. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.property.kmsKeyArn">kms_key_arn</a></code> | <code>str</code> | The ARN of the KMS key to use for encryption. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.property.name">name</a></code> | <code>str</code> | The display name for the service registration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.property.privateConnectionName">private_connection_name</a></code> | <code>str</code> | The name of the private connection to use for VPC connectivity. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.property.serviceDetails">service_details</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails">DevopsagentServiceServiceDetails</a></code> | Service-specific configuration details for create operation. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceTags">DevopsagentServiceTags</a>]</code> | An array of key-value pairs to apply to this resource. |
@@ -1505,7 +1570,7 @@ service_type: str
 
 The type of service being registered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_type DevopsagentService#service_type}
 
 ---
 
@@ -1521,7 +1586,7 @@ The name of the private connection to use for OAuth token exchange requests only
 
 Cannot be specified when PrivateConnectionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_url_private_connection_name DevopsagentService#exchange_url_private_connection_name}
 
 ---
 
@@ -1535,7 +1600,21 @@ kms_key_arn: str
 
 The ARN of the KMS key to use for encryption.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#kms_key_arn DevopsagentService#kms_key_arn}
+
+---
+
+##### `name`<sup>Optional</sup> <a name="name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceConfig.property.name"></a>
+
+```python
+name: str
+```
+
+- *Type:* str
+
+The display name for the service registration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -1549,7 +1628,7 @@ private_connection_name: str
 
 The name of the private connection to use for VPC connectivity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#private_connection_name DevopsagentService#private_connection_name}
 
 ---
 
@@ -1563,7 +1642,7 @@ service_details: DevopsagentServiceServiceDetails
 
 Service-specific configuration details for create operation.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_details DevopsagentService#service_details}
 
 ---
 
@@ -1577,7 +1656,7 @@ tags: IResolvable | typing.List[DevopsagentServiceTags]
 
 An array of key-value pairs to apply to this resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#tags DevopsagentService#tags}
 
 ---
 
@@ -1593,7 +1672,7 @@ The name of the private connection to use for API calls (target URL) only.
 
 Cannot be specified when PrivateConnectionName is provided.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url_private_connection_name DevopsagentService#target_url_private_connection_name}
 
 ---
 
@@ -1607,6 +1686,7 @@ from cdktn_provider_awscc import devopsagent_service
 devopsagentService.DevopsagentServiceServiceDetails(
   azure_identity: DevopsagentServiceServiceDetailsAzureIdentity = None,
   dynatrace: DevopsagentServiceServiceDetailsDynatrace = None,
+  git_hub: DevopsagentServiceServiceDetailsGitHub = None,
   git_lab: DevopsagentServiceServiceDetailsGitLab = None,
   mcp_server: DevopsagentServiceServiceDetailsMcpServer = None,
   mcp_server_grafana: DevopsagentServiceServiceDetailsMcpServerGrafana = None,
@@ -1624,6 +1704,7 @@ devopsagentService.DevopsagentServiceServiceDetails(
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails.property.azureIdentity">azure_identity</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsAzureIdentity">DevopsagentServiceServiceDetailsAzureIdentity</a></code> | Azure Identity service configuration for federated identity. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails.property.dynatrace">dynatrace</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatrace">DevopsagentServiceServiceDetailsDynatrace</a></code> | Dynatrace service configuration. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails.property.gitHub">git_hub</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub">DevopsagentServiceServiceDetailsGitHub</a></code> | GitHub personal access token (PAT) service configuration. Exactly one of AppVerification or DirectAccess selects how the token is used. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails.property.gitLab">git_lab</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitLab">DevopsagentServiceServiceDetailsGitLab</a></code> | GitLab service configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails.property.mcpServer">mcp_server</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServer">DevopsagentServiceServiceDetailsMcpServer</a></code> | MCP server configuration. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails.property.mcpServerGrafana">mcp_server_grafana</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafana">DevopsagentServiceServiceDetailsMcpServerGrafana</a></code> | Grafana MCP server configuration. |
@@ -1645,7 +1726,7 @@ azure_identity: DevopsagentServiceServiceDetailsAzureIdentity
 
 Azure Identity service configuration for federated identity.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#azure_identity DevopsagentService#azure_identity}
 
 ---
 
@@ -1659,7 +1740,21 @@ dynatrace: DevopsagentServiceServiceDetailsDynatrace
 
 Dynatrace service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#dynatrace DevopsagentService#dynatrace}
+
+---
+
+##### `git_hub`<sup>Optional</sup> <a name="git_hub" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetails.property.gitHub"></a>
+
+```python
+git_hub: DevopsagentServiceServiceDetailsGitHub
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub">DevopsagentServiceServiceDetailsGitHub</a>
+
+GitHub personal access token (PAT) service configuration. Exactly one of AppVerification or DirectAccess selects how the token is used.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#git_hub DevopsagentService#git_hub}
 
 ---
 
@@ -1673,7 +1768,7 @@ git_lab: DevopsagentServiceServiceDetailsGitLab
 
 GitLab service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#git_lab DevopsagentService#git_lab}
 
 ---
 
@@ -1687,7 +1782,7 @@ mcp_server: DevopsagentServiceServiceDetailsMcpServer
 
 MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server DevopsagentService#mcp_server}
 
 ---
 
@@ -1701,7 +1796,7 @@ mcp_server_grafana: DevopsagentServiceServiceDetailsMcpServerGrafana
 
 Grafana MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_grafana DevopsagentService#mcp_server_grafana}
 
 ---
 
@@ -1715,7 +1810,7 @@ mcp_server_new_relic: DevopsagentServiceServiceDetailsMcpServerNewRelic
 
 New Relic service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_new_relic DevopsagentService#mcp_server_new_relic}
 
 ---
 
@@ -1729,7 +1824,7 @@ mcp_server_sig_v4: DevopsagentServiceServiceDetailsMcpServerSigV4
 
 SigV4-authenticated MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_sig_v4 DevopsagentService#mcp_server_sig_v4}
 
 ---
 
@@ -1743,7 +1838,7 @@ mcp_server_splunk: DevopsagentServiceServiceDetailsMcpServerSplunk
 
 Splunk MCP server configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_server_splunk DevopsagentService#mcp_server_splunk}
 
 ---
 
@@ -1757,7 +1852,7 @@ pager_duty: DevopsagentServiceServiceDetailsPagerDuty
 
 PagerDuty service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#pager_duty DevopsagentService#pager_duty}
 
 ---
 
@@ -1771,7 +1866,7 @@ service_now: DevopsagentServiceServiceDetailsServiceNow
 
 ServiceNow service configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service_now DevopsagentService#service_now}
 
 ---
 
@@ -1811,7 +1906,7 @@ client_id: str
 
 Azure AD application client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -1825,7 +1920,7 @@ tenant_id: str
 
 Azure AD tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
 
 ---
 
@@ -1839,7 +1934,7 @@ web_identity_role_arn: str
 
 ARN of the IAM role for web identity token exchange.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
 
 ---
 
@@ -1853,7 +1948,7 @@ web_identity_token_audiences: typing.List[str]
 
 List of audiences for the web identity token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
 
 ---
 
@@ -1889,7 +1984,7 @@ account_urn: str
 
 Dynatrace resource account URN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
 
 ---
 
@@ -1903,7 +1998,7 @@ authorization_config: DevopsagentServiceServiceDetailsDynatraceAuthorizationConf
 
 Dynatrace OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -1937,7 +2032,7 @@ o_auth_client_credentials: DevopsagentServiceServiceDetailsDynatraceAuthorizatio
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -1977,7 +2072,7 @@ client_id: str
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -1991,7 +2086,7 @@ client_name: str
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -2005,7 +2100,7 @@ client_secret: str
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -2019,7 +2114,213 @@ exchange_parameters: str
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+
+---
+
+### DevopsagentServiceServiceDetailsGitHub <a name="DevopsagentServiceServiceDetailsGitHub" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_service
+
+devopsagentService.DevopsagentServiceServiceDetailsGitHub(
+  app_verification: DevopsagentServiceServiceDetailsGitHubAppVerification = None,
+  direct_access: DevopsagentServiceServiceDetailsGitHubDirectAccess = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub.property.appVerification">app_verification</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification">DevopsagentServiceServiceDetailsGitHubAppVerification</a></code> | The token verifies an existing DevOps Agent GitHub App installation on github.com and is then discarded. Not supported for GitHub Enterprise Server. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub.property.directAccess">direct_access</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess">DevopsagentServiceServiceDetailsGitHubDirectAccess</a></code> | The token is stored and used as the long-lived credential for GitHub API access. |
+
+---
+
+##### `app_verification`<sup>Optional</sup> <a name="app_verification" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub.property.appVerification"></a>
+
+```python
+app_verification: DevopsagentServiceServiceDetailsGitHubAppVerification
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification">DevopsagentServiceServiceDetailsGitHubAppVerification</a>
+
+The token verifies an existing DevOps Agent GitHub App installation on github.com and is then discarded. Not supported for GitHub Enterprise Server.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#app_verification DevopsagentService#app_verification}
+
+---
+
+##### `direct_access`<sup>Optional</sup> <a name="direct_access" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub.property.directAccess"></a>
+
+```python
+direct_access: DevopsagentServiceServiceDetailsGitHubDirectAccess
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess">DevopsagentServiceServiceDetailsGitHubDirectAccess</a>
+
+The token is stored and used as the long-lived credential for GitHub API access.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#direct_access DevopsagentService#direct_access}
+
+---
+
+### DevopsagentServiceServiceDetailsGitHubAppVerification <a name="DevopsagentServiceServiceDetailsGitHubAppVerification" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_service
+
+devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification(
+  app_variant: str = None,
+  organization_name: str = None,
+  target_url: str = None,
+  token_value: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.property.appVariant">app_variant</a></code> | <code>str</code> | Permission variant of the DevOps Agent GitHub App that must already be installed on the organization or account. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.property.organizationName">organization_name</a></code> | <code>str</code> | GitHub organization to scope the service to. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.property.targetUrl">target_url</a></code> | <code>str</code> | GitHub instance URL. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.property.tokenValue">token_value</a></code> | <code>str</code> | GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats. |
+
+---
+
+##### `app_variant`<sup>Optional</sup> <a name="app_variant" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.property.appVariant"></a>
+
+```python
+app_variant: str
+```
+
+- *Type:* str
+
+Permission variant of the DevOps Agent GitHub App that must already be installed on the organization or account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#app_variant DevopsagentService#app_variant}
+
+---
+
+##### `organization_name`<sup>Optional</sup> <a name="organization_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.property.organizationName"></a>
+
+```python
+organization_name: str
+```
+
+- *Type:* str
+
+GitHub organization to scope the service to.
+
+The token must be an active member of the organization and only that organization's repositories are accessible. Omit to register the token's own user account
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
+
+---
+
+##### `target_url`<sup>Optional</sup> <a name="target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.property.targetUrl"></a>
+
+```python
+target_url: str
+```
+
+- *Type:* str
+
+GitHub instance URL.
+
+Omit for github.com. Provide the instance host for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency (e.g. https://github.example.com)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+
+---
+
+##### `token_value`<sup>Optional</sup> <a name="token_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification.property.tokenValue"></a>
+
+```python
+token_value: str
+```
+
+- *Type:* str
+
+GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+
+---
+
+### DevopsagentServiceServiceDetailsGitHubDirectAccess <a name="DevopsagentServiceServiceDetailsGitHubDirectAccess" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_service
+
+devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess(
+  organization_name: str = None,
+  target_url: str = None,
+  token_value: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess.property.organizationName">organization_name</a></code> | <code>str</code> | GitHub organization to scope the service to. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess.property.targetUrl">target_url</a></code> | <code>str</code> | GitHub instance URL. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess.property.tokenValue">token_value</a></code> | <code>str</code> | GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats. |
+
+---
+
+##### `organization_name`<sup>Optional</sup> <a name="organization_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess.property.organizationName"></a>
+
+```python
+organization_name: str
+```
+
+- *Type:* str
+
+GitHub organization to scope the service to.
+
+The token must be an active member of the organization and only that organization's repositories are accessible. Omit to register the token's own user account
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
+
+---
+
+##### `target_url`<sup>Optional</sup> <a name="target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess.property.targetUrl"></a>
+
+```python
+target_url: str
+```
+
+- *Type:* str
+
+GitHub instance URL.
+
+Omit for github.com. Provide the instance host for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency (e.g. https://github.example.com)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+
+---
+
+##### `token_value`<sup>Optional</sup> <a name="token_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess.property.tokenValue"></a>
+
+```python
+token_value: str
+```
+
+- *Type:* str
+
+GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2059,7 +2360,7 @@ group_id: str
 
 Optional GitLab group ID for group-level access tokens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
 
 ---
 
@@ -2073,7 +2374,7 @@ target_url: str
 
 GitLab instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 
 ---
 
@@ -2087,7 +2388,7 @@ token_type: str
 
 Type of GitLab access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
 
 ---
 
@@ -2101,7 +2402,7 @@ token_value: str
 
 GitLab access token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2141,7 +2442,7 @@ authorization_config: DevopsagentServiceServiceDetailsMcpServerAuthorizationConf
 
 MCP server authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2155,7 +2456,7 @@ description: str
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2169,7 +2470,7 @@ endpoint: str
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2183,7 +2484,7 @@ name: str
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2221,7 +2522,7 @@ api_key: DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigApiKey
 
 API key authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2235,7 +2536,7 @@ bearer_token: DevopsagentServiceServiceDetailsMcpServerAuthorizationConfigBearer
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -2249,7 +2550,7 @@ o_auth_client_credentials: DevopsagentServiceServiceDetailsMcpServerAuthorizatio
 
 MCP server OAuth client credentials configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -2287,7 +2588,7 @@ api_key_header: str
 
 HTTP header name to send the API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
 
 ---
 
@@ -2301,7 +2602,7 @@ api_key_name: str
 
 User friendly API key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
 
 ---
 
@@ -2315,7 +2616,7 @@ api_key_value: str
 
 API key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
 
 ---
 
@@ -2353,7 +2654,7 @@ authorization_header: str
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -2367,7 +2668,7 @@ token_name: str
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -2381,7 +2682,7 @@ token_value: str
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2425,7 +2726,7 @@ client_id: str
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -2439,7 +2740,7 @@ client_name: str
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -2453,7 +2754,7 @@ client_secret: str
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -2467,7 +2768,7 @@ exchange_parameters: str
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -2481,7 +2782,7 @@ exchange_url: str
 
 OAuth token exchange URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
 
 ---
 
@@ -2495,7 +2796,7 @@ scopes: typing.List[str]
 
 OAuth scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
 
 ---
 
@@ -2535,7 +2836,7 @@ authorization_config: DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizat
 
 Grafana MCP server authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2549,7 +2850,7 @@ description: str
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2563,7 +2864,7 @@ endpoint: str
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2577,7 +2878,7 @@ name: str
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2611,7 +2912,7 @@ bearer_token: DevopsagentServiceServiceDetailsMcpServerGrafanaAuthorizationConfi
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -2649,7 +2950,7 @@ authorization_header: str
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -2663,7 +2964,7 @@ token_name: str
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -2677,7 +2978,7 @@ token_value: str
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -2711,7 +3012,7 @@ authorization_config: DevopsagentServiceServiceDetailsMcpServerNewRelicAuthoriza
 
 New Relic authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2745,7 +3046,7 @@ api_key: DevopsagentServiceServiceDetailsMcpServerNewRelicAuthorizationConfigApi
 
 New Relic API key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2789,7 +3090,7 @@ account_id: str
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
 
 ---
 
@@ -2803,7 +3104,7 @@ alert_policy_ids: typing.List[str]
 
 List of alert policy IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
 
 ---
 
@@ -2817,7 +3118,7 @@ api_key: str
 
 New Relic User API Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -2831,7 +3132,7 @@ application_ids: typing.List[str]
 
 List of monitored APM application IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
 
 ---
 
@@ -2845,7 +3146,7 @@ entity_guids: typing.List[str]
 
 List of globally unique IDs for New Relic resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
 
 ---
 
@@ -2859,7 +3160,7 @@ region: str
 
 New Relic region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#region DevopsagentService#region}
 
 ---
 
@@ -2899,7 +3200,7 @@ authorization_config: DevopsagentServiceServiceDetailsMcpServerSigV4Authorizatio
 
 SigV4 authorization configuration for MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -2913,7 +3214,7 @@ description: str
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -2927,7 +3228,7 @@ endpoint: str
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -2941,7 +3242,7 @@ name: str
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -2983,7 +3284,7 @@ custom_headers: typing.Mapping[str]
 
 Custom headers for the SigV4 MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
 
 ---
 
@@ -2999,7 +3300,7 @@ IAM role ARN to assume for SigV4 signing.
 
 Optional - when omitted, credentials are resolved at runtime via a monitor account association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
 
 ---
 
@@ -3013,7 +3314,7 @@ region: str
 
 AWS region for SigV4 signing. Use '*' for SigV4a multi-region signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#region DevopsagentService#region}
 
 ---
 
@@ -3029,7 +3330,7 @@ Deprecated - use McpRoleArn instead.
 
 IAM role ARN to assume for SigV4 signing. Set to an empty string to remove a previously configured role and make the server role-less (cross-account).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
 
 ---
 
@@ -3043,7 +3344,7 @@ service: str
 
 AWS service name for SigV4 signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#service DevopsagentService#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service DevopsagentService#service}
 
 ---
 
@@ -3083,7 +3384,7 @@ authorization_config: DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizati
 
 MCP server splunk authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -3097,7 +3398,7 @@ description: str
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -3111,7 +3412,7 @@ endpoint: str
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -3125,7 +3426,7 @@ name: str
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -3159,7 +3460,7 @@ bearer_token: DevopsagentServiceServiceDetailsMcpServerSplunkAuthorizationConfig
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -3197,7 +3498,7 @@ authorization_header: str
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -3211,7 +3512,7 @@ token_name: str
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -3225,7 +3526,7 @@ token_value: str
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -3261,7 +3562,7 @@ authorization_config: DevopsagentServiceServiceDetailsPagerDutyAuthorizationConf
 
 PagerDuty OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -3275,7 +3576,7 @@ scopes: typing.List[str]
 
 PagerDuty scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
 
 ---
 
@@ -3309,7 +3610,7 @@ o_auth_client_credentials: DevopsagentServiceServiceDetailsPagerDutyAuthorizatio
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -3349,7 +3650,7 @@ client_id: str
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -3363,7 +3664,7 @@ client_name: str
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -3377,7 +3678,7 @@ client_secret: str
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -3391,7 +3692,7 @@ exchange_parameters: str
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -3427,7 +3728,7 @@ authorization_config: DevopsagentServiceServiceDetailsServiceNowAuthorizationCon
 
 ServiceNow OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -3441,7 +3742,7 @@ instance_url: str
 
 ServiceNow instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
 
 ---
 
@@ -3475,7 +3776,7 @@ o_auth_client_credentials: DevopsagentServiceServiceDetailsServiceNowAuthorizati
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -3515,7 +3816,7 @@ client_id: str
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -3529,7 +3830,7 @@ client_name: str
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -3543,7 +3844,7 @@ client_secret: str
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -3557,7 +3858,7 @@ exchange_parameters: str
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -3593,7 +3894,7 @@ key: str
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#key DevopsagentService#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#key DevopsagentService#key}
 
 ---
 
@@ -3607,7 +3908,7 @@ value: str
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#value DevopsagentService#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#value DevopsagentService#value}
 
 ---
 
@@ -4212,6 +4513,346 @@ internal_value: DevopsagentServiceAdditionalServiceDetailsDynatrace
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsDynatrace">DevopsagentServiceAdditionalServiceDetailsDynatrace</a>
+
+---
+
+
+### DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference <a name="DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_service
+
+devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.appVariant">app_variant</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.authMode">auth_mode</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.hostingType">hosting_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.owner">owner</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.ownerType">owner_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.targetUrl">target_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.internalValue">internal_value</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHub">DevopsagentServiceAdditionalServiceDetailsGitHub</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `app_variant`<sup>Required</sup> <a name="app_variant" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.appVariant"></a>
+
+```python
+app_variant: str
+```
+
+- *Type:* str
+
+---
+
+##### `auth_mode`<sup>Required</sup> <a name="auth_mode" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.authMode"></a>
+
+```python
+auth_mode: str
+```
+
+- *Type:* str
+
+---
+
+##### `hosting_type`<sup>Required</sup> <a name="hosting_type" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.hostingType"></a>
+
+```python
+hosting_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `owner`<sup>Required</sup> <a name="owner" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.owner"></a>
+
+```python
+owner: str
+```
+
+- *Type:* str
+
+---
+
+##### `owner_type`<sup>Required</sup> <a name="owner_type" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.ownerType"></a>
+
+```python
+owner_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_url`<sup>Required</sup> <a name="target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.targetUrl"></a>
+
+```python
+target_url: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference.property.internalValue"></a>
+
+```python
+internal_value: DevopsagentServiceAdditionalServiceDetailsGitHub
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHub">DevopsagentServiceAdditionalServiceDetailsGitHub</a>
 
 ---
 
@@ -6405,6 +7046,7 @@ Returns a reversible string representation.
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.property.azureIdentity">azure_identity</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsAzureIdentityOutputReference">DevopsagentServiceAdditionalServiceDetailsAzureIdentityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.property.dynatrace">dynatrace</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference">DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.property.gitHub">git_hub</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference">DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.property.gitLab">git_lab</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitLabOutputReference">DevopsagentServiceAdditionalServiceDetailsGitLabOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.property.mcpServer">mcp_server</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerOutputReference">DevopsagentServiceAdditionalServiceDetailsMcpServerOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.property.mcpServerGrafana">mcp_server_grafana</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsMcpServerGrafanaOutputReference">DevopsagentServiceAdditionalServiceDetailsMcpServerGrafanaOutputReference</a></code> | *No description.* |
@@ -6458,6 +7100,16 @@ dynatrace: DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference">DevopsagentServiceAdditionalServiceDetailsDynatraceOutputReference</a>
+
+---
+
+##### `git_hub`<sup>Required</sup> <a name="git_hub" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsOutputReference.property.gitHub"></a>
+
+```python
+git_hub: DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference">DevopsagentServiceAdditionalServiceDetailsGitHubOutputReference</a>
 
 ---
 
@@ -8149,7 +8801,7 @@ def put_o_auth_client_credentials(
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -8159,7 +8811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -8169,7 +8821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -8179,7 +8831,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -8502,7 +9154,7 @@ def put_authorization_config(
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -8604,6 +9256,1190 @@ internal_value: IResolvable | DevopsagentServiceServiceDetailsDynatrace
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatrace">DevopsagentServiceServiceDetailsDynatrace</a>
+
+---
+
+
+### DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference <a name="DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_service
+
+devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resetAppVariant">reset_app_variant</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resetOrganizationName">reset_organization_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resetTargetUrl">reset_target_url</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resetTokenValue">reset_token_value</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_app_variant` <a name="reset_app_variant" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resetAppVariant"></a>
+
+```python
+def reset_app_variant() -> None
+```
+
+##### `reset_organization_name` <a name="reset_organization_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resetOrganizationName"></a>
+
+```python
+def reset_organization_name() -> None
+```
+
+##### `reset_target_url` <a name="reset_target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resetTargetUrl"></a>
+
+```python
+def reset_target_url() -> None
+```
+
+##### `reset_token_value` <a name="reset_token_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.resetTokenValue"></a>
+
+```python
+def reset_token_value() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.appVariantInput">app_variant_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.organizationNameInput">organization_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.targetUrlInput">target_url_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.tokenValueInput">token_value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.appVariant">app_variant</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.organizationName">organization_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.targetUrl">target_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.tokenValue">token_value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification">DevopsagentServiceServiceDetailsGitHubAppVerification</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `app_variant_input`<sup>Optional</sup> <a name="app_variant_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.appVariantInput"></a>
+
+```python
+app_variant_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `organization_name_input`<sup>Optional</sup> <a name="organization_name_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.organizationNameInput"></a>
+
+```python
+organization_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_url_input`<sup>Optional</sup> <a name="target_url_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.targetUrlInput"></a>
+
+```python
+target_url_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `token_value_input`<sup>Optional</sup> <a name="token_value_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.tokenValueInput"></a>
+
+```python
+token_value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `app_variant`<sup>Required</sup> <a name="app_variant" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.appVariant"></a>
+
+```python
+app_variant: str
+```
+
+- *Type:* str
+
+---
+
+##### `organization_name`<sup>Required</sup> <a name="organization_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.organizationName"></a>
+
+```python
+organization_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_url`<sup>Required</sup> <a name="target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.targetUrl"></a>
+
+```python
+target_url: str
+```
+
+- *Type:* str
+
+---
+
+##### `token_value`<sup>Required</sup> <a name="token_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.tokenValue"></a>
+
+```python
+token_value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentServiceServiceDetailsGitHubAppVerification
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification">DevopsagentServiceServiceDetailsGitHubAppVerification</a>
+
+---
+
+
+### DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference <a name="DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_service
+
+devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resetOrganizationName">reset_organization_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resetTargetUrl">reset_target_url</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resetTokenValue">reset_token_value</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_organization_name` <a name="reset_organization_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resetOrganizationName"></a>
+
+```python
+def reset_organization_name() -> None
+```
+
+##### `reset_target_url` <a name="reset_target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resetTargetUrl"></a>
+
+```python
+def reset_target_url() -> None
+```
+
+##### `reset_token_value` <a name="reset_token_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.resetTokenValue"></a>
+
+```python
+def reset_token_value() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.organizationNameInput">organization_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.targetUrlInput">target_url_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.tokenValueInput">token_value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.organizationName">organization_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.targetUrl">target_url</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.tokenValue">token_value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess">DevopsagentServiceServiceDetailsGitHubDirectAccess</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `organization_name_input`<sup>Optional</sup> <a name="organization_name_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.organizationNameInput"></a>
+
+```python
+organization_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_url_input`<sup>Optional</sup> <a name="target_url_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.targetUrlInput"></a>
+
+```python
+target_url_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `token_value_input`<sup>Optional</sup> <a name="token_value_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.tokenValueInput"></a>
+
+```python
+token_value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `organization_name`<sup>Required</sup> <a name="organization_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.organizationName"></a>
+
+```python
+organization_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `target_url`<sup>Required</sup> <a name="target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.targetUrl"></a>
+
+```python
+target_url: str
+```
+
+- *Type:* str
+
+---
+
+##### `token_value`<sup>Required</sup> <a name="token_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.tokenValue"></a>
+
+```python
+token_value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentServiceServiceDetailsGitHubDirectAccess
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess">DevopsagentServiceServiceDetailsGitHubDirectAccess</a>
+
+---
+
+
+### DevopsagentServiceServiceDetailsGitHubOutputReference <a name="DevopsagentServiceServiceDetailsGitHubOutputReference" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import devopsagent_service
+
+devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putAppVerification">put_app_verification</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putDirectAccess">put_direct_access</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.resetAppVerification">reset_app_verification</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.resetDirectAccess">reset_direct_access</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `put_app_verification` <a name="put_app_verification" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putAppVerification"></a>
+
+```python
+def put_app_verification(
+  app_variant: str = None,
+  organization_name: str = None,
+  target_url: str = None,
+  token_value: str = None
+) -> None
+```
+
+###### `app_variant`<sup>Optional</sup> <a name="app_variant" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putAppVerification.parameter.appVariant"></a>
+
+- *Type:* str
+
+Permission variant of the DevOps Agent GitHub App that must already be installed on the organization or account.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#app_variant DevopsagentService#app_variant}
+
+---
+
+###### `organization_name`<sup>Optional</sup> <a name="organization_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putAppVerification.parameter.organizationName"></a>
+
+- *Type:* str
+
+GitHub organization to scope the service to.
+
+The token must be an active member of the organization and only that organization's repositories are accessible. Omit to register the token's own user account
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
+
+---
+
+###### `target_url`<sup>Optional</sup> <a name="target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putAppVerification.parameter.targetUrl"></a>
+
+- *Type:* str
+
+GitHub instance URL.
+
+Omit for github.com. Provide the instance host for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency (e.g. https://github.example.com)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+
+---
+
+###### `token_value`<sup>Optional</sup> <a name="token_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putAppVerification.parameter.tokenValue"></a>
+
+- *Type:* str
+
+GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+
+---
+
+##### `put_direct_access` <a name="put_direct_access" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putDirectAccess"></a>
+
+```python
+def put_direct_access(
+  organization_name: str = None,
+  target_url: str = None,
+  token_value: str = None
+) -> None
+```
+
+###### `organization_name`<sup>Optional</sup> <a name="organization_name" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putDirectAccess.parameter.organizationName"></a>
+
+- *Type:* str
+
+GitHub organization to scope the service to.
+
+The token must be an active member of the organization and only that organization's repositories are accessible. Omit to register the token's own user account
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#organization_name DevopsagentService#organization_name}
+
+---
+
+###### `target_url`<sup>Optional</sup> <a name="target_url" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putDirectAccess.parameter.targetUrl"></a>
+
+- *Type:* str
+
+GitHub instance URL.
+
+Omit for github.com. Provide the instance host for GitHub Enterprise Server or GitHub Enterprise Cloud with data residency (e.g. https://github.example.com)
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+
+---
+
+###### `token_value`<sup>Optional</sup> <a name="token_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.putDirectAccess.parameter.tokenValue"></a>
+
+- *Type:* str
+
+GitHub personal access token (PAT) value. Accepts classic PATs (ghp_...), fine-grained PATs (github_pat_...), and GitHub Enterprise Server token formats.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+
+---
+
+##### `reset_app_verification` <a name="reset_app_verification" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.resetAppVerification"></a>
+
+```python
+def reset_app_verification() -> None
+```
+
+##### `reset_direct_access` <a name="reset_direct_access" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.resetDirectAccess"></a>
+
+```python
+def reset_direct_access() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.appVerification">app_verification</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference">DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.directAccess">direct_access</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference">DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.appVerificationInput">app_verification_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification">DevopsagentServiceServiceDetailsGitHubAppVerification</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.directAccessInput">direct_access_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess">DevopsagentServiceServiceDetailsGitHubDirectAccess</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub">DevopsagentServiceServiceDetailsGitHub</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `app_verification`<sup>Required</sup> <a name="app_verification" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.appVerification"></a>
+
+```python
+app_verification: DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference">DevopsagentServiceServiceDetailsGitHubAppVerificationOutputReference</a>
+
+---
+
+##### `direct_access`<sup>Required</sup> <a name="direct_access" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.directAccess"></a>
+
+```python
+direct_access: DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference">DevopsagentServiceServiceDetailsGitHubDirectAccessOutputReference</a>
+
+---
+
+##### `app_verification_input`<sup>Optional</sup> <a name="app_verification_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.appVerificationInput"></a>
+
+```python
+app_verification_input: IResolvable | DevopsagentServiceServiceDetailsGitHubAppVerification
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification">DevopsagentServiceServiceDetailsGitHubAppVerification</a>
+
+---
+
+##### `direct_access_input`<sup>Optional</sup> <a name="direct_access_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.directAccessInput"></a>
+
+```python
+direct_access_input: IResolvable | DevopsagentServiceServiceDetailsGitHubDirectAccess
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess">DevopsagentServiceServiceDetailsGitHubDirectAccess</a>
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | DevopsagentServiceServiceDetailsGitHub
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub">DevopsagentServiceServiceDetailsGitHub</a>
 
 ---
 
@@ -10418,7 +12254,7 @@ def put_api_key(
 
 HTTP header name to send the API key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_header DevopsagentService#api_key_header}
 
 ---
 
@@ -10428,7 +12264,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly API key name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_name DevopsagentService#api_key_name}
 
 ---
 
@@ -10438,7 +12274,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 API key value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key_value DevopsagentService#api_key_value}
 
 ---
 
@@ -10458,7 +12294,7 @@ def put_bearer_token(
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -10468,7 +12304,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -10478,7 +12314,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -10501,7 +12337,7 @@ def put_o_auth_client_credentials(
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -10511,7 +12347,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -10521,7 +12357,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -10531,7 +12367,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -10541,7 +12377,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth token exchange URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_url DevopsagentService#exchange_url}
 
 ---
 
@@ -10551,7 +12387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
 
 ---
 
@@ -11292,7 +13128,7 @@ def put_bearer_token(
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -11302,7 +13138,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -11312,7 +13148,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -11637,7 +13473,7 @@ def put_authorization_config(
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -12496,7 +14332,7 @@ def put_api_key(
 
 New Relic Account ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#account_id DevopsagentService#account_id}
 
 ---
 
@@ -12506,7 +14342,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of alert policy IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#alert_policy_ids DevopsagentService#alert_policy_ids}
 
 ---
 
@@ -12516,7 +14352,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 New Relic User API Key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -12526,7 +14362,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of monitored APM application IDs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#application_ids DevopsagentService#application_ids}
 
 ---
 
@@ -12536,7 +14372,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of globally unique IDs for New Relic resources.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#entity_guids DevopsagentService#entity_guids}
 
 ---
 
@@ -12546,7 +14382,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 New Relic region.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#region DevopsagentService#region}
 
 ---
 
@@ -12868,7 +14704,7 @@ def put_authorization_config(
 
 New Relic API key configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -13195,7 +15031,7 @@ def put_authorization_config(
 
 API key authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#api_key DevopsagentService#api_key}
 
 ---
 
@@ -13205,7 +15041,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -13215,7 +15051,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server OAuth client credentials configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -14047,7 +15883,7 @@ def put_authorization_config(
 
 Custom headers for the SigV4 MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#custom_headers DevopsagentService#custom_headers}
 
 ---
 
@@ -14059,7 +15895,7 @@ IAM role ARN to assume for SigV4 signing.
 
 Optional - when omitted, credentials are resolved at runtime via a monitor account association.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#mcp_role_arn DevopsagentService#mcp_role_arn}
 
 ---
 
@@ -14069,7 +15905,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 AWS region for SigV4 signing. Use '*' for SigV4a multi-region signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#region DevopsagentService#region}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#region DevopsagentService#region}
 
 ---
 
@@ -14081,7 +15917,7 @@ Deprecated - use McpRoleArn instead.
 
 IAM role ARN to assume for SigV4 signing. Set to an empty string to remove a previously configured role and make the server role-less (cross-account).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#role_arn DevopsagentService#role_arn}
 
 ---
 
@@ -14091,7 +15927,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 AWS service name for SigV4 signing.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#service DevopsagentService#service}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#service DevopsagentService#service}
 
 ---
 
@@ -14860,7 +16696,7 @@ def put_bearer_token(
 
 HTTP header name to send the bearer token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_header DevopsagentService#authorization_header}
 
 ---
 
@@ -14870,7 +16706,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly bearer token name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_name DevopsagentService#token_name}
 
 ---
 
@@ -14880,7 +16716,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Bearer token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -15205,7 +17041,7 @@ def put_authorization_config(
 
 Bearer token authentication details.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#bearer_token DevopsagentService#bearer_token}
 
 ---
 
@@ -15422,6 +17258,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putAzureIdentity">put_azure_identity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putDynatrace">put_dynatrace</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putGitHub">put_git_hub</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putGitLab">put_git_lab</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putMcpServer">put_mcp_server</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putMcpServerGrafana">put_mcp_server_grafana</a></code> | *No description.* |
@@ -15432,6 +17269,7 @@ The attribute on the parent resource this class is referencing.
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putServiceNow">put_service_now</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.resetAzureIdentity">reset_azure_identity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.resetDynatrace">reset_dynatrace</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.resetGitHub">reset_git_hub</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.resetGitLab">reset_git_lab</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.resetMcpServer">reset_mcp_server</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.resetMcpServerGrafana">reset_mcp_server_grafana</a></code> | *No description.* |
@@ -15632,7 +17470,7 @@ def put_azure_identity(
 
 Azure AD application client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -15642,7 +17480,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Azure AD tenant ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#tenant_id DevopsagentService#tenant_id}
 
 ---
 
@@ -15652,7 +17490,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ARN of the IAM role for web identity token exchange.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#web_identity_role_arn DevopsagentService#web_identity_role_arn}
 
 ---
 
@@ -15662,7 +17500,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 List of audiences for the web identity token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#web_identity_token_audiences DevopsagentService#web_identity_token_audiences}
 
 ---
 
@@ -15681,7 +17519,7 @@ def put_dynatrace(
 
 Dynatrace resource account URN.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#account_urn DevopsagentService#account_urn}
 
 ---
 
@@ -15691,7 +17529,36 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Dynatrace OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+
+---
+
+##### `put_git_hub` <a name="put_git_hub" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putGitHub"></a>
+
+```python
+def put_git_hub(
+  app_verification: DevopsagentServiceServiceDetailsGitHubAppVerification = None,
+  direct_access: DevopsagentServiceServiceDetailsGitHubDirectAccess = None
+) -> None
+```
+
+###### `app_verification`<sup>Optional</sup> <a name="app_verification" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putGitHub.parameter.appVerification"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubAppVerification">DevopsagentServiceServiceDetailsGitHubAppVerification</a>
+
+The token verifies an existing DevOps Agent GitHub App installation on github.com and is then discarded. Not supported for GitHub Enterprise Server.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#app_verification DevopsagentService#app_verification}
+
+---
+
+###### `direct_access`<sup>Optional</sup> <a name="direct_access" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.putGitHub.parameter.directAccess"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubDirectAccess">DevopsagentServiceServiceDetailsGitHubDirectAccess</a>
+
+The token is stored and used as the long-lived credential for GitHub API access.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#direct_access DevopsagentService#direct_access}
 
 ---
 
@@ -15712,7 +17579,7 @@ def put_git_lab(
 
 Optional GitLab group ID for group-level access tokens.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#group_id DevopsagentService#group_id}
 
 ---
 
@@ -15722,7 +17589,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitLab instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#target_url DevopsagentService#target_url}
 
 ---
 
@@ -15732,7 +17599,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Type of GitLab access token.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_type DevopsagentService#token_type}
 
 ---
 
@@ -15742,7 +17609,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 GitLab access token value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#token_value DevopsagentService#token_value}
 
 ---
 
@@ -15763,7 +17630,7 @@ def put_mcp_server(
 
 MCP server authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -15773,7 +17640,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -15783,7 +17650,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -15793,7 +17660,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -15814,7 +17681,7 @@ def put_mcp_server_grafana(
 
 Grafana MCP server authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -15824,7 +17691,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -15834,7 +17701,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -15844,7 +17711,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -15862,7 +17729,7 @@ def put_mcp_server_new_relic(
 
 New Relic authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -15883,7 +17750,7 @@ def put_mcp_server_sig_v4(
 
 SigV4 authorization configuration for MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -15893,7 +17760,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -15903,7 +17770,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -15913,7 +17780,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -15934,7 +17801,7 @@ def put_mcp_server_splunk(
 
 MCP server splunk authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -15944,7 +17811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Optional description for the MCP server.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#description DevopsagentService#description}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#description DevopsagentService#description}
 
 ---
 
@@ -15954,7 +17821,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server endpoint URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#endpoint DevopsagentService#endpoint}
 
 ---
 
@@ -15964,7 +17831,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 MCP server name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#name DevopsagentService#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#name DevopsagentService#name}
 
 ---
 
@@ -15983,7 +17850,7 @@ def put_pager_duty(
 
 PagerDuty OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -15993,7 +17860,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 PagerDuty scopes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#scopes DevopsagentService#scopes}
 
 ---
 
@@ -16012,7 +17879,7 @@ def put_service_now(
 
 ServiceNow OAuth authorization configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#authorization_config DevopsagentService#authorization_config}
 
 ---
 
@@ -16022,7 +17889,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 ServiceNow instance URL.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#instance_url DevopsagentService#instance_url}
 
 ---
 
@@ -16036,6 +17903,12 @@ def reset_azure_identity() -> None
 
 ```python
 def reset_dynatrace() -> None
+```
+
+##### `reset_git_hub` <a name="reset_git_hub" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.resetGitHub"></a>
+
+```python
+def reset_git_hub() -> None
 ```
 
 ##### `reset_git_lab` <a name="reset_git_lab" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.resetGitLab"></a>
@@ -16095,6 +17968,7 @@ def reset_service_now() -> None
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.azureIdentity">azure_identity</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsAzureIdentityOutputReference">DevopsagentServiceServiceDetailsAzureIdentityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.dynatrace">dynatrace</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceOutputReference">DevopsagentServiceServiceDetailsDynatraceOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.gitHub">git_hub</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference">DevopsagentServiceServiceDetailsGitHubOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.gitLab">git_lab</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitLabOutputReference">DevopsagentServiceServiceDetailsGitLabOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.mcpServer">mcp_server</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerOutputReference">DevopsagentServiceServiceDetailsMcpServerOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.mcpServerGrafana">mcp_server_grafana</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference">DevopsagentServiceServiceDetailsMcpServerGrafanaOutputReference</a></code> | *No description.* |
@@ -16105,6 +17979,7 @@ def reset_service_now() -> None
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.serviceNow">service_now</a></code> | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsServiceNowOutputReference">DevopsagentServiceServiceDetailsServiceNowOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.azureIdentityInput">azure_identity_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsAzureIdentity">DevopsagentServiceServiceDetailsAzureIdentity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.dynatraceInput">dynatrace_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatrace">DevopsagentServiceServiceDetailsDynatrace</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.gitHubInput">git_hub_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub">DevopsagentServiceServiceDetailsGitHub</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.gitLabInput">git_lab_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitLab">DevopsagentServiceServiceDetailsGitLab</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.mcpServerGrafanaInput">mcp_server_grafana_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServerGrafana">DevopsagentServiceServiceDetailsMcpServerGrafana</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.mcpServerInput">mcp_server_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsMcpServer">DevopsagentServiceServiceDetailsMcpServer</a></code> | *No description.* |
@@ -16158,6 +18033,16 @@ dynatrace: DevopsagentServiceServiceDetailsDynatraceOutputReference
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatraceOutputReference">DevopsagentServiceServiceDetailsDynatraceOutputReference</a>
+
+---
+
+##### `git_hub`<sup>Required</sup> <a name="git_hub" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.gitHub"></a>
+
+```python
+git_hub: DevopsagentServiceServiceDetailsGitHubOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHubOutputReference">DevopsagentServiceServiceDetailsGitHubOutputReference</a>
 
 ---
 
@@ -16258,6 +18143,16 @@ dynatrace_input: IResolvable | DevopsagentServiceServiceDetailsDynatrace
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsDynatrace">DevopsagentServiceServiceDetailsDynatrace</a>
+
+---
+
+##### `git_hub_input`<sup>Optional</sup> <a name="git_hub_input" id="@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsOutputReference.property.gitHubInput"></a>
+
+```python
+git_hub_input: IResolvable | DevopsagentServiceServiceDetailsGitHub
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.devopsagentService.DevopsagentServiceServiceDetailsGitHub">DevopsagentServiceServiceDetailsGitHub</a>
 
 ---
 
@@ -16989,7 +18884,7 @@ def put_o_auth_client_credentials(
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -16999,7 +18894,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -17009,7 +18904,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -17019,7 +18914,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -17342,7 +19237,7 @@ def put_authorization_config(
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 
@@ -18085,7 +19980,7 @@ def put_o_auth_client_credentials(
 
 OAuth client ID.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_id DevopsagentService#client_id}
 
 ---
 
@@ -18095,7 +19990,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 User friendly OAuth client name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_name DevopsagentService#client_name}
 
 ---
 
@@ -18105,7 +20000,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth client secret.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#client_secret DevopsagentService#client_secret}
 
 ---
 
@@ -18115,7 +20010,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 OAuth token exchange parameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#exchange_parameters DevopsagentService#exchange_parameters}
 
 ---
 
@@ -18438,7 +20333,7 @@ def put_authorization_config(
 
 OAuth client credentials.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/devopsagent_service#o_auth_client_credentials DevopsagentService#o_auth_client_credentials}
 
 ---
 

@@ -4,7 +4,7 @@
 
 ### PersonalizeCampaign <a name="PersonalizeCampaign" id="@cdktn/provider-awscc.personalizeCampaign.PersonalizeCampaign"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign awscc_personalize_campaign}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign awscc_personalize_campaign}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.personalizeCampaign.PersonalizeCampaign.Initializer"></a>
 
@@ -536,7 +536,7 @@ The construct id used in the generated config for the PersonalizeCampaign to imp
 
 The id of the existing PersonalizeCampaign that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -932,7 +932,7 @@ EnableMetadataWithRecommendations interface{}
 
 Whether metadata with recommendations is enabled for the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#enable_metadata_with_recommendations PersonalizeCampaign#enable_metadata_with_recommendations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#enable_metadata_with_recommendations PersonalizeCampaign#enable_metadata_with_recommendations}
 
 ---
 
@@ -946,7 +946,7 @@ ItemExplorationConfig *map[string]*string
 
 Specifies the exploration configuration hyperparameters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#item_exploration_config PersonalizeCampaign#item_exploration_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#item_exploration_config PersonalizeCampaign#item_exploration_config}
 
 ---
 
@@ -960,7 +960,7 @@ RankingInfluence *map[string]*f64
 
 A map of ranking influence values for POPULARITY and FRESHNESS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#ranking_influence PersonalizeCampaign#ranking_influence}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#ranking_influence PersonalizeCampaign#ranking_influence}
 
 ---
 
@@ -974,7 +974,7 @@ SyncWithLatestSolutionVersion interface{}
 
 Whether the campaign automatically updates to use the latest solution version.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#sync_with_latest_solution_version PersonalizeCampaign#sync_with_latest_solution_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#sync_with_latest_solution_version PersonalizeCampaign#sync_with_latest_solution_version}
 
 ---
 
@@ -1100,7 +1100,7 @@ Name *string
 
 The name of the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#name PersonalizeCampaign#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#name PersonalizeCampaign#name}
 
 ---
 
@@ -1114,7 +1114,7 @@ SolutionVersionArn *string
 
 The ARN of the solution version to deploy.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#solution_version_arn PersonalizeCampaign#solution_version_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#solution_version_arn PersonalizeCampaign#solution_version_arn}
 
 ---
 
@@ -1128,7 +1128,7 @@ CampaignConfig PersonalizeCampaignCampaignConfig
 
 The configuration details of a campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#campaign_config PersonalizeCampaign#campaign_config}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#campaign_config PersonalizeCampaign#campaign_config}
 
 ---
 
@@ -1142,7 +1142,7 @@ MinProvisionedTps *f64
 
 Specifies the requested minimum provisioned transactions per second.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#min_provisioned_tps PersonalizeCampaign#min_provisioned_tps}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#min_provisioned_tps PersonalizeCampaign#min_provisioned_tps}
 
 ---
 
@@ -1156,7 +1156,7 @@ Tags interface{}
 
 Tags to associate with the campaign.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#tags PersonalizeCampaign#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#tags PersonalizeCampaign#tags}
 
 ---
 
@@ -1192,7 +1192,7 @@ Key *string
 
 The key name of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#key PersonalizeCampaign#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#key PersonalizeCampaign#key}
 
 ---
 
@@ -1206,7 +1206,7 @@ Value *string
 
 The value for the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/personalize_campaign#value PersonalizeCampaign#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/personalize_campaign#value PersonalizeCampaign#value}
 
 ---
 

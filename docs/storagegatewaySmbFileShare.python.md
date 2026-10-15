@@ -1,0 +1,3376 @@
+# `storagegatewaySmbFileShare` Submodule <a name="`storagegatewaySmbFileShare` Submodule" id="@cdktn/provider-awscc.storagegatewaySmbFileShare"></a>
+
+## Constructs <a name="Constructs" id="Constructs"></a>
+
+### StoragegatewaySmbFileShare <a name="StoragegatewaySmbFileShare" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare"></a>
+
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share awscc_storagegateway_smb_file_share}.
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShare(
+  scope: Construct,
+  id: str,
+  connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
+  count: typing.Union[int, float] | TerraformCount = None,
+  depends_on: typing.List[ITerraformDependable] = None,
+  for_each: ITerraformIterator = None,
+  lifecycle: TerraformResourceLifecycle = None,
+  provider: TerraformProvider = None,
+  provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  gateway_arn: str,
+  location_arn: str,
+  role: str,
+  access_based_enumeration: bool | IResolvable = None,
+  admin_user_list: typing.List[str] = None,
+  audit_destination_arn: str = None,
+  authentication: str = None,
+  bucket_region: str = None,
+  cache_attributes: StoragegatewaySmbFileShareCacheAttributes = None,
+  case_sensitivity: str = None,
+  default_storage_class: str = None,
+  encryption_type: str = None,
+  file_share_name: str = None,
+  guess_mime_type_enabled: bool | IResolvable = None,
+  invalid_user_list: typing.List[str] = None,
+  kms_encrypted: bool | IResolvable = None,
+  kms_key: str = None,
+  notification_policy: str = None,
+  object_acl: str = None,
+  oplocks_enabled: bool | IResolvable = None,
+  read_only: bool | IResolvable = None,
+  requester_pays: bool | IResolvable = None,
+  smbacl_enabled: bool | IResolvable = None,
+  tags: IResolvable | typing.List[StoragegatewaySmbFileShareTags] = None,
+  valid_user_list: typing.List[str] = None,
+  vpc_endpoint_dns_name: str = None
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | The scope in which to define this construct. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.id">id</a></code> | <code>str</code> | The scoped construct ID. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.gatewayArn">gateway_arn</a></code> | <code>str</code> | The ARN of the S3 File Gateway that hosts the share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.locationArn">location_arn</a></code> | <code>str</code> | The ARN of the S3 bucket, or bucket prefix, the share exposes. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.role">role</a></code> | <code>str</code> | The ARN of the IAM role the gateway assumes when it accesses the S3 location. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.accessBasedEnumeration">access_based_enumeration</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether clients see only the files and folders they may access. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.adminUserList">admin_user_list</a></code> | <code>typing.List[str]</code> | Users and groups granted administrative privileges on the SMB share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.auditDestinationArn">audit_destination_arn</a></code> | <code>str</code> | The ARN of the CloudWatch log group that receives the share's audit logs. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.authentication">authentication</a></code> | <code>str</code> | The authentication the SMB share uses. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.bucketRegion">bucket_region</a></code> | <code>str</code> | The Region of the S3 bucket, required when the bucket is reached through a VPC endpoint. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.cacheAttributes">cache_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes">StoragegatewaySmbFileShareCacheAttributes</a></code> | Refresh cache information for the file share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.caseSensitivity">case_sensitivity</a></code> | <code>str</code> | Whether the SMB share is case sensitive or defers to the client. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.defaultStorageClass">default_storage_class</a></code> | <code>str</code> | The S3 storage class for new objects. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.encryptionType">encryption_type</a></code> | <code>str</code> | The server-side encryption the gateway applies to objects it writes. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.fileShareName">file_share_name</a></code> | <code>str</code> | The name of the file share, which defaults to the bucket name when omitted. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.guessMimeTypeEnabled">guess_mime_type_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the gateway infers the MIME type of uploaded objects from their extension. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.invalidUserList">invalid_user_list</a></code> | <code>typing.List[str]</code> | Users and groups denied access to the SMB share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.kmsEncrypted">kms_encrypted</a></code> | <code>bool \| cdktn.IResolvable</code> | Deprecated by the service in favour of EncryptionType; true selects KMS encryption. Retained because it remains readable and settable. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.kmsKey">kms_key</a></code> | <code>str</code> | The KMS key used for encryption, when EncryptionType selects KMS. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.notificationPolicy">notification_policy</a></code> | <code>str</code> | The upload-notification settling period, as a JSON document. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.objectAcl">object_acl</a></code> | <code>str</code> | The canned S3 ACL applied to objects the gateway writes. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.oplocksEnabled">oplocks_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the SMB share grants opportunistic locks. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.readOnly">read_only</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether clients may write to the share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.requesterPays">requester_pays</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the bucket is a Requester Pays bucket. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.smbaclEnabled">smbacl_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the SMB share uses Windows ACLs rather than POSIX permissions. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]</code> | Tags assigned to the file share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.validUserList">valid_user_list</a></code> | <code>typing.List[str]</code> | Users and groups permitted to access the SMB share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.vpcEndpointDnsName">vpc_endpoint_dns_name</a></code> | <code>str</code> | The DNS name of the S3 VPC endpoint the gateway uses to reach the bucket. |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.id"></a>
+
+- *Type:* str
+
+The scoped construct ID.
+
+Must be unique amongst siblings in the same scope
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.connection"></a>
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.count"></a>
+
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
+
+---
+
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.dependsOn"></a>
+
+- *Type:* typing.List[cdktn.ITerraformDependable]
+
+---
+
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.forEach"></a>
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.lifecycle"></a>
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.provisioners"></a>
+
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
+
+---
+
+##### `gateway_arn`<sup>Required</sup> <a name="gateway_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.gatewayArn"></a>
+
+- *Type:* str
+
+The ARN of the S3 File Gateway that hosts the share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#gateway_arn StoragegatewaySmbFileShare#gateway_arn}
+
+---
+
+##### `location_arn`<sup>Required</sup> <a name="location_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.locationArn"></a>
+
+- *Type:* str
+
+The ARN of the S3 bucket, or bucket prefix, the share exposes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#location_arn StoragegatewaySmbFileShare#location_arn}
+
+---
+
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.role"></a>
+
+- *Type:* str
+
+The ARN of the IAM role the gateway assumes when it accesses the S3 location.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#role StoragegatewaySmbFileShare#role}
+
+---
+
+##### `access_based_enumeration`<sup>Optional</sup> <a name="access_based_enumeration" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.accessBasedEnumeration"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether clients see only the files and folders they may access.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#access_based_enumeration StoragegatewaySmbFileShare#access_based_enumeration}
+
+---
+
+##### `admin_user_list`<sup>Optional</sup> <a name="admin_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.adminUserList"></a>
+
+- *Type:* typing.List[str]
+
+Users and groups granted administrative privileges on the SMB share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#admin_user_list StoragegatewaySmbFileShare#admin_user_list}
+
+---
+
+##### `audit_destination_arn`<sup>Optional</sup> <a name="audit_destination_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.auditDestinationArn"></a>
+
+- *Type:* str
+
+The ARN of the CloudWatch log group that receives the share's audit logs.
+
+Removing this property from a template detaches audit logging: the update sends the empty string, which the service treats as the reset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#audit_destination_arn StoragegatewaySmbFileShare#audit_destination_arn}
+
+---
+
+##### `authentication`<sup>Optional</sup> <a name="authentication" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.authentication"></a>
+
+- *Type:* str
+
+The authentication the SMB share uses.
+
+The service accepts ActiveDirectory and GuestAccess; it is a length-bounded string in the API model rather than an enumeration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#authentication StoragegatewaySmbFileShare#authentication}
+
+---
+
+##### `bucket_region`<sup>Optional</sup> <a name="bucket_region" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.bucketRegion"></a>
+
+- *Type:* str
+
+The Region of the S3 bucket, required when the bucket is reached through a VPC endpoint.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#bucket_region StoragegatewaySmbFileShare#bucket_region}
+
+---
+
+##### `cache_attributes`<sup>Optional</sup> <a name="cache_attributes" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.cacheAttributes"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes">StoragegatewaySmbFileShareCacheAttributes</a>
+
+Refresh cache information for the file share.
+
+Removing this property from a template leaves the share's current value: the service documents no value that resets it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#cache_attributes StoragegatewaySmbFileShare#cache_attributes}
+
+---
+
+##### `case_sensitivity`<sup>Optional</sup> <a name="case_sensitivity" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.caseSensitivity"></a>
+
+- *Type:* str
+
+Whether the SMB share is case sensitive or defers to the client.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#case_sensitivity StoragegatewaySmbFileShare#case_sensitivity}
+
+---
+
+##### `default_storage_class`<sup>Optional</sup> <a name="default_storage_class" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.defaultStorageClass"></a>
+
+- *Type:* str
+
+The S3 storage class for new objects.
+
+The service accepts S3_STANDARD, S3_INTELLIGENT_TIERING, S3_STANDARD_IA and S3_ONEZONE_IA; it is a length-bounded string in the API model rather than an enumeration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#default_storage_class StoragegatewaySmbFileShare#default_storage_class}
+
+---
+
+##### `encryption_type`<sup>Optional</sup> <a name="encryption_type" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.encryptionType"></a>
+
+- *Type:* str
+
+The server-side encryption the gateway applies to objects it writes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#encryption_type StoragegatewaySmbFileShare#encryption_type}
+
+---
+
+##### `file_share_name`<sup>Optional</sup> <a name="file_share_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.fileShareName"></a>
+
+- *Type:* str
+
+The name of the file share, which defaults to the bucket name when omitted.
+
+Removing this property from a template leaves the share's current value: the service documents no value that resets it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#file_share_name StoragegatewaySmbFileShare#file_share_name}
+
+---
+
+##### `guess_mime_type_enabled`<sup>Optional</sup> <a name="guess_mime_type_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.guessMimeTypeEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the gateway infers the MIME type of uploaded objects from their extension.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#guess_mime_type_enabled StoragegatewaySmbFileShare#guess_mime_type_enabled}
+
+---
+
+##### `invalid_user_list`<sup>Optional</sup> <a name="invalid_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.invalidUserList"></a>
+
+- *Type:* typing.List[str]
+
+Users and groups denied access to the SMB share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#invalid_user_list StoragegatewaySmbFileShare#invalid_user_list}
+
+---
+
+##### `kms_encrypted`<sup>Optional</sup> <a name="kms_encrypted" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.kmsEncrypted"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Deprecated by the service in favour of EncryptionType; true selects KMS encryption. Retained because it remains readable and settable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#kms_encrypted StoragegatewaySmbFileShare#kms_encrypted}
+
+---
+
+##### `kms_key`<sup>Optional</sup> <a name="kms_key" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.kmsKey"></a>
+
+- *Type:* str
+
+The KMS key used for encryption, when EncryptionType selects KMS.
+
+Removing this property from a template leaves the share's current value: the service documents no value that resets it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#kms_key StoragegatewaySmbFileShare#kms_key}
+
+---
+
+##### `notification_policy`<sup>Optional</sup> <a name="notification_policy" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.notificationPolicy"></a>
+
+- *Type:* str
+
+The upload-notification settling period, as a JSON document.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#notification_policy StoragegatewaySmbFileShare#notification_policy}
+
+---
+
+##### `object_acl`<sup>Optional</sup> <a name="object_acl" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.objectAcl"></a>
+
+- *Type:* str
+
+The canned S3 ACL applied to objects the gateway writes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#object_acl StoragegatewaySmbFileShare#object_acl}
+
+---
+
+##### `oplocks_enabled`<sup>Optional</sup> <a name="oplocks_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.oplocksEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the SMB share grants opportunistic locks.
+
+Removing this property from a template leaves the live value unchanged rather than restoring the created default, because that default depends on the gateway's software version -- opportunistic locking is enabled by default only on appliances at 1.19.0.0 or above -- and the version is not part of this resource. Set the value explicitly rather than relying on removal.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#oplocks_enabled StoragegatewaySmbFileShare#oplocks_enabled}
+
+---
+
+##### `read_only`<sup>Optional</sup> <a name="read_only" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.readOnly"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether clients may write to the share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#read_only StoragegatewaySmbFileShare#read_only}
+
+---
+
+##### `requester_pays`<sup>Optional</sup> <a name="requester_pays" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.requesterPays"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the bucket is a Requester Pays bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#requester_pays StoragegatewaySmbFileShare#requester_pays}
+
+---
+
+##### `smbacl_enabled`<sup>Optional</sup> <a name="smbacl_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.smbaclEnabled"></a>
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the SMB share uses Windows ACLs rather than POSIX permissions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#smbacl_enabled StoragegatewaySmbFileShare#smbacl_enabled}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.tags"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]
+
+Tags assigned to the file share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#tags StoragegatewaySmbFileShare#tags}
+
+---
+
+##### `valid_user_list`<sup>Optional</sup> <a name="valid_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.validUserList"></a>
+
+- *Type:* typing.List[str]
+
+Users and groups permitted to access the SMB share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#valid_user_list StoragegatewaySmbFileShare#valid_user_list}
+
+---
+
+##### `vpc_endpoint_dns_name`<sup>Optional</sup> <a name="vpc_endpoint_dns_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.Initializer.parameter.vpcEndpointDnsName"></a>
+
+- *Type:* str
+
+The DNS name of the S3 VPC endpoint the gateway uses to reach the bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#vpc_endpoint_dns_name StoragegatewaySmbFileShare#vpc_endpoint_dns_name}
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.toString">to_string</a></code> | Returns a string representation of this construct. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.with">with</a></code> | Applies one or more mixins to this construct. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.addOverride">add_override</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.overrideLogicalId">override_logical_id</a></code> | Overrides the auto-generated logical ID with a specific ID. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetOverrideLogicalId">reset_override_logical_id</a></code> | Resets a previously passed logical Id to use the auto-generated logical id again. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.toHclTerraform">to_hcl_terraform</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.toMetadata">to_metadata</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.toTerraform">to_terraform</a></code> | Adds this resource to the terraform JSON output. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.addMoveTarget">add_move_target</a></code> | Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.hasResourceMove">has_resource_move</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.importFrom">import_from</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveFromId">move_from_id</a></code> | Move the resource corresponding to "id" to this resource. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveTo">move_to</a></code> | Moves this resource to the target resource given by moveTarget. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveToId">move_to_id</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.putCacheAttributes">put_cache_attributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.putTags">put_tags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetAccessBasedEnumeration">reset_access_based_enumeration</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetAdminUserList">reset_admin_user_list</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetAuditDestinationArn">reset_audit_destination_arn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetAuthentication">reset_authentication</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetBucketRegion">reset_bucket_region</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetCacheAttributes">reset_cache_attributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetCaseSensitivity">reset_case_sensitivity</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetDefaultStorageClass">reset_default_storage_class</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetEncryptionType">reset_encryption_type</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetFileShareName">reset_file_share_name</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetGuessMimeTypeEnabled">reset_guess_mime_type_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetInvalidUserList">reset_invalid_user_list</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetKmsEncrypted">reset_kms_encrypted</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetKmsKey">reset_kms_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetNotificationPolicy">reset_notification_policy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetObjectAcl">reset_object_acl</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetOplocksEnabled">reset_oplocks_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetReadOnly">reset_read_only</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetRequesterPays">reset_requester_pays</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetSmbaclEnabled">reset_smbacl_enabled</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetTags">reset_tags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetValidUserList">reset_valid_user_list</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetVpcEndpointDnsName">reset_vpc_endpoint_dns_name</a></code> | *No description.* |
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Returns a string representation of this construct.
+
+##### `with` <a name="with" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.with"></a>
+
+```python
+def with(
+  mixins: *IMixin
+) -> IConstruct
+```
+
+Applies one or more mixins to this construct.
+
+Mixins are applied in order. The list of constructs is captured at the
+start of the call, so constructs added by a mixin will not be visited.
+Use multiple `with()` calls if subsequent mixins should apply to added
+constructs.
+
+###### `mixins`<sup>Required</sup> <a name="mixins" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.with.parameter.mixins"></a>
+
+- *Type:* *constructs.IMixin
+
+The mixins to apply.
+
+---
+
+##### `add_override` <a name="add_override" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.addOverride"></a>
+
+```python
+def add_override(
+  path: str,
+  value: typing.Any
+) -> None
+```
+
+###### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.addOverride.parameter.path"></a>
+
+- *Type:* str
+
+---
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.addOverride.parameter.value"></a>
+
+- *Type:* typing.Any
+
+---
+
+##### `override_logical_id` <a name="override_logical_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.overrideLogicalId"></a>
+
+```python
+def override_logical_id(
+  new_logical_id: str
+) -> None
+```
+
+Overrides the auto-generated logical ID with a specific ID.
+
+###### `new_logical_id`<sup>Required</sup> <a name="new_logical_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.overrideLogicalId.parameter.newLogicalId"></a>
+
+- *Type:* str
+
+The new logical ID to use for this stack element.
+
+---
+
+##### `reset_override_logical_id` <a name="reset_override_logical_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetOverrideLogicalId"></a>
+
+```python
+def reset_override_logical_id() -> None
+```
+
+Resets a previously passed logical Id to use the auto-generated logical id again.
+
+##### `to_hcl_terraform` <a name="to_hcl_terraform" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.toHclTerraform"></a>
+
+```python
+def to_hcl_terraform() -> typing.Any
+```
+
+##### `to_metadata` <a name="to_metadata" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.toMetadata"></a>
+
+```python
+def to_metadata() -> typing.Any
+```
+
+##### `to_terraform` <a name="to_terraform" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.toTerraform"></a>
+
+```python
+def to_terraform() -> typing.Any
+```
+
+Adds this resource to the terraform JSON output.
+
+##### `add_move_target` <a name="add_move_target" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.addMoveTarget"></a>
+
+```python
+def add_move_target(
+  move_target: str
+) -> None
+```
+
+Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.addMoveTarget.parameter.moveTarget"></a>
+
+- *Type:* str
+
+The string move target that will correspond to this resource.
+
+---
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `has_resource_move` <a name="has_resource_move" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.hasResourceMove"></a>
+
+```python
+def has_resource_move() -> TerraformResourceMoveByTarget | TerraformResourceMoveById
+```
+
+##### `import_from` <a name="import_from" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.importFrom"></a>
+
+```python
+def import_from(
+  id: str,
+  provider: TerraformProvider = None
+) -> None
+```
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.importFrom.parameter.id"></a>
+
+- *Type:* str
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.importFrom.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.interpolationForAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `move_from_id` <a name="move_from_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveFromId"></a>
+
+```python
+def move_from_id(
+  id: str
+) -> None
+```
+
+Move the resource corresponding to "id" to this resource.
+
+Note that the resource being moved from must be marked as moved using its instance function.
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveFromId.parameter.id"></a>
+
+- *Type:* str
+
+Full id of resource being moved from, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `move_to` <a name="move_to" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveTo"></a>
+
+```python
+def move_to(
+  move_target: str,
+  index: str | typing.Union[int, float] = None
+) -> None
+```
+
+Moves this resource to the target resource given by moveTarget.
+
+###### `move_target`<sup>Required</sup> <a name="move_target" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveTo.parameter.moveTarget"></a>
+
+- *Type:* str
+
+The previously set user defined string set by .addMoveTarget() corresponding to the resource to move to.
+
+---
+
+###### `index`<sup>Optional</sup> <a name="index" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveTo.parameter.index"></a>
+
+- *Type:* str | typing.Union[int, float]
+
+Optional The index corresponding to the key the resource is to appear in the foreach of a resource to move to.
+
+---
+
+##### `move_to_id` <a name="move_to_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveToId"></a>
+
+```python
+def move_to_id(
+  id: str
+) -> None
+```
+
+Moves this resource to the resource corresponding to "id".
+
+###### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.moveToId.parameter.id"></a>
+
+- *Type:* str
+
+Full id of resource to move to, e.g. "aws_s3_bucket.example".
+
+---
+
+##### `put_cache_attributes` <a name="put_cache_attributes" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.putCacheAttributes"></a>
+
+```python
+def put_cache_attributes(
+  cache_stale_timeout_in_seconds: typing.Union[int, float] = None
+) -> None
+```
+
+###### `cache_stale_timeout_in_seconds`<sup>Optional</sup> <a name="cache_stale_timeout_in_seconds" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.putCacheAttributes.parameter.cacheStaleTimeoutInSeconds"></a>
+
+- *Type:* typing.Union[int, float]
+
+How long the directory contents cached by the gateway are considered valid.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#cache_stale_timeout_in_seconds StoragegatewaySmbFileShare#cache_stale_timeout_in_seconds}
+
+---
+
+##### `put_tags` <a name="put_tags" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.putTags"></a>
+
+```python
+def put_tags(
+  value: IResolvable | typing.List[StoragegatewaySmbFileShareTags]
+) -> None
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.putTags.parameter.value"></a>
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]
+
+---
+
+##### `reset_access_based_enumeration` <a name="reset_access_based_enumeration" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetAccessBasedEnumeration"></a>
+
+```python
+def reset_access_based_enumeration() -> None
+```
+
+##### `reset_admin_user_list` <a name="reset_admin_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetAdminUserList"></a>
+
+```python
+def reset_admin_user_list() -> None
+```
+
+##### `reset_audit_destination_arn` <a name="reset_audit_destination_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetAuditDestinationArn"></a>
+
+```python
+def reset_audit_destination_arn() -> None
+```
+
+##### `reset_authentication` <a name="reset_authentication" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetAuthentication"></a>
+
+```python
+def reset_authentication() -> None
+```
+
+##### `reset_bucket_region` <a name="reset_bucket_region" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetBucketRegion"></a>
+
+```python
+def reset_bucket_region() -> None
+```
+
+##### `reset_cache_attributes` <a name="reset_cache_attributes" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetCacheAttributes"></a>
+
+```python
+def reset_cache_attributes() -> None
+```
+
+##### `reset_case_sensitivity` <a name="reset_case_sensitivity" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetCaseSensitivity"></a>
+
+```python
+def reset_case_sensitivity() -> None
+```
+
+##### `reset_default_storage_class` <a name="reset_default_storage_class" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetDefaultStorageClass"></a>
+
+```python
+def reset_default_storage_class() -> None
+```
+
+##### `reset_encryption_type` <a name="reset_encryption_type" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetEncryptionType"></a>
+
+```python
+def reset_encryption_type() -> None
+```
+
+##### `reset_file_share_name` <a name="reset_file_share_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetFileShareName"></a>
+
+```python
+def reset_file_share_name() -> None
+```
+
+##### `reset_guess_mime_type_enabled` <a name="reset_guess_mime_type_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetGuessMimeTypeEnabled"></a>
+
+```python
+def reset_guess_mime_type_enabled() -> None
+```
+
+##### `reset_invalid_user_list` <a name="reset_invalid_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetInvalidUserList"></a>
+
+```python
+def reset_invalid_user_list() -> None
+```
+
+##### `reset_kms_encrypted` <a name="reset_kms_encrypted" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetKmsEncrypted"></a>
+
+```python
+def reset_kms_encrypted() -> None
+```
+
+##### `reset_kms_key` <a name="reset_kms_key" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetKmsKey"></a>
+
+```python
+def reset_kms_key() -> None
+```
+
+##### `reset_notification_policy` <a name="reset_notification_policy" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetNotificationPolicy"></a>
+
+```python
+def reset_notification_policy() -> None
+```
+
+##### `reset_object_acl` <a name="reset_object_acl" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetObjectAcl"></a>
+
+```python
+def reset_object_acl() -> None
+```
+
+##### `reset_oplocks_enabled` <a name="reset_oplocks_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetOplocksEnabled"></a>
+
+```python
+def reset_oplocks_enabled() -> None
+```
+
+##### `reset_read_only` <a name="reset_read_only" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetReadOnly"></a>
+
+```python
+def reset_read_only() -> None
+```
+
+##### `reset_requester_pays` <a name="reset_requester_pays" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetRequesterPays"></a>
+
+```python
+def reset_requester_pays() -> None
+```
+
+##### `reset_smbacl_enabled` <a name="reset_smbacl_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetSmbaclEnabled"></a>
+
+```python
+def reset_smbacl_enabled() -> None
+```
+
+##### `reset_tags` <a name="reset_tags" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetTags"></a>
+
+```python
+def reset_tags() -> None
+```
+
+##### `reset_valid_user_list` <a name="reset_valid_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetValidUserList"></a>
+
+```python
+def reset_valid_user_list() -> None
+```
+
+##### `reset_vpc_endpoint_dns_name` <a name="reset_vpc_endpoint_dns_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.resetVpcEndpointDnsName"></a>
+
+```python
+def reset_vpc_endpoint_dns_name() -> None
+```
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isConstruct">is_construct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isTerraformElement">is_terraform_element</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isTerraformResource">is_terraform_resource</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.generateConfigForImport">generate_config_for_import</a></code> | Generates CDKTN code for importing a StoragegatewaySmbFileShare resource upon running "cdktn plan <stack-name>". |
+
+---
+
+##### `is_construct` <a name="is_construct" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isConstruct"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShare.is_construct(
+  x: typing.Any
+)
+```
+
+Checks if `x` is a construct.
+
+Use this method instead of `instanceof` to properly detect `Construct`
+instances, even when the construct library is symlinked.
+
+Explanation: in JavaScript, multiple copies of the `constructs` library on
+disk are seen as independent, completely different libraries. As a
+consequence, the class `Construct` in each copy of the `constructs` library
+is seen as a different class, and an instance of one class will not test as
+`instanceof` the other class. `npm install` will not create installations
+like this, but users may manually symlink construct libraries together or
+use a monorepo tool: in those cases, multiple copies of the `constructs`
+library can be accidentally installed, and `instanceof` will behave
+unpredictably. It is safest to avoid using `instanceof`, and using
+this type-testing method instead.
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isConstruct.parameter.x"></a>
+
+- *Type:* typing.Any
+
+Any object.
+
+---
+
+##### `is_terraform_element` <a name="is_terraform_element" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isTerraformElement"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShare.is_terraform_element(
+  x: typing.Any
+)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isTerraformElement.parameter.x"></a>
+
+- *Type:* typing.Any
+
+---
+
+##### `is_terraform_resource` <a name="is_terraform_resource" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isTerraformResource"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShare.is_terraform_resource(
+  x: typing.Any
+)
+```
+
+###### `x`<sup>Required</sup> <a name="x" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.isTerraformResource.parameter.x"></a>
+
+- *Type:* typing.Any
+
+---
+
+##### `generate_config_for_import` <a name="generate_config_for_import" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.generateConfigForImport"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShare.generate_config_for_import(
+  scope: Construct,
+  import_to_id: str,
+  import_from_id: str,
+  provider: TerraformProvider = None
+)
+```
+
+Generates CDKTN code for importing a StoragegatewaySmbFileShare resource upon running "cdktn plan <stack-name>".
+
+###### `scope`<sup>Required</sup> <a name="scope" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.generateConfigForImport.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+The scope in which to define this construct.
+
+---
+
+###### `import_to_id`<sup>Required</sup> <a name="import_to_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.generateConfigForImport.parameter.importToId"></a>
+
+- *Type:* str
+
+The construct id used in the generated config for the StoragegatewaySmbFileShare to import.
+
+---
+
+###### `import_from_id`<sup>Required</sup> <a name="import_from_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.generateConfigForImport.parameter.importFromId"></a>
+
+- *Type:* str
+
+The id of the existing StoragegatewaySmbFileShare that should be imported.
+
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#import import section} in the documentation of this resource for the id to use
+
+---
+
+###### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.generateConfigForImport.parameter.provider"></a>
+
+- *Type:* cdktn.TerraformProvider
+
+? Optional instance of the provider where the StoragegatewaySmbFileShare to import is found.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.cdktfStack">cdktf_stack</a></code> | <code>cdktn.TerraformStack</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.friendlyUniqueId">friendly_unique_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.terraformMetaArguments">terraform_meta_arguments</a></code> | <code>typing.Mapping[typing.Any]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.terraformResourceType">terraform_resource_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.terraformGeneratorMetadata">terraform_generator_metadata</a></code> | <code>cdktn.TerraformProviderGeneratorMetadata</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.dependsOn">depends_on</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.cacheAttributes">cache_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference">StoragegatewaySmbFileShareCacheAttributesOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareArn">file_share_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareId">file_share_id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareStatus">file_share_status</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.id">id</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.path">path</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList">StoragegatewaySmbFileShareTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.accessBasedEnumerationInput">access_based_enumeration_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.adminUserListInput">admin_user_list_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.auditDestinationArnInput">audit_destination_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.authenticationInput">authentication_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.bucketRegionInput">bucket_region_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.cacheAttributesInput">cache_attributes_input</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes">StoragegatewaySmbFileShareCacheAttributes</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.caseSensitivityInput">case_sensitivity_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.defaultStorageClassInput">default_storage_class_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.encryptionTypeInput">encryption_type_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareNameInput">file_share_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.gatewayArnInput">gateway_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.guessMimeTypeEnabledInput">guess_mime_type_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.invalidUserListInput">invalid_user_list_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.kmsEncryptedInput">kms_encrypted_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.kmsKeyInput">kms_key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.locationArnInput">location_arn_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.notificationPolicyInput">notification_policy_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.objectAclInput">object_acl_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.oplocksEnabledInput">oplocks_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.readOnlyInput">read_only_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.requesterPaysInput">requester_pays_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.roleInput">role_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.smbaclEnabledInput">smbacl_enabled_input</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.tagsInput">tags_input</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.validUserListInput">valid_user_list_input</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.vpcEndpointDnsNameInput">vpc_endpoint_dns_name_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.accessBasedEnumeration">access_based_enumeration</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.adminUserList">admin_user_list</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.auditDestinationArn">audit_destination_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.authentication">authentication</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.bucketRegion">bucket_region</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.caseSensitivity">case_sensitivity</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.defaultStorageClass">default_storage_class</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.encryptionType">encryption_type</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareName">file_share_name</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.gatewayArn">gateway_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.guessMimeTypeEnabled">guess_mime_type_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.invalidUserList">invalid_user_list</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.kmsEncrypted">kms_encrypted</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.kmsKey">kms_key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.locationArn">location_arn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.notificationPolicy">notification_policy</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.objectAcl">object_acl</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.oplocksEnabled">oplocks_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.readOnly">read_only</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.requesterPays">requester_pays</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.role">role</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.smbaclEnabled">smbacl_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.validUserList">valid_user_list</a></code> | <code>typing.List[str]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.vpcEndpointDnsName">vpc_endpoint_dns_name</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.node"></a>
+
+```python
+node: Node
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `cdktf_stack`<sup>Required</sup> <a name="cdktf_stack" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.cdktfStack"></a>
+
+```python
+cdktf_stack: TerraformStack
+```
+
+- *Type:* cdktn.TerraformStack
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `friendly_unique_id`<sup>Required</sup> <a name="friendly_unique_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.friendlyUniqueId"></a>
+
+```python
+friendly_unique_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `terraform_meta_arguments`<sup>Required</sup> <a name="terraform_meta_arguments" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.terraformMetaArguments"></a>
+
+```python
+terraform_meta_arguments: typing.Mapping[typing.Any]
+```
+
+- *Type:* typing.Mapping[typing.Any]
+
+---
+
+##### `terraform_resource_type`<sup>Required</sup> <a name="terraform_resource_type" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.terraformResourceType"></a>
+
+```python
+terraform_resource_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `terraform_generator_metadata`<sup>Optional</sup> <a name="terraform_generator_metadata" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.terraformGeneratorMetadata"></a>
+
+```python
+terraform_generator_metadata: TerraformProviderGeneratorMetadata
+```
+
+- *Type:* cdktn.TerraformProviderGeneratorMetadata
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.connection"></a>
+
+```python
+connection: SSHProvisionerConnection | WinrmProvisionerConnection
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.count"></a>
+
+```python
+count: typing.Union[int, float] | TerraformCount
+```
+
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
+
+---
+
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.dependsOn"></a>
+
+```python
+depends_on: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.forEach"></a>
+
+```python
+for_each: ITerraformIterator
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.lifecycle"></a>
+
+```python
+lifecycle: TerraformResourceLifecycle
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.provider"></a>
+
+```python
+provider: TerraformProvider
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.provisioners"></a>
+
+```python
+provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
+```
+
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
+
+---
+
+##### `cache_attributes`<sup>Required</sup> <a name="cache_attributes" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.cacheAttributes"></a>
+
+```python
+cache_attributes: StoragegatewaySmbFileShareCacheAttributesOutputReference
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference">StoragegatewaySmbFileShareCacheAttributesOutputReference</a>
+
+---
+
+##### `file_share_arn`<sup>Required</sup> <a name="file_share_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareArn"></a>
+
+```python
+file_share_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `file_share_id`<sup>Required</sup> <a name="file_share_id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareId"></a>
+
+```python
+file_share_id: str
+```
+
+- *Type:* str
+
+---
+
+##### `file_share_status`<sup>Required</sup> <a name="file_share_status" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareStatus"></a>
+
+```python
+file_share_status: str
+```
+
+- *Type:* str
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.id"></a>
+
+```python
+id: str
+```
+
+- *Type:* str
+
+---
+
+##### `path`<sup>Required</sup> <a name="path" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.path"></a>
+
+```python
+path: str
+```
+
+- *Type:* str
+
+---
+
+##### `tags`<sup>Required</sup> <a name="tags" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.tags"></a>
+
+```python
+tags: StoragegatewaySmbFileShareTagsList
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList">StoragegatewaySmbFileShareTagsList</a>
+
+---
+
+##### `access_based_enumeration_input`<sup>Optional</sup> <a name="access_based_enumeration_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.accessBasedEnumerationInput"></a>
+
+```python
+access_based_enumeration_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `admin_user_list_input`<sup>Optional</sup> <a name="admin_user_list_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.adminUserListInput"></a>
+
+```python
+admin_user_list_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `audit_destination_arn_input`<sup>Optional</sup> <a name="audit_destination_arn_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.auditDestinationArnInput"></a>
+
+```python
+audit_destination_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `authentication_input`<sup>Optional</sup> <a name="authentication_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.authenticationInput"></a>
+
+```python
+authentication_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `bucket_region_input`<sup>Optional</sup> <a name="bucket_region_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.bucketRegionInput"></a>
+
+```python
+bucket_region_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `cache_attributes_input`<sup>Optional</sup> <a name="cache_attributes_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.cacheAttributesInput"></a>
+
+```python
+cache_attributes_input: IResolvable | StoragegatewaySmbFileShareCacheAttributes
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes">StoragegatewaySmbFileShareCacheAttributes</a>
+
+---
+
+##### `case_sensitivity_input`<sup>Optional</sup> <a name="case_sensitivity_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.caseSensitivityInput"></a>
+
+```python
+case_sensitivity_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `default_storage_class_input`<sup>Optional</sup> <a name="default_storage_class_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.defaultStorageClassInput"></a>
+
+```python
+default_storage_class_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_type_input`<sup>Optional</sup> <a name="encryption_type_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.encryptionTypeInput"></a>
+
+```python
+encryption_type_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `file_share_name_input`<sup>Optional</sup> <a name="file_share_name_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareNameInput"></a>
+
+```python
+file_share_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `gateway_arn_input`<sup>Optional</sup> <a name="gateway_arn_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.gatewayArnInput"></a>
+
+```python
+gateway_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `guess_mime_type_enabled_input`<sup>Optional</sup> <a name="guess_mime_type_enabled_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.guessMimeTypeEnabledInput"></a>
+
+```python
+guess_mime_type_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `invalid_user_list_input`<sup>Optional</sup> <a name="invalid_user_list_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.invalidUserListInput"></a>
+
+```python
+invalid_user_list_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `kms_encrypted_input`<sup>Optional</sup> <a name="kms_encrypted_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.kmsEncryptedInput"></a>
+
+```python
+kms_encrypted_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `kms_key_input`<sup>Optional</sup> <a name="kms_key_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.kmsKeyInput"></a>
+
+```python
+kms_key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `location_arn_input`<sup>Optional</sup> <a name="location_arn_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.locationArnInput"></a>
+
+```python
+location_arn_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `notification_policy_input`<sup>Optional</sup> <a name="notification_policy_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.notificationPolicyInput"></a>
+
+```python
+notification_policy_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `object_acl_input`<sup>Optional</sup> <a name="object_acl_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.objectAclInput"></a>
+
+```python
+object_acl_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `oplocks_enabled_input`<sup>Optional</sup> <a name="oplocks_enabled_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.oplocksEnabledInput"></a>
+
+```python
+oplocks_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `read_only_input`<sup>Optional</sup> <a name="read_only_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.readOnlyInput"></a>
+
+```python
+read_only_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `requester_pays_input`<sup>Optional</sup> <a name="requester_pays_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.requesterPaysInput"></a>
+
+```python
+requester_pays_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `role_input`<sup>Optional</sup> <a name="role_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.roleInput"></a>
+
+```python
+role_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `smbacl_enabled_input`<sup>Optional</sup> <a name="smbacl_enabled_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.smbaclEnabledInput"></a>
+
+```python
+smbacl_enabled_input: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `tags_input`<sup>Optional</sup> <a name="tags_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.tagsInput"></a>
+
+```python
+tags_input: IResolvable | typing.List[StoragegatewaySmbFileShareTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]
+
+---
+
+##### `valid_user_list_input`<sup>Optional</sup> <a name="valid_user_list_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.validUserListInput"></a>
+
+```python
+valid_user_list_input: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `vpc_endpoint_dns_name_input`<sup>Optional</sup> <a name="vpc_endpoint_dns_name_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.vpcEndpointDnsNameInput"></a>
+
+```python
+vpc_endpoint_dns_name_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `access_based_enumeration`<sup>Required</sup> <a name="access_based_enumeration" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.accessBasedEnumeration"></a>
+
+```python
+access_based_enumeration: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `admin_user_list`<sup>Required</sup> <a name="admin_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.adminUserList"></a>
+
+```python
+admin_user_list: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `audit_destination_arn`<sup>Required</sup> <a name="audit_destination_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.auditDestinationArn"></a>
+
+```python
+audit_destination_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `authentication`<sup>Required</sup> <a name="authentication" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.authentication"></a>
+
+```python
+authentication: str
+```
+
+- *Type:* str
+
+---
+
+##### `bucket_region`<sup>Required</sup> <a name="bucket_region" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.bucketRegion"></a>
+
+```python
+bucket_region: str
+```
+
+- *Type:* str
+
+---
+
+##### `case_sensitivity`<sup>Required</sup> <a name="case_sensitivity" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.caseSensitivity"></a>
+
+```python
+case_sensitivity: str
+```
+
+- *Type:* str
+
+---
+
+##### `default_storage_class`<sup>Required</sup> <a name="default_storage_class" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.defaultStorageClass"></a>
+
+```python
+default_storage_class: str
+```
+
+- *Type:* str
+
+---
+
+##### `encryption_type`<sup>Required</sup> <a name="encryption_type" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.encryptionType"></a>
+
+```python
+encryption_type: str
+```
+
+- *Type:* str
+
+---
+
+##### `file_share_name`<sup>Required</sup> <a name="file_share_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.fileShareName"></a>
+
+```python
+file_share_name: str
+```
+
+- *Type:* str
+
+---
+
+##### `gateway_arn`<sup>Required</sup> <a name="gateway_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.gatewayArn"></a>
+
+```python
+gateway_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `guess_mime_type_enabled`<sup>Required</sup> <a name="guess_mime_type_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.guessMimeTypeEnabled"></a>
+
+```python
+guess_mime_type_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `invalid_user_list`<sup>Required</sup> <a name="invalid_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.invalidUserList"></a>
+
+```python
+invalid_user_list: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `kms_encrypted`<sup>Required</sup> <a name="kms_encrypted" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.kmsEncrypted"></a>
+
+```python
+kms_encrypted: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `kms_key`<sup>Required</sup> <a name="kms_key" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.kmsKey"></a>
+
+```python
+kms_key: str
+```
+
+- *Type:* str
+
+---
+
+##### `location_arn`<sup>Required</sup> <a name="location_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.locationArn"></a>
+
+```python
+location_arn: str
+```
+
+- *Type:* str
+
+---
+
+##### `notification_policy`<sup>Required</sup> <a name="notification_policy" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.notificationPolicy"></a>
+
+```python
+notification_policy: str
+```
+
+- *Type:* str
+
+---
+
+##### `object_acl`<sup>Required</sup> <a name="object_acl" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.objectAcl"></a>
+
+```python
+object_acl: str
+```
+
+- *Type:* str
+
+---
+
+##### `oplocks_enabled`<sup>Required</sup> <a name="oplocks_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.oplocksEnabled"></a>
+
+```python
+oplocks_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `read_only`<sup>Required</sup> <a name="read_only" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.readOnly"></a>
+
+```python
+read_only: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `requester_pays`<sup>Required</sup> <a name="requester_pays" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.requesterPays"></a>
+
+```python
+requester_pays: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.role"></a>
+
+```python
+role: str
+```
+
+- *Type:* str
+
+---
+
+##### `smbacl_enabled`<sup>Required</sup> <a name="smbacl_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.smbaclEnabled"></a>
+
+```python
+smbacl_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+---
+
+##### `valid_user_list`<sup>Required</sup> <a name="valid_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.validUserList"></a>
+
+```python
+valid_user_list: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+---
+
+##### `vpc_endpoint_dns_name`<sup>Required</sup> <a name="vpc_endpoint_dns_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.vpcEndpointDnsName"></a>
+
+```python
+vpc_endpoint_dns_name: str
+```
+
+- *Type:* str
+
+---
+
+#### Constants <a name="Constants" id="Constants"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.tfResourceType">tfResourceType</a></code> | <code>str</code> | *No description.* |
+
+---
+
+##### `tfResourceType`<sup>Required</sup> <a name="tfResourceType" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShare.property.tfResourceType"></a>
+
+```python
+tfResourceType: str
+```
+
+- *Type:* str
+
+---
+
+## Structs <a name="Structs" id="Structs"></a>
+
+### StoragegatewaySmbFileShareCacheAttributes <a name="StoragegatewaySmbFileShareCacheAttributes" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes(
+  cache_stale_timeout_in_seconds: typing.Union[int, float] = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes.property.cacheStaleTimeoutInSeconds">cache_stale_timeout_in_seconds</a></code> | <code>typing.Union[int, float]</code> | How long the directory contents cached by the gateway are considered valid. |
+
+---
+
+##### `cache_stale_timeout_in_seconds`<sup>Optional</sup> <a name="cache_stale_timeout_in_seconds" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes.property.cacheStaleTimeoutInSeconds"></a>
+
+```python
+cache_stale_timeout_in_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+How long the directory contents cached by the gateway are considered valid.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#cache_stale_timeout_in_seconds StoragegatewaySmbFileShare#cache_stale_timeout_in_seconds}
+
+---
+
+### StoragegatewaySmbFileShareConfig <a name="StoragegatewaySmbFileShareConfig" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig(
+  connection: SSHProvisionerConnection | WinrmProvisionerConnection = None,
+  count: typing.Union[int, float] | TerraformCount = None,
+  depends_on: typing.List[ITerraformDependable] = None,
+  for_each: ITerraformIterator = None,
+  lifecycle: TerraformResourceLifecycle = None,
+  provider: TerraformProvider = None,
+  provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner] = None,
+  gateway_arn: str,
+  location_arn: str,
+  role: str,
+  access_based_enumeration: bool | IResolvable = None,
+  admin_user_list: typing.List[str] = None,
+  audit_destination_arn: str = None,
+  authentication: str = None,
+  bucket_region: str = None,
+  cache_attributes: StoragegatewaySmbFileShareCacheAttributes = None,
+  case_sensitivity: str = None,
+  default_storage_class: str = None,
+  encryption_type: str = None,
+  file_share_name: str = None,
+  guess_mime_type_enabled: bool | IResolvable = None,
+  invalid_user_list: typing.List[str] = None,
+  kms_encrypted: bool | IResolvable = None,
+  kms_key: str = None,
+  notification_policy: str = None,
+  object_acl: str = None,
+  oplocks_enabled: bool | IResolvable = None,
+  read_only: bool | IResolvable = None,
+  requester_pays: bool | IResolvable = None,
+  smbacl_enabled: bool | IResolvable = None,
+  tags: IResolvable | typing.List[StoragegatewaySmbFileShareTags] = None,
+  valid_user_list: typing.List[str] = None,
+  vpc_endpoint_dns_name: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.connection">connection</a></code> | <code>cdktn.SSHProvisionerConnection \| cdktn.WinrmProvisionerConnection</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.count">count</a></code> | <code>typing.Union[int, float] \| cdktn.TerraformCount</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.dependsOn">depends_on</a></code> | <code>typing.List[cdktn.ITerraformDependable]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.forEach">for_each</a></code> | <code>cdktn.ITerraformIterator</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.lifecycle">lifecycle</a></code> | <code>cdktn.TerraformResourceLifecycle</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.provisioners">provisioners</a></code> | <code>typing.List[cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.gatewayArn">gateway_arn</a></code> | <code>str</code> | The ARN of the S3 File Gateway that hosts the share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.locationArn">location_arn</a></code> | <code>str</code> | The ARN of the S3 bucket, or bucket prefix, the share exposes. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.role">role</a></code> | <code>str</code> | The ARN of the IAM role the gateway assumes when it accesses the S3 location. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.accessBasedEnumeration">access_based_enumeration</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether clients see only the files and folders they may access. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.adminUserList">admin_user_list</a></code> | <code>typing.List[str]</code> | Users and groups granted administrative privileges on the SMB share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.auditDestinationArn">audit_destination_arn</a></code> | <code>str</code> | The ARN of the CloudWatch log group that receives the share's audit logs. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.authentication">authentication</a></code> | <code>str</code> | The authentication the SMB share uses. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.bucketRegion">bucket_region</a></code> | <code>str</code> | The Region of the S3 bucket, required when the bucket is reached through a VPC endpoint. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.cacheAttributes">cache_attributes</a></code> | <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes">StoragegatewaySmbFileShareCacheAttributes</a></code> | Refresh cache information for the file share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.caseSensitivity">case_sensitivity</a></code> | <code>str</code> | Whether the SMB share is case sensitive or defers to the client. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.defaultStorageClass">default_storage_class</a></code> | <code>str</code> | The S3 storage class for new objects. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.encryptionType">encryption_type</a></code> | <code>str</code> | The server-side encryption the gateway applies to objects it writes. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.fileShareName">file_share_name</a></code> | <code>str</code> | The name of the file share, which defaults to the bucket name when omitted. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.guessMimeTypeEnabled">guess_mime_type_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the gateway infers the MIME type of uploaded objects from their extension. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.invalidUserList">invalid_user_list</a></code> | <code>typing.List[str]</code> | Users and groups denied access to the SMB share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.kmsEncrypted">kms_encrypted</a></code> | <code>bool \| cdktn.IResolvable</code> | Deprecated by the service in favour of EncryptionType; true selects KMS encryption. Retained because it remains readable and settable. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.kmsKey">kms_key</a></code> | <code>str</code> | The KMS key used for encryption, when EncryptionType selects KMS. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.notificationPolicy">notification_policy</a></code> | <code>str</code> | The upload-notification settling period, as a JSON document. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.objectAcl">object_acl</a></code> | <code>str</code> | The canned S3 ACL applied to objects the gateway writes. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.oplocksEnabled">oplocks_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the SMB share grants opportunistic locks. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.readOnly">read_only</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether clients may write to the share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.requesterPays">requester_pays</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the bucket is a Requester Pays bucket. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.smbaclEnabled">smbacl_enabled</a></code> | <code>bool \| cdktn.IResolvable</code> | Whether the SMB share uses Windows ACLs rather than POSIX permissions. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]</code> | Tags assigned to the file share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.validUserList">valid_user_list</a></code> | <code>typing.List[str]</code> | Users and groups permitted to access the SMB share. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.vpcEndpointDnsName">vpc_endpoint_dns_name</a></code> | <code>str</code> | The DNS name of the S3 VPC endpoint the gateway uses to reach the bucket. |
+
+---
+
+##### `connection`<sup>Optional</sup> <a name="connection" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.connection"></a>
+
+```python
+connection: SSHProvisionerConnection | WinrmProvisionerConnection
+```
+
+- *Type:* cdktn.SSHProvisionerConnection | cdktn.WinrmProvisionerConnection
+
+---
+
+##### `count`<sup>Optional</sup> <a name="count" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.count"></a>
+
+```python
+count: typing.Union[int, float] | TerraformCount
+```
+
+- *Type:* typing.Union[int, float] | cdktn.TerraformCount
+
+---
+
+##### `depends_on`<sup>Optional</sup> <a name="depends_on" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.dependsOn"></a>
+
+```python
+depends_on: typing.List[ITerraformDependable]
+```
+
+- *Type:* typing.List[cdktn.ITerraformDependable]
+
+---
+
+##### `for_each`<sup>Optional</sup> <a name="for_each" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.forEach"></a>
+
+```python
+for_each: ITerraformIterator
+```
+
+- *Type:* cdktn.ITerraformIterator
+
+---
+
+##### `lifecycle`<sup>Optional</sup> <a name="lifecycle" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.lifecycle"></a>
+
+```python
+lifecycle: TerraformResourceLifecycle
+```
+
+- *Type:* cdktn.TerraformResourceLifecycle
+
+---
+
+##### `provider`<sup>Optional</sup> <a name="provider" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.provider"></a>
+
+```python
+provider: TerraformProvider
+```
+
+- *Type:* cdktn.TerraformProvider
+
+---
+
+##### `provisioners`<sup>Optional</sup> <a name="provisioners" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.provisioners"></a>
+
+```python
+provisioners: typing.List[FileProvisioner | LocalExecProvisioner | RemoteExecProvisioner]
+```
+
+- *Type:* typing.List[cdktn.FileProvisioner | cdktn.LocalExecProvisioner | cdktn.RemoteExecProvisioner]
+
+---
+
+##### `gateway_arn`<sup>Required</sup> <a name="gateway_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.gatewayArn"></a>
+
+```python
+gateway_arn: str
+```
+
+- *Type:* str
+
+The ARN of the S3 File Gateway that hosts the share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#gateway_arn StoragegatewaySmbFileShare#gateway_arn}
+
+---
+
+##### `location_arn`<sup>Required</sup> <a name="location_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.locationArn"></a>
+
+```python
+location_arn: str
+```
+
+- *Type:* str
+
+The ARN of the S3 bucket, or bucket prefix, the share exposes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#location_arn StoragegatewaySmbFileShare#location_arn}
+
+---
+
+##### `role`<sup>Required</sup> <a name="role" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.role"></a>
+
+```python
+role: str
+```
+
+- *Type:* str
+
+The ARN of the IAM role the gateway assumes when it accesses the S3 location.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#role StoragegatewaySmbFileShare#role}
+
+---
+
+##### `access_based_enumeration`<sup>Optional</sup> <a name="access_based_enumeration" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.accessBasedEnumeration"></a>
+
+```python
+access_based_enumeration: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether clients see only the files and folders they may access.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#access_based_enumeration StoragegatewaySmbFileShare#access_based_enumeration}
+
+---
+
+##### `admin_user_list`<sup>Optional</sup> <a name="admin_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.adminUserList"></a>
+
+```python
+admin_user_list: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Users and groups granted administrative privileges on the SMB share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#admin_user_list StoragegatewaySmbFileShare#admin_user_list}
+
+---
+
+##### `audit_destination_arn`<sup>Optional</sup> <a name="audit_destination_arn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.auditDestinationArn"></a>
+
+```python
+audit_destination_arn: str
+```
+
+- *Type:* str
+
+The ARN of the CloudWatch log group that receives the share's audit logs.
+
+Removing this property from a template detaches audit logging: the update sends the empty string, which the service treats as the reset.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#audit_destination_arn StoragegatewaySmbFileShare#audit_destination_arn}
+
+---
+
+##### `authentication`<sup>Optional</sup> <a name="authentication" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.authentication"></a>
+
+```python
+authentication: str
+```
+
+- *Type:* str
+
+The authentication the SMB share uses.
+
+The service accepts ActiveDirectory and GuestAccess; it is a length-bounded string in the API model rather than an enumeration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#authentication StoragegatewaySmbFileShare#authentication}
+
+---
+
+##### `bucket_region`<sup>Optional</sup> <a name="bucket_region" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.bucketRegion"></a>
+
+```python
+bucket_region: str
+```
+
+- *Type:* str
+
+The Region of the S3 bucket, required when the bucket is reached through a VPC endpoint.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#bucket_region StoragegatewaySmbFileShare#bucket_region}
+
+---
+
+##### `cache_attributes`<sup>Optional</sup> <a name="cache_attributes" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.cacheAttributes"></a>
+
+```python
+cache_attributes: StoragegatewaySmbFileShareCacheAttributes
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes">StoragegatewaySmbFileShareCacheAttributes</a>
+
+Refresh cache information for the file share.
+
+Removing this property from a template leaves the share's current value: the service documents no value that resets it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#cache_attributes StoragegatewaySmbFileShare#cache_attributes}
+
+---
+
+##### `case_sensitivity`<sup>Optional</sup> <a name="case_sensitivity" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.caseSensitivity"></a>
+
+```python
+case_sensitivity: str
+```
+
+- *Type:* str
+
+Whether the SMB share is case sensitive or defers to the client.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#case_sensitivity StoragegatewaySmbFileShare#case_sensitivity}
+
+---
+
+##### `default_storage_class`<sup>Optional</sup> <a name="default_storage_class" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.defaultStorageClass"></a>
+
+```python
+default_storage_class: str
+```
+
+- *Type:* str
+
+The S3 storage class for new objects.
+
+The service accepts S3_STANDARD, S3_INTELLIGENT_TIERING, S3_STANDARD_IA and S3_ONEZONE_IA; it is a length-bounded string in the API model rather than an enumeration.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#default_storage_class StoragegatewaySmbFileShare#default_storage_class}
+
+---
+
+##### `encryption_type`<sup>Optional</sup> <a name="encryption_type" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.encryptionType"></a>
+
+```python
+encryption_type: str
+```
+
+- *Type:* str
+
+The server-side encryption the gateway applies to objects it writes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#encryption_type StoragegatewaySmbFileShare#encryption_type}
+
+---
+
+##### `file_share_name`<sup>Optional</sup> <a name="file_share_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.fileShareName"></a>
+
+```python
+file_share_name: str
+```
+
+- *Type:* str
+
+The name of the file share, which defaults to the bucket name when omitted.
+
+Removing this property from a template leaves the share's current value: the service documents no value that resets it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#file_share_name StoragegatewaySmbFileShare#file_share_name}
+
+---
+
+##### `guess_mime_type_enabled`<sup>Optional</sup> <a name="guess_mime_type_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.guessMimeTypeEnabled"></a>
+
+```python
+guess_mime_type_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the gateway infers the MIME type of uploaded objects from their extension.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#guess_mime_type_enabled StoragegatewaySmbFileShare#guess_mime_type_enabled}
+
+---
+
+##### `invalid_user_list`<sup>Optional</sup> <a name="invalid_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.invalidUserList"></a>
+
+```python
+invalid_user_list: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Users and groups denied access to the SMB share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#invalid_user_list StoragegatewaySmbFileShare#invalid_user_list}
+
+---
+
+##### `kms_encrypted`<sup>Optional</sup> <a name="kms_encrypted" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.kmsEncrypted"></a>
+
+```python
+kms_encrypted: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Deprecated by the service in favour of EncryptionType; true selects KMS encryption. Retained because it remains readable and settable.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#kms_encrypted StoragegatewaySmbFileShare#kms_encrypted}
+
+---
+
+##### `kms_key`<sup>Optional</sup> <a name="kms_key" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.kmsKey"></a>
+
+```python
+kms_key: str
+```
+
+- *Type:* str
+
+The KMS key used for encryption, when EncryptionType selects KMS.
+
+Removing this property from a template leaves the share's current value: the service documents no value that resets it.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#kms_key StoragegatewaySmbFileShare#kms_key}
+
+---
+
+##### `notification_policy`<sup>Optional</sup> <a name="notification_policy" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.notificationPolicy"></a>
+
+```python
+notification_policy: str
+```
+
+- *Type:* str
+
+The upload-notification settling period, as a JSON document.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#notification_policy StoragegatewaySmbFileShare#notification_policy}
+
+---
+
+##### `object_acl`<sup>Optional</sup> <a name="object_acl" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.objectAcl"></a>
+
+```python
+object_acl: str
+```
+
+- *Type:* str
+
+The canned S3 ACL applied to objects the gateway writes.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#object_acl StoragegatewaySmbFileShare#object_acl}
+
+---
+
+##### `oplocks_enabled`<sup>Optional</sup> <a name="oplocks_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.oplocksEnabled"></a>
+
+```python
+oplocks_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the SMB share grants opportunistic locks.
+
+Removing this property from a template leaves the live value unchanged rather than restoring the created default, because that default depends on the gateway's software version -- opportunistic locking is enabled by default only on appliances at 1.19.0.0 or above -- and the version is not part of this resource. Set the value explicitly rather than relying on removal.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#oplocks_enabled StoragegatewaySmbFileShare#oplocks_enabled}
+
+---
+
+##### `read_only`<sup>Optional</sup> <a name="read_only" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.readOnly"></a>
+
+```python
+read_only: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether clients may write to the share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#read_only StoragegatewaySmbFileShare#read_only}
+
+---
+
+##### `requester_pays`<sup>Optional</sup> <a name="requester_pays" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.requesterPays"></a>
+
+```python
+requester_pays: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the bucket is a Requester Pays bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#requester_pays StoragegatewaySmbFileShare#requester_pays}
+
+---
+
+##### `smbacl_enabled`<sup>Optional</sup> <a name="smbacl_enabled" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.smbaclEnabled"></a>
+
+```python
+smbacl_enabled: bool | IResolvable
+```
+
+- *Type:* bool | cdktn.IResolvable
+
+Whether the SMB share uses Windows ACLs rather than POSIX permissions.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#smbacl_enabled StoragegatewaySmbFileShare#smbacl_enabled}
+
+---
+
+##### `tags`<sup>Optional</sup> <a name="tags" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.tags"></a>
+
+```python
+tags: IResolvable | typing.List[StoragegatewaySmbFileShareTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]
+
+Tags assigned to the file share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#tags StoragegatewaySmbFileShare#tags}
+
+---
+
+##### `valid_user_list`<sup>Optional</sup> <a name="valid_user_list" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.validUserList"></a>
+
+```python
+valid_user_list: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+Users and groups permitted to access the SMB share.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#valid_user_list StoragegatewaySmbFileShare#valid_user_list}
+
+---
+
+##### `vpc_endpoint_dns_name`<sup>Optional</sup> <a name="vpc_endpoint_dns_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareConfig.property.vpcEndpointDnsName"></a>
+
+```python
+vpc_endpoint_dns_name: str
+```
+
+- *Type:* str
+
+The DNS name of the S3 VPC endpoint the gateway uses to reach the bucket.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#vpc_endpoint_dns_name StoragegatewaySmbFileShare#vpc_endpoint_dns_name}
+
+---
+
+### StoragegatewaySmbFileShareTags <a name="StoragegatewaySmbFileShareTags" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags(
+  key: str = None,
+  value: str = None
+)
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags.property.key">key</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#key StoragegatewaySmbFileShare#key}. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags.property.value">value</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#value StoragegatewaySmbFileShare#value}. |
+
+---
+
+##### `key`<sup>Optional</sup> <a name="key" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#key StoragegatewaySmbFileShare#key}.
+
+---
+
+##### `value`<sup>Optional</sup> <a name="value" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/storagegateway_smb_file_share#value StoragegatewaySmbFileShare#value}.
+
+---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### StoragegatewaySmbFileShareCacheAttributesOutputReference <a name="StoragegatewaySmbFileShareCacheAttributesOutputReference" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.resetCacheStaleTimeoutInSeconds">reset_cache_stale_timeout_in_seconds</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_cache_stale_timeout_in_seconds` <a name="reset_cache_stale_timeout_in_seconds" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.resetCacheStaleTimeoutInSeconds"></a>
+
+```python
+def reset_cache_stale_timeout_in_seconds() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.cacheStaleTimeoutInSecondsInput">cache_stale_timeout_in_seconds_input</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.cacheStaleTimeoutInSeconds">cache_stale_timeout_in_seconds</a></code> | <code>typing.Union[int, float]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes">StoragegatewaySmbFileShareCacheAttributes</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `cache_stale_timeout_in_seconds_input`<sup>Optional</sup> <a name="cache_stale_timeout_in_seconds_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.cacheStaleTimeoutInSecondsInput"></a>
+
+```python
+cache_stale_timeout_in_seconds_input: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `cache_stale_timeout_in_seconds`<sup>Required</sup> <a name="cache_stale_timeout_in_seconds" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.cacheStaleTimeoutInSeconds"></a>
+
+```python
+cache_stale_timeout_in_seconds: typing.Union[int, float]
+```
+
+- *Type:* typing.Union[int, float]
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributesOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | StoragegatewaySmbFileShareCacheAttributes
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareCacheAttributes">StoragegatewaySmbFileShareCacheAttributes</a>
+
+---
+
+
+### StoragegatewaySmbFileShareTagsList <a name="StoragegatewaySmbFileShareTagsList" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  wraps_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.Initializer.parameter.wrapsSet">wraps_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `wraps_set`<sup>Required</sup> <a name="wraps_set" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.Initializer.parameter.wrapsSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.allWithMapKey">all_with_map_key</a></code> | Creating an iterator for this complex list. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.get">get</a></code> | *No description.* |
+
+---
+
+##### `all_with_map_key` <a name="all_with_map_key" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.allWithMapKey"></a>
+
+```python
+def all_with_map_key(
+  map_key_attribute_name: str
+) -> DynamicListTerraformIterator
+```
+
+Creating an iterator for this complex list.
+
+The list will be converted into a map with the mapKeyAttributeName as the key.
+
+###### `map_key_attribute_name`<sup>Required</sup> <a name="map_key_attribute_name" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.allWithMapKey.parameter.mapKeyAttributeName"></a>
+
+- *Type:* str
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `get` <a name="get" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.get"></a>
+
+```python
+def get(
+  index: typing.Union[int, float]
+) -> StoragegatewaySmbFileShareTagsOutputReference
+```
+
+###### `index`<sup>Required</sup> <a name="index" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.get.parameter.index"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of the item to return.
+
+---
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]</code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsList.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | typing.List[StoragegatewaySmbFileShareTags]
+```
+
+- *Type:* cdktn.IResolvable | typing.List[<a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>]
+
+---
+
+
+### StoragegatewaySmbFileShareTagsOutputReference <a name="StoragegatewaySmbFileShareTagsOutputReference" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer"></a>
+
+```python
+from cdktn_provider_awscc import storagegateway_smb_file_share
+
+storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference(
+  terraform_resource: IInterpolatingParent,
+  terraform_attribute: str,
+  complex_object_index: typing.Union[int, float],
+  complex_object_is_from_set: bool
+)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer.parameter.terraformResource">terraform_resource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer.parameter.terraformAttribute">terraform_attribute</a></code> | <code>str</code> | The attribute on the parent resource this class is referencing. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer.parameter.complexObjectIndex">complex_object_index</a></code> | <code>typing.Union[int, float]</code> | the index of this item in the list. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer.parameter.complexObjectIsFromSet">complex_object_is_from_set</a></code> | <code>bool</code> | whether the list is wrapping a set (will add tolist() to be able to access an item via an index). |
+
+---
+
+##### `terraform_resource`<sup>Required</sup> <a name="terraform_resource" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+##### `complex_object_index`<sup>Required</sup> <a name="complex_object_index" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer.parameter.complexObjectIndex"></a>
+
+- *Type:* typing.Union[int, float]
+
+the index of this item in the list.
+
+---
+
+##### `complex_object_is_from_set`<sup>Required</sup> <a name="complex_object_is_from_set" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.Initializer.parameter.complexObjectIsFromSet"></a>
+
+- *Type:* bool
+
+whether the list is wrapping a set (will add tolist() to be able to access an item via an index).
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.computeFqn">compute_fqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getAnyMapAttribute">get_any_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getBooleanAttribute">get_boolean_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getBooleanMapAttribute">get_boolean_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getListAttribute">get_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberAttribute">get_number_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberListAttribute">get_number_list_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberMapAttribute">get_number_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getStringAttribute">get_string_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getStringMapAttribute">get_string_map_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.interpolationForAttribute">interpolation_for_attribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.toString">to_string</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.resetKey">reset_key</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.resetValue">reset_value</a></code> | *No description.* |
+
+---
+
+##### `compute_fqn` <a name="compute_fqn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.computeFqn"></a>
+
+```python
+def compute_fqn() -> str
+```
+
+##### `get_any_map_attribute` <a name="get_any_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getAnyMapAttribute"></a>
+
+```python
+def get_any_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Any]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_attribute` <a name="get_boolean_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getBooleanAttribute"></a>
+
+```python
+def get_boolean_attribute(
+  terraform_attribute: str
+) -> IResolvable
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_boolean_map_attribute` <a name="get_boolean_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getBooleanMapAttribute"></a>
+
+```python
+def get_boolean_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[bool]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_list_attribute` <a name="get_list_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getListAttribute"></a>
+
+```python
+def get_list_attribute(
+  terraform_attribute: str
+) -> typing.List[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_attribute` <a name="get_number_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberAttribute"></a>
+
+```python
+def get_number_attribute(
+  terraform_attribute: str
+) -> typing.Union[int, float]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_list_attribute` <a name="get_number_list_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberListAttribute"></a>
+
+```python
+def get_number_list_attribute(
+  terraform_attribute: str
+) -> typing.List[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_number_map_attribute` <a name="get_number_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberMapAttribute"></a>
+
+```python
+def get_number_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[typing.Union[int, float]]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_attribute` <a name="get_string_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getStringAttribute"></a>
+
+```python
+def get_string_attribute(
+  terraform_attribute: str
+) -> str
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `get_string_map_attribute` <a name="get_string_map_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getStringMapAttribute"></a>
+
+```python
+def get_string_map_attribute(
+  terraform_attribute: str
+) -> typing.Mapping[str]
+```
+
+###### `terraform_attribute`<sup>Required</sup> <a name="terraform_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* str
+
+---
+
+##### `interpolation_for_attribute` <a name="interpolation_for_attribute" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.interpolationForAttribute"></a>
+
+```python
+def interpolation_for_attribute(
+  property: str
+) -> IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* str
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.resolve"></a>
+
+```python
+def resolve(
+  _context: IResolveContext
+) -> typing.Any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `to_string` <a name="to_string" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.toString"></a>
+
+```python
+def to_string() -> str
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `reset_key` <a name="reset_key" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.resetKey"></a>
+
+```python
+def reset_key() -> None
+```
+
+##### `reset_value` <a name="reset_value" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.resetValue"></a>
+
+```python
+def reset_value() -> None
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.creationStack">creation_stack</a></code> | <code>typing.List[str]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.fqn">fqn</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.keyInput">key_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.valueInput">value_input</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.key">key</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.value">value</a></code> | <code>str</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.internalValue">internal_value</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a></code> | *No description.* |
+
+---
+
+##### `creation_stack`<sup>Required</sup> <a name="creation_stack" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.creationStack"></a>
+
+```python
+creation_stack: typing.List[str]
+```
+
+- *Type:* typing.List[str]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.fqn"></a>
+
+```python
+fqn: str
+```
+
+- *Type:* str
+
+---
+
+##### `key_input`<sup>Optional</sup> <a name="key_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.keyInput"></a>
+
+```python
+key_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `value_input`<sup>Optional</sup> <a name="value_input" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.valueInput"></a>
+
+```python
+value_input: str
+```
+
+- *Type:* str
+
+---
+
+##### `key`<sup>Required</sup> <a name="key" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.key"></a>
+
+```python
+key: str
+```
+
+- *Type:* str
+
+---
+
+##### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.value"></a>
+
+```python
+value: str
+```
+
+- *Type:* str
+
+---
+
+##### `internal_value`<sup>Optional</sup> <a name="internal_value" id="@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTagsOutputReference.property.internalValue"></a>
+
+```python
+internal_value: IResolvable | StoragegatewaySmbFileShareTags
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.storagegatewaySmbFileShare.StoragegatewaySmbFileShareTags">StoragegatewaySmbFileShareTags</a>
+
+---
+
+
+

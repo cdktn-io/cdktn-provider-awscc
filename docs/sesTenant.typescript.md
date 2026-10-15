@@ -4,7 +4,7 @@
 
 ### SesTenant <a name="SesTenant" id="@cdktn/provider-awscc.sesTenant.SesTenant"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant awscc_ses_tenant}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant awscc_ses_tenant}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenant.Initializer"></a>
 
@@ -74,9 +74,13 @@ Must be unique amongst siblings in the same scope
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.moveFromId">moveFromId</a></code> | Move the resource corresponding to "id" to this resource. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.moveTo">moveTo</a></code> | Moves this resource to the target resource given by moveTarget. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.moveToId">moveToId</a></code> | Moves this resource to the resource corresponding to "id". |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.putReputationEntity">putReputationEntity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.putResourceAssociations">putResourceAssociations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.putSuppressionAttributes">putSuppressionAttributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.putTags">putTags</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.resetReputationEntity">resetReputationEntity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.resetResourceAssociations">resetResourceAssociations</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.resetSuppressionAttributes">resetSuppressionAttributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.resetTags">resetTags</a></code> | *No description.* |
 
 ---
@@ -390,6 +394,18 @@ Full id of resource to move to, e.g. "aws_s3_bucket.example".
 
 ---
 
+##### `putReputationEntity` <a name="putReputationEntity" id="@cdktn/provider-awscc.sesTenant.SesTenant.putReputationEntity"></a>
+
+```typescript
+public putReputationEntity(value: SesTenantReputationEntity): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.sesTenant.SesTenant.putReputationEntity.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a>
+
+---
+
 ##### `putResourceAssociations` <a name="putResourceAssociations" id="@cdktn/provider-awscc.sesTenant.SesTenant.putResourceAssociations"></a>
 
 ```typescript
@@ -399,6 +415,18 @@ public putResourceAssociations(value: IResolvable | SesTenantResourceAssociation
 ###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.sesTenant.SesTenant.putResourceAssociations.parameter.value"></a>
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>[]
+
+---
+
+##### `putSuppressionAttributes` <a name="putSuppressionAttributes" id="@cdktn/provider-awscc.sesTenant.SesTenant.putSuppressionAttributes"></a>
+
+```typescript
+public putSuppressionAttributes(value: SesTenantSuppressionAttributes): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.sesTenant.SesTenant.putSuppressionAttributes.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a>
 
 ---
 
@@ -414,10 +442,22 @@ public putTags(value: IResolvable | SesTenantTags[]): void
 
 ---
 
+##### `resetReputationEntity` <a name="resetReputationEntity" id="@cdktn/provider-awscc.sesTenant.SesTenant.resetReputationEntity"></a>
+
+```typescript
+public resetReputationEntity(): void
+```
+
 ##### `resetResourceAssociations` <a name="resetResourceAssociations" id="@cdktn/provider-awscc.sesTenant.SesTenant.resetResourceAssociations"></a>
 
 ```typescript
 public resetResourceAssociations(): void
+```
+
+##### `resetSuppressionAttributes` <a name="resetSuppressionAttributes" id="@cdktn/provider-awscc.sesTenant.SesTenant.resetSuppressionAttributes"></a>
+
+```typescript
+public resetSuppressionAttributes(): void
 ```
 
 ##### `resetTags` <a name="resetTags" id="@cdktn/provider-awscc.sesTenant.SesTenant.resetTags"></a>
@@ -529,7 +569,7 @@ The construct id used in the generated config for the SesTenant to import.
 
 The id of the existing SesTenant that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -561,9 +601,13 @@ Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.10
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.arn">arn</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.id">id</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.reputationEntity">reputationEntity</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference">SesTenantReputationEntityOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.resourceAssociations">resourceAssociations</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociationsList">SesTenantResourceAssociationsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.suppressionAttributes">suppressionAttributes</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference">SesTenantSuppressionAttributesOutputReference</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.tags">tags</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantTagsList">SesTenantTagsList</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.reputationEntityInput">reputationEntityInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.resourceAssociationsInput">resourceAssociationsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.suppressionAttributesInput">suppressionAttributesInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a></code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.tagsInput">tagsInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantTags">SesTenantTags</a>[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.tenantNameInput">tenantNameInput</a></code> | <code>string</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenant.property.tenantName">tenantName</a></code> | <code>string</code> | *No description.* |
@@ -732,6 +776,16 @@ public readonly id: string;
 
 ---
 
+##### `reputationEntity`<sup>Required</sup> <a name="reputationEntity" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.reputationEntity"></a>
+
+```typescript
+public readonly reputationEntity: SesTenantReputationEntityOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference">SesTenantReputationEntityOutputReference</a>
+
+---
+
 ##### `resourceAssociations`<sup>Required</sup> <a name="resourceAssociations" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.resourceAssociations"></a>
 
 ```typescript
@@ -739,6 +793,16 @@ public readonly resourceAssociations: SesTenantResourceAssociationsList;
 ```
 
 - *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociationsList">SesTenantResourceAssociationsList</a>
+
+---
+
+##### `suppressionAttributes`<sup>Required</sup> <a name="suppressionAttributes" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.suppressionAttributes"></a>
+
+```typescript
+public readonly suppressionAttributes: SesTenantSuppressionAttributesOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference">SesTenantSuppressionAttributesOutputReference</a>
 
 ---
 
@@ -752,6 +816,16 @@ public readonly tags: SesTenantTagsList;
 
 ---
 
+##### `reputationEntityInput`<sup>Optional</sup> <a name="reputationEntityInput" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.reputationEntityInput"></a>
+
+```typescript
+public readonly reputationEntityInput: IResolvable | SesTenantReputationEntity;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a>
+
+---
+
 ##### `resourceAssociationsInput`<sup>Optional</sup> <a name="resourceAssociationsInput" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.resourceAssociationsInput"></a>
 
 ```typescript
@@ -759,6 +833,16 @@ public readonly resourceAssociationsInput: IResolvable | SesTenantResourceAssoci
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>[]
+
+---
+
+##### `suppressionAttributesInput`<sup>Optional</sup> <a name="suppressionAttributesInput" id="@cdktn/provider-awscc.sesTenant.SesTenant.property.suppressionAttributesInput"></a>
+
+```typescript
+public readonly suppressionAttributesInput: IResolvable | SesTenantSuppressionAttributes;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a>
 
 ---
 
@@ -834,7 +918,9 @@ const sesTenantConfig: sesTenant.SesTenantConfig = { ... }
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.provider">provider</a></code> | <code>cdktn.TerraformProvider</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.provisioners">provisioners</a></code> | <code>cdktn.FileProvisioner \| cdktn.LocalExecProvisioner \| cdktn.RemoteExecProvisioner[]</code> | *No description.* |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.tenantName">tenantName</a></code> | <code>string</code> | The name of the tenant. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.reputationEntity">reputationEntity</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a></code> | The reputation configuration for the tenant. Sending status remains managed by SES. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.resourceAssociations">resourceAssociations</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>[]</code> | The list of resources to associate with the tenant. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.suppressionAttributes">suppressionAttributes</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a></code> | The suppression attributes for the tenant. |
 | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.tags">tags</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantTags">SesTenantTags</a>[]</code> | The tags (keys and values) associated with the tenant. |
 
 ---
@@ -919,7 +1005,21 @@ public readonly tenantName: string;
 
 The name of the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tenant_name SesTenant#tenant_name}
+
+---
+
+##### `reputationEntity`<sup>Optional</sup> <a name="reputationEntity" id="@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.reputationEntity"></a>
+
+```typescript
+public readonly reputationEntity: SesTenantReputationEntity;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a>
+
+The reputation configuration for the tenant. Sending status remains managed by SES.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity SesTenant#reputation_entity}
 
 ---
 
@@ -933,7 +1033,21 @@ public readonly resourceAssociations: IResolvable | SesTenantResourceAssociation
 
 The list of resources to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#resource_associations SesTenant#resource_associations}
+
+---
+
+##### `suppressionAttributes`<sup>Optional</sup> <a name="suppressionAttributes" id="@cdktn/provider-awscc.sesTenant.SesTenantConfig.property.suppressionAttributes"></a>
+
+```typescript
+public readonly suppressionAttributes: SesTenantSuppressionAttributes;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a>
+
+The suppression attributes for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_attributes SesTenant#suppression_attributes}
 
 ---
 
@@ -947,7 +1061,71 @@ public readonly tags: IResolvable | SesTenantTags[];
 
 The tags (keys and values) associated with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#tags SesTenant#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#tags SesTenant#tags}
+
+---
+
+### SesTenantReputationEntity <a name="SesTenantReputationEntity" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity.Initializer"></a>
+
+```typescript
+import { sesTenant } from '@cdktn/provider-awscc'
+
+const sesTenantReputationEntity: sesTenant.SesTenantReputationEntity = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity.property.policy">policy</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a></code> | The reputation policy for the tenant. |
+
+---
+
+##### `policy`<sup>Optional</sup> <a name="policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity.property.policy"></a>
+
+```typescript
+public readonly policy: SesTenantReputationEntityPolicy;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a>
+
+The reputation policy for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#policy SesTenant#policy}
+
+---
+
+### SesTenantReputationEntityPolicy <a name="SesTenantReputationEntityPolicy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy.Initializer"></a>
+
+```typescript
+import { sesTenant } from '@cdktn/provider-awscc'
+
+const sesTenantReputationEntityPolicy: sesTenant.SesTenantReputationEntityPolicy = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy.property.reputationEntityPolicy">reputationEntityPolicy</a></code> | <code>string</code> | The ARN of an SES-managed reputation policy. |
+
+---
+
+##### `reputationEntityPolicy`<sup>Optional</sup> <a name="reputationEntityPolicy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy.property.reputationEntityPolicy"></a>
+
+```typescript
+public readonly reputationEntityPolicy: string;
+```
+
+- *Type:* string
+
+The ARN of an SES-managed reputation policy.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#reputation_entity_policy SesTenant#reputation_entity_policy}
 
 ---
 
@@ -979,7 +1157,54 @@ public readonly resourceArn: string;
 
 The ARN of the resource to associate with the tenant.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#resource_arn SesTenant#resource_arn}
+
+---
+
+### SesTenantSuppressionAttributes <a name="SesTenantSuppressionAttributes" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes"></a>
+
+#### Initializer <a name="Initializer" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.Initializer"></a>
+
+```typescript
+import { sesTenant } from '@cdktn/provider-awscc'
+
+const sesTenantSuppressionAttributes: sesTenant.SesTenantSuppressionAttributes = { ... }
+```
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.property.suppressedReasons">suppressedReasons</a></code> | <code>string[]</code> | The reasons that cause messages to be added to the suppression list. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.property.suppressionScope">suppressionScope</a></code> | <code>string</code> | The scope of the suppression list for the tenant. |
+
+---
+
+##### `suppressedReasons`<sup>Optional</sup> <a name="suppressedReasons" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.property.suppressedReasons"></a>
+
+```typescript
+public readonly suppressedReasons: string[];
+```
+
+- *Type:* string[]
+
+The reasons that cause messages to be added to the suppression list.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppressed_reasons SesTenant#suppressed_reasons}
+
+---
+
+##### `suppressionScope`<sup>Optional</sup> <a name="suppressionScope" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes.property.suppressionScope"></a>
+
+```typescript
+public readonly suppressionScope: string;
+```
+
+- *Type:* string
+
+The scope of the suppression list for the tenant.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#suppression_scope SesTenant#suppression_scope}
 
 ---
 
@@ -1012,7 +1237,7 @@ public readonly key: string;
 
 The key of the key-value tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#key SesTenant#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#key SesTenant#key}
 
 ---
 
@@ -1026,11 +1251,580 @@ public readonly value: string;
 
 The value of the key-value tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/ses_tenant#value SesTenant#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/ses_tenant#value SesTenant#value}
 
 ---
 
 ## Classes <a name="Classes" id="Classes"></a>
+
+### SesTenantReputationEntityOutputReference <a name="SesTenantReputationEntityOutputReference" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer"></a>
+
+```typescript
+import { sesTenant } from '@cdktn/provider-awscc'
+
+new sesTenant.SesTenantReputationEntityOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.putPolicy">putPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resetPolicy">resetPolicy</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `putPolicy` <a name="putPolicy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.putPolicy"></a>
+
+```typescript
+public putPolicy(value: SesTenantReputationEntityPolicy): void
+```
+
+###### `value`<sup>Required</sup> <a name="value" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.putPolicy.parameter.value"></a>
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a>
+
+---
+
+##### `resetPolicy` <a name="resetPolicy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.resetPolicy"></a>
+
+```typescript
+public resetPolicy(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.policy">policy</a></code> | <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference">SesTenantReputationEntityPolicyOutputReference</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.policyInput">policyInput</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `policy`<sup>Required</sup> <a name="policy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.policy"></a>
+
+```typescript
+public readonly policy: SesTenantReputationEntityPolicyOutputReference;
+```
+
+- *Type:* <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference">SesTenantReputationEntityPolicyOutputReference</a>
+
+---
+
+##### `policyInput`<sup>Optional</sup> <a name="policyInput" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.policyInput"></a>
+
+```typescript
+public readonly policyInput: IResolvable | SesTenantReputationEntityPolicy;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a>
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | SesTenantReputationEntity;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntity">SesTenantReputationEntity</a>
+
+---
+
+
+### SesTenantReputationEntityPolicyOutputReference <a name="SesTenantReputationEntityPolicyOutputReference" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer"></a>
+
+```typescript
+import { sesTenant } from '@cdktn/provider-awscc'
+
+new sesTenant.SesTenantReputationEntityPolicyOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resetReputationEntityPolicy">resetReputationEntityPolicy</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetReputationEntityPolicy` <a name="resetReputationEntityPolicy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.resetReputationEntityPolicy"></a>
+
+```typescript
+public resetReputationEntityPolicy(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicyInput">reputationEntityPolicyInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicy">reputationEntityPolicy</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `reputationEntityPolicyInput`<sup>Optional</sup> <a name="reputationEntityPolicyInput" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicyInput"></a>
+
+```typescript
+public readonly reputationEntityPolicyInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `reputationEntityPolicy`<sup>Required</sup> <a name="reputationEntityPolicy" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.reputationEntityPolicy"></a>
+
+```typescript
+public readonly reputationEntityPolicy: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicyOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | SesTenantReputationEntityPolicy;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantReputationEntityPolicy">SesTenantReputationEntityPolicy</a>
+
+---
+
 
 ### SesTenantResourceAssociationsList <a name="SesTenantResourceAssociationsList" id="@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociationsList"></a>
 
@@ -1484,6 +2278,313 @@ public readonly internalValue: IResolvable | SesTenantResourceAssociations;
 ```
 
 - *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantResourceAssociations">SesTenantResourceAssociations</a>
+
+---
+
+
+### SesTenantSuppressionAttributesOutputReference <a name="SesTenantSuppressionAttributesOutputReference" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference"></a>
+
+#### Initializers <a name="Initializers" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer"></a>
+
+```typescript
+import { sesTenant } from '@cdktn/provider-awscc'
+
+new sesTenant.SesTenantSuppressionAttributesOutputReference(terraformResource: IInterpolatingParent, terraformAttribute: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformResource">terraformResource</a></code> | <code>cdktn.IInterpolatingParent</code> | The parent resource. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformAttribute">terraformAttribute</a></code> | <code>string</code> | The attribute on the parent resource this class is referencing. |
+
+---
+
+##### `terraformResource`<sup>Required</sup> <a name="terraformResource" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformResource"></a>
+
+- *Type:* cdktn.IInterpolatingParent
+
+The parent resource.
+
+---
+
+##### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.Initializer.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+The attribute on the parent resource this class is referencing.
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.computeFqn">computeFqn</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getAnyMapAttribute">getAnyMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanAttribute">getBooleanAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute">getBooleanMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getListAttribute">getListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberAttribute">getNumberAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberListAttribute">getNumberListAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberMapAttribute">getNumberMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringAttribute">getStringAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringMapAttribute">getStringMapAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.interpolationForAttribute">interpolationForAttribute</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resolve">resolve</a></code> | Produce the Token's value at resolution time. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.toString">toString</a></code> | Return a string representation of this resolvable object. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resetSuppressedReasons">resetSuppressedReasons</a></code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resetSuppressionScope">resetSuppressionScope</a></code> | *No description.* |
+
+---
+
+##### `computeFqn` <a name="computeFqn" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.computeFqn"></a>
+
+```typescript
+public computeFqn(): string
+```
+
+##### `getAnyMapAttribute` <a name="getAnyMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getAnyMapAttribute"></a>
+
+```typescript
+public getAnyMapAttribute(terraformAttribute: string): {[ key: string ]: any}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getAnyMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanAttribute` <a name="getBooleanAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanAttribute"></a>
+
+```typescript
+public getBooleanAttribute(terraformAttribute: string): IResolvable
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getBooleanMapAttribute` <a name="getBooleanMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute"></a>
+
+```typescript
+public getBooleanMapAttribute(terraformAttribute: string): {[ key: string ]: boolean}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getBooleanMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getListAttribute` <a name="getListAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getListAttribute"></a>
+
+```typescript
+public getListAttribute(terraformAttribute: string): string[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberAttribute` <a name="getNumberAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberAttribute"></a>
+
+```typescript
+public getNumberAttribute(terraformAttribute: string): number
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberListAttribute` <a name="getNumberListAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberListAttribute"></a>
+
+```typescript
+public getNumberListAttribute(terraformAttribute: string): number[]
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberListAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getNumberMapAttribute` <a name="getNumberMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberMapAttribute"></a>
+
+```typescript
+public getNumberMapAttribute(terraformAttribute: string): {[ key: string ]: number}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getNumberMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringAttribute` <a name="getStringAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringAttribute"></a>
+
+```typescript
+public getStringAttribute(terraformAttribute: string): string
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `getStringMapAttribute` <a name="getStringMapAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringMapAttribute"></a>
+
+```typescript
+public getStringMapAttribute(terraformAttribute: string): {[ key: string ]: string}
+```
+
+###### `terraformAttribute`<sup>Required</sup> <a name="terraformAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.getStringMapAttribute.parameter.terraformAttribute"></a>
+
+- *Type:* string
+
+---
+
+##### `interpolationForAttribute` <a name="interpolationForAttribute" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.interpolationForAttribute"></a>
+
+```typescript
+public interpolationForAttribute(property: string): IResolvable
+```
+
+###### `property`<sup>Required</sup> <a name="property" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.interpolationForAttribute.parameter.property"></a>
+
+- *Type:* string
+
+---
+
+##### `resolve` <a name="resolve" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resolve"></a>
+
+```typescript
+public resolve(_context: IResolveContext): any
+```
+
+Produce the Token's value at resolution time.
+
+###### `_context`<sup>Required</sup> <a name="_context" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resolve.parameter._context"></a>
+
+- *Type:* cdktn.IResolveContext
+
+---
+
+##### `toString` <a name="toString" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Return a string representation of this resolvable object.
+
+Returns a reversible string representation.
+
+##### `resetSuppressedReasons` <a name="resetSuppressedReasons" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resetSuppressedReasons"></a>
+
+```typescript
+public resetSuppressedReasons(): void
+```
+
+##### `resetSuppressionScope` <a name="resetSuppressionScope" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.resetSuppressionScope"></a>
+
+```typescript
+public resetSuppressionScope(): void
+```
+
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.creationStack">creationStack</a></code> | <code>string[]</code> | The creation stack of this resolvable which will be appended to errors thrown during resolution. |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.fqn">fqn</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressedReasonsInput">suppressedReasonsInput</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressionScopeInput">suppressionScopeInput</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressedReasons">suppressedReasons</a></code> | <code>string[]</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressionScope">suppressionScope</a></code> | <code>string</code> | *No description.* |
+| <code><a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.internalValue">internalValue</a></code> | <code>cdktn.IResolvable \| <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a></code> | *No description.* |
+
+---
+
+##### `creationStack`<sup>Required</sup> <a name="creationStack" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.creationStack"></a>
+
+```typescript
+public readonly creationStack: string[];
+```
+
+- *Type:* string[]
+
+The creation stack of this resolvable which will be appended to errors thrown during resolution.
+
+If this returns an empty array the stack will not be attached.
+
+---
+
+##### `fqn`<sup>Required</sup> <a name="fqn" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.fqn"></a>
+
+```typescript
+public readonly fqn: string;
+```
+
+- *Type:* string
+
+---
+
+##### `suppressedReasonsInput`<sup>Optional</sup> <a name="suppressedReasonsInput" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressedReasonsInput"></a>
+
+```typescript
+public readonly suppressedReasonsInput: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `suppressionScopeInput`<sup>Optional</sup> <a name="suppressionScopeInput" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressionScopeInput"></a>
+
+```typescript
+public readonly suppressionScopeInput: string;
+```
+
+- *Type:* string
+
+---
+
+##### `suppressedReasons`<sup>Required</sup> <a name="suppressedReasons" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressedReasons"></a>
+
+```typescript
+public readonly suppressedReasons: string[];
+```
+
+- *Type:* string[]
+
+---
+
+##### `suppressionScope`<sup>Required</sup> <a name="suppressionScope" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.suppressionScope"></a>
+
+```typescript
+public readonly suppressionScope: string;
+```
+
+- *Type:* string
+
+---
+
+##### `internalValue`<sup>Optional</sup> <a name="internalValue" id="@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributesOutputReference.property.internalValue"></a>
+
+```typescript
+public readonly internalValue: IResolvable | SesTenantSuppressionAttributes;
+```
+
+- *Type:* cdktn.IResolvable | <a href="#@cdktn/provider-awscc.sesTenant.SesTenantSuppressionAttributes">SesTenantSuppressionAttributes</a>
 
 ---
 

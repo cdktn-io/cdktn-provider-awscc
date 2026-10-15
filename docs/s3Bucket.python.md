@@ -4,7 +4,7 @@
 
 ### S3Bucket <a name="S3Bucket" id="@cdktn/provider-awscc.s3Bucket.S3Bucket"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket awscc_s3_bucket}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket awscc_s3_bucket}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer"></a>
 
@@ -66,8 +66,8 @@ s3Bucket.S3Bucket(
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.analyticsConfigurations">analytics_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurations">S3BucketAnalyticsConfigurations</a>]</code> | Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketEncryption">bucket_encryption</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryption">S3BucketBucketEncryption</a></code> | Specifies default encryption for a bucket using server-side encryption with Amazon S3-managed keys (SSE-S3), AWS KMS-managed keys (SSE-KMS), or dual-layer server-side encryption with KMS-managed keys (DSSE-KMS). |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketName">bucket_name</a></code> | <code>str</code> | A name for the bucket. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketNamePrefix">bucket_name_prefix</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketNamespace">bucket_namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketNamePrefix">bucket_name_prefix</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.bucketNamespace">bucket_namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.corsConfiguration">cors_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketCorsConfiguration">S3BucketCorsConfiguration</a></code> | Describes the cross-origin access configuration for objects in an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.intelligentTieringConfigurations">intelligent_tiering_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketIntelligentTieringConfigurations">S3BucketIntelligentTieringConfigurations</a>]</code> | Defines how Amazon S3 handles Intelligent-Tiering storage. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3Bucket.Initializer.parameter.inventoryConfigurations">inventory_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]</code> | Specifies the S3 Inventory configuration for an Amazon S3 bucket. |
@@ -156,7 +156,7 @@ The ABAC status of the general purpose bucket.
 
 When ABAC is enabled for the general purpose bucket, you can use tags to manage access to the general purpose buckets as well as for cost tracking purposes. When ABAC is disabled for the general purpose buckets, you can only use tags for cost tracking purposes. For more information, see [Using tags with S3 general purpose buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/buckets-tagging.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#abac_status S3Bucket#abac_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#abac_status S3Bucket#abac_status}
 
 ---
 
@@ -168,7 +168,7 @@ Configures the transfer acceleration state for an Amazon S3 bucket.
 
 For more information, see [Amazon S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
 
 ---
 
@@ -183,7 +183,7 @@ A canned access control list (ACL) that grants predefined permissions to the buc
 S3 buckets are created with ACLs disabled by default. Therefore, unless you explicitly set the [AWS::S3::OwnershipControls](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-ownershipcontrols.html) property to enable ACLs, your resource will fail to deploy with any value other than Private. Use cases requiring ACLs are uncommon.
 The majority of access control configurations can be successfully and more easily achieved with bucket policies. For more information, see [AWS::S3::BucketPolicy](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-policy.html). For examples of common policy configurations, including S3 Server Access Logs buckets and more, see [Bucket policy examples](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
 
 ---
 
@@ -193,7 +193,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
 
 ---
 
@@ -205,7 +205,7 @@ Specifies default encryption for a bucket using server-side encryption with Amaz
 
 For information about the Amazon S3 default encryption feature, see [Amazon S3 Default Encryption for S3 Buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
 
 ---
 
@@ -218,7 +218,7 @@ A name for the bucket.
 If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the bucket name. The bucket name must contain only lowercase letters, numbers, periods (.), and dashes (-) and must follow [Amazon S3 bucket restrictions and limitations](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html). For more information, see [Rules for naming Amazon S3 buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html) in the *Amazon S3 User Guide*.
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you need to replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
 
 ---
 
@@ -226,7 +226,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}.
 
 ---
 
@@ -234,7 +234,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.
 
 ---
 
@@ -246,7 +246,7 @@ Describes the cross-origin access configuration for objects in an Amazon S3 buck
 
 For more information, see [Enabling Cross-Origin Resource Sharing](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
 
 ---
 
@@ -256,7 +256,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Defines how Amazon S3 handles Intelligent-Tiering storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
 
 ---
 
@@ -268,7 +268,7 @@ Specifies the S3 Inventory configuration for an Amazon S3 bucket.
 
 For more information, see [GET Bucket inventory](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGETInventoryConfig.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
 
 ---
 
@@ -280,7 +280,7 @@ Specifies the lifecycle configuration for objects in an Amazon S3 bucket.
 
 For more information, see [Object Lifecycle Management](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
 
 ---
 
@@ -290,7 +290,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Settings that define where logs are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
 
 ---
 
@@ -300,7 +300,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The S3 Metadata configuration for a general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_configuration S3Bucket#metadata_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#metadata_configuration S3Bucket#metadata_configuration}
 
 ---
 
@@ -310,7 +310,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The metadata table configuration of an S3 general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
 
 ---
 
@@ -322,7 +322,7 @@ Specifies a metrics configuration for the CloudWatch request metrics (specified 
 
 If you're updating an existing metrics configuration, note that this is a full replacement of the existing metrics configuration. If you don't include the elements you want to keep, they are erased. For more information, see [PutBucketMetricsConfiguration](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTMetricConfiguration.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
 
 ---
 
@@ -332,7 +332,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration that defines how Amazon S3 handles bucket notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
 
 ---
 
@@ -350,7 +350,7 @@ Places an Object Lock configuration on the specified bucket. The rule specified 
 
 You must URL encode any signed header values that contain spaces. For example, if your header value is `my file.txt`, containing two spaces after `my`, you must URL encode this value to `my%20%20file.txt`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
 
 ---
 
@@ -360,7 +360,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -370,7 +370,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration that defines how Amazon S3 handles Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
 
 ---
 
@@ -380,7 +380,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Configuration that defines how Amazon S3 handles public access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
 
 ---
 
@@ -393,7 +393,7 @@ Configuration for replicating objects in an S3 bucket.
 To enable replication, you must also enable versioning by using the `VersioningConfiguration` property.
 Amazon S3 can store replicated objects in a single destination bucket or multiple destination buckets. The destination bucket or buckets must already exist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
 
 ---
 
@@ -403,7 +403,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An arbitrary set of tags (key-value pairs) for this S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tags S3Bucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tags S3Bucket#tags}
 
 ---
 
@@ -416,7 +416,7 @@ Enables multiple versions of all objects in this bucket.
 You might enable versioning to prevent objects from being deleted or overwritten by mistake or to archive objects so that you can retrieve previous versions of them.
 When you enable versioning on a bucket for the first time, it might take a short amount of time for the change to be fully propagated. We recommend that you wait for 15 minutes after enabling versioning before issuing write operations (`PUT` or `DELETE`) on objects in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
 
 ---
 
@@ -426,7 +426,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Information used to configure the bucket as a static website. For more information, see [Hosting Websites on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
 
 ---
 
@@ -867,7 +867,7 @@ def put_accelerate_configuration(
 
 Specifies the transfer acceleration status of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
 
 ---
 
@@ -899,7 +899,7 @@ def put_bucket_encryption(
 
 Specifies the default server-side-encryption configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
 
 ---
 
@@ -919,7 +919,7 @@ A set of origins and methods (cross-origin access that you want to allow).
 
 You can add up to 100 rules to the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
 
 ---
 
@@ -966,7 +966,7 @@ def put_lifecycle_configuration(
 
 A lifecycle rule for individual objects in an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -983,7 +983,7 @@ This parameter applies to general purpose buckets only. It isn't supported for d
 
 To customize the minimum object size for any transition you can add a filter that specifies a custom `ObjectSizeGreaterThan` or `ObjectSizeLessThan` in the body of your transition rule. Custom filters always take precedence over the default transition behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
 
 ---
 
@@ -1005,7 +1005,7 @@ The name of the bucket where Amazon S3 should store server access log files.
 
 You can store log files in any bucket that you own. By default, logs are stored in the bucket where the `LoggingConfiguration` property is defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
 
 ---
 
@@ -1017,7 +1017,7 @@ A prefix for all log object keys.
 
 If you store log files from multiple Amazon S3 buckets in a single bucket, you can use a prefix to distinguish which log files came from which bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
 
 ---
 
@@ -1027,7 +1027,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Amazon S3 key format for log objects. Only one format, either PartitionedPrefix or SimplePrefix, is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
 
 ---
 
@@ -1047,7 +1047,7 @@ def put_metadata_configuration(
 
 The annotation table configuration for a metadata configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#annotation_table_configuration S3Bucket#annotation_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#annotation_table_configuration S3Bucket#annotation_table_configuration}
 
 ---
 
@@ -1057,7 +1057,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The inventory table configuration for a metadata configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_table_configuration S3Bucket#inventory_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#inventory_table_configuration S3Bucket#inventory_table_configuration}
 
 ---
 
@@ -1067,7 +1067,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The journal table configuration for a metadata configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#journal_table_configuration S3Bucket#journal_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#journal_table_configuration S3Bucket#journal_table_configuration}
 
 ---
 
@@ -1087,7 +1087,7 @@ The destination information for the metadata table configuration.
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket. The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
 
 ---
 
@@ -1122,7 +1122,7 @@ def put_notification_configuration(
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
 
 ---
 
@@ -1132,7 +1132,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Describes the LAMlong functions to invoke and the events for which to invoke them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
 
 ---
 
@@ -1142,7 +1142,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Simple Queue Service queues to publish messages to and the events for which to publish messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
 
 ---
 
@@ -1152,7 +1152,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The topic to which notifications are sent and the events for which notifications are generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
 
 ---
 
@@ -1171,7 +1171,7 @@ def put_object_lock_configuration(
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -1183,7 +1183,7 @@ Specifies the Object Lock rule for the specified object.
 
 Enable this rule when you apply `ObjectLockConfiguration` to a bucket. If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information, see [ObjectLockRule](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-objectlockrule.html) and [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rule S3Bucket#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rule S3Bucket#rule}
 
 ---
 
@@ -1201,7 +1201,7 @@ def put_ownership_controls(
 
 Specifies the container element for Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -1230,7 +1230,7 @@ Setting this element to `TRUE` causes the following behavior:
 
 Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
 
 ---
 
@@ -1243,7 +1243,7 @@ Specifies whether Amazon S3 should block public bucket policies for this bucket.
 Setting this element to `TRUE` causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access.
 Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
 
 ---
 
@@ -1256,7 +1256,7 @@ Specifies whether Amazon S3 should ignore public ACLs for this bucket and object
 Setting this element to `TRUE` causes Amazon S3 to ignore all public ACLs on this bucket and objects in this bucket.
 Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
 
 ---
 
@@ -1269,7 +1269,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to `TRUE` restricts access to this bucket to only AWS-service principals and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
 
 ---
 
@@ -1290,7 +1290,7 @@ The Amazon Resource Name (ARN) of the IAMlong (IAM) role that Amazon S3 assumes 
 
 For more information, see [How to Set Up Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-how-setup.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#role S3Bucket#role}
 
 ---
 
@@ -1302,7 +1302,7 @@ A container for one or more replication rules.
 
 A replication configuration must have at least one rule and can contain a maximum of 1,000 rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -1334,7 +1334,7 @@ def put_versioning_configuration(
 
 The versioning state of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -1355,7 +1355,7 @@ def put_website_configuration(
 
 The name of the error document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
 
 ---
 
@@ -1365,7 +1365,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The name of the index document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
 
 ---
 
@@ -1377,7 +1377,7 @@ The redirect behavior for every request to this bucket's website endpoint.
 
 If you specify this property, you can't specify any other property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
 
 ---
 
@@ -1387,7 +1387,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Rules that define when a redirect is applied and the redirect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
 
 ---
 
@@ -1655,7 +1655,7 @@ The construct id used in the generated config for the S3Bucket to import.
 
 The id of the existing S3Bucket that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#import import section} in the documentation of this resource for the id to use
 
 ---
 
@@ -2496,7 +2496,7 @@ acceleration_status: str
 
 Specifies the transfer acceleration status of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#acceleration_status S3Bucket#acceleration_status}
 
 ---
 
@@ -2536,7 +2536,7 @@ id: str
 
 The ID that identifies the analytics configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2553,7 +2553,7 @@ prefix: str
 
 The prefix that an object must have to be included in the analytics results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -2567,7 +2567,7 @@ storage_class_analysis: S3BucketAnalyticsConfigurationsStorageClassAnalysis
 
 Contains data related to access patterns to be collected and made available to analyze the tradeoffs between different storage classes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class_analysis S3Bucket#storage_class_analysis}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class_analysis S3Bucket#storage_class_analysis}
 
 ---
 
@@ -2583,7 +2583,7 @@ The tags to use when evaluating an analytics filter.
 
 The analytics only includes objects that meet the filter's criteria. If no filter is specified, all of the contents of the bucket are included in the analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -2617,7 +2617,7 @@ data_export: S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExport
 
 Specifies how data related to the storage class analysis for an Amazon S3 bucket should be exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
 
 ---
 
@@ -2653,7 +2653,7 @@ destination: S3BucketAnalyticsConfigurationsStorageClassAnalysisDataExportDestin
 
 The place to store the data for an analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -2667,7 +2667,7 @@ output_schema_version: str
 
 The version of the output schema to use when exporting data. Must be ``V_1``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
 
 ---
 
@@ -2710,7 +2710,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -2724,7 +2724,7 @@ bucket_arn: str
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -2738,7 +2738,7 @@ format: str
 
 Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -2752,7 +2752,7 @@ prefix: str
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -2788,7 +2788,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -2802,7 +2802,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -2836,7 +2836,7 @@ server_side_encryption_configuration: IResolvable | typing.List[S3BucketBucketEn
 
 Specifies the default server-side-encryption configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#server_side_encryption_configuration S3Bucket#server_side_encryption_configuration}
 
 ---
 
@@ -2877,7 +2877,7 @@ A bucket-level setting for Amazon S3 general purpose buckets used to prevent the
 For example, blocking an encryption type will block `PutObject`, `CopyObject`, `PostObject`, multipart upload, and replication requests to the bucket for objects with the specified encryption type. However, you can continue to read and list any pre-existing objects already encrypted with the specified encryption type. For more information, see [Blocking or unblocking SSE-C for a general purpose bucket](https://docs.aws.amazon.com/AmazonS3/latest/userguide/blocking-unblocking-s3-c-encryption-gpb.html).
 Currently, this parameter only supports blocking or unblocking server-side encryption with customer-provided keys (SSE-C). For more information about SSE-C, see [Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#blocked_encryption_types S3Bucket#blocked_encryption_types}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#blocked_encryption_types S3Bucket#blocked_encryption_types}
 
 ---
 
@@ -2894,7 +2894,7 @@ Specifies whether Amazon S3 should use an S3 Bucket Key with server-side encrypt
 Existing objects are not affected. Setting the `BucketKeyEnabled` element to `true` causes Amazon S3 to use an S3 Bucket Key. By default, S3 Bucket Key is not enabled.
 For more information, see [Amazon S3 Bucket Keys](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-key.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_key_enabled S3Bucket#bucket_key_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_key_enabled S3Bucket#bucket_key_enabled}
 
 ---
 
@@ -2910,7 +2910,7 @@ Specifies the default server-side encryption to apply to new objects in the buck
 
 If a PUT Object request doesn't specify any server-side encryption, this default encryption will be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#server_side_encryption_by_default S3Bucket#server_side_encryption_by_default}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#server_side_encryption_by_default S3Bucket#server_side_encryption_by_default}
 
 ---
 
@@ -2946,7 +2946,7 @@ The object encryption type that you want to block or unblock for an Amazon S3 ge
 
 Currently, this parameter only supports blocking or unblocking server side encryption with customer-provided keys (SSE-C). For more information about SSE-C, see [Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_type S3Bucket#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_type S3Bucket#encryption_type}
 
 ---
 
@@ -2998,7 +2998,7 @@ If you are using encryption with cross-account or AWS service operations, you mu
 
 Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
 
 ---
 
@@ -3014,7 +3014,7 @@ Server-side encryption algorithm to use for the default encryption.
 
 For directory buckets, there are only two supported values for server-side encryption: `AES256` and `aws:kms`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -3078,8 +3078,8 @@ s3Bucket.S3BucketConfig(
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.analyticsConfigurations">analytics_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketAnalyticsConfigurations">S3BucketAnalyticsConfigurations</a>]</code> | Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketEncryption">bucket_encryption</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketBucketEncryption">S3BucketBucketEncryption</a></code> | Specifies default encryption for a bucket using server-side encryption with Amazon S3-managed keys (SSE-S3), AWS KMS-managed keys (SSE-KMS), or dual-layer server-side encryption with KMS-managed keys (DSSE-KMS). |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketName">bucket_name</a></code> | <code>str</code> | A name for the bucket. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamePrefix">bucket_name_prefix</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamespace">bucket_namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamePrefix">bucket_name_prefix</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.bucketNamespace">bucket_namespace</a></code> | <code>str</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.corsConfiguration">cors_configuration</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketCorsConfiguration">S3BucketCorsConfiguration</a></code> | Describes the cross-origin access configuration for objects in an Amazon S3 bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.intelligentTieringConfigurations">intelligent_tiering_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketIntelligentTieringConfigurations">S3BucketIntelligentTieringConfigurations</a>]</code> | Defines how Amazon S3 handles Intelligent-Tiering storage. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketConfig.property.inventoryConfigurations">inventory_configurations</a></code> | <code>cdktn.IResolvable \| typing.List[<a href="#@cdktn/provider-awscc.s3Bucket.S3BucketInventoryConfigurations">S3BucketInventoryConfigurations</a>]</code> | Specifies the S3 Inventory configuration for an Amazon S3 bucket. |
@@ -3182,7 +3182,7 @@ The ABAC status of the general purpose bucket.
 
 When ABAC is enabled for the general purpose bucket, you can use tags to manage access to the general purpose buckets as well as for cost tracking purposes. When ABAC is disabled for the general purpose buckets, you can only use tags for cost tracking purposes. For more information, see [Using tags with S3 general purpose buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/buckets-tagging.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#abac_status S3Bucket#abac_status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#abac_status S3Bucket#abac_status}
 
 ---
 
@@ -3198,7 +3198,7 @@ Configures the transfer acceleration state for an Amazon S3 bucket.
 
 For more information, see [Amazon S3 Transfer Acceleration](https://docs.aws.amazon.com/AmazonS3/latest/dev/transfer-acceleration.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#accelerate_configuration S3Bucket#accelerate_configuration}
 
 ---
 
@@ -3217,7 +3217,7 @@ A canned access control list (ACL) that grants predefined permissions to the buc
 S3 buckets are created with ACLs disabled by default. Therefore, unless you explicitly set the [AWS::S3::OwnershipControls](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-ownershipcontrols.html) property to enable ACLs, your resource will fail to deploy with any value other than Private. Use cases requiring ACLs are uncommon.
 The majority of access control configurations can be successfully and more easily achieved with bucket policies. For more information, see [AWS::S3::BucketPolicy](https://docs.aws.amazon.com//AWSCloudFormation/latest/UserGuide/aws-properties-s3-policy.html). For examples of common policy configurations, including S3 Server Access Logs buckets and more, see [Bucket policy examples](https://docs.aws.amazon.com/AmazonS3/latest/userguide/example-bucket-policies.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#access_control S3Bucket#access_control}
 
 ---
 
@@ -3231,7 +3231,7 @@ analytics_configurations: IResolvable | typing.List[S3BucketAnalyticsConfigurati
 
 Specifies the configuration and any analyses for the analytics filter of an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#analytics_configurations S3Bucket#analytics_configurations}
 
 ---
 
@@ -3247,7 +3247,7 @@ Specifies default encryption for a bucket using server-side encryption with Amaz
 
 For information about the Amazon S3 default encryption feature, see [Amazon S3 Default Encryption for S3 Buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/bucket-encryption.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_encryption S3Bucket#bucket_encryption}
 
 ---
 
@@ -3264,7 +3264,7 @@ A name for the bucket.
 If you don't specify a name, AWS CloudFormation generates a unique ID and uses that ID for the bucket name. The bucket name must contain only lowercase letters, numbers, periods (.), and dashes (-) and must follow [Amazon S3 bucket restrictions and limitations](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html). For more information, see [Rules for naming Amazon S3 buckets](https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html) in the *Amazon S3 User Guide*.
 If you specify a name, you can't perform updates that require replacement of this resource. You can perform updates that require no or some interruption. If you need to replace the resource, specify a new name.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_name S3Bucket#bucket_name}
 
 ---
 
@@ -3276,7 +3276,7 @@ bucket_name_prefix: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_name_prefix S3Bucket#bucket_name_prefix}.
 
 ---
 
@@ -3288,7 +3288,7 @@ bucket_namespace: str
 
 - *Type:* str
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_namespace S3Bucket#bucket_namespace}.
 
 ---
 
@@ -3304,7 +3304,7 @@ Describes the cross-origin access configuration for objects in an Amazon S3 buck
 
 For more information, see [Enabling Cross-Origin Resource Sharing](https://docs.aws.amazon.com/AmazonS3/latest/dev/cors.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#cors_configuration S3Bucket#cors_configuration}
 
 ---
 
@@ -3318,7 +3318,7 @@ intelligent_tiering_configurations: IResolvable | typing.List[S3BucketIntelligen
 
 Defines how Amazon S3 handles Intelligent-Tiering storage.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#intelligent_tiering_configurations S3Bucket#intelligent_tiering_configurations}
 
 ---
 
@@ -3334,7 +3334,7 @@ Specifies the S3 Inventory configuration for an Amazon S3 bucket.
 
 For more information, see [GET Bucket inventory](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketGETInventoryConfig.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#inventory_configurations S3Bucket#inventory_configurations}
 
 ---
 
@@ -3350,7 +3350,7 @@ Specifies the lifecycle configuration for objects in an Amazon S3 bucket.
 
 For more information, see [Object Lifecycle Management](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#lifecycle_configuration S3Bucket#lifecycle_configuration}
 
 ---
 
@@ -3364,7 +3364,7 @@ logging_configuration: S3BucketLoggingConfiguration
 
 Settings that define where logs are stored.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#logging_configuration S3Bucket#logging_configuration}
 
 ---
 
@@ -3378,7 +3378,7 @@ metadata_configuration: S3BucketMetadataConfiguration
 
 The S3 Metadata configuration for a general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_configuration S3Bucket#metadata_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#metadata_configuration S3Bucket#metadata_configuration}
 
 ---
 
@@ -3392,7 +3392,7 @@ metadata_table_configuration: S3BucketMetadataTableConfiguration
 
 The metadata table configuration of an S3 general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#metadata_table_configuration S3Bucket#metadata_table_configuration}
 
 ---
 
@@ -3408,7 +3408,7 @@ Specifies a metrics configuration for the CloudWatch request metrics (specified 
 
 If you're updating an existing metrics configuration, note that this is a full replacement of the existing metrics configuration. If you don't include the elements you want to keep, they are erased. For more information, see [PutBucketMetricsConfiguration](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTMetricConfiguration.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#metrics_configurations S3Bucket#metrics_configurations}
 
 ---
 
@@ -3422,7 +3422,7 @@ notification_configuration: S3BucketNotificationConfiguration
 
 Configuration that defines how Amazon S3 handles bucket notifications.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#notification_configuration S3Bucket#notification_configuration}
 
 ---
 
@@ -3444,7 +3444,7 @@ Places an Object Lock configuration on the specified bucket. The rule specified 
 
 You must URL encode any signed header values that contain spaces. For example, if your header value is `my file.txt`, containing two spaces after `my`, you must URL encode this value to `my%20%20file.txt`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_lock_configuration S3Bucket#object_lock_configuration}
 
 ---
 
@@ -3458,7 +3458,7 @@ object_lock_enabled: bool | IResolvable
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -3472,7 +3472,7 @@ ownership_controls: S3BucketOwnershipControls
 
 Configuration that defines how Amazon S3 handles Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#ownership_controls S3Bucket#ownership_controls}
 
 ---
 
@@ -3486,7 +3486,7 @@ public_access_block_configuration: S3BucketPublicAccessBlockConfiguration
 
 Configuration that defines how Amazon S3 handles public access.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#public_access_block_configuration S3Bucket#public_access_block_configuration}
 
 ---
 
@@ -3503,7 +3503,7 @@ Configuration for replicating objects in an S3 bucket.
 To enable replication, you must also enable versioning by using the `VersioningConfiguration` property.
 Amazon S3 can store replicated objects in a single destination bucket or multiple destination buckets. The destination bucket or buckets must already exist.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replication_configuration S3Bucket#replication_configuration}
 
 ---
 
@@ -3517,7 +3517,7 @@ tags: IResolvable | typing.List[S3BucketTags]
 
 An arbitrary set of tags (key-value pairs) for this S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tags S3Bucket#tags}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tags S3Bucket#tags}
 
 ---
 
@@ -3534,7 +3534,7 @@ Enables multiple versions of all objects in this bucket.
 You might enable versioning to prevent objects from being deleted or overwritten by mistake or to archive objects so that you can retrieve previous versions of them.
 When you enable versioning on a bucket for the first time, it might take a short amount of time for the change to be fully propagated. We recommend that you wait for 15 minutes after enabling versioning before issuing write operations (`PUT` or `DELETE`) on objects in the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#versioning_configuration S3Bucket#versioning_configuration}
 
 ---
 
@@ -3548,7 +3548,7 @@ website_configuration: S3BucketWebsiteConfiguration
 
 Information used to configure the bucket as a static website. For more information, see [Hosting Websites on Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#website_configuration S3Bucket#website_configuration}
 
 ---
 
@@ -3584,7 +3584,7 @@ A set of origins and methods (cross-origin access that you want to allow).
 
 You can add up to 100 rules to the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#cors_rules S3Bucket#cors_rules}
 
 ---
 
@@ -3630,7 +3630,7 @@ Headers that are specified in the ``Access-Control-Request-Headers`` header.
 
 These headers are allowed in a preflight OPTIONS request. In response to any preflight OPTIONS request, Amazon S3 returns any requested headers that are allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_headers S3Bucket#allowed_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#allowed_headers S3Bucket#allowed_headers}
 
 ---
 
@@ -3646,7 +3646,7 @@ An HTTP method that you allow the origin to run.
 
 *Allowed values*: `GET` | `PUT` | `HEAD` | `POST` | `DELETE`
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_methods S3Bucket#allowed_methods}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#allowed_methods S3Bucket#allowed_methods}
 
 ---
 
@@ -3660,7 +3660,7 @@ allowed_origins: typing.List[str]
 
 One or more origins you want customers to be able to access the bucket from.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#allowed_origins S3Bucket#allowed_origins}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#allowed_origins S3Bucket#allowed_origins}
 
 ---
 
@@ -3674,7 +3674,7 @@ exposed_headers: typing.List[str]
 
 One or more headers in the response that you want customers to be able to access from their applications (for example, from a JavaScript ``XMLHttpRequest`` object).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#exposed_headers S3Bucket#exposed_headers}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#exposed_headers S3Bucket#exposed_headers}
 
 ---
 
@@ -3688,7 +3688,7 @@ id: str
 
 A unique identifier for this rule. The value must be no more than 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3705,7 +3705,7 @@ max_age: typing.Union[int, float]
 
 The time in seconds that your browser is to cache the preflight response for the specified resource.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#max_age S3Bucket#max_age}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#max_age S3Bucket#max_age}
 
 ---
 
@@ -3747,7 +3747,7 @@ id: str
 
 The ID used to identify the S3 Intelligent-Tiering configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3764,7 +3764,7 @@ prefix: str
 
 An object key name prefix that identifies the subset of objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -3778,7 +3778,7 @@ status: str
 
 Specifies the status of the configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -3792,7 +3792,7 @@ tag_filters: IResolvable | typing.List[S3BucketIntelligentTieringConfigurationsT
 
 A container for a key-value pair.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -3809,7 +3809,7 @@ Specifies a list of S3 Intelligent-Tiering storage class tiers in the configurat
 At least one tier must be defined in the list. At most, you can specify two tiers in the list, one for each available AccessTier: `ARCHIVE_ACCESS` and `DEEP_ARCHIVE_ACCESS`.
 You only need Intelligent Tiering Configuration enabled on a bucket if you want to automatically move objects stored in the Intelligent-Tiering storage class to Archive Access or Deep Archive Access tiers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tierings S3Bucket#tierings}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tierings S3Bucket#tierings}
 
 ---
 
@@ -3845,7 +3845,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -3859,7 +3859,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -3897,7 +3897,7 @@ S3 Intelligent-Tiering access tier.
 
 See [Storage class for automatically optimizing frequently and infrequently accessed objects](https://docs.aws.amazon.com/AmazonS3/latest/dev/storage-class-intro.html#sc-dynamic-data-access) for a list of access tiers in the S3 Intelligent-Tiering storage class.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_tier S3Bucket#access_tier}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#access_tier S3Bucket#access_tier}
 
 ---
 
@@ -3913,7 +3913,7 @@ The number of consecutive days of no access after which an object will be eligib
 
 The minimum number of days specified for Archive Access tier must be at least 90 days and Deep Archive Access tier must be at least 180 days. The maximum can be up to 2 years (730 days).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -3959,7 +3959,7 @@ destination: S3BucketInventoryConfigurationsDestination
 
 Contains information about where to publish the inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -3975,7 +3975,7 @@ Specifies whether the inventory is enabled or disabled.
 
 If set to `True`, an inventory list is generated. If set to `False`, no inventory list is generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#enabled S3Bucket#enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#enabled S3Bucket#enabled}
 
 ---
 
@@ -3989,7 +3989,7 @@ id: str
 
 The ID used to identify the inventory configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4008,7 +4008,7 @@ Object versions to include in the inventory list.
 
 If set to `All`, the list includes all the object versions, which adds the version-related fields `VersionId`, `IsLatest`, and `DeleteMarker` to the list. If set to `Current`, the list does not contain these version-related fields.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#included_object_versions S3Bucket#included_object_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#included_object_versions S3Bucket#included_object_versions}
 
 ---
 
@@ -4022,7 +4022,7 @@ optional_fields: typing.List[str]
 
 Contains the optional fields that are included in the inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#optional_fields S3Bucket#optional_fields}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#optional_fields S3Bucket#optional_fields}
 
 ---
 
@@ -4036,7 +4036,7 @@ prefix: str
 
 Specifies the inventory filter prefix.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -4050,7 +4050,7 @@ schedule_frequency: str
 
 Specifies the schedule for generating inventory results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#schedule_frequency S3Bucket#schedule_frequency}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#schedule_frequency S3Bucket#schedule_frequency}
 
 ---
 
@@ -4093,7 +4093,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -4107,7 +4107,7 @@ bucket_arn: str
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -4121,7 +4121,7 @@ format: str
 
 Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -4135,7 +4135,7 @@ prefix: str
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -4171,7 +4171,7 @@ rules: IResolvable | typing.List[S3BucketLifecycleConfigurationRules]
 
 A lifecycle rule for individual objects in an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -4192,7 +4192,7 @@ This parameter applies to general purpose buckets only. It isn't supported for d
 
 To customize the minimum object size for any transition you can add a filter that specifies a custom `ObjectSizeGreaterThan` or `ObjectSizeLessThan` in the body of your transition rule. Custom filters always take precedence over the default transition behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_default_minimum_object_size S3Bucket#transition_default_minimum_object_size}
 
 ---
 
@@ -4256,7 +4256,7 @@ abort_incomplete_multipart_upload: S3BucketLifecycleConfigurationRulesAbortIncom
 
 Specifies a lifecycle rule that stops incomplete multipart uploads to an Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#abort_incomplete_multipart_upload S3Bucket#abort_incomplete_multipart_upload}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#abort_incomplete_multipart_upload S3Bucket#abort_incomplete_multipart_upload}
 
 ---
 
@@ -4272,7 +4272,7 @@ Indicates when objects are deleted from Amazon S3 and Amazon S3 Glacier.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC. If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration_date S3Bucket#expiration_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#expiration_date S3Bucket#expiration_date}
 
 ---
 
@@ -4288,7 +4288,7 @@ Indicates the number of days after creation when objects are deleted from Amazon
 
 If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration_in_days S3Bucket#expiration_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#expiration_in_days S3Bucket#expiration_in_days}
 
 ---
 
@@ -4304,7 +4304,7 @@ Indicates whether Amazon S3 will remove a delete marker without any noncurrent v
 
 If set to true, the delete marker will be removed if there are no noncurrent versions. This cannot be specified with `ExpirationInDays`, `ExpirationDate`, or `TagFilters`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expired_object_delete_marker S3Bucket#expired_object_delete_marker}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#expired_object_delete_marker S3Bucket#expired_object_delete_marker}
 
 ---
 
@@ -4318,7 +4318,7 @@ id: str
 
 Unique identifier for the rule. The value can't be longer than 255 characters.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4337,7 +4337,7 @@ Specifies when noncurrent object versions expire.
 
 Upon expiration, S3 permanently deletes the noncurrent object versions. You set this lifecycle configuration action on a bucket that has versioning enabled (or suspended) to request that S3 delete noncurrent object versions at a specific period in the object's lifetime.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_expiration S3Bucket#noncurrent_version_expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#noncurrent_version_expiration S3Bucket#noncurrent_version_expiration}
 
 ---
 
@@ -4351,7 +4351,7 @@ noncurrent_version_expiration_in_days: typing.Union[int, float]
 
 (Deprecated.) For buckets with versioning enabled (or suspended), specifies the time, in days, between when a new version of the object is uploaded to the bucket and when old versions of the object expire. When object versions expire, Amazon S3 permanently deletes them. If you specify a transition and expiration time, the expiration time must be later than the transition time.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_expiration_in_days S3Bucket#noncurrent_version_expiration_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#noncurrent_version_expiration_in_days S3Bucket#noncurrent_version_expiration_in_days}
 
 ---
 
@@ -4365,7 +4365,7 @@ noncurrent_version_transition: S3BucketLifecycleConfigurationRulesNoncurrentVers
 
 (Deprecated.) For buckets with versioning enabled (or suspended), specifies when non-current objects transition to a specified storage class. If you specify a transition and expiration time, the expiration time must be later than the transition time. If you specify this property, don't specify the ``NoncurrentVersionTransitions`` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_transition S3Bucket#noncurrent_version_transition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#noncurrent_version_transition S3Bucket#noncurrent_version_transition}
 
 ---
 
@@ -4381,7 +4381,7 @@ For buckets with versioning enabled (or suspended), one or more transition rules
 
 If you specify a transition and expiration time, the expiration time must be later than the transition time. If you specify this property, don't specify the `NoncurrentVersionTransition` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_version_transitions S3Bucket#noncurrent_version_transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#noncurrent_version_transitions S3Bucket#noncurrent_version_transitions}
 
 ---
 
@@ -4397,7 +4397,7 @@ Specifies the minimum object size in bytes for this rule to apply to.
 
 Objects must be larger than this value in bytes. For more information about size based rules, see [Lifecycle configuration using size-based rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-configuration-examples.html#lc-size-rules) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_size_greater_than S3Bucket#object_size_greater_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_size_greater_than S3Bucket#object_size_greater_than}
 
 ---
 
@@ -4413,7 +4413,7 @@ Specifies the maximum object size in bytes for this rule to apply to.
 
 Objects must be smaller than this value in bytes. For more information about sized based rules, see [Lifecycle configuration using size-based rules](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-configuration-examples.html#lc-size-rules) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_size_less_than S3Bucket#object_size_less_than}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_size_less_than S3Bucket#object_size_less_than}
 
 ---
 
@@ -4429,7 +4429,7 @@ Object key prefix that identifies one or more objects to which this rule applies
 
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -4443,7 +4443,7 @@ status: str
 
 If ``Enabled``, the rule is currently being applied. If ``Disabled``, the rule is not currently being applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -4457,7 +4457,7 @@ tag_filters: IResolvable | typing.List[S3BucketLifecycleConfigurationRulesTagFil
 
 Tags to use to identify a subset of objects to which the lifecycle rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -4471,7 +4471,7 @@ transition: S3BucketLifecycleConfigurationRulesTransition
 
 (Deprecated.) Specifies when an object transitions to a specified storage class. If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time. If you specify this property, don't specify the ``Transitions`` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition S3Bucket#transition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition S3Bucket#transition}
 
 ---
 
@@ -4487,7 +4487,7 @@ One or more transition rules that specify when an object transitions to a specif
 
 If you specify an expiration and transition time, you must use the same time unit for both properties (either in days or by date). The expiration time must also be later than the transition time. If you specify this property, don't specify the `Transition` property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transitions S3Bucket#transitions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transitions S3Bucket#transitions}
 
 ---
 
@@ -4521,7 +4521,7 @@ days_after_initiation: typing.Union[int, float]
 
 Specifies the number of days after which Amazon S3 stops an incomplete multipart upload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
 
 ---
 
@@ -4559,7 +4559,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -4575,7 +4575,7 @@ Specifies the number of days an object is noncurrent before S3 can perform the a
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates When an Object Became Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
 
 ---
 
@@ -4615,7 +4615,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -4629,7 +4629,7 @@ storage_class: str
 
 The class of storage used to store the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -4645,7 +4645,7 @@ Specifies the number of days an object is noncurrent before Amazon S3 can perfor
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates How Long an Object Has Been Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -4685,7 +4685,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -4699,7 +4699,7 @@ storage_class: str
 
 The class of storage used to store the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -4715,7 +4715,7 @@ Specifies the number of days an object is noncurrent before Amazon S3 can perfor
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates How Long an Object Has Been Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -4751,7 +4751,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -4765,7 +4765,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -4803,7 +4803,7 @@ storage_class: str
 
 The storage class to which you want the object to transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -4819,7 +4819,7 @@ Indicates when objects are transitioned to the specified storage class.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
 
 ---
 
@@ -4835,7 +4835,7 @@ Indicates the number of days after creation when objects are transitioned to the
 
 The value can be `0` or any positive integer. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -4873,7 +4873,7 @@ storage_class: str
 
 The storage class to which you want the object to transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -4889,7 +4889,7 @@ Indicates when objects are transitioned to the specified storage class.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
 
 ---
 
@@ -4905,7 +4905,7 @@ Indicates the number of days after creation when objects are transitioned to the
 
 The value can be `0` or any positive integer. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -4945,7 +4945,7 @@ The name of the bucket where Amazon S3 should store server access log files.
 
 You can store log files in any bucket that you own. By default, logs are stored in the bucket where the `LoggingConfiguration` property is defined.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#destination_bucket_name S3Bucket#destination_bucket_name}
 
 ---
 
@@ -4961,7 +4961,7 @@ A prefix for all log object keys.
 
 If you store log files from multiple Amazon S3 buckets in a single bucket, you can use a prefix to distinguish which log files came from which bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#log_file_prefix S3Bucket#log_file_prefix}
 
 ---
 
@@ -4975,7 +4975,7 @@ target_object_key_format: S3BucketLoggingConfigurationTargetObjectKeyFormat
 
 Amazon S3 key format for log objects. Only one format, either PartitionedPrefix or SimplePrefix, is allowed.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#target_object_key_format S3Bucket#target_object_key_format}
 
 ---
 
@@ -5011,7 +5011,7 @@ partitioned_prefix: S3BucketLoggingConfigurationTargetObjectKeyFormatPartitioned
 
 Amazon S3 keys for log objects are partitioned in the following format:   ``[DestinationPrefix][SourceAccountId]/[SourceRegion]/[SourceBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString]``   PartitionedPrefix defaults to EventTime delivery when server access logs are delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
 
 ---
 
@@ -5025,7 +5025,7 @@ simple_prefix: str
 
 This format defaults the prefix to the given log file prefix for delivering server access log file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
 
 ---
 
@@ -5063,7 +5063,7 @@ Specifies the partition date source for the partitioned prefix.
 For `DeliveryTime`, the time in the log file names corresponds to the delivery time for the log files.
 For `EventTime`, The logs delivered are for a specific day only. The year, month, and day correspond to the day on which the event occurred, and the hour, minutes and seconds are set to 00 in the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
 
 ---
 
@@ -5101,7 +5101,7 @@ annotation_table_configuration: S3BucketMetadataConfigurationAnnotationTableConf
 
 The annotation table configuration for a metadata configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#annotation_table_configuration S3Bucket#annotation_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#annotation_table_configuration S3Bucket#annotation_table_configuration}
 
 ---
 
@@ -5115,7 +5115,7 @@ inventory_table_configuration: S3BucketMetadataConfigurationInventoryTableConfig
 
 The inventory table configuration for a metadata configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#inventory_table_configuration S3Bucket#inventory_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#inventory_table_configuration S3Bucket#inventory_table_configuration}
 
 ---
 
@@ -5129,7 +5129,7 @@ journal_table_configuration: S3BucketMetadataConfigurationJournalTableConfigurat
 
 The journal table configuration for a metadata configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#journal_table_configuration S3Bucket#journal_table_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#journal_table_configuration S3Bucket#journal_table_configuration}
 
 ---
 
@@ -5167,7 +5167,7 @@ configuration_state: str
 
 Specifies whether the annotation table configuration is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
 
 ---
 
@@ -5183,7 +5183,7 @@ The encryption configuration for the annotation table.
 
 To encrypt your annotation table with server-side encryption using AWS Key Management Service (AWS KMS) keys (SSE-KMS), set `SseAlgorithm` to `aws:kms`. You must also set `KmsKeyArn` to the ARN of a customer managed KMS key in the same Region where your general purpose bucket is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -5197,7 +5197,7 @@ role: str
 
 The ARN of the IAM role that grants Amazon S3 Metadata permission to read annotations from your bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#role S3Bucket#role}
 
 ---
 
@@ -5235,7 +5235,7 @@ If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you mu
 
 You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
 
 ---
 
@@ -5251,7 +5251,7 @@ The encryption type specified for a metadata table.
 
 To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -5298,7 +5298,7 @@ configuration_state: str
 
 The configuration state of the inventory table, indicating whether the inventory table is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
 
 ---
 
@@ -5312,7 +5312,7 @@ encryption_configuration: S3BucketMetadataConfigurationInventoryTableConfigurati
 
 The encryption configuration for the inventory table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -5350,7 +5350,7 @@ If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you mu
 
 You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
 
 ---
 
@@ -5366,7 +5366,7 @@ The encryption type specified for a metadata table.
 
 To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -5402,7 +5402,7 @@ encryption_configuration: S3BucketMetadataConfigurationJournalTableConfiguration
 
 The encryption configuration for the journal table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -5416,7 +5416,7 @@ record_expiration: S3BucketMetadataConfigurationJournalTableConfigurationRecordE
 
 The journal table record expiration settings for the journal table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#record_expiration S3Bucket#record_expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#record_expiration S3Bucket#record_expiration}
 
 ---
 
@@ -5454,7 +5454,7 @@ If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you mu
 
 You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
 
 ---
 
@@ -5470,7 +5470,7 @@ The encryption type specified for a metadata table.
 
 To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -5508,7 +5508,7 @@ If you enable journal table record expiration, you can set the number of days to
 
 Journal table records must be retained for a minimum of 7 days. To set this value, specify any whole number from `7` to `2147483647`. For example, to retain your journal table records for one year, set this value to `365`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -5522,7 +5522,7 @@ expiration: str
 
 Specifies whether journal table record expiration is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
 
 ---
 
@@ -5558,7 +5558,7 @@ The destination information for the metadata table configuration.
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket. The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#s3_tables_destination S3Bucket#s3_tables_destination}
 
 ---
 
@@ -5596,7 +5596,7 @@ The Amazon Resource Name (ARN) for the table bucket that's specified as the dest
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
 
 ---
 
@@ -5612,7 +5612,7 @@ The name for the metadata table in your metadata table configuration.
 
 The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
 
 ---
 
@@ -5654,7 +5654,7 @@ The access point that was used while performing operations on the object.
 
 The metrics configuration only includes objects that meet the filter's criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_point_arn S3Bucket#access_point_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#access_point_arn S3Bucket#access_point_arn}
 
 ---
 
@@ -5670,7 +5670,7 @@ The ID used to identify the metrics configuration.
 
 This can be any value you choose that helps you identify your metrics configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5687,7 +5687,7 @@ prefix: str
 
 The prefix that an object must have to be included in the metrics results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -5703,7 +5703,7 @@ Specifies a list of tag filters to use as a metrics configuration filter.
 
 The metrics configuration includes only objects that meet the filter's criteria.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -5739,7 +5739,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -5753,7 +5753,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -5793,7 +5793,7 @@ event_bridge_configuration: S3BucketNotificationConfigurationEventBridgeConfigur
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event_bridge_configuration S3Bucket#event_bridge_configuration}
 
 ---
 
@@ -5807,7 +5807,7 @@ lambda_configurations: IResolvable | typing.List[S3BucketNotificationConfigurati
 
 Describes the LAMlong functions to invoke and the events for which to invoke them.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#lambda_configurations S3Bucket#lambda_configurations}
 
 ---
 
@@ -5821,7 +5821,7 @@ queue_configurations: IResolvable | typing.List[S3BucketNotificationConfiguratio
 
 The Amazon Simple Queue Service queues to publish messages to and the events for which to publish messages.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#queue_configurations S3Bucket#queue_configurations}
 
 ---
 
@@ -5835,7 +5835,7 @@ topic_configurations: IResolvable | typing.List[S3BucketNotificationConfiguratio
 
 The topic to which notifications are sent and the events for which notifications are generated.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#topic_configurations S3Bucket#topic_configurations}
 
 ---
 
@@ -5869,7 +5869,7 @@ event_bridge_enabled: bool | IResolvable
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
 
 ---
 
@@ -5909,7 +5909,7 @@ The Amazon S3 bucket event for which to invoke the LAMlong function.
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -5925,7 +5925,7 @@ The filtering rules that determine which objects invoke the AWS Lambda function.
 
 For example, you can create a filter so that only image files with a `.jpg` extension invoke the function when they are added to the Amazon S3 bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -5939,7 +5939,7 @@ function: str
 
 The Amazon Resource Name (ARN) of the LAMlong function that Amazon S3 invokes when the specified event type occurs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#function S3Bucket#function}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#function S3Bucket#function}
 
 ---
 
@@ -5973,7 +5973,7 @@ s3_key: S3BucketNotificationConfigurationLambdaConfigurationsFilterS3Key
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -6007,7 +6007,7 @@ rules: IResolvable | typing.List[S3BucketNotificationConfigurationLambdaConfigur
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -6045,7 +6045,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -6059,7 +6059,7 @@ value: str
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -6099,7 +6099,7 @@ The Amazon S3 bucket event about which you want to publish messages to Amazon SQ
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -6115,7 +6115,7 @@ The filtering rules that determine which objects trigger notifications.
 
 For example, you can create a filter so that Amazon S3 sends notifications only when image files with a `.jpg` extension are added to the bucket. For more information, see [Configuring event notifications using object key name filtering](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/notification-how-to-filtering.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -6131,7 +6131,7 @@ The Amazon Resource Name (ARN) of the Amazon SQS queue to which Amazon S3 publis
 
 FIFO queues are not allowed when enabling an SQS queue as the event notification destination.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#queue S3Bucket#queue}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#queue S3Bucket#queue}
 
 ---
 
@@ -6165,7 +6165,7 @@ s3_key: S3BucketNotificationConfigurationQueueConfigurationsFilterS3Key
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -6199,7 +6199,7 @@ rules: IResolvable | typing.List[S3BucketNotificationConfigurationQueueConfigura
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -6237,7 +6237,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -6251,7 +6251,7 @@ value: str
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -6291,7 +6291,7 @@ The Amazon S3 bucket event about which to send notifications.
 
 For more information, see [Supported Event Types](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event S3Bucket#event}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event S3Bucket#event}
 
 ---
 
@@ -6307,7 +6307,7 @@ The filtering rules that determine for which objects to send notifications.
 
 For example, you can create a filter so that Amazon S3 sends notifications only when image files with a `.jpg` extension are added to the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -6321,7 +6321,7 @@ topic: str
 
 The Amazon Resource Name (ARN) of the Amazon SNS topic to which Amazon S3 publishes a message when it detects events of the specified type.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#topic S3Bucket#topic}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#topic S3Bucket#topic}
 
 ---
 
@@ -6355,7 +6355,7 @@ s3_key: S3BucketNotificationConfigurationTopicConfigurationsFilterS3Key
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -6389,7 +6389,7 @@ rules: IResolvable | typing.List[S3BucketNotificationConfigurationTopicConfigura
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -6427,7 +6427,7 @@ The object key name prefix or suffix identifying one or more objects to which th
 
 The maximum length is 1,024 characters. Overlapping prefixes and suffixes are not supported. For more information, see [Configuring Event Notifications](https://docs.aws.amazon.com/AmazonS3/latest/dev/NotificationHowTo.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#name S3Bucket#name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#name S3Bucket#name}
 
 ---
 
@@ -6441,7 +6441,7 @@ value: str
 
 The value that the filter searches for in object key names.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -6477,7 +6477,7 @@ object_lock_enabled: str
 
 Indicates whether this bucket has an Object Lock configuration enabled. Enable ``ObjectLockEnabled`` when you apply ``ObjectLockConfiguration`` to a bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_lock_enabled S3Bucket#object_lock_enabled}
 
 ---
 
@@ -6493,7 +6493,7 @@ Specifies the Object Lock rule for the specified object.
 
 Enable this rule when you apply `ObjectLockConfiguration` to a bucket. If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information, see [ObjectLockRule](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-objectlockrule.html) and [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rule S3Bucket#rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rule S3Bucket#rule}
 
 ---
 
@@ -6529,7 +6529,7 @@ The default Object Lock retention mode and period that you want to apply to new 
 
 If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information about allowable values for mode and period, see [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
 
 ---
 
@@ -6553,7 +6553,7 @@ s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention(
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.days">days</a></code> | <code>typing.Union[int, float]</code> | The number of days that you want to specify for the default retention period. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.defaultEventHold">default_event_hold</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.defaultEventHold">default_event_hold</a></code> | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a></code> | The default Object Lock event hold duration that you want to apply to new objects placed in the specified bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.mode">mode</a></code> | <code>str</code> | The default Object Lock retention mode you want to apply to new objects placed in the specified bucket. |
 | <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetention.property.years">years</a></code> | <code>typing.Union[int, float]</code> | The number of years that you want to specify for the default retention period. |
 
@@ -6571,7 +6571,7 @@ The number of days that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -6583,7 +6583,12 @@ default_event_hold: S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEv
 
 - *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}.
+The default Object Lock event hold duration that you want to apply to new objects placed in the specified bucket.
+
+When the event hold is released, Amazon S3 retains the object version for this duration.
+If you specify both a default retention period (`Days` or `Years`) and a `DefaultEventHold`, the event hold duration can't exceed the default retention period.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}
 
 ---
 
@@ -6599,7 +6604,7 @@ The default Object Lock retention mode you want to apply to new objects placed i
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#mode S3Bucket#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#mode S3Bucket#mode}
 
 ---
 
@@ -6615,7 +6620,7 @@ The number of years that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#years S3Bucket#years}
 
 ---
 
@@ -6636,8 +6641,8 @@ s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold(
 
 | **Name** | **Type** | **Description** |
 | --- | --- | --- |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.days">days</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}. |
-| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.years">years</a></code> | <code>typing.Union[int, float]</code> | Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.days">days</a></code> | <code>typing.Union[int, float]</code> | The number of days that you want to specify for the default event hold duration. |
+| <code><a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold.property.years">years</a></code> | <code>typing.Union[int, float]</code> | The number of years that you want to specify for the default event hold duration. |
 
 ---
 
@@ -6649,7 +6654,11 @@ days: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}.
+The number of days that you want to specify for the default event hold duration.
+
+Valid values are `1` to `36500` days. You must specify either `Days` or `Years`, but not both.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -6661,7 +6670,11 @@ years: typing.Union[int, float]
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}.
+The number of years that you want to specify for the default event hold duration.
+
+Valid values are `1` to `100` years. You must specify either `Days` or `Years`, but not both.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#years S3Bucket#years}
 
 ---
 
@@ -6695,7 +6708,7 @@ rules: IResolvable | typing.List[S3BucketOwnershipControlsRules]
 
 Specifies the container element for Object Ownership rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -6729,7 +6742,7 @@ object_ownership: str
 
 Specifies an object ownership rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#object_ownership S3Bucket#object_ownership}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#object_ownership S3Bucket#object_ownership}
 
 ---
 
@@ -6777,7 +6790,7 @@ Setting this element to `TRUE` causes the following behavior:
 
 Enabling this setting doesn't affect existing policies or ACLs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#block_public_acls S3Bucket#block_public_acls}
 
 ---
 
@@ -6794,7 +6807,7 @@ Specifies whether Amazon S3 should block public bucket policies for this bucket.
 Setting this element to `TRUE` causes Amazon S3 to reject calls to PUT Bucket policy if the specified bucket policy allows public access.
 Enabling this setting doesn't affect existing bucket policies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#block_public_policy S3Bucket#block_public_policy}
 
 ---
 
@@ -6811,7 +6824,7 @@ Specifies whether Amazon S3 should ignore public ACLs for this bucket and object
 Setting this element to `TRUE` causes Amazon S3 to ignore all public ACLs on this bucket and objects in this bucket.
 Enabling this setting doesn't affect the persistence of any existing ACLs and doesn't prevent new public ACLs from being set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#ignore_public_acls S3Bucket#ignore_public_acls}
 
 ---
 
@@ -6828,7 +6841,7 @@ Specifies whether Amazon S3 should restrict public bucket policies for this buck
 Setting this element to `TRUE` restricts access to this bucket to only AWS-service principals and authorized users within this account if the bucket has a public policy.
 Enabling this setting doesn't affect previously stored bucket policies, except that public and cross-account access within any public bucket policy, including non-public delegation to specific accounts, is blocked.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#restrict_public_buckets S3Bucket#restrict_public_buckets}
 
 ---
 
@@ -6866,7 +6879,7 @@ The Amazon Resource Name (ARN) of the IAMlong (IAM) role that Amazon S3 assumes 
 
 For more information, see [How to Set Up Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-how-setup.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#role S3Bucket#role}
 
 ---
 
@@ -6882,7 +6895,7 @@ A container for one or more replication rules.
 
 A replication configuration must have at least one rule and can contain a maximum of 1,000 rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -6934,7 +6947,7 @@ If you specify a `Filter` in your replication configuration, you must also inclu
 For more information about delete marker replication, see [Basic Rule Configuration](https://docs.aws.amazon.com/AmazonS3/latest/dev/delete-marker-replication.html).
 If you are using an earlier version of the replication configuration, Amazon S3 handles replication of delete markers differently. For more information, see [Backward Compatibility](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication-add-config.html#replication-backward-compat-considerations).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#delete_marker_replication S3Bucket#delete_marker_replication}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#delete_marker_replication S3Bucket#delete_marker_replication}
 
 ---
 
@@ -6948,7 +6961,7 @@ destination: S3BucketReplicationConfigurationRulesDestination
 
 A container for information about the replication destination and its configurations including enabling the S3 Replication Time Control (S3 RTC).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -6965,7 +6978,7 @@ A filter that identifies the subset of objects to which the replication rule app
 A `Filter` must specify exactly one `Prefix`, `TagFilter`, or an `And` child element. The use of the filter field indicates that this is a V2 replication configuration. This field isn't supported in a V1 replication configuration.
 V1 replication configuration only supports filtering by key prefix. To filter using a V1 replication configuration, add the `Prefix` directly as a child element of the `Rule` element.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#filter S3Bucket#filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#filter S3Bucket#filter}
 
 ---
 
@@ -6981,7 +6994,7 @@ A unique identifier for the rule.
 
 The maximum value is 255 characters. If you don't specify a value, AWS CloudFormation generates a random ID. When using a V2 replication configuration this property is capitalized as "ID".
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#id S3Bucket#id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#id S3Bucket#id}
 
 Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
 If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7001,7 +7014,7 @@ An object key name prefix that identifies the object or objects to which the rul
 The maximum prefix length is 1,024 characters. To include all objects in a bucket, specify an empty string. To filter using a V1 replication configuration, add the `Prefix` directly as a child element of the `Rule` element.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -7018,7 +7031,7 @@ The priority indicates which rule has precedence whenever two or more replicatio
 Amazon S3 will attempt to replicate objects according to all replication rules. However, if there are two or more rules with the same destination bucket, then objects will be replicated according to the rule with the highest priority. The higher the number, the higher the priority.
 For more information, see [Replication](https://docs.aws.amazon.com/AmazonS3/latest/dev/replication.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#priority S3Bucket#priority}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#priority S3Bucket#priority}
 
 ---
 
@@ -7034,7 +7047,7 @@ A container that describes additional filters for identifying the source objects
 
 You can choose to enable or disable the replication of these objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#source_selection_criteria S3Bucket#source_selection_criteria}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#source_selection_criteria S3Bucket#source_selection_criteria}
 
 ---
 
@@ -7048,7 +7061,7 @@ status: str
 
 Specifies whether the rule is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7082,7 +7095,7 @@ status: str
 
 Indicates whether to replicate delete markers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7130,7 +7143,7 @@ Specify this only in a cross-account scenario (where source and destination buck
 
 If this is not specified in the replication configuration, the replicas are owned by same AWS-account that owns the source object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
 
 ---
 
@@ -7147,7 +7160,7 @@ Destination bucket owner account ID.
 In a cross-account scenario, if you direct Amazon S3 to change replica ownership to the AWS-account that owns the destination bucket by specifying the `AccessControlTranslation` property, this is the account ID of the destination bucket owner. For more information, see [Cross-Region Replication Additional Configuration: Change Replica Owner](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-change-owner.html) in the *Amazon S3 User Guide*.
 If you specify the `AccessControlTranslation` property, the `Account` property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#account S3Bucket#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#account S3Bucket#account}
 
 ---
 
@@ -7161,7 +7174,7 @@ bucket: str
 
 The Amazon Resource Name (ARN) of the bucket where you want Amazon S3 to store the results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
 
 ---
 
@@ -7175,7 +7188,7 @@ encryption_configuration: S3BucketReplicationConfigurationRulesDestinationEncryp
 
 Specifies encryption-related information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -7189,7 +7202,7 @@ metrics: S3BucketReplicationConfigurationRulesDestinationMetrics
 
 A container specifying replication metrics-related settings enabling replication metrics and events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
 
 ---
 
@@ -7205,7 +7218,7 @@ A container specifying S3 Replication Time Control (S3 RTC), including whether S
 
 Must be specified together with a `Metrics` block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
 
 ---
 
@@ -7223,7 +7236,7 @@ By default, Amazon S3 uses the storage class of the source object to create the 
 For valid values, see the `StorageClass` element of the [PUT Bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) action in the *Amazon S3 API Reference*.
 `FSX_OPENZFS` is not an accepted value when replicating objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -7257,7 +7270,7 @@ owner: str
 
 Specifies the replica ownership. For default and valid values, see [PUT bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#owner S3Bucket#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#owner S3Bucket#owner}
 
 ---
 
@@ -7293,7 +7306,7 @@ Specifies the ID (Key ARN or Alias ARN) of the customer managed AWS KMS key stor
 
 Amazon S3 uses this key to encrypt replica objects. Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
 
 ---
 
@@ -7329,7 +7342,7 @@ event_threshold: S3BucketReplicationConfigurationRulesDestinationMetricsEventThr
 
 A container specifying the time threshold for emitting the ``s3:Replication:OperationMissedThreshold`` event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
 
 ---
 
@@ -7343,7 +7356,7 @@ status: str
 
 Specifies whether the replication metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7377,7 +7390,7 @@ minutes: typing.Union[int, float]
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -7413,7 +7426,7 @@ status: str
 
 Specifies whether the replication time is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7427,7 +7440,7 @@ time: S3BucketReplicationConfigurationRulesDestinationReplicationTimeTime
 
 A container specifying the time by which replication should be complete for all objects and operations on objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#time S3Bucket#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#time S3Bucket#time}
 
 ---
 
@@ -7461,7 +7474,7 @@ minutes: typing.Union[int, float]
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -7504,7 +7517,7 @@ The filters determine the subset of objects to which the rule applies. This elem
 * If you specify both a `Prefix` and a `TagFilter`, wrap these filters in an `And` tag.
 * If you specify a filter based on multiple tags, wrap the `TagFilter` elements in an `And` tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#and S3Bucket#and}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#and S3Bucket#and}
 
 ---
 
@@ -7520,7 +7533,7 @@ An object key name prefix that identifies the subset of objects to which the rul
 
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -7536,7 +7549,7 @@ A container for specifying a tag key and value.
 
 The rule applies only to objects that have the tag in their tag set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
 
 ---
 
@@ -7572,7 +7585,7 @@ prefix: str
 
 An object key name prefix that identifies the subset of objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -7586,7 +7599,7 @@ tag_filters: IResolvable | typing.List[S3BucketReplicationConfigurationRulesFilt
 
 An array of tags containing key and value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -7622,7 +7635,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -7636,7 +7649,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -7672,7 +7685,7 @@ key: str
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -7686,7 +7699,7 @@ value: str
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -7722,7 +7735,7 @@ replica_modifications: S3BucketReplicationConfigurationRulesSourceSelectionCrite
 
 A filter that you can specify for selection for modifications on replicas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
 
 ---
 
@@ -7736,7 +7749,7 @@ sse_kms_encrypted_objects: S3BucketReplicationConfigurationRulesSourceSelectionC
 
 A container for filter information for the selection of Amazon S3 objects encrypted with AWS KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
 
 ---
 
@@ -7770,7 +7783,7 @@ status: str
 
 Specifies whether Amazon S3 replicates modifications on replicas.  *Allowed values*: ``Enabled`` | ``Disabled``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7804,7 +7817,7 @@ status: str
 
 Specifies whether Amazon S3 replicates objects created with server-side encryption using an AWS KMS key stored in AWS Key Management Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7840,7 +7853,7 @@ key: str
 
 Name of the object key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -7854,7 +7867,7 @@ value: str
 
 Value of the tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -7888,7 +7901,7 @@ status: str
 
 The versioning state of the bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -7928,7 +7941,7 @@ error_document: str
 
 The name of the error document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#error_document S3Bucket#error_document}
 
 ---
 
@@ -7942,7 +7955,7 @@ index_document: str
 
 The name of the index document for the website.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#index_document S3Bucket#index_document}
 
 ---
 
@@ -7958,7 +7971,7 @@ The redirect behavior for every request to this bucket's website endpoint.
 
 If you specify this property, you can't specify any other property.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#redirect_all_requests_to S3Bucket#redirect_all_requests_to}
 
 ---
 
@@ -7972,7 +7985,7 @@ routing_rules: IResolvable | typing.List[S3BucketWebsiteConfigurationRoutingRule
 
 Rules that define when a redirect is applied and the redirect behavior.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#routing_rules S3Bucket#routing_rules}
 
 ---
 
@@ -8008,7 +8021,7 @@ host_name: str
 
 Name of the host where requests are redirected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -8022,7 +8035,7 @@ protocol: str
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -8060,7 +8073,7 @@ Container for redirect information.
 
 You can redirect requests to another host, to another page, or with another protocol. In the event of an error, you can specify a different error code to return.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#redirect_rule S3Bucket#redirect_rule}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#redirect_rule S3Bucket#redirect_rule}
 
 ---
 
@@ -8076,7 +8089,7 @@ A container for describing a condition that must be met for the specified redire
 
 For example, 1. If request is for pages in the `/docs` folder, redirect to the `/documents` folder. 2. If request results in HTTP error 4xx, redirect request to another host where you might process the error.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#routing_rule_condition S3Bucket#routing_rule_condition}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#routing_rule_condition S3Bucket#routing_rule_condition}
 
 ---
 
@@ -8118,7 +8131,7 @@ host_name: str
 
 The host name to use in the redirect request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -8132,7 +8145,7 @@ http_redirect_code: str
 
 The HTTP redirect code to use on the response. Not required if one of the siblings is present.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
 
 ---
 
@@ -8146,7 +8159,7 @@ protocol: str
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -8163,7 +8176,7 @@ The object key prefix to use in the redirect request.
 For example, to redirect requests for all pages with prefix `docs/` (objects in the `docs/` folder) to `documents/`, you can set a condition block with `KeyPrefixEquals` set to `docs/` and in the Redirect set `ReplaceKeyPrefixWith` to `/documents`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
 
 ---
 
@@ -8180,7 +8193,7 @@ The specific object key to use in the redirect request.
 For example, redirect request to `error.html`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyPrefixWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
 
 ---
 
@@ -8219,7 +8232,7 @@ The HTTP error code when the redirect is applied.
 In the event of an error, if the error code equals this value, then the specified redirect is applied.
 Required when parent element `Condition` is specified and sibling `KeyPrefixEquals` is not specified. If both are specified, then both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
 
 ---
 
@@ -8236,7 +8249,7 @@ The object key name prefix when the redirect is applied.
 For example, to redirect requests for `ExamplePage.html`, the key prefix will be `ExamplePage.html`. To redirect request for all pages with the prefix `docs/`, the key prefix will be `docs/`, which identifies all objects in the docs/ folder.
 Required when the parent element `Condition` is specified and sibling `HttpErrorCodeReturnedEquals` is not specified. If both conditions are specified, both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
 
 ---
 
@@ -8983,7 +8996,7 @@ def put_storage_class_analysis(
 
 Specifies how data related to the storage class analysis for an Amazon S3 bucket should be exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#data_export S3Bucket#data_export}
 
 ---
 
@@ -9800,7 +9813,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -9810,7 +9823,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -9820,7 +9833,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -9830,7 +9843,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -10181,7 +10194,7 @@ def put_data_export(
 
 The place to store the data for an analysis.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#destination S3Bucket#destination}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#destination S3Bucket#destination}
 
 ---
 
@@ -10191,7 +10204,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The version of the output schema to use when exporting data. Must be ``V_1``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#output_schema_version S3Bucket#output_schema_version}
 
 ---
 
@@ -11851,7 +11864,7 @@ The object encryption type that you want to block or unblock for an Amazon S3 ge
 
 Currently, this parameter only supports blocking or unblocking server side encryption with customer-provided keys (SSE-C). For more information about SSE-C, see [Using server-side encryption with customer-provided keys (SSE-C)](https://docs.aws.amazon.com/AmazonS3/latest/userguide/ServerSideEncryptionCustomerKeys.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_type S3Bucket#encryption_type}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_type S3Bucket#encryption_type}
 
 ---
 
@@ -11886,7 +11899,7 @@ If you are using encryption with cross-account or AWS service operations, you mu
 
 Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#kms_master_key_id S3Bucket#kms_master_key_id}
 
 ---
 
@@ -11898,7 +11911,7 @@ Server-side encryption algorithm to use for the default encryption.
 
 For directory buckets, there are only two supported values for server-side encryption: `AES256` and `aws:kms`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -15839,7 +15852,7 @@ The account ID that owns the destination S3 bucket.
 If no account ID is provided, the owner is not validated before exporting data.
 Although this value is optional, we strongly recommend that you set it to help prevent problems if the destination bucket ownership changes.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_account_id S3Bucket#bucket_account_id}
 
 ---
 
@@ -15849,7 +15862,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the bucket to which data is exported.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket_arn S3Bucket#bucket_arn}
 
 ---
 
@@ -15859,7 +15872,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies the file format used when exporting data to Amazon S3.  *Allowed values*: ``CSV`` | ``ORC`` | ``Parquet``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#format S3Bucket#format}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#format S3Bucket#format}
 
 ---
 
@@ -15869,7 +15882,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The prefix to use when exporting data. The prefix is prepended to all results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -18464,7 +18477,7 @@ def put_abort_incomplete_multipart_upload(
 
 Specifies the number of days after which Amazon S3 stops an incomplete multipart upload.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days_after_initiation S3Bucket#days_after_initiation}
 
 ---
 
@@ -18485,7 +18498,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -18497,7 +18510,7 @@ Specifies the number of days an object is noncurrent before S3 can perform the a
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates When an Object Became Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#noncurrent_days S3Bucket#noncurrent_days}
 
 ---
 
@@ -18519,7 +18532,7 @@ Specifies how many noncurrent versions S3 will retain.
 
 If there are this many more recent noncurrent versions, S3 will take the associated action. For more information about noncurrent versions, see [Lifecycle configuration elements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/intro-lifecycle-rules.html) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#newer_noncurrent_versions S3Bucket#newer_noncurrent_versions}
 
 ---
 
@@ -18529,7 +18542,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The class of storage used to store the object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -18541,7 +18554,7 @@ Specifies the number of days an object is noncurrent before Amazon S3 can perfor
 
 For information about the noncurrent days calculations, see [How Amazon S3 Calculates How Long an Object Has Been Noncurrent](https://docs.aws.amazon.com/AmazonS3/latest/dev/intro-lifecycle-rules.html#non-current-days-calculations) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -18589,7 +18602,7 @@ def put_transition(
 
 The storage class to which you want the object to transition.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -18601,7 +18614,7 @@ Indicates when objects are transitioned to the specified storage class.
 
 The date value must be in ISO 8601 format. The time is always midnight UTC.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_date S3Bucket#transition_date}
 
 ---
 
@@ -18613,7 +18626,7 @@ Indicates the number of days after creation when objects are transitioned to the
 
 The value can be `0` or any positive integer. Be aware that some storage classes have a minimum storage duration and that you're charged for transitioning objects before their minimum storage duration. For more information, see [Constraints and considerations for transitions](https://docs.aws.amazon.com/AmazonS3/latest/userguide/lifecycle-transition-general-considerations.html#lifecycle-configuration-constraints) in the *Amazon S3 User Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#transition_in_days S3Bucket#transition_in_days}
 
 ---
 
@@ -20806,7 +20819,7 @@ def put_target_object_key_format(
 
 Amazon S3 keys for log objects are partitioned in the following format:   ``[DestinationPrefix][SourceAccountId]/[SourceRegion]/[SourceBucket]/[YYYY]/[MM]/[DD]/[YYYY]-[MM]-[DD]-[hh]-[mm]-[ss]-[UniqueString]``   PartitionedPrefix defaults to EventTime delivery when server access logs are delivered.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#partitioned_prefix S3Bucket#partitioned_prefix}
 
 ---
 
@@ -20816,7 +20829,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 This format defaults the prefix to the given log file prefix for delivering server access log file.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#simple_prefix S3Bucket#simple_prefix}
 
 ---
 
@@ -21199,7 +21212,7 @@ Specifies the partition date source for the partitioned prefix.
 For `DeliveryTime`, the time in the log file names corresponds to the delivery time for the log files.
 For `EventTime`, The logs delivered are for a specific day only. The year, month, and day correspond to the day on which the event occurred, and the hour, minutes and seconds are set to 00 in the key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#partition_date_source S3Bucket#partition_date_source}
 
 ---
 
@@ -22189,7 +22202,7 @@ If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you mu
 
 You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
 
 ---
 
@@ -22201,7 +22214,7 @@ The encryption type specified for a metadata table.
 
 To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -23244,7 +23257,7 @@ If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you mu
 
 You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
 
 ---
 
@@ -23256,7 +23269,7 @@ The encryption type specified for a metadata table.
 
 To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -23965,7 +23978,7 @@ If server-side encryption with KMSlong (KMS) keys (SSE-KMS) is specified, you mu
 
 You must specify a customer-managed KMS key that's located in the same Region as the general purpose bucket that corresponds to the metadata table configuration.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#kms_key_arn S3Bucket#kms_key_arn}
 
 ---
 
@@ -23977,7 +23990,7 @@ The encryption type specified for a metadata table.
 
 To specify server-side encryption with KMSlong (KMS) keys (SSE-KMS), use the `aws:kms` value. To specify server-side encryption with Amazon S3 managed keys (SSE-S3), use the `AES256` value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_algorithm S3Bucket#sse_algorithm}
 
 ---
 
@@ -23998,7 +24011,7 @@ If you enable journal table record expiration, you can set the number of days to
 
 Journal table records must be retained for a minimum of 7 days. To set this value, specify any whole number from `7` to `2147483647`. For example, to retain your journal table records for one year, set this value to `365`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -24008,7 +24021,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether journal table record expiration is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#expiration S3Bucket#expiration}
 
 ---
 
@@ -24718,7 +24731,7 @@ def put_annotation_table_configuration(
 
 Specifies whether the annotation table configuration is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
 
 ---
 
@@ -24730,7 +24743,7 @@ The encryption configuration for the annotation table.
 
 To encrypt your annotation table with server-side encryption using AWS Key Management Service (AWS KMS) keys (SSE-KMS), set `SseAlgorithm` to `aws:kms`. You must also set `KmsKeyArn` to the ARN of a customer managed KMS key in the same Region where your general purpose bucket is located.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -24740,7 +24753,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The ARN of the IAM role that grants Amazon S3 Metadata permission to read annotations from your bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#role S3Bucket#role}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#role S3Bucket#role}
 
 ---
 
@@ -24759,7 +24772,7 @@ def put_inventory_table_configuration(
 
 The configuration state of the inventory table, indicating whether the inventory table is enabled or disabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#configuration_state S3Bucket#configuration_state}
 
 ---
 
@@ -24769,7 +24782,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The encryption configuration for the inventory table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -24788,7 +24801,7 @@ def put_journal_table_configuration(
 
 The encryption configuration for the journal table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -24798,7 +24811,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The journal table record expiration settings for the journal table.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#record_expiration S3Bucket#record_expiration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#record_expiration S3Bucket#record_expiration}
 
 ---
 
@@ -25190,7 +25203,7 @@ The Amazon Resource Name (ARN) for the table bucket that's specified as the dest
 
 The destination table bucket must be in the same Region and AWS-account as the general purpose bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#table_bucket_arn S3Bucket#table_bucket_arn}
 
 ---
 
@@ -25202,7 +25215,7 @@ The name for the metadata table in your metadata table configuration.
 
 The specified metadata table name must be unique within the `aws_s3_metadata` namespace in the destination table bucket.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#table_name S3Bucket#table_name}
 
 ---
 
@@ -27298,7 +27311,7 @@ def put_s3_key(
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -28652,7 +28665,7 @@ def put_filter(
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -29036,7 +29049,7 @@ def put_event_bridge_configuration(
 
 Enables delivery of events to Amazon EventBridge.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event_bridge_enabled S3Bucket#event_bridge_enabled}
 
 ---
 
@@ -29484,7 +29497,7 @@ def put_s3_key(
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -30838,7 +30851,7 @@ def put_filter(
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -31216,7 +31229,7 @@ def put_s3_key(
 
 A list of containers for the key-value pair that defines the criteria for the filter rule.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#rules S3Bucket#rules}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#rules S3Bucket#rules}
 
 ---
 
@@ -32570,7 +32583,7 @@ def put_filter(
 
 A container for object key name prefix and suffix filtering rules.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#s3_key S3Bucket#s3_key}
 
 ---
 
@@ -32951,7 +32964,7 @@ The default Object Lock retention mode and period that you want to apply to new 
 
 If Object Lock is turned on, bucket settings require both `Mode` and a period of either `Days` or `Years`. You cannot specify `Days` and `Years` at the same time. For more information about allowable values for mode and period, see [DefaultRetention](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-s3-bucket-defaultretention.html).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#default_retention S3Bucket#default_retention}
 
 ---
 
@@ -33635,7 +33648,11 @@ def put_default_event_hold(
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}.
+The number of days that you want to specify for the default event hold duration.
+
+Valid values are `1` to `36500` days. You must specify either `Days` or `Years`, but not both.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -33643,7 +33660,11 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* typing.Union[int, float]
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}.
+The number of years that you want to specify for the default event hold duration.
+
+Valid values are `1` to `100` years. You must specify either `Days` or `Years`, but not both.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#years S3Bucket#years}
 
 ---
 
@@ -34054,7 +34075,7 @@ The number of days that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#days S3Bucket#days}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#days S3Bucket#days}
 
 ---
 
@@ -34062,7 +34083,12 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 - *Type:* <a href="#@cdktn/provider-awscc.s3Bucket.S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold">S3BucketObjectLockConfigurationRuleDefaultRetentionDefaultEventHold</a>
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}.
+The default Object Lock event hold duration that you want to apply to new objects placed in the specified bucket.
+
+When the event hold is released, Amazon S3 retains the object version for this duration.
+If you specify both a default retention period (`Days` or `Years`) and a `DefaultEventHold`, the event hold duration can't exceed the default retention period.
+
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#default_event_hold S3Bucket#default_event_hold}
 
 ---
 
@@ -34074,7 +34100,7 @@ The default Object Lock retention mode you want to apply to new objects placed i
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#mode S3Bucket#mode}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#mode S3Bucket#mode}
 
 ---
 
@@ -34086,7 +34112,7 @@ The number of years that you want to specify for the default retention period.
 
 If Object Lock is turned on, you must specify `Mode` and specify either `Days` or `Years`.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#years S3Bucket#years}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#years S3Bucket#years}
 
 ---
 
@@ -37169,7 +37195,7 @@ def put_event_threshold(
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -37528,7 +37554,7 @@ def put_access_control_translation(
 
 Specifies the replica ownership. For default and valid values, see [PUT bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) in the *Amazon S3 API Reference*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#owner S3Bucket#owner}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#owner S3Bucket#owner}
 
 ---
 
@@ -37548,7 +37574,7 @@ Specifies the ID (Key ARN or Alias ARN) of the customer managed AWS KMS key stor
 
 Amazon S3 uses this key to encrypt replica objects. Amazon S3 only supports symmetric encryption KMS keys. For more information, see [Asymmetric keys in KMS](https://docs.aws.amazon.com//kms/latest/developerguide/symmetric-asymmetric.html) in the *Key Management Service Developer Guide*.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replica_kms_key_id S3Bucket#replica_kms_key_id}
 
 ---
 
@@ -37567,7 +37593,7 @@ def put_metrics(
 
 A container specifying the time threshold for emitting the ``s3:Replication:OperationMissedThreshold`` event.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#event_threshold S3Bucket#event_threshold}
 
 ---
 
@@ -37577,7 +37603,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies whether the replication metrics are enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -37596,7 +37622,7 @@ def put_replication_time(
 
 Specifies whether the replication time is enabled.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -37606,7 +37632,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A container specifying the time by which replication should be complete for all objects and operations on objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#time S3Bucket#time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#time S3Bucket#time}
 
 ---
 
@@ -38097,7 +38123,7 @@ def put_time(
 
 Contains an integer specifying time in minutes.    Valid value: 15.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#minutes S3Bucket#minutes}
 
 ---
 
@@ -39623,7 +39649,7 @@ def put_and(
 
 An object key name prefix that identifies the subset of objects to which the rule applies.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -39633,7 +39659,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 An array of tags containing key and value pairs.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tag_filters S3Bucket#tag_filters}
 
 ---
 
@@ -39652,7 +39678,7 @@ def put_tag_filter(
 
 The tag key.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key S3Bucket#key}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key S3Bucket#key}
 
 ---
 
@@ -39662,7 +39688,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The tag value.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#value S3Bucket#value}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#value S3Bucket#value}
 
 ---
 
@@ -40572,7 +40598,7 @@ def put_delete_marker_replication(
 
 Indicates whether to replicate delete markers.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -40598,7 +40624,7 @@ Specify this only in a cross-account scenario (where source and destination buck
 
 If this is not specified in the replication configuration, the replicas are owned by same AWS-account that owns the source object.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#access_control_translation S3Bucket#access_control_translation}
 
 ---
 
@@ -40611,7 +40637,7 @@ Destination bucket owner account ID.
 In a cross-account scenario, if you direct Amazon S3 to change replica ownership to the AWS-account that owns the destination bucket by specifying the `AccessControlTranslation` property, this is the account ID of the destination bucket owner. For more information, see [Cross-Region Replication Additional Configuration: Change Replica Owner](https://docs.aws.amazon.com/AmazonS3/latest/dev/crr-change-owner.html) in the *Amazon S3 User Guide*.
 If you specify the `AccessControlTranslation` property, the `Account` property is required.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#account S3Bucket#account}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#account S3Bucket#account}
 
 ---
 
@@ -40621,7 +40647,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The Amazon Resource Name (ARN) of the bucket where you want Amazon S3 to store the results.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#bucket S3Bucket#bucket}
 
 ---
 
@@ -40631,7 +40657,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Specifies encryption-related information.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#encryption_configuration S3Bucket#encryption_configuration}
 
 ---
 
@@ -40641,7 +40667,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A container specifying replication metrics-related settings enabling replication metrics and events.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#metrics S3Bucket#metrics}
 
 ---
 
@@ -40653,7 +40679,7 @@ A container specifying S3 Replication Time Control (S3 RTC), including whether S
 
 Must be specified together with a `Metrics` block.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replication_time S3Bucket#replication_time}
 
 ---
 
@@ -40667,7 +40693,7 @@ By default, Amazon S3 uses the storage class of the source object to create the 
 For valid values, see the `StorageClass` element of the [PUT Bucket replication](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUTreplication.html) action in the *Amazon S3 API Reference*.
 `FSX_OPENZFS` is not an accepted value when replicating objects.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#storage_class S3Bucket#storage_class}
 
 ---
 
@@ -40692,7 +40718,7 @@ The filters determine the subset of objects to which the rule applies. This elem
 * If you specify both a `Prefix` and a `TagFilter`, wrap these filters in an `And` tag.
 * If you specify a filter based on multiple tags, wrap the `TagFilter` elements in an `And` tag.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#and S3Bucket#and}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#and S3Bucket#and}
 
 ---
 
@@ -40704,7 +40730,7 @@ An object key name prefix that identifies the subset of objects to which the rul
 
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#prefix S3Bucket#prefix}
 
 ---
 
@@ -40716,7 +40742,7 @@ A container for specifying a tag key and value.
 
 The rule applies only to objects that have the tag in their tag set.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#tag_filter S3Bucket#tag_filter}
 
 ---
 
@@ -40735,7 +40761,7 @@ def put_source_selection_criteria(
 
 A filter that you can specify for selection for modifications on replicas.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replica_modifications S3Bucket#replica_modifications}
 
 ---
 
@@ -40745,7 +40771,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 A container for filter information for the selection of Amazon S3 objects encrypted with AWS KMS.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#sse_kms_encrypted_objects S3Bucket#sse_kms_encrypted_objects}
 
 ---
 
@@ -41265,7 +41291,7 @@ def put_replica_modifications(
 
 Specifies whether Amazon S3 replicates modifications on replicas.  *Allowed values*: ``Enabled`` | ``Disabled``.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -41283,7 +41309,7 @@ def put_sse_kms_encrypted_objects(
 
 Specifies whether Amazon S3 replicates objects created with server-side encryption using an AWS KMS key stored in AWS Key Management Service.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#status S3Bucket#status}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#status S3Bucket#status}
 
 ---
 
@@ -43069,7 +43095,7 @@ def put_redirect_all_requests_to(
 
 Name of the host where requests are redirected.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -43079,7 +43105,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -44027,7 +44053,7 @@ def put_redirect_rule(
 
 The host name to use in the redirect request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#host_name S3Bucket#host_name}
 
 ---
 
@@ -44037,7 +44063,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 The HTTP redirect code to use on the response. Not required if one of the siblings is present.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#http_redirect_code S3Bucket#http_redirect_code}
 
 ---
 
@@ -44047,7 +44073,7 @@ Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashi
 
 Protocol to use when redirecting requests. The default is the protocol that is used in the original request.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#protocol S3Bucket#protocol}
 
 ---
 
@@ -44060,7 +44086,7 @@ The object key prefix to use in the redirect request.
 For example, to redirect requests for all pages with prefix `docs/` (objects in the `docs/` folder) to `documents/`, you can set a condition block with `KeyPrefixEquals` set to `docs/` and in the Redirect set `ReplaceKeyPrefixWith` to `/documents`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replace_key_prefix_with S3Bucket#replace_key_prefix_with}
 
 ---
 
@@ -44073,7 +44099,7 @@ The specific object key to use in the redirect request.
 For example, redirect request to `error.html`. Not required if one of the siblings is present. Can be present only if `ReplaceKeyPrefixWith` is not provided.
 Replacement must be made for object keys containing special characters (such as carriage returns) when using XML requests. For more information, see [XML related object key constraints](https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html#object-key-xml-related-constraints).
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#replace_key_with S3Bucket#replace_key_with}
 
 ---
 
@@ -44095,7 +44121,7 @@ The HTTP error code when the redirect is applied.
 In the event of an error, if the error code equals this value, then the specified redirect is applied.
 Required when parent element `Condition` is specified and sibling `KeyPrefixEquals` is not specified. If both are specified, then both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#http_error_code_returned_equals S3Bucket#http_error_code_returned_equals}
 
 ---
 
@@ -44108,7 +44134,7 @@ The object key name prefix when the redirect is applied.
 For example, to redirect requests for `ExamplePage.html`, the key prefix will be `ExamplePage.html`. To redirect request for all pages with the prefix `docs/`, the key prefix will be `docs/`, which identifies all objects in the docs/ folder.
 Required when the parent element `Condition` is specified and sibling `HttpErrorCodeReturnedEquals` is not specified. If both conditions are specified, both must be true for the redirect to be applied.
 
-Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
+Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/s3_bucket#key_prefix_equals S3Bucket#key_prefix_equals}
 
 ---
 

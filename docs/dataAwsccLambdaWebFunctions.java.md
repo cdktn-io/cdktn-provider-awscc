@@ -4,7 +4,7 @@
 
 ### DataAwsccLambdaWebFunctions <a name="DataAwsccLambdaWebFunctions" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctions.DataAwsccLambdaWebFunctions"></a>
 
-Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions}.
+Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions awscc_lambda_web_functions}.
 
 #### Initializers <a name="Initializers" id="@cdktn/provider-awscc.dataAwsccLambdaWebFunctions.DataAwsccLambdaWebFunctions.Initializer"></a>
 
@@ -437,7 +437,7 @@ The construct id used in the generated config for the DataAwsccLambdaWebFunction
 
 The id of the existing DataAwsccLambdaWebFunctions that should be imported.
 
-Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.105.0/docs/data-sources/lambda_web_functions#import import section} in the documentation of this resource for the id to use
+Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/lambda_web_functions#import import section} in the documentation of this resource for the id to use
 
 ---
 
