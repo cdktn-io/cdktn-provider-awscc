@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,25 +15,37 @@ export interface TransferHostKeyConfig extends cdktn.TerraformMetaArguments {
   /**
   * The text description for this host key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#description TransferHostKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#description TransferHostKey#description}
   */
   readonly description?: string;
   /**
   * The private key portion of an SSH key pair. Transfer Family accepts RSA, ECDSA, and ED25519 keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#host_key_body TransferHostKey#host_key_body}
   */
   readonly hostKeyBody?: string;
   /**
+  * The Amazon Resource Name (ARN) of a customer managed key used to encrypt the Secrets Manager secret that holds the host key. Applies only when StorageType is SECRETS_MANAGER. If omitted, the AWS managed key is used.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#kms_key TransferHostKey#kms_key}
+  */
+  readonly kmsKey?: string;
+  /**
   * The identifier of the server that contains the host key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#server_id TransferHostKey#server_id}
   */
   readonly serverId: string;
   /**
+  * The type of storage used for the host key. SERVICE_MANAGED keys are stored within the Transfer Family service. SECRETS_MANAGER keys are stored in an AWS Secrets Manager secret in your account.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#storage_type TransferHostKey#storage_type}
+  */
+  readonly storageType?: string;
+  /**
   * Key-value pairs that can be used to group and search for host keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#tags TransferHostKey#tags}
   */
   readonly tags?: TransferHostKeyTags[] | cdktn.IResolvable;
 }
@@ -41,13 +53,13 @@ export interface TransferHostKeyTags {
   /**
   * The name assigned to the tag that you create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#key TransferHostKey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#key TransferHostKey#key}
   */
   readonly key?: string;
   /**
   * Contains one or more values that you assigned to the key name you create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#value TransferHostKey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#value TransferHostKey#value}
   */
   readonly value?: string;
 }
@@ -192,7 +204,7 @@ export class TransferHostKeyTagsList extends cdktn.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key awscc_transfer_host_key}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key awscc_transfer_host_key}
 */
 export class TransferHostKey extends cdktn.TerraformResource {
 
@@ -208,7 +220,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   * Generates CDKTN code for importing a TransferHostKey resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransferHostKey to import
-  * @param importFromId The id of the existing TransferHostKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransferHostKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransferHostKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -220,7 +232,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/resources/transfer_host_key awscc_transfer_host_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/resources/transfer_host_key awscc_transfer_host_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,7 +243,7 @@ export class TransferHostKey extends cdktn.TerraformResource {
       terraformResourceType: 'awscc_transfer_host_key',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -244,7 +256,9 @@ export class TransferHostKey extends cdktn.TerraformResource {
     });
     this._description = config.description;
     this._hostKeyBody = config.hostKeyBody;
+    this._kmsKey = config.kmsKey;
     this._serverId = config.serverId;
+    this._storageType = config.storageType;
     this._tags.internalValue = config.tags;
   }
 
@@ -309,6 +323,27 @@ export class TransferHostKey extends cdktn.TerraformResource {
     return this.getStringAttribute('id');
   }
 
+  // kms_key - computed: true, optional: true, required: false
+  private _kmsKey?: string; 
+  public get kmsKey() {
+    return this.getStringAttribute('kms_key');
+  }
+  public set kmsKey(value: string) {
+    this._kmsKey = value;
+  }
+  public resetKmsKey() {
+    this._kmsKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get kmsKeyInput() {
+    return this._kmsKey;
+  }
+
+  // secret_id - computed: true, optional: false, required: false
+  public get secretId() {
+    return this.getStringAttribute('secret_id');
+  }
+
   // server_id - computed: false, optional: false, required: true
   private _serverId?: string; 
   public get serverId() {
@@ -320,6 +355,22 @@ export class TransferHostKey extends cdktn.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get serverIdInput() {
     return this._serverId;
+  }
+
+  // storage_type - computed: true, optional: true, required: false
+  private _storageType?: string; 
+  public get storageType() {
+    return this.getStringAttribute('storage_type');
+  }
+  public set storageType(value: string) {
+    this._storageType = value;
+  }
+  public resetStorageType() {
+    this._storageType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageTypeInput() {
+    return this._storageType;
   }
 
   // tags - computed: true, optional: true, required: false
@@ -351,7 +402,9 @@ export class TransferHostKey extends cdktn.TerraformResource {
     return {
       description: cdktn.stringToTerraform(this._description),
       host_key_body: cdktn.stringToTerraform(this._hostKeyBody),
+      kms_key: cdktn.stringToTerraform(this._kmsKey),
       server_id: cdktn.stringToTerraform(this._serverId),
+      storage_type: cdktn.stringToTerraform(this._storageType),
       tags: cdktn.listMapper(transferHostKeyTagsToTerraform, false)(this._tags.internalValue),
     };
   }
@@ -370,8 +423,20 @@ export class TransferHostKey extends cdktn.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      kms_key: {
+        value: cdktn.stringToHclTerraform(this._kmsKey),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       server_id: {
         value: cdktn.stringToHclTerraform(this._serverId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      storage_type: {
+        value: cdktn.stringToHclTerraform(this._storageType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

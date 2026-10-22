@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastore
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,12 +15,66 @@ export interface DataAwsccHealthlakeFhirDatastoreConfig extends cdktn.TerraformM
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastore#id DataAwsccHealthlakeFhirDatastore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastore#id DataAwsccHealthlakeFhirDatastore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
+}
+export interface DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration {
+}
+
+export function dataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationToTerraform(struct?: DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationToHclTerraform(struct?: DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccHealthlakeFhirDatastoreAnalyticsConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
 }
 export interface DataAwsccHealthlakeFhirDatastoreCreatedAt {
 }
@@ -150,6 +204,60 @@ export class DataAwsccHealthlakeFhirDatastoreIdentityProviderConfigurationOutput
     return this.getStringAttribute('metadata');
   }
 }
+export interface DataAwsccHealthlakeFhirDatastoreNlpConfiguration {
+}
+
+export function dataAwsccHealthlakeFhirDatastoreNlpConfigurationToTerraform(struct?: DataAwsccHealthlakeFhirDatastoreNlpConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccHealthlakeFhirDatastoreNlpConfigurationToHclTerraform(struct?: DataAwsccHealthlakeFhirDatastoreNlpConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccHealthlakeFhirDatastoreNlpConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccHealthlakeFhirDatastoreNlpConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // status - computed: true, optional: false, required: false
+  public get status() {
+    return this.getStringAttribute('status');
+  }
+}
 export interface DataAwsccHealthlakeFhirDatastorePreloadDataConfig {
 }
 
@@ -202,6 +310,60 @@ export class DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference ex
   // preload_data_type - computed: true, optional: false, required: false
   public get preloadDataType() {
     return this.getStringAttribute('preload_data_type');
+  }
+}
+export interface DataAwsccHealthlakeFhirDatastoreProfileConfiguration {
+}
+
+export function dataAwsccHealthlakeFhirDatastoreProfileConfigurationToTerraform(struct?: DataAwsccHealthlakeFhirDatastoreProfileConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccHealthlakeFhirDatastoreProfileConfigurationToHclTerraform(struct?: DataAwsccHealthlakeFhirDatastoreProfileConfiguration): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccHealthlakeFhirDatastoreProfileConfiguration | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccHealthlakeFhirDatastoreProfileConfiguration | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default_profiles - computed: true, optional: false, required: false
+  public get defaultProfiles() {
+    return cdktn.Fn.tolist(this.getListAttribute('default_profiles'));
   }
 }
 export interface DataAwsccHealthlakeFhirDatastoreSseConfigurationKmsEncryptionConfig {
@@ -400,7 +562,7 @@ export class DataAwsccHealthlakeFhirDatastoreTagsList extends cdktn.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore}
 */
 export class DataAwsccHealthlakeFhirDatastore extends cdktn.TerraformDataSource {
 
@@ -416,7 +578,7 @@ export class DataAwsccHealthlakeFhirDatastore extends cdktn.TerraformDataSource 
   * Generates CDKTN code for importing a DataAwsccHealthlakeFhirDatastore resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccHealthlakeFhirDatastore to import
-  * @param importFromId The id of the existing DataAwsccHealthlakeFhirDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccHealthlakeFhirDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccHealthlakeFhirDatastore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -428,7 +590,7 @@ export class DataAwsccHealthlakeFhirDatastore extends cdktn.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/healthlake_fhir_datastore awscc_healthlake_fhir_datastore} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -439,7 +601,7 @@ export class DataAwsccHealthlakeFhirDatastore extends cdktn.TerraformDataSource 
       terraformResourceType: 'awscc_healthlake_fhir_datastore',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -456,6 +618,12 @@ export class DataAwsccHealthlakeFhirDatastore extends cdktn.TerraformDataSource 
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // analytics_configuration - computed: true, optional: false, required: false
+  private _analyticsConfiguration = new DataAwsccHealthlakeFhirDatastoreAnalyticsConfigurationOutputReference(this, "analytics_configuration");
+  public get analyticsConfiguration() {
+    return this._analyticsConfiguration;
+  }
 
   // created_at - computed: true, optional: false, required: false
   private _createdAt = new DataAwsccHealthlakeFhirDatastoreCreatedAtOutputReference(this, "created_at");
@@ -512,10 +680,22 @@ export class DataAwsccHealthlakeFhirDatastore extends cdktn.TerraformDataSource 
     return this._identityProviderConfiguration;
   }
 
+  // nlp_configuration - computed: true, optional: false, required: false
+  private _nlpConfiguration = new DataAwsccHealthlakeFhirDatastoreNlpConfigurationOutputReference(this, "nlp_configuration");
+  public get nlpConfiguration() {
+    return this._nlpConfiguration;
+  }
+
   // preload_data_config - computed: true, optional: false, required: false
   private _preloadDataConfig = new DataAwsccHealthlakeFhirDatastorePreloadDataConfigOutputReference(this, "preload_data_config");
   public get preloadDataConfig() {
     return this._preloadDataConfig;
+  }
+
+  // profile_configuration - computed: true, optional: false, required: false
+  private _profileConfiguration = new DataAwsccHealthlakeFhirDatastoreProfileConfigurationOutputReference(this, "profile_configuration");
+  public get profileConfiguration() {
+    return this._profileConfiguration;
   }
 
   // sse_configuration - computed: true, optional: false, required: false

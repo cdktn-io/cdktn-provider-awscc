@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: MPL-2.0
  */
 
-// https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration
+// https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface DataAwsccImagebuilderInfrastructureConfigurationConfig extends 
   /**
   * Uniquely identifies the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration#id DataAwsccImagebuilderInfrastructureConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration#id DataAwsccImagebuilderInfrastructureConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -195,6 +195,120 @@ export class DataAwsccImagebuilderInfrastructureConfigurationLoggingOutputRefere
     return this._s3Logs;
   }
 }
+export interface DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup {
+}
+
+export function dataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupToTerraform(struct?: DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupToHclTerraform(struct?: DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroup | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // capacity_wait_timeout_seconds - computed: true, optional: false, required: false
+  public get capacityWaitTimeoutSeconds() {
+    return this.getNumberAttribute('capacity_wait_timeout_seconds');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+}
+export interface DataAwsccImagebuilderInfrastructureConfigurationParentInstance {
+}
+
+export function dataAwsccImagebuilderInfrastructureConfigurationParentInstanceToTerraform(struct?: DataAwsccImagebuilderInfrastructureConfigurationParentInstance): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  return {
+  }
+}
+
+
+export function dataAwsccImagebuilderInfrastructureConfigurationParentInstanceToHclTerraform(struct?: DataAwsccImagebuilderInfrastructureConfigurationParentInstance): any {
+  if (!cdktn.canInspect(struct) || cdktn.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktn.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdktn.io/docs/concepts/resources#references");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference extends cdktn.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktn.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataAwsccImagebuilderInfrastructureConfigurationParentInstance | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAwsccImagebuilderInfrastructureConfigurationParentInstance | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // auto_scaling_group - computed: true, optional: false, required: false
+  private _autoScalingGroup = new DataAwsccImagebuilderInfrastructureConfigurationParentInstanceAutoScalingGroupOutputReference(this, "auto_scaling_group");
+  public get autoScalingGroup() {
+    return this._autoScalingGroup;
+  }
+}
 export interface DataAwsccImagebuilderInfrastructureConfigurationPlacement {
 }
 
@@ -266,7 +380,7 @@ export class DataAwsccImagebuilderInfrastructureConfigurationPlacementOutputRefe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}
+* Represents a {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration}
 */
 export class DataAwsccImagebuilderInfrastructureConfiguration extends cdktn.TerraformDataSource {
 
@@ -282,7 +396,7 @@ export class DataAwsccImagebuilderInfrastructureConfiguration extends cdktn.Terr
   * Generates CDKTN code for importing a DataAwsccImagebuilderInfrastructureConfiguration resource upon running "cdktn plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAwsccImagebuilderInfrastructureConfiguration to import
-  * @param importFromId The id of the existing DataAwsccImagebuilderInfrastructureConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAwsccImagebuilderInfrastructureConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAwsccImagebuilderInfrastructureConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktn.TerraformProvider) {
@@ -294,7 +408,7 @@ export class DataAwsccImagebuilderInfrastructureConfiguration extends cdktn.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.106.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/hashicorp/awscc/1.107.0/docs/data-sources/imagebuilder_infrastructure_configuration awscc_imagebuilder_infrastructure_configuration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,7 +419,7 @@ export class DataAwsccImagebuilderInfrastructureConfiguration extends cdktn.Terr
       terraformResourceType: 'awscc_imagebuilder_infrastructure_configuration',
       terraformGeneratorMetadata: {
         providerName: 'awscc',
-        providerVersion: '1.106.0',
+        providerVersion: '1.107.0',
         providerVersionConstraint: '~> 1.0'
       },
       provider: config.provider,
@@ -378,6 +492,12 @@ export class DataAwsccImagebuilderInfrastructureConfiguration extends cdktn.Terr
     return this.getStringAttribute('name');
   }
 
+  // parent_instance - computed: true, optional: false, required: false
+  private _parentInstance = new DataAwsccImagebuilderInfrastructureConfigurationParentInstanceOutputReference(this, "parent_instance");
+  public get parentInstance() {
+    return this._parentInstance;
+  }
+
   // placement - computed: true, optional: false, required: false
   private _placement = new DataAwsccImagebuilderInfrastructureConfigurationPlacementOutputReference(this, "placement");
   public get placement() {
@@ -409,6 +529,11 @@ export class DataAwsccImagebuilderInfrastructureConfiguration extends cdktn.Terr
   private _tags = new cdktn.StringMap(this, "tags");
   public get tags() {
     return this._tags;
+  }
+
+  // terminate_instance_on_completion - computed: true, optional: false, required: false
+  public get terminateInstanceOnCompletion() {
+    return this.getBooleanAttribute('terminate_instance_on_completion');
   }
 
   // terminate_instance_on_failure - computed: true, optional: false, required: false
